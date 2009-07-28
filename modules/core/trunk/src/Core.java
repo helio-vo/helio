@@ -1,32 +1,19 @@
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.List;
 
 import net.sf.taverna.platform.spring.RavenAwareClassPathXmlApplicationContext;
-import net.sf.taverna.t2.facade.ResultListener;
-import net.sf.taverna.t2.facade.WorkflowInstanceFacade;
+import net.sf.taverna.t2.facade.*;
 import net.sf.taverna.t2.facade.impl.WorkflowInstanceFacadeImpl;
-import net.sf.taverna.t2.invocation.InvocationContext;
-import net.sf.taverna.t2.invocation.WorkflowDataToken;
-import net.sf.taverna.t2.monitor.MonitorNode;
+import net.sf.taverna.t2.invocation.*;
 import net.sf.taverna.t2.provenance.reporter.ProvenanceReporter;
 import net.sf.taverna.t2.reference.ReferenceService;
-import net.sf.taverna.t2.utility.TypedTreeModelEvent;
-import net.sf.taverna.t2.utility.TypedTreeModelListener;
-import net.sf.taverna.t2.workflowmodel.Dataflow;
-import net.sf.taverna.t2.workflowmodel.InputPort;
-import net.sf.taverna.t2.workflowmodel.NamedWorkflowEntity;
-import net.sf.taverna.t2.workflowmodel.OutputPort;
-import net.sf.taverna.t2.workflowmodel.serialization.xml.XMLDeserializer;
-import net.sf.taverna.t2.workflowmodel.serialization.xml.XMLDeserializerImpl;
+import net.sf.taverna.t2.workflowmodel.*;
+import net.sf.taverna.t2.workflowmodel.serialization.xml.*;
 
-import org.embl.ebi.escience.utils.TavernaSPIRegistry;
+import org.jdom.Element;
 import org.jdom.input.SAXBuilder;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.jdom.Element;
 
 
 public class Core
@@ -84,9 +71,5 @@ public class Core
         System.out.println(portName+"="+s);
       }
     });
-    
-    Thread.sleep(1000);
-    
-    System.out.println("ende");
   }
 }
