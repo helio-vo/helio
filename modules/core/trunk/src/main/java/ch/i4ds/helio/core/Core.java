@@ -1,4 +1,5 @@
-import java.io.*;
+package ch.i4ds.helio.core;
+/*import java.io.*;
 import java.util.List;
 
 import net.sf.taverna.platform.spring.RavenAwareClassPathXmlApplicationContext;
@@ -13,12 +14,12 @@ import net.sf.taverna.t2.workflowmodel.serialization.xml.*;
 import org.jdom.Element;
 import org.jdom.input.SAXBuilder;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;*/
 
 
 public class Core
 {
-  public static void main(String[] _args) throws Exception
+  /*public static void main(String[] _args) throws Exception
   {
     ApplicationContext context = new RavenAwareClassPathXmlApplicationContext("spring-config.xml");
     ((AbstractApplicationContext)context).registerShutdownHook();
@@ -71,5 +72,5 @@ public class Core
         System.out.println(portName+"="+s);
       }
     });
-  }
+  }*/
 }

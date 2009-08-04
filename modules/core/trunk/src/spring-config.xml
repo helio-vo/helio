@@ -5,18 +5,20 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 		http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://taverna.sf.net/schema/artifact-support
-		http://taverna.sf.net/schema/artifact-support/artifact-support.xsd"
-	default-init-method="init"
-	default-destroy-method="destroy">
-	
+		http://taverna.sf.net/schema/artifact-support/artifact-support.xsd">
 	<bean
 		raven:artifact="net.sf.taverna.t2.core:reference-core-extensions:0.6"
 		raven:repository="raven.repository"
 		class="net.sf.taverna.t2.reference.impl.core.LoadCoreExtensions">
 	</bean>
-	
 	<import resource="referenceservice.xml" />
-	<import resource="raven_local.xml" />
+	<!-- <import resource="raven_local.xml" />-->
 	<import resource="componentservices.xml" />
 	<import resource="dao_inmemory.xml" />
+	
+	<bean id="gurkService" class="GetGurkImpl"/>
+	
+	<bean class="org.springframework.remoting.jaxws.SimpleJaxWsServiceExporter">
+    <property name="baseAddress" value="http://localhost:9999/"/>
+	</bean>	
 </beans>
