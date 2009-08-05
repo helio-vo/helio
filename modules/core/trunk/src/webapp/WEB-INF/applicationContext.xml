@@ -11,4 +11,8 @@
   <wss:binding url="/services/getGurk" service="#getGurkService"/>
 	<ws:service id="getGurkService" bean="#getGurk" />
   <bean id="getGurk" class="ch.i4ds.helio.core.GetGurkImpl" />
+  
+  <wss:binding url="/services/testWF" service="#testWF"/>
+	<ws:service id="testWF" bean="#Core" />
+  <bean id="Core" class="ch.i4ds.helio.core.Core" />
 </beans>

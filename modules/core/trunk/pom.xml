@@ -91,7 +91,6 @@
 		<glassfish.domain.password>adminadmin</glassfish.domain.password>
 	</properties>
 	<dependencies>
-		<!--
 		<dependency>
 			<groupId>net.sf.taverna.t2.activities</groupId>
 			<artifactId>all-activities</artifactId>
@@ -116,6 +115,11 @@
 			<groupId>net.sf.taverna.t2.core</groupId>
 			<artifactId>reference-core-extensions</artifactId>
 			<version>${t2.reference.core.extensions.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.taverna.t2.core</groupId>
+			<artifactId>reference-impl</artifactId>
+			<version>${t2.core.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.taverna.t2.translators</groupId>
@@ -156,7 +160,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		-->
+
 		
 		<dependency>
 		  <groupId>com.sun.xml.ws</groupId>

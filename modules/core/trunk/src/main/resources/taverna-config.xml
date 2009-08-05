@@ -12,13 +12,7 @@
 		class="net.sf.taverna.t2.reference.impl.core.LoadCoreExtensions">
 	</bean>
 	<import resource="referenceservice.xml" />
-	<!-- <import resource="raven_local.xml" />-->
+	<import resource="raven_local.xml" />
 	<import resource="componentservices.xml" />
 	<import resource="dao_inmemory.xml" />
-	
-	<bean id="gurkService" class="GetGurkImpl"/>
-	
-	<bean class="org.springframework.remoting.jaxws.SimpleJaxWsServiceExporter">
-    <property name="baseAddress" value="http://localhost:9999/"/>
-	</bean>	
 </beans>
