@@ -91,6 +91,8 @@
 		<glassfish.domain.password>adminadmin</glassfish.domain.password>
 	</properties>
 	<dependencies>
+		
+		<!-- taverna -->
 		<dependency>
 			<groupId>net.sf.taverna.t2.activities</groupId>
 			<artifactId>all-activities</artifactId>
@@ -161,7 +163,7 @@
 			</exclusions>
 		</dependency>
 
-		
+		<!-- spring & ws -->
 		<dependency>
 		  <groupId>com.sun.xml.ws</groupId>
 		  <artifactId>jaxws-tools</artifactId>
@@ -232,13 +234,29 @@
 
   <repositories>
 		<repository>
-			<releases />
+			<releases >
+				<updatePolicy>daily</updatePolicy>
+			</releases>
 			<snapshots>
 				<enabled>false</enabled>
+				<updatePolicy>daily</updatePolicy>
 			</snapshots>
 			<id>mygrid-repository</id>
 			<name>myGrid Repository</name>
 			<url>http://www.mygrid.org.uk/maven/repository</url>
+		</repository>
+		
+		<repository>
+			<releases>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+			<snapshots>
+				<updatePolicy>daily</updatePolicy>
+			</snapshots>
+			<id>devjavanet</id>
+			<name>java net</name>
+			<url>http://download.java.net/maven/1</url>
+			<layout>legacy</layout>
 		</repository>
 
 		<repository>
@@ -246,6 +264,12 @@
 			<name>Spring Portfolio Snapshot Repository</name>
 			<!-- http://s3browse.com/explore/maven.springframework.org/snapshot -->
 			<url>http://s3.amazonaws.com/maven.springframework.org/snapshot</url>
+			<releases>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+			<snapshots>
+				<updatePolicy>daily</updatePolicy>
+			</snapshots>
 		</repository>
 	</repositories>
 

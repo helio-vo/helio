@@ -4,10 +4,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:raven="http://taverna.sf.net/schema/artifact-support"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans 
-	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
-	http://taverna.sf.net/schema/artifact-support 
-	http://taverna.sf.net/schema/artifact-support/artifact-support.xsd">
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+	http://taverna.sf.net/schema/artifact-support http://taverna.sf.net/schema/artifact-support/artifact-support.xsd">
 
 	<!-- Reference service bean -->
 	<bean id="t2reference.service.referenceService"

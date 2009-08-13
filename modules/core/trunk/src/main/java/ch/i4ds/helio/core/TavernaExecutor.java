@@ -18,7 +18,7 @@ import org.jdom.*;
 import org.jdom.input.SAXBuilder;
 
 
-@WebService(serviceName="GetGurk")
+@WebService
 public class TavernaExecutor
 {
   private Map<String,Object> executeWorkflow(InputStream _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException
@@ -124,10 +124,18 @@ public class TavernaExecutor
     return results;
   }
   
+  @SuppressWarnings("unchecked")
   @WebMethod
   public String execWF(String _input) throws Exception
   {
-    InputStream inStream = new FileInputStream("../applications/core/WEB-INF/classes/workflows/example/tv2-test.t2flow");
-    return (String)executeWorkflow(inStream,null).get("gurk");
+    InputStream inStream = new FileInputStream("../applications/core/WEB-INF/classes/workflows/example/dna.t2flow");
+    //return (String)executeWorkflow(inStream,null).get("prophetOutput");
+    
+    Map<String,Object> results=executeWorkflow(inStream,null);
+    
+    //png
+    byte[] img=((ArrayList<byte[]>)results.get("outputPlot")).get(0);
+    
+    return (String)results.get("prophetOutput");
   }
 }

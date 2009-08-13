@@ -1,6 +1,10 @@
 package ch.i4ds.helio.core;
 
+import java.io.IOException;
+
 import net.sf.taverna.platform.spring.RavenAwareClassPathXmlApplicationContext;
+import net.sf.taverna.raven.Raven;
+import net.sf.taverna.tools.TavernaBootstrapLocation;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.*;
