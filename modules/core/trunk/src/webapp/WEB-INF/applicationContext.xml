@@ -11,7 +11,7 @@
        http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration-1.0.xsd"
        >
        
-  <bean class="ch.i4ds.helio.core.ApplicationContextProvider" />
+  <bean class="ch.i4ds.helio.ApplicationContextProvider" />
   
   
   <wss:binding url="/services/hessi">
@@ -19,7 +19,7 @@
 			<ws:service bean="#HessiService" />
 		</wss:service>
 	</wss:binding>
-  <bean id="HessiService" class="ch.i4ds.helio.core.HessiService" />
+  <bean id="HessiService" class="ch.i4ds.helio.dpas.HessiService" />
   
   
   <wss:binding url="/services/executeWF">

@@ -1,4 +1,4 @@
-package ch.i4ds.helio.core;
+package ch.i4ds.helio;
 
 import java.io.IOException;
 
@@ -24,7 +24,6 @@ public class ApplicationContextProvider implements ApplicationContextAware
   public ApplicationContextProvider()
   {
     appContextTaverna=new RavenAwareClassPathXmlApplicationContext("taverna-config.xml");
-    ((AbstractApplicationContext)appContextTaverna).registerShutdownHook();
   }
   
   public void setApplicationContext(ApplicationContext _appContext) throws BeansException

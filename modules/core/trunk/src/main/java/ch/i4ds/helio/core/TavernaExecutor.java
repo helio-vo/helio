@@ -17,6 +17,8 @@ import net.sf.taverna.t2.workflowmodel.serialization.xml.*;
 import org.jdom.*;
 import org.jdom.input.SAXBuilder;
 
+import ch.i4ds.helio.ApplicationContextProvider;
+
 
 @WebService
 public class TavernaExecutor

@@ -31,7 +31,7 @@
                     <!-- <user>${glassfish.domain.username}</user>
                     <skip>${test.int.skip}</skip> -->
                     <domain>
-                        <name>${project.artifactId}</name>
+                        <name>domain1</name>
                         <adminPort>4848</adminPort>
                         <httpPort>8080</httpPort>
                     </domain>
@@ -86,7 +86,7 @@
 		<commons.io.version>1.3</commons.io.version>
 		<commons.cli.version>1.0</commons.cli.version>
 		<jdom.version>1.0</jdom.version>
-		<glassfish.home>C:\Program Files (x86)\Glassfish3\glassfishv3-prelude</glassfish.home>
+		<glassfish.home>C:\Program Files (x86)\Glassfish3</glassfish.home>
 		<glassfish.domain.user>admin</glassfish.domain.user>
 		<glassfish.domain.password>adminadmin</glassfish.domain.password>
 	</properties>
