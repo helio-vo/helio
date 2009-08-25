@@ -1,6 +1,10 @@
-target('default': "The description of the script goes here!") {
-    doStuff()
-}
-target(doStuff: "The implementation task") {
-   // logic here
-}
+import groovyx.net.ws.WSClient
+
+def proxy = new
+WSClient("http://localhost:8080/Helio/services/test?wsdl",
+this.class.classLoader)
+println "Proxy: ${proxy.dump()}"
+proxy.initialize()
+def result = proxy.convert('USD', 'AUD', 100.00D)
+
+println "Res: ${result}" 
