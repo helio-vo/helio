@@ -1,3 +1,4 @@
+<%response.sendRedirect(request.getContextPath()+"/flare/search");%> 
 <html>
     <head>
         <title>Welcome to Grails</title>
