@@ -7,5 +7,16 @@ class Flare {
    Integer positionZ;
    Integer radialOffset;
    Date startDate;
-   Date endDate;
+   String image;
+
+     static constraints = {
+        goes(blank:false)
+        startDate(nullable:false)
+        positionX(nullable:false)
+        positionY(nullable:false)
+        positionZ(nullable:false)
+        radialOffset(nullable:false)
+        image(nullable:false)
+    }
+
 }
