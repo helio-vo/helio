@@ -28,19 +28,19 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="endDate">End Date:</label>
+                                    <label for="goes">Goes:</label>
                                 </td>
-                                <td valign="top" class="value ${hasErrors(bean:flareInstance,field:'endDate','errors')}">
-                                    <g:datePicker name="endDate" value="${flareInstance?.endDate}" precision="minute" ></g:datePicker>
+                                <td valign="top" class="value ${hasErrors(bean:flareInstance,field:'goes','errors')}">
+                                    <input type="text" id="goes" name="goes" value="${fieldValue(bean:flareInstance,field:'goes')}"/>
                                 </td>
                             </tr> 
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="goes">Goes:</label>
+                                    <label for="startDate">Start Date:</label>
                                 </td>
-                                <td valign="top" class="value ${hasErrors(bean:flareInstance,field:'goes','errors')}">
-                                    <input type="text" id="goes" name="goes" value="${fieldValue(bean:flareInstance,field:'goes')}"/>
+                                <td valign="top" class="value ${hasErrors(bean:flareInstance,field:'startDate','errors')}">
+                                    <g:datePicker name="startDate" value="${flareInstance?.startDate}" precision="minute" ></g:datePicker>
                                 </td>
                             </tr> 
                         
@@ -82,10 +82,10 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="startDate">Start Date:</label>
+                                    <label for="image">Image:</label>
                                 </td>
-                                <td valign="top" class="value ${hasErrors(bean:flareInstance,field:'startDate','errors')}">
-                                    <g:datePicker name="startDate" value="${flareInstance?.startDate}" precision="minute" ></g:datePicker>
+                                <td valign="top" class="value ${hasErrors(bean:flareInstance,field:'image','errors')}">
+                                    <input type="text" id="image" name="image" value="${fieldValue(bean:flareInstance,field:'image')}"/>
                                 </td>
                             </tr> 
                         
