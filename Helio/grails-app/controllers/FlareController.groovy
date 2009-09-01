@@ -2,6 +2,8 @@ class FlareController {
     
     def index = { redirect(action:list,params:params) }
 
+   def test = {  }
+
     // the delete, save and update actions only accept POST requests
     static allowedMethods = [delete:'POST', save:'POST', update:'POST']
 
@@ -96,22 +98,18 @@ class FlareController {
         }
     }
 
-    def search2 = {
-        if (request.method == 'POST') {
-            render(view:'list', model:
-                [flareInstanceList:Flare.findAllByGoesLike('%' + params.goes + '%'), flareInstanceTotal: Flare.count()])
-        }
- 
-            
-    }
+
+    
     def search = {
         if (request.method == 'POST') {
             FlareQuery query = new FlareQuery()
             bindData(query, params)
             def criteria = Flare.createCriteria()
             def results = criteria {
-              between('startDate',query.minDate,query.maxDate + 1)
-
+              and{
+                  like('goes', '%' + query.goes + '%')
+                  between('startDate',query.minDate,query.maxDate + 1)
+              }
             }
             render(view:'list', model:[ flareInstanceList: results, flareInstanceTotal: results.count() ])
         }
