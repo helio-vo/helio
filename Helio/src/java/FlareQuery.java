@@ -14,6 +14,15 @@ public class FlareQuery {
 
     private Date minDate;
     private Date maxDate;
+    private String goes;
+
+    public String getGoes(){
+        return this.goes;
+    }
+
+    public void setGoes(String goes){
+        this.goes = goes;
+    }
 
 
 
