@@ -10,8 +10,6 @@
         <div class="nav">
             <span class="menuButton"><a class="home" href="${resource(dir:'')}">Home</a></span>
             <span class="menuButton"><g:link class="create" action="create">New Flare</g:link></span>
-            <span class="menuButton"><g:link action="search">Search for Goes</g:link>
-</span>
         </div>
         <div class="body">
             <h1>Flare List</h1>
@@ -25,15 +23,17 @@
                         
                    	        <g:sortableColumn property="id" title="Id" />
                         
-                   	        <g:sortableColumn property="endDate" title="End Date" />
-                        
                    	        <g:sortableColumn property="goes" title="Goes" />
+                        
+                   	        <g:sortableColumn property="startDate" title="Start Date" />
                         
                    	        <g:sortableColumn property="positionX" title="Position X" />
                         
                    	        <g:sortableColumn property="positionY" title="Position Y" />
                         
                    	        <g:sortableColumn property="positionZ" title="Position Z" />
+
+                                <g:sortableColumn property="image" title="Image" />
                         
                         </tr>
                     </thead>
@@ -43,15 +43,19 @@
                         
                             <td><g:link action="show" id="${flareInstance.id}">${fieldValue(bean:flareInstance, field:'id')}</g:link></td>
                         
-                            <td>${fieldValue(bean:flareInstance, field:'endDate')}</td>
-                        
                             <td>${fieldValue(bean:flareInstance, field:'goes')}</td>
+                        
+                            <td>${fieldValue(bean:flareInstance, field:'startDate')}</td>
                         
                             <td>${fieldValue(bean:flareInstance, field:'positionX')}</td>
                         
                             <td>${fieldValue(bean:flareInstance, field:'positionY')}</td>
                         
                             <td>${fieldValue(bean:flareInstance, field:'positionZ')}</td>
+
+                            <td> <a href="${createLinkTo(dir:'images',file:'image1.jpg')}">
+          <img src="${createLinkTo(dir:'images',file:'image1-small.jpg')}" alt="quick2 look" />
+        </a></td>
                         
                         </tr>
                     </g:each>

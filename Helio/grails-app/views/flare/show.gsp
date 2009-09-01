@@ -30,16 +30,16 @@
                         </tr>
                     
                         <tr class="prop">
-                            <td valign="top" class="name">End Date:</td>
+                            <td valign="top" class="name">Goes:</td>
                             
-                            <td valign="top" class="value">${fieldValue(bean:flareInstance, field:'endDate')}</td>
+                            <td valign="top" class="value">${fieldValue(bean:flareInstance, field:'goes')}</td>
                             
                         </tr>
                     
                         <tr class="prop">
-                            <td valign="top" class="name">Goes:</td>
+                            <td valign="top" class="name">Start Date:</td>
                             
-                            <td valign="top" class="value">${fieldValue(bean:flareInstance, field:'goes')}</td>
+                            <td valign="top" class="value">${fieldValue(bean:flareInstance, field:'startDate')}</td>
                             
                         </tr>
                     
@@ -72,9 +72,11 @@
                         </tr>
                     
                         <tr class="prop">
-                            <td valign="top" class="name">Start Date:</td>
-                            
-                            <td valign="top" class="value">${fieldValue(bean:flareInstance, field:'startDate')}</td>
+                            <td valign="top" class="name">Image:</td>
+
+
+         <td valign="top" class="value"> <img src="${createLinkTo(dir:'images',file:'image1.jpg')}" alt="quick2 look" /></td>
+                                   <!--td valign="top" class="value">{fieldValue(bean:flareInstance, field:'image')}</td-->
                             
                         </tr>
                     
