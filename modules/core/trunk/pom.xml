@@ -162,6 +162,19 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
+		<!-- egso data providers -->
+		<dependency>
+			<groupId>com.sun.xml.rpc</groupId>
+			<artifactId>jaxrpc-impl</artifactId>
+			<version>1.1.3_01</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.jms</groupId>
+			<artifactId>jms</artifactId>
+			<version>1.1</version>
+		</dependency>
+
 
 		<!-- spring & ws -->
 		<dependency>
@@ -264,6 +277,18 @@
 			<name>Spring Portfolio Snapshot Repository</name>
 			<!-- http://s3browse.com/explore/maven.springframework.org/snapshot -->
 			<url>http://s3.amazonaws.com/maven.springframework.org/snapshot</url>
+			<releases>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+			<snapshots>
+				<updatePolicy>daily</updatePolicy>
+			</snapshots>
+		</repository>
+		
+		<repository>
+			<id>jboss</id>
+			<name>JBoss (for searching)</name>
+			<url>http://repository.sonatype.org/content/repositories/jboss/</url>
 			<releases>
 				<updatePolicy>daily</updatePolicy>
 			</releases>
