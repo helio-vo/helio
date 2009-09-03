@@ -3,6 +3,7 @@ package ch.i4ds.helio.dpas;
 import java.io.*;
 import java.net.*;
 import java.util.*;
+
 import javax.jws.*;
 import javax.swing.text.MutableAttributeSet;
 import javax.swing.text.html.*;
@@ -11,13 +12,25 @@ import javax.swing.text.html.HTMLEditorKit.*;
 @WebService
 public class HessiService
 {
+  @WebMethod
   public String[] getAhoi()
   {
     return new String[]{"ahoi","matrosen"};
   }
   
+  public static class MeasurementURLs
+  {
+    public Calendar measurementStart;
+    public String urlFITS;
+    public String urlCorrectedRate;
+    public String urlFrontRate;
+    public String urlPartRate;
+    public String urlRate;
+    public String urlRearRate;
+  }
+  
   @WebMethod
-  public String[] getListOfFiles(String _dateFrom,String _dateTo) throws IOException
+  public MeasurementURLs[] getListOfFiles(String _dateFrom,String _dateTo) throws IOException
   {
     if(_dateFrom.length()!="2001.01.01 00:00:00".length())
       throw new RuntimeException("Invalid time range (dateFrom)");
@@ -49,7 +62,7 @@ public class HessiService
     if(to.getTimeInMillis()-from.getTimeInMillis()>1000l*60*60*24*365*5)
       throw new RuntimeException("Invalid time range (>5 years)");
     
-    final LinkedList<String> results=new LinkedList<String>();
+    final LinkedList<MeasurementURLs> results=new LinkedList<MeasurementURLs>();
     for(final Calendar currentDay=(Calendar)from.clone();currentDay.before(to);currentDay.add(Calendar.DAY_OF_MONTH,1))
     {
       try
@@ -98,7 +111,31 @@ public class HessiService
                         
                         //does the file date lie within the requested time range?
                         if(!fileTime.after(to) && !fileTime.before(from))
-                          results.add(c.getURL()+filename);
+                        {
+                          MeasurementURLs m=new MeasurementURLs();
+                          m.measurementStart=fileTime;
+                          m.urlFITS=c.getURL()+filename;
+                          
+                          String quickViewURLStart=String.format("http://www.hedc.ethz.ch/data/metadata/%04d/%02d/%02d/hsi_%04d%02d%02d_%02d%02d%02d_",
+                              fileTime.get(Calendar.YEAR),
+                              fileTime.get(Calendar.MONTH)+1, //january==0 in java
+                              fileTime.get(Calendar.DAY_OF_MONTH),
+                              fileTime.get(Calendar.YEAR),
+                              fileTime.get(Calendar.MONTH)+1, //january==0 in java
+                              fileTime.get(Calendar.DAY_OF_MONTH),
+                              fileTime.get(Calendar.HOUR_OF_DAY),
+                              fileTime.get(Calendar.MINUTE),
+                              fileTime.get(Calendar.SECOND)
+                            );
+                          
+                          m.urlCorrectedRate=quickViewURLStart+"corrected_rate.png";
+                          m.urlFrontRate=quickViewURLStart+"front_rate.png";
+                          m.urlPartRate=quickViewURLStart+"part_rate.png";
+                          m.urlRate=quickViewURLStart+"rate.png";
+                          m.urlRearRate=quickViewURLStart+"rear_rate.png";
+                          
+                          results.add(m);
+                        }
                       }
                   }
                 }
@@ -119,6 +156,6 @@ public class HessiService
       }
     }
     
-    return results.toArray(new String[0]);
+    return results.toArray(new MeasurementURLs[0]);
   }
 }
