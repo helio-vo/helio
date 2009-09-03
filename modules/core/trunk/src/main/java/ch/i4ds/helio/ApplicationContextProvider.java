@@ -12,9 +12,9 @@ import org.springframework.context.support.AbstractApplicationContext;
 
 /**
  * Use this class to get the ApplicationContext in which the application is running or
- * in which Taverna workflows will be ran.
+ * in which Taverna workflows will be run.
  * 
- * @author simon.felix
+ * @author Simon Felix
  */
 public class ApplicationContextProvider implements ApplicationContextAware
 {

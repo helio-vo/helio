@@ -19,10 +19,23 @@ import org.jdom.input.SAXBuilder;
 
 import ch.i4ds.helio.ApplicationContextProvider;
 
+/**
+ * Interface to the Taverna Workflow Engine
+ * 
+ * @author Simon Felix
+ */
 
 @WebService
 public class TavernaExecutor
 {
+  /**
+   * Executes a workflow synchronously
+   * 
+   * @param _workflowDefinition A stream containing the XML definition of a T2-workflow
+   * @param _input Data for the workflow's input ports
+   * @exception Exception if an error occurs
+   * @return A map containing the output port names and values
+   */
   private Map<String,Object> executeWorkflow(InputStream _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException
   {
     final ReferenceService referenceService=(ReferenceService)ApplicationContextProvider.getTavernaApplicationContext().getBean("t2reference.service.referenceService");
@@ -126,6 +139,13 @@ public class TavernaExecutor
     return results;
   }
   
+  /**
+   * Let's users execute a test-workflow via webservice
+   * 
+   * @param _input Data which is used as input for the test-workflow
+   * @exception Exception if an error occurs
+   * @return The value of the output port "prophetOutput"
+   */
   @SuppressWarnings("unchecked")
   @WebMethod
   public String execWF(String _input) throws Exception
