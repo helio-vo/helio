@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <groupId>javax.xml</groupId>
+  <artifactId>jaxm-api</artifactId>
+  <version>1.1</version>
+  <description>jaxm-api</description>
+</project>
