@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <groupId>cds.savot</groupId>
+  <artifactId>cds.savot.writer</artifactId>
+  <version>2.6</version>
+  <description>SAVOT Writer</description>
+</project>
