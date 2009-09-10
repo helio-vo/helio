@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="lib/commons-id-0.1-dev.jar"/>
 	<classpathentry kind="lib" path="lib/jaxm-api-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/imqxm-3.5.jar"/>
+	<classpathentry kind="lib" path="lib/cds-savot.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
