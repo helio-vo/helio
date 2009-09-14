@@ -4,10 +4,16 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
+import javax.activation.DataHandler;
 import javax.jws.*;
 import javax.swing.text.MutableAttributeSet;
 import javax.swing.text.html.*;
 import javax.swing.text.html.HTMLEditorKit.*;
+
+import org.biomoby.shared.event.*;
+import org.egso.common.context.*;
+import org.egso.common.services.provider.ResponseQueryProvider;
+import org.egso.provider.query.QueryEngine;
 
 @WebService
 public class HessiService
@@ -15,6 +21,18 @@ public class HessiService
   @WebMethod
   public String[] getAhoi()
   {
+    QueryEngine engine=new QueryEngine();
+    EGSOContext ctx=EGSOContextFactory.newInstance(EGSOContext.ROLE_PROVIDER,"test","1.0").createContext(EGSOContext.CONTEXT_QUERY,"test");
+    String QUERY = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><query><select><field name=\"filename\"/><field name=\"instrument\"/><field name=\"start-date\"/><field name=\"end-date\"/><field name=\"wavelength\"/></select><data same-level=\"OR\" lower-level=\"AND\"><param name=\"date\"><interval><start>2002-07-14 00:00:00</start><end>2002-07-14 23:59:59</end></interval></param></data></query>";
+    engine.query(ctx.toXML(),QUERY,new ResponseQueryProvider()
+    {
+      public String sendResponse(String context,DataHandler results) throws Exception
+      {
+        System.out.println((String)results.getContent());
+        return null;
+      }
+    });
+    
     return new String[]{"ahoi","matrosen"};
   }
   

@@ -6,7 +6,7 @@ import java.util.Vector;
 public interface ProviderResultsParser {
 
 
-	public Vector getResults();
+	public Vector<Vector<String>> getResults();
 
-	public void setSelectedFields(Vector selected);
+	public void setSelectedFields(Vector<String> selected);
 }

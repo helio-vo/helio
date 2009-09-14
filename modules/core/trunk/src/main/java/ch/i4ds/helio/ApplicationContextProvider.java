@@ -6,9 +6,11 @@ import net.sf.taverna.platform.spring.RavenAwareClassPathXmlApplicationContext;
 import net.sf.taverna.raven.Raven;
 import net.sf.taverna.tools.TavernaBootstrapLocation;
 
+import org.egso.provider.Provider;
 import org.springframework.beans.BeansException;
 import org.springframework.context.*;
 import org.springframework.context.support.AbstractApplicationContext;
+import org.syntax.jedit.InputHandler.overwrite;
 
 /**
  * Use this class to get the ApplicationContext in which the application is running or

@@ -1,6 +1,7 @@
 package org.egso.provider;
 
-import java.io.FileInputStream;
+import java.io.*;
+import java.net.URLDecoder;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
@@ -24,6 +25,14 @@ public class ProviderConfiguration {
 
     private ProviderConfiguration() {
         configurationFile = ProviderConfiguration.class.getResource("conf/config.xml").getPath();
+        try
+        {
+          configurationFile=URLDecoder.decode(configurationFile,"UTF-8");
+        }
+        catch(UnsupportedEncodingException _uee)
+        {
+          
+        }
         init();
     }
 

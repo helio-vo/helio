@@ -1,10 +1,7 @@
 package org.egso.provider.datamanagement.connector;
 
-
-import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
-
 import org.egso.common.votable.EGSOVOTable;
 import org.egso.common.votable.VOTableFactory;
 import org.xml.sax.Attributes;
@@ -21,21 +18,21 @@ public class SECWebServiceParser extends DefaultHandler implements ProviderResul
 	private boolean getTheResult = false;
 	private StringBuffer finalString = null;
 	private EGSOVOTable votable = null;
-	private Vector finalResults = null;
+	private Vector<Vector<String>> finalResults = null;
 
 
 	public SECWebServiceParser() {
 		System.out.println("New instance of 'SECWebServiceParser' class.");
 //		spaces = "";
 		finalString = new StringBuffer();
-		finalResults = new Vector();
+		finalResults = new Vector<Vector<String>>();
 	}
 
 	
-	public void setSelectedFields(Vector selected) {
+	public void setSelectedFields(Vector<String> selected) {
 	}
 
-	public Vector getResults() {
+	public Vector<Vector<String>> getResults() {
 		return (finalResults);
 	}
 
@@ -65,21 +62,19 @@ public class SECWebServiceParser extends DefaultHandler implements ProviderResul
 //		System.out.println("-- VOTABLE CREATED --");
 //		System.out.println(votable.toString());
 //		System.out.println("---------------------");
-		List l = null;
-		Vector tempo = null;
-		int nb = votable.getFieldNames().size();
-		for (Iterator it = votable.getAllRows().iterator() ; it.hasNext() ; ) {
-			tempo = new Vector();
+		for (List<String> l:votable.getAllRows())
+		{
+		  Vector<String> tempo = new Vector<String>();
 			tempo.add("SEC");
-			for (Iterator it2 = ((List) it.next()).iterator() ; it2.hasNext() ; ) {
-				tempo.add((String) it2.next());
-			}
+			tempo.addAll(l);
+
 //			tempo.add("No link for the SEC");
 			finalResults.add(tempo);
 		}
+		
 		System.out.println("[=================================]");
-		for (Iterator it = finalResults.iterator() ; it.hasNext() ; ) {
-			tempo = (Vector) it.next();
+		for (Vector<String> tempo:finalResults)
+		{
 			System.out.print("[" + tempo.get(0));
 			for (int i = 1 ; i < tempo.size() ; i++) {
 				System.out.print(", " + tempo.get(i));
@@ -124,7 +119,7 @@ public class SECWebServiceParser extends DefaultHandler implements ProviderResul
 	
 	public void startDocument()
 		throws SAXException {
-		finalResults = new Vector();
+		finalResults = new Vector<Vector<String>>();
 //		System.out.println("Start of the Document...");
 	}
 	

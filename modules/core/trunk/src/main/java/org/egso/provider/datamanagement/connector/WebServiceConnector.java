@@ -3,13 +3,9 @@ package org.egso.provider.datamanagement.connector;
 import java.io.OutputStreamWriter;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.Vector;
-
 import javax.activation.DataHandler;
 import javax.xml.parsers.SAXParser;
-
 import org.egso.common.context.EGSOContext;
 import org.egso.provider.admin.ProviderMonitor;
 import org.egso.provider.datamanagement.archives.WebServiceArchive;
@@ -18,8 +14,6 @@ import org.egso.provider.query.WebServiceQuery;
 import org.egso.provider.utils.XMLTools;
 import org.xml.sax.InputSource;
 import org.xml.sax.helpers.DefaultHandler;
-
-
 
 /**
  * TODO: Description of the Class
@@ -44,19 +38,6 @@ public class WebServiceConnector implements Connector {
 	/**
 	 * JAVADOC: Description of the Field
 	 */
-	private Hashtable observable = new Hashtable();
-	/**
-	 * JAVADOC: Description of the Field
-	 */
-	private Hashtable sources = new Hashtable();
-	/**
-	 * JAVADOC: Description of the Field
-	 */
-	private Hashtable resultFields = new Hashtable();
-	/**
-	 * JAVADOC: Description of the Field
-	 */
-	private Vector params = new Vector();
 	private ProviderResultsParser parser = null;
 	private SAXParser saxParser = null;
 
@@ -160,12 +141,12 @@ public class WebServiceConnector implements Connector {
 		int index = 1;
 		System.out.println(nbQ + " Web-Service call(s) for the archive " + archive.getID() + ".");
 		long startTime = System.currentTimeMillis();
-		for (Iterator it = query.getAllCalls().iterator() ; it.hasNext() ; ) {
+		for (String s:query.getAllCalls())
+		{
 			System.out.print("[ws:" + index++ + "/" + nbQ + "] ");
-			sendMessage((String) it.next());
-			for (Iterator it2 = parser.getResults().iterator() ; it2.hasNext() ; ) {
-				results.addResult((Vector) it2.next());
-			}
+			sendMessage(s);
+			for (Vector<String> result:parser.getResults())
+				results.addResult(result);
 		}
 		float timeTaken = ((float) (System.currentTimeMillis() - startTime)) / 1000;
 		results.getContext().addParameter("Query time for '" + archive.getID() + "' WebService archive", EGSOContext.PARAMETER_SYSTEMINFO, "" + timeTaken + " s");

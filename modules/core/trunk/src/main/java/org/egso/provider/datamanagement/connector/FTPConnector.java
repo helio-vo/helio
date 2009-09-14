@@ -71,7 +71,7 @@ public class FTPConnector implements Connector {
 			StringTokenizer st = null;
 			String[] fileInfo = null;
 			String tmp = null;
-			Vector fileSet = new Vector();
+			Vector<String> fileSet = new Vector<String>();
 			long startTime = System.currentTimeMillis();
 			while (query.hasLeftCommands()) {
 				if ((query.getNextCommandType() == FTPQuery.LIST) || (query.getNextCommandType() == FTPQuery.DETAILED_LIST)) {

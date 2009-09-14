@@ -1,10 +1,7 @@
 package org.egso.provider.datamanagement.mapper;
 
 import java.io.ByteArrayInputStream;
-import java.util.Iterator;
-
 import javax.xml.parsers.SAXParser;
-
 import org.egso.provider.admin.ProviderMonitor;
 import org.egso.provider.datamanagement.archives.HTTPArchive;
 import org.egso.provider.datamanagement.archives.MixedArchive;
@@ -79,10 +76,13 @@ public class HTTPMapper extends Thread implements Mapper {
 			t.printStackTrace();
 			ProviderMonitor.getInstance().reportException(t);
 		}
-		String x = null;
-		for (Iterator it = parser.getAllMasks().iterator() ; it.hasNext() ; ) {
-			x = (String) it.next();
-			http.addHTTPFile(archive.getURL() + "/" + x.substring(0, x.lastIndexOf('/')), x.substring(x.lastIndexOf('/') + 1));
+		for (String x:parser.getAllMasks())
+		{
+			String url=archive.getURL() + "/" + x.substring(0, x.lastIndexOf('/'));
+			String url_mask=x.substring(x.lastIndexOf('/') + 1);
+			if("".equals(url_mask))
+			  url+='/';
+			http.addHTTPFile(url, mask);
 		}
 		System.out.println("URL / MASK VERIFICATION FOR HTTP ARCHIVE:\n" + http.toString());
 		// Running the FTPQuery object.

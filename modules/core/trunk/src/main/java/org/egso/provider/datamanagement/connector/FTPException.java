@@ -9,6 +9,7 @@ import java.io.IOException;
  * @author Romain LINSOLAS
  * @version 1.1 - 29/11/2003 [09/2001]
  **/
+@SuppressWarnings("serial")
 public class FTPException extends IOException {
 
 

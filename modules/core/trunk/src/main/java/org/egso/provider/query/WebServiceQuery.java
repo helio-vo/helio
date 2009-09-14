@@ -1,16 +1,14 @@
 package org.egso.provider.query;
 
-import java.util.Iterator;
 import java.util.Vector;
-
 
 public class WebServiceQuery extends ArchiveQuery {
 	
     //***********************
     // ATTRIBUTES
     //***********************
-	private Vector calls = null;
-    private Vector selectedFields = null;
+	private Vector<String> calls = null;
+  private Vector<String> selectedFields = null;
 	private int index = 0;
 	
     //***********************
@@ -18,13 +16,13 @@ public class WebServiceQuery extends ArchiveQuery {
     //***********************
     public WebServiceQuery() {
     	super(ArchiveQuery.WEB_SERVICE_ARCHIVE);
-		calls = new Vector();
+		calls = new Vector<String>();
 		index = 0;
-		selectedFields = new Vector();
+		selectedFields = new Vector<String>();
     }
 
 
-	public void setAllCalls(Vector v) {
+	public void setAllCalls(Vector<String> v) {
 		calls = v;
 	}
 	
@@ -41,12 +39,12 @@ public class WebServiceQuery extends ArchiveQuery {
 		return (null);
 	}
 
-	public Vector getAllCalls() {
+	public Vector<String> getAllCalls() {
 		return (calls);
 	}
 	
 	
-    public void setSelectedFields(Vector fields){
+    public void setSelectedFields(Vector<String> fields){
         selectedFields=fields;
     }
 	
@@ -54,11 +52,11 @@ public class WebServiceQuery extends ArchiveQuery {
 		selectedFields.add(field);
 	}
     
-	public void setFields(Vector v) {
+	public void setFields(Vector<String> v) {
 		selectedFields = v;
 	}
 	
-    public Vector getSelectedFields(){
+    public Vector<String> getSelectedFields(){
         return (selectedFields);
     }
     
@@ -74,9 +72,9 @@ public class WebServiceQuery extends ArchiveQuery {
 
     public String toString() {
 		StringBuffer sb = new StringBuffer();
-		for (Iterator it = calls.iterator() ; it.hasNext() ; ) {
-			sb.append((String) it.next());
-		}
+		for (String s:calls)
+			sb.append(s);
+
 		return (sb.toString());
     }
 }

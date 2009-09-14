@@ -1,21 +1,17 @@
 package org.egso.provider.datamanagement.connector;
 
-
-import java.util.Iterator;
 import java.util.StringTokenizer;
 import java.util.Vector;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-
 public class NSOWebServiceParser extends DefaultHandler implements ProviderResultsParser {
 
 	private String[] tmp;
 //	private String spaces = "";
-	private Vector results = null;
+	private Vector<String[]> results = null;
 	private boolean inValue = false;
 	private boolean inSrc = false;
 	private boolean inFile = false;
@@ -27,14 +23,19 @@ public class NSOWebServiceParser extends DefaultHandler implements ProviderResul
 
 	public NSOWebServiceParser() {
 		System.out.println("New instance of 'NSOWebServiceParser' class.");
-		results = new Vector();
+		results = new Vector<String[]>();
 //		spaces = "";
 	}
 
 	
-	public void setSelectedFields(Vector selected) {
+	public void setSelectedFields(Vector<String> selected) {
 		pattern = new String[selected.size()];
 		String str = null;
+		
+		//TODO: fix
+		if(1==1)
+		  throw new RuntimeException("FIX ME FIX ME FIX ME");
+		
 		for (int i = 0 ; i < selected.size() ; i++) {
 			str = (String) selected.get(i - 2);
 			if (str.equals("instrument")) {
@@ -77,18 +78,17 @@ public class NSOWebServiceParser extends DefaultHandler implements ProviderResul
 */
 	}
 
-	public Vector getResults() {
-		Vector finalResults = new Vector();
-		Vector tempo = null;
-		String[] tmp = null;
+	public Vector<Vector<String>> getResults() {
+		Vector<Vector<String>> finalResults = new Vector<Vector<String>>();
 		StringTokenizer st = null;
 		String x = null;
 		int index = -1;
 		int begin = -1;
 		int end = -1;
-		for (Iterator it = results.iterator() ; it.hasNext() ; ) {
-			tmp = (String[]) it.next();
-			tempo = new Vector();
+		
+		for (String[] tmp:results)
+		{
+			Vector<String> tempo = new Vector<String>();
 			for (int i = 0 ; i < pattern.length ; i++) {
 				st = new StringTokenizer(pattern[i], ",");
 				x = st.nextToken();
@@ -224,7 +224,7 @@ public class NSOWebServiceParser extends DefaultHandler implements ProviderResul
 	
 	public void startDocument()
 		throws SAXException {
-		results = new Vector();
+		results = new Vector<String[]>();
 //		System.out.println("Start of the Document...");
 	}
 	

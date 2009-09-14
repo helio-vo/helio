@@ -1,10 +1,7 @@
 package org.egso.provider.datamanagement.connector;
 
-import java.util.Iterator;
 import java.util.Vector;
-
 import javax.activation.DataHandler;
-
 import org.egso.common.context.EGSOContext;
 import org.egso.provider.datamanagement.archives.HTTPArchive;
 import org.egso.provider.query.HTTPQuery;
@@ -12,13 +9,9 @@ import org.egso.provider.query.ProviderTable;
 
 
 /**
- *  TODO: Description of the Class
- *
  * @author     Romain LINSOLAS
  * @version    0.9 - 11/01/2005 [11/01/2005]
  */
-/*
-*/
 public class HTTPConnector implements Connector {
 
 	private HTTPQuery query = null;
@@ -36,19 +29,17 @@ public class HTTPConnector implements Connector {
 
 
 	public void query() {
-		int nb = query.numberOfFiles();
+		int number_of_files = query.numberOfFiles();
 		HTTPFile file = null;
-		HTTPFile f = null;
-		String[] tmp = null;
-		Vector fileSet = new Vector();
+		Vector<String> fileSet = new Vector<String>();
 		long startTime = System.currentTimeMillis();
-		for (int i = 0 ; i < nb ; i++) {
-			System.out.print("http(" + i + "/" + nb + ")  ");
+		for (int i = 0 ; i < number_of_files ; i++) {
+			System.out.print("http(" + i + "/" + number_of_files + ")  ");
 			file = query.listNextFile();
 			if (file != null) {
 				if (file.isDirectory()) {
-					for (Iterator it = file.listFiles().iterator() ; it.hasNext() ; ) {
-						f = (HTTPFile) it.next();
+					for (HTTPFile f:file.listFiles())
+					{
 						if (!fileSet.contains(f.getURL())) {
 							fileSet.add(f.getURL());
 							formatter.addResults(new String[] {f.getURL(), f.getFilename(), "" + f.getSize()});

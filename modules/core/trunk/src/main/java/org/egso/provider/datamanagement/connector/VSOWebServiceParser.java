@@ -1,9 +1,6 @@
 package org.egso.provider.datamanagement.connector;
 
-
-import java.util.Iterator;
-import java.util.StringTokenizer;
-import java.util.Vector;
+import java.util.*;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.Locator;
@@ -15,8 +12,7 @@ import org.xml.sax.helpers.DefaultHandler;
 public class VSOWebServiceParser extends DefaultHandler implements ProviderResultsParser {
 
 	private String[] tmp;
-	private String spaces = "";
-	private Vector results = null;
+	private Vector<String[]> results = null;
 	private boolean inValue = false;
 	private boolean handleResults = false;
 	private int index = -1;
@@ -26,12 +22,12 @@ public class VSOWebServiceParser extends DefaultHandler implements ProviderResul
 
 	public VSOWebServiceParser() {
 		System.out.println("New instance of 'VSOWebServiceParser' class.");
-		results = new Vector();
+		results = new Vector<String[]>();
 //		spaces = "";
 	}
 
 	
-	public void setSelectedFields(Vector selected) {
+	public void setSelectedFields(Vector<String> selected) {
 		pattern = new String[selected.size()];
 		String str = null;
 //		pattern[0] = "value,WS-VSO";
@@ -86,22 +82,18 @@ public class VSOWebServiceParser extends DefaultHandler implements ProviderResul
 */
 	}
 
-	public Vector getResults() {
-		Vector finalResults = new Vector();
-		Vector tempo = null;
-		String[] tmp = null;
-		StringTokenizer st = null;
-		String x = null;
+	public Vector<Vector<String>> getResults() {
+		Vector<Vector<String>> finalResults = new Vector<Vector<String>>();
 		int index = -1;
 		int begin = -1;
 		int end = -1;
-		for (Iterator it = results.iterator() ; it.hasNext() ; ) {
-			tmp = (String[]) it.next();
-			tempo = new Vector();
+		for (String[] tmp:results)
+		{
+		  Vector<String> tempo = new Vector<String>();
 			String instr = null;
 			for (int i = 0 ; i < pattern.length ; i++) {
-				st = new StringTokenizer(pattern[i], ",");
-				x = st.nextToken();
+				StringTokenizer st = new StringTokenizer(pattern[i], ",");
+				String x = st.nextToken();
 				if (x.equals("value")) {
 					// Case of a static value.
 					tempo.add(st.nextToken());
@@ -250,7 +242,7 @@ public class VSOWebServiceParser extends DefaultHandler implements ProviderResul
 	public void startDocument()
 		throws SAXException {
 //		System.out.println("Start of the Document...");
-		results = new Vector();
+		results = new Vector<String[]>();
 	}
 	
 	public void startElement(String namespaceURI, String localName, String qName, Attributes atts)

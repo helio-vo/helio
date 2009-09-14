@@ -42,7 +42,8 @@ public class SQLConnector implements Connector {
         results = providerTable;
         formatter = rf;
     }
-
+    
+    @Deprecated
     public SQLConnector(SQLArchive arc, SQLQuery sql,
             ProviderTable providerTable) {
         System.out
@@ -111,18 +112,15 @@ public class SQLConnector implements Connector {
             // Do not count IDArchive and link.
             int nbResults = results.getFields().size() - 1;
             int indexOfObs = results.getFields().indexOf("observingdomain");
-            int indexOfFileName = results.getFields().indexOf("filename");
-            Vector res = null;
             boolean moreResults = set.next();
-            String tmp = null;
             long startTime = System.currentTimeMillis();
             while (moreResults && (i < archive.getMaximumResults())) {
                 System.out.print("@");
-                res = new Vector();
+                Vector<String> res = new Vector<String>();
                 res.add(archive.getID());
                 res.add(archive.getObservatory());
                 for (int col = 1; col < (nbResults - 1); col++) {
-                    tmp = set.getString(col);
+                    String tmp = set.getString(col);
                     if (tmp == null) {
                         res.add("N/A");
                     } else {

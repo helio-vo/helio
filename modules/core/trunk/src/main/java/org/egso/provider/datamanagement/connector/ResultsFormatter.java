@@ -1,8 +1,6 @@
 package org.egso.provider.datamanagement.connector;
 
-import java.util.Iterator;
 import java.util.Vector;
-
 import org.egso.provider.datamanagement.archives.Archive;
 import org.egso.provider.datamanagement.archives.mapping.MappingObject;
 import org.egso.provider.datamanagement.archives.mapping.MappingTable;
@@ -20,9 +18,9 @@ public class ResultsFormatter {
 
     private MappingTable mappingTable = null;
 
-    private Vector finalResults = null;
+    private Vector<Vector<String>> finalResults = null;
 
-    private Vector fields = null;
+    private Vector<Object> fields = null;
 
     private String[] fieldnames = null;
 
@@ -34,27 +32,26 @@ public class ResultsFormatter {
 
     private boolean sql = false;
 
+    @SuppressWarnings("unused")
     private boolean webservices = false;
 
     /**
      * JAVADOC: Constructor for the ResultsFormatter object
      */
-    public ResultsFormatter(Archive arc, Vector selected) {
+    public ResultsFormatter(Archive arc, Vector<String> selected) {
         archive = arc;
         ftphttp = archive.isFTP() || archive.isHTTP();
         sql = archive.isSQL();
         webservices = archive.isWebServices();
         mappingTable = archive.getMappingTable();
-        finalResults = new Vector();
-        fields = new Vector();
+        finalResults = new Vector<Vector<String>>();
+        fields = new Vector<Object>();
         fieldnames = new String[selected.size()];
         numberOfFields = 0;
         MappingObject map = null;
         int i = 0;
         int x = 0;
-        String tmp = null;
-        for (Iterator it = selected.iterator(); it.hasNext();) {
-            tmp = (String) it.next();
+        for (String tmp:selected) {
             fieldnames[i++] = tmp;
             if (tmp.equals("IDArchive")) {
                 fields.add(archive.getID());
@@ -105,14 +102,12 @@ public class ResultsFormatter {
     }
 
     public void addResults(String[] tmp) {
-        Vector v = new Vector();
-        Object obj = null;
-        String s = null;
+        Vector<String> v = new Vector<String>();
         int i = 0;
-        for (Iterator it = fields.iterator(); it.hasNext();) {
-            obj = it.next();
+        for (Object obj:fields)
+        {
             if (obj instanceof String) {
-                s = (String) obj;
+                String s = (String) obj;
                 if (s.equals("observatory")) {
                     v.add((indexOfInstrumentField == -1) ? "???" : archive
                             .getObservatory(tmp[indexOfInstrumentField]));
@@ -151,7 +146,7 @@ public class ResultsFormatter {
                 // This was Romain's code but it didnt work for SQL-BASS2000
                 // It returned the instrument index not name
 
-                s = ((MappingObject) obj).archive2egso(tmp[i]);
+                String s = ((MappingObject) obj).archive2egso(tmp[i]);
 
                 //    v.add((s != null) ? s : tmp[i]);
 
@@ -197,10 +192,10 @@ public class ResultsFormatter {
      * @param providerTable
      *            The ProviderTable that receives the results.
      */
-    public void finish(ProviderTable providerTable) {
-        for (Iterator it = finalResults.iterator(); it.hasNext();) {
-            providerTable.addResult((Vector) it.next());
-        }
+    public void finish(ProviderTable providerTable)
+    {
+        for (Vector<String> v:finalResults)
+            providerTable.addResult(v);
     }
 
 }

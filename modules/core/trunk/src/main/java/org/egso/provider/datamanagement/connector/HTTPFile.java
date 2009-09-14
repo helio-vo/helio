@@ -3,8 +3,7 @@ package org.egso.provider.datamanagement.connector;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
+import java.net.*;
 import java.util.Iterator;
 import java.util.Vector;
 
@@ -20,7 +19,7 @@ public class HTTPFile {
 
     private int size = -1;
 
-    private Vector files = null;
+    private Vector<HTTPFile> files = null;
 
     public HTTPFile(String urlFile) throws FileNotFoundException {
         try {
@@ -46,8 +45,9 @@ public class HTTPFile {
         url = urlFile;
         try {
             URL u = new URL(urlFile);
-            URLConnection uc = u.openConnection();
-            if (uc.getHeaderField(null).indexOf("404") != -1) {
+            HttpURLConnection uc = (HttpURLConnection)u.openConnection();
+            uc.connect();
+            if(uc.getResponseCode()==404) {
                 System.out.println("URL " + url + " is not reachable - 404.");
                 throw (new FileNotFoundException("URL '" + url
                         + "' not reachable (404)."));
@@ -64,9 +64,9 @@ public class HTTPFile {
                 HTMLParser parser = new HTMLParser(url);
                 new ParserDelegator().parse(inBuf, parser, false);
                 inBuf.close();
-                files = new Vector();
+                files = new Vector<HTTPFile>();
                 String tmp = null;
-                for (Iterator it = parser.getFilesList().iterator(); it
+                for (Iterator<String> it = parser.getFilesList().iterator(); it
                         .hasNext();) {
                     tmp = (String) it.next();
                     if ((mask == null)
@@ -93,24 +93,23 @@ public class HTTPFile {
         return (!directory);
     }
 
-    public Vector listFiles() {
+    public Vector<HTTPFile> listFiles() {
         if (!directory) {
             return (null);
         }
         return (files);
     }
 
-    public Vector listFiles(String mask) {
+    public Vector<HTTPFile> listFiles(String mask) {
         if (!directory) {
             return (null);
         }
         // Replace * and ? with Java Patterns (\w = any word character).
         mask = mask.replaceAll("\\?", "[\\\\w|_|.|-]?").replaceAll("\\*",
                 "[\\\\w|_|.|-]*?");
-        Vector v = new Vector();
-        HTTPFile http = null;
-        for (Iterator it = files.iterator(); it.hasNext();) {
-            http = (HTTPFile) it.next();
+        Vector<HTTPFile> v = new Vector<HTTPFile>();
+        for (HTTPFile http:files)
+        {
             System.out.print("File " + http.getFilename() + " -> ");
             if (http.getFilename().matches(mask)) {
                 System.out.println("OK");
@@ -138,9 +137,10 @@ public class HTTPFile {
         if (directory) {
             StringBuffer sb = new StringBuffer("Directory '" + url + "' has "
                     + files.size() + " files:\n");
-            for (Iterator it = files.iterator(); it.hasNext();) {
+            for (HTTPFile h:files)
+            {
                 //sb.append("\t" + ((String) it.next()).toString() + "\n");
-                sb.append("\t" + ((HTTPFile) it.next()).toString() + "\n");
+                sb.append("\t" + h.toString() + "\n");
             }
             return (sb.toString());
         }
