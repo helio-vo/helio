@@ -1,3 +1,4 @@
+/**
 import groovyx.net.ws.WSClient
 
 def proxy = new
@@ -7,4 +8,5 @@ println "Proxy: ${proxy.dump()}"
 proxy.initialize()
 def result = proxy.convert('USD', 'AUD', 100.00D)
 
-println "Res: ${result}" 
+pritln "Res: ${result}"
+**/

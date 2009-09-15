@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
@@ -10,7 +10,5 @@
     <property name="serviceName" value="HessiServiceService"/>
     <property name="portName" value="HessiServicePort"/>
   </bean>
-  <bean id="test2" class="Test2">
-    <property name="testProperty" ref="hessiService" />
-  </bean>
+
 </beans>

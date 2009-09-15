@@ -1,3 +1,4 @@
+/**
 import groovyx.net.ws.WSClient
 
 println "entet 1";
@@ -12,3 +13,4 @@ proxy.initialize()
 println "entet 4";
 result = proxy.convert("AUD", "USD", 10.0)
 println "10 AUD are worth ${result} USD"
+**/

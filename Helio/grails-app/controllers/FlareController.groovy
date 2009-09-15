@@ -1,3 +1,4 @@
+import ch.i4ds.helio.dpas.HessiServiceProxy
 class FlareController {
     
     def index = { redirect(action:list,params:params) }
@@ -105,8 +106,10 @@ class FlareController {
         def test = new Test();
         test.doMe();
 
-       // def test2= new Test2();
-        //test2.
+       HessiServiceProxy hessi=new HessiServiceProxy("http://soleil.i4ds.ch:9090/HELIO-core/services/hessi?wsdl");
+        for(String a:hessi.getAhoi())
+        System.out.println(a);
+        
 
         if (request.method == 'POST') {
             FlareQuery query = new FlareQuery()
