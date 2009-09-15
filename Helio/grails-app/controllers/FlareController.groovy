@@ -101,6 +101,13 @@ class FlareController {
 
     
     def search = {
+
+        def test = new Test();
+        test.doMe();
+
+       // def test2= new Test2();
+        //test2.
+
         if (request.method == 'POST') {
             FlareQuery query = new FlareQuery()
             bindData(query, params)

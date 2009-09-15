@@ -13,7 +13,7 @@ public class Test {
 
   }
   
-  public void dome(){
+  public void doMe(){
     System.out.println("vista rules");
   }
 }

@@ -1,6 +1,6 @@
   <span class="menuButton">
     <g:link controller="flare" action="search">
-      Flare Search
+      Radio and Xray Flare Search
     </g:link>
   </span>
   <span class="menuButton">

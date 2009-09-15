@@ -9,14 +9,14 @@
     <meta http-equiv="Content-Type" content="text/html;
           charset=UTF-8"/>
     <meta name="layout" content="public" />
-    <title>Search for Flares</title>
+    <title>Radio and Xray Flare Search</title>
   </head>
   <body>
     <div class="nav">
       <g:render template="/flare/menubar" />
     </div>
     <div class="body">
-      <h1>Search for Flares</h1>
+      <h1>Radio and Xray Flare Search</h1>
       <g:if test="${flash.message}">
         <div class="message">${flash.message}</div>
       </g:if>
@@ -47,34 +47,19 @@
                 <label for='goes'>Goes Class:</label>
               </td>
               <td valign='top' class='value'>
-                <input type="text" maxlength='30' name='goes'>
+                <input type="text" maxlength='15' name='goes'>
                 </input>
+                ...
               </td>
-
-            </tr>
-
-            <tr class='prop'>
-              <td valign='top' class='name'>
-                <label for='goes'>Number Of Sources:</label>
-              </td>
+              
               <td valign='top' class='value'>
-                <input type="text" maxlength='30' name='none'>
+                <input type="text" maxlength='15' name='goesMax'>
                 </input>
               </td>
 
             </tr>
 
-
-            <tr class='prop'>
-              <td valign='top' class='name'>
-                <label for='goes'>Distance To Sun Center:</label>
-              </td>
-              <td valign='top' class='value'>
-                <input type="text" maxlength='30' name='none3'>
-                </input>
-              </td>
-
-            </tr>
+    
            
           </table>
         </div>
