@@ -12,13 +12,13 @@ public class WebServicesMappingObject implements MappingObject {
 
 	private String nameEGSO = null;
 	private String valueArchive = null;
-	private Hashtable egso2archive = null;
-	private Hashtable archive2egso = null;
+	private Hashtable<String,String> egso2archive = null;
+	private Hashtable<String,String> archive2egso = null;
 
 
 	public WebServicesMappingObject(Node node) {
-		egso2archive = new Hashtable();
-		archive2egso = new Hashtable();
+		egso2archive = new Hashtable<String,String>();
+		archive2egso = new Hashtable<String,String>();
 		init(node);
 	}
 	
@@ -41,19 +41,11 @@ public class WebServicesMappingObject implements MappingObject {
 	}
 
 	public String egso2archive(String value) {
-		Object obj = egso2archive.get(value);
-		if (obj instanceof String) {
-			return ((String) obj);
-		}
-		return (null);
+		return egso2archive.get(value);
 	}
 
 	public String archive2egso(String value) {
-		Object obj = archive2egso.get(value);
-		if (obj instanceof String) {
-			return ((String) obj);
-		}
-		return (null);
+		return archive2egso.get(value);
 	}
 
 	public int getType() {
@@ -65,15 +57,15 @@ public class WebServicesMappingObject implements MappingObject {
 		sb.append("WEB SERVICES Mapping Object for the EGSO parameter '" + nameEGSO + "'\n");
 		sb.append("Archive Value: " + valueArchive);
 		sb.append("MAPPING TABLE :\nEGSO -> ARCHIVE:\n");
-		String tmp = null;
-		for (Enumeration e = egso2archive.keys() ; e.hasMoreElements() ; ) {
-			tmp = (String) e.nextElement();
-			sb.append("\t" + tmp + " -> " + (String) egso2archive.get(tmp) + "\n");
+
+		for (Enumeration<String> e = egso2archive.keys() ; e.hasMoreElements() ; ) {
+			String tmp = e.nextElement();
+			sb.append("\t" + tmp + " -> " + egso2archive.get(tmp) + "\n");
 		}
 		sb.append("ARCHIVE -> EGSO:\n");
-		for (Enumeration e = archive2egso.keys() ; e.hasMoreElements() ; ) {
-			tmp = (String) e.nextElement();
-			sb.append("\t" + tmp + " -> " + (String) archive2egso.get(tmp) + "\n");
+		for (Enumeration<String> e = archive2egso.keys() ; e.hasMoreElements() ; ) {
+			String tmp = (String) e.nextElement();
+			sb.append("\t" + tmp + " -> " + archive2egso.get(tmp) + "\n");
 		}
 		return (sb.toString());
 	}

@@ -15,15 +15,11 @@ import org.egso.provider.service.ServiceLoader;
 
 
 public class QueryEngine {
-
-
 	private DataPresentationManager dataPresentationManager = null;
 	private QueryValidator queryValidator = null;
-	private ServiceLoader serviceLoader = null;
 	private CoSECService cosecService = null;
 	private Logger logger = null;
 	private EGSOContextFactory contextFactory = null;
-	private static final int MAXIMAL_RESULTS_DISPLAYED = 100;
 	private Random random = null;
 
 
@@ -33,7 +29,10 @@ public class QueryEngine {
 		logger.info("Query Engine Initialization");
 		dataPresentationManager = new DataPresentationManager();
 		queryValidator = new QueryValidator();
-		serviceLoader = new ServiceLoader();
+		
+		//init archives on startup
+		new ServiceLoader();
+		
 		cosecService = new CoSECService();
 		contextFactory = EGSOContextFactory.newInstance(EGSOContext.ROLE_PROVIDER, (String) ProviderConfiguration.getInstance().getProperty("core.rolename"), (String) ProviderConfiguration.getInstance().getProperty("core.roleversion"));
 		random = new Random();

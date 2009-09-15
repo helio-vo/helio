@@ -1,11 +1,13 @@
 package org.egso.votable.element;
 
+import java.util.Arrays;
+
 
 
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    1.0
  * @created    28 October 2003
  */
@@ -310,9 +312,7 @@ public class Param extends VOTableElement {
 	 * @param  l  JAVADOC: The feature to be added to the Links attribute
 	 */
 	public void addLinks(Link[] l) {
-		for (int i = 0 ; i < l.length ; i++) {
-			link.add(l[i]);
-		}
+	  link.addAll(Arrays.asList(l));
 	}
 
 	/**

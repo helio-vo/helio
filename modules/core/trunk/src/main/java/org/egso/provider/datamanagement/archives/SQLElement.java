@@ -4,7 +4,7 @@ package org.egso.provider.datamanagement.archives;
 /**
  * Superclass for all SQL Elements (Table, Field and Link).
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 11/10/2004
  */
 public class SQLElement {

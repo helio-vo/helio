@@ -22,7 +22,7 @@ import org.w3c.dom.NamedNodeMap;
  * (broker, provider, consumer). Such an object can be a query, a result, a
  * service (query) or file(s).
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   2.0 - 20/09/2004 [14/06/2004]
  */
 /*
@@ -36,7 +36,7 @@ import org.w3c.dom.NamedNodeMap;
 	Modification of the addRoute method, which now takes a Date/Calendar instead
 		of a String for the date argument. This way, the format of this date
 		will always be the same.
-1.1 - 16/06/2004 - Romain Linsolas:
+1.1 - 16/06/2004 - Romain Linsolas (linsolas@gmail.com):
 	Adding the setType(int) method.
 	Update Constructor signatures.
 */

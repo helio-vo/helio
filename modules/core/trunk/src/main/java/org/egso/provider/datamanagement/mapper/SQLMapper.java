@@ -28,7 +28,7 @@ import org.xml.sax.InputSource;
 /**
  * Mapper that creates the SQL Query.
  *
- * @author    Romain LINSOLAS
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   2.1 - 26/10/2004
  */
 /*
@@ -117,7 +117,7 @@ public class SQLMapper extends Thread implements Mapper {
 		// Replace the < and > by [lt] and [gt] to avoid problem with XML.
 		providerTable.getContext().addParameter("SQLQuery", EGSOContext.PARAMETER_DEBUG, sqlQuery.toString().replaceAll("<", "[lt]").replaceAll(">", "[gt]"));
 		if (mixedArchive == null) {
-			Vector v = new Vector();
+			Vector<String> v = new Vector<String>();
 			NodeList nl = providerQuery.getSelect().getChildNodes();
 			Node n = null;
 			for (int i = 0; i < nl.getLength(); i++) {
@@ -142,17 +142,16 @@ public class SQLMapper extends Thread implements Mapper {
 	 */
 	private SQLQuery createQuery() {
 		SQLQuery sqlQuery = new SQLQuery();
-		Vector select = sqlBase.createNewSelect();
-		Vector from = sqlBase.createNewFrom();
-		Vector where = sqlBase.createNewWhere();
+		Vector<Field> select = sqlBase.createNewSelect();
+		Vector<Table> from = sqlBase.createNewFrom();
+		Vector<String> where = sqlBase.createNewWhere();
 		// ### Create the SELECT part ###
 		Field[] tmp = null;
 		Table table = null;
-		String x = null;
-		for (Iterator it = providerTable.getFields().iterator() ; it.hasNext() ; ) {
+		for (String x:providerTable.getFields())
+		{
 			// For each field required, adds it in the 'select' Vector, and
 			// adds its Table in 'from' Vector.
-			x = (String) it.next();
 			tmp = sqlBase.getMappedFields(x);
 			if (!sqlBase.isConcatField(x)) {
 				if (tmp != null) {
@@ -177,7 +176,13 @@ public class SQLMapper extends Thread implements Mapper {
 					providerTable.notAvailableField(x);
 				}
 			} else {
-				select.add(sqlBase.getMapElement(x).getConcatenationString());
+			  //TODO: fix buggy code
+			  if(1==1)
+			    throw new RuntimeException("FIXME FIXME FIXME");
+			  
+			  //wrong type added
+				//select.add(sqlBase.getMapElement(x).getConcatenationString());
+			  
 				for (int j = 0 ; j < tmp.length ; j++) {
 					table = tmp[j].getTable();
 					if (!from.contains(table)) {
@@ -194,7 +199,7 @@ public class SQLMapper extends Thread implements Mapper {
 		for (int i = 0; i < from.size(); i++) {
 //			table = (Table) from.get(i);
 			for (int j = (i + 1); j < from.size(); j++) {
-				for (Iterator it = sqlBase.getLinkMatrix().getConnection(((Table) from.get(i)).getName(), ((Table) from.get(j)).getName()).iterator(); it.hasNext(); ) {
+				for (Iterator it = sqlBase.getLinkMatrix().getConnection(from.get(i).getName(), from.get(j).getName()).iterator(); it.hasNext(); ) {
 					link = (Link) it.next();
 					if (!links.contains(link)) {
 						links.add(link);
@@ -204,7 +209,7 @@ public class SQLMapper extends Thread implements Mapper {
 		}
 		// Need optimization for removing useless link.
 		for (Iterator it = links.iterator(); it.hasNext(); ) {
-			where.add(((Link) it.next()).print());
+			where.add(((Link) it.next()).toStringWithoutType());
 		}
 		sqlQuery.setSelect(select);
 		sqlQuery.setFrom(from);

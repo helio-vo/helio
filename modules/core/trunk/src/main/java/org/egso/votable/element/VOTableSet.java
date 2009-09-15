@@ -9,7 +9,7 @@ import java.util.Collection;
  *  List of Attributes or VOTable Elements. One VOTableSet is dedicated to only
  *  one type of Element.
  *
- * @author     Romain LINSOLAS.
+ * @author     Romain Linsolas (linsolas@gmail.com).
  * @version    1.0
  * @created    24 October 2003
  */

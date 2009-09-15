@@ -21,7 +21,7 @@ import org.xml.sax.InputSource;
 /**
  * TODO: Description of the Class
  *
- * @author    Romain LINSOLAS
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.1 - 26/10/2004 [15/10/2003]
  */
 /*

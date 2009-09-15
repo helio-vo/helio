@@ -6,7 +6,7 @@ import javax.activation.DataHandler;
 /**
  * Service that contains methods for broker responses.
  *
- * @author    Marco Soldati - Romain Linsolas
+ * @author    Marco Soldati - Romain Linsolas (linsolas@gmail.com)
  * @version   2.0 - 23/09/2004 [01/11/2003]
  */
 /*

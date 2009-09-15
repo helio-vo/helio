@@ -20,7 +20,7 @@ import java.util.List;
  * The object containing the VOTable, as well as some methods for VOTable
  * manipulation.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0.1 - 04/11/2004
  */
 /*

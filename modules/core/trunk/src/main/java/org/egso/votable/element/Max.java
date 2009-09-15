@@ -4,7 +4,7 @@ package org.egso.votable.element;
 /**
  *  Definition of the MAX VOTable element.
  *
- * @author     Romain LINSOLAS.
+ * @author     Romain Linsolas (linsolas@gmail.com).
  * @version    1.0
  * @created    28 October 2003
  */

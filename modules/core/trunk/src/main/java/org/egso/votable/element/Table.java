@@ -1,14 +1,12 @@
 package org.egso.votable.element;
 
-import java.util.List;
-import java.util.Vector;
-import java.util.Iterator;
+import java.util.*;
 
 
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9
  * @created    28 October 2003.
  */
@@ -356,9 +354,7 @@ public class Table extends VOTableElement {
 	 * @param  l  JAVADOC: The feature to be added to the Link attribute
 	 */
 	public void addLink(Link[] l) {
-		for (int i = 0; i < l.length; i++) {
-			link.add(l[i]);
-		}
+		link.addAll(Arrays.asList(l));
 	}
 
 
@@ -378,9 +374,7 @@ public class Table extends VOTableElement {
 	 * @param  f  JAVADOC: The feature to be added to the Fields attribute
 	 */
 	public void addFields(Field[] f) {
-		for (int i = 0; i < f.length; i++) {
-			field.add(f[i]);
-		}
+		field.addAll(Arrays.asList(f));
 	}
 
 

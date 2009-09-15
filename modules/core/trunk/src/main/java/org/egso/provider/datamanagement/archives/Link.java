@@ -5,7 +5,7 @@ package org.egso.provider.datamanagement.archives;
  * Object that represents a Link between two Fields (and by extension between
  * two tables).
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 13/10/2004
  */
 public class Link extends SQLElement {
@@ -189,7 +189,7 @@ public class Link extends SQLElement {
 	 *
 	 * @return   The Link as a String.
 	 */
-	public String print() {
+	public String toStringWithoutType() {
 		return (start.getCompleteName() + "=" + end.getCompleteName());
 	}
 

@@ -1,10 +1,7 @@
 package org.egso.provider.datamanagement.mapper;
 
 import java.io.ByteArrayInputStream;
-import java.util.Iterator;
-
 import javax.xml.parsers.SAXParser;
-
 import org.egso.provider.admin.ProviderMonitor;
 import org.egso.provider.datamanagement.archives.FTPArchive;
 import org.egso.provider.datamanagement.archives.MixedArchive;
@@ -23,7 +20,7 @@ import org.xml.sax.InputSource;
 /**
  *  TODO: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9.1 - 23/01/2004 [14/10/2003]
  */
 /*
@@ -88,8 +85,8 @@ public class FTPMapper extends Thread implements Mapper {
 			ProviderMonitor.getInstance().reportException(t);
 		}
 		// Adding all created masks in the FTPQuery object.
-		for (Iterator it = parser.getAllMasks().iterator() ; it.hasNext() ; ) {
-			ftp.addCommand(FTPQuery.DETAILED_LIST, new String[] {(String) it.next()});
+		for (String s:parser.getAllMasks()) {
+			ftp.addCommand(FTPQuery.DETAILED_LIST, new String[] {s});
 		}
 		// Adding the Log out command.
 		ftp.addCommand(FTPQuery.LOGOUT, null);

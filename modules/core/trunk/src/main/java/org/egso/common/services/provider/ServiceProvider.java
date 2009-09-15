@@ -6,7 +6,7 @@ import javax.activation.DataHandler;
 /**
  * Invoke a service to the provider. The result will be returned asynchronously.
  *
- * @author    Romain Linsolas.
+ * @author    Romain Linsolas (linsolas@gmail.com).
  * @version   1.1 - 08/09/2004 [07/09/2004]
  */
 /*

@@ -1,14 +1,12 @@
 package org.egso.votable.element;
 
-import java.util.Iterator;
-import java.util.Vector;
-import java.util.List;
+import java.util.*;
 
 
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9
  * @created    28 October 2003 0.9: 25/11/2003.
  */
@@ -495,9 +493,7 @@ public class Resource extends VOTableElement {
 	 * @param  inf  JAVADOC: The feature to be added to the Infos attribute
 	 */
 	public void addInfos(Info[] inf) {
-		for (int i = 0; i < inf.length; i++) {
-			info.add(inf[i]);
-		}
+	  info.addAll(Arrays.asList(inf));
 	}
 
 
@@ -517,9 +513,7 @@ public class Resource extends VOTableElement {
 	 * @param  cs  JAVADOC: The feature to be added to the Coosys attribute
 	 */
 	public void addCoosys(Coosys[] cs) {
-		for (int i = 0; i < cs.length; i++) {
-			coosys.add(cs[i]);
-		}
+		coosys.addAll(Arrays.asList(cs));
 	}
 
 
@@ -539,9 +533,7 @@ public class Resource extends VOTableElement {
 	 * @param  p  JAVADOC: The feature to be added to the Params attribute
 	 */
 	public void addParams(Param[] p) {
-		for (int i = 0; i < p.length; i++) {
-			param.add(p[i]);
-		}
+		param.addAll(Arrays.asList(p));
 	}
 
 
@@ -561,9 +553,7 @@ public class Resource extends VOTableElement {
 	 * @param  l  JAVADOC: The feature to be added to the Links attribute
 	 */
 	public void addLinks(Link[] l) {
-		for (int i = 0; i < l.length; i++) {
-			link.add(l[i]);
-		}
+		link.addAll(Arrays.asList(l));
 	}
 
 
@@ -583,9 +573,7 @@ public class Resource extends VOTableElement {
 	 * @param  t  JAVADOC: The feature to be added to the Tables attribute
 	 */
 	public void addTables(Table[] t) {
-		for (int i = 0; i < t.length; i++) {
-			table.add(t[i]);
-		}
+		table.addAll(Arrays.asList(t));
 	}
 
 
@@ -605,9 +593,7 @@ public class Resource extends VOTableElement {
 	 * @param  r  JAVADOC: The feature to be added to the Resources attribute
 	 */
 	public void addResources(Resource[] r) {
-		for (int i = 0; i < r.length; i++) {
-			resource.add(r[i]);
-		}
+		resource.addAll(Arrays.asList(r));
 	}
 
 

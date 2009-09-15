@@ -85,7 +85,7 @@ public class MonitorServlet extends HttpServlet {
 				out.println(sw.getBuffer());
 			}
 		}
-		out.println("<br/><br/><hr><p align=\"right\"><font size=\"-1\">EGSO Provider Monitor Servlet - " + VERSION + "<br/>" + "Romain LINSOLAS - " + DATE + "</font></p>");
+		out.println("<br/><br/><hr><p align=\"right\"><font size=\"-1\">EGSO Provider Monitor Servlet - " + VERSION + "<br/>" + "Romain Linsolas (linsolas@gmail.com) - " + DATE + "</font></p>");
 		out.println("</body></html>");
 	}
 

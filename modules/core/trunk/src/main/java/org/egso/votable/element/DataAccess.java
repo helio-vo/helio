@@ -8,7 +8,7 @@ import java.util.List;
  *  The DataAccess interface lists the main methods available to offer access to
  *  data stored in the &lt;TABLEDATA&gt; node of the VOTable.
  *
- * @author     Romain LINSOLAS.
+ * @author     Romain Linsolas (linsolas@gmail.com).
  * @version    0.9
  * @created    24 novembre 2003
  */

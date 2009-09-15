@@ -17,12 +17,12 @@ import org.xml.sax.InputSource;
 
 public class ArchiveManager {
 	
-	private Hashtable archives = null;
+	private Hashtable<String,Archive> archives = null;
 	
 	
 	public ArchiveManager() {
 		System.out.println("[Archive Manager] Initialization.");
-		archives = new Hashtable();
+		archives = new Hashtable<String,Archive>();
 		// TODO: Get the conf. file from Avalon.
 		try {
 //			ClassLoader cl = getClass().getClassLoader();
@@ -104,11 +104,11 @@ public class ArchiveManager {
 		return((Archive) archives.put(arc.getID(), arc));
 	}
 	
-	public Enumeration getArchivesNames() {
+	public Enumeration<String> getArchivesNames() {
 		return(archives.keys());
 	}
 	
-	public Enumeration getArchives() {
+	public Enumeration<Archive> getArchives() {
 		return(archives.elements());
 	}
 
@@ -125,10 +125,9 @@ public class ArchiveManager {
 	}
 	
 	public String contentToString() {
-		Archive arc = null;
 		StringBuffer sb = new StringBuffer("Content of the Archive Manager:\n");
-		for (Enumeration e = archives.elements() ; e.hasMoreElements() ; ) {
-			arc = (Archive) e.nextElement();
+		for (Enumeration<Archive> e = archives.elements() ; e.hasMoreElements() ; ) {
+			Archive arc = e.nextElement();
 			switch (arc.getType()) {
 				case Archive.FTP_ARCHIVE:
 						sb.append(((FTPArchive) arc).toString() + "\n");

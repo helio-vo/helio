@@ -16,8 +16,8 @@ public class SQLMappingObject implements MappingObject {
 	private String valueArchive = null;
 	private String[] intervalArchive = null;
 	private String[] concatArchive = null;
-	private Hashtable egso2archive = null;
-	private Hashtable archive2egso = null;
+	private Hashtable<String,String> egso2archive = null;
+	private Hashtable<String,String> archive2egso = null;
 	private int type = UNKNOWN;
 	private final static int UNKNOWN = -1;
 	private final static int VALUE = 0;
@@ -26,8 +26,8 @@ public class SQLMappingObject implements MappingObject {
 
 
 	public SQLMappingObject(Node node) {
-		egso2archive = new Hashtable();
-		archive2egso = new Hashtable();
+		egso2archive = new Hashtable<String,String>();
+		archive2egso = new Hashtable<String,String>();
 		init(node);
 	}
 	
@@ -132,15 +132,14 @@ public class SQLMappingObject implements MappingObject {
 			}
 		}
 		sb.append("MAPPING TABLE :\nEGSO -> ARCHIVE:\n");
-		String tmp = null;
-		for (Enumeration e = egso2archive.keys() ; e.hasMoreElements() ; ) {
-			tmp = (String) e.nextElement();
-			sb.append("\t" + tmp + " -> " + (String) egso2archive.get(tmp) + "\n");
+		for (Enumeration<String> e = egso2archive.keys() ; e.hasMoreElements() ; ) {
+			String tmp = e.nextElement();
+			sb.append("\t" + tmp + " -> " + egso2archive.get(tmp) + "\n");
 		}
 		sb.append("ARCHIVE -> EGSO:\n");
-		for (Enumeration e = archive2egso.keys() ; e.hasMoreElements() ; ) {
-			tmp = (String) e.nextElement();
-			sb.append("\t" + tmp + " -> " + (String) archive2egso.get(tmp) + "\n");
+		for (Enumeration<String> e = archive2egso.keys() ; e.hasMoreElements() ; ) {
+			String tmp = e.nextElement();
+			sb.append("\t" + tmp + " -> " + archive2egso.get(tmp) + "\n");
 		}
 		return (sb.toString());
 	}

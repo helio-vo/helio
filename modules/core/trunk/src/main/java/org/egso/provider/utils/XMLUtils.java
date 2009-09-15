@@ -8,7 +8,7 @@ import org.w3c.dom.NodeList;
 /**
  * This class regroups some static methods to work on XML nodes.
  * 
- * @author Romain Linsolas
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 0.2.2-jd - 27/05/2004 [28/11/2003]
  */
 /*

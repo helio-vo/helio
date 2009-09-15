@@ -37,7 +37,7 @@ public class QueryValidator {
 
     private final static int DELETE_ATTRIBUTE = 9;
 
-    private Vector rules = null;
+    private Vector<Node> rules = null;
 
     private String errorMessage = null;
 
@@ -50,7 +50,7 @@ public class QueryValidator {
 
     private void init() {
         xmlTools = XMLTools.getInstance();
-        rules = new Vector();
+        rules = new Vector<Node>();
         try {
             InputSource in = new InputSource(new FileInputStream(
                     (String) ProviderConfiguration.getInstance().getProperty(
@@ -74,12 +74,10 @@ public class QueryValidator {
     }
 
     public Object validate(Document document) {
-        Node rule = null;
         document = deleteParamRedundancies(document);
-        Node root = document.getDocumentElement();
         //  System.out.println(XMLUtils.nodeToString(root, ""));
-        for (Iterator it = rules.iterator(); it.hasNext();) {
-            rule = (Node) it.next();
+        for (Node rule:rules)
+        {
             if (!executeRule(rule, document)) {
                 return (errorMessage);
             }
@@ -294,6 +292,11 @@ public class QueryValidator {
 
     private Document deleteParamRedundancies(Document doc) {
         try {
+            
+            //TODO: fix this code
+            if(1==1)
+              throw new RuntimeException("FIXME FIXME FIXME");
+          
             //			System.out.println("=#= Deleting redundancies =#=");
             NodeList params = xmlTools.selectNodeList(doc.getDocumentElement(),
                     "//param");
@@ -301,20 +304,18 @@ public class QueryValidator {
             Node n2 = null;
             Node n3 = null;
             Node n4 = null;
-            Vector values = null;
             NodeList nl = null;
             NodeList nl2 = null;
             NodeList nl3 = null;
             String val = null;
-            Vector nodesToDelete = null;
             // Test all <param> nodes.
             for (int i = 0; i < params.getLength(); i++) {
                 n = params.item(i);
-                values = new Vector();
+                Vector values = new Vector();
                 //				System.out.println("Processing the PARAM " +
                 // n.getAttributes().getNamedItem("name").getNodeValue());
                 nl = n.getChildNodes();
-                nodesToDelete = new Vector();
+                Vector<Node> nodesToDelete = new Vector<Node>();
                 for (int j = 0; j < nl.getLength(); j++) {
                     n2 = nl.item(j);
                     boolean delete = false;
@@ -354,7 +355,7 @@ public class QueryValidator {
                                                 : 1] = val;
                                     }
                                 }
-                                Iterator it = values.iterator();
+                                Iterator<String[]> it = values.iterator();
                                 String[] tmp2 = null;
                                 while (it.hasNext() && (tmp != null)) {
                                     tmp2 = (String[]) it.next();

@@ -6,7 +6,7 @@ import javax.activation.DataHandler;
 /**
  *  TODO: Description of the Interface
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    1.0 - 26/11/2003 [14/10/2003].
  */
 public interface Connector {

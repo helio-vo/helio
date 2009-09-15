@@ -1,12 +1,12 @@
 package org.egso.votable.element;
 
-import java.util.List;
+import java.util.*;
 
 
 /**
  *  The VOTableRoot is the root element of a VOTable object.
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9
  * @created    28 October 2003
  */
@@ -318,9 +318,7 @@ public class VOTableRoot extends VOTableElement implements DataAccess {
 	 * @param  inf  Array of &lt;INFO&gt; nodes that must be added.
 	 */
 	public void addInfos(Info[] inf) {
-		for (int i = 0; i < inf.length; i++) {
-			info.add(inf[i]);
-		}
+		info.addAll(Arrays.asList(inf));
 	}
 
 
@@ -340,9 +338,7 @@ public class VOTableRoot extends VOTableElement implements DataAccess {
 	 * @param  res  The array of &lt;RESOURCE&gt; nodes that must be added.
 	 */
 	public void addResources(Resource[] res) {
-		for (int i = 0; i < res.length; i++) {
-			resource.add(res[i]);
-		}
+		resource.addAll(Arrays.asList(res));
 	}
 
 

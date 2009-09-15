@@ -8,7 +8,7 @@ import java.util.Calendar;
 /**
  * This class regroups some useful static methods.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0.1-jd - 01/06/2004 [11/12/2003]
  */
 /*

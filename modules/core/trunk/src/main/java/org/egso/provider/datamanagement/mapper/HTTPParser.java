@@ -19,7 +19,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 /**
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9.1 - 23/01/2004 [29/11/2003]
  */
 public class HTTPParser extends DefaultHandler {
@@ -393,8 +393,7 @@ public class HTTPParser extends DefaultHandler {
 	private void createFinalMasks() {
 		Vector<String> v = null;
 		Vector<Object[]> objects = new Vector<Object[]>();
-		String[] x = new String[valuesForFields.length];
-		objects.add(x);
+		objects.add(new String[valuesForFields.length]);
 		finalMasks = new Vector<String>();
 		Node n = null;
 		for (int i = 0 ; i < valuesForFields.length ; i++) {

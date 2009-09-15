@@ -1,12 +1,14 @@
 package org.egso.votable.element;
 
+import java.util.Arrays;
+
 import org.egso.votable.VOTableConstants;
 
 
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    1.0
  * @created    28 October 2003
  */
@@ -320,9 +322,7 @@ public class Field extends VOTableElement {
 	 * @param  v  JAVADOC: The feature to be added to the Values attribute
 	 */
 	public void addValues(Values[] v) {
-		for (int i = 0; i < v.length; i++) {
-			values.add(v[i]);
-		}
+	  values.addAll(Arrays.asList(v));
 	}
 
 
@@ -342,9 +342,7 @@ public class Field extends VOTableElement {
 	 * @param  l  JAVADOC: The feature to be added to the Links attribute
 	 */
 	public void addLinks(Link[] l) {
-		for (int i = 0; i < l.length; i++) {
-			link.add(l[i]);
-		}
+	  link.addAll(Arrays.asList(l));
 	}
 
 

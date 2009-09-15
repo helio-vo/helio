@@ -17,7 +17,7 @@ import org.egso.provider.admin.ProviderMonitor;
 /**
  * FTPSocket creates a Socket specific to FTP Servers connections.
  * 
- * @author Romain LINSOLAS
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 1.1 - 29/11/2003 [09/2001].
  **/
 public class FTPSocket {

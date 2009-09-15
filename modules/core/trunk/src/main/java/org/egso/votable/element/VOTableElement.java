@@ -7,7 +7,7 @@ import java.util.Vector;
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    1.0
  * @created    28 October 2003
  */

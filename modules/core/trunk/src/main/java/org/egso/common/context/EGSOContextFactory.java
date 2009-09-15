@@ -8,7 +8,7 @@ import java.net.UnknownHostException;
 /**
  * This class is dedicated to the creation of EGSOContext objects.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 20/09/2004 [20/09/2004]
  */
 /*

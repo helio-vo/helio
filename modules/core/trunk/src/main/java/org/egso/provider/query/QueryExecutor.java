@@ -2,13 +2,10 @@ package org.egso.provider.query;
 
 import java.io.ByteArrayInputStream;
 import java.io.StringReader;
-import java.util.Iterator;
 import java.util.Vector;
-
 import javax.activation.DataHandler;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.apache.log4j.Logger;
 import org.egso.common.context.EGSOContext;
 import org.egso.common.services.provider.ResponseQueryProvider;
@@ -63,7 +60,6 @@ public class QueryExecutor extends Thread {
         context.addRoute("Query Reception",
                 "The query has been received by the provider");
         // Creates the query as a XML Document.
-        Document doc = null;
         try {
             DocumentBuilderFactory facto = DocumentBuilderFactory.newInstance();
             builder = facto.newDocumentBuilder();
@@ -80,22 +76,22 @@ public class QueryExecutor extends Thread {
 
     public void run() {
         long start = System.currentTimeMillis();
-        Vector providerQueries = new Vector();
-        Vector results = new Vector();
+        Vector<Node> providerQueries = new Vector<Node>();
+        Vector<ProviderTable> results = new Vector<ProviderTable>();
         ProviderTable providerTable = null;
         ProviderTable finalResults = null;
         String resultsAsString = null;
         // Split query according to <group> elements
         providerQueries = splitQuery(queryDocument);
 
-        for (Iterator it = providerQueries.iterator(); it.hasNext();) {
+        for (Node tempQuery:providerQueries) {
             // Validate the query.
             //      System.out.println(XMLUtils.nodeToString(n, ""));
             //  Document qdoc = n.getOwnerDocument();
             //  NodeList tempnl = qdoc.getChildNodes();
             // System.out.println(tempnl.getLength());
             //  Object obj = queryValidator.validate((Document) it.next());
-            Node tempQuery = (Node) it.next();
+
             //   System.out.println(XMLUtils.nodeToString(simon, ""));
             Document resultDocument = null;
             try {
@@ -110,7 +106,7 @@ public class QueryExecutor extends Thread {
 
                 // If the validation was refused...
                 context.setType(EGSOContext.CONTEXT_RESULT);
-                providerTable = new ProviderTable(context, new Vector());
+                providerTable = new ProviderTable(context, new Vector<String>());
                 System.out.println("ERROR DURING VALIDATION: " + obj);
                 System.out.println(providerTable.createMessage(true));
                 logger.error("Error during the Validation of the query:"
@@ -132,7 +128,7 @@ public class QueryExecutor extends Thread {
                 providerTable = dataPresentationManager.query(pq);
                 // If no results was found...
                 if (providerTable == null) {
-                    providerTable = new ProviderTable(context, new Vector());
+                    providerTable = new ProviderTable(context, new Vector<String>());
                 } else {
                     results.add(providerTable);
                 }
@@ -160,11 +156,12 @@ public class QueryExecutor extends Thread {
         // Returning response.
         // Merge results
 
-        for (Iterator iterator = results.iterator(); iterator.hasNext();) {
+        for (ProviderTable pt:results)
+        {
             if (finalResults == null) {
-                finalResults = (ProviderTable) iterator.next();
+                finalResults = pt;
             } else {
-                finalResults.merge((ProviderTable) iterator.next());
+                finalResults.merge(pt);
             }
         }
         if (finalResults == null) {
@@ -196,8 +193,7 @@ public class QueryExecutor extends Thread {
      * @return Multiple queries not containing <group>elements, or input query
      *         if it does not contain <group>element
      */
-    private Vector splitQuery(Document queryDocument2) {
-        Vector queries = new Vector();
+    private Vector<Node> splitQuery(Document queryDocument2) {
         Node rootElement = queryDocument2.getDocumentElement();
         NodeList nodeList = rootElement.getChildNodes();
         Node dataNode = null; // Represents <data> element
@@ -206,17 +202,15 @@ public class QueryExecutor extends Thread {
         dataNode = getDataNode(nodeList);
         // Get children of <data> and identify <group> nodes/<param nodes>
         NodeList dataNodeList = dataNode.getChildNodes();
-        int paramInstances = getParamInstances(dataNodeList);
-        int groupInstances = getGroupInstances(dataNodeList);
-        if (groupInstances == 0) { // No <group> elements
+        if (getGroupInstances(dataNodeList) == 0) { // No <group> elements
             //queries.add(queryDocument2);
             rootElement = splitNobeyamaNode(rootElement);
+            Vector<Node> queries = new Vector<Node>();
             queries.add(rootElement);
             return queries;
         } else { // Contains <group> elements, query needs splitting
             skeleton = getSkeleton(rootElement);
-            queries = split(dataNodeList, skeleton, dataNode);
-            return queries;
+            return split(dataNodeList, skeleton, dataNode);
         }
     }
 
@@ -229,8 +223,8 @@ public class QueryExecutor extends Thread {
      *            Outline query without children of <data>
      * @return Multiple queries
      */
-    private Vector split(NodeList dataChildren, Node skeleton, Node dataNode) {
-        Vector queries = new Vector(); // Contains multiple queries generated
+    private Vector<Node> split(NodeList dataChildren, Node skeleton, Node dataNode) {
+        Vector<Node> queries = new Vector<Node>(); // Contains multiple queries generated
         // from the input
         Node commonParams = null; // common <data><param> elements
         //  Node data = skeleton.getLastChild(); // <data> element with no
@@ -316,7 +310,6 @@ public class QueryExecutor extends Thread {
     private Node getSkeleton(Node query) {
         Node queryClone = null;
         Node selectClone = null;
-        Node dataClone = null;
         queryClone = query.cloneNode(false);
         NodeList queryChildren = query.getChildNodes();
         for (int i = 0; i < queryChildren.getLength(); ++i) {
@@ -325,7 +318,7 @@ public class QueryExecutor extends Thread {
                 selectClone = queryChildren.item(i).cloneNode(true);
             } else if ((queryChildren.item(i).getNodeType() == Node.ELEMENT_NODE)
                     && (queryChildren.item(i).getNodeName().equals("data"))) {
-                dataClone = queryChildren.item(i).cloneNode(false);
+                //dataClone = queryChildren.item(i).cloneNode(false);
             }
         }
         queryClone.appendChild(selectClone);
@@ -359,6 +352,7 @@ public class QueryExecutor extends Thread {
      *            children of <data>
      * @return Number of <param>children
      */
+    @SuppressWarnings("unused")
     private int getParamInstances(NodeList dataChildren) {
         int tmpCount = 0;
         Node tmpNode = null;
@@ -404,12 +398,9 @@ public class QueryExecutor extends Thread {
     private Node splitNobeyamaNode(Node rootNode) {
         Document nobeyamaDocument = rootNode.getOwnerDocument();
         boolean cloneNodes = false; // Indicates whether to split query
-        Node instrumentValue;
         NamedNodeMap nodeMap = null;
         Node paramName = null;
-        Node paramChild = null;
         Node tmpNode = null;
-        Node tmpClone = null;
         NodeList rootChildren = rootNode.getChildNodes();
         // Get <data> element
         Node dataNode = getDataNode(rootChildren);

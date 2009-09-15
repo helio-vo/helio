@@ -6,7 +6,7 @@ import java.util.List;
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9
  * @created    28 October 2003 0.9: 25/11/2003.
  */

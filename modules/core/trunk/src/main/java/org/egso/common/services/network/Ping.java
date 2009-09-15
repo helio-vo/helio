@@ -4,7 +4,7 @@ package org.egso.common.services.network;
 /**
  * Tests the accessibility of a role.
  *
- * @author    Romain Linsolas.
+ * @author    Romain Linsolas (linsolas@gmail.com).
  * @version   1.0 - 15/09/2004 [15/09/2004]
  */
 /*

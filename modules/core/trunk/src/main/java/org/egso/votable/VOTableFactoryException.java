@@ -4,7 +4,7 @@ package org.egso.votable;
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS.
+ * @author     Romain Linsolas (linsolas@gmail.com).
  * @version    1.0
  * @created    25 November 2003
  */

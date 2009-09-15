@@ -16,7 +16,7 @@ import org.egso.provider.utils.ProviderUtils;
 /**
  * Main class of the provider system.
  * 
- * @author Romain Linsolas
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 2.0 - 21/10/2004 [01/10/2003]
  */
 public class Provider {

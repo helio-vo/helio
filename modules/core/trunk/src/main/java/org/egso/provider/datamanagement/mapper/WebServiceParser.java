@@ -23,7 +23,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 /**
  *
- * @author  Romain LINSOLAS
+ * @author  Romain Linsolas (linsolas@gmail.com)
  * @version 1.1.1 26/10/2004
  **/
 /*

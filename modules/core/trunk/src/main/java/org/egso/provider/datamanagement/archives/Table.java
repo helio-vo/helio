@@ -1,18 +1,14 @@
 package org.egso.provider.datamanagement.archives;
 
-
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
-
-
 
 /**
  * Object that maps a SQL Table.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 12/10/2004
  */
 public class Table extends SQLElement {
@@ -24,15 +20,15 @@ public class Table extends SQLElement {
 	/**
 	 * Fields of the table.
 	 */
-	private Hashtable fields = null;
+	private Hashtable<String,Field> fields = null;
 	/**
 	 * Links with others tables.
 	 */
-	private Vector links = null;
+	private Vector<Link> links = null;
 	/**
 	 * List of connected tables.
 	 */
-	private Hashtable connectedTables = null;
+	private Hashtable<String,Table> connectedTables = null;
 	/**
 	 * Base that contains the table.
 	 */
@@ -49,9 +45,9 @@ public class Table extends SQLElement {
 		super(SQLElement.TABLE);
 		name = tableName;
 		base = owner;
-		fields = new Hashtable();
-		links = new Vector();
-		connectedTables = new Hashtable();
+		fields = new Hashtable<String,Field>();
+		links = new Vector<Link>();
+		connectedTables = new Hashtable<String,Table>();
 	}
 
 
@@ -82,7 +78,7 @@ public class Table extends SQLElement {
 	 * @return           The Field or <code>null</code> if it doesn't exist.
 	 */
 	public Field getField(String fieldName) {
-		return ((Field) fields.get(fieldName));
+		return fields.get(fieldName);
 	}
 
 
@@ -91,8 +87,8 @@ public class Table extends SQLElement {
 	 *
 	 * @return   The links of the table.
 	 */
-	public List getLinks() {
-		return ((List) links);
+	public List<Link> getLinks() {
+		return links;
 	}
 
 
@@ -101,12 +97,10 @@ public class Table extends SQLElement {
 	 *
 	 * @return   List of connected tables.
 	 */
-	public List getConnectedTables() {
-		Vector v = new Vector();
-		for (Enumeration e = connectedTables.elements(); e.hasMoreElements(); ) {
-			v.add((Table) e.nextElement());
-		}
-		return ((List) v);
+	public List<Table> getConnectedTables() {
+		Vector<Table> v = new Vector<Table>();
+		v.addAll(connectedTables.values());
+		return v;
 	}
 
 
@@ -117,16 +111,13 @@ public class Table extends SQLElement {
 	 * @return       <code>true</code> if both tables are connected, <code>false</code>
 	 *      otherwise.
 	 */
-	public boolean isConnectedTo(String table) {
-		boolean found = false;
-		Link l = null;
-		Field f = null;
-		Iterator it = links.iterator();
-		while (!found && it.hasNext()) {
-			l = (Link) it.next();
-			found = l.getOtherField(name).getTable().getName().equals(table);
-		}
-		return (found);
+	public boolean isConnectedTo(String table)
+	{
+		for(Link l:links)
+			if(l.getOtherField(name).getTable().getName().equals(table))
+			  return true;
+
+		return false;
 	}
 
 
@@ -173,17 +164,16 @@ public class Table extends SQLElement {
 	 * @return       The link that connects the two tables, <code>null</code> if
 	 *      the tables are not linked.
 	 */
-	public Link linkWith(String table) {
-		boolean found = false;
-		Link l = null;
+	public Link linkWith(String table)
+	{
 		Field f = null;
-		Iterator it = links.iterator();
-		while (!found && it.hasNext()) {
-			l = (Link) it.next();
+		for(Link l:links)
+		{
 			f = l.getStart().getTable().getName().equals(name) ? l.getEnd() : l.getStart();
-			found = f.getTable().getName().equals(table);
+			if(f.getTable().getName().equals(table))
+			  return l;
 		}
-		return (found ? l : null);
+		return null;
 	}
 
 
@@ -194,16 +184,16 @@ public class Table extends SQLElement {
 	 */
 	public String toString() {
 		StringBuffer sb = new StringBuffer("TABLE " + name + "\n");
-		for (Enumeration e = fields.elements(); e.hasMoreElements(); ) {
+		for (Enumeration<Field> e = fields.elements(); e.hasMoreElements(); ) {
 			sb.append("\t" + ((Field) e.nextElement()).toString() + "\n");
 		}
 		sb.append("LINKS:\n");
-		for (Enumeration e = links.elements(); e.hasMoreElements(); ) {
-			sb.append("\t" + ((Link) e.nextElement()).toString() + "\n");
+		for (Link l:links) {
+			sb.append("\t" + l.toString() + "\n");
 		}
 		sb.append("DIRECT CONNECTION WITH:\n");
-		for (Enumeration e = connectedTables.keys(); e.hasMoreElements(); ) {
-			sb.append("\t" + (String) e.nextElement() + "\n");
+		for (Enumeration<String> e = connectedTables.keys(); e.hasMoreElements(); ) {
+			sb.append("\t" + e.nextElement() + "\n");
 		}
 		return (sb.toString());
 	}

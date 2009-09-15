@@ -14,7 +14,7 @@ import org.egso.provider.query.QueryEngine;
 /**
  * JAVADOC: Description of the Class
  * 
- * @author Romain Linsolas
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 1.0 - [10/02/2004]
  */
 public class ProviderSessionImpl implements Session {

@@ -1,12 +1,11 @@
 package org.egso.votable.element;
 
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9
  * @created    28 October 2003
  * 0.9: 24/11/2003.
@@ -36,9 +35,7 @@ public class TableData<E> extends VOTableElement<E> {
 	public TableData(Tr<E>[] tr) {
 		super("TABLEDATA");
 		trs = new VOTableSet<Tr<E>>(VOTableSet.TR, VOTableSet.ZERO_MANY_ELT);
-		for (int i = 0; i < tr.length; i++) {
-			trs.add(tr[i]);
-		}
+		trs.addAll(Arrays.asList(tr));
 	}
 
 

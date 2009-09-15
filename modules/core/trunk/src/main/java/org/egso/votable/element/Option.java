@@ -1,10 +1,12 @@
 package org.egso.votable.element;
 
+import java.util.Arrays;
+
 
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    1.0
  * @created    28 October 2003
  */
@@ -93,9 +95,7 @@ public class Option extends VOTableElement {
 	 * @param  o  JAVADOC: The feature to be added to the Options attribute
 	 */
 	public void addOptions(Option[] o) {
-		for (int i = 0; i < o.length; i++) {
-			option.add(o[i]);
-		}
+	  option.addAll(Arrays.asList(o));
 	}
 
 	/**

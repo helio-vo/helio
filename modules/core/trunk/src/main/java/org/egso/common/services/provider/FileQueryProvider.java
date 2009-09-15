@@ -4,7 +4,7 @@ package org.egso.common.services.provider;
 /**
  * Send a query to the provider. The result will be returned asynchronously.
  *
- * @author    Marco Soldati - Romain Linsolas.
+ * @author    Marco Soldati - Romain Linsolas (linsolas@gmail.com).
  * @version   2.0 - 23/09/2004 [27/11/2003]
  */
 /*

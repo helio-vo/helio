@@ -1,10 +1,8 @@
 package org.egso.provider.datamanagement.datapresentation;
 
 import java.io.File;
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Vector;
+import java.util.*;
+import java.util.Map.Entry;
 
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
@@ -36,7 +34,7 @@ import org.w3c.dom.NodeList;
 /**
  *  TODO: Description of the Class
  *
- *@author     Romain LINSOLAS
+ *@author     Romain Linsolas (linsolas@gmail.com)
  *@created    1.0 - [14/10/2003]
  */
 public class DataPresentationManager {
@@ -69,7 +67,7 @@ public class DataPresentationManager {
 		NodeList paramList = null;
 		Node queryNode = query.getQuery();
 		Node queryType = queryNode.getAttributes().getNamedItem("type");
-		Hashtable distribution = new Hashtable();
+		Hashtable<String,Node> distribution = new Hashtable<String,Node>();
 		Node queryData = query.getData().cloneNode(false);
 		String exception = null;
 		try {
@@ -92,7 +90,7 @@ public class DataPresentationManager {
 		Node skeleton = queryNode.cloneNode(false);
 		skeleton.appendChild(query.getSelect().cloneNode(true));
 		NodeList fieldNodes = query.getSelect().getChildNodes();
-		Vector fields = new Vector();
+		Vector<String> fields = new Vector<String>();
 		Node tmp = null;
 		for (int i = 0 ; i < fieldNodes.getLength() ; i++) {
 			tmp = fieldNodes.item(i);
@@ -132,7 +130,7 @@ public class DataPresentationManager {
 		Node param = null;
 		String paramName = null;
 		String valtmp = null;
-		Vector exclusiveDB = null;
+		Vector<String> exclusiveDB = null;
 //		System.out.println("SKELETON NODE:\n" + XMLUtils.nodeToString(skeleton));
 		for (int i = 0 ; i < paramList.getLength() ; i++) {
 			param = paramList.item(i);
@@ -165,7 +163,7 @@ public class DataPresentationManager {
 							distribution.put(archives[j], tmp);
 							if (exclusive) {
 								if (exclusiveDB == null) {
-									exclusiveDB = new Vector();
+									exclusiveDB = new Vector<String>();
 								}
 								exclusiveDB.add(archives[j]);
 //								System.out.println("Adding " + archives[j] + " concerning the param " + paramName);
@@ -178,13 +176,10 @@ public class DataPresentationManager {
 						// Get all values for this parameter.
 						// TODO: Consider the case with <interval>.
 						NodeList nl = param.getChildNodes();
-						Hashtable values = new Hashtable();
-						Vector genericValues = new Vector();
-						Node val = null;
-						Vector vect = null;
-						values.put("GENERIC", new Vector());
+						Hashtable<String,Vector<Node>> values = new Hashtable<String,Vector<Node>>();
+						values.put("GENERIC", new Vector<Node>());
 						for (int j = 0 ; j < nl.getLength() ; j++) {
-							val = nl.item(j);
+							Node val = nl.item(j);
 							if (val.getNodeType() == Node.ELEMENT_NODE) {
 								if (val.getNodeName().equals("value")) {
 									valtmp = val.getFirstChild().getNodeValue().trim().toUpperCase();
@@ -193,9 +188,9 @@ public class DataPresentationManager {
 										System.out.println("*WARNING*: No archive of the provider maps the field '" + paramName + "'='" + valtmp + "'.");
 									} else {
 										for (int k = 0 ; k < archives.length ; k++) {
-											vect = (Vector) values.get(archives[k]);
+											Vector<Node> vect = values.get(archives[k]);
 											if (vect == null) {
-												vect = new Vector();
+												vect = new Vector<Node>();
 											}
 											vect.add(val.cloneNode(true));
 											values.put(archives[k], vect);
@@ -203,26 +198,24 @@ public class DataPresentationManager {
 									}
 								} else {
 									// Add this node in the generic nodes list.
-									vect = (Vector) values.get("GENERIC");
+									Vector<Node> vect = values.get("GENERIC");
 									vect.add(val.cloneNode(true));
 									values.put("GENERIC", vect);
 								}
 							}
 						}
-						String key = null;
 						Node generic = param.cloneNode(false);
-						vect = (Vector) values.remove("GENERIC");
-						for (Iterator it = vect.iterator() ; it.hasNext() ; ) {
-							generic.appendChild((Node) it.next());
-						}
+						for(Node n:values.remove("GENERIC"))
+							generic.appendChild(n);
+
 						Node node = null;
-						for (Enumeration e = values.keys() ; e.hasMoreElements() ; ) {
-							key = (String) e.nextElement();
+						for (String key:values.keySet())
+						{
 							node = generic.cloneNode(true);
-							vect = (Vector) values.get(key);
-							for (Enumeration enu = vect.elements() ; enu.hasMoreElements() ; ) {
-								node.appendChild((Node) enu.nextElement());
-							}
+							Vector<Node> vect = (Vector<Node>) values.get(key);
+							for (Node n:vect)
+								node.appendChild(n);
+
 							Node x = (Node) distribution.get(key);
 							if (x == null) {
 								x = queryData.cloneNode(true);
@@ -250,9 +243,12 @@ public class DataPresentationManager {
 		Node specificQuery = null;
 		Node skel = null;
 		NodeList genericChildren = null;
-		for (Enumeration e = distribution.keys() ; e.hasMoreElements() ; ) {
-			idArchive = (String) e.nextElement();
-			specificQuery = (Node) distribution.get(idArchive);
+		
+		Hashtable<String,ProviderQuery> queries=new Hashtable<String,ProviderQuery>();
+		for (Entry<String,Node> e:distribution.entrySet())
+		{
+			idArchive = e.getKey();
+			specificQuery = e.getValue();
 			if (generic != null) {
 				genericChildren = generic.getChildNodes();
 				for (int i = 0 ; i < genericChildren.getLength() ; i++) {
@@ -261,7 +257,7 @@ public class DataPresentationManager {
 			}
 			skel = skeleton.cloneNode(true);
 			skel.appendChild(specificQuery);
-			distribution.put(idArchive, new ProviderQuery(ProviderQuery.QUERY, query.getContext(), skel, idArchive));
+			queries.put(idArchive, new ProviderQuery(ProviderQuery.QUERY, query.getContext(), skel, idArchive));
 		}
 /*
 		// Just some debug...
@@ -273,12 +269,11 @@ public class DataPresentationManager {
 */
 		// STEP 3: Select all Mappers (and Connectors) and start their execution.
 		Archive arc = null;
-		String id = null;
 		ThreadGroup group = new ThreadGroup("mappers");
 		ProviderTable table = null;
-		Vector results = new Vector();
-		for (Enumeration e = distribution.keys() ; e.hasMoreElements() ; ) {
-			id = (String) e.nextElement();
+		Vector<ProviderTable> results = new Vector<ProviderTable>();
+		for (String id:queries.keySet())
+		{
 			if ((exclusiveDB != null) && (!exclusiveDB.contains(id))) {
 				System.out.println("The archive " + id + " is not queried because of the lack of an exclusive parameter.");
 				continue;
@@ -288,37 +283,37 @@ public class DataPresentationManager {
 			table = new ProviderTable(query.getContext(), fields);
 			results.add(table);
 			if (arc.isFTP()) {
-				FTPMapper map = new FTPMapper(group, (ProviderQuery) distribution.get(id), (FTPArchive) arc, table);
+				FTPMapper map = new FTPMapper(group, queries.get(id), (FTPArchive) arc, table);
 				map.start();
 			} else {
 				if (arc.isSQL()) {
-					SQLMapper map = new SQLMapper(group, (ProviderQuery) distribution.get(id), (SQLArchive) arc, table);
+					SQLMapper map = new SQLMapper(group, queries.get(id), (SQLArchive) arc, table);
 					map.start();
 				} else {
 					if (arc.isWebServices()) {
-						WebServiceMapper map = new WebServiceMapper(group, (ProviderQuery) distribution.get(id), (WebServiceArchive) arc, table);
+						WebServiceMapper map = new WebServiceMapper(group, queries.get(id), (WebServiceArchive) arc, table);
 						map.start();
 					} else {
 						if (arc.isHTTP()) {
-							HTTPMapper map = new HTTPMapper(group, (ProviderQuery) distribution.get(id), (HTTPArchive) arc, table);
+							HTTPMapper map = new HTTPMapper(group, queries.get(id), (HTTPArchive) arc, table);
 							map.start();
 						} else {
 							if (arc.isMixed()) {
 								switch (arc.getMapperType()) {
 									case Archive.FTP_MAPPER:
-											FTPMapper ftpMap = new FTPMapper(group, (ProviderQuery) distribution.get(id), (MixedArchive) arc, table);
+											FTPMapper ftpMap = new FTPMapper(group, queries.get(id), (MixedArchive) arc, table);
 											ftpMap.start();
 										break;
 									case Archive.SQL_MAPPER:
-											SQLMapper sqlMap = new SQLMapper(group, (ProviderQuery) distribution.get(id), (MixedArchive) arc, table);
+											SQLMapper sqlMap = new SQLMapper(group, queries.get(id), (MixedArchive) arc, table);
 											sqlMap.start();
 										break;
 									case Archive.WEB_SERVICES_MAPPER:
-											WebServiceMapper wsMap = new WebServiceMapper(group, (ProviderQuery) distribution.get(id), (MixedArchive) arc, table);
+											WebServiceMapper wsMap = new WebServiceMapper(group, queries.get(id), (MixedArchive) arc, table);
 											wsMap.start();
 										break;
 									case Archive.HTTP_MAPPER:
-											HTTPMapper httpMap = new HTTPMapper(group, (ProviderQuery) distribution.get(id), (MixedArchive) arc, table);
+											HTTPMapper httpMap = new HTTPMapper(group, queries.get(id), (MixedArchive) arc, table);
 											httpMap.start();
 										break;
 									default:
@@ -332,6 +327,10 @@ public class DataPresentationManager {
 				}
 			}
 		}
+		
+		
+		//FIXME: activeCount() is only an estimate and not guaranteed to be correct. use .join() instead.
+		
 		// Wait until all threads (Mappers + Connectors) have finished their task.
 		int WAITING_TIME = 100 ;
 		long x = 0 ;
@@ -367,20 +366,16 @@ public class DataPresentationManager {
 
 	public DataHandler fetchFiles(ProviderQuery query) {
 		NodeList files = query.getFiles().getChildNodes();
-		NodeList nl = null;
-		Node tmp = null;
-		Node file = null;
-		Vector explicitLinks = new Vector();
-		Vector abstractLinks = new Vector();
-		String filename = null;
+		Vector<String> explicitLinks = new Vector<String>();
+		Vector<String> abstractLinks = new Vector<String>();
 		for (int i = 0 ; i < files.getLength() ; i++) {
-			tmp = files.item(i);
+			Node tmp = files.item(i);
 			if ((tmp.getNodeType() == Node.ELEMENT_NODE) && (tmp.getNodeName().equals("file"))) {
-				nl = tmp.getChildNodes();
+				NodeList nl = tmp.getChildNodes();
 				for (int j = 0 ; j < nl.getLength() ; j++) {
-					file = nl.item(j);
+					Node file = nl.item(j);
 					if (file.getNodeType() == Node.TEXT_NODE) {
-						filename = file.getNodeValue().trim();
+						String filename = file.getNodeValue().trim();
 						if (filename.startsWith("egso:")) {
 							abstractLinks.add(filename);
 						} else {
@@ -392,40 +387,41 @@ public class DataPresentationManager {
 		}
 		System.out.println(explicitLinks.size() + " explicit file(s), and " + abstractLinks.size() + " abstract file(s) to retrieve.");
 		// Manage explicit links.
-		String archive = null;
-		Hashtable queries = new Hashtable();
-		Vector v = null;
-		for (Iterator it = explicitLinks.iterator() ; it.hasNext() ; ) {
-			filename = (String) it.next();
-			archive = routeTable.getArchiveForFile(filename);
-			v = (Vector) queries.get(archive);
+		Hashtable<String,Vector<String>> queries = new Hashtable<String,Vector<String>>();
+		for (String filename:explicitLinks)
+		{
+			String archive = routeTable.getArchiveForFile(filename);
+			Vector<String> v = queries.get(archive);
 			if (v == null) {
-				v = new Vector();
+				v = new Vector<String>();
 			}
 			v.add(filename);
 			queries.put(archive, v);
 		}
+		
 		// Manage abstract links.
 		// NOT IMPLEMENTED YET.
-		for (Iterator it = abstractLinks.iterator() ; it.hasNext() ; ) {
-			System.out.println("Abstract link '" + (String) it.next() + "' not accessible yet [FEATURE NOT IMPLEMENTED].");
+		for (String link:abstractLinks)
+		{
+			System.out.println("Abstract link '" + link + "' not accessible yet [FEATURE NOT IMPLEMENTED].");
 		}
+		
 		// Create queries to retrieve files.
 		Archive arc = null;
 		ThreadGroup group = new ThreadGroup("files");
-		Vector receivedFiles = new Vector();
+		Vector<String> receivedFiles = new Vector<String>();
 		// TODO: THREAD THAT !!!!!
-		for (Enumeration en = queries.keys() ; en.hasMoreElements() ; ) {
-			archive = (String) en.nextElement();
-			v = (Vector) queries.get(archive);
+		for (String archive:queries.keySet())
+		{
+			Vector<String> v = queries.get(archive);
 			arc = archiveManager.getArchive(archive);
 			if (arc.isFTP()) {
 				FTPQuery ftp = new FTPQuery();
 				FTPArchive ftpArc = (FTPArchive) arc;
 				ftp.addCommand(FTPQuery.LOGIN, new String[] {ftpArc.getUser(), ftpArc.getPassword()});
 				ftp.addCommand(FTPQuery.CHDIR, new String[] {ftpArc.getRootPath()});
-				for (Iterator it = v.iterator() ; it.hasNext() ; ) {
-					filename = (String) it.next();
+				for (String filename:v)
+				{
 					ftp.addCommand(FTPQuery.GET, new String[] {filename.substring(47), filename.substring(23)});
 					receivedFiles.add(filename.substring(47));
 				}
@@ -456,20 +452,16 @@ public class DataPresentationManager {
 		logger.info("Total execution time for ALL queries: " + (x / 60000) + "m" + ((x % 60000) / 1000) + "s.") ;
 		// Compression of files.
 		System.out.println("Creation of ZIP file");
-		String[] toZip = new String[receivedFiles.size()];
-		int i = 0;
-		for (Iterator it = receivedFiles.iterator() ; it.hasNext() ; ) {
-			toZip[i] = (String) it.next();
-			i++;
-		}
+		String[] toZip = receivedFiles.toArray(new String[0]);		
 		String nameOfZippedFile = "egso-result-" + Math.round(Integer.MAX_VALUE * Math.random()) + ".zip";
 		Compression.zipFiles(toZip, nameOfZippedFile);
 		// Deletion of files.
 		File f = null;
-		for (i = 0 ; i < toZip.length ; i++) {
-			f = new File(toZip[i]);
+		for (String fn:toZip)
+		{
+			f = new File(fn);
 			f.delete();
-			System.out.println(toZip[i] + " deleted.");
+			System.out.println(fn + " deleted.");
 		}
 		return (new DataHandler(new FileDataSource(nameOfZippedFile)));
 	}

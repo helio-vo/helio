@@ -1,15 +1,12 @@
 package org.egso.votable.element;
 
-import java.util.Collection;
-import java.util.List;
-import java.util.Iterator;
-import java.util.Vector;
+import java.util.*;
 
 
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version 0.9
  * @created    28 October 2003
  * 0.9 25/11/2003.
@@ -50,9 +47,7 @@ public class Tr<E> extends VOTableElement<Td<E>> {
 	public Tr(Td<E>[] td) {
 		super("TR");
 		tds = new VOTableSet<Td<E>>(VOTableSet.TD, VOTableSet.MANY_ELT);
-		for (int i = 0; i < td.length ; i++) {
-			tds.add(td[i]);
-		}
+		tds.addAll(Arrays.asList(td));
 	}
 
 

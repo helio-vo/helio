@@ -17,7 +17,7 @@ import javax.xml.parsers.SAXParserFactory;
  *  The VOTableFactory creates VOTable structures from different kind of input
  *  sources (InputSource, file, String).
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9.1 - 03/12/2003 [25/11/2003]
  */
 /*

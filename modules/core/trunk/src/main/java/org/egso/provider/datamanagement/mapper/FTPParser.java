@@ -1,9 +1,7 @@
 package org.egso.provider.datamanagement.mapper;
 
 import java.text.MessageFormat;
-import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.Stack;
 import java.util.Vector;
 
@@ -28,16 +26,14 @@ import org.xml.sax.helpers.DefaultHandler;
  */
 public class FTPParser extends DefaultHandler {
 
-	private Stack stack = null;
-	private Stack paramName = null;
+	private Stack<String> stack = null;
+	private Stack<String> paramName = null;
 	private final int DATA = 0;
 	private final int PARAM = 1;
 	private final int VALUE = 2;
 	private final int INTERVAL = 3;
 	private final int START = 4;
 	private final int END = 5;
-	private final String AND = "AND";
-	private final String OR = "OR";
 	private final String[] tagNames = {"data", "param", "value", "interval", "start", "end"};
 	private final String[][] acceptedList = {{"param"}, {"param", "value", "interval"}, {}, {"start", "end"}, {}, {}};
 	private String[] acceptedNodes = null;
@@ -45,28 +41,27 @@ public class FTPParser extends DefaultHandler {
 	private boolean gotTheValue = false;
 	private int intervalStartEnd = 0;
 	private String currentNode = null;
-	private Vector dates = null;
-	private Vector instruments = null;
-	private Vector finalMasks = null;
+	private Vector<StringBuffer[]> dates = null;
+	private Vector<String> finalMasks = null;
 	private String mask = null;
 	private StringBuffer[] dateInterval = null;
-	private Vector[] valuesForFields = null;
+	private Vector<String>[] valuesForFields = null;
 	private Node mappingNode = null;
-	private Vector exceptions = null;
+	private Vector<String> exceptions = null;
 	private XMLTools xmlTools = null;
 	private StringBuffer temporateValue = null;
 
 
-	public FTPParser(String genericMask, int number, Node mapping) {
-		paramName = new Stack();
-		stack = new Stack();
-		dates = new Vector();
-		instruments = new Vector();
-		finalMasks = new Vector();
+	@SuppressWarnings("unchecked")
+  public FTPParser(String genericMask, int number, Node mapping) {
+		paramName = new Stack<String>();
+		stack = new Stack<String>();
+		dates = new Vector<StringBuffer[]>();
+		finalMasks = new Vector<String>();
 		mask = genericMask;
 		valuesForFields = new Vector[number];
 		mappingNode = mapping;
-		exceptions = new Vector();
+		exceptions = new Vector<String>();
 		xmlTools = XMLTools.getInstance();
 	}
 
@@ -75,11 +70,11 @@ public class FTPParser extends DefaultHandler {
 	 *
 	 * @return All FTP masks created during the parsing.
 	 **/
-	public Vector getAllMasks() {
+	public Vector<String> getAllMasks() {
 		return (finalMasks);
 	}
 	
-	public Vector getExceptions() {
+	public Vector<String> getExceptions() {
 		return (exceptions);
 	}
 
@@ -117,9 +112,9 @@ public class FTPParser extends DefaultHandler {
 						// n2 contains the information to map the value into an archive-specific value...
 						// Get the mapped value, and add it into the corresponding Vector.
 						int index = Integer.parseInt(n.getAttributes().getNamedItem("index").getNodeValue());
-						Vector v = valuesForFields[index];
+						Vector<String> v = valuesForFields[index];
 						if (v == null) {
-							v = new Vector();
+							v = new Vector<String>();
 						}
 						v.add(n2.getAttributes().getNamedItem("value").getNodeValue());
 						valuesForFields[index] = v;
@@ -282,7 +277,6 @@ public class FTPParser extends DefaultHandler {
 		currentNode = qName;
 		int tag = getTag(qName);
 		acceptedNodes = acceptedList[tag];
-		String tmp = null;
 		switch(tag) {
 			case PARAM:
 					paramName.push(atts.getValue("name"));
@@ -318,16 +312,13 @@ public class FTPParser extends DefaultHandler {
 	}
 
 
-	private Vector addObjects(Vector objects, Vector values, int index) {
-		Vector v = new Vector();
-		String val = null;
-		Object[] tmp = null;
+	private Vector<Object[]> addObjects(Vector<Object[]> objects, Vector<String> values, int index) {
+		Vector<Object[]> v = new Vector<Object[]>();
 		// For all values...
-		for (Iterator it = values.iterator() ; it.hasNext() ; ) {
-			val = (String) it.next();
+		for (String val:values) {
 			// And for all existing objects list for masks...
-			for (Iterator it2 = objects.iterator() ; it2.hasNext() ; ) {
-				tmp = (Object[]) ((Object[]) it2.next()).clone();
+			for (Object[] arr:objects) {
+				Object[] tmp = (Object[]) arr.clone();
 				tmp[index] = val;
 				// Add the list of objects with the new value.
 				v.add(tmp);
@@ -336,16 +327,11 @@ public class FTPParser extends DefaultHandler {
 		return (v);
 	}
 
-	private Vector addDates(Vector objects) {
+	private Vector<String> addDates(Vector<Object[]> objects) {
 		// Create all dates masks.
-		StringBuffer[] tempo = null;
-		Vector datesMasks = new Vector();
-		String ins = null;
-		for (Iterator it = dates.iterator() ; it.hasNext() ; ) {
-			tempo = (StringBuffer[]) it.next();
-			for (Iterator it2 = getDateIntervals(tempo[0].toString().substring(0, 10), "YYYY-MM-DD", tempo[1].toString().substring(0, 10), "YYYY-MM-DD", "YYYYMMDD").iterator() ; it2.hasNext() ; ) {
-				datesMasks.add((String) it2.next());
-			}
+		Vector<String> datesMasks = new Vector<String>();
+		for (StringBuffer[] tempo:dates) {
+		  datesMasks.addAll(getDateIntervals(tempo[0].toString().substring(0, 10), "YYYY-MM-DD", tempo[1].toString().substring(0, 10), "YYYY-MM-DD", "YYYYMMDD"));
 		}
 		// Get mapping information.
 		Node dateNode = null;
@@ -359,26 +345,20 @@ public class FTPParser extends DefaultHandler {
 			System.out.println("[DEBUG - FTPParser]: No DATE node found on XML description");
 		}
 		NodeList nl = dateNode.getChildNodes() ;
-		Node n = null;
-		int index = 0;
-		String format = null;
-		Object[] tmp = null;
-		String msk = null;
 		// Get all format information for dates.
 		String[] formats = new String[valuesForFields.length];
 		for (int i = 0 ; i < nl.getLength() ; i++) {
-			n = nl.item(i);
+			Node n = nl.item(i);
 			if ((n.getNodeType() == Node.ELEMENT_NODE) && (n.getNodeName().equals("value"))) {
-				index = Integer.parseInt(n.getAttributes().getNamedItem("index").getNodeValue());
+				int index = Integer.parseInt(n.getAttributes().getNamedItem("index").getNodeValue());
 				formats[index] = n.getAttributes().getNamedItem("format").getNodeValue();
 			}
 		}
 		// Create masks.
-		Vector temporaryMasks = new Vector();
-		for (Iterator it = datesMasks.iterator() ; it.hasNext() ; ) {
-			msk = (String) it.next();
+		Vector<Object[]> temporaryMasks = new Vector<Object[]>();
+		for (String msk:datesMasks) {
 			for (int i = 0 ; i < objects.size() ; i++) {
-				tmp = (Object[]) objects.get(i);
+				Object[] tmp = (Object[]) objects.get(i);
 				for (int j = 0 ; j < formats.length ; j++) {
 					if (formats[j] != null) {
 						tmp[j] = Conversion.convertDate("YYYYMMDD", formats[j], msk);
@@ -388,18 +368,17 @@ public class FTPParser extends DefaultHandler {
 			}
 		}
 		// Create masks with MessageFormat.
-		for (Iterator it = temporaryMasks.iterator() ; it.hasNext() ; ) {
-			finalMasks.add(MessageFormat.format(mask, (Object[]) it.next()));
+		for (Object[] o:temporaryMasks)
+		{
+			finalMasks.add(MessageFormat.format(mask,o));
 		}
 		return(finalMasks);
 	}
 
 	private void createFinalMasks() {
-		Vector v = null;
-		Vector objects = new Vector();
-		String[] x = new String[valuesForFields.length];
-		objects.add(x);
-		finalMasks = new Vector();
+		Vector<Object[]> objects = new Vector<Object[]>();
+		objects.add(new String[valuesForFields.length]);
+		finalMasks = new Vector<String>();
 		Node n = null;
 		for (int i = 0 ; i < valuesForFields.length ; i++) {
 			try {
@@ -408,13 +387,13 @@ public class FTPParser extends DefaultHandler {
 				ProviderMonitor.getInstance().reportException(e);
 				e.printStackTrace();
 			}
-			v = valuesForFields[i];
+			Vector<String> v = valuesForFields[i];
 			if (v == null) {
 				if (n == null) {
 					// Case of DATE -> Managed by addDates (after the loop FOR).
 				} else {
 					// Case of parameter without values. Adding the value with "?".
-					Vector tmpVect = new Vector();
+					Vector<String> tmpVect = new Vector<String>();
 					tmpVect.add(n.getAttributes().getNamedItem("none").getNodeValue());
 					objects = addObjects(objects, tmpVect, i);
 				}
@@ -443,7 +422,8 @@ public class FTPParser extends DefaultHandler {
 	 * @param format Format for output dates.
 	 * @return Vector that contains all created masks.
 	 */
-	private Vector getDateIntervals(String begin, String beginFormat, String end, String endFormat, String format) {
+	@SuppressWarnings("unchecked")
+  private Vector<String> getDateIntervals(String begin, String beginFormat, String end, String endFormat, String format) {
 		// Determination des jours, mois et annees de l'intervalle considere.
 		int annee1 = Integer.parseInt(Conversion.convertDate(beginFormat, "YYYY", begin));
 		int mois1 = Integer.parseInt(Conversion.convertDate(beginFormat, "MM", begin));
@@ -453,16 +433,16 @@ public class FTPParser extends DefaultHandler {
 		int jour2 = Integer.parseInt(Conversion.convertDate(endFormat, "DD", end));
 		// Premiere etape : creation d'un noeud - dates - contenant l'arbre des
 		// dates. Cet arbre sera ensuite parcouru pour creer les chaines de dates.
-		Hashtable datesTable = new Hashtable();
-		Hashtable year = new Hashtable();
-		Vector month = new Vector();
+		Hashtable<String,Object> datesTable = new Hashtable<String,Object>();
+		Hashtable<String,Vector<String>> year = new Hashtable<String,Vector<String>>();
+		Vector<String> month = new Vector<String>();
 		int dM;
 		int fM;
 		int dJ;
 		int fJ = 0;
 		// Traitement de l'annee.
 		for (int a = annee1; a <= annee2; a++) {
-			year = new Hashtable();
+			year = new Hashtable<String,Vector<String>>();
 			dM = 1;
 			fM = 12;
 			if (annee1 == annee2) {
@@ -479,7 +459,7 @@ public class FTPParser extends DefaultHandler {
 			}
 			// Traitement du mois.
 			for (int m = dM; m <= fM; m++) {
-				month = new Vector();
+				month = new Vector<String>();
 				dJ = 1;
 				fJ = nbDays(m, a);
 				if (annee1 == annee2) {
@@ -517,10 +497,6 @@ public class FTPParser extends DefaultHandler {
 			datesTable.put("" + a, year);
 		}
 //		System.out.println("TEST OF THE CONTENT OF DATES TABLE:");
-		String key = null;
-		String key2 = null;
-		Vector jours = null;
-		Hashtable tableTmp = null;
 /*
 		for (Enumeration el = datesTable.keys() ; el.hasMoreElements() ; ) {
 			key = (String) el.nextElement();
@@ -539,19 +515,18 @@ public class FTPParser extends DefaultHandler {
 		System.out.println("Optimization of masks...");
 */
 		// Optimize masks using ? characters for dates...
-		for (Enumeration e = datesTable.keys() ; e.hasMoreElements() ; ) {
-			key = (String) e.nextElement();
-			tableTmp = (Hashtable) datesTable.get(key);
+		for (String key:datesTable.keySet()) {
+			Hashtable<String,Object> tableTmp = (Hashtable<String,Object>) datesTable.get(key);
 			// Is it a complete year? If yes, then there are 12 months, and the
 			// first and last months have 31 days (ie elements).
-			if ((tableTmp.size() == 12) && (((Vector) tableTmp.get("01")).size() == 31) && (((Vector) tableTmp.get("12")).size() == 31)) {
+			if ((tableTmp.size() == 12) && (((Vector<String>) tableTmp.get("01")).size() == 31) && (((Vector<String>) tableTmp.get("12")).size() == 31)) {
 //				System.out.println("XXX Year " + key + " is complete!");
 				datesTable.put(key, new String[] {"??", "??"});
 			} else {
 				// Now, manage months...
-				for (Enumeration e2 = tableTmp.keys() ; e2.hasMoreElements() ; ) {
-					key2 = (String) e2.nextElement();
-					jours = (Vector) tableTmp.get(key2);
+				for (String key2:tableTmp.keySet())
+				{
+					Vector<String> jours = (Vector<String>) tableTmp.get(key2);
 					// Is it a complete month, ie the number of element = numberOfDays.
 					if (jours.size() == nbDays(Integer.parseInt(key2), Integer.parseInt(key))) {
 //						System.out.println("XXX Month " + key2 + " is complete!");
@@ -560,7 +535,7 @@ public class FTPParser extends DefaultHandler {
 					} else {
 						dJ = Integer.parseInt((String) jours.firstElement());
 						fJ = Integer.parseInt((String) jours.lastElement());
-						Vector newDays = new Vector();
+						Vector<String> newDays = new Vector<String>();
 						// Traitement du 0?
 						if ((dJ == 1) && (fJ >= 9)) {
 //							System.out.println("XXX We have 0?");
@@ -616,18 +591,14 @@ public class FTPParser extends DefaultHandler {
 			}
 		}
 		
-		Vector allMasks = new Vector();
-		Object obj = null;
-		String tmp = null;
+		Vector<String> allMasks = new Vector<String>();
 //		System.out.println("**NEW** CONTENT OF DATES TABLE:");
-		for (Enumeration el = datesTable.keys() ; el.hasMoreElements() ; ) {
-			key = (String) el.nextElement();
+		for (String key:datesTable.keySet()) {
 //			System.out.println("YEAR=" + key);
-			obj = datesTable.get(key);
-			if (obj instanceof Hashtable) {
-				tableTmp = (Hashtable) obj;
-				for (Enumeration el2 = tableTmp.keys() ; el2.hasMoreElements() ; ) {
-					key2 = (String) el2.nextElement();
+			Object obj = datesTable.get(key);
+			if (obj instanceof Hashtable<?,?>) {
+				Hashtable<String,Object> tableTmp = (Hashtable<String,Object>) obj;
+				for (String key2:tableTmp.keySet()) {
 //					System.out.print("\tMONTH=" + key2 + "\n\t\t");
 					obj = tableTmp.get(key2);
 					if (obj instanceof String) {
@@ -635,11 +606,11 @@ public class FTPParser extends DefaultHandler {
 						allMasks.add(key + key2 + ((String) obj));
 //						System.out.println((String) obj);
 					} else {
-						jours = (Vector) obj;
-						for (Iterator it = jours.iterator() ; it.hasNext() ; ) {
+						Vector<String> jours = (Vector<String>) obj;
+						for (String s:jours) {
 //							tmp = (String) it.next();
 //							allMasks.add(new String[] {key, key2, tmp});
-							allMasks.add(key + key2 + ((String) it.next()));
+							allMasks.add(key + key2 + s);
 //							System.out.print(tmp + " ");
 						}
 //						System.out.println();
@@ -647,7 +618,7 @@ public class FTPParser extends DefaultHandler {
 				}
 			} else {
 				String[] tmpStr = (String[]) obj;
-				allMasks.add(new String[] {key, tmpStr[0], tmpStr[1]});
+				allMasks.add(key+ tmpStr[0]+ tmpStr[1]);
 //				System.out.println("\t" + tmpStr[0] + ", " + tmpStr[1]);
 			}
 		}

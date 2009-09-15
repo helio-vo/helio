@@ -4,7 +4,7 @@ package org.egso.votable;
 /**
  *  List of constants (data types) used in VOTables.
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    1.0
  * @created    25 November 2003
  */

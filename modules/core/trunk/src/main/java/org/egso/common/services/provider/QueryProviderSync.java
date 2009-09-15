@@ -4,15 +4,15 @@ package org.egso.common.services.provider;
  * Sends a query to the provider and wait for a result. It also allows the
  * invokation of CoSEC services (temporary solution).
  *
- * @author    Marco Soldati & Romain Linsolas
+ * @author    Marco Soldati & Romain Linsolas (linsolas@gmail.com)
  * @version   1.1.1-jd - 15/06/2004 [27/11/2003]
  */
 /*
 2.0 - 23/09/2004:
 	Definition of the new homogeneized interface.
-1.1.1 - 08/09/2004 [Romain Linsolas]:
+1.1.1 - 08/09/2004 [Romain Linsolas (linsolas@gmail.com)]:
 	Removing the getFiles method, which has never been implemented in a SYNCHRONOUS mode.
-1.1 - 15/06/2004 [Romain Linsolas]:
+1.1 - 15/06/2004 [Romain Linsolas (linsolas@gmail.com)]:
 	Integration of the Context.
 */
 public interface QueryProviderSync {

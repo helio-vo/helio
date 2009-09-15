@@ -33,11 +33,11 @@ import org.xml.sax.helpers.DefaultHandler;
 /**
  *  JAVADOC: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    1.0
  * @created    29 October 2003
  */
-public class VOTableParser extends DefaultHandler {
+public class VOTableParser<E> extends DefaultHandler {
 
 	/**
 	 *  JAVADOC: Description of the Field
@@ -149,11 +149,11 @@ public class VOTableParser extends DefaultHandler {
 	/**
 	 *  JAVADOC: Description of the Field
 	 */
-	private Stack<VOTableElement> stack = null;
+	private Stack<VOTableElement<E>> stack = null;
 	/**
 	 *  JAVADOC: Description of the Field
 	 */
-	private VOTableElement current = null;
+	private VOTableElement<E> current = null;
 	/**
 	 *  JAVADOC: Description of the Field
 	 */
@@ -164,7 +164,7 @@ public class VOTableParser extends DefaultHandler {
 	 *  JAVADOC: Constructor for the VOTableParser object
 	 */
 	public VOTableParser() {
-		stack = new Stack<VOTableElement>();
+		stack = new Stack<VOTableElement<E>>();
 	}
 
 	public VOTableRoot getVOTable() {
@@ -251,7 +251,7 @@ public class VOTableParser extends DefaultHandler {
 								((Link) current).setContent(tmp);
 								break;
 							case TD:
-								((Td) current).setContent(tmp);
+								((Td<E>) current).setContent(tmp);
 								break;
 							case STREAM:
 								((Stream) current).setContent(tmp);
@@ -265,7 +265,7 @@ public class VOTableParser extends DefaultHandler {
 		} else {
 			if (!tmp.equals("")) {
 				if (getTag(current.getTagName()) == TD) {
-					((Td) current).setContent(((Td) current).getContent() + tmp);
+					((Td<E>) current).setContent(((Td<E>) current).getContent() + tmp);
 				} else {
 					System.out.println("Warning: The following characters are not allowed here: '" + tmp + "'");
 				}
@@ -303,9 +303,9 @@ public class VOTableParser extends DefaultHandler {
 	public void endElement(String namespaceURI, String localName, String qName)
 			 throws SAXException {
 //		System.out.println("endElement: </" + localName + ">");
-		VOTableElement tmp = current;
+		VOTableElement<E> tmp = current;
 		int typeChild = getTag(current.getTagName());
-		current = (VOTableElement) stack.pop();
+		current = (VOTableElement<E>) stack.pop();
 		switch (getTag(current.getTagName())) {
 						case VOTABLE:
 							switch (typeChild) {
@@ -445,7 +445,7 @@ public class VOTableParser extends DefaultHandler {
 						case DATA:
 							switch (typeChild) {
 											case TABLEDATA:
-												((Data) current).setTableData((TableData) tmp);
+												((Data) current).setTableData((TableData<E>) tmp);
 												break;
 											case BINARY:
 												((Data) current).setBinary((Binary) tmp);
@@ -459,14 +459,14 @@ public class VOTableParser extends DefaultHandler {
 							break;
 						case TABLEDATA:
 							if (typeChild == TR) {
-								((TableData) current).addTr((Tr) tmp);
+								((TableData<E>) current).addTr((Tr<E>) tmp);
 							} else {
 								System.out.println("ERROR: A '" + tmp.getTagName() + "' element can't be added to TABLEDATA element.");
 							}
 							break;
 						case TR:
 							if (typeChild == TD) {
-								((Tr) current).addTd((Td) tmp);
+								((Tr<E>) current).addTd((Td<E>) tmp);
 							} else {
 								System.out.println("ERROR: A '" + tmp.getTagName() + "' element can't be added to TR element.");
 							}

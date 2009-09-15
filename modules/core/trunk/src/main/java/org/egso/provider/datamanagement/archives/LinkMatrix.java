@@ -1,16 +1,13 @@
 package org.egso.provider.datamanagement.archives;
 
-
-import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
 import java.util.Vector;
 
-
 /**
  * The Link Matrix object creates and keeps all information related with the Links.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 18/10/2004
  */
 public class LinkMatrix {
@@ -20,7 +17,7 @@ public class LinkMatrix {
 	 * To avoid occurences, we are only filling the first half of the Matrix, i.e.
 	 * the cases matrix[x][y] where x &lt; y.
 	 */
-	private Stack[][] matrix = null;
+	private Stack<Link>[][] matrix = null;
 	/**
 	 * The list of Tables.
 	 */
@@ -36,27 +33,28 @@ public class LinkMatrix {
 	 *
 	 * @param base  Base for which one a LinkMatrix will be created.
 	 */
-	LinkMatrix(Base base) {
-		List l = base.getTables();
+	@SuppressWarnings("unchecked")
+  LinkMatrix(Base base) {
+		List<Table> l = base.getTables();
 		size = l.size();
 		matrix = new Stack[size][size];
 		tables = new Table[size];
-		Table t = null;
 		for (int i = 0; i < size; i++) {
 			tables[i] = (Table) l.get(i);
 		}
 		int left = (size * (size - 1)) / 2;
 		boolean finished = false;
 		int depth = 1;
-		Stack stack = null;
 		while (!finished && (left > 0)) {
 			int found = 0;
 //			System.out.println("Finding at depth " + depth + ", " + left + " links left.");
 			// For all tables...
-			for (Iterator it = l.iterator(); it.hasNext(); ) {
+			for (Table t:l)
+			{
 				// For all routes from this table, with a maximal depth of 'depth'...
-				for (Iterator it2 = getAllLinks((Table) it.next(), depth, new Vector(), new Stack(), new Vector()).iterator(); it2.hasNext(); ) {
-					if (addRoute((Stack) it2.next())) {
+				for (Stack<Link> link:getAllLinks(t, depth, new Vector<Link>(), new Stack<Link>(), new Vector<Stack<Link>>()))
+				{
+					if (addRoute(link)) {
 						found++;
 					}
 				}
@@ -82,30 +80,26 @@ public class LinkMatrix {
 	 * is a route from the starting Table to the ending Table (with a maximal
 	 * depth links).
 	 */
-	private Vector getAllLinks(Table t, int depth, Vector previousLinks, Stack stack, Vector allStacks) {
+	private Vector<Stack<Link>> getAllLinks(Table t, int depth, Vector<Link> previousLinks, Stack<Link> stack, Vector<Stack<Link>> allStacks) {
 		Table table = null;
-		Link link = null;
-		for (Iterator it = t.getLinks().iterator(); it.hasNext(); ) {
-			link = (Link) it.next();
+		for (Link link:t.getLinks())
+		{
 			if (!previousLinks.contains(link)) {
 				previousLinks.add(link);
 				stack.push(link);
 				table = link.getOtherField(t.getName()).getTable();
 				if (depth > 1) {
 					// Make a copy of allStack to avoid concurrent access.
-					Vector allStacks2 = new Vector();
-					for (Iterator it2 = allStacks.iterator(); it2.hasNext(); ) {
-						allStacks2.add((Stack) it2.next());
-					}
+					Vector<Stack<Link>> allStacks2 = new Vector<Stack<Link>>();
+					allStacks2.addAll(allStacks);
+
 					// Getting one step/depth forward.
-					for (Iterator it2 = getAllLinks(table, depth - 1, previousLinks, stack, allStacks2).iterator(); it2.hasNext(); ) {
-						allStacks.add((Stack) it2.next());
-					}
+					allStacks.addAll(getAllLinks(table, depth-1, previousLinks, stack, allStacks2));
+
 				} else {
-					Stack tmp = new Stack();
-					for (Iterator x = stack.iterator(); x.hasNext(); ) {
-						tmp.add((Link) x.next());
-					}
+					Stack<Link> tmp = new Stack<Link>();
+					tmp.addAll(stack);
+
 					allStacks.add(tmp);
 					stack.pop();
 				}
@@ -123,13 +117,13 @@ public class LinkMatrix {
 	 * @return        The route, as a List of Links, between the two Tables, or
 	 * <code>null</code> if this route doesn't exist.
 	 */
-	public List getConnection(String table1, String table2) {
+	public List<Link> getConnection(String table1, String table2) {
 		int x = findIndex(table1);
 		int y = findIndex(table2);
 		if ((x == -1) || (y == -1) || (x == y)) {
-			return ((List) new Stack());
+			return new Stack<Link>();
 		}
-		return ((List) ((matrix[x][y] != null) ? matrix[x][y] : matrix[y][x]));
+		return ((matrix[x][y] != null) ? matrix[x][y] : matrix[y][x]);
 	}
 
 
@@ -140,14 +134,12 @@ public class LinkMatrix {
 	 * @return       A boolean at <code>true</code> only if the route has been
 	 * added to the Matrix. 
 	 */
-	private boolean addRoute(Stack stack) {
-		Vector onlyOne = new Vector();
-		Vector more = new Vector();
-		Link link = null;
-		String table = null;
-		for (Iterator it = stack.iterator(); it.hasNext(); ) {
-			link = (Link) it.next();
-			table = link.getStart().getTable().getName();
+	private boolean addRoute(Stack<Link> stack) {
+		Vector<String> onlyOne = new Vector<String>();
+		Vector<String> more = new Vector<String>();
+		for (Link link:stack)
+		{
+			String table = link.getStart().getTable().getName();
 			if (!more.contains(table)) {
 				if (!onlyOne.contains(table)) {
 					onlyOne.add(table);
@@ -172,7 +164,7 @@ public class LinkMatrix {
 		if (onlyOne.size() != 2) {
 			return (false);
 		}
-		return (addStack((String) onlyOne.get(0), (String) onlyOne.get(1), stack, false, true));
+		return addStack(onlyOne.get(0), onlyOne.get(1), stack, false, true);
 	}
 
 
@@ -195,11 +187,11 @@ public class LinkMatrix {
 	 * @return               A boolean at <code>true</code> if the given route
 	 * has been added to the Matrix.
 	 */
-	private boolean addStack(String table1, String table2, Stack originalStack, boolean onlyIfNull, boolean onlyIfBigger) {
-		Stack stack = new Stack();
-		for (Iterator it = originalStack.iterator(); it.hasNext(); ) {
-			stack.push((Link) it.next());
-		}
+	private boolean addStack(String table1, String table2, Stack<Link> originalStack, boolean onlyIfNull, boolean onlyIfBigger) {
+		Stack<Link> stack = new Stack<Link>();
+		for (Link l:originalStack)
+			stack.push(l);
+
 		// NOTE: Returns true ONLY if matrix[x][y] WAS null. In case of a replacement of matrix[x][y], it returns false!
 		int a = findIndex(table1);
 		int b = findIndex(table2);
@@ -282,14 +274,13 @@ public class LinkMatrix {
 			sb.append("\n");
 		}
 		sb.append("\n");
-		Link link = null;
 		for (int i = 1; i < size; i++) {
 			for (int j = 0; j < i; j++) {
 				sb.append(tables[i].getName() + " <-> " + tables[j].getName() + ": ");
 				if (matrix[i][j] != null) {
-					for (Iterator it = matrix[i][j].iterator(); it.hasNext(); ) {
-						link = (Link) it.next();
-						sb.append(" (" + link.print() + ")");
+					for (Link link:matrix[i][j])
+					{
+						sb.append(" (" + link.toStringWithoutType() + ")");
 					}
 				} else {
 					sb.append("?");

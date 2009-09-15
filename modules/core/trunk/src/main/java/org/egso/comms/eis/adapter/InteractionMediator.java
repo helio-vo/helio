@@ -596,9 +596,7 @@ public class InteractionMediator {
                         types = session.getTypes(notifierType);
                     }
                     List<Class<?>> typesList = new ArrayList<Class<?>>();
-                    for (int i = 0; i < types.length; i++) {
-                        typesList.add(types[i]);
-                    }
+                    typesList.addAll(Arrays.asList(types));
                     
                     getTypesResponse.setTypes(typesList);
                 } catch (AdapterException e) {

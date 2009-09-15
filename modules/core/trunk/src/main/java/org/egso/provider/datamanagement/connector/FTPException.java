@@ -6,7 +6,7 @@ import java.io.IOException;
 /**
  * FTPException is created when an exception occurs during FTP operations.
  *
- * @author Romain LINSOLAS
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 1.1 - 29/11/2003 [09/2001]
  **/
 @SuppressWarnings("serial")

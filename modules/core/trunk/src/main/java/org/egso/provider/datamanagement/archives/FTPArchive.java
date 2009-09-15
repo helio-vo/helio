@@ -9,7 +9,7 @@ import org.w3c.dom.NodeList;
 /**
  * This class contains the description of an FTP archive.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 29/11/2003 [29/11/2003].
  */
 public class FTPArchive extends Archive {

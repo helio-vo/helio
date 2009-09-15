@@ -1,19 +1,15 @@
 package org.egso.provider.datamanagement.archives;
 
-
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
-
 import org.w3c.dom.NodeList;
-
 
 /**
  * Object that maps a SQL Base.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 20/10/2004
  */
 public class Base {
@@ -25,7 +21,7 @@ public class Base {
 	/**
 	 * Set of tables that compose the base.
 	 */
-	private Hashtable tables = null;
+	private Hashtable<String,Table> tables = null;
 	/**
 	 * Object that stores information about all links in the table.
 	 */
@@ -33,10 +29,10 @@ public class Base {
 	/**
 	 * A table that contains all MapElements.
 	 */
-	private Hashtable mappingTable = null;
-	private Vector newSelect = null;
-	private Vector newFrom = null;
-	private Vector newWhere = null;
+	private Hashtable<String,MapElement> mappingTable = null;
+	private Vector<Field> newSelect = null;
+	private Vector<Table> newFrom = null;
+	private Vector<String> newWhere = null;
 	
 
 
@@ -47,10 +43,10 @@ public class Base {
 	 */
 	Base(String baseName) {
 		name = baseName;
-		tables = new Hashtable();
-		newSelect = new Vector();
-		newFrom = new Vector();
-		newWhere = new Vector();
+		tables = new Hashtable<String,Table>();
+		newSelect = new Vector<Field>();
+		newFrom = new Vector<Table>();
+		newWhere = new Vector<String>();
 	}
 
 
@@ -135,20 +131,19 @@ public class Base {
 	 * @param fieldName  The field name ("table.field" or "field").
 	 * @return           A List that contains all Field with the given name.
 	 */
-	public List getFields(String fieldName) {
-		Vector v = new Vector();
+	public List<Field> getFields(String fieldName) {
+		Vector<Field> v = new Vector<Field>();
 		if (fieldName.indexOf('.') != -1) {
 			v.add(getField(fieldName));
-			return ((List) v);
+			return v;
 		}
-		Object obj = null;
-		for (Enumeration e = tables.elements(); e.hasMoreElements(); ) {
-			obj = ((Table) e.nextElement()).getField(fieldName);
+		for (Table t:tables.values()) {
+			Field obj = t.getField(fieldName);
 			if (obj != null) {
-				v.add((Field) obj);
+				v.add(obj);
 			}
 		}
-		return ((List) v);
+		return v;
 	}
 
 
@@ -169,12 +164,10 @@ public class Base {
 	 *
 	 * @return   A List that contains all tables of the Base.
 	 */
-	public List getTables() {
-		Vector v = new Vector();
-		for (Enumeration e = tables.elements(); e.hasMoreElements(); ) {
-			v.add((Table) e.nextElement());
-		}
-		return ((List) v);
+	public List<Table> getTables() {
+		Vector<Table> v = new Vector<Table>();
+		v.addAll(tables.values());
+		return v;
 	}
 
 
@@ -185,7 +178,7 @@ public class Base {
 	 *      &lt;structure&gt;&lt;mapping&gt; node of the XML description file.
 	 */
 	void createMappingTable(NodeList mapping) {
-		mappingTable = new Hashtable();
+		mappingTable = new Hashtable<String,MapElement>();
 		MapElement elt = null;
 		for (int i = 0; i < mapping.getLength(); i++) {
 			elt = new MapElement(this, mapping.item(i));
@@ -208,27 +201,21 @@ public class Base {
 	}
 
 
-	public Vector createNewSelect() {
-		Vector v = new Vector();
-		for (Iterator it = newSelect.iterator() ; it.hasNext() ; ) {
-			v.add(it.next());
-		}
+	public Vector<Field> createNewSelect() {
+		Vector<Field> v = new Vector<Field>();
+		v.addAll(newSelect);
 		return (v);
 	}
 
-	public Vector createNewFrom() {
-		Vector v = new Vector();
-		for (Iterator it = newFrom.iterator() ; it.hasNext() ; ) {
-			v.add(it.next());
-		}
-		return (v);
+	public Vector<Table> createNewFrom() {
+		Vector<Table> v = new Vector<Table>();
+		v.addAll(newFrom);
+		return v;
 	}
 
-	public Vector createNewWhere() {
-		Vector v = new Vector();
-		for (Iterator it = newWhere.iterator() ; it.hasNext() ; ) {
-			v.add(it.next());
-		}
+	public Vector<String> createNewWhere() {
+		Vector<String> v = new Vector<String>();
+		v.addAll(newWhere);
 		return (v);
 	}
 
@@ -252,16 +239,15 @@ public class Base {
 	 */
 	public String toString() {
 		StringBuffer sb = new StringBuffer("BASE " + name + "\n");
-		for (Enumeration e = tables.elements(); e.hasMoreElements(); ) {
+		for (Enumeration<Table> e = tables.elements(); e.hasMoreElements(); ) {
 			sb.append(((Table) e.nextElement()).toString() + "\n");
 		}
 		sb.append("LINK MATRIX:\n");
 		sb.append((matrix == null) ? "No Link Matrix defined yet" : matrix.toString());
-		String key = null;
 /*
 		sb.append("\nMAPPING TABLE:\n");
 		for (Enumeration e = mappingTable.keys(); e.hasMoreElements(); ) {
-			key = (String) e.nextElement();
+			String key = (String) e.nextElement();
 			sb.append(key + ": " + ((MapElement) mappingTable.get(key)).toString());
 		}
 */

@@ -12,7 +12,7 @@ import org.xml.sax.helpers.DefaultHandler;
 /**
  * SQL Parser that creates the part WHERE of the SQL Query from the EGSO Query.
  * 
- * @author Romain Linsolas
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 2.1 - 26/10/2004
  */
 /*

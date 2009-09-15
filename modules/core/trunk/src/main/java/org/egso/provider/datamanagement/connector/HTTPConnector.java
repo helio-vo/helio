@@ -9,7 +9,7 @@ import org.egso.provider.query.ProviderTable;
 
 
 /**
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9 - 11/01/2005 [11/01/2005]
  */
 public class HTTPConnector implements Connector {

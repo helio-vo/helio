@@ -4,13 +4,13 @@ package org.egso.common.services.broker;
 /**
  * Service that contains methods to send a query to the broker.
  *
- * @author    Marco Soldati - Romain Linsolas.
+ * @author    Marco Soldati - Romain Linsolas (linsolas@gmail.com).
  * @version   2.0 - 23/09/2004 [01/11/2003]
  */
 /*
 2.0 - 23/09/2004:
 	Definition of the new homogeneized interface.
-1.1 - 15/06/2004 [Romain Linsolas] :
+1.1 - 15/06/2004 [Romain Linsolas (linsolas@gmail.com)] :
 	Add the Context in the query method.
 */
 public interface QueryBrokerSync {

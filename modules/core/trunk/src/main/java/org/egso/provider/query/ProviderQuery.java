@@ -15,7 +15,7 @@ import org.w3c.dom.NodeList;
  * created by the Data Presentation Manager and each of them is specific to an
  * archive.
  *
- * @author Romain LINSOLAS
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 0.3 - 30/01/2004 [17/11/2003]
  **/
 /*

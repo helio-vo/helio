@@ -32,7 +32,7 @@ import org.egso.provider.admin.ProviderMonitor;
  * the year on 4 numbers, and <code>x</code> a String (optional) that DO NOT
  * contains 'D', 'd', 'M', 'm', 'Y' or 'y'.
  *
- * @author    Romain Linsolas.
+ * @author    Romain Linsolas (linsolas@gmail.com).
  * @version   1.2-jd - 10/12/2003 [28/01/2002]
  */
 public class Conversion {

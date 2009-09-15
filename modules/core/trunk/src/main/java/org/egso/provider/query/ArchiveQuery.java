@@ -5,7 +5,7 @@ package org.egso.provider.query;
 /**
  * Superclass of classes used for a description of an archive-specific query.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 26/11/2003 [26/11/2003]
  */
 public class ArchiveQuery {

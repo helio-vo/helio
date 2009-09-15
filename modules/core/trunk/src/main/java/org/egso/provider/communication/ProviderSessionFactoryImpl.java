@@ -10,7 +10,7 @@ import org.egso.provider.utils.ProviderUtils;
 /**
  * Implementation of a Session Factory for the Provider communication module.
  * 
- * @author Romain Linsolas
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 1.0 - [10/02/2004]
  */
 public class ProviderSessionFactoryImpl implements SessionFactory {

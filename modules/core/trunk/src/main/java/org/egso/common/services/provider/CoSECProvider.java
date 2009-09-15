@@ -4,7 +4,7 @@ package org.egso.common.services.provider;
 /**
  * Invoke a service to the provider. The result will be returned synchronously.
  *
- * @author    Romain Linsolas.
+ * @author    Romain Linsolas (linsolas@gmail.com).
  * @version   1.1 - 08/09/2004 [07/09/2004]
  */
 /*

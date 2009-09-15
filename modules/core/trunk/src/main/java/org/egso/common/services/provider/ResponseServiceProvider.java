@@ -6,7 +6,7 @@ import javax.activation.DataHandler;
 /**
  * Get the response of the provider.
  *
- * @author    Romain Linsolas.
+ * @author    Romain Linsolas (linsolas@gmail.com).
  * @version   2.0 - 27/09/2004 [27/11/2003]
  */
 /*

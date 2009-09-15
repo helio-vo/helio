@@ -19,7 +19,7 @@ import org.xml.sax.InputSource;
 /**
  * JAVADOC: Description of the Class
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.1 - 26/10/2004
  */
 /*
@@ -84,7 +84,7 @@ public class CoSECService extends EGSOService {
 		desc.put("description", "Provide the access to CoSEC services");
 		desc.put("version", "1.0");
 		desc.put("date", "26 may 2004");
-		desc.put("author", "Romain LINSOLAS");
+		desc.put("author", "Romain Linsolas (linsolas@gmail.com)");
 		desc.put("main-class", "CoSECService");
 		desc.put("jar", "cosec.jar");
 		setDescriptor(new ServiceDescriptor(desc, new Hashtable<String,String>()));

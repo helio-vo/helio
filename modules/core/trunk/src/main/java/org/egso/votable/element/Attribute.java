@@ -4,7 +4,7 @@ package org.egso.votable.element;
 /**
  *  Definition of an Attribute for a VOTable Element.
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    1.0
  * @created    24 october 2003
  */

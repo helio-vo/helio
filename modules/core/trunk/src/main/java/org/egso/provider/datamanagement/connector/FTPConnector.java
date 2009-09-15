@@ -16,7 +16,7 @@ import org.egso.provider.query.ProviderTable;
 /**
  *  TODO: Description of the Class
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.9.1 - 25/03/2004 [14/10/2003]
  */
 /*

@@ -1,15 +1,11 @@
 package org.egso.provider.datamanagement.archives;
 
-
 import java.text.MessageFormat;
-import java.util.List;
-import java.util.Vector;
-
 
 /**
  * Object that maps a SQL field.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 20/10/2004
  */
 public class Field extends SQLElement {
@@ -30,10 +26,6 @@ public class Field extends SQLElement {
 	 * Table that contains the Field.
 	 */
 	private Table table = null;
-	/**
-	 * All Field linked to this Field.
-	 */
-	private Vector linkedFields = null;
 
 
 	/**
@@ -50,7 +42,6 @@ public class Field extends SQLElement {
 		type = fieldType;
 		format = fieldFormat;
 		table = owner;
-		linkedFields = new Vector();
 	}
 
 
@@ -81,17 +72,6 @@ public class Field extends SQLElement {
 	 */
 	public Table getTable() {
 		return (table);
-	}
-
-
-	/**
-	 * Returns a List containing all the Fields that are linked to the current
-	 * Field.
-	 *
-	 * @return   List of the connected Fields.
-	 */
-	public List getLinkedFields() {
-		return ((List) linkedFields);
 	}
 
 

@@ -11,7 +11,7 @@ import org.xml.sax.helpers.DefaultHandler;
  * creates the WHERE part of this query, where all parameters are stored) for a
  * given EGSO query (XML query).
  *
- * @author    Romain LINSOLAS
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   0.9.1-jd - 30/04/2004 [26/11/2003]
  */
 //public class CoSECParser implements ContentHandler {

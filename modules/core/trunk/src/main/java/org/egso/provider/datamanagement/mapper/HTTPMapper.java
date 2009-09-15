@@ -20,7 +20,7 @@ import org.xml.sax.InputSource;
 /**
  * Mapper for HTTP Archives.
  *
- * @author     Romain LINSOLAS
+ * @author     Romain Linsolas (linsolas@gmail.com)
  * @version    0.1 - 18/01/2005 [18/01/2005]
  */
 public class HTTPMapper extends Thread implements Mapper {

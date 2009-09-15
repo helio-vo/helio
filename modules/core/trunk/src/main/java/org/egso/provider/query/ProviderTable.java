@@ -13,7 +13,7 @@ import org.egso.provider.utils.ProviderUtils;
  * mainly contains a table where each row is a result and each column is a
  * result.
  * 
- * @author Romain Linsolas
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 1.1 - 07/04/2004 [20/11/2003]
  */
 /*

@@ -16,7 +16,7 @@ import java.io.ByteArrayInputStream;
  * about SAVOT.<BR/>
  * <B>Compatibilty with SAVOT 2.1.3.</B>
  *
- * @author    Romain LINSOLAS
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 05/10/2004
  */
 /*

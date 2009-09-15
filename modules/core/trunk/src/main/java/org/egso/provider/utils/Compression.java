@@ -19,7 +19,7 @@ import org.egso.provider.admin.ProviderMonitor;
  * The class Compression allows the compression of multiple files into a ZIP
  * file, as well as the decompression of a ZIP file.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0-jd - 30/01/2004 [29/01/2004]
  */
 public class Compression {

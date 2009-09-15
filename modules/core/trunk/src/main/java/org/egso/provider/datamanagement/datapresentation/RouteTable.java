@@ -1,11 +1,9 @@
 package org.egso.provider.datamanagement.datapresentation;
 
 import java.io.FileInputStream;
-import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
 import java.util.Vector;
-
 import org.apache.xerces.parsers.DOMParser;
 import org.egso.provider.ProviderConfiguration;
 import org.egso.provider.admin.ProviderMonitor;
@@ -18,7 +16,7 @@ import org.xml.sax.InputSource;
 /**
  *  TODO: Description of the Class
  *
- *@author     Romain LINSOLAS
+ *@author     Romain Linsolas (linsolas@gmail.com)
  *@version 0.1
  * 0.1: 18-11-2003.
  */
@@ -38,10 +36,10 @@ TODO: How to include an interval?
 	 * matter what its value is). In the other case, the Hashtable has all
 	 * possible values as keys, and all corresponding archives as object.
 	 **/
-	private Hashtable routeTable = null;
-	private Hashtable queryTable = null;
-	private Hashtable filesTable = null;
-	private Vector exclusiveParams = null;
+	private Hashtable<String,Object> routeTable = null;
+	private Hashtable<String,String[]> queryTable = null;
+	private Hashtable<String,String> filesTable = null;
+	private Vector<String> exclusiveParams = null;
 
 
 	public RouteTable() {
@@ -53,14 +51,14 @@ TODO: How to include an interval?
 	/**
 	 * Populates the routeTable by parsing the XML File dedicated to the DPM.
 	 **/
-	private void initRouteTable() {
-		routeTable = new Hashtable();
-		filesTable = new Hashtable();
-		queryTable = new Hashtable();
-		exclusiveParams = new Vector();
+	@SuppressWarnings("unchecked")
+  private void initRouteTable() {
+		routeTable = new Hashtable<String,Object>();
+		filesTable = new Hashtable<String,String>();
+		queryTable = new Hashtable<String,String[]>();
+		exclusiveParams = new Vector<String>();
 		// TODO: Get XML file from Avalon?
 		try {
-			ClassLoader cl = getClass().getClassLoader();
 			InputSource in = new InputSource(new FileInputStream((String) ProviderConfiguration.getInstance().getProperty("core.routetable")));
 //			InputSource in = new InputSource(new BufferedReader(new InputStreamReader(cl.getResourceAsStream((String) ProviderConfiguration.getInstance().getProperty("core.routetable")))));
 			DOMParser parser = new DOMParser();
@@ -69,21 +67,19 @@ TODO: How to include an interval?
 			NodeList children = root.getChildNodes();
 			Node n = null;
 			NamedNodeMap atts = null;
-			Node att = null;
 			Node separator = null;
-			String name = null;
-			Hashtable valuesTable = null;
+			Hashtable<String,Object> valuesTable = null;
 			for (int i = 0 ; i < children.getLength() ; i++) {
 				n = children.item(i);
 				if ((n.getNodeType() == Node.ELEMENT_NODE) && (n.getNodeName().equals("param"))) {
 					atts = n.getAttributes();
 					if (atts != null) {
-						name = atts.getNamedItem("name").getNodeValue();
+						String name = atts.getNamedItem("name").getNodeValue();
 						// TODO: Test if the parameter already exists in the Hashtable.
 						Object obj = routeTable.get(name);
 						if (obj != null) {
-							if (obj instanceof Hashtable) {
-								valuesTable = (Hashtable) obj;
+							if (obj instanceof Hashtable<?,?>) {
+								valuesTable = (Hashtable<String,Object>)obj;
 							} else {
 								// TODO: Log error.
 								// The case where for a same parameter name we have both
@@ -111,7 +107,7 @@ TODO: How to include an interval?
 						// Now, see if this is a value-specific parameter.
 						if (atts.getNamedItem("value-specific").getNodeValue().toLowerCase().trim().equals("yes")) {
 							if (valuesTable == null) {
-								valuesTable = new Hashtable();
+								valuesTable = new Hashtable<String,Object>();
 							}
 							String[] values = null;
 							// Value specific parameter.
@@ -127,9 +123,8 @@ TODO: How to include an interval?
 								values = new String[] {atts.getNamedItem("values").getNodeValue()};
 							}
 							// Populating the routeTable...
-							String val = null;
 							for (int j = 0 ; j < values.length ; j++) {
-								val = values[j];
+								String val = values[j];
 								if (valuesTable.containsKey(val)) {
 									String[] tmp = (String[]) valuesTable.get(val.toUpperCase());
 									String[] tmp2 = new String[tmp.length + archives.length];
@@ -188,13 +183,10 @@ TODO: How to include an interval?
 
 
 	public String getArchiveForFile(String file) {
-		String key = null;
-		for (Enumeration en = filesTable.keys() ; en.hasMoreElements() ; ) {
-			key = (String) en.nextElement();
-			if (file.startsWith(key)) {
+		for(String key:filesTable.keySet())
+			if (file.startsWith(key))
 				return ((String) filesTable.get(key));
-			}
-		}
+
 		return (null);
 	}
 
@@ -202,22 +194,21 @@ TODO: How to include an interval?
 	public String[] getParamNames() {
 		String[] names = new String[routeTable.size()];
 		int i = 0;
-		for (Enumeration e = routeTable.keys() ; e.hasMoreElements() ; ) {
-			names[i] = (String) e.nextElement();
-			i++;
-		}
+		for(String rtEntry:routeTable.keySet())
+			names[i++] = rtEntry;
+
 		return(names);
 	}
 	
 	
 	public boolean isValueSpecific(String name) {
 		Object obj = routeTable.get(name);
-		return((obj != null) && (obj instanceof Hashtable));
+		return((obj != null) && (obj instanceof Hashtable<?,?>));
 	}
 	
 	public boolean isValueIndependent(String name) {
 		Object obj = routeTable.get(name);
-		return((obj != null) && (!(obj instanceof Hashtable)));
+		return((obj != null) && (!(obj instanceof Hashtable<?,?>)));
 	}
 
 	public boolean isGeneric(String name) {
@@ -231,50 +222,45 @@ TODO: How to include an interval?
 	
 	public String[] getArchives(String name) {
 		Object obj = routeTable.get(name);
-		if ((obj == null) || (obj instanceof Hashtable)) {
+		if ((obj == null) || (obj instanceof Hashtable<?,?>)) {
 			return(null);
 		}
 		return((String[]) obj);
 	}
 	
-	public String[] getArchives(String name, String value) {
+	@SuppressWarnings("unchecked")
+  public String[] getArchives(String name, String value) {
 		Object obj = routeTable.get(name);
-		if ((obj == null) || (!(obj instanceof Hashtable))) {
+		if ((obj == null) || (!(obj instanceof Hashtable<?,?>))) {
 			return(null);
 		}
-		return((String[]) ((Hashtable) obj).get(value.toUpperCase()));
+		return ((Hashtable<String,String[]>)obj).get(value.toUpperCase());
 	}
 	
-	public String[] getArchives(String name, String[] values) {
+	@SuppressWarnings("unchecked")
+  public String[] getArchives(String name, String[] values) {
 		Object obj = routeTable.get(name);
-		if ((obj == null) || (!(obj instanceof Hashtable))) {
+		if ((obj == null) || (!(obj instanceof Hashtable<?,?>))) {
 			return(null);
 		}
-		Vector v = new Vector();
-		String[] archs = null;
-		for (int i = 0 ; i < values.length ; i++) {
-			archs = (String[]) ((Hashtable) obj).get(values[i].toUpperCase());
-			if (archs != null) {
-				for (int j = 0 ; j < archs.length ; j++) {
-					if (!v.contains(archs[j])) {
-						v.add(archs[j]);
-					}
-				}
-			}
+		Vector<String> v = new Vector<String>();
+		for (String value:values)
+		{
+			String[] archs = ((Hashtable<String,String[]>) obj).get(value.toUpperCase());
+			if (archs != null)
+			  for(String arch:archs)
+					if (!v.contains(arch))
+						v.add(arch);
 		}
-		String[] tmp = new String[v.size()];
-		int i = 0;
-		for (Enumeration e = v.elements() ; e.hasMoreElements() ; ) {
-			tmp[i++] = (String) e.nextElement();
-		}
-		return(tmp);
+		
+		return v.toArray(new String[0]);
 	}
 	
 	public String[] getArchivesFromQuery(String name) {
 		return ((String[]) queryTable.get(name));
 	}
 	
-	public String[] getArchives(String name, Vector values) {
+	public String[] getArchives(String name, Vector<String> values) {
 		// TODO: To be implemented...
 		return(null);
 	}
@@ -287,48 +273,41 @@ TODO: How to include an interval?
 	public String[] getArchives(Node param) {
 		String name = param.getAttributes().getNamedItem("name").getNodeValue();
 		Object obj = routeTable.get(name);
-		if (obj == null) {
+		if (obj == null)
 			// Generic parameter.
-			return(null);
-		}
+			return null;
+
 		// Archive-specific parameter.
-		if (!(obj instanceof Hashtable)) {
+		if (!(obj instanceof Hashtable<?,?>))
 			// Value independent parameter.
-			return((String[]) obj);
-		}
+			return (String[])obj;
+
 		// Value specific parameter.
-		Vector v = new Vector();
-		return((String[]) v.toArray());
+		return new String[0];
 	}
 	
 	
-	public String toString() {
+	@SuppressWarnings("unchecked")
+  public String toString() {
 		StringBuffer sb = new StringBuffer() ;
-		String name = null;
-		Object obj = null;
-		String[] arch = null;
-		Hashtable values = null;
-		String val = null;
-		for (Enumeration e = routeTable.keys() ; e.hasMoreElements() ; ) {
-			name = (String) e.nextElement();
-			obj = routeTable.get(name);
+		for (String name:routeTable.keySet())
+		{
+			Object obj = routeTable.get(name);
 			sb.append("Parameter '" + name + "':\n");
-			if (obj instanceof Hashtable) {
-				values = (Hashtable) obj;
-				for (Enumeration e2 = values.keys() ; e2.hasMoreElements() ; ) {
-					val = (String) e2.nextElement();
+			if (obj instanceof Hashtable<?,?>) {
+				Hashtable<String,String[]> values = (Hashtable<String,String[]>) obj;
+				for (String val:values.keySet())
+				{
 					sb.append("\tValue '" + val + "': ");
-					arch = (String[]) values.get(val);
-					for (int i = 0 ; i < arch.length ; i++) {
-						sb.append(arch[i] + " ");
-					}
+					for(String s:values.get(val))
+						sb.append(s + " ");
+
 					sb.append("\n");
 				}
 			} else {
 				sb.append("\tArchives: ");
-				arch = (String[]) obj;
-				for (int i = 0 ; i < arch.length ; i++) {
-					sb.append(arch[i] + " ");
+				for (String s:(String[])obj) {
+					sb.append(s + " ");
 				}
 				sb.append("\n");
 			}

@@ -18,7 +18,7 @@ import java.net.Socket;
  * all methods to write, delete or create files and directories on the server
  * are disabled.
  *
- * @author    Romain LINSOLAS
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.2 - 29/11/2003 [09/2001]
  */
 /*

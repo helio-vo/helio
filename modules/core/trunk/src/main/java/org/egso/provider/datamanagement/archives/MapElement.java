@@ -1,9 +1,6 @@
 package org.egso.provider.datamanagement.archives;
 
-
-import java.util.Iterator;
 import java.util.Vector;
-
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -12,7 +9,7 @@ import org.w3c.dom.NodeList;
 /**
  * Object that stores information for mapping.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 20/10/2004
  */
 public class MapElement {
@@ -135,18 +132,17 @@ public class MapElement {
 	 */
 	public Field[] getFields() {
 		if (type == CONCATENATION) {
-			Vector v = new Vector();
-			for (int i = 0 ; i < concatenations.length ; i++) {
-				if (!(concatenations[i] instanceof String)) {
-					v.add((Field) concatenations[i]);
-				}
-			}
+			Vector<Field> v = new Vector<Field>();
+			for(Object o:concatenations)
+				if (o instanceof Field)
+					v.add((Field)o);
+
 			int i = 0;
 			Field[] x = new Field[v.size()];
-			for (Iterator it = v.iterator() ; it.hasNext() ; ) {
-				x[i++] = (Field) it.next();
-			}
-			return (x);
+			for (Field f:v)
+				x[i++]=f;
+
+			return x;
 		}
 		if (type == INTERVAL) {
 			return (new Field[]{startField, endField});

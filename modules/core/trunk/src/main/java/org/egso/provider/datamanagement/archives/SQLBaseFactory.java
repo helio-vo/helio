@@ -11,7 +11,7 @@ import org.w3c.dom.NodeList;
 /**
  * Creates a SQL Base object that maps a SQL archive description.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 20/10/2004
  */
 public class SQLBaseFactory {

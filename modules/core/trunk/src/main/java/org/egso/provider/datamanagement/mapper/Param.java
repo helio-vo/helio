@@ -10,7 +10,7 @@ import org.egso.provider.datamanagement.archives.MapElement;
  * The class Param regroups all information of a node PARAM (or eventually a
  * node DATA) in an EGSO-XML query.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 20/10/2004
  */
 public class Param {

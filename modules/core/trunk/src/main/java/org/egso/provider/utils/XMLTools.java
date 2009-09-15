@@ -16,7 +16,7 @@ import org.xml.sax.SAXException;
  * XMLTools provides SAX Parsers instances as well as a basic interface for simple
  * XPath queries.
  *
- * @author    Romain Linsolas
+ * @author    Romain Linsolas (linsolas@gmail.com)
  * @version   1.0 - 26/10/2004
  */
 /*

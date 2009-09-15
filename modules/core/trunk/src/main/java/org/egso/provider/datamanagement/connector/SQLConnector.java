@@ -19,7 +19,7 @@ import org.egso.provider.query.SQLQuery;
 /**
  * TODO: Description of the Class
  * 
- * @author Romain LINSOLAS
+ * @author Romain Linsolas (linsolas@gmail.com)
  * @version 0.9 - 27/11/2003 [14/10/2003].
  */
 public class SQLConnector implements Connector {
