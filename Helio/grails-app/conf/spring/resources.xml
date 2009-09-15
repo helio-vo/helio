@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
 
-<root>
   <bean id="hessiService" class="org.springframework.remoting.jaxws.JaxWsPortProxyFactoryBean">
     <property name="serviceInterface" value="ch.i4ds.helio.dpas.HessiService"/>
     <property name="wsdlDocumentUrl" value="http://soleil.i4ds.ch:9090/HELIO-core/services/hessi?wsdl"/>
@@ -11,5 +10,7 @@
     <property name="serviceName" value="HessiServiceService"/>
     <property name="portName" value="HessiServicePort"/>
   </bean>
-  
-</root>
+  <bean id="test2" class="Test2">
+    <property name="testProperty" ref="hessiService" />
+  </bean>
+</beans>
