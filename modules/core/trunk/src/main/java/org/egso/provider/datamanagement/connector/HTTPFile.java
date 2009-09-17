@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
 import java.net.*;
-import java.util.Iterator;
 import java.util.Vector;
 
 import javax.swing.text.html.parser.ParserDelegator;
@@ -65,10 +64,7 @@ public class HTTPFile {
                 new ParserDelegator().parse(inBuf, parser, false);
                 inBuf.close();
                 files = new Vector<HTTPFile>();
-                String tmp = null;
-                for (Iterator<String> it = parser.getFilesList().iterator(); it
-                        .hasNext();) {
-                    tmp = (String) it.next();
+                for (String tmp:parser.getFilesList()) {
                     if ((mask == null)
                             || ((mask != null) && tmp.substring(
                                     tmp.lastIndexOf('/') + 1).matches(mask))) {

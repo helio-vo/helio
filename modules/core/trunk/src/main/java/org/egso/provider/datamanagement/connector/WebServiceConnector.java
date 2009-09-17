@@ -141,10 +141,15 @@ public class WebServiceConnector implements Connector {
 		int index = 1;
 		System.out.println(nbQ + " Web-Service call(s) for the archive " + archive.getID() + ".");
 		long startTime = System.currentTimeMillis();
-		for (String s:query.getAllCalls())
+		
+		//TODO: fix buggy code
+		if(1==1)
+		  throw new RuntimeException("FIXME FIXME FIXME");
+		
+		for (String[] s:query.getAllCalls())
 		{
 			System.out.print("[ws:" + index++ + "/" + nbQ + "] ");
-			sendMessage(s);
+			//sendMessage(s); //<----- THIS DOES NOT COMPILE
 			for (Vector<String> result:parser.getResults())
 				results.addResult(result);
 		}

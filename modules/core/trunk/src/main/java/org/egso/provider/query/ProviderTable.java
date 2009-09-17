@@ -1,9 +1,7 @@
 package org.egso.provider.query;
 
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.Vector;
-
 import org.egso.common.context.EGSOContext;
 import org.egso.provider.admin.ProviderMonitor;
 import org.egso.provider.utils.ProviderUtils;
@@ -212,16 +210,15 @@ public class ProviderTable {
                 + results.size() + " result(s) [" + ProviderUtils.getDate()
                 + "].</DESCRIPTION>");
         sb.append("<RESOURCE type=\"results\"><TABLE>");
-        for (Iterator<String> it = fields.iterator(); it.hasNext();) {
-            sb.append("<FIELD name=\"" + ((String) it.next()) + "\"/>");
+        for (String field:fields) {
+            sb.append("<FIELD name=\"" + field + "\"/>");
         }
         sb.append("<DATA><TABLEDATA>");
-        Vector<String> v = null;
-        for (Iterator<Vector<String>> it = results.iterator(); it.hasNext();) {
-            v = (Vector<String>) it.next();
+        for (Vector<String> v:results)
+        {
             sb.append("<TR>");
-            for (Iterator<String> row = v.iterator(); row.hasNext();) {
-                sb.append("<TD>" + ((String) row.next()) + "</TD>");
+            for (String cell:v) {
+                sb.append("<TD>" + cell + "</TD>");
             }
             sb.append("</TR>");
         }
@@ -248,12 +245,12 @@ public class ProviderTable {
         } else {
             if ((result.size() + numberOfNAFields) != fields.size()) {
                 System.out.print("FIELDS> ");
-                for (Iterator<String> it = fields.iterator(); it.hasNext();) {
-                    System.out.print("{" + (String) it.next() + "} ");
+                for (String field:fields) {
+                    System.out.print("{" + field + "} ");
                 }
                 System.out.print("\nVALUES> ");
-                for (Iterator<String> it = result.iterator(); it.hasNext();) {
-                    System.out.print("{" + (String) it.next() + "} ");
+                for (String field:result) {
+                    System.out.print("{" + field + "} ");
                 }
                 System.out.println();
                 throw (new IllegalProviderTableOperationException(
@@ -338,9 +335,7 @@ public class ProviderTable {
      */
     public void mergeForced(ProviderTable table2) {
         Vector<String> allFields = new Vector<String>();
-        for (Iterator<String> it = fields.iterator(); it.hasNext();) {
-            allFields.add((String) it.next());
-        }
+        allFields.addAll(fields);
         Vector<String> fields2 = table2.getFields();
         String tmp = null;
         // i-th integer in indexes maps the i-th element of allFields and the
@@ -377,8 +372,8 @@ public class ProviderTable {
      */
     private void addNewField(String field) {
         fields.add(field);
-        for (Iterator<Vector<String>> it = results.iterator(); it.hasNext();) {
-            (it.next()).add("N/A");
+        for (Vector<String> v:results) {
+            v.add("N/A");
         }
     }
 
@@ -394,12 +389,11 @@ public class ProviderTable {
             sb.append(", " + (String) fields.get(i));
         }
         sb.append("}\n");
-        Vector<String> v = null;
-        for (Iterator<Vector<String>> it = results.iterator(); it.hasNext();) {
-            v = it.next();
-            sb.append("[" + (String) v.firstElement());
+        for (Vector<String> v:results)
+        {
+            sb.append("[" + v.firstElement());
             for (int i = 1; i < v.size(); i++) {
-                sb.append(", " + (String) v.get(i));
+                sb.append(", " + v.get(i));
             }
             sb.append("]\n");
         }

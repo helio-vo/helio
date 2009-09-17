@@ -1,9 +1,7 @@
 package org.egso.provider.datamanagement.mapper;
 
 import java.io.ByteArrayInputStream;
-
 import javax.xml.parsers.SAXParser;
-
 import org.egso.provider.admin.ProviderMonitor;
 import org.egso.provider.datamanagement.archives.MixedArchive;
 import org.egso.provider.datamanagement.archives.WebServiceArchive;
@@ -13,8 +11,6 @@ import org.egso.provider.query.ProviderTable;
 import org.egso.provider.query.WebServiceQuery;
 import org.egso.provider.utils.XMLTools;
 import org.egso.provider.utils.XMLUtils;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
 
@@ -76,8 +72,6 @@ public class WebServiceMapper extends Thread implements Mapper {
 	 */
 	public void run() {
 		WebServiceQuery wsq = new WebServiceQuery();
-		NodeList nl = providerQuery.getSelect().getChildNodes();
-		Node n = null;
 		// Adding fields selected in the FTPQuery object.
 		wsq.setFields(providerTable.getFields());
 		InputSource is = new InputSource(new ByteArrayInputStream(XMLUtils.nodeToString(providerQuery.getData()).getBytes()));

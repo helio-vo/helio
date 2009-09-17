@@ -54,12 +54,12 @@ public class FTPHTTPMappingObject implements MappingObject {
 						}
 					}
 				}
-				int i = 0;
 				indexes = new int[v.size() / 3];
 				formats = new String[v.size() / 3];
 				nones = new String[v.size() / 3];
 				operations = new String[v.size() / 3];
 				Iterator<String> it = v.iterator();
+        int i = 0;
 				while (it.hasNext()) {
 					indexes[i] = Integer.parseInt((String) it.next());
 					formats[i] = (String) it.next();

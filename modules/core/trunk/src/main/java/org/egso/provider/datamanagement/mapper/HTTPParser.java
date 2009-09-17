@@ -3,7 +3,6 @@ package org.egso.provider.datamanagement.mapper;
 import java.text.MessageFormat;
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.Stack;
 import java.util.Vector;
 
@@ -317,14 +316,12 @@ public class HTTPParser extends DefaultHandler {
 
 	private Vector<Object[]> addObjects(Vector<Object[]> objects, Vector<String> values, int index) {
 		Vector<Object[]> v = new Vector<Object[]>();
-		String val = null;
-		Object[] tmp = null;
+
 		// For all values...
-		for (Iterator<String> it = values.iterator() ; it.hasNext() ; ) {
-			val = it.next();
+		for (String val:values) {
 			// And for all existing objects list for masks...
-			for (Iterator<Object[]> it2 = objects.iterator() ; it2.hasNext() ; ) {
-				tmp = (Object[]) it2.next().clone();
+			for (Object[] tmp_original:objects) {
+				Object[] tmp = (Object[]) tmp_original.clone();
 				tmp[index] = val;
 				// Add the list of objects with the new value.
 				v.add(tmp);
@@ -335,10 +332,8 @@ public class HTTPParser extends DefaultHandler {
 
 	private Vector<String> addDates(Vector<Object[]> objects) {
 		// Create all dates masks.
-		StringBuffer[] tempo = null;
 		Vector<String> datesMasks = null;
-		for (Iterator<StringBuffer[]> it = dates.iterator() ; it.hasNext() ; ) {
-			tempo = it.next();
+		for (StringBuffer[] tempo:dates) {
 			datesMasks = getDateIntervals(tempo[0].toString().substring(0, 10), "YYYY-MM-DD", tempo[1].toString().substring(0, 10), "YYYY-MM-DD", "YYYYMMDD");
 		}
 		// Get mapping information.
@@ -353,26 +348,23 @@ public class HTTPParser extends DefaultHandler {
 			System.out.println("[DEBUG - HTTPParser]: No DATE node found on XML description");
 		}
 		NodeList nl = dateNode.getChildNodes() ;
-		Node n = null;
-		int index = 0;
-		Object[] tmp = null;
-		String msk = null;
+
 		// Get all format information for dates.
 		String[] formats = new String[valuesForFields.length];
 		for (int i = 0 ; i < nl.getLength() ; i++) {
-			n = nl.item(i);
+			Node n = nl.item(i);
 			if ((n.getNodeType() == Node.ELEMENT_NODE) && (n.getNodeName().equals("value"))) {
-				index = Integer.parseInt(n.getAttributes().getNamedItem("index").getNodeValue());
+				int index = Integer.parseInt(n.getAttributes().getNamedItem("index").getNodeValue());
 				formats[index] = n.getAttributes().getNamedItem("format").getNodeValue();
 			}
 		}
 		// Create masks.
 		Vector<Object[]> temporaryMasks = new Vector<Object[]>();
-		for (Iterator<String> it = datesMasks.iterator() ; it.hasNext() ; ) {
-			msk = (String) it.next();
+		for (String msk:datesMasks)
+		{
 			System.out.println(">> " + msk);
 			for (int i = 0 ; i < objects.size() ; i++) {
-				tmp = objects.get(i);
+				Object[] tmp = objects.get(i);
 				for (int j = 0 ; j < formats.length ; j++) {
 					if (formats[j] != null) {
 						System.out.print("\t" + msk + " (" + formats[j] + ") -> ");
@@ -384,8 +376,8 @@ public class HTTPParser extends DefaultHandler {
 			}
 		}
 		// Create masks with MessageFormat.
-		for (Iterator<Object[]> it = temporaryMasks.iterator() ; it.hasNext() ; ) {
-			finalMasks.add(MessageFormat.format(mask, it.next()));
+		for (Object[] o:temporaryMasks) {
+			finalMasks.add(MessageFormat.format(mask,o));
 		}
 		return(finalMasks);
 	}
@@ -421,8 +413,8 @@ public class HTTPParser extends DefaultHandler {
 		finalMasks = addDates(objects);
 
 		System.out.println("-- DEBUG FINAL --");
-		for (Iterator<String> it = finalMasks.iterator() ; it.hasNext() ; ) {
-			System.out.println("> " + it.next());
+		for (String s:finalMasks) {
+			System.out.println("> " + s);
 		}
 		System.out.println("-----------------");
 
@@ -521,8 +513,8 @@ public class HTTPParser extends DefaultHandler {
 				String key2 = el2.nextElement();
 				Vector<String> jours= tableTmp.get(key2);
 				
-				for (Iterator<String> it = jours.iterator() ; it.hasNext() ; ) {
-					allMasks.add(key + key2 + it.next());
+				for (String jour:jours) {
+					allMasks.add(key + key2 + jour);
 				}
 			}
 		}

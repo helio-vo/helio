@@ -1,7 +1,6 @@
 package org.egso.common.externalinteraction;
 
 import java.net.URI;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
 import org.egso.common.CommonConfig;
@@ -95,10 +94,8 @@ implements InteractionManager, Disposable
     public synchronized void dispose()
     {
         // close all open sessions
-        for (Iterator<Session> iter = openSessions.iterator(); iter.hasNext();)
+        for (Session session:openSessions)
         {
-            Session session = iter.next();
-        
             try
             {
                 session.close();

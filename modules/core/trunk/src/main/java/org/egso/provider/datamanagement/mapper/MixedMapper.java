@@ -1,5 +1,7 @@
 package org.egso.provider.datamanagement.mapper;
 
+import java.util.Vector;
+
 import org.egso.provider.datamanagement.archives.Archive;
 import org.egso.provider.datamanagement.archives.FTPArchive;
 import org.egso.provider.datamanagement.archives.MixedArchive;
@@ -104,7 +106,16 @@ public class MixedMapper implements Mapper {
 		System.out.println("[Mix Mapper] Transforming the SQL Query into a Web Service call...");
 		System.out.println("SQL Query:\n" + sql.toString());
 		webservice = new WebServiceQuery();
-		webservice.setSelectedFields(sql.getSelect());
+		
+		
+		Vector<String> fieldsAsString=new Vector<String>();
+		for(Object o:sql.getSelect())
+		  if(o instanceof String)
+		    fieldsAsString.add((String)o);
+		  else
+		    throw new RuntimeException("SQL query contained non-strings as fields");
+		
+		webservice.setSelectedFields(fieldsAsString);
 		String sqlQuery = sql.toString();
 		sqlQuery = sqlQuery.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 		StringBuffer sb = new StringBuffer();
@@ -118,7 +129,11 @@ public class MixedMapper implements Mapper {
 		sb.append("    </sql>\n");
 		sb.append("  </soapenv:Body>\n");
 		sb.append("</soapenv:Envelope>");
-		webservice.addCall(sb.toString());
+		
+		if(1==1)
+		  throw new RuntimeException("FIXME FIXME FIXME");
+		
+		//webservice.addCall(sb.toString()); //<--- THIS CODE DOES NOT COMPILE
 		System.out.println("WebService Query:\n" + webservice.toString());
 		System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
 	}

@@ -37,16 +37,17 @@ public class QueryEngine {
 		contextFactory = EGSOContextFactory.newInstance(EGSOContext.ROLE_PROVIDER, (String) ProviderConfiguration.getInstance().getProperty("core.rolename"), (String) ProviderConfiguration.getInstance().getProperty("core.roleversion"));
 		random = new Random();
 	}
-
+	
+	private static volatile int next_unique_id=0;
 	public String query(String context, String query, ResponseQueryProvider notifier) {
-		String id = "" + Math.abs(random.nextInt());
+		String id = "" + next_unique_id++;
 		QueryExecutor executor = new QueryExecutor(id, contextFactory.createContext(context), query, notifier, queryValidator, dataPresentationManager);
 		executor.start();
 		return (id);
 	}
 
 	public String fetchFiles(String context, String query, ResponseFileQueryProvider notifier) {
-		String id = "" + Math.abs(random.nextInt());
+		String id = "" + next_unique_id++;
 		FileExecutor executor = new FileExecutor(id, contextFactory.createContext(context), query, notifier, queryValidator, dataPresentationManager);
 		executor.start();
 		return (id);

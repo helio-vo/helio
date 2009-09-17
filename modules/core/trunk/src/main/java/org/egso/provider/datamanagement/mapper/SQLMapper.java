@@ -1,8 +1,7 @@
 package org.egso.provider.datamanagement.mapper;
 
 import java.io.ByteArrayInputStream;
-import java.util.Iterator;
-import java.util.Vector;
+import java.util.*;
 
 import javax.xml.parsers.SAXParser;
 
@@ -194,13 +193,11 @@ public class SQLMapper extends Thread implements Mapper {
 		// ### Create the FROM part ###
 
 		// ### Create the WHERE part ###
-		Vector links = new Vector();
-		Link link = null;
+		Vector<Link> links = new Vector<Link>();
 		for (int i = 0; i < from.size(); i++) {
 //			table = (Table) from.get(i);
 			for (int j = (i + 1); j < from.size(); j++) {
-				for (Iterator it = sqlBase.getLinkMatrix().getConnection(from.get(i).getName(), from.get(j).getName()).iterator(); it.hasNext(); ) {
-					link = (Link) it.next();
+				for (Link link:sqlBase.getLinkMatrix().getConnection(from.get(i).getName(), from.get(j).getName())) {
 					if (!links.contains(link)) {
 						links.add(link);
 					}
@@ -208,10 +205,13 @@ public class SQLMapper extends Thread implements Mapper {
 			}
 		}
 		// Need optimization for removing useless link.
-		for (Iterator it = links.iterator(); it.hasNext(); ) {
-			where.add(((Link) it.next()).toStringWithoutType());
+		for (Link l:links) {
+			where.add(l.toStringWithoutType());
 		}
-		sqlQuery.setSelect(select);
+		
+		Vector<Object> selectAsObject=new Vector<Object>();
+		selectAsObject.addAll(select);
+		sqlQuery.setSelect(selectAsObject);
 		sqlQuery.setFrom(from);
 		StringBuffer sb = new StringBuffer();
 		for (int i = 0 ; i < where.size() ; i++) {

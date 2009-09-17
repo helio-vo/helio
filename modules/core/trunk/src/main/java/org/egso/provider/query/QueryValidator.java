@@ -378,9 +378,9 @@ public class QueryValidator {
                         }
                     }
                 }
-                for (Iterator it = nodesToDelete.iterator(); it.hasNext();) {
-                    n.removeChild((Node) it.next());
-                }
+                
+                for (Node d:nodesToDelete)
+                    n.removeChild(d);
             }
             //			System.out.println("=#= Redundancies deleted =#=");
         } catch (Exception e) {

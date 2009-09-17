@@ -13,6 +13,12 @@
        
   <bean class="ch.i4ds.helio.ApplicationContextProvider" />
   
+  <wss:binding url="/services/hec">
+  	<wss:service>
+			<ws:service bean="#HEC" />
+		</wss:service>
+	</wss:binding>
+  <bean id="HEC" class="ch.i4ds.helio.dpas.HEC" />
   
   <wss:binding url="/services/hessi">
   	<wss:service>

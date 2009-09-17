@@ -166,9 +166,8 @@ public class DefaultSession extends AbstractLogEnabled implements Session
         int i = 0; // counter point to the current service tag
         
         // loop through all service entries and check the names
-        for (Iterator<String> iter = services.iterator(); iter.hasNext();)
+        for (String s:services)
         {
-            String s = (String) iter.next();
             if (serviceName.equals(s))
             {
                 serviceImplName = configuration.getString("services.service(" + i + ").impl");

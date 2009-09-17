@@ -1,12 +1,11 @@
 package org.egso.provider.datamanagement.mapper;
 
 import java.text.MessageFormat;
-import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.Stack;
 import java.util.StringTokenizer;
 import java.util.Vector;
+import java.util.Map.Entry;
 
 import org.egso.provider.admin.ProviderMonitor;
 import org.egso.provider.utils.Conversion;
@@ -34,16 +33,14 @@ import org.xml.sax.helpers.DefaultHandler;
 */
 public class WebServiceParser extends DefaultHandler {
 
-	private Stack paramName = null;
-	private Stack stack = null;
+	private Stack<String> paramName = null;
+	private Stack<String> stack = null;
 	private final int DATA = 0;
 	private final int PARAM = 1;
 	private final int VALUE = 2;
 	private final int INTERVAL = 3;
 	private final int START = 4;
 	private final int END = 5;
-	private final String AND = "AND";
-	private final String OR = "OR";
 	private final String[] tagNames = {"data", "param", "value", "interval", "start", "end"};
 	private final String[][] acceptedList = {{"param"}, {"param", "value", "interval"}, {}, {"start", "end"}, {}, {}};
 	private String[] acceptedNodes = null;
@@ -51,35 +48,35 @@ public class WebServiceParser extends DefaultHandler {
 	private boolean gotTheValue = false;
 	private int intervalStartEnd = 0;
 	private String currentNode = null;
-	private Hashtable allValues = null;
+	private Hashtable<String,Hashtable<String,Hashtable<String,Vector<String>>>> allValues = null;
 	private StringBuffer[] dateInterval = null;
-	private Vector dates = null;
+	private Vector<String> dates = null;
 	private Node mappingNode = null;
 	private Node structureNode = null;
-	private Vector calls = null;
-	private Vector exceptions = null;
+	private Vector<String[]> calls = null;
+	private Vector<String> exceptions = null;
 	private XMLTools xmlTools = null;
 	private StringBuffer temporateValue = null;
 
 
 	public WebServiceParser(Node map, Node struct) {
-		paramName = new Stack();
-		allValues = new Hashtable();
+		paramName = new Stack<String>();
+		allValues = new Hashtable<String,Hashtable<String,Hashtable<String,Vector<String>>>>();
 		mappingNode = map;
 		structureNode = struct;
-		stack = new Stack();
-		dates = new Vector();
-		exceptions = new Vector();
+		stack = new Stack<String>();
+		dates = new Vector<String>();
+		exceptions = new Vector<String>();
 		xmlTools = XMLTools.getInstance();
 	}
 
 
-	public Vector getAllCalls() {
-		return (calls);
+	public Vector<String[]> getAllCalls() {
+		return calls;
 	}
 	
-	public Vector getExceptions() {
-		return (exceptions);
+	public Vector<String> getExceptions() {
+		return exceptions;
 	}
 
 
@@ -142,43 +139,35 @@ public class WebServiceParser extends DefaultHandler {
 		}
 		System.out.println("=====");
 */
-		String[] tmp = null;
 		// Format the content of allValues and put the output in calls.
 		try {
 			int nb = Integer.parseInt(xmlTools.selectSingleNode(structureNode, "//structure/method").getAttributes().getNamedItem("parameter-number").getNodeValue());
-			calls = new Vector();
+			calls = new Vector<String[]>();
 			int index = -1;
-			Vector callsTmp = null;
-			Vector callsTempo = null;
-			Vector vals = null;
-			Hashtable values = null;
-			Hashtable hash = null;
-			String key = null;
+
 			// Process all allValues elements...
-			for (Enumeration e = allValues.keys() ; e.hasMoreElements() ; ) {
-				key = (String) e.nextElement();
-				values = (Hashtable) allValues.get(key);
-				for (Enumeration e2 = values.keys() ; e2.hasMoreElements() ; ) {
-					hash = (Hashtable) values.get((String) e2.nextElement());
-					callsTmp = new Vector();
+			for (Hashtable<String,Hashtable<String,Vector<String>>> values:allValues.values())
+			{
+				for (Hashtable<String,Vector<String>> hash:values.values())
+				{
+					Vector<String[]> callsTmp = new Vector<String[]>();
 					callsTmp.add(new String[nb]);
-					for (Enumeration e3 = hash.keys() ; e3.hasMoreElements() ; ) {
-						key = (String) e3.nextElement();
+					for (Entry<String,Vector<String>> e3:hash.entrySet())
+					{
+						String key = e3.getKey();
 						index = Integer.parseInt(xmlTools.selectSingleNode(structureNode, "//structure/method/param[@name='" + key + "']").getAttributes().getNamedItem("index").getNodeValue());
-						vals = (Vector) hash.get(key);
-						callsTempo = new Vector();
-						for (Iterator it = callsTmp.iterator() ; it.hasNext() ; ) {
-							tmp = (String[]) it.next();
-							for (Iterator it2 = vals.iterator() ; it2.hasNext() ; ) {
-								tmp[index] = (String) it2.next();
+						Vector<String> vals = hash.get(key);
+						Vector<String[]> callsTempo = new Vector<String[]>();
+						for (String[] tmp:callsTmp) {
+							for (String s:vals) {
+								tmp[index] = s;
 								callsTempo.add(tmp.clone());
 							}
 						}
 						callsTmp = callsTempo;
 					}
-					for (Iterator it = callsTmp.iterator() ; it.hasNext() ; ) {
-						calls.add((String[]) it.next());
-					}
+					
+					calls.addAll(callsTmp);
 				}
 			}
 			// Add dates in the calls elements.
@@ -188,34 +177,35 @@ public class WebServiceParser extends DefaultHandler {
 			int indexDateEnd = Integer.parseInt(xmlTools.selectSingleNode(structureNode, "//structure/method/param[@name='time_end']").getAttributes().getNamedItem("index").getNodeValue());
 			String begin = null;
 			String end = null;
-			callsTmp = new Vector();
-			for (Iterator it = dates.iterator() ; it.hasNext() ; ) {
-				begin = (String) it.next();
-				end = (String) it.next();
-				for (Iterator it2 = calls.iterator() ; it2.hasNext() ; ) {
-					tmp = (String[]) it2.next();
+			Vector<String[]> callsTmp = new Vector<String[]>();
+			for (int i=0;i<dates.size();i+=2)
+			{
+				begin = dates.get(i);
+				end = dates.get(i+1);
+				for (String[] tmp:calls) {
 					tmp[indexDateBegin] = begin;
 					tmp[indexDateEnd] = end;
 					callsTmp.add(tmp.clone());
 				}
 			}
 			calls = callsTmp;
+			
 			// Now, format all SOAP messages, with the content of the Vector calls
-			Node f = xmlTools.selectSingleNode(structureNode, "//structure/method/query");
+			
+			//TODO: unused code
+			/*Node f = xmlTools.selectSingleNode(structureNode, "//structure/method/query");
 			NodeList nl = f.getChildNodes();
-			Node t = null;
-			String query = null;
 			for (int i = 0 ; i < nl.getLength() ; i++) {
-				t = nl.item(i);
+				Node t = nl.item(i);
 				if (t.getNodeType() == Node.CDATA_SECTION_NODE) {
-					query = t.getNodeValue().trim();
+					String query = t.getNodeValue().trim();
 				}
-			}
-			callsTmp = new Vector();
+			}*/
+			
+			callsTmp = new Vector<String[]>();
 //			System.out.println("CALLS:");
-			String[] tmp2 = null;
-			for (Iterator it = calls.iterator() ; it.hasNext() ; ) {
-				tmp2 = (String[]) it.next();
+			for (String[] tmp2:calls)
+			{
 /*
 				System.out.print("[" + tmp2[0]);
 				for (int i = 1 ; i < (tmp2.length - 2) ; i++) {
@@ -223,7 +213,13 @@ public class WebServiceParser extends DefaultHandler {
 				}
 				System.out.println("]");
 */
-				callsTmp.add(MessageFormat.format(query, tmp2));
+			  
+			  //TODO: fix buggy code
+			  if(1==1)
+			    throw new RuntimeException("FIXME FIXME FIXME");
+			  
+			  
+				//callsTmp.add(MessageFormat.format(query, tmp2)); //<---- THIS CODE DOES NOT COMPILE
 			}
 			calls = callsTmp;
 		} catch (Throwable t) {
@@ -244,8 +240,7 @@ public class WebServiceParser extends DefaultHandler {
 		String formatBegin = null;
 		String formatEnd = null;
 		Node[] formats = null;
-		Vector v = new Vector();
-		String[] tmp = null;
+		Vector<String> v = new Vector<String>();
 		int size = 0;
 		try {
 			Node n = xmlTools.selectSingleNode(mappingNode, "//mapping/param[@name='date']");
@@ -253,9 +248,8 @@ public class WebServiceParser extends DefaultHandler {
 			//Node f = xmlTools.selectSingleNode(mappingNode, "//mapping/param/format/start-date");
 			Node f = xmlTools.selectSingleNode(mappingNode, "//mapping/param/format/time_start");
 			NodeList nl = f.getChildNodes();
-			Node t = null;
 			for (int i = 0 ; i < nl.getLength() ; i++) {
-				t = nl.item(i);
+			  Node t = nl.item(i);
 				if (t.getNodeType() == Node.CDATA_SECTION_NODE) {
 					formatBegin = t.getNodeValue().trim();
 				}
@@ -264,7 +258,7 @@ public class WebServiceParser extends DefaultHandler {
 			f = xmlTools.selectSingleNode(mappingNode, "//mapping/param/format/time_end");
 			nl = f.getChildNodes();
 			for (int i = 0 ; i < nl.getLength() ; i++) {
-				t = nl.item(i);
+			  Node t = nl.item(i);
 				if (t.getNodeType() == Node.CDATA_SECTION_NODE) {
 					formatEnd = t.getNodeValue().trim();
 				}
@@ -281,21 +275,15 @@ public class WebServiceParser extends DefaultHandler {
 			exceptions.add(ProviderUtils.reportException("WebServiceParser", t));
 		}
 		// Reformatting all dates...
-		String[] objBegin = new String[size];
-		String[] objEnd = new String[size];
-		String beginDate = null;
-		String beginTime = null;
-		String endDate = null;
-		String endTime = null;
-		String form = null;
-		for (Iterator it = dates.iterator() ; it.hasNext() ; ) {
-			tmp = (String[]) it.next();
-			beginDate = tmp[0].substring(0, 10);
-			beginTime = tmp[0].substring(11);
-			endDate = tmp[1].substring(0, 10);
-			endTime = tmp[1].substring(11);
+		for (int j=0;j<dates.size(); j+=2) {
+	    Object[] objBegin = new Object[size];
+	    Object[] objEnd = new Object[size];
+			String beginDate = dates.get(j).substring(0, 10);
+			String beginTime = dates.get(j).substring(11);
+			String endDate = dates.get(j+1).substring(0, 10);
+			String endTime = dates.get(j+1).substring(11);
 			for (int i = 0 ; i < size ; i++) {
-				form = formats[i].getAttributes().getNamedItem("format").getNodeValue();
+				String form = formats[i].getAttributes().getNamedItem("format").getNodeValue();
 				if (formats[i].getAttributes().getNamedItem("nature").getNodeValue().equals("DATE")) {
 					// Date conversion.
 					objBegin[i] = Conversion.convertDate("YYYY-MM-DD", form, beginDate);
@@ -345,29 +333,29 @@ public class WebServiceParser extends DefaultHandler {
 				if (n2 != null) {
 					// n2 contains the information to map the value into an archive-specific value...
 					NodeList nl = n2.getChildNodes();
-					Node n3 = null;
 					NamedNodeMap atts = null;
 					String param = null;
 					String value = null;
 					Node att = null;
-					Vector v = null;
-					Hashtable values = (Hashtable) allValues.get(tmp);
-					if (values == null) {
-						values = new Hashtable();
+					Hashtable<String,Hashtable<String,Vector<String>>> values = allValues.get(tmp);
+					if (values == null) 
+					{
+						values = new Hashtable<String,Hashtable<String,Vector<String>>>();
 					}
-					Hashtable hash = (Hashtable) values.get(val);
-					if (hash == null) {
-						hash = new Hashtable();
-					}
+					Hashtable<String,Vector<String>> hash = values.get(val);
+					
+					if(hash==null)
+						hash=new Hashtable<String,Vector<String>>();
+
 					for (int i = 0 ; i < nl.getLength() ; i++) {
-						n3 = nl.item(i);
+						Node n3 = nl.item(i);
 						if ((n3.getNodeType() == Node.ELEMENT_NODE) && (n3.getNodeName().equals("param"))) {
 							atts = n3.getAttributes();
 							param = atts.getNamedItem("name").getNodeValue();
 							att = atts.getNamedItem("value");
-							v = (Vector) hash.get(param);
+							Vector<String> v = (Vector<String>) hash.get(param);
 							if (v == null) {
-								v = new Vector();
+								v = new Vector<String>();
 							}
 							if (att != null) {
 								// Case of unique value.
@@ -477,7 +465,8 @@ public class WebServiceParser extends DefaultHandler {
 //					System.out.println("\t\t[X] " + (String) paramName.peek());
 					if (((String) paramName.peek()).equals("date")) {
 //						System.out.println("adding date: [" + dateInterval[0].toString() + " | " + dateInterval[1].toString() + "].");
-						dates.add(new String[] {dateInterval[0].toString(), dateInterval[1].toString()});
+						dates.add(dateInterval[0].toString());
+						dates.add(dateInterval[1].toString());
 					}
 					textExpected = false;
 				break;
@@ -544,7 +533,6 @@ public class WebServiceParser extends DefaultHandler {
 		currentNode = qName;
 		int tag = getTag(qName);
 		acceptedNodes = acceptedList[tag];
-		String tmp = null;
 		switch(tag) {
 			case PARAM:
 					paramName.push(atts.getValue("name"));

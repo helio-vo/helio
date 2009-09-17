@@ -7,40 +7,25 @@ public class WebServiceQuery extends ArchiveQuery {
     //***********************
     // ATTRIBUTES
     //***********************
-	private Vector<String> calls = null;
+	private Vector<String[]> calls = null;
   private Vector<String> selectedFields = null;
-	private int index = 0;
 	
     //***********************
     // CONSTRUCTORS
     //***********************
     public WebServiceQuery() {
     	super(ArchiveQuery.WEB_SERVICE_ARCHIVE);
-		calls = new Vector<String>();
-		index = 0;
+		calls = new Vector<String[]>();
 		selectedFields = new Vector<String>();
     }
 
 
-	public void setAllCalls(Vector<String> v) {
+	public void setAllCalls(Vector<String[]> v) {
 		calls = v;
 	}
 	
-	public void addCall(String call) {
-		calls.add(call);
-	}
-	
-	
-	public String getNextCall() {
-		if (index < calls.size()) {
-			index++;
-			return ((String) calls.get(index - 1));
-		}
-		return (null);
-	}
-
-	public Vector<String> getAllCalls() {
-		return (calls);
+	public Vector<String[]> getAllCalls() {
+		return calls;
 	}
 	
 	
@@ -57,7 +42,7 @@ public class WebServiceQuery extends ArchiveQuery {
 	}
 	
     public Vector<String> getSelectedFields(){
-        return (selectedFields);
+        return selectedFields;
     }
     
     public String getSelectedFieldsAsString(){
@@ -72,8 +57,9 @@ public class WebServiceQuery extends ArchiveQuery {
 
     public String toString() {
 		StringBuffer sb = new StringBuffer();
-		for (String s:calls)
-			sb.append(s);
+		for (String[] s:calls)
+		  for(String x:s)
+		    sb.append(x);
 
 		return (sb.toString());
     }

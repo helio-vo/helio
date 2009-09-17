@@ -7,7 +7,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.security.InvalidParameterException;
-import java.util.Iterator;
 import java.util.Vector;
 
 import org.egso.provider.admin.ProviderMonitor;
@@ -308,12 +307,11 @@ public class FTPQuery extends ArchiveQuery {
 		if (commands.size() == 0) {
 			return (-1);
 		}
-		int cmd = -1;
 		int index = 0;
 		// We must start with a login command.
 		boolean mustHaveALogin = true;
-		for (Iterator<Integer> it = commands.iterator() ; it.hasNext() ; ) {
-			cmd = ((Integer) it.next()).intValue();
+		for (Integer cmd_obj:commands) {
+			int cmd = cmd_obj.intValue();
 			// If we await a login...
 			if (mustHaveALogin && (cmd != LOGIN)) {
 				return (index);
@@ -377,8 +375,8 @@ public class FTPQuery extends ArchiveQuery {
 	
 	public int howManyCommands(int cmd) {
 		int nb = 0;
-		for (Iterator<Integer> it = commands.iterator() ; it.hasNext() ; ) {
-			if (((Integer) it.next()).intValue() == cmd) {
+		for (int i:commands) {
+			if (i == cmd) {
 				nb++;
 			}
 		}

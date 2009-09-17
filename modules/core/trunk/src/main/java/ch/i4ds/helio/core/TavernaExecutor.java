@@ -22,7 +22,7 @@ import ch.i4ds.helio.ApplicationContextProvider;
 /**
  * Interface to the Taverna Workflow Engine
  * 
- * @author Simon Felix
+ * @author Simon Felix (de@iru.ch)
  */
 
 @WebService

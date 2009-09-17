@@ -998,8 +998,7 @@ public class InteractionMediator {
                 if (object instanceof ObjectProxy) {
                     objectId = ((ObjectProxy) object).getObjectId();
                 } else {
-                    for (Iterator iter = notifiers.keySet().iterator(); iter.hasNext();) {
-                        String key = (String) iter.next();
+                    for (String key:notifiers.keySet()) {
                         if (notifiers.get(key) == object) {
                             objectId = key;
                         }

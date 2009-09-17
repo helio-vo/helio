@@ -25,7 +25,7 @@ public class SQLParser extends DefaultHandler {
     /**
      * All Param objects processed.
      */
-    private Stack paramStack = null;
+    private Stack<Param> paramStack = null;
 
     /**
      * The Param object that is currently processed.
@@ -35,7 +35,7 @@ public class SQLParser extends DefaultHandler {
     /**
      * All nodes processed.
      */
-    private Stack nodeStack = null;
+    private Stack<String> nodeStack = null;
 
     /**
      * Default relation between parameters values (AND/OR).
@@ -120,11 +120,6 @@ public class SQLParser extends DefaultHandler {
     private String currentNode = null;
 
     /**
-     * A String array that contains all information for a date (cf addDate()).
-     */
-    private String[] dateValues = null;
-
-    /**
      * JAVADOC: Description of the Field
      */
     private boolean ignoreParam = false;
@@ -197,8 +192,8 @@ public class SQLParser extends DefaultHandler {
      */
     private void init() {
         acceptedNodes = new String[] { "data" };
-        paramStack = new Stack();
-        nodeStack = new Stack();
+        paramStack = new Stack<Param>();
+        nodeStack = new Stack<String>();
     }
 
     /**
@@ -220,7 +215,6 @@ public class SQLParser extends DefaultHandler {
             return;
         }
         String tmp = (new String(ch, start, length)).trim();
-        String x = null;
         if (!tmp.equals("")) {
             if (textExpected) {
                 // Text expected. The parent node is <value>, <start> or

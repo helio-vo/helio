@@ -30,7 +30,7 @@ public class Param {
 	/**
 	 * JAVADOC: Description of the Field
 	 */
-	private Vector values = null;
+	private Vector<String> values = null;
 	/**
 	 * JAVADOC: Description of the Field
 	 */
@@ -47,7 +47,7 @@ public class Param {
 		dataNode = false;
 		mapElement = map;
 		relation = rel;
-		values = new Vector();
+		values = new Vector<String>();
 	}
 
 
@@ -59,7 +59,7 @@ public class Param {
 	Param(String rel) {
 		dataNode = true;
 		relation = rel;
-		values = new Vector();
+		values = new Vector<String>();
 	}
 
 

@@ -4,7 +4,6 @@ import java.util.Collection;
 import java.util.Hashtable;
 import java.util.Enumeration;
 import java.util.Vector;
-import java.util.Iterator;
 import java.util.Locale;
 import java.util.Date;
 import java.text.DateFormat;
@@ -307,9 +306,8 @@ public class EGSOContext {
 	public Collection<String> getExceptionsAsXML() {
 		Vector<String> results = new Vector<String>();
 		StringBuffer sb = new StringBuffer();
-		String[] tmp = null;
-		for (Iterator<String[]> it = exceptions.iterator(); it.hasNext(); ) {
-			tmp = it.next();
+		for (String[] tmp:exceptions)
+		{
 			sb = new StringBuffer();
 			sb.append("<exception role=\"" + tmp[0] + "\" origin=\"" + tmp[1] + "\" type=\"" + tmp[2] + "\">");
 			sb.append("<message>" + tmp[3] + "</message><class>" + tmp[4] + "</class>");
@@ -434,9 +432,7 @@ public class EGSOContext {
 				}
 			}
 		}
-		String[] tmp = null;
-		for (Iterator<String[]> it = exceptions.iterator(); it.hasNext(); ) {
-			tmp = it.next();
+		for (String[] tmp:exceptions) {
 			if (tmp[index].toLowerCase().equals(value)) {
 				if (xml) {
 					StringBuffer sb = new StringBuffer();
@@ -464,9 +460,7 @@ public class EGSOContext {
 	 */
 	public Collection<String> getRoutesAsXML() {
 		Vector<String> results = new Vector<String>();
-		String[] tmp = null;
-		for (Iterator<String[]> it = routes.iterator(); it.hasNext(); ) {
-			tmp = it.next();
+		for (String[] tmp:routes) {
 			results.add("<route role=\"" + tmp[0] + "\" rolename=\"" + tmp[1] + "\" role-ip=\"" + tmp[2] + "\" role-version=\"" + tmp[3] + "\" time=\"" + tmp[4] + "\" action=\"" + tmp[5] + "\">" + tmp[6] + "</route>");
 		}
 		return (results);
@@ -576,9 +570,7 @@ public class EGSOContext {
 		if (!found) {
 			return (results);
 		}
-		String[] tmp = null;
-		for (Iterator<String[]> it = routes.iterator(); it.hasNext(); ) {
-			tmp = it.next();
+		for (String[] tmp:routes) {
 			if (tmp[index].toLowerCase().equals(value)) {
 				if (xml) {
 					results.add(new String[]{"<route role=\"" + tmp[0] + "\" rolename=\"" + tmp[1] + "\" role-ip=\"" + tmp[2] + "\" role-version=\"" + tmp[3] + "\" time=\"" + tmp[4] + "\" action=\"" + tmp[5] + "\">" + tmp[6] + "</route>"});
@@ -1017,21 +1009,18 @@ public class EGSOContext {
 			sb.append("<id value=\"" + id + "\"/>");
 		}
 		sb.append("<type value=\"" + typeNames[type] + "\"/><parameters>");
-		String[] tmp = null;
 		String key = null;
 		for (Enumeration<String> e = parameters.keys(); e.hasMoreElements(); ) {
 			key = e.nextElement();
-			tmp = parameters.get(key);
+			String[] tmp = parameters.get(key);
 			sb.append("<parameter type=\"" + tmp[0] + "\" name=\"" + key + "\" value=\"" + tmp[1] + "\"/>");
 		}
 		sb.append("</parameters><traceroute>");
-		for (Iterator<String[]> it = routes.iterator(); it.hasNext(); ) {
-			tmp = it.next();
+		for (String[] tmp:routes) {
 			sb.append("<route role=\"" + tmp[0] + "\" rolename=\"" + tmp[1] + "\" role-ip=\"" + tmp[2] + "\" role-version=\"" + tmp[3] + "\" time=\"" + tmp[4] + "\" action=\"" + tmp[5] + "\">" + tmp[6] + "</route>");
 		}
 		sb.append("</traceroute><exceptions>");
-		for (Iterator<String[]> it = exceptions.iterator(); it.hasNext(); ) {
-			tmp = it.next();
+		for (String[] tmp:exceptions) {
 			sb.append("<exception role=\"" + tmp[0] + "\" origin=\"" + tmp[1] + "\" type=\"" + tmp[2] + "\">");
 			sb.append("<message>" + tmp[3] + "</message><class>" + tmp[4] + "</class>");
 			sb.append("<stacktrace>" + tmp[5] + "</stacktrace></exception>");
@@ -1052,8 +1041,6 @@ public class EGSOContext {
 		if (!indentation) {
 			return (toXML());
 		}
-		String[] tmp = null;
-		String key = null;
 		String indent = "  ";
 		StringBuffer sb = new StringBuffer();
 		sb.append("<context>\n");
@@ -1066,8 +1053,8 @@ public class EGSOContext {
 		} else {
 			sb.append(indent + "<parameters>\n");
 			for (Enumeration<String> e = parameters.keys(); e.hasMoreElements(); ) {
-				key = e.nextElement();
-				tmp = parameters.get(key);
+				String key = e.nextElement();
+				String[] tmp = parameters.get(key);
 				sb.append(indent + indent + "<parameter type=\"" + tmp[0] + "\" name=\"" + key + "\" value=\"" + tmp[1] + "\"/>\n");
 			}
 			sb.append(indent + "</parameters>\n");
@@ -1076,8 +1063,7 @@ public class EGSOContext {
 			sb.append(indent + "<traceroute/>\n");
 		} else {
 			sb.append(indent + "<traceroute>\n");
-			for (Iterator<String[]> it = routes.iterator(); it.hasNext(); ) {
-				tmp = it.next();
+			for (String[] tmp:routes) {
 				sb.append(indent + indent + "<route role=\"" + tmp[0] + "\" rolename=\"" + tmp[1] + "\" role-ip=\"" + tmp[2] + "\" role-version=\"" + tmp[3] + "\" time=\"" + tmp[4] + "\" action=\"" + tmp[5] + "\">" + tmp[6] + "</route>\n");
 			}
 			sb.append(indent + "</traceroute>\n");
@@ -1086,8 +1072,7 @@ public class EGSOContext {
 			sb.append(indent + "<exceptions/>\n");
 		} else {
 			sb.append(indent + "<exceptions>\n");
-			for (Iterator<String[]> it = exceptions.iterator(); it.hasNext(); ) {
-				tmp = it.next();
+			for (String[] tmp:exceptions) {
 				sb.append(indent + indent + "<exception role=\"" + tmp[0] + "\" origin=\"" + tmp[1] + "\" type=\"" + tmp[2] + "\">\n");
 				sb.append(indent + indent + indent + "<message>" + tmp[3] + "</message>\n");
 				sb.append(indent + indent + indent + "<class>" + tmp[4] + "</class>\n");

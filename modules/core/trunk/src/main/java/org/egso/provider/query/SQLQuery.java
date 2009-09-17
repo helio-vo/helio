@@ -8,8 +8,8 @@ import org.egso.provider.datamanagement.archives.Table;
 
 public class SQLQuery extends ArchiveQuery {
 	
-	private Vector select = null;
-	private Vector from = null;
+	private Vector<Object> select = null;
+	private Vector<Table> from = null;
 	private String where = null;
 	
 	
@@ -17,11 +17,11 @@ public class SQLQuery extends ArchiveQuery {
 		super(ArchiveQuery.SQL_ARCHIVE);
 	}
 	
-	public void setSelect(Vector selectFields) {
+	public void setSelect(Vector<Object> selectFields) {
 		select = selectFields;
 	}
 	
-	public void setFrom(Vector tables) {
+	public void setFrom(Vector<Table> tables) {
 		from = tables;
 	}
 	
@@ -33,7 +33,7 @@ public class SQLQuery extends ArchiveQuery {
 		where += w;
 	}
 	
-	public Vector getSelect() {
+	public Vector<Object> getSelect() {
 		return (select);
 	}
 	
@@ -60,7 +60,7 @@ public class SQLQuery extends ArchiveQuery {
 		return(sb.toString());
 	}
 	
-	public Vector getFrom() {
+	public Vector<Table> getFrom() {
 		return(from);
 	}
 	

@@ -605,18 +605,18 @@ public class NDS_PortType_Impl implements NDS_PortType, ServiceLifecycle {
         }
         Set<String> createSet = new HashSet<String>(authoritative.keySet());
         createSet.removeAll(nonAuthoritative.keySet());
-        for (Iterator<String> iter = createSet.iterator(); iter.hasNext();) {
-            session.save(authoritative.get(iter.next()));
+        for (String s:createSet) {
+            session.save(authoritative.get(s));
         }
         Set<String> removeSet = new HashSet<String>(nonAuthoritative.keySet());
         removeSet.removeAll(authoritative.keySet());
-        for (Iterator<String> iter = removeSet.iterator(); iter.hasNext();) {
-            session.delete(nonAuthoritative.get(iter.next()));
+        for (String s:removeSet) {
+            session.delete(nonAuthoritative.get(s));
         }
         Set<String> updateSet = new HashSet<String>(nonAuthoritative.keySet());
         updateSet.retainAll(authoritative.keySet());
-        for (Iterator<String> iter = updateSet.iterator(); iter.hasNext();) {
-            session.merge(authoritative.get(iter.next()));
+        for (String s:updateSet) {
+            session.merge(authoritative.get(s));
         }
         transaction.commit();
         session.close();
@@ -641,18 +641,18 @@ public class NDS_PortType_Impl implements NDS_PortType, ServiceLifecycle {
         }
         Set<String> createSet = new HashSet<String>(authoritative.keySet());
         createSet.removeAll(nonAuthoritative.keySet());
-        for (Iterator<String> iter = createSet.iterator(); iter.hasNext();) {
-            session.save(authoritative.get(iter.next()));
+        for (String s:createSet) {
+            session.save(authoritative.get(s));
         }
         Set<String> removeSet = new HashSet<String>(nonAuthoritative.keySet());
         removeSet.removeAll(authoritative.keySet());
-        for (Iterator<String> iter = removeSet.iterator(); iter.hasNext();) {
-            session.delete(nonAuthoritative.get(iter.next()));
+        for (String s:removeSet) {
+            session.delete(nonAuthoritative.get(s));
         }
         Set<String> updateSet = new HashSet<String>(nonAuthoritative.keySet());
         updateSet.retainAll(authoritative.keySet());
-        for (Iterator<String> iter = updateSet.iterator(); iter.hasNext();) {
-            session.merge(authoritative.get(iter.next()));
+        for (String s:updateSet) {
+            session.merge(authoritative.get(s));
         }
         transaction.commit();
         session.close();
