@@ -36,7 +36,8 @@ public class TavernaExecutor
    * @exception Exception if an error occurs
    * @return A map containing the output port names and values
    */
-  private Map<String,Object> executeWorkflow(InputStream _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException
+  @WebMethod(exclude=true)
+  public Map<String,Object> executeWorkflow(InputStream _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException
   {
     final ReferenceService referenceService=(ReferenceService)ApplicationContextProvider.getTavernaApplicationContext().getBean("t2reference.service.referenceService");
     
@@ -77,6 +78,9 @@ public class TavernaExecutor
     //create the "taverna engine"
     WorkflowInstanceFacade wif=new WorkflowInstanceFacadeImpl(df,ic,"");
     
+    //start workflow
+    wif.fire();
+    
     //if any input parameters were provided, add them to the workflow
     if(_input!=null)
       for(Entry<String,Object> e:_input.entrySet())
@@ -92,9 +96,6 @@ public class TavernaExecutor
           throw new RuntimeException(_toe);
         }
       }
-    
-    //start workflow
-    wif.fire();
     
     //this thread needs to wait until all [n] results are collected
     final Semaphore workflowIsDone=new Semaphore(1-wif.getDataflow().getOutputPorts().size());

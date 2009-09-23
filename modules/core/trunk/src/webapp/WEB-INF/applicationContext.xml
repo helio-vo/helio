@@ -28,11 +28,19 @@
   <bean id="HessiService" class="ch.i4ds.helio.dpas.HessiService" />
   
   
-  <wss:binding url="/services/executeWF">
+  <!--<wss:binding url="/services/executeWF">
   	<wss:service>
 			<ws:service bean="#TavernaExecutor" />
 		</wss:service>
-	</wss:binding>
+	</wss:binding>-->
   <bean id="TavernaExecutor" class="ch.i4ds.helio.core.TavernaExecutor" />
   
+  <wss:binding url="/services/frontend">
+  	<wss:service>
+			<ws:service bean="#FrontendFacade" />
+		</wss:service>
+	</wss:binding>
+  <bean id="FrontendFacade" class="ch.i4ds.helio.core.FrontendFacade">
+  	<property name="taverna" ref="TavernaExecutor" />
+  </bean>
 </beans>
