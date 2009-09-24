@@ -3,14 +3,11 @@ package ch.i4ds.helio.dpas;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-
 import javax.activation.DataHandler;
 import javax.jws.*;
 import javax.swing.text.MutableAttributeSet;
 import javax.swing.text.html.*;
 import javax.swing.text.html.HTMLEditorKit.*;
-
-import org.biomoby.shared.event.*;
 import org.egso.common.context.*;
 import org.egso.common.services.provider.ResponseQueryProvider;
 import org.egso.provider.query.QueryEngine;
@@ -36,6 +33,12 @@ public class HessiService
     return new String[]{"ahoi","matrosen"};
   }
   
+  
+  /**
+   * A data class to represent a single result of the hesssi service
+   * 
+   * @author Simon Felix (de@iru.ch)
+   */
   public static class MeasurementURLs
   {
     public Calendar measurementStart;

@@ -33,7 +33,6 @@ public class TavernaExecutor
    * 
    * @param _workflowDefinition A stream containing the XML definition of a T2-workflow
    * @param _input Data for the workflow's input ports
-   * @exception Exception if an error occurs
    * @return A map containing the output port names and values
    */
   @WebMethod(exclude=true)
