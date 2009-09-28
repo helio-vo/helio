@@ -56,7 +56,7 @@ public class FrontendFacade
     Map<String,Object> wf_results=taverna.executeWorkflow(getClass().getResourceAsStream("workflows/hessi-get-filelist.t2flow"),inputs);
     
     //get the output of the workflow
-    List<String> stringlist=(List<String>)wf_results.get("a");
+    List<String> stringlist=(List<String>)wf_results.get("list");
     
     //convert the output of the workflow from XML to pojo's
     HessiService.MeasurementURLs[] results=new HessiService.MeasurementURLs[stringlist.size()];
@@ -81,7 +81,7 @@ public class FrontendFacade
       results[i]=new HessiService.MeasurementURLs();
       
       Calendar c=Calendar.getInstance();
-      c.setTime(DateUtils.parseIso8601Date((String)selectMeasurementStart.evaluate(doc,XPathConstants.STRING)));
+      c.setTime(DateUtils.parseIso8601DateTime((String)selectMeasurementStart.evaluate(doc,XPathConstants.STRING)));
       results[i].measurementStart=c;
       
       results[i].urlFITS=(String)selectUrlFITS.evaluate(doc,XPathConstants.STRING);
