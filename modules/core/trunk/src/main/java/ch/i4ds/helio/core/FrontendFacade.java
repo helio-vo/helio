@@ -45,7 +45,7 @@ public class FrontendFacade
    */
   @SuppressWarnings("unchecked")
   @WebMethod
-  public HessiService.MeasurementURLs[] getHessiEvents(String _dateFrom,String _dateTo) throws Exception
+  public HessiService.HessiURLs[] getHessiEvents(String _dateFrom,String _dateTo) throws Exception
   {
     //prepare the inputs of the workflow
     Map<String,Object> inputs=new LinkedHashMap<String,Object>();
@@ -59,7 +59,7 @@ public class FrontendFacade
     List<String> stringlist=(List<String>)wf_results.get("list");
     
     //convert the output of the workflow from XML to pojo's
-    HessiService.MeasurementURLs[] results=new HessiService.MeasurementURLs[stringlist.size()];
+    HessiService.HessiURLs[] results=new HessiService.HessiURLs[stringlist.size()];
     
     DocumentBuilderFactory domFactory=DocumentBuilderFactory.newInstance();
     domFactory.setNamespaceAware(true);
@@ -78,7 +78,7 @@ public class FrontendFacade
     {
       Document doc=domFactory.newDocumentBuilder().parse(new StringInputStream(stringlist.get(i)));
       
-      results[i]=new HessiService.MeasurementURLs();
+      results[i]=new HessiService.HessiURLs();
       
       Calendar c=Calendar.getInstance();
       c.setTime(DateUtils.parseIso8601DateTime((String)selectMeasurementStart.evaluate(doc,XPathConstants.STRING)));

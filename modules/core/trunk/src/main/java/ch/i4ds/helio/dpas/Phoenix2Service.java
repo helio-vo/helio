@@ -9,45 +9,22 @@ import javax.swing.text.html.*;
 import javax.swing.text.html.HTMLEditorKit.*;
 
 @WebService
-public class HessiService
+public class Phoenix2Service
 {
-  /*@WebMethod
-  public String[] getAhoi()
-  {
-    QueryEngine engine=new QueryEngine();
-    EGSOContext ctx=EGSOContextFactory.newInstance(EGSOContext.ROLE_PROVIDER,"test","1.0").createContext(EGSOContext.CONTEXT_QUERY,"test");
-    String QUERY = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><query><select><field name=\"filename\"/><field name=\"instrument\"/><field name=\"start-date\"/><field name=\"end-date\"/><field name=\"wavelength\"/></select><data same-level=\"OR\" lower-level=\"AND\"><param name=\"date\"><interval><start>2002-07-14 00:00:00</start><end>2002-07-14 23:59:59</end></interval></param></data></query>";
-    engine.query(ctx.toXML(),QUERY,new ResponseQueryProvider()
-    {
-      public String sendResponse(String context,DataHandler results) throws Exception
-      {
-        System.out.println((String)results.getContent());
-        return null;
-      }
-    });
-    
-    return new String[]{"ahoi","matrosen"};
-  }*/
-  
-  
   /**
    * A data class to represent a single result of the hesssi service
    * 
    * @author Simon Felix (de@iru.ch)
    */
-  public static class HessiURLs
+  public static class Phoenix2URLs
   {
     public Calendar measurementStart;
-    public String urlFITS;
-    public String urlCorrectedRate;
-    public String urlFrontRate;
-    public String urlPartRate;
-    public String urlRate;
-    public String urlRearRate;
+    public String urlPhaseFITSGZ;
+    public String urlIntensityFITSGZ;
   }
   
   @WebMethod
-  public HessiURLs[] getListOfFiles(String _dateFrom,String _dateTo) throws IOException
+  public Phoenix2URLs[] getListOfPhoenixFiles(String _dateFrom,String _dateTo) throws IOException
   {
     //TODO: convert all times to UTC
     
@@ -81,13 +58,13 @@ public class HessiService
     if(to.getTimeInMillis()-from.getTimeInMillis()>1000l*60*60*24*365*5)
       throw new RuntimeException("Invalid time range (>5 years)");
     
-    final LinkedList<HessiURLs> results=new LinkedList<HessiURLs>();
+    final LinkedList<Phoenix2URLs> results=new LinkedList<Phoenix2URLs>();
     for(final Calendar currentDay=(Calendar)from.clone();currentDay.before(to);currentDay.add(Calendar.DAY_OF_MONTH,1))
     {
       try
       {
         //read the directory index site
-        final URLConnection c=new URL("http://www.hedc.ethz.ch/data/"
+        final URLConnection c=new URL("http://www.astro.phys.ethz.ch/cgi-bin/showdir?dir=observations/"
             +String.format("%04d/%02d/%02d",
                 currentDay.get(Calendar.YEAR),
                 currentDay.get(Calendar.MONTH)+1, //january==0 in java
@@ -114,44 +91,57 @@ public class HessiService
                   if("href".equals(currentAttrib.toString()))
                   {
                     //we found <a href="...">, add this to the list of links
-                    String filename=(String)_a.getAttribute(currentAttrib);
+                    URL fileURL=null;
+                    try
+                    {
+                      fileURL=new URL(c.getURL(),(String)_a.getAttribute(currentAttrib));
+                    }
+                    catch(MalformedURLException e)
+                    {
+                      e.printStackTrace();
+                    }
+                    String filename=fileURL.getPath();
+                    
+                    //cut off the path
+                    if(filename.contains("/"))
+                      filename=filename.substring(filename.lastIndexOf("/")+1);
+                    
+                    
                     
                     //check if the referenced file has a valid file name
-                    if(filename.toLowerCase().endsWith(".fits"))
-                      if(filename.length()=="hsi_20000619_191200_000.fits".length())
+                    if(filename.toLowerCase().endsWith("i.fit.gz"))
+                      if(filename.length()=="BLEN7M_20081012_061500i.fit.gz".length())
                       {
                         //parse the time of the file. we don't have to parse the
                         //date, because we found this file already in a date-specific
                         //directory
                         Calendar fileTime=(Calendar)currentDay.clone();
-                        fileTime.set(Calendar.HOUR_OF_DAY,Integer.parseInt(filename.substring(13,15)));
-                        fileTime.set(Calendar.MINUTE,Integer.parseInt(filename.substring(15,17)));
-                        fileTime.set(Calendar.SECOND,Integer.parseInt(filename.substring(17,19)));
+                        fileTime.set(Calendar.HOUR_OF_DAY,Integer.parseInt(filename.substring(16,18)));
+                        fileTime.set(Calendar.MINUTE,Integer.parseInt(filename.substring(18,20)));
+                        fileTime.set(Calendar.SECOND,Integer.parseInt(filename.substring(20,22)));
                         
                         //does the file date lie within the requested time range?
                         if(!fileTime.after(to) && !fileTime.before(from))
                         {
-                          HessiURLs m=new HessiURLs();
+                          Phoenix2URLs m=new Phoenix2URLs();
                           m.measurementStart=fileTime;
-                          m.urlFITS=c.getURL()+filename;
+                          m.urlIntensityFITSGZ=fileURL.toExternalForm();
                           
-                          String quickViewURLStart=String.format("http://www.hedc.ethz.ch/data/metadata/%04d/%02d/%02d/hsi_%04d%02d%02d_%02d%02d%02d_",
-                              fileTime.get(Calendar.YEAR),
-                              fileTime.get(Calendar.MONTH)+1, //january==0 in java
-                              fileTime.get(Calendar.DAY_OF_MONTH),
-                              fileTime.get(Calendar.YEAR),
-                              fileTime.get(Calendar.MONTH)+1, //january==0 in java
-                              fileTime.get(Calendar.DAY_OF_MONTH),
-                              fileTime.get(Calendar.HOUR_OF_DAY),
-                              fileTime.get(Calendar.MINUTE),
-                              fileTime.get(Calendar.SECOND)
-                            );
-                          
-                          m.urlCorrectedRate=quickViewURLStart+"corrected_rate.png";
-                          m.urlFrontRate=quickViewURLStart+"front_rate.png";
-                          m.urlPartRate=quickViewURLStart+"part_rate.png";
-                          m.urlRate=quickViewURLStart+"rate.png";
-                          m.urlRearRate=quickViewURLStart+"rear_rate.png";
+                          try
+                          {
+                            m.urlPhaseFITSGZ=new URL(fileURL,String.format("BLEN7M_%04d%02d%02d_%02d%02d%02dp.fit.gz",
+                                fileTime.get(Calendar.YEAR),
+                                fileTime.get(Calendar.MONTH)+1, //january==0 in java
+                                fileTime.get(Calendar.DAY_OF_MONTH),
+                                fileTime.get(Calendar.HOUR_OF_DAY),
+                                fileTime.get(Calendar.MINUTE),
+                                fileTime.get(Calendar.SECOND)
+                              )).toExternalForm();
+                          }
+                          catch(MalformedURLException e)
+                          {
+                            e.printStackTrace();
+                          }
                           
                           results.add(m);
                         }
@@ -175,6 +165,6 @@ public class HessiService
       }
     }
     
-    return results.toArray(new HessiURLs[0]);
+    return results.toArray(new Phoenix2URLs[0]);
   }
 }

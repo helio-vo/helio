@@ -27,6 +27,12 @@
 	</wss:binding>
   <bean id="HessiService" class="ch.i4ds.helio.dpas.HessiService" />
   
+  <wss:binding url="/services/phoenix2">
+  	<wss:service>
+			<ws:service bean="#Phoenix2Service" />
+		</wss:service>
+	</wss:binding>
+  <bean id="Phoenix2Service" class="ch.i4ds.helio.dpas.Phoenix2Service" />
   
   <!--<wss:binding url="/services/executeWF">
   	<wss:service>
