@@ -24,10 +24,16 @@ import ch.i4ds.helio.ApplicationContextProvider;
  * 
  * @author Simon Felix (de@iru.ch)
  */
-
-@WebService
 public class TavernaExecutor
 {
+  static ReferenceService referenceService; 
+  
+  public TavernaExecutor()
+  {
+    if(referenceService==null)
+      referenceService=(ReferenceService)ApplicationContextProvider.getTavernaApplicationContext().getBean("t2reference.service.referenceService");
+  }
+  
   /**
    * Executes a workflow synchronously
    * 
@@ -38,8 +44,6 @@ public class TavernaExecutor
   @WebMethod(exclude=true)
   public Map<String,Object> executeWorkflow(InputStream _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException
   {
-    final ReferenceService referenceService=(ReferenceService)ApplicationContextProvider.getTavernaApplicationContext().getBean("t2reference.service.referenceService");
-    
     //deserialize the xml workflow-definition
     Element el=new SAXBuilder().build(_workflowDefinition).detachRootElement();
     
@@ -135,29 +139,9 @@ public class TavernaExecutor
     if(!exceptions.isEmpty())
       throw new RuntimeException(exceptions.get(0));
     
+    
+    
     //...otherwise return collected results
     return results;
-  }
-  
-  /**
-   * Let's users execute a test-workflow via webservice
-   * 
-   * @param _input Data which is used as input for the test-workflow
-   * @exception Exception if an error occurs
-   * @return The value of the output port "prophetOutput"
-   */
-  @SuppressWarnings("unchecked")
-  @WebMethod
-  public String execWF(String _input) throws Exception
-  {
-    InputStream inStream = new FileInputStream("../applications/core/WEB-INF/classes/workflows/example/dna.t2flow");
-    //return (String)executeWorkflow(inStream,null).get("prophetOutput");
-    
-    Map<String,Object> results=executeWorkflow(inStream,null);
-    
-    //png
-    byte[] img=((ArrayList<byte[]>)results.get("outputPlot")).get(0);
-    
-    return (String)results.get("prophetOutput");
   }
 }

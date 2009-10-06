@@ -20,27 +20,12 @@
 	</wss:binding>
   <bean id="HEC" class="ch.i4ds.helio.dpas.HEC" />
   
-  <wss:binding url="/services/hessi">
-  	<wss:service>
-			<ws:service bean="#HessiService" />
-		</wss:service>
-	</wss:binding>
-  <bean id="HessiService" class="ch.i4ds.helio.dpas.HessiService" />
-  
-  <wss:binding url="/services/phoenix2">
-  	<wss:service>
-			<ws:service bean="#Phoenix2Service" />
-		</wss:service>
-	</wss:binding>
-  <bean id="Phoenix2Service" class="ch.i4ds.helio.dpas.Phoenix2Service" />
-  
-  <!--<wss:binding url="/services/executeWF">
-  	<wss:service>
-			<ws:service bean="#TavernaExecutor" />
-		</wss:service>
-	</wss:binding>-->
   <bean id="TavernaExecutor" class="ch.i4ds.helio.core.TavernaExecutor" />
   
+  
+  <!-- 
+  	frontend-facing facade
+ 	-->
   <wss:binding url="/services/frontend">
   	<wss:service>
 			<ws:service bean="#FrontendFacade" />
@@ -48,5 +33,27 @@
 	</wss:binding>
   <bean id="FrontendFacade" class="ch.i4ds.helio.core.FrontendFacade">
   	<property name="taverna" ref="TavernaExecutor" />
+  	<property name="queryService" ref="QueryService" />
+  </bean>
+  
+  
+  <!--
+  	list of all data providers
+ 	-->
+  <bean id="DPAS-Hessi" class="ch.i4ds.helio.dpas.sources.Hessi" />
+  <bean id="DPAS-Phoenix2" class="ch.i4ds.helio.dpas.sources.Phoenix2" />
+  <bean id="EC-Hessi" class="ch.i4ds.helio.dpas.HessiEC" />
+  
+  <!--
+  	query facade for all data providers
+  -->
+	<bean id="QueryService" class="ch.i4ds.helio.dpas.QueryService">
+  	<property name="dataProviders">
+  		<map>
+  			<entry key="hessi" value-ref="DPAS-Hessi" />
+  			<entry key="phoenix2" value-ref="DPAS-Phoenix2" />
+  			<entry key="hessi-ec" value-ref="EC-Hessi" />
+  		</map>
+  	</property>
   </bean>
 </beans>
