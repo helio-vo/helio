@@ -17,6 +17,10 @@ import javax.swing.text.html.HTMLEditorKit.*;
  */
 public abstract class HTTPFileListProvider implements DataProvider
 {
+  /**
+   * The class will cache results for the specified number of days, by default one week.
+   * It'll check for new results every week.
+   */
   private int cacheDuration=7;
   
   public void setCacheDuration(int _days)
@@ -24,12 +28,24 @@ public abstract class HTTPFileListProvider implements DataProvider
     cacheDuration=_days;
   }
   
+  /**
+   * An entry of the cache, consisting of the System.currentTimeMillis()-time when the
+   * result was obtained and a list of results for a complete day/hour/..., depending
+   * on getFileListPer().
+   * 
+   * @author Simon Felix (de@iru.ch)
+   */
   class CacheEntry
   {
     long requestSent;
     List<ResultItem> results;
   }
   
+  /**
+   * A cache of results. The key is the Calendar.getTimeInMillis()-value of
+   * the beginning of a period and the value is a CacheEntry object containing
+   * the actual results and some meta-information about the cache entry.
+   */
   HashMap<Long,CacheEntry> cache=new HashMap<Long,CacheEntry>();
   
   
@@ -78,24 +94,27 @@ public abstract class HTTPFileListProvider implements DataProvider
    */
   public List<ResultItem> query(final Calendar _dateFrom,final Calendar _dateTo,int _maxResults) throws Exception
   {
+    //the results of this method are collected in this list
     final LinkedList<ResultItem> results=new LinkedList<ResultItem>();
     
+    //start the iteration over the time range at a getFileListPer()-boundary
+    final Calendar currentDay=(Calendar)_dateFrom.clone();
     switch(getFileListPer())
     {
       case Calendar.YEAR:
-        _dateFrom.set(Calendar.MONTH,0);
+        currentDay.set(Calendar.MONTH,0);
       case Calendar.MONTH:
-        _dateFrom.set(Calendar.DAY_OF_MONTH,1);
+        currentDay.set(Calendar.DAY_OF_MONTH,1);
       case Calendar.DAY_OF_MONTH:
       case Calendar.DAY_OF_WEEK:
       case Calendar.DAY_OF_YEAR:
-        _dateFrom.set(Calendar.HOUR,0);
+        currentDay.set(Calendar.HOUR,0);
       case Calendar.HOUR:
-        _dateFrom.set(Calendar.MINUTE,0);
+        currentDay.set(Calendar.MINUTE,0);
       case Calendar.MINUTE:
-        _dateFrom.set(Calendar.SECOND,0);
+        currentDay.set(Calendar.SECOND,0);
       case Calendar.SECOND:
-        _dateFrom.set(Calendar.MILLISECOND,0);
+        currentDay.set(Calendar.MILLISECOND,0);
       case Calendar.MILLISECOND:
         break;
       case Calendar.WEEK_OF_MONTH:
@@ -103,15 +122,21 @@ public abstract class HTTPFileListProvider implements DataProvider
         throw new RuntimeException("Directory pages per week are not supported");
     }
     
-    for(final Calendar currentDay=(Calendar)_dateFrom.clone();currentDay.before(_dateTo);currentDay.add(getFileListPer(),1))
+    //iterate over the complete time range
+    for(;currentDay.before(_dateTo);currentDay.add(getFileListPer(),1))
     {
+      //check if the cache already contains results for the current time period 
       CacheEntry ce=cache.get(currentDay.getTimeInMillis());
       if(ce!=null && System.currentTimeMillis()-ce.requestSent<1000l*60*60*24*cacheDuration)
       {
+        //yes, we found an entry in the cache --> add it to the list
         results.addAll(ce.results);
       }
       else
       {
+        //no, there's no entry in the cache --> fetch the data
+        
+        //the results of the period are collected in this list
         final LinkedList<ResultItem> resultsOfThisDirectoryPage=new LinkedList<ResultItem>();
         
         try
@@ -167,6 +192,11 @@ public abstract class HTTPFileListProvider implements DataProvider
         }
         catch(FileNotFoundException _fnfe)
         {
+          /*
+           * 404 or similar error occured while accessing data. that usually
+           * means that there's just no data of this period. --> ignore the
+           * exception
+           */
         }
         
         //add all the results of this index page
@@ -179,6 +209,7 @@ public abstract class HTTPFileListProvider implements DataProvider
         cache.put(currentDay.getTimeInMillis(),ce);
       }
       
+      //abort early if we have enough results
       if(results.size()>_maxResults)
         break;
     }

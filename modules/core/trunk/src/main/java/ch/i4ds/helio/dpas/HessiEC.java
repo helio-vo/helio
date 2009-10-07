@@ -4,32 +4,72 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
+/***
+ * Data provider for the RHESSI flare event catalogue.
+ * 
+ * It downloads http://www.hedc.ethz.ch/data/dbase/hessi_flare_list.txt, parses it
+ * and then returns sublists from the cached list.
+ * 
+ * @author Simon Felix (de@iru.ch)
+ */
 public class HessiEC implements DataProvider
 {
+  /**
+   * The age of the data in milliseconds (from System.currentTimeMillis())
+   */
   private long lastUpdate;
-  private long updatePeriod=1000l*60*60*24;
+  
+  /**
+   * The maximum age of the data in days, by default a week
+   */
+  private int cacheDuration=7;
+  
+  /**
+   * This list contains ALL events.
+   * 
+   * It is used as a cache to speed up requests. It will be filled when
+   * the request is done.
+   */
   private LinkedList<ResultItem> events=new LinkedList<ResultItem>();
   
-  public void setUpdatePeriod(long _milliseconds)
+  /**
+   * Set the maximum age of the cache in days
+   * 
+   * @param _days
+   */
+  public void setCacheDuration(int _days)
   {
-    updatePeriod=_milliseconds;
+    cacheDuration=_days;
   }
   
-  private void parseFlareList() throws Exception
+  /**
+   * Downloads http://www.hedc.ethz.ch/data/dbase/hessi_flare_list.txt and parses the file.
+   * 
+   * @throws Exception
+   */
+  private synchronized void downloadAndParseFlareList() throws Exception
   {
+    //open a connection to the file
     final URLConnection c=new URL("http://www.hedc.ethz.ch/data/dbase/hessi_flare_list.txt").openConnection();
     BufferedReader in=new BufferedReader(new InputStreamReader(c.getInputStream()));
     
+    //empty the in-memory list
     events.clear();
     
+    //read the text file line by line
     String line;
     while((line=in.readLine())!=null)
     {
+      //check if the current line matches the format
       if(line.length()==141)
       {
+        //if yes, split the line by spaces
         String[] items=line.split("\\s+");
-        if(items.length>12)
+        
+        //check if the current line contains at least 13 space-separated items 
+        if(items.length>=13)
         {
+          //if yes, let's parse the line and store the result in a ResultItem-object
           ResultItem ri=new ResultItem();
           ri.flareNr=Integer.parseInt(items[0]);
           ri.measurementStart=parseDate(items[1],items[2]);
@@ -48,6 +88,7 @@ public class HessiEC implements DataProvider
       }
     }
     
+    //close the connection afterwards
     in.close();
     
     //using linear search later on, therefore sorting is not neccessary
@@ -57,13 +98,31 @@ public class HessiEC implements DataProvider
         return _a.measurementStart.compareTo(_b.measurementStart);
       }});*/
     
+    //store the age of the in-memory list
     lastUpdate=System.currentTimeMillis();
   }
   
+  /**
+   * This method parses the a date/time-string from the list and creates a {@link java.util.Calendar}
+   * object from it.
+   * 
+   * The date format is as follows: 3-Mar-2002
+   * The time format is as follows: 17:59:59
+   * 
+   * @param _day
+   * @param _time
+   * @return The {@link java.util.Calendar} or null if parsing failed
+   */
   private Calendar parseDate(String _day,String _time)
   {
+    //split the date parts into day, month and year
     String[] dateParts=_day.split("\\-");
     
+    //validate that the date-part consits of three parts separated by a -
+    if(dateParts.length!=3)
+      return null;
+    
+    //create a calendar object
     Calendar c=Calendar.getInstance();
     c.set(
           Integer.parseInt(dateParts[2]),
@@ -76,6 +135,7 @@ public class HessiEC implements DataProvider
     c.set(Calendar.MILLISECOND,0);
     c.setTimeZone(TimeZone.getTimeZone("GMT"));
     
+    //fill in the month (conversion from "Jan" to Calendar.JANUARY)
     if(dateParts[1].equals("Jan"))
       c.set(Calendar.MONTH,Calendar.JANUARY);
     if(dateParts[1].equals("Feb"))
@@ -104,16 +164,32 @@ public class HessiEC implements DataProvider
     return c;
   }
   
+  /**
+   * Checks if the in-memory copy of the flare list is out of date.
+   * 
+   * @return true if the in-memory list is out of date
+   */
   private boolean flareListNeedsUpdate()
   {
-    return System.currentTimeMillis()>lastUpdate+updatePeriod;
+    return System.currentTimeMillis()>lastUpdate+1000l*60*60*24*cacheDuration;
   }
   
+  /**
+   * Returns a sublist from the RHESSI flare event catalogue.
+   * 
+   * The first request can take some time as the service first creates an
+   * in-memory copy of the 6+ MB list.
+   */
   public List<ResultItem> query(Calendar dateFrom,Calendar dateTo,int maxResults) throws Exception
   {
     //download the flare list if it is out of date
-    if(flareListNeedsUpdate())
-      parseFlareList();
+    //this has to be synchronized so that two concurrent (first) requests won't
+    //trigger two downloads
+    synchronized(this)
+    {
+      if(flareListNeedsUpdate())
+        downloadAndParseFlareList();
+    }
     
     //naïve linear search trough the complete list, should be fast enough
     LinkedList<ResultItem> results=new LinkedList<ResultItem>();
@@ -125,6 +201,7 @@ public class HessiEC implements DataProvider
           break;
       }
     
+    //return results
     return results;
   }
   

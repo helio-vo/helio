@@ -13,7 +13,9 @@ import java.util.*;
  */
 public class QueryService
 {
-  //the list of known instruments (key=instrument name, value=data provider object)
+  /**
+   * The list of known instruments (key=instrument name, value=data provider object)
+   */
   private Map<String,DataProvider> dataProviders;
   
   /**
