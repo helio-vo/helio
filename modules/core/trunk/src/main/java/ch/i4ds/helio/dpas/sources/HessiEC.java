@@ -1,8 +1,10 @@
-package ch.i4ds.helio.dpas;
+package ch.i4ds.helio.dpas.sources;
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
+
+import ch.i4ds.helio.dpas.*;
 
 /***
  * Data provider for the RHESSI flare event catalogue.

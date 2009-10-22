@@ -15,7 +15,7 @@ import ch.i4ds.helio.dpas.*;
 public class Phoenix2 extends HTTPFileListProvider
 {
   @Override
-  public ResultItem getData(String path,Calendar _dateFrom,Calendar _dateTo)
+  public ResultItem getData(String path)
   {
     if(!path.toLowerCase().endsWith("i.fit.gz"))
       return null;
@@ -57,9 +57,6 @@ public class Phoenix2 extends HTTPFileListProvider
       
       filenameFormat="%04d%02d%02d%02d%02d%02dp.fit.gz";
     }
-    
-    if(fileTime.after(_dateTo) || fileTime.before(_dateFrom))
-      return null;
     
     ResultItem result=new ResultItem();
     

@@ -52,15 +52,6 @@ public class QueryService
    */
   public ResultItem[] query(String _instrument,String _dateFrom,String _dateTo,int _maxResults) throws Exception
   {
-    /*
-     * checking parameters
-     */
-    if(!dataProviders.containsKey(_instrument))
-      throw new RuntimeException("Instrument \""+_instrument+"\" not found.");
-    
-    if(_maxResults<=0)
-      _maxResults=Integer.MAX_VALUE;
-    
     if(_dateFrom.length()!="2001.01.01 00:00:00".length())
       throw new RuntimeException("Invalid time range (dateFrom)");
     if(_dateTo.length()!="2001.01.01 00:00:00".length())
@@ -90,16 +81,40 @@ public class QueryService
     to.set(Calendar.MILLISECOND,0);
     to.setTimeZone(TimeZone.getTimeZone("GMT"));
     
-    if(from.after(to))
+    return query(_instrument,from,to,_maxResults);
+  }
+  
+  /**
+   * Queries a known instrument. All results will be sorted by date (ascending).
+   * 
+   * @param _instrument Name of the instrument
+   * @param _dateFrom Beginning of time period to search
+   * @param _dateTo End of time period to search
+   * @param _maxResults Maximum number of results
+   * @return
+   * @throws Exception
+   */
+  public ResultItem[] query(String _instrument,Calendar _from,Calendar _to,int _maxResults) throws Exception
+  {
+    /*
+     * checking parameters
+     */
+    if(!dataProviders.containsKey(_instrument))
+      throw new RuntimeException("Instrument \""+_instrument+"\" not found.");
+    
+    if(_maxResults<=0)
+      _maxResults=Integer.MAX_VALUE;
+    
+    if(_from.after(_to))
       throw new RuntimeException("Invalid time range (from > to)");
     
-    if(to.getTimeInMillis()-from.getTimeInMillis()>1000l*60*60*24*365*5)
+    if(_to.getTimeInMillis()-_from.getTimeInMillis()>1000l*60*60*24*365*5)
       throw new RuntimeException("Invalid time range (>5 years)");
     
     /*
      * querying the instrument
      */
-    List<ResultItem> results=dataProviders.get(_instrument).query(from,to,_maxResults);
+    List<ResultItem> results=dataProviders.get(_instrument).query(_from,_to,_maxResults);
     
     //sort the results
     Collections.sort(results,new Comparator<ResultItem>(){

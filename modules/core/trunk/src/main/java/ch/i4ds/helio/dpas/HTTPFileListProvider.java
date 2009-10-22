@@ -81,7 +81,7 @@ public abstract class HTTPFileListProvider implements DataProvider
    * @param _dateTo End of the searched time period
    * @return A result or NULL if no result can be created
    */
-  public abstract ResultItem getData(String _path,Calendar _dateFrom,Calendar _dateTo);
+  public abstract ResultItem getData(String _path);
   
   /**
    * Queries an instrument. This method gets all directory pages of the supplied
@@ -129,8 +129,7 @@ public abstract class HTTPFileListProvider implements DataProvider
       CacheEntry ce=cache.get(currentDay.getTimeInMillis());
       if(ce!=null && System.currentTimeMillis()-ce.requestSent<1000l*60*60*24*cacheDuration)
       {
-        //yes, we found an entry in the cache --> add it to the list
-        results.addAll(ce.results);
+        //yes, we found an entry in the cache --> use the data from the cache
       }
       else
       {
@@ -175,11 +174,25 @@ public abstract class HTTPFileListProvider implements DataProvider
                       }
                       
                       //check if the referenced file has a valid file name
-                      ResultItem result=getData(filepath,_dateFrom,_dateTo);
+                      ResultItem result=getData(filepath);
                       
                       //it does --> we found a result
                       if(result!=null)
-                        resultsOfThisDirectoryPage.add(result);
+                      {
+                        //find out end of measurement (use start instead if end is not available)
+                        Calendar measurementEnd=result.measurementEnd;
+                        if(measurementEnd==null)
+                          measurementEnd=result.measurementStart;
+                        
+                        //check if measurement lies within the current day
+                        Calendar nextDay=(Calendar)currentDay.clone();
+                        nextDay.add(getFileListPer(),1);
+
+                        if((!measurementEnd.before(currentDay) && measurementEnd.before(nextDay))
+                            || (!result.measurementStart.before(currentDay) && result.measurementStart.before(nextDay))
+                            || (result.measurementStart.before(currentDay) && !measurementEnd.before(nextDay)))
+                          resultsOfThisDirectoryPage.add(result);
+                      }
                     }
                   }
                 }
@@ -199,14 +212,27 @@ public abstract class HTTPFileListProvider implements DataProvider
            */
         }
         
-        //add all the results of this index page
-        results.addAll(resultsOfThisDirectoryPage);
-        
-        //and cache the page for future use
+        //cache the page for future use
         ce=new CacheEntry();
         ce.requestSent=System.currentTimeMillis();
         ce.results=resultsOfThisDirectoryPage;
         cache.put(currentDay.getTimeInMillis(),ce);
+      }
+      
+      //add all valid results of this (maybe cached) index page to the result list
+      for(ResultItem result:ce.results)
+      {
+        //find out end of measurement. if there's none provided, just use the
+        //start of measurement instead
+        Calendar measurementEnd=result.measurementEnd;
+        if(measurementEnd==null)
+          measurementEnd=result.measurementStart;
+        
+        //check if the result's time period overlaps the specified time period
+        if((!measurementEnd.before(_dateFrom) && measurementEnd.before(_dateTo))
+            || (!result.measurementStart.before(_dateFrom) && result.measurementStart.before(_dateTo))
+            || (result.measurementStart.before(_dateFrom) && !measurementEnd.before(_dateTo)))
+          results.add(result);
       }
       
       //abort early if we have enough results

@@ -2,7 +2,12 @@ package ch.i4ds.helio.core;
 
 import java.util.*;
 import javax.jws.*;
+import javax.xml.bind.annotation.XmlSeeAlso;
+
+import org.apache.tools.ant.util.DateUtils;
+
 import ch.i4ds.helio.dpas.*;
+import ch.i4ds.helio.dpas.output.*;
 
 /**
  * Facade for the web sites. This class contains various convenience functions
@@ -56,7 +61,7 @@ public class FrontendFacade
    * @throws Exception
    */
   @WebMethod(operationName="query_v1")
-  public ResultItem[] query(
+  public ResultItem[] query1(
       @WebParam(name="instrument") String _instrument,
       @WebParam(name="date_from") String _dateFrom,
       @WebParam(name="date_to") String _dateTo,
@@ -64,6 +69,48 @@ public class FrontendFacade
   {
     return query.query(_instrument,_dateFrom,_dateTo,_max_results);
   }
+  
+  
+  /**
+   * Queries the HELIO DPAS. All results will be sorted by date.
+   * 
+   * @param _instrument The instrument to query
+   * @param _dateFrom The beginning of the time period to search (2001-01-31 00:00:00)
+   * @param _dateTo The end of the time period to search (2001-01-31 00:00:00)
+   * @param _max_results The maximum number of results.
+   * @return A list of ResultItems
+   * @throws Exception
+   */
+  /*@WebMethod(operationName="query_v2")
+  public Object query2(
+      @WebParam(name="TIME") String _time,
+      @WebParam(name="INSTRUMENT") String _instrument,
+      @WebParam(name="FORMAT") String _format,
+      @WebParam(name="WHERE") String _where,
+      @WebParam(name="MAXROWS") int _max_results,
+      @WebParam(name="STARTINDEX") int _start_index) throws Exception
+  {
+    String[] timeRange=_time.split("/");
+    Calendar from=Calendar.getInstance(TimeZone.getTimeZone("GMT"));
+    Calendar to=Calendar.getInstance(TimeZone.getTimeZone("GMT"));
+    from.setTime(DateUtils.parseIso8601DateTime(timeRange[0]));
+    to.setTime(DateUtils.parseIso8601DateTime(timeRange[1]));
+    
+    ResultItem[] results=query.query(_instrument,from,to,_max_results+_start_index);
+    
+    //remove first _start_index elements
+    if(_start_index!=0)
+      results=Arrays.copyOfRange(results,_start_index,Math.min(results.length,_start_index+_max_results));
+    
+    //TODO: apply WHERE clause
+    
+    //return the data in the requested format (by default VOTable)
+    if(_format.equals("array"))
+      return results;
+    else if(_format.equals("csv"))
+      return new CSVOutput().convert(results);
+    return new VOTableOutput().convert(results);
+  }*/
   
   
   /**
@@ -80,14 +127,14 @@ public class FrontendFacade
   {
     //prepare the inputs of the workflow
     Map<String,Object> inputs=new LinkedHashMap<String,Object>();
-    inputs.put("start_date",_dateFrom);
-    inputs.put("end_date",_dateTo);
+    inputs.put("date_start",_dateFrom);
+    inputs.put("date_end",_dateTo);
     
     //load the workflow and execute it
     Map<String,Object> wf_results=taverna.executeWorkflow(getClass().getResourceAsStream("workflows/initial.t2flow"),inputs);
     
     //get the output of the workflow
-    return (String)wf_results.get("out_VOTabel");
+    return (String)wf_results.get("voTable");
   }
   
   /**

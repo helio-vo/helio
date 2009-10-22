@@ -26,6 +26,22 @@ import ch.i4ds.helio.ApplicationContextProvider;
  */
 public class TavernaExecutor
 {
+  @SuppressWarnings("serial")
+  class InvalidInputException extends Exception
+  {
+    String portName;
+    
+    InvalidInputException(String _portName)
+    {
+    }
+    
+    @Override
+    public String toString()
+    {
+      return "Invalid input port specified: "+portName;
+    }
+  }
+  
   static ReferenceService referenceService; 
   
   public TavernaExecutor()
@@ -42,7 +58,7 @@ public class TavernaExecutor
    * @return A map containing the output port names and values
    */
   @WebMethod(exclude=true)
-  public Map<String,Object> executeWorkflow(InputStream _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException
+  public Map<String,Object> executeWorkflow(InputStream _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException,InvalidInputException,TokenOrderException
   {
     //deserialize the xml workflow-definition
     Element el=new SAXBuilder().build(_workflowDefinition).detachRootElement();
@@ -88,19 +104,18 @@ public class TavernaExecutor
     if(_input!=null)
       for(Entry<String,Object> e:_input.entrySet())
       {
+        //check if port exists in workflow
+        if(!containsInputPort(wif.getDataflow(),e.getKey()))
+          throw new InvalidInputException(e.getKey());
+        
+        //attach parameter to workflow
         T2Reference dataReference=ic.getReferenceService().register(e.getValue(),1,true,ic);
         WorkflowDataToken dataToken=new WorkflowDataToken("",new int[]{},dataReference,ic);
-        try
-        {
-          wif.pushData(dataToken,e.getKey());
-        }
-        catch(TokenOrderException _toe)
-        {
-          throw new RuntimeException(_toe);
-        }
+        wif.pushData(dataToken,e.getKey());
       }
     
-    //this thread needs to wait until all [n] results are collected
+    //this thread has to wait until all [n] results are collected. this semamphore
+    //will block until the workflow has finished
     final Semaphore workflowIsDone=new Semaphore(1-wif.getDataflow().getOutputPorts().size());
     
     //create a map to collect the results
@@ -135,13 +150,16 @@ public class TavernaExecutor
     //wait until workflow is done or an exception has occured
     workflowIsDone.acquire();
     
-    //did an exception occur? if yes --> re-throw it...
+    //did exceptios occur? if yes --> re-throw the first one...
     if(!exceptions.isEmpty())
       throw new RuntimeException(exceptions.get(0));
     
-    
-    
     //...otherwise return collected results
     return results;
+  }
+  
+  private boolean containsInputPort(Dataflow _df,String portName)
+  {
+    return true;
   }
 }

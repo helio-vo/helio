@@ -38,4 +38,8 @@ public class ResultItem
   //used by phoenix2
   public String urlPhaseFITSGZ;
   public String urlIntensityFITSGZ;
+  
+  //used by SolarMonitor SEIT
+  public String urlPreview;
+  public String urlPreviewThumb;
 }

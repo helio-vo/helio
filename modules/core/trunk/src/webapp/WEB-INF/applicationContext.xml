@@ -42,7 +42,8 @@
  	-->
   <bean id="DPAS-Hessi" class="ch.i4ds.helio.dpas.sources.Hessi" />
   <bean id="DPAS-Phoenix2" class="ch.i4ds.helio.dpas.sources.Phoenix2" />
-  <bean id="EC-Hessi" class="ch.i4ds.helio.dpas.HessiEC" />
+  <bean id="EC-Hessi" class="ch.i4ds.helio.dpas.sources.HessiEC" />
+  <bean id="SM-SEIT" class="ch.i4ds.helio.dpas.sources.SolarMonitorSEIT" />
   
   <!--
   	query facade for all data providers
@@ -53,6 +54,7 @@
   			<entry key="hessi" value-ref="DPAS-Hessi" />
   			<entry key="phoenix2" value-ref="DPAS-Phoenix2" />
   			<entry key="hessi-ec" value-ref="EC-Hessi" />
+  			<entry key="sm-seit" value-ref="SM-SEIT" />
   		</map>
   	</property>
   </bean>

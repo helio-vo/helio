@@ -14,7 +14,7 @@ import ch.i4ds.helio.dpas.*;
 public class Hessi extends HTTPFileListProvider
 {
   @Override
-  public ResultItem getData(String path,Calendar _dateFrom,Calendar _dateTo)
+  public ResultItem getData(String path)
   {
     //is not a fits-file --> abort
     if(!path.toLowerCase().endsWith(".fits"))
@@ -38,10 +38,6 @@ public class Hessi extends HTTPFileListProvider
     fileTime.set(Calendar.SECOND,Integer.parseInt(filename.substring(17,19)));
     fileTime.set(Calendar.MILLISECOND,0);
     
-    //file is outside the searched time period --> abort
-    if(fileTime.after(_dateTo) || fileTime.before(_dateFrom))
-      return null;
-
     //we have a valid file and have parsed it's date
     //let's create all the file links and populate a
     //map with all the info
