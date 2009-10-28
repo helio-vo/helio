@@ -1,5 +1,5 @@
-<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-2.1-beta-2"><dataflow id="d64bdba1-d911-4499-9f4a-2248df211cf2" role="top"><name>Workflow14</name><inputPorts><port><name>date_start</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port><port><name>date_end</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port></inputPorts><outputPorts><port><name>voTable</name></port></outputPorts><processors><processor><name>sql</name><inputPorts><port><name>parameters</name><depth>0</depth></port></inputPorts><outputPorts><port><name>parameters</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>wsdl-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.wsdl.WSDLActivity</class><inputMap><map from="parameters" to="parameters" /></inputMap><outputMap><map from="parameters" to="parameters" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean xmlns="">
-  <wsdl>http://soleil.i4ds.ch:9090/HELIO-core/services/hec?wsdl</wsdl>
+<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-2.1-beta-2"><dataflow id="b1314ee6-0b80-4a9c-b0b3-cb678510fd2f" role="top"><name>Workflow14</name><inputPorts><port><name>date_start</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port><port><name>date_end</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port></inputPorts><outputPorts><port><name>voTable</name></port></outputPorts><processors><processor><name>sql</name><inputPorts><port><name>parameters</name><depth>0</depth></port></inputPorts><outputPorts><port><name>parameters</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>wsdl-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.wsdl.WSDLActivity</class><inputMap><map from="parameters" to="parameters" /></inputMap><outputMap><map from="parameters" to="parameters" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean xmlns="">
+  <wsdl>http://glassfish01.i4ds.technik.fhnw.ch:8181/core/services/hec?wsdl</wsdl>
   <operation>sql</operation>
 </net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean></configBean><annotations /></activity></activities><dispatchStack><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Parallelize</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig xmlns="">
   <maxJobs>1</maxJobs>
@@ -190,7 +190,7 @@ catch (Exception e){
   <maxDelay>5000</maxDelay>
   <maxRetries>0</maxRetries>
 </net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Invoke</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer></dispatchStack><iterationStrategyStack><iteration><strategy><cross><port name="voTable" depth="0" /></cross></strategy></iteration></iterationStrategyStack></processor><processor><name>query_v1_hessi_ec</name><inputPorts><port><name>parameters</name><depth>0</depth></port></inputPorts><outputPorts><port><name>parameters</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>wsdl-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.wsdl.WSDLActivity</class><inputMap><map from="parameters" to="parameters" /></inputMap><outputMap><map from="parameters" to="parameters" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean xmlns="">
-  <wsdl>http://soleil.i4ds.ch:9090/HELIO-core/services/frontend?wsdl</wsdl>
+  <wsdl>http://glassfish01.i4ds.technik.fhnw.ch:8181/core/services/frontend?wsdl</wsdl>
   <operation>query_v1</operation>
 </net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean></configBean><annotations /></activity></activities><dispatchStack><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Parallelize</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig xmlns="">
   <maxJobs>1</maxJobs>
@@ -427,7 +427,7 @@ private void addTableHeaders(List instrument, String prefix){
     parser.parse(source);
     doc=parser.getDocument();
     nodes = doc.getElementsByTagName("return");
-    if(nodes.getLength()&gt;=1){
+    if(nodes!= null &amp;&amp; nodes.getLength()&gt;=1){
       break;
     } else {
       reader.close();
@@ -454,6 +454,7 @@ private void addTableHeaders(List instrument, String prefix){
 
 
 private writeExtraFields(Node nodeVO, Node nodeHessi) {
+  String debug = new String("");
   NodeList listHessi = nodeHessi.getChildNodes();
   for(int i=0; i&lt; listHessi.getLength(); i++) {
     Node newNode = nodeVO.getFirstChild().cloneNode(false);
@@ -475,6 +476,7 @@ private String findOverlaps() {
   NodeList tableListVO = docVO.getElementsByTagName("TABLEDATA");
   NodeList dataListVO = docVO.getElementsByTagName("TR");
   if(dataListVO == null) {
+    debug="dataListVO = null";
     return debug;
   }
   SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
@@ -493,19 +495,25 @@ private String findOverlaps() {
     doc=parser.getDocument();
     docPhoenix=parserPhoenix.getDocument();
     NodeList dataListHessi = doc.getElementsByTagName("measurementStart");
-    if(dataListHessi == null || dataListHessi.getLength() == 0){
-      return debug;
+    if(dataListHessi == null){
+      dataListHessi = new NodeList();
     }
     NodeList dataListHessi2 = doc.getElementsByTagName("measurementEnd");
+
     NodeList dataListPhoenix = docPhoenix.getElementsByTagName("measurementStart");
-    if(dataListePhoenix == null || dataListPhoenix.getLength() == 0) {
-       return debug;
+    if(dataListePhoenix == null) {
+       dataListPhoenix = new NodeList();
     }
     int pos = Integer.parseInt(position.get(i)); 
 
     Node voDataNode = dataListVO.item(pos);
+    if(voDataNode == null)
+    {
+      reader.close();
+      readerPhoenix.close();
+      return debug;
+    }
     Node parent = voDataNode.getParentNode();
-    boolean found = false;
     for(int j = 0; j &lt; dataListHessi.getLength(); j++) {
       Date startHessi = date.parse(dataListHessi.item(j).getFirstChild().getNodeValue());
       Date endHessi = date.parse(dataListHessi2.item(j).getFirstChild().getNodeValue());
@@ -516,7 +524,6 @@ private String findOverlaps() {
           writeExtraFields(voDataNodeCurrent, doc.getElementsByTagName("return").item(j));
           writeExtraFields(voDataNodeCurrent, docPhoenix.getElementsByTagName("return").item(k));
           parent.insertBefore(voDataNodeCurrent, voDataNode);
-          found =true;
         }
       }
 
@@ -673,7 +680,7 @@ catch (Exception e){
   <maxDelay>5000</maxDelay>
   <maxRetries>0</maxRetries>
 </net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Invoke</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer></dispatchStack><iterationStrategyStack><iteration><strategy /></iteration></iterationStrategyStack></processor><processor><name>query_v1_phoenix2</name><inputPorts><port><name>parameters</name><depth>0</depth></port></inputPorts><outputPorts><port><name>parameters</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>wsdl-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.wsdl.WSDLActivity</class><inputMap><map from="parameters" to="parameters" /></inputMap><outputMap><map from="parameters" to="parameters" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean xmlns="">
-  <wsdl>http://soleil.i4ds.ch:9090/HELIO-core/services/frontend?wsdl</wsdl>
+  <wsdl>http://glassfish01.i4ds.technik.fhnw.ch:8181/core/services/frontend?wsdl</wsdl>
   <operation>query_v1</operation>
 </net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean></configBean><annotations /></activity></activities><dispatchStack><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Parallelize</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig xmlns="">
   <maxJobs>1</maxJobs>

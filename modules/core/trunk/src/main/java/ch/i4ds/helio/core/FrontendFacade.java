@@ -2,12 +2,7 @@ package ch.i4ds.helio.core;
 
 import java.util.*;
 import javax.jws.*;
-import javax.xml.bind.annotation.XmlSeeAlso;
-
-import org.apache.tools.ant.util.DateUtils;
-
 import ch.i4ds.helio.dpas.*;
-import ch.i4ds.helio.dpas.output.*;
 
 /**
  * Facade for the web sites. This class contains various convenience functions
@@ -22,6 +17,7 @@ public class FrontendFacade
 {
   private TavernaExecutor taverna;
   private QueryService query;
+  
   
   @WebMethod(exclude=true)
   public void setTaverna(TavernaExecutor _taverna)
@@ -46,6 +42,19 @@ public class FrontendFacade
   public String[] getInstruments()
   {
     return query.getInstruments();
+  }
+  
+  
+  
+  /**
+   * Returns the version number of the backend.
+   * 
+   * @return Version number
+   */
+  @WebMethod(operationName="get_version")
+  public String getVersion()
+  {
+    return "Revision 72, Initial workflow v4";
   }
   
   
