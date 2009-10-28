@@ -1,0 +1,40 @@
+<VOTABLE version='1.0'>
+    <DEFINITIONS>
+    </DEFINITIONS>
+    <RESOURCE type='results'>
+        <DESCRIPTION>
+            EGSO SEC Server
+        </DESCRIPTION>
+        <TABLE>
+            <FIELD datatype='int' name='goes_id'>
+            </FIELD>
+            <FIELD arraysize='3400' datatype='char' name='ntime_start'>
+            </FIELD>
+            <FIELD arraysize='3400' datatype='char' name='time_start'>
+            </FIELD>
+            <FIELD arraysize='3400' datatype='char' name='time_peak'>
+            </FIELD>
+            <FIELD arraysize='3400' datatype='char' name='time_end'>
+            </FIELD>
+            <FIELD arraysize='3400' datatype='char' name='ntime_end'>
+            </FIELD>
+            <FIELD datatype='int' name='nar'>
+            </FIELD>
+            <FIELD datatype='float' name='latitude'>
+            </FIELD>
+            <FIELD datatype='float' name='longitude'>
+            </FIELD>
+            <FIELD datatype='float' name='long_carr'>
+            </FIELD>
+            <FIELD arraysize='3400' datatype='char' name='xray_class'>
+            </FIELD>
+            <FIELD arraysize='3400' datatype='char' name='optical_class'>
+            </FIELD>
+            <DATA>
+                <TABLEDATA>
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+    </RESOURCE>
+</VOTABLE>
+
