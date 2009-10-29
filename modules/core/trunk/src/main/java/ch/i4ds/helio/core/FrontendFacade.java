@@ -25,12 +25,12 @@ public class FrontendFacade
     taverna=_taverna;
   }
   
+  
   @WebMethod(exclude=true)
   public void setQueryService(QueryService _query)
   {
     query=_query;
   }
-  
   
   
   /**
@@ -54,11 +54,10 @@ public class FrontendFacade
   @WebMethod(operationName="get_version")
   public String getVersion()
   {
-    return "Revision 72, Initial workflow v4";
+    return "Revision 73, Initial workflow v5";
   }
   
-  
-  
+
   /**
    * Queries the HELIO DPAS. All results will be sorted by date.
    * 

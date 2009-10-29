@@ -10,6 +10,9 @@
     <servlet-class>com.sun.xml.ws.transport.http.servlet.WSSpringServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
+  
+  
+  <!-- mappings -->
   <servlet-mapping>
     <servlet-name>jaxws-servlet</servlet-name>
     <url-pattern>/services/*</url-pattern>

@@ -158,8 +158,19 @@ public class TavernaExecutor
     return results;
   }
   
-  private boolean containsInputPort(Dataflow _df,String portName)
+  /**
+   * Checks wether the given Dataflow contains the specified input port
+   * 
+   * @param _df A dataflow
+   * @param _portName The input port to look for
+   * @return true when the dataflow contains the input port
+   */
+  private boolean containsInputPort(Dataflow _df,String _portName)
   {
-    return true;
+    for(DataflowInputPort dip: _df.getInputPorts())
+      if(dip.getName().equals(_portName))
+        return true;
+    
+    return false;
   }
 }
