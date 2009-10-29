@@ -2,6 +2,7 @@ package ch.i4ds.helio.core;
 
 import java.util.*;
 import javax.jws.*;
+import org.apache.tools.ant.util.DateUtils;
 import ch.i4ds.helio.dpas.*;
 
 /**
@@ -54,7 +55,7 @@ public class FrontendFacade
   @WebMethod(operationName="get_version")
   public String getVersion()
   {
-    return "Revision 73, Initial workflow v5";
+    return "Revision 79, Initial workflow v6";
   }
   
 
@@ -89,11 +90,10 @@ public class FrontendFacade
    * @return A list of ResultItems
    * @throws Exception
    */
-  /*@WebMethod(operationName="query_v2")
-  public Object query2(
+  @WebMethod(operationName="query_v2_array")
+  public ResultItem[] query2_array(
       @WebParam(name="TIME") String _time,
       @WebParam(name="INSTRUMENT") String _instrument,
-      @WebParam(name="FORMAT") String _format,
       @WebParam(name="WHERE") String _where,
       @WebParam(name="MAXROWS") int _max_results,
       @WebParam(name="STARTINDEX") int _start_index) throws Exception
@@ -113,11 +113,48 @@ public class FrontendFacade
     //TODO: apply WHERE clause
     
     //return the data in the requested format (by default VOTable)
-    if(_format.equals("array"))
-      return results;
-    else if(_format.equals("csv"))
-      return new CSVOutput().convert(results);
-    return new VOTableOutput().convert(results);
+    return results;
+  }
+  
+  
+  @WebMethod(operationName="query_v2_csv")
+  public String query2_csv(
+      @WebParam(name="TIME") String _time,
+      @WebParam(name="INSTRUMENT") String _instrument,
+      @WebParam(name="WHERE") String _where,
+      @WebParam(name="MAXROWS") int _max_results,
+      @WebParam(name="STARTINDEX") int _start_index) throws Exception
+  {
+    String res=ResultItem.FIELD_NAMES[0];
+    for(int i=1;i<ResultItem.FIELD_NAMES.length;i++)
+      res+=","+ResultItem.FIELD_NAMES[i];
+    res+="\n";
+    
+    for(ResultItem ri:query2_array(_time,_instrument,_where,_max_results,_start_index))
+    {
+      String line=ri.toCSVEscapedString(0);
+      
+      for(int i=1;i<ResultItem.FIELD_NAMES.length;i++)
+        line+=","+ri.toCSVEscapedString(i);
+      
+      res+=line+"\n";
+    }
+    
+    return res;
+  }
+  
+  
+  /*@WebMethod(operationName="query_v2_votable")
+  public String query2_votable(
+      @WebParam(name="TIME") String _time,
+      @WebParam(name="INSTRUMENT") String _instrument,
+      @WebParam(name="WHERE") String _where,
+      @WebParam(name="MAXROWS") int _max_results,
+      @WebParam(name="STARTINDEX") int _start_index) throws Exception
+  {
+    
+    
+    return new VOTableOutput().convert(query2_array(_time,_instrument,_where,_max_results,_start_index));
   }*/
   
   

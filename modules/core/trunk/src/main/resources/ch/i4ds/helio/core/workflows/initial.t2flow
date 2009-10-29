@@ -1,4 +1,4 @@
-<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-2.1-beta-2"><dataflow id="381d2d99-557e-4261-a6ad-2feba11c8104" role="top"><name>Workflow14</name><inputPorts><port><name>date_start</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port><port><name>date_end</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port></inputPorts><outputPorts><port><name>voTable</name></port></outputPorts><processors><processor><name>sql</name><inputPorts><port><name>parameters</name><depth>0</depth></port></inputPorts><outputPorts><port><name>parameters</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>wsdl-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.wsdl.WSDLActivity</class><inputMap><map from="parameters" to="parameters" /></inputMap><outputMap><map from="parameters" to="parameters" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean xmlns="">
+<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-2.1-beta-2"><dataflow id="22e17e62-0df7-4cf6-82cb-296dc7fc4bac" role="top"><name>Workflow14</name><inputPorts><port><name>date_start</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port><port><name>date_end</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port></inputPorts><outputPorts><port><name>voTable</name></port></outputPorts><processors><processor><name>sql</name><inputPorts><port><name>parameters</name><depth>0</depth></port></inputPorts><outputPorts><port><name>parameters</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>wsdl-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.wsdl.WSDLActivity</class><inputMap><map from="parameters" to="parameters" /></inputMap><outputMap><map from="parameters" to="parameters" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean xmlns="">
   <wsdl>http://glassfish01.i4ds.technik.fhnw.ch:8181/core/services/hec?wsdl</wsdl>
   <operation>sql</operation>
 </net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean></configBean><annotations /></activity></activities><dispatchStack><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Parallelize</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig xmlns="">
@@ -184,6 +184,15 @@ try {
   reader2.close();
   if(dateList.size()==0){
     dateList.add(new ArrayList());
+  }
+  if(endDates.size()==0){
+    endDates.add("2008-00-00 00:00:01");
+  }
+  if(startDates.size()==0){
+    startDates.add("2008-00-00 00:00:00");
+  }
+  if(positions.size()==0){
+    positions.add("0");
   }
 }
 catch (Exception e){
