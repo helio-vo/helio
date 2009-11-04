@@ -168,12 +168,16 @@ public class FrontendFacade
   @WebMethod(operationName="run_initial_workflow")
   public String runInitialWorkflow(
       @WebParam(name="date_from") String _dateFrom,
-      @WebParam(name="date_to") String _dateTo) throws Exception
+      @WebParam(name="date_to") String _dateTo,
+      @WebParam(name="goes_min") String _GOESmin,
+      @WebParam(name="goes_max") String _GOESmax) throws Exception
   {
     //prepare the inputs of the workflow
     Map<String,Object> inputs=new LinkedHashMap<String,Object>();
     inputs.put("date_start",_dateFrom);
     inputs.put("date_end",_dateTo);
+    inputs.put("GOES_min",_GOESmin);
+    inputs.put("GOES_max",_GOESmax);
     
     //load the workflow and execute it
     Map<String,Object> wf_results=taverna.executeWorkflow(getClass().getResourceAsStream("workflows/initial.t2flow"),inputs);
