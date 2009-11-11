@@ -12,6 +12,12 @@
 		<finalName>${project.artifactId}</finalName>
 
 		<plugins>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<argLine>-Xmx768m</argLine>
+				</configuration>
+			</plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>

@@ -16,6 +16,8 @@ import ch.i4ds.helio.dpas.*;
  */
 public class HessiEC implements DataProvider
 {
+  private static String HESSI_FLARE_LIST_URL="http://hesperia.gsfc.nasa.gov/hessidata/dbase/hessi_flare_list.txt";
+  
   /**
    * The age of the data in milliseconds (from System.currentTimeMillis())
    */
@@ -45,14 +47,14 @@ public class HessiEC implements DataProvider
   }
   
   /**
-   * Downloads http://www.hedc.ethz.ch/data/dbase/hessi_flare_list.txt and parses the file.
+   * Downloads hessi_flare_list.txt and parses the file.
    * 
    * @throws Exception
    */
   private synchronized void downloadAndParseFlareList() throws Exception
   {
     //open a connection to the file
-    final URLConnection c=new URL("http://www.hedc.ethz.ch/data/dbase/hessi_flare_list.txt").openConnection();
+    final URLConnection c=new URL(HESSI_FLARE_LIST_URL).openConnection();
     BufferedReader in=new BufferedReader(new InputStreamReader(c.getInputStream()));
     
     //empty the in-memory list
