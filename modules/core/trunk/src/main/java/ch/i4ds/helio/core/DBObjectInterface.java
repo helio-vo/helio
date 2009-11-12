@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 import ch.i4ds.helio.dpas.*;
 
 @WebService
-public class DBObjects
+public class DBObjectInterface
 {
   //!!! USE LATE BINDING FOR THE DATABASE !!!
   //only when using late binding we can deploy this on the prod. server which
@@ -32,36 +32,36 @@ public class DBObjects
   {
     LinkedHashMap<String,String> cols=getColumns(_tableName);
     
-    String result="";
-    result+="<VOTABLE version='1.0'>";
-    result+="<DEFINITIONS>";
-    result+="</DEFINITIONS>";
-    result+="<RESOURCE type='results'>";
-    result+="<DESCRIPTION>"+_tableName+"</DESCRIPTION>";
-    result+="<TABLE>";
+    StringBuffer result=new StringBuffer("");
+    result.append("<VOTABLE version='1.0'>");
+    result.append("<DEFINITIONS>");
+    result.append("</DEFINITIONS>");
+    result.append("<RESOURCE type='results'>");
+    result.append("<DESCRIPTION>"+_tableName+"</DESCRIPTION>");
+    result.append("<TABLE>");
     for(Entry<String,String> col:cols.entrySet())
-      result+="<FIELD "+sqlToVOTableType(col.getValue())+" name='"+col.getKey()+"' />";
-    result+="<DATA>";
-    result+="<TABLEDATA>";
+      result.append("<FIELD "+sqlToVOTableType(col.getValue())+" name='"+col.getKey()+"' />");
+    result.append("<DATA>");
+    result.append("<TABLEDATA>");
     
     Connection con=((DataSource)(new InitialContext()).lookup("jdbc/helio")).getConnection();
     ResultSet rs=con.createStatement().executeQuery("SELECT * FROM "+_tableName+";");
     
     while(rs.next())
     {
-      result+="<TR>";
+      result.append("<TR>");
       for(Entry<String,String> col:cols.entrySet())
       {
-        result+="<TD>"+rs.getString(col.getKey())+"</TD>";
+        result.append("<TD>"+rs.getString(col.getKey())+"</TD>");
       }
-      result+="</TR>";
+      result.append("</TR>");
     }
     
-    result+="</TABLEDATA>";
-    result+="</DATA>";
-    result+="</TABLE>";
-    result+="</RESOURCE>";
-    return result;
+    result.append("</TABLEDATA>");
+    result.append("</DATA>");
+    result.append("</TABLE>");
+    result.append("</RESOURCE>");
+    return result.toString();
   }
   
   private String sqlToVOTableType(String _dataType)
@@ -89,39 +89,21 @@ public class DBObjects
     
     String tableName=generateTableName();
     
-    String sql="CREATE TABLE "+tableName+" SELECT ";
-    int i=0;
+    String sql="CREATE TABLE "+tableName+" SELECT";
+    sql+=" IFNULL(A.measurementStart,B.measurementStart) measurementStart,";
+    sql+=" IFNULL(A.measurementEnd,B.measurementEnd) measurementEnd";
+    
     for(Entry<String,String> col:colsA.entrySet())
-    {
-      if(i!=0)
-        sql+=",";
-      if(col.getKey().equals("measurementStart"))
-      {
-        sql+="IFNULL(A.measurementStart,B.measurementStart) measurementStart";
-      }
-      else if(col.getKey().equals("measurementEnd"))
-      {
-        sql+="IFNULL(A.measurementEnd,B.measurementEnd) measurementEnd";        
-      }
-      else
-        sql+="A."+col.getKey()+" A_"+col.getKey();
-      i++;
-    }
+      sql+=",A."+col.getKey()+" A_"+col.getKey();
+    
     for(Entry<String,String> col:colsB.entrySet())
-    {
-      if(!col.getKey().equals("measurementStart") && !col.getKey().equals("measurementEnd"))
-      {
-        if(i!=0)
-          sql+=",";
-        sql+="B."+col.getKey()+" B_"+col.getKey();
-        i++;
-      }
-    }
+      sql+=",B."+col.getKey()+" B_"+col.getKey();
+    
     sql+=" FROM "+_tableA+" A INNER JOIN "+_tableB+" B ON";
     sql+=" ((A.measurementStart>=B.measurementStart) AND (A.measurementStart<B.measurementEnd))";
     sql+=" OR ((A.measurementEnd>B.measurementStart) AND (A.measurementEnd<=B.measurementEnd))";
     sql+=" OR ((A.measurementStart<=B.measurementStart) AND (A.measurementEnd>=B.measurementEnd))";
-    sql+=" OR ((B.measurementStart>=A.measurementStart) AND (B.measurementStart<B.measurementEnd))";
+    sql+=" OR ((B.measurementStart>=A.measurementStart) AND (B.measurementStart<A.measurementEnd))";
     
     con.createStatement().execute(sql);
     
@@ -163,7 +145,7 @@ public class DBObjects
       put("urlPhaseFITSGZ","VARCHAR(500)");
       put("urlIntensityFITSGZ","VARCHAR(500)");
       put("urlPreview","VARCHAR(500)");
-      put("urlPreviewThumb","VARCHAR(500))");
+      put("urlPreviewThumb","VARCHAR(500)");
     }});
     
     Connection con=((DataSource)(new InitialContext()).lookup("jdbc/helio")).getConnection();
@@ -172,9 +154,14 @@ public class DBObjects
     for(ResultItem ri:results)
     {
       if(ri.measurementStart!=null)
-        ps.setDate(1,new java.sql.Date(ri.measurementStart.getTimeInMillis()));
+        ps.setTimestamp(1,new java.sql.Timestamp(ri.measurementStart.getTimeInMillis()));
+      else
+        ps.setTimestamp(1,null);
+      
       if(ri.measurementEnd!=null)
-        ps.setDate(2,new java.sql.Date(ri.measurementEnd.getTimeInMillis()));
+        ps.setTimestamp(2,new java.sql.Timestamp(ri.measurementEnd.getTimeInMillis()));
+      else
+        ps.setTimestamp(2,null);
       
       ps.setString(3,ri.urlFITS);
       ps.setString(4,ri.urlCorrectedRate);
@@ -185,7 +172,9 @@ public class DBObjects
       ps.setInt(9,ri.flareNr);
       
       if(ri.measurementPeak!=null)
-        ps.setDate(10,new java.sql.Date(ri.measurementPeak.getTimeInMillis()));
+        ps.setTimestamp(10,new java.sql.Timestamp(ri.measurementPeak.getTimeInMillis()));
+      else
+        ps.setTimestamp(10,null);
       
       ps.setInt(11,ri.peakCS);
       ps.setInt(12,ri.totalCounts);
@@ -241,6 +230,8 @@ public class DBObjects
       i++;
     }
     sql+=") ENGINE = MyISAM;";
+    
+    System.out.println(sql);
     
     con.createStatement().execute(sql);
     con.close();

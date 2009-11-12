@@ -61,6 +61,9 @@ public class Phoenix2 extends HTTPFileListProvider
     ResultItem result=new ResultItem();
     
     result.measurementStart=fileTime;
+    Calendar endTime=(Calendar)(fileTime.clone());
+    endTime.add(Calendar.MINUTE,15);
+    result.measurementEnd=endTime;
     result.urlIntensityFITSGZ=path;
     try
     {

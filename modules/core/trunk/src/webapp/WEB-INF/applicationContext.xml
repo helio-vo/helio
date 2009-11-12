@@ -37,6 +37,19 @@
   </bean>
   
   
+  <!-- 
+  	test-interface for simon's design idea
+ 	-->
+  <wss:binding url="/services/dbo">
+  	<wss:service>
+			<ws:service bean="#DBObjectInterface" />
+		</wss:service>
+	</wss:binding>
+  <bean id="DBObjectInterface" class="ch.i4ds.helio.core.DBObjectInterface">
+  	<property name="queryService" ref="QueryService" />
+  </bean>
+  
+  
   <!--
   	list of all data providers
  	-->

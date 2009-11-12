@@ -1,10 +1,7 @@
 package ch.i4ds.helio.core;
 
-import java.io.IOException;
-
 import org.apache.xbean.spring.context.FileSystemXmlApplicationContext;
 import org.springframework.context.ApplicationContext;
-import ch.i4ds.helio.ApplicationContextProvider;
 import junit.framework.TestCase;
 
 public class FrontendFacadeTest extends TestCase
