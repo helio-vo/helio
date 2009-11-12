@@ -37,6 +37,6 @@ public class FrontendFacadeTest extends TestCase
   
   public void testInitialWorkflow() throws Exception
   {
-    //ff.runInitialWorkflow("2007-03-05 03:00:00","2007-03-07 23:45:00","","");
+    ff.runInitialWorkflow("2007-03-05 03:00:00","2007-03-06 23:45:00","","");
   }
 }
