@@ -53,7 +53,7 @@ public class FrontendFacade
   @WebMethod(operationName="get_version")
   public String getVersion()
   {
-    return "Revision 82, Initial workflow v7";
+    return "Revision 85, Initial workflow v8";
   }
   
 
