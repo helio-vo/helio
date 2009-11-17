@@ -129,8 +129,14 @@ public class TavernaExecutor
       public void resultTokenProduced(WorkflowDataToken token,String portName)
       {
         Object s=referenceService.renderIdentifier(token.getData(),Object.class,ic);
+        boolean newOutput=false;
+        if(!results.containsKey(portName))
+          newOutput=true;
+        
         results.put(portName,s);
-        workflowIsDone.release();
+        
+        if(newOutput)
+          workflowIsDone.release();
       }
     });
     

@@ -91,7 +91,7 @@ public class Phoenix2 extends HTTPFileListProvider
     +String.format("%04d/%02d/%02d",
         _start.get(Calendar.YEAR),
         _start.get(Calendar.MONTH)+1, //january==0 in java
-        _start.get(Calendar.DAY_OF_MONTH))+"/";
+        _start.get(Calendar.DAY_OF_MONTH));
   }
 
   @Override
