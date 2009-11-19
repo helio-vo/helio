@@ -58,10 +58,10 @@ public class TavernaExecutor
    * @return A map containing the output port names and values
    */
   @WebMethod(exclude=true)
-  public Map<String,Object> executeWorkflow(InputStream _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException,InvalidInputException,TokenOrderException
+  public Map<String,Object> executeWorkflow(String _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException,InvalidInputException,TokenOrderException
   {
     //deserialize the xml workflow-definition
-    Element el=new SAXBuilder().build(_workflowDefinition).detachRootElement();
+    Element el=new SAXBuilder().build(new StringReader(_workflowDefinition)).detachRootElement();
     
     final Dataflow df;
     try

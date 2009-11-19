@@ -1,7 +1,13 @@
 package ch.i4ds.helio.core;
 
+import java.io.*;
+import java.net.*;
 import java.util.*;
+
 import javax.jws.*;
+
+import com.sun.tools.hat.internal.parser.Reader;
+
 import ch.i4ds.helio.dpas.*;
 
 /**
@@ -15,6 +21,12 @@ import ch.i4ds.helio.dpas.*;
 @WebService
 public class FrontendFacade
 {
+  /**
+   * A list of web service addresses to remap (key=host, value=service location)
+   */
+  private Map<String,String> remapWebservice;
+  
+  
   private TavernaExecutor taverna;
   private QueryService query;  
   
@@ -24,6 +36,11 @@ public class FrontendFacade
     taverna=_taverna;
   }
   
+  @WebMethod(exclude=true)
+  public void setRemapWebservice(Map<String,String> _remapWebservice)
+  {
+    remapWebservice=_remapWebservice;
+  }
   
   @WebMethod(exclude=true)
   public void setQueryService(QueryService _query)
@@ -53,7 +70,13 @@ public class FrontendFacade
   @WebMethod(operationName="get_version")
   public String getVersion()
   {
-    return "Revision 85, Initial workflow v8";
+    return "Revision 87, Initial workflow v8";
+  }
+  
+  @WebMethod(operationName="get_host_name")
+  public String getHostName() throws UnknownHostException
+  {
+    return InetAddress.getLocalHost().getHostName();
   }
   
 
@@ -162,8 +185,22 @@ public class FrontendFacade
     inputs.put("GOES_min",_GOESmin);
     inputs.put("GOES_max",_GOESmax);
     
-    //load the workflow and execute it
-    Map<String,Object> wf_results=taverna.executeWorkflow(getClass().getResourceAsStream("workflows/initial.t2flow"),inputs);
+    //load the workflow in a string
+    String wf="";
+    BufferedReader fis=new BufferedReader(new FileReader(new File(getClass().getResource("workflows/initial.t2flow").toURI())));
+    char[] buf=new char[8192];
+    int read=0;
+    while((read=fis.read(buf))>0)
+      wf+=String.valueOf(buf,0,read);
+    fis.close();
+    
+    //replace the webservice location depending on the current host
+    String host=InetAddress.getLocalHost().getHostName();
+    if(remapWebservice.containsKey(host))
+      wf=wf.replace("http://helio.i4ds.technik.fhnw.ch:8080/core/services/",remapWebservice.get(host));
+    
+    //execute the workflow
+    Map<String,Object> wf_results=taverna.executeWorkflow(wf,inputs);
     
     //get the output of the workflow
     return (String)wf_results.get("VOTable");
