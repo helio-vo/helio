@@ -70,7 +70,7 @@ public class FrontendFacade
   @WebMethod(operationName="get_version")
   public String getVersion()
   {
-    return "Revision 87, Initial workflow v8";
+    return "Revision 88, Initial workflow v8";
   }
   
   @WebMethod(operationName="get_host_name")
@@ -197,12 +197,12 @@ public class FrontendFacade
     //replace the webservice location depending on the current host
     String host=InetAddress.getLocalHost().getHostName();
     if(remapWebservice.containsKey(host))
-      wf=wf.replace("http://helio.i4ds.technik.fhnw.ch:8080/core/services/",remapWebservice.get(host));
+      wf=wf.replace("<wsdl>http://helio.i4ds.technik.fhnw.ch:8080/core/services/","<wsdl>"+remapWebservice.get(host));
     
     //execute the workflow
-    Map<String,Object> wf_results=taverna.executeWorkflow(wf,inputs);
+    Map<String,List<Object>> wf_results=taverna.executeWorkflow(wf,inputs);
     
     //get the output of the workflow
-    return (String)wf_results.get("VOTable");
+    return (String)(wf_results.get("VOTable").get(0));
   }
 }

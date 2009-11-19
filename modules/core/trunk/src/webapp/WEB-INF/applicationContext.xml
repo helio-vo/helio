@@ -36,6 +36,7 @@
   	<property name="queryService" ref="QueryService" />
   	<property name="remapWebservice">
   		<map>
+  			<entry key="helio.i4ds.technik.fhnw.ch" value="http://helio.i4ds.technik.fhnw.ch:8080/core/services/" />
   			<entry key="CN025" value="http://127.0.0.1:8080/core/services/" />
   		</map>
   	</property>

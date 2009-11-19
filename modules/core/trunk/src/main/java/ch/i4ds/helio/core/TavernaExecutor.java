@@ -58,7 +58,7 @@ public class TavernaExecutor
    * @return A map containing the output port names and values
    */
   @WebMethod(exclude=true)
-  public Map<String,Object> executeWorkflow(String _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException,InvalidInputException,TokenOrderException
+  public Map<String,List<Object>> executeWorkflow(String _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException,InvalidInputException,TokenOrderException
   {
     //deserialize the xml workflow-definition
     Element el=new SAXBuilder().build(new StringReader(_workflowDefinition)).detachRootElement();
@@ -119,7 +119,7 @@ public class TavernaExecutor
     final Semaphore workflowIsDone=new Semaphore(1-wif.getDataflow().getOutputPorts().size());
     
     //create a map to collect the results
-    final Map<String,Object> results=Collections.synchronizedMap(new LinkedHashMap<String,Object>());
+    final Map<String,List<Object>> results=Collections.synchronizedMap(new LinkedHashMap<String,List<Object>>());
     final LinkedList<Throwable> exceptions=new LinkedList<Throwable>();
     
     //the result listener will be called once for every output. we collect
@@ -129,13 +129,16 @@ public class TavernaExecutor
       public void resultTokenProduced(WorkflowDataToken token,String portName)
       {
         Object s=referenceService.renderIdentifier(token.getData(),Object.class,ic);
-        boolean newOutput=false;
-        if(!results.containsKey(portName))
-          newOutput=true;
+        List<Object> outputValues=results.get(portName);
+        if(outputValues==null)
+        {
+          outputValues=new LinkedList<Object>();
+          results.put(portName,outputValues);
+        }
         
-        results.put(portName,s);
+        outputValues.add(s);
         
-        if(newOutput)
+        if(token.isFinal())
           workflowIsDone.release();
       }
     });
