@@ -3,11 +3,7 @@ package ch.i4ds.helio.core;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-
 import javax.jws.*;
-
-import com.sun.tools.hat.internal.parser.Reader;
-
 import ch.i4ds.helio.dpas.*;
 
 /**
@@ -73,6 +69,13 @@ public class FrontendFacade
     return "Revision 88, Initial workflow v8";
   }
   
+  
+  /**
+   * Returns the host name
+   * 
+   * @return Host name
+   * @throws UnknownHostException
+   */
   @WebMethod(operationName="get_host_name")
   public String getHostName() throws UnknownHostException
   {
