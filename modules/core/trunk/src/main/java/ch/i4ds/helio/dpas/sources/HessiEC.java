@@ -175,6 +175,9 @@ public class HessiEC implements DataProvider
    */
   private boolean flareListNeedsUpdate()
   {
+    if(events.size()<10)
+      return true;
+    
     return System.currentTimeMillis()>lastUpdate+1000l*60*60*24*cacheDuration;
   }
   
