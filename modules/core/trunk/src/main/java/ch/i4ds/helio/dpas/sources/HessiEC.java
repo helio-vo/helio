@@ -193,6 +193,13 @@ public class HessiEC implements DataProvider
     {
       if(flareListNeedsUpdate())
         downloadAndParseFlareList();
+      
+      for(int retries=0;retries<3;retries++)
+        if(events.size()<10)
+        {
+          Thread.sleep(2000);
+          downloadAndParseFlareList();
+        }
     }
     
     //naïve linear search trough the complete list, should be fast enough
