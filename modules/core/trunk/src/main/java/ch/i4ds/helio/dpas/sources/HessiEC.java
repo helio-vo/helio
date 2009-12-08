@@ -62,33 +62,43 @@ public class HessiEC implements DataProvider
     
     //read the text file line by line
     String line;
+    
+    //read over header
+    for(int i=0;i<6;i++)
+      in.readLine();
+    
     while((line=in.readLine())!=null)
     {
       //check if the current line matches the format
-      if(line.length()==141)
+      if(line.length()>=20)
       {
         //if yes, split the line by spaces
-        String[] items=line.split("\\s+");
+        String[] items=line.trim().split("\\s+");
         
         //check if the current line contains at least 13 space-separated items 
         if(items.length>=13)
-        {
-          //if yes, let's parse the line and store the result in a ResultItem-object
-          ResultItem ri=new ResultItem();
-          ri.flareNr=Integer.parseInt(items[0]);
-          ri.measurementStart=parseDate(items[1],items[2]);
-          ri.measurementEnd=parseDate(items[1],items[4]);
-          ri.measurementPeak=parseDate(items[1],items[3]);
-          ri.peakCS=Integer.parseInt(items[6]);
-          ri.totalCounts=Integer.parseInt(items[7]);
-          ri.energyKeVFrom=Integer.parseInt(items[8].split("\\-")[0]);
-          ri.energyKeVTo=Integer.parseInt(items[8].split("\\-")[1]);
-          ri.xPos=Integer.parseInt(items[9]);
-          ri.yPos=Integer.parseInt(items[10]);
-          ri.radial=Integer.parseInt(items[11]);
-          ri.AR=Integer.parseInt(items[12]);
-          events.add(ri);
-        }
+          try
+          {
+            //if everything's ok, let's parse the line and store the result in a ResultItem-object
+            ResultItem ri=new ResultItem();
+            ri.flareNr=Integer.parseInt(items[0]);
+            ri.measurementStart=parseDate(items[1],items[2]);
+            ri.measurementEnd=parseDate(items[1],items[4]);
+            ri.measurementPeak=parseDate(items[1],items[3]);
+            ri.peakCS=Integer.parseInt(items[6]);
+            ri.totalCounts=Integer.parseInt(items[7]);
+            ri.energyKeVFrom=Integer.parseInt(items[8].split("\\-")[0]);
+            ri.energyKeVTo=Integer.parseInt(items[8].split("\\-")[1]);
+            ri.xPos=Integer.parseInt(items[9]);
+            ri.yPos=Integer.parseInt(items[10]);
+            ri.radial=Integer.parseInt(items[11]);
+            ri.AR=Integer.parseInt(items[12]);
+            events.add(ri);
+          }
+          catch(NumberFormatException _nfe)
+          {
+            //couldn't parse some numbers --> invalid line
+          }
       }
     }
     

@@ -1,11 +1,22 @@
-<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-2.1-beta-2"><dataflow id="6014d8f0-ffc7-49ec-a64a-175ee1790325" role="top"><name>Workflow14</name><inputPorts><port><name>date_start</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port><port><name>date_end</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port><port><name>GOES_min</name><depth>0</depth><granularDepth>0</granularDepth><annotations><annotation_chain encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
+<workflow xmlns="http://taverna.sf.net/2008/xml/t2flow" version="1" producedBy="taverna-2.1-beta-2"><dataflow id="370e9485-fbae-4433-9f70-ffef989eecee" role="top"><name>Workflow14</name><inputPorts><port><name>date_start</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port><port><name>date_end</name><depth>0</depth><granularDepth>0</granularDepth><annotations /></port><port><name>GOES_min</name><depth>0</depth><granularDepth>0</granularDepth><annotations><annotation_chain encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
+  <annotationAssertions>
+    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.ExampleValue">
+        <text>C6</text>
+      </annotationBean>
+      <date>2009-10-30 12:18:02.812 CET</date>
+      <creators />
+      <curationEventList />
+    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+  </annotationAssertions>
+</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain><annotation_chain encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
   <annotationAssertions>
     <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
       <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.ExampleValue">
         <text>C6
 empty string for none</text>
       </annotationBean>
-      <date>2009-10-30 11:18:38.93 GMT</date>
+      <date>2009-10-30 12:18:38.93 CET</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
@@ -17,18 +28,7 @@ empty string for none</text>
         <text>Goes filter parameter
 xray_class &gt; value</text>
       </annotationBean>
-      <date>2009-10-30 11:17:55.640 GMT</date>
-      <creators />
-      <curationEventList />
-    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
-  </annotationAssertions>
-</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain><annotation_chain encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
-  <annotationAssertions>
-    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
-      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.ExampleValue">
-        <text>C6</text>
-      </annotationBean>
-      <date>2009-10-30 11:18:02.812 GMT</date>
+      <date>2009-10-30 12:17:55.640 CET</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
@@ -40,7 +40,7 @@ xray_class &gt; value</text>
         <text>X10
 empty string for none</text>
       </annotationBean>
-      <date>2009-10-30 11:17:09.125 GMT</date>
+      <date>2009-10-30 12:17:09.125 CET</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
@@ -51,7 +51,7 @@ empty string for none</text>
       <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.ExampleValue">
         <text>X10</text>
       </annotationBean>
-      <date>2009-10-30 11:04:48.968 GMT</date>
+      <date>2009-10-30 12:04:48.968 CET</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
@@ -62,19 +62,7 @@ empty string for none</text>
       <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.FreeTextDescription">
         <text>Goes filter parameter - optional</text>
       </annotationBean>
-      <date>2009-10-30 11:05:09.156 GMT</date>
-      <creators />
-      <curationEventList />
-    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
-  </annotationAssertions>
-</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain><annotation_chain encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
-  <annotationAssertions>
-    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
-      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.FreeTextDescription">
-        <text>Goes filter parameter
-</text>
-      </annotationBean>
-      <date>2009-10-30 11:16:55.640 GMT</date>
+      <date>2009-10-30 12:05:09.156 CET</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
@@ -87,12 +75,24 @@ empty string for none</text>
 xray_class &lt; value
 </text>
       </annotationBean>
-      <date>2009-10-30 11:17:46.734 GMT</date>
+      <date>2009-10-30 12:17:46.734 CET</date>
       <creators />
       <curationEventList />
     </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
   </annotationAssertions>
-</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain></annotations></port></inputPorts><outputPorts><port><name>VOTable</name></port><port><name>xml_out</name></port></outputPorts><processors><processor><name>sql</name><inputPorts><port><name>parameters</name><depth>0</depth></port></inputPorts><outputPorts><port><name>parameters</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>wsdl-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.wsdl.WSDLActivity</class><inputMap><map from="parameters" to="parameters" /></inputMap><outputMap><map from="parameters" to="parameters" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean xmlns="">
+</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain><annotation_chain encoding="xstream"><net.sf.taverna.t2.annotation.AnnotationChainImpl xmlns="">
+  <annotationAssertions>
+    <net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+      <annotationBean class="net.sf.taverna.t2.annotation.annotationbeans.FreeTextDescription">
+        <text>Goes filter parameter
+</text>
+      </annotationBean>
+      <date>2009-10-30 12:16:55.640 CET</date>
+      <creators />
+      <curationEventList />
+    </net.sf.taverna.t2.annotation.AnnotationAssertionImpl>
+  </annotationAssertions>
+</net.sf.taverna.t2.annotation.AnnotationChainImpl></annotation_chain></annotations></port></inputPorts><outputPorts><port><name>VOTable</name></port></outputPorts><processors><processor><name>sql</name><inputPorts><port><name>parameters</name><depth>0</depth></port></inputPorts><outputPorts><port><name>parameters</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>wsdl-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.wsdl.WSDLActivity</class><inputMap><map from="parameters" to="parameters" /></inputMap><outputMap><map from="parameters" to="parameters" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean xmlns="">
   <wsdl>http://helio.i4ds.technik.fhnw.ch:8080/core/services/hec?wsdl</wsdl>
   <operation>sql</operation>
 </net.sf.taverna.t2.activities.wsdl.WSDLActivityConfigurationBean></configBean><annotations /></activity></activities><dispatchStack><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Parallelize</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig xmlns="">
@@ -1101,360 +1101,4 @@ reader2.close();
   <initialDelay>1000</initialDelay>
   <maxDelay>5000</maxDelay>
   <maxRetries>10</maxRetries>
-</net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Invoke</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer></dispatchStack><iterationStrategyStack><iteration><strategy><cross><port name="voTable" depth="0" /></cross></strategy></iteration></iterationStrategyStack></processor><processor><name>combineDataXMLserial</name><inputPorts><port><name>position</name><depth>0</depth></port><port><name>solar_monitor_data</name><depth>0</depth></port><port><name>instrument_data_hessi</name><depth>0</depth></port><port><name>instrument_data_phoenix</name><depth>0</depth></port><port><name>voTable</name><depth>0</depth></port></inputPorts><outputPorts><port><name>xml_out</name><depth>0</depth><granularDepth>0</granularDepth></port></outputPorts><annotations /><activities><activity><raven><group>net.sf.taverna.t2.activities</group><artifact>beanshell-activity</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.activities.beanshell.BeanshellActivity</class><inputMap><map from="position" to="position" /><map from="instrument_data_hessi" to="instrument_data_hessi" /><map from="instrument_data_phoenix" to="instrument_data_phoenix" /><map from="solar_monitor_data" to="solar_monitor_data" /><map from="voTable" to="voTable" /></inputMap><outputMap><map from="xml_out" to="xml_out" /></outputMap><configBean encoding="xstream"><net.sf.taverna.t2.activities.beanshell.BeanshellActivityConfigurationBean xmlns="">
-  <script>import java.io.StringReader;
-import org.w3c.dom.*;
-import org.xml.sax.InputSource;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import org.apache.xerces.parsers.DOMParser;
-import java.io.StringWriter;
-import java.util.Date;
-import java.text.SimpleDateFormat;
-import java.lang.*;
-
-private void write(Node node, String indent) {
-        // The output depends on the type of the node
-        if(node == null) {
-          return;
-        }
-        switch(node.getNodeType()) {
-        case Node.DOCUMENT_NODE: {       // If its a Document node
-            Document doc = (Document)node;
-            out.write(indent + "&lt;?xml version='1.0'?&gt;\n");  // Output header
-            Node child = doc.getFirstChild();   // Get the first node
-            while(child != null) {              // Loop 'till no more nodes
-                write(child, indent);           // Output node
-                child = child.getNextSibling(); // Get next node
-            }
-            break;
-        } 
-        case Node.DOCUMENT_TYPE_NODE: {  // It is a &lt;!DOCTYPE&gt; tag
-            DocumentType doctype = (DocumentType) node;
-            // Note that the DOM Level 1 does not give us information about
-            // the the public or system ids of the doctype, so we can't output
-            // a complete &lt;!DOCTYPE&gt; tag here.  We can do better with Level 2.
-            out.write("&lt;!DOCTYPE " + doctype.getName() + "&gt;\n");
-            break;
-        }
-        case Node.ELEMENT_NODE: {        // Most nodes are Elements
-            Element elt = (Element) node;
-            out.write(indent + "&lt;" + elt.getTagName());   // Begin start tag
-            NamedNodeMap attrs = elt.getAttributes();     // Get attributes
-            for(int i = 0; i &lt; attrs.getLength(); i++) {  // Loop through them
-                Node a = attrs.item(i);
-                out.write(" " + a.getNodeName() + "='" +  // Print attr. name
-                          fixup(a.getNodeValue()) + "'"); // Print attr. value
-            }
-            out.write("&gt;\n");                             // Finish start tag
-
-            String newindent = indent + "    ";           // Increase indent
-            Node child = elt.getFirstChild();             // Get child
-            while(child != null) {                        // Loop 
-                write(child, newindent);                  // Output child
-                child = child.getNextSibling();           // Get next child
-            }
-
-            out.write(indent + "&lt;/" +                   // Output end tag
-                        elt.getTagName() + "&gt;\n");
-            break;
-        }
-        case Node.TEXT_NODE: {                   // Plain text node
-            Text textNode = (Text)node;
-            String text = textNode.getData().trim();   // Strip off space
-            if ((text != null) &amp;&amp; text.length() &gt; 0)   // If non-empty
-                out.write(indent + fixup(text)+"\n");     // print text
-            break;
-        }
-        case Node.PROCESSING_INSTRUCTION_NODE: {  // Handle PI nodes
-            ProcessingInstruction pi = (ProcessingInstruction)node;
-            out.write(indent + "&lt;?" + pi.getTarget() +
-                               " " + pi.getData() + "?&gt;\n");
-            break;
-        }
-        case Node.ENTITY_REFERENCE_NODE: {        // Handle entities
-            out.write(indent + "&amp;" + node.getNodeName() + ";\n");
-            break;
-        }
-        case Node.CDATA_SECTION_NODE: {           // Output CDATA sections
-            CDATASection cdata = (CDATASection)node;
-            // Careful! Don't put a CDATA section in the program itself!
-            out.write(indent + "&lt;" + "![CDATA[" + cdata.getData() +
-                        "]]" + "&gt;\n");
-            break;
-        }
-        case Node.COMMENT_NODE: {                 // Comments
-            Comment c = (Comment)node;
-            out.write(indent + "&lt;!--" + c.getData() + "--&gt;\n");
-            break;
-        }
-        default:   // Hopefully, this won't happen too much!
-            System.err.println("Ignoring node: " + node.getClass().getName());
-            break;
-        }
-    }
-
-    // This method replaces reserved characters with entities.
-private String fixup(String s) {
-        StringBuffer sb = new StringBuffer();
-        int len = s.length();
-        for(int i = 0; i &lt; len; i++) {
-            char c = s.charAt(i);
-            switch(c) {
-            default: sb.append(c); break;
-            case '&lt;': sb.append("&amp;lt;"); break;
-            case '&gt;': sb.append("&amp;gt;"); break;
-            case '&amp;': sb.append("&amp;amp;"); break;
-            case '"': sb.append("&amp;quot;"); break;
-            case '\'': sb.append("&amp;apos;"); break;
-            }
-        }
-        return sb.toString();
-    }
-
-private writeExtraFields(Node nodeOutput, Node nodeHessi, String prefix) {
-  String debug = new String("");
-  NodeList listHessi = nodeHessi.getChildNodes();
-  for(int i=0; i&lt; listHessi.getLength(); i++) {
-    Element newNode = docOutput.createElement(prefix+listHessi.item(i).getNodeName());
-    nodeOutput.appendChild(newNode);
-    Node e2 = docOutput.createTextNode(listHessi.item(i).getTextContent());    
-    newNode.appendChild(e2);
-  }
-} 
-
-private writeVOFields(Node output, Node nodeVO){
-  NodeList listVO = nodeVO.getChildNodes();
-  NodeList nodesHeader = docVO.getElementsByTagName("FIELD");
-  for(int i=0; i&lt; nodesHeader.getLength(); i++){
-    Element voFieldNode = nodesHeader.item(i);
-    String name = voFieldNode.getAttribute("name");
-    Element e1 = docOutput.createElement(name);
-    NodeList nodesTD=nodeVO.getChildNodes();
-    Node e2 = docOutput.createTextNode(nodesTD.item(i).getTextContent());    
-    e1.appendChild(e2);
-    output.appendChild(e1);
-  }
-}
-
-private writeSolarMonitor(Node nodeOutput, String solar_monitor_data) {
-  NodeList nodes=null;
-  StringReader reader;
-  InputSource source;
-  Document docSM;
-  DOMParser parserSM = new DOMParser();
-  reader = new StringReader(solar_monitor_data);
-  source = new InputSource(reader);
-  parserSM.parse(source);
-  docSM=parserSM.getDocument();
-  nodes = docSM.getElementsByTagName("urlPreview");
-  Element newNode = docOutput.createElement("urlPreview");
-  nodeOutput.appendChild(newNode);
-  if(nodes!= null &amp;&amp; nodes.getLength()&gt;=1){
-      NodeList obsChilds = nodes.item(0).getChildNodes();
-      Text voTextNode = docOutput.createTextNode(obsChilds.item(0).getNodeValue());
-      newNode.appendChild(voTextNode);
-  } else {
-
-    Text voTextNode = docOutput.createTextNode("");
-    newNode.appendChild(voTextNode);
-  }
-  nodes = docSM.getElementsByTagName("urlPreviewThumb");
-  newNode = docOutput.createElement("urlPreviewThumb");
-  nodeOutput.appendChild(newNode);
-  if(nodes!= null &amp;&amp; nodes.getLength()&gt;=1){
-      NodeList obsChilds = nodes.item(0).getChildNodes();
-      Text voTextNode = docOutput.createTextNode(obsChilds.item(0).getNodeValue());
-      newNode.appendChild(voTextNode);
-  } else {
-    Text voTextNode = docOutput.createTextNode("");
-    newNode.appendChild(voTextNode);
-  }
-   reader.close();
-}
-
-private String findOverlaps() {
-
-  NodeList nodesHessi=null;
-  NodeList nodesPhoenix=null;
-  StringReader reader;
-  StringReader readerPhoenix;
-  InputSource source;
-  InputSource sourcePhoenix;
-  String debug = new String("");
-  NodeList tableListVO = docVO.getElementsByTagName("TABLEDATA");
-  NodeList dataListVO = docVO.getElementsByTagName("TR");
-  if(dataListVO == null) {
-    debug="dataListVO = null";
-    return debug;
-  }
-  SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
-
-
-    reader = new StringReader(instrument_data_hessi);
-    readerPhoenix = new StringReader(instrument_data_phoenix);
-    source = new InputSource(reader);
-    sourcePhoenix = new InputSource(readerPhoenix);
-    parser.parse(source);
-    parserPhoenix.parse(sourcePhoenix);
-    doc=parser.getDocument();
-    docPhoenix=parserPhoenix.getDocument();
-    NodeList dataListHessi = doc.getElementsByTagName("measurementStart");
-    if(dataListHessi == null){
-      dataListHessi = new NodeList();
-    }
-    NodeList dataListHessi2 = doc.getElementsByTagName("measurementEnd");
-
-    NodeList dataListPhoenix = docPhoenix.getElementsByTagName("measurementStart");
-    if(dataListePhoenix == null) {
-       dataListPhoenix = new NodeList();
-    }
-    int pos = Integer.parseInt(position); 
-
-    Node voDataNode = dataListVO.item(pos);
-    if(voDataNode == null)
-    {
-      reader.close();
-      readerPhoenix.close();
-      return debug;
-    }
-    Node parent = voDataNode.getParentNode();
-    for(int j = 0; j &lt; dataListHessi.getLength(); j++) {
-      Date startHessi = date.parse(dataListHessi.item(j).getFirstChild().getNodeValue());
-      Date endHessi = date.parse(dataListHessi2.item(j).getFirstChild().getNodeValue());
-      for(int k = 0; k &lt; dataListPhoenix.getLength(); k++) {
-        Date startPhoenix = date.parse(dataListPhoenix.item(k).getFirstChild().getNodeValue());
-        if(startHessi.getTime()&lt;= startPhoenix.getTime() &amp;&amp; endHessi.getTime()&gt;=startPhoenix.getTime()){
-          Element e1 = docOutput.createElement("return");
-          base.appendChild(e1);
-          writeVOFields(e1, voDataNode);
-          writeExtraFields(e1, doc.getElementsByTagName("return").item(j), "hessi_");
-          writeExtraFields(e1, docPhoenix.getElementsByTagName("return").item(k), "phoenix_");
-          writeSolarMonitor(e1, solar_monitor_data);
-        }
-      }
-
-    }
-    reader.close();
-    readerPhoenix.close();
-
-  return debug;
-}
-
-
-
-StringWriter out= new StringWriter(); 
-StringReader reader2 = new StringReader(voTable);
-InputSource source2 = new InputSource(reader2);
-DOMParser parser = new DOMParser();
-DOMParser parserPhoenix = new DOMParser();
-DOMParser parser2 = new DOMParser();
-DOMParser outputParser = new DOMParser();
-xml_out = new String("");
-Document docVO;
-Document doc;
-Document docPhoenix;
-Document docOutput;
-//try {
-  parser2.parse(source2);
-  docVO = parser2.getDocument();
-  DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-  DocumentBuilder builder = factory.newDocumentBuilder();
-  DOMImplementation impl = builder.getDOMImplementation();
-
-  docOutput = impl.createDocument(null,null,null);
-  Element base = docOutput.createElement("DATASET");
-  docOutput.appendChild(base);
-
-  //this.addTableHeaders(instrument_data_hessi, "hessi_");
-  //this.addTableHeaders(instrument_data_phoenix, "phoenix2_");
-  xml_out =  xml_out.concat(this.findOverlaps());
-  this.write(docOutput.getDocumentElement(),"");
-  xml_out = xml_out.concat(out.toString());
-  reader2.close();
-
-/*}
-catch (Exception e){
-  e.printStackTrace();
-  StackTraceElement[] stacktrace = e.getStackTrace();
-  for(int i =0 ; i&lt; stacktrace.length; i++) {
-    xml_out = xml_out.concat(stacktrace[i].toString()+"\n");                       
-  }
-}*/
-
-
-</script>
-  <dependencies />
-  <classLoaderSharing>workflow</classLoaderSharing>
-  <localDependencies />
-  <artifactDependencies />
-  <inputs>
-    <net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-      <handledReferenceSchemes />
-      <translatedElementType>java.lang.String</translatedElementType>
-      <allowsLiteralValues>true</allowsLiteralValues>
-      <name>voTable</name>
-      <depth>0</depth>
-      <mimeTypes>
-        <string>text/plain</string>
-      </mimeTypes>
-    </net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-    <net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-      <handledReferenceSchemes />
-      <translatedElementType>java.lang.String</translatedElementType>
-      <allowsLiteralValues>true</allowsLiteralValues>
-      <name>instrument_data_hessi</name>
-      <depth>0</depth>
-      <mimeTypes>
-        <string>text/plain</string>
-      </mimeTypes>
-    </net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-    <net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-      <handledReferenceSchemes />
-      <translatedElementType>java.lang.String</translatedElementType>
-      <allowsLiteralValues>true</allowsLiteralValues>
-      <name>instrument_data_phoenix</name>
-      <depth>0</depth>
-      <mimeTypes>
-        <string>text/plain</string>
-      </mimeTypes>
-    </net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-    <net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-      <handledReferenceSchemes />
-      <translatedElementType>java.lang.String</translatedElementType>
-      <allowsLiteralValues>true</allowsLiteralValues>
-      <name>solar_monitor_data</name>
-      <depth>0</depth>
-      <mimeTypes>
-        <string>text/plain</string>
-      </mimeTypes>
-    </net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-    <net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-      <handledReferenceSchemes />
-      <translatedElementType>java.lang.String</translatedElementType>
-      <allowsLiteralValues>true</allowsLiteralValues>
-      <name>position</name>
-      <depth>0</depth>
-      <mimeTypes>
-        <string>text/plain</string>
-      </mimeTypes>
-    </net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityInputPortDefinitionBean>
-  </inputs>
-  <outputs>
-    <net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityOutputPortDefinitionBean>
-      <granularDepth>0</granularDepth>
-      <name>xml_out</name>
-      <depth>0</depth>
-      <mimeTypes>
-        <string>text/plain</string>
-      </mimeTypes>
-    </net.sf.taverna.t2.workflowmodel.processor.activity.config.ActivityOutputPortDefinitionBean>
-  </outputs>
-</net.sf.taverna.t2.activities.beanshell.BeanshellActivityConfigurationBean></configBean><annotations /></activity></activities><dispatchStack><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Parallelize</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig xmlns="">
-  <maxJobs>1</maxJobs>
-</net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ParallelizeConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.ErrorBounce</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Failover</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Retry</class><configBean encoding="xstream"><net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig xmlns="">
-  <backoffFactor>1.0</backoffFactor>
-  <initialDelay>1000</initialDelay>
-  <maxDelay>5000</maxDelay>
-  <maxRetries>0</maxRetries>
-</net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Invoke</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer></dispatchStack><iterationStrategyStack><iteration><strategy><cross><port name="voTable" depth="0" /><dot><port name="instrument_data_phoenix" depth="0" /><port name="instrument_data_hessi" depth="0" /><port name="solar_monitor_data" depth="0" /><port name="position" depth="0" /></dot></cross></strategy></iteration></iterationStrategyStack></processor></processors><conditions /><datalinks><datalink><sink type="processor"><processor>sql</processor><port>parameters</port></sink><source type="processor"><processor>sql_input</processor><port>output</port></source></datalink><datalink><sink type="processor"><processor>sql_input</processor><port>arg0</port></sink><source type="processor"><processor>combine_sql_query</processor><port>sql_string</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>stop_date</port></sink><source type="dataflow"><port>date_end</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>start_date</port></sink><source type="dataflow"><port>date_start</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>sql_base</port></sink><source type="processor"><processor>sql_base</processor><port>value</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>goes_min</port></sink><source type="dataflow"><port>GOES_min</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>goes_max</port></sink><source type="dataflow"><port>GOES_max</port></source></datalink><datalink><sink type="processor"><processor>getAllIventDates</processor><port>voTable</port></sink><source type="processor"><processor>sql_output</processor><port>return</port></source></datalink><datalink><sink type="processor"><processor>query_v1_hessi_ec</processor><port>parameters</port></sink><source type="processor"><processor>query_v1_hessi_ec_input</processor><port>output</port></source></datalink><datalink><sink type="processor"><processor>query_v1_hessi_ec_input</processor><port>instrument</port></sink><source type="processor"><processor>hessi_ec</processor><port>value</port></source></datalink><datalink><sink type="processor"><processor>query_v1_hessi_ec_input</processor><port>date_to</port></sink><source type="processor"><processor>getAllIventDates</processor><port>endDates</port></source></datalink><datalink><sink type="processor"><processor>query_v1_hessi_ec_input</processor><port>date_from</port></sink><source type="processor"><processor>getAllIventDates</processor><port>startDates</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>voTable</port></sink><source type="processor"><processor>sql_output</processor><port>return</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>instrument_data_phoenix</port></sink><source type="processor"><processor>query_v1_phoenix2</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>instrument_data_hessi</port></sink><source type="processor"><processor>query_v1_hessi_ec</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>position</port></sink><source type="processor"><processor>getAllIventDates</processor><port>positions</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>solar_monitor_data</port></sink><source type="processor"><processor>query_v1_solarmonitor</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>sql_output</processor><port>input</port></sink><source type="processor"><processor>sql</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>query_v1_phoenix2</processor><port>parameters</port></sink><source type="processor"><processor>query_v1_phoenix2_input</processor><port>output</port></source></datalink><datalink><sink type="processor"><processor>query_v1_phoenix2_input</processor><port>instrument</port></sink><source type="processor"><processor>phoenix2</processor><port>value</port></source></datalink><datalink><sink type="processor"><processor>query_v1_phoenix2_input</processor><port>date_to</port></sink><source type="processor"><processor>getAllIventDates</processor><port>endDates</port></source></datalink><datalink><sink type="processor"><processor>query_v1_phoenix2_input</processor><port>date_from</port></sink><source type="processor"><processor>getAllIventDates</processor><port>startDates</port></source></datalink><datalink><sink type="processor"><processor>query_v1_solarmonitor</processor><port>parameters</port></sink><source type="processor"><processor>query_v1_input</processor><port>output</port></source></datalink><datalink><sink type="processor"><processor>query_v1_input</processor><port>instrument</port></sink><source type="processor"><processor>Solar_Montior</processor><port>value</port></source></datalink><datalink><sink type="processor"><processor>query_v1_input</processor><port>date_from</port></sink><source type="processor"><processor>datesSM</processor><port>startDate</port></source></datalink><datalink><sink type="processor"><processor>query_v1_input</processor><port>date_to</port></sink><source type="processor"><processor>datesSM</processor><port>endDate</port></source></datalink><datalink><sink type="processor"><processor>datesSM</processor><port>voTable</port></sink><source type="processor"><processor>sql_output</processor><port>return</port></source></datalink><datalink><sink type="processor"><processor>combineDataXMLserial</processor><port>position</port></sink><source type="processor"><processor>getAllIventDates</processor><port>positions</port></source></datalink><datalink><sink type="processor"><processor>combineDataXMLserial</processor><port>solar_monitor_data</port></sink><source type="processor"><processor>query_v1_solarmonitor</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>combineDataXMLserial</processor><port>instrument_data_hessi</port></sink><source type="processor"><processor>query_v1_hessi_ec</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>combineDataXMLserial</processor><port>instrument_data_phoenix</port></sink><source type="processor"><processor>query_v1_phoenix2</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>combineDataXMLserial</processor><port>voTable</port></sink><source type="processor"><processor>sql_output</processor><port>return</port></source></datalink><datalink><sink type="dataflow"><port>VOTable</port></sink><source type="processor"><processor>combineData</processor><port>VOTable_out</port></source></datalink><datalink><sink type="dataflow"><port>xml_out</port></sink><source type="processor"><processor>combineDataXMLserial</processor><port>xml_out</port></source></datalink></datalinks><annotations /></dataflow></workflow>
+</net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.RetryConfig></configBean></dispatchLayer><dispatchLayer><raven><group>net.sf.taverna.t2.core</group><artifact>workflowmodel-impl</artifact><version>0.8</version></raven><class>net.sf.taverna.t2.workflowmodel.processor.dispatch.layers.Invoke</class><configBean encoding="xstream"><null xmlns="" /></configBean></dispatchLayer></dispatchStack><iterationStrategyStack><iteration><strategy><cross><port name="voTable" depth="0" /></cross></strategy></iteration></iterationStrategyStack></processor></processors><conditions /><datalinks><datalink><sink type="processor"><processor>sql</processor><port>parameters</port></sink><source type="processor"><processor>sql_input</processor><port>output</port></source></datalink><datalink><sink type="processor"><processor>sql_input</processor><port>arg0</port></sink><source type="processor"><processor>combine_sql_query</processor><port>sql_string</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>stop_date</port></sink><source type="dataflow"><port>date_end</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>start_date</port></sink><source type="dataflow"><port>date_start</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>sql_base</port></sink><source type="processor"><processor>sql_base</processor><port>value</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>goes_min</port></sink><source type="dataflow"><port>GOES_min</port></source></datalink><datalink><sink type="processor"><processor>combine_sql_query</processor><port>goes_max</port></sink><source type="dataflow"><port>GOES_max</port></source></datalink><datalink><sink type="processor"><processor>getAllIventDates</processor><port>voTable</port></sink><source type="processor"><processor>sql_output</processor><port>return</port></source></datalink><datalink><sink type="processor"><processor>query_v1_hessi_ec</processor><port>parameters</port></sink><source type="processor"><processor>query_v1_hessi_ec_input</processor><port>output</port></source></datalink><datalink><sink type="processor"><processor>query_v1_hessi_ec_input</processor><port>instrument</port></sink><source type="processor"><processor>hessi_ec</processor><port>value</port></source></datalink><datalink><sink type="processor"><processor>query_v1_hessi_ec_input</processor><port>date_to</port></sink><source type="processor"><processor>getAllIventDates</processor><port>endDates</port></source></datalink><datalink><sink type="processor"><processor>query_v1_hessi_ec_input</processor><port>date_from</port></sink><source type="processor"><processor>getAllIventDates</processor><port>startDates</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>voTable</port></sink><source type="processor"><processor>sql_output</processor><port>return</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>instrument_data_phoenix</port></sink><source type="processor"><processor>query_v1_phoenix2</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>instrument_data_hessi</port></sink><source type="processor"><processor>query_v1_hessi_ec</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>position</port></sink><source type="processor"><processor>getAllIventDates</processor><port>positions</port></source></datalink><datalink><sink type="processor"><processor>combineData</processor><port>solar_monitor_data</port></sink><source type="processor"><processor>query_v1_solarmonitor</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>sql_output</processor><port>input</port></sink><source type="processor"><processor>sql</processor><port>parameters</port></source></datalink><datalink><sink type="processor"><processor>query_v1_phoenix2</processor><port>parameters</port></sink><source type="processor"><processor>query_v1_phoenix2_input</processor><port>output</port></source></datalink><datalink><sink type="processor"><processor>query_v1_phoenix2_input</processor><port>instrument</port></sink><source type="processor"><processor>phoenix2</processor><port>value</port></source></datalink><datalink><sink type="processor"><processor>query_v1_phoenix2_input</processor><port>date_to</port></sink><source type="processor"><processor>getAllIventDates</processor><port>endDates</port></source></datalink><datalink><sink type="processor"><processor>query_v1_phoenix2_input</processor><port>date_from</port></sink><source type="processor"><processor>getAllIventDates</processor><port>startDates</port></source></datalink><datalink><sink type="processor"><processor>query_v1_solarmonitor</processor><port>parameters</port></sink><source type="processor"><processor>query_v1_input</processor><port>output</port></source></datalink><datalink><sink type="processor"><processor>query_v1_input</processor><port>instrument</port></sink><source type="processor"><processor>Solar_Montior</processor><port>value</port></source></datalink><datalink><sink type="processor"><processor>query_v1_input</processor><port>date_from</port></sink><source type="processor"><processor>datesSM</processor><port>startDate</port></source></datalink><datalink><sink type="processor"><processor>query_v1_input</processor><port>date_to</port></sink><source type="processor"><processor>datesSM</processor><port>endDate</port></source></datalink><datalink><sink type="processor"><processor>datesSM</processor><port>voTable</port></sink><source type="processor"><processor>sql_output</processor><port>return</port></source></datalink><datalink><sink type="dataflow"><port>VOTable</port></sink><source type="processor"><processor>combineData</processor><port>VOTable_out</port></source></datalink></datalinks><annotations /></dataflow></workflow>
