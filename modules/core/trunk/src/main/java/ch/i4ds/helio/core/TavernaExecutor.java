@@ -5,7 +5,7 @@ import java.util.Map.Entry;
 import java.util.concurrent.*;
 
 import javax.jws.*;
-import net.sf.taverna.t2.facade.*;
+/*import net.sf.taverna.t2.facade.*;
 import net.sf.taverna.t2.facade.impl.WorkflowInstanceFacadeImpl;
 import net.sf.taverna.t2.invocation.*;
 import net.sf.taverna.t2.provenance.reporter.ProvenanceReporter;
@@ -13,9 +13,8 @@ import net.sf.taverna.t2.reference.*;
 import net.sf.taverna.t2.workflowmodel.*;
 import net.sf.taverna.t2.workflowmodel.serialization.DeserializationException;
 import net.sf.taverna.t2.workflowmodel.serialization.xml.*;
-
 import org.jdom.*;
-import org.jdom.input.SAXBuilder;
+import org.jdom.input.SAXBuilder;*/
 
 import ch.i4ds.helio.ApplicationContextProvider;
 
@@ -42,12 +41,12 @@ public class TavernaExecutor
     }
   }
   
-  static ReferenceService referenceService; 
+  //static ReferenceService referenceService; 
   
   public TavernaExecutor()
   {
-    if(referenceService==null)
-      referenceService=(ReferenceService)ApplicationContextProvider.getTavernaApplicationContext().getBean("t2reference.service.referenceService");
+    //if(referenceService==null)
+    //  referenceService=(ReferenceService)ApplicationContextProvider.getTavernaApplicationContext().getBean("t2reference.service.referenceService");
   }
   
   /**
@@ -57,7 +56,7 @@ public class TavernaExecutor
    * @param _input Data for the workflow's input ports
    * @return A map containing the output port names and values
    */
-  @WebMethod(exclude=true)
+  /*@WebMethod(exclude=true)
   public Map<String,List<Object>> executeWorkflow(String _workflowDefinition,Map<String,Object> _input) throws InvalidDataflowException,InterruptedException,IOException,JDOMException,DeserializationException,InvalidInputException,TokenOrderException
   {
     //deserialize the xml workflow-definition
@@ -165,7 +164,7 @@ public class TavernaExecutor
     
     //...otherwise return collected results
     return results;
-  }
+  }*/
   
   /**
    * Checks wether the given Dataflow contains the specified input port
@@ -174,12 +173,12 @@ public class TavernaExecutor
    * @param _portName The input port to look for
    * @return true when the dataflow contains the input port
    */
-  private boolean containsInputPort(Dataflow _df,String _portName)
+ /* private boolean containsInputPort(Dataflow _df,String _portName)
   {
     for(DataflowInputPort dip: _df.getInputPorts())
       if(dip.getName().equals(_portName))
         return true;
     
     return false;
-  }
+  }*/
 }

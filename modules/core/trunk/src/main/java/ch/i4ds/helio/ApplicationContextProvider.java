@@ -2,15 +2,14 @@ package ch.i4ds.helio;
 
 import java.io.IOException;
 
-import net.sf.taverna.platform.spring.RavenAwareClassPathXmlApplicationContext;
-import net.sf.taverna.raven.Raven;
-import net.sf.taverna.tools.TavernaBootstrapLocation;
-
-import org.egso.provider.Provider;
 import org.springframework.beans.BeansException;
 import org.springframework.context.*;
 import org.springframework.context.support.AbstractApplicationContext;
-import org.syntax.jedit.InputHandler.overwrite;
+//import org.egso.provider.Provider;
+/*import net.sf.taverna.platform.spring.RavenAwareClassPathXmlApplicationContext;
+import net.sf.taverna.raven.Raven;
+import net.sf.taverna.tools.TavernaBootstrapLocation;*/
+
 
 /**
  * Use this class to get the ApplicationContext in which the application is running or
@@ -25,7 +24,7 @@ public class ApplicationContextProvider implements ApplicationContextAware
   
   public ApplicationContextProvider()
   {
-    appContextTaverna=new RavenAwareClassPathXmlApplicationContext("taverna-config.xml");
+    //appContextTaverna=new RavenAwareClassPathXmlApplicationContext("taverna-config.xml");
   }
   
   public void setApplicationContext(ApplicationContext _appContext) throws BeansException

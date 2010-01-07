@@ -96,10 +96,42 @@
 		<glassfish.domain.user>admin</glassfish.domain.user>
 		<glassfish.domain.password>adminadmin</glassfish.domain.password>
 	</properties>
+
+	<!--<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>net.sf.taverna</groupId>
+				<artifactId>wsdl-generic</artifactId>
+				<version>1.2</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>-->
+		
 	<dependencies>
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
+			<version>2.7.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>axis</groupId>
+			<artifactId>axis</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>axis</groupId>
+			<artifactId>axis-ant</artifactId>
+			<version>1.4</version>
+		</dependency>
+		
 		
 		<!-- taverna -->
-		<dependency>
+		<!--<dependency>
 			<groupId>net.sf.taverna.t2.activities</groupId>
 			<artifactId>all-activities</artifactId>
 			<version>${t2.activities.version}</version>
@@ -167,13 +199,38 @@
 					<artifactId>raven-log4j</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency>-->
 		
 		<!-- egso data providers -->
+		<!--<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.13</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate</artifactId>
+			<version>3.2.5.ga.raven</version>
+		</dependency>
+		<dependency>
+			<groupId>xalan</groupId>
+			<artifactId>xalan</artifactId>
+			<version>2.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.hp.hpl.jena</groupId>
+			<artifactId>concurrent-jena</artifactId>
+			<version>1.3.2</version>
+		</dependency>
 		<dependency>
 			<groupId>com.sun.xml.rpc</groupId>
 			<artifactId>jaxrpc-impl</artifactId>
 			<version>1.1.3_01</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.5</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.jms</groupId>
@@ -219,7 +276,7 @@
 			<groupId>com.sun.messaging</groupId>
 			<artifactId>imqxm</artifactId>
 			<version>3.5</version>
-		</dependency>
+		</dependency>-->
 		
 
 		<!-- spring & ws -->
@@ -286,16 +343,6 @@
 		</dependency>
 	</dependencies>
 	
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>net.sf.taverna</groupId>
-				<artifactId>wsdl-generic</artifactId>
-				<version>1.2</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
   <repositories>
 		<repository>
 			<releases >

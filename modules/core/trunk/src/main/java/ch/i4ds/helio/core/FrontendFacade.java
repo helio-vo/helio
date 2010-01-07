@@ -203,7 +203,7 @@ public class FrontendFacade
       wf=wf.replace("<wsdl>http://helio.i4ds.technik.fhnw.ch:8080/core/services/","<wsdl>"+remapWebservice.get(host));
     
     //execute the workflow
-    Map<String,List<Object>> wf_results=taverna.executeWorkflow(wf,inputs);
+    Map<String,List<Object>> wf_results=null; //taverna.executeWorkflow(wf,inputs);
     
     //get the output of the workflow
     return (String)(wf_results.get("VOTable").get(0));

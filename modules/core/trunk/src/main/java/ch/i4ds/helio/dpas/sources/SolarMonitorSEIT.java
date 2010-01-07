@@ -1,6 +1,5 @@
 package ch.i4ds.helio.dpas.sources;
 
-import java.net.*;
 import java.util.*;
 import ch.i4ds.helio.dpas.*;
 

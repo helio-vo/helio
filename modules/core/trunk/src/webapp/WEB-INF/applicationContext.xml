@@ -43,6 +43,19 @@
   </bean>
   
   
+  <!--
+  	hard-coded workflows
+  -->
+  <wss:binding url="/services/workflows">
+  	<wss:service>
+			<ws:service bean="#Workflows" />
+		</wss:service>
+	</wss:binding>
+  <bean id="Workflows" class="ch.i4ds.helio.workflows.Workflows">
+  	<!--<property name="queryService" ref="QueryService" />-->
+  </bean>
+  
+  
   <!-- 
   	test-interface for simon's design idea
  	-->
