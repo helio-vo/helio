@@ -32,7 +32,7 @@ public class CommonDaoImpl implements CommonDao {
 	
 	public void generateVOTableDetails(CommonCriteriaTO comCriteriaTO) throws DetailsNotFoundException {
 		Object[] inArray = null;	
-		 BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
+		BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
 		try{			
 		 HashMap<String,String> params  = new HashMap<String,String>();
 		 params.put("kwstartdate", comCriteriaTO.getStartDateTime());
