@@ -79,19 +79,26 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 				rs.absolute(startRow + 1);
 				do {
 					i++;
+					int count=0;
+					//Added '2' for acces url & format.
 					Object[] X = new Object[colCount+2];
 					//code for setting access url.
-					X[0]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl")+new Date().getTime();
+					X[count]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
 					//code for getting database data.
-					for (int g = 1; g < colCount; g++) {
-						X[g] = rs.getString(colNames[g]);
-						System.out.println(" Column Value  "+X[g]+" Column name "+colNames[g]);
+					for (int g = 0; g < colCount; g++) {
+						System.out.println(" : Acces URL value :"+X[0]);
+						if(X[0]!=null && !X[0].equals("") && g==0){
+							count=count+1;
+						}
+						X[count] = rs.getString(colNames[g]);
+						System.out.println(" Column Value  "+X[count]+" Column name "+colNames[g]);
+						count++;
 					}
 					// code for setting format
 					X[X.length-1]=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
 					arr.add(X);
 				 }while(rs.next()&& i<noOfRecords); 				
-				result.setResult(arr.toArray());
+				result.setResult(arr.toArray()); 
 			}
 			if(rms!=null)
 			{
@@ -180,8 +187,8 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	    String[] colNames = new String[colCount];
 	    int numberOfColumns = rsMetaData.getColumnCount();	    
 	    // get the column names; column indexes start from 1
-	    for (int intColNo = 1; intColNo < numberOfColumns + 1; intColNo++) {
-	    	colNames[intColNo-1]=rsMetaData.getColumnName(intColNo);   
+	    for (int intColNo = 0; intColNo < numberOfColumns ; intColNo++) {
+	    	colNames[intColNo]=rsMetaData.getColumnName(intColNo+1);   
 	     }
 	    System.out.println("   colNames   "+colNames);
 	    return colNames;
