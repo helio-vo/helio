@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Helio">
+
+  <title>Helio ICS</title>
+
+  <body>
+    <menu name="ICS webapp">  	
+       <item name="Helio"  href="http://www.helio.eu"/>
+   	   <item name="Installation/Requirements" href="installation.html"/>    	
+	</menu>
+  </body>
+</project>

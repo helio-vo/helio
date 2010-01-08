@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+
+  <properties>
+    <title>Helio ICS</title>
+    <author email="vts@mssl.ucl.ac.uk">Vineeth Shetty</author>
+  </properties>
+ <body>
+ <section name="index">
+ 	<p>
+    	<b>Welcome to the Helio ICS Documentation.</b>  <br />
+    	The Helio ICS (Instrument Capability Service)  does ..... <br />
+    	
+    	Look at the installation page (on the left menu) to install the ICS to your servlet container such as tomcat.
+    	<br />
+    	Once installed all the documentation, query, updating web application pages will
+    	be located on your  site.  After installation you will need to continue with the Configuration page
+    	to set particular properties up for your ICS and to configure it with your database.
+    	<br />
+	</p>
+	<p>
+	<b> More about ICS:</b> <br />
+	More info about ICS might be placed here.	
+	</p>
+ </section>
+ </body>
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<document>
+    <properties>
+        <title>ICS installation</title>
+    </properties>
+    <body>
+    <section name="Installation">
+    <p>
+    <i>Definition 'Context Name' - is your webapp name (hence usually the unpacked directory name in the webapps).  This will be used
+a lot in various ICS documentation usually with curly brackets.</i>
+    </p>    
+      <p>
+         The installations below have mainly been tested on tomcat versions 5.0.19-5.0.28 java1.4, 5.5.17-5.5.19 with java.1.5.  But the "Manual Installation" could be carried out on 
+ other servlet/j2ee containers and would welcome success or failure stories relating to other containers.  <br />For the purpose of most instructions, the guide will refer to tomcat.<br />
+        <br />
+        <i><b>Note:</b>tomcat 5.0 users using java1.5 has been done and requires a system property to be set:<br />
+        javax.xml.transform.TransformerFactory=com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl<br />
+        </i>
+      <br />
+      Download Location of war: http://unknown
+      </p>
+      <subsection name="Installation">
+      <p>
+         Most of the work is in the configure page, for installation. 
+         <ul>
+            <li>Take the war file and rename it to something you prefer e.g. helioics.war (be sure to keep the .war ending).</li>
+            <li>Go to your Tomcat manager e.g. http://localhost:8080/manager/html (this may ask for a username and password ask your admin or check {tomcat}/conf/tomcat-users.xml for a user with the role of manager)</li>
+            <li>If you do not have access to Tomcat manager because it is restricted on your server you may also copy the war file into the {tomcat}/webapps directory to install.</li>
+            <li>Tomcat by default should unpack the war file into a directory in that webapps directory.  
+                Directory Name should be the same as the war file minus the ".war" part.</li>			
+            <li><strong>You should be done (for the installation part now for Configure) you should be able to access the url: http://{server}:{port}/{context} (optionally you can also check the webapps for a directory to verify).</strong></li>
+            <li>The Configure will be on the menu at the left hand side of your ICS web application.</li>
+         </ul>
+      </p>
+      </subsection>      
+    </section>
+   </body>
+</document>
