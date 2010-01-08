@@ -62,7 +62,7 @@
         	Observatory Names&nbsp;
        </td>
        <td width="20%" align="left" valign="middle">
-        		<s:textfield  cssClass="textfield" size="25" id="insName" name="insName" theme="simple"/>
+        		<s:textfield  cssClass="textfield" size="25" id="obsName" name="obsName" theme="simple"/>
         </td>
 	     <td width="20%" align="left" valign="middle">&nbsp;
 		        <a href="javascript:getObservatoryDetails();" onMouseOver="MM_swapImage('go','','<%=contextPath%>/Images/but_search_click.gif',1)" onMouseOut="MM_swapImgRestore()" ><img src="<%=contextPath%>/Images/but_search_normal.gif" name="go" border="0" align="absmiddle" id="go"></a>&nbsp;		   		
