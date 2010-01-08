@@ -10,6 +10,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 
+import org.apache.log4j.Logger;
+
 import uk.ac.starlink.table.ColumnInfo;
 
 import com.org.helio.common.dao.CommonDaoFactory;
@@ -26,6 +28,8 @@ import com.org.helio.common.util.VOTableMaker;
 
 public class CommonDaoImpl implements CommonDao { 
 
+	protected final  Logger logger = Logger.getLogger(this.getClass());
+	
 	public void generateVOTableDetails(CommonCriteriaTO comCriteriaTO) throws DetailsNotFoundException {
 		Object[] inArray = null;	
 		 BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
@@ -34,11 +38,10 @@ public class CommonDaoImpl implements CommonDao {
 		 params.put("kwstartdate", comCriteriaTO.getStartDateTime());
 		 params.put("kwenddate", comCriteriaTO.getEndDateTime());
 		 String query=ConfigurationProfiler.getInstance().getProperty("sql.query");
-		 System.out.println(" : Query String  : "+query);		
+		 logger.info(" : Query String  : "+query);		
 		 ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
 		 CommonResultTO result=shortNameDao.getSNQueryResult(query,params);
-		 HashMap<String,CommonTO> hmbColumnList=result.getColumnNameList();
-		 String[] colNames=result.getColNames();		
+		 HashMap<String,CommonTO> hmbColumnList=result.getColumnNameList();		
 		 //Create VOTABLE 
 		 comCriteriaTO.setHmbColumnList(hmbColumnList);
 		 VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
@@ -51,7 +54,7 @@ public class CommonDaoImpl implements CommonDao {
 			 inArray = (Object[])objArr[i];
 			 	for(int j=0;j<inArray.length;j++)
 				 {
-					 System.out.println(inArray[j]+" inArray.length " +inArray.length +"  voTableMarker.getValues() "+voTableMarker.getValues().length);
+					 logger.info(inArray[j]+" inArray.length " +inArray.length +"  voTableMarker.getValues() "+voTableMarker.getValues().length);
 					 voTableMarker.getValues()[j]=inArray[j];					 
 				 }
 			 	voTableMarker.addRow();
@@ -60,6 +63,7 @@ public class CommonDaoImpl implements CommonDao {
 		if(voTableMarker.getRowCount() > 0) {
 			 voTableMarker.writeTable(output);
      	} 
+		//Writing end of VOTable.
 		voTableMarker.writeEndVOTable(output,comCriteriaTO.getStatus());		 
 	
 		}catch(Exception pe) {
@@ -67,8 +71,7 @@ public class CommonDaoImpl implements CommonDao {
         	try {
 				output.write(pe.getMessage());
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				logger.fatal("   : Exception in CommonDaoImpl:generateVOTableDetails : ", e);
 			}
 			finally
 			{
@@ -86,23 +89,18 @@ public class CommonDaoImpl implements CommonDao {
 
 	private  VOTableMaker createVOTableMaker(CommonCriteriaTO comCriteriaTO) {
 		HashMap<String,CommonTO> hmbColumnList=comCriteriaTO.getHmbColumnList();
-		 System.out.println(ConfigurationProfiler.getInstance().getProperty("sql.columnnames"));
+		 logger.info(ConfigurationProfiler.getInstance().getProperty("sql.columnnames"));
 		 String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames").split("::");
-		 System.out.println(" : columnnames String  : "+columnNames);
+		 logger.info(" : columnnames String  : "+columnNames);
 		 String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc").split("::");
-		 System.out.println(" : columndesc String  : "+columnDesc);
+		 logger.info(" : columndesc String  : "+columnDesc);
 		 String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd").split("::");
-		 System.out.println(" : columndesc String  : "+columnUcd); 
+		 logger.info(" : columndesc String  : "+columnUcd); 
 		ColumnInfo [] defValues = new ColumnInfo[columnNames.length];
 		for(int inColCount=0;inColCount<columnNames.length;inColCount++){
-			System.out.println(columnNames[inColCount]+"   "+columnDesc[inColCount]+"  "+columnUcd[inColCount]);
-			CommonTO commonTO=hmbColumnList.get(columnNames[inColCount]);	
-			if(commonTO!=null && commonTO.getColumnType().equals("INTEGER")){
-				//Need to change class to INTEGER.
-				defValues[inColCount] = new ColumnInfo(columnNames[inColCount],String.class,columnDesc[inColCount]);
-			}else{
-				defValues[inColCount] = new ColumnInfo(columnNames[inColCount],String.class,columnDesc[inColCount]);
-			}			
+			logger.info(columnNames[inColCount]+"   "+columnDesc[inColCount]+"  "+columnUcd[inColCount]);
+			//CommonTO commonTO=hmbColumnList.get(columnNames[inColCount]);				
+			defValues[inColCount] = new ColumnInfo(columnNames[inColCount],String.class,columnDesc[inColCount]);			
 	        defValues[inColCount].setUCD(columnUcd[inColCount]);
 		}
 		return new VOTableMaker(defValues);
