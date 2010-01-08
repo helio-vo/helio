@@ -19,24 +19,23 @@ public class WebServiceClient {
 	
 	
 	public static void main(String args[]) throws RemoteException, ServiceException, Exception
-	{
-		//logger.info("+++++++++ Calling Webservice +++++++++");
+	{		
 		Document doc = null; 
 		DocumentBuilder registryBuilder = null;
 		registryBuilder =DocumentBuilderFactory.newInstance().newDocumentBuilder();
-		    doc = registryBuilder.newDocument();
-		    //change this to helio:TimeSearch
-		    //the getSoapBodyNamespaceURI() you can hard code it should be the same namespace you used to register in the SoapServlet.
-			Element root = doc.createElementNS("http://helio.org/xml/QueryService/v1.0", "helio:Query");			
-			//change this to helio:TIME		  	
-			Element xqueryElem = doc.createElementNS("http://helio.org/xml/QueryService/v1.0","helio:TIME");			
-		  	//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
-		    xqueryElem.appendChild(doc.createTextNode("1990-10-20T20:30:56/2009-10-20T20:30:56"));		   
-		    //ok put it as a Document.
-		    root.appendChild(xqueryElem);
-		    doc.appendChild(root);
-		    //Calling the service.
-		    callService(doc,"Query","Query");
+		doc = registryBuilder.newDocument();
+		//change this to helio:TimeSearch
+		//the getSoapBodyNamespaceURI() you can hard code it should be the same namespace you used to register in the SoapServlet.
+		Element root = doc.createElementNS("http://helio.org/xml/QueryService/v1.0", "helio:Query");			
+		//change this to helio:TIME		  	
+		Element xqueryElem = doc.createElementNS("http://helio.org/xml/QueryService/v1.0","helio:TIME");			
+		//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
+		xqueryElem.appendChild(doc.createTextNode("1990-10-20T20:30:56/2009-10-20T20:30:56"));		   
+		//ok put it as a Document.
+		root.appendChild(xqueryElem);
+		doc.appendChild(root);
+		//Calling the service.
+		callService(doc,"Query","Query");
 	}
 	
 	protected static Document callService(Document soapBody, String name, String soapActionURI) throws RemoteException , ServiceException, Exception {
@@ -44,8 +43,8 @@ public class WebServiceClient {
 	       Document resultDoc = DomHelper.newDocument();
 	       Document wsDoc = null;
 	       NodeList vResources = null;
-	           //get a call object
-	           Call call = getCall();
+	       //get a call object
+	       Call call = getCall();
 	           
 	           //When trying to call a Web Service with this client deployed on Microsoft .Net
 	           //the SoapActionURI was important to Microsoft as a requirement though it should not be.
