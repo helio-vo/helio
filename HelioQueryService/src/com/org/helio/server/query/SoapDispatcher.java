@@ -48,7 +48,7 @@ public class SoapDispatcher {
    */
   public XMLStreamReader invoke(MessageContext context) {
 	 try {
-		 logger.info("++++++++++ Starting Webservice Call +++++++++++++");
+		 logger.info("  : Starting Webservice Call :  ");
 		 //get the soap request.
 	     XMLStreamReader reader = context.getInMessage().getXMLStreamReader();
 
@@ -59,9 +59,8 @@ public class SoapDispatcher {
 	     //all the soap requests in the body will have a namespaceuri that      
 	     String inputURI = inputDoc.getDocumentElement().getNamespaceURI();
 	    
-	     XMLStreamReader responseReader = null;
-	     //if(query != null) {	    	 	    	 
-	    	 String interfaceName = inputDoc.getDocumentElement().getLocalName().intern();
+	     XMLStreamReader responseReader = null;	        	 	    	
+	     String interfaceName = inputDoc.getDocumentElement().getLocalName().intern();
 	    	 //since this service will be used a lot, supposedly .intern() can be quicker
    	    	 //each method should return a XMLStreamReader that is streamed back to the client.
 	    	 if(interfaceName == "Query".intern()) {
@@ -73,21 +72,17 @@ public class SoapDispatcher {
 	    		 comCriteriaTO.setStatus("WebService");
 	    		 String time = inputDoc.getDocumentElement().getElementsByTagNameNS("*","TIME").item(0).getFirstChild().getNodeValue();
 	    		 String[] dateTime= time.replace("T", " ").split("/");			
-				 logger.info(" startDateTime : "+dateTime[0]+" startEndTime : "+dateTime[1]);			
+				 logger.info(" : startDateTime : "+dateTime[0]+" : startEndTime : "+dateTime[1]);			
 				 comCriteriaTO.setStartDateTime(dateTime[0]);
-				 comCriteriaTO.setEndDateTime(dateTime[1]);											
-				 
+				 comCriteriaTO.setEndDateTime(dateTime[1]);															 
 				 new QueryThreadAnalizer(comCriteriaTO).start();				
-				 logger.info("+++++++++++++++++++++ Done VOTABLE ++++++++++++++++++++++++++");												
-				 responseReader = STAXUtils.createXMLStreamReader(pr);
-					//responseReader = STAXUtils.createXMLStreamReader(new java.io.StringReader("<heliot:hello xmlns:heliot=\"http://helio.org/test\">This is a test</heliot:hello>"));
-				 logger.info(" String Buffer ");						 
-	    	 }
-	     //}
-	 	 logger.info("returning responsereader");
+				 logger.info(" : Done VOTABLE : ");												
+				 responseReader = STAXUtils.createXMLStreamReader(pr);									
+	    	 }	  
+	 	 logger.info(" : returning response reader soap output : ");
 	 	 return responseReader;
 	 }catch(Exception e) {
-		 e.printStackTrace();
+		 logger.fatal("   : Exception in SoapDispatcher:invoke : ", e);
 	 }
 	 return null;
   }
