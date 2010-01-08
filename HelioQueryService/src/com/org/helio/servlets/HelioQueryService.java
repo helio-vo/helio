@@ -25,8 +25,7 @@ public class HelioQueryService extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public HelioQueryService() {
-        super();
-        // TODO Auto-generated constructor stub
+        super();        
     }
 
 	/** 
@@ -54,8 +53,7 @@ public class HelioQueryService extends HttpServlet {
 			commonNameDao.generateVOTableDetails(comCriteriaTO);
 		}catch(Exception e){
 			e.printStackTrace();
-		}
-		
+		}		
 	}
 
 	/**
