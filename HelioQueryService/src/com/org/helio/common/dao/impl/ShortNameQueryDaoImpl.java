@@ -54,7 +54,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		try 
 		{
 			String sRepSql = CommonUtils.replaceParams(sSql, hmArgs);
-				
+			logger.info(" : Query String After Replacing Value :"+sRepSql);	
 			con = ConnectionManager.getConnection();
 			st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 			rs= st.executeQuery(sRepSql);
@@ -182,6 +182,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	    logger.info("   hmbColumnList   "+hmbColumnList);
 	    return hmbColumnList;
 	  }
+	
 	
 	@SuppressWarnings("unused")
 	private String[] getColumnNamesAndType(ResultSetMetaData rsMetaData,int colCount) throws Exception {

@@ -11,17 +11,23 @@ import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import org.apache.log4j.Logger;
+
 public class ConfigurationProfiler {
 
-	private Properties prop=new Properties();
-	private String sProfileFilePath ="C:/log/helio.txt";
-	
+	private Properties prop=new Properties();	
+	private String sProfileFilePath ;
+	protected final  Logger logger = Logger.getLogger(this.getClass());
 	
 	private ConfigurationProfiler()
 	{
 		try
 		{
-			loadPropertyValues();
+			
+			logger.info(" Env file path "+System.getenv("file.path"));
+			if(sProfileFilePath==null || sProfileFilePath.equals(""))
+				sProfileFilePath=System.getenv("file.path");
+			loadPropertyValues();			
 			TimerTask task = new FileWatcher(new File(sProfileFilePath)) {
 			      protected void onChange( File file ) {
 			      	try {			      		

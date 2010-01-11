@@ -25,6 +25,8 @@ public class CommonCriteriaTO implements Serializable{
 	private Writer printWriter;
 	HashMap<String,CommonTO> hmbColumnList;
 	private String status;
+	private String instruments;
+	private String listName;
 	
 	
 	public CommonCriteriaTO(){
@@ -32,6 +34,20 @@ public class CommonCriteriaTO implements Serializable{
 		this.setIRowsPerPage(10);
 	}
 	
+		
+	public String getInstruments() {
+		return instruments;
+	}
+	public void setInstruments(String instruments) {
+		this.instruments = instruments;
+	}
+	
+	public String getListName() {
+		return listName;
+	}
+	public void setListName(String listName) {
+		this.listName = listName;
+	}
 	public String getStatus() {
 		return status;
 	}

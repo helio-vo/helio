@@ -38,9 +38,16 @@ public class CommonDaoImpl implements CommonDao {
 		 params.put("kwstartdate", comCriteriaTO.getStartDateTime());
 		 params.put("kwenddate", comCriteriaTO.getEndDateTime());
 		 params.put("kwinstrument", comCriteriaTO.getInstruments());
-		 params.put("kwlistname", comCriteriaTO.getListname());
+		 params.put("kwlistname", comCriteriaTO.getListName());
+		 //Query with time
 		 String query=ConfigurationProfiler.getInstance().getProperty("sql.query");
-		 logger.info(" : Query String  : "+query);		
+		 //Query with and clause.
+		 String queryContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.constraint");
+		 //Appending query with query constraint.
+		 if(queryContraint!=null && !queryContraint.equals("")){
+			 query=query+" "+queryContraint;
+		 }
+		 logger.info(" : Query String FROM PROPERTY FILE : "+query);		
 		 ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
 		 CommonResultTO result=shortNameDao.getSNQueryResult(query,params);
 		 HashMap<String,CommonTO> hmbColumnList=result.getColumnNameList();		

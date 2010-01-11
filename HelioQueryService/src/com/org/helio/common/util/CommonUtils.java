@@ -26,7 +26,8 @@ public class CommonUtils {
 				String argKey = sTextQuery.substring(argBeginIndex + ARGPREFIX.length(), argEndIndex);
 				String argValue = (String) hmArgs.get(argKey);
 				if (argValue == null) {
-					sTextQuery = sTextQuery.delete(argBeginIndex, argEndIndex + sTextQuery.length());
+					//sTextQuery = sTextQuery.delete(argBeginIndex, argEndIndex + sTextQuery.length());
+					sTextQuery = sTextQuery.replace(argBeginIndex, argEndIndex + ARGSUFFIX.length(), "");
 				} else {
 					sTextQuery = sTextQuery.replace(argBeginIndex, argEndIndex + ARGSUFFIX.length(), argValue);
 				}
