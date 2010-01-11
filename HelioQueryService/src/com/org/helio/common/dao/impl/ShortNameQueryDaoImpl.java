@@ -89,7 +89,8 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 					X[count]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
 					//code for getting database data.
 					for (int g = 0; g < colCount; g++) {
-						logger.info(" : Acces URL value :"+X[0]);
+						logger.info(" : Access URL value :"+X[0]);
+						//This is done; to change index to '1' . Bcoz first index value is Access url.
 						if(X[0]!=null && !X[0].equals("") && g==0){
 							count=count+1;
 						}
