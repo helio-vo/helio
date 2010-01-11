@@ -40,8 +40,10 @@ public class HelioQueryService extends HttpServlet {
 		    dateFormat.setTimeZone(TimeZone.getTimeZone("GMT+00:00"));
 		    CommonCriteriaTO comCriteriaTO=new CommonCriteriaTO();
 		    comCriteriaTO.setPrintWriter(printWriter);
-		    if(request.getParameter("TIME")!=null && !request.getParameter("TIME").equals("")){
-				String[] dateTime= request.getParameter("TIME").replace("'T'", " ").split("/");			
+		    //Setting time parameter
+		    String sTime=request.getParameter("TIME");
+		    if(sTime!=null && !sTime.equals("")){
+				String[] dateTime= sTime.replace("T", " ").split("/");			
 				System.out.println(" startDateTime : "+dateTime[0]+" startEndTime : "+dateTime[1]);			
 				comCriteriaTO.setStartDateTime(dateTime[0]);
 				comCriteriaTO.setEndDateTime(dateTime[1]);						
@@ -49,6 +51,12 @@ public class HelioQueryService extends HttpServlet {
 		    	comCriteriaTO.setStartDateTime(dateFormat.format(new Date()));
 				comCriteriaTO.setEndDateTime(dateFormat.format(new Date()));
 		    }
+		    //Setting for Instrument parameter.
+		    String sInstrument=request.getParameter("INSTRUMENT");
+		    comCriteriaTO.setInstruments(sInstrument);
+		    //Setting for List Name parameter.
+		    String sListName=request.getParameter("LISTNAME");
+		    comCriteriaTO.setListName(sListName);
 			CommonDao commonNameDao= CommonDaoFactory.getInstance().getCommonDAO();
 			commonNameDao.generateVOTableDetails(comCriteriaTO);
 		}catch(Exception e){
