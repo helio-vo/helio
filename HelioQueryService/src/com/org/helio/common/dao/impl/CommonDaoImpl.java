@@ -100,11 +100,11 @@ public class CommonDaoImpl implements CommonDao {
 		HashMap<String,CommonTO> hmbColumnList=comCriteriaTO.getHmbColumnList();
 		 logger.info(ConfigurationProfiler.getInstance().getProperty("sql.columnnames"));
 		 String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames").split("::");
-		 logger.info(" : columnnames String  : "+columnNames);
+		 logger.info(" : Column Name String  : "+columnNames);
 		 String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc").split("::");
-		 logger.info(" : columndesc String  : "+columnDesc);
+		 logger.info(" : Column Desc String  : "+columnDesc);
 		 String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd").split("::");
-		 logger.info(" : columndesc String  : "+columnUcd); 
+		 logger.info(" : Column UCD String  : "+columnUcd); 
 		ColumnInfo [] defValues = new ColumnInfo[columnNames.length];
 		for(int inColCount=0;inColCount<columnNames.length;inColCount++){
 			logger.info(columnNames[inColCount]+"   "+columnDesc[inColCount]+"  "+columnUcd[inColCount]);
