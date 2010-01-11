@@ -70,11 +70,15 @@ public class SoapDispatcher {
 	    		 comCriteriaTO.setPrintWriter(pw);
 	    		 //Indicator to define VOTABLE for Webservice request
 	    		 comCriteriaTO.setStatus("WebService");
+	    		 //Setting for TIME parameter.
 	    		 String time = inputDoc.getDocumentElement().getElementsByTagNameNS("*","TIME").item(0).getFirstChild().getNodeValue();
 	    		 String[] dateTime= time.replace("T", " ").split("/");			
 				 logger.info(" : startDateTime : "+dateTime[0]+" : startEndTime : "+dateTime[1]);			
 				 comCriteriaTO.setStartDateTime(dateTime[0]);
-				 comCriteriaTO.setEndDateTime(dateTime[1]);															 
+				 comCriteriaTO.setEndDateTime(dateTime[1]);	
+				 //Setting for Instrument parameter.
+				 String instruments = inputDoc.getDocumentElement().getElementsByTagNameNS("*","INSTRUMENT").item(0).getFirstChild().getNodeValue();
+				 comCriteriaTO.setInstruments(instruments);
 				 new QueryThreadAnalizer(comCriteriaTO).start();				
 				 logger.info(" : Done VOTABLE : ");												
 				 responseReader = STAXUtils.createXMLStreamReader(pr);									
