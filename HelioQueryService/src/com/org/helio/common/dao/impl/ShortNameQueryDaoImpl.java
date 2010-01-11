@@ -38,13 +38,10 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	{
 		return getSNQueryResult(sSql, hmArgs,0,-1);
 	}
-
 	
 	@SuppressWarnings("deprecation")
 	public CommonResultTO getSNQueryResult(String sSql, HashMap<String,String> hmArgs, int startRow, int noOfRecords) throws ShortNameQueryException 
-	{
-		long lStart=System.currentTimeMillis();
-	
+	{		
 		Connection con = null;
 		Statement st = null;
 		ResultSetMetaData rms =null;
@@ -89,13 +86,13 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 					X[count]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
 					//code for getting database data.
 					for (int g = 0; g < colCount; g++) {
-						logger.info(" : Access URL value :"+X[0]);
+						logger.info(" : Access URL value : "+X[0]);
 						//This is done; to change index to '1' . Bcoz first index value is Access url.
 						if(X[0]!=null && !X[0].equals("") && g==0){
 							count=count+1;
 						}
 						X[count] = rs.getString(colNames[g]);
-						logger.info(" Column Value  "+X[count]+" Column name "+colNames[g]);
+						logger.info(" : Column Value :  "+X[count]+" : Column name :  "+colNames[g]);
 						count++;
 					}
 					// code for setting format
@@ -151,10 +148,8 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			} catch (Exception e) {
 				
 			}
-		}
-		long lEnd=System.currentTimeMillis();		
-
-		return result;
+		}		
+	return result;
 	}
 
 
@@ -163,8 +158,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	    if (rsMetaData == null) {
 	      return null;
 	    }
-	    HashMap<String,CommonTO> hmbColumnList=new HashMap<String,CommonTO>();
-	  
+	    HashMap<String,CommonTO> hmbColumnList=new HashMap<String,CommonTO>();	  
 	    int numberOfColumns = rsMetaData.getColumnCount();
 	    CommonTO commonTO;
 	    // get the column names; column indexes start from 1
@@ -172,14 +166,13 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	      String columnName = rsMetaData.getColumnName(intColNo);
 	      String columnType=  rsMetaData.getColumnTypeName(intColNo);
 	      String columnSize=  String.valueOf(rsMetaData.getColumnDisplaySize(intColNo));
-	      logger.info(" columnName   "+columnName +" columnType "+columnType);
+	      logger.info(" : Column Name :  "+columnName +" : Column Type :  "+columnType);
 	      commonTO=new CommonTO();
 	      commonTO.setColumnName(columnName);
 	      commonTO.setColumnType(columnType); 
 	      commonTO.setColumnSize(columnSize);
 	      hmbColumnList.put(columnName, commonTO);
-	    } 
-	    logger.info("   hmbColumnList   "+hmbColumnList);
+	    } 	   
 	    return hmbColumnList;
 	  }
 	
@@ -195,7 +188,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	    for (int intColNo = 0; intColNo < numberOfColumns ; intColNo++) {
 	    	colNames[intColNo]=rsMetaData.getColumnName(intColNo+1);   
 	     }
-	    logger.info("   colNames   "+colNames);
+	    logger.info("   :  Column Names  :  "+colNames.toString());
 	    return colNames;
 	  }
 	
