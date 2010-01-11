@@ -27,12 +27,17 @@ public class WebServiceClient {
 		//change this to helio:TimeSearch
 		//the getSoapBodyNamespaceURI() you can hard code it should be the same namespace you used to register in the SoapServlet.
 		Element root = doc.createElementNS("http://helio.org/xml/QueryService/v1.0", "helio:Query");			
-		//change this to helio:TIME		  	
-		Element xqueryElem = doc.createElementNS("http://helio.org/xml/QueryService/v1.0","helio:TIME");			
+		//This configuration for TIME.		  	
+		Element xqueryElemTime = doc.createElementNS("http://helio.org/xml/QueryService/v1.0","helio:TIME");			
 		//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
-		xqueryElem.appendChild(doc.createTextNode("1990-10-20T20:30:56/2009-10-20T20:30:56"));		   
-		//ok put it as a Document.
-		root.appendChild(xqueryElem);
+		xqueryElemTime.appendChild(doc.createTextNode("1990-10-20T20:30:56/2009-10-20T20:30:56"));	
+		//This configuration for INSTRUMENT.
+		Element xqueryElemIntrument = doc.createElementNS("http://helio.org/xml/QueryService/v1.0","helio:INSTRUMENT");			
+		//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
+		xqueryElemIntrument.appendChild(doc.createTextNode("HXT"));
+		//ok put all these into Document.
+		root.appendChild(xqueryElemTime); //Time Element.
+		root.appendChild(xqueryElemIntrument); // Instrument Element.
 		doc.appendChild(root);
 		//Calling the service.
 		callService(doc,"Query","Query");
