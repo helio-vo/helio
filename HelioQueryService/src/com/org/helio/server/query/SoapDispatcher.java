@@ -68,7 +68,7 @@ public class SoapDispatcher {
 	    		 PipedReader pr = new PipedReader();
 	    		 PipedWriter pw = new PipedWriter(pr);	    		   		   		  		   	 
 	    		 comCriteriaTO.setPrintWriter(pw);
-	    		 //Indicator to define VOTABLE for Webservice request
+	    		 //Indicator to define VOTABLE for Web Service request
 	    		 comCriteriaTO.setStatus("WebService");
 	    		 //Setting for TIME parameter.
 	    		 String time = inputDoc.getDocumentElement().getElementsByTagNameNS("*","TIME").item(0).getFirstChild().getNodeValue();
@@ -79,6 +79,7 @@ public class SoapDispatcher {
 				 //Setting for Instrument parameter.
 				 String instruments = inputDoc.getDocumentElement().getElementsByTagNameNS("*","INSTRUMENT").item(0).getFirstChild().getNodeValue();
 				 comCriteriaTO.setInstruments(instruments);
+				 //Thread created to load data into PipeReader.
 				 new QueryThreadAnalizer(comCriteriaTO).start();				
 				 logger.info(" : Done VOTABLE : ");												
 				 responseReader = STAXUtils.createXMLStreamReader(pr);									
