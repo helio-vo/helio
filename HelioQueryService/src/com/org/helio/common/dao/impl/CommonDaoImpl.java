@@ -106,8 +106,7 @@ public class CommonDaoImpl implements CommonDao {
 		 String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd").split("::");
 		 logger.info(" : Column UCD String  : "+columnUcd); 
 		ColumnInfo [] defValues = new ColumnInfo[columnNames.length];
-		for(int inColCount=0;inColCount<columnNames.length;inColCount++){
-			logger.info(columnNames[inColCount]+"   "+columnDesc[inColCount]+"  "+columnUcd[inColCount]);
+		for(int inColCount=0;inColCount<columnNames.length;inColCount++){			
 			//CommonTO commonTO=hmbColumnList.get(columnNames[inColCount]);				
 			defValues[inColCount] = new ColumnInfo(columnNames[inColCount],String.class,columnDesc[inColCount]);			
 	        defValues[inColCount].setUCD(columnUcd[inColCount]);
