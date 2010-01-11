@@ -37,6 +37,8 @@ public class CommonDaoImpl implements CommonDao {
 		 HashMap<String,String> params  = new HashMap<String,String>();
 		 params.put("kwstartdate", comCriteriaTO.getStartDateTime());
 		 params.put("kwenddate", comCriteriaTO.getEndDateTime());
+		 params.put("kwinstrument", comCriteriaTO.getInstruments());
+		 params.put("kwlistname", comCriteriaTO.getListname());
 		 String query=ConfigurationProfiler.getInstance().getProperty("sql.query");
 		 logger.info(" : Query String  : "+query);		
 		 ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
