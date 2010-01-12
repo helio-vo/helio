@@ -54,19 +54,16 @@ public class WebServiceClient {
 	           //When trying to call a Web Service with this client deployed on Microsoft .Net
 	           //the SoapActionURI was important to Microsoft as a requirement though it should not be.
 	           //I think this might have been fixed some years ago, but leaving it here for now.
-	           call.setSOAPActionURI(soapActionURI);
-	           
+	           call.setSOAPActionURI(soapActionURI);	           
 	           //create the soap body to be placed in the
 	           //outgoing soap message.
-	           SOAPBodyElement sbeRequest = new SOAPBodyElement(soapBody.getDocumentElement());
-	           
+	           SOAPBodyElement sbeRequest = new SOAPBodyElement(soapBody.getDocumentElement());	           
 	           //go ahead and set the name and namespace on the soap body
 	           //not sure if this is that important since I am constructing the soap body xml myself.
 	           //I believe it should not be that important but if my memory serves me correct
 	           //Axis seemed to throw a NullPointerException if these two methods were not set.
 	           sbeRequest.setName(name);
-	           sbeRequest.setNamespaceURI("http://helio.org/xml/QueryService/v1.0");
-	           
+	           sbeRequest.setNamespaceURI("http://helio.org/xml/QueryService/v1.0");	           
 	           //call the web service, on axis-message style it
 	           //comes back as a vector of soabodyelements.
 	           result = (Vector)call.invoke(new Object[] { sbeRequest });
@@ -86,8 +83,7 @@ public class WebServiceClient {
 	           throw new Exception("ERROR RESULT FROM WEB SERVICE WAS LITERALLY NOTHING IN THE MESSAGE SHOULD NOT HAPPEN.");
 	           //return null;
 	   }
-	   
-	   
+	   	   
 	    /**
 	    * Method to establish a Service and a Call to the server side web service.
 	    * @return Call object which has the necessary properties set for an Axis message style.
@@ -108,8 +104,4 @@ public class WebServiceClient {
 	      _call.setEncodingStyle(null);
 	      return _call;
 	   }
-	   
-	  
-
-
 }
