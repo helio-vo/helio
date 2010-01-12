@@ -20,8 +20,6 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/javax.xml.ws-jaxws-api-2.0.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jaxb-api-2.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jaxb-impl-2.1.12.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jaxb-impl-2.1.8.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jaxb-xjc-2.0.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jaxb-xjc-2.1.12.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jdom-1.0.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jta.jar"/>
@@ -50,7 +48,6 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/saaj.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/serializer-2.7.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/astrogrid-common-2009.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/wsdl4j-1.6.2.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/commons-discovery-0.2.jar"/>
