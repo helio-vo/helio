@@ -10,7 +10,6 @@ import java.util.Enumeration;
 import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
-
 import org.apache.log4j.Logger;
 
 public class ConfigurationProfiler {
@@ -23,17 +22,16 @@ public class ConfigurationProfiler {
 	{
 		try
 		{
-			
 			logger.info(" Env file path "+System.getenv("file.path"));
 			if(sProfileFilePath==null || sProfileFilePath.equals(""))
-				sProfileFilePath=System.getenv("file.path");
+			sProfileFilePath=System.getenv("file.path");
 			loadPropertyValues();			
 			TimerTask task = new FileWatcher(new File(sProfileFilePath)) {
-			      protected void onChange( File file ) {
-			      	try {			      		
+			      protected void onChange( File file ){
+			      	try{			      		
 			      		loadPropertyValues();
-				    } catch (Exception e) {
-			      		e.printStackTrace();
+				    }catch (Exception e) {
+				    	logger.fatal(" :  Exception occured in ConfigurationProfiler : While loading property file ", e);
 			      	}
 			      }
 				};
@@ -41,34 +39,28 @@ public class ConfigurationProfiler {
 			    Timer timer = new Timer();
 			    // check every 10 min 
 			    timer.schedule(task , new Date(), 1000 * 60); // refresh after 600000 miliseconds  = 10 mins
-
-			
-			
+		
 		}catch(Exception ex)
 		{
-			ex.printStackTrace();
+			logger.fatal(" :  Exception occured in ConfigurationProfiler : While loading property file ", ex);
 		}
 		
 	}
-	
-	
+		
 	private void loadPropertyValues()
 	{
 		/*
-		 * New property variable is loaded to safeguard from loassing the properties values in case of error while refresh.
+		 * New property variable is loaded to safeguard from losing the properties values in case of error while refresh.
 		 * */
 		try{
-			System.out.println("++++++++++++++++++++ Property Loaded +++++++++++++++++++++");
+			
 			Properties newProp= new Properties();
 			newProp.load(new  FileInputStream( new File(sProfileFilePath)));
-			prop=newProp;
-			
-			//System.out.println(ConfigurationProfiler.getInstance().getProperty("FILENAME"));
-			
-			
+			prop=newProp;			
+			logger.info(" : Property file loaded successfuly  : ");
 		}catch(Exception ex)
 		{			
-			ex.printStackTrace();
+			logger.fatal(" :  Exception occured in ConfigurationProfiler : While loading property file ", ex);
 		}
 	}
 
