@@ -10,6 +10,10 @@ import java.util.Enumeration;
 import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+
 import org.apache.log4j.Logger;
 
 public class ConfigurationProfiler {
@@ -21,10 +25,11 @@ public class ConfigurationProfiler {
 	private ConfigurationProfiler()
 	{
 		try
-		{
-			logger.info(" Env file path "+System.getenv("file.path"));
-			if(sProfileFilePath==null || sProfileFilePath.equals(""))
-			sProfileFilePath=System.getenv("file.path");
+		{							
+			if(sProfileFilePath==null || sProfileFilePath.equals("")){			
+				sProfileFilePath=CommonUtils.getPropertyFilePath();
+				logger.info("  : Property File Path  : "+sProfileFilePath);
+			}
 			loadPropertyValues();			
 			TimerTask task = new FileWatcher(new File(sProfileFilePath)) {
 			      protected void onChange( File file ){
@@ -53,7 +58,7 @@ public class ConfigurationProfiler {
 		 * New property variable is loaded to safeguard from losing the properties values in case of error while refresh.
 		 * */
 		try{
-			
+			//logger.info("  : Property File Path  : "+sProfileFilePath);
 			Properties newProp= new Properties();
 			newProp.load(new  FileInputStream( new File(sProfileFilePath)));
 			prop=newProp;			
