@@ -44,7 +44,7 @@ public class SoapDispatcher {
    * responses.
    * @param context - MessageContext that is ued to extract the soap request.
    * @return XMLStreamReader - response XMLStreamReader that contains the 
-   * soap response populated by InputStream (PipedInputStream)
+   * soap response populated by InputStream (PipedInputStream) 
    */
   public XMLStreamReader invoke(MessageContext context) {
 	 try {
