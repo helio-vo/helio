@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>  
   <groupId>ch.i4ds.helio</groupId>
-  <artifactId>helio-ics</artifactId>
+  <artifactId>helio-query</artifactId>
   <version>0.0.1-SNAPSHOT</version>
    <packaging>pom</packaging>  
   <name>helio-query-service</name>
@@ -14,7 +14,7 @@
    </modules>   
   <build>
     <sourceDirectory>src</sourceDirectory>
-<!--      <testSourceDirectory>src/junit</testSourceDirectory> -->
+
     <resources>
       <resource>
         <directory>${basedir}/src</directory>
@@ -24,20 +24,7 @@
         </includes>
       </resource>
     </resources>
-    <!--  
-    <testResources>
-      <testResource>
-        <directory>${basedir}/src/junit</directory>
-        <includes>
-          <include>**/*.xml</include>
-          <include>**/*.properties</include>
-          <include>**/data</include>
-          <include>**/data/*</include>
-        </includes>
-      </testResource>
-    </testResources>
-    -->
-    <plugins>
+     <plugins>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
