@@ -8,6 +8,10 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.ArrayList;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
 import javax.servlet.http.HttpServletRequest;
 
 
@@ -36,6 +40,11 @@ public class CommonUtils {
 		return sTextQuery.toString();
 	}
 	
-	
+	  public static String getPropertyFilePath() throws NamingException{
+			InitialContext initCtx = new InitialContext();			
+			Context envCtx = (Context) initCtx.lookup("java:comp/env");
+			String  propertyBean = (String ) envCtx.lookup("property/contex");
+			return propertyBean;
+	  }	
 	
 }
