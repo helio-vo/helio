@@ -1,76 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk">
-		<attributes>
-			<attribute name="owner.project.facets" value="jst.java"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/asm.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/axis-1.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/axis-jaxrpc-1.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/axis-saaj-1.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/cglib-nodep.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/commons-logging-1.0.4.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/freemarker-2.3.8.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/hibernate-3.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/javax.xml.ws-jaxws-api-2.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jaxb-api-2.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jaxb-impl-2.1.12.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jaxb-xjc-2.1.12.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jdom-1.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jta.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/junit-3.8.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/mysql-connector-java-3.0.16-ga-bin.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/ognl-2.6.11.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/stil-2.3-1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/struts2-core-2.0.14.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-aegis-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-all-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-annotations-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-core-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-generator-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-java5-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-jaxb2-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-jaxws-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-jaxws-api-2.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-jsr181-api-1.0-M1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-spring-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-ws-security-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xfire-xmlbeans-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xwork-2.0.7.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/server-lib/antlr-2.7.5H3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/server-lib/j2ee.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/saaj.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/serializer-2.7.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/wsdl4j-1.6.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/commons-discovery-0.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xstream-1.0.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xml-resolver-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xmlrpc-1.2-patched.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/stax-api-1.0-2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/stax-utils-20040917.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/commons-el.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/jgroups-all-2.2.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/wstx-asl-3.2.9.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xalan-2.7.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xbean-2.1.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xbean-spring-2.5.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xercesImpl-2.8.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xml-apis-1.3.04.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xmldb-20040708.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/XmlSchema-1.0.3.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/XmlSchema-1.4.5.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xmlsec-1.3.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xmlunit-1.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/xpp3-1.1.2a.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/web-lib/log4j-1.2.14.jar"/>
-	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
