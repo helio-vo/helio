@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ch.i4ds.helio</groupId>
-  <artifactId>core</artifactId>
+  <artifactId>helio-dpas</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-	<name>core</name>
+	<name>helio-dpas</name>
 	<packaging>war</packaging>
 	
 	<build>
 		<directory>target</directory>
-		<finalName>${project.artifactId}</finalName>
+		<finalName>${project.name}</finalName>
 
 		<plugins>
 			<plugin>
@@ -30,24 +30,21 @@
 		    <artifactId>maven-glassfish-plugin</artifactId>
 		    <version>2.1</version>
 		    <configuration>
-                    <glassfishDirectory>${glassfish.home}</glassfishDirectory>
-                    <user>${glassfish.domain.user}</user>
-                    <adminPassword>${glassfish.domain.password}</adminPassword>
-                    <autoCreate>true</autoCreate>
-                    <!-- <user>${glassfish.domain.username}</user>
-                    <skip>${test.int.skip}</skip> -->
-                    <domain>
-                        <name>domain1</name>
-                        <adminPort>4848</adminPort>
-                        <httpPort>8080</httpPort>
-                    </domain>
-                    <components>
-                        <component>
-                            <name>${project.artifactId}</name>
-                            <artifact>${project.build.directory}/${project.build.finalName}.${project.packaging}</artifact>
-                        </component>
-                    </components>
-
+          <glassfishDirectory>${glassfish.home}</glassfishDirectory>
+          <user>${glassfish.domain.user}</user>
+          <adminPassword>${glassfish.domain.password}</adminPassword>
+          <autoCreate>true</autoCreate>
+          <domain>
+            <name>domain1</name>
+            <adminPort>4848</adminPort>
+            <httpPort>8080</httpPort>
+          </domain>
+          <components>
+            <component>
+              <name>${project.artifactId}</name>
+              <artifact>${project.build.directory}/${project.build.finalName}.${project.packaging}</artifact>
+            </component>
+          </components>
 		    </configuration>
 			</plugin>
 			<plugin>
@@ -73,39 +70,15 @@
 	<properties>
 		<!--  Common version numbers of dependencies -->
 		
-		<t2.ui.exts.version>${project.version}</t2.ui.exts.version>
-		<t2.activities.version>0.8</t2.activities.version>
-		<t2.infrastructure.version>1.11</t2.infrastructure.version>
-		<t2.core.version>0.8</t2.core.version>
-		<t2.lang.version>0.5</t2.lang.version>
-		<t2.compatibility.version>0.8</t2.compatibility.version>
-		<t2.translators.version>0.8</t2.translators.version>
-		<t2.ui.api.version>0.6</t2.ui.api.version>
-		<t2.ui.impl.version>0.8</t2.ui.impl.version>
-		<t2.ui.components.version>0.9</t2.ui.components.version>
-		<t2.ui.activities.version>0.12</t2.ui.activities.version>
-		<taverna.version>1.7.2.0</taverna.version>
-		<t2.reference.core.extensions.version>0.6</t2.reference.core.extensions.version>
 		<spring.version>3.0.0.BUILD-SNAPSHOT</spring.version>
-
 		<log4j.version>1.2.13</log4j.version>
 		<commons.io.version>1.3</commons.io.version>
 		<commons.cli.version>1.0</commons.cli.version>
 		<jdom.version>1.0</jdom.version>
-		<glassfish.home>C:\Program Files (x86)\Glassfish3</glassfish.home>
+		<glassfish.home>C:\Program Files (x86)\GlassFish-Tools-Bundle-For-Eclipse-1.2\glassfishv3</glassfish.home>
 		<glassfish.domain.user>admin</glassfish.domain.user>
 		<glassfish.domain.password>adminadmin</glassfish.domain.password>
 	</properties>
-
-	<!--<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>net.sf.taverna</groupId>
-				<artifactId>wsdl-generic</artifactId>
-				<version>1.2</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>-->
 		
 	<dependencies>
 		<dependency>
@@ -129,156 +102,6 @@
 			<version>1.4</version>
 		</dependency>
 		
-		
-		<!-- taverna -->
-		<!--<dependency>
-			<groupId>net.sf.taverna.t2.activities</groupId>
-			<artifactId>all-activities</artifactId>
-			<version>${t2.activities.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.taverna.t2.translators</groupId>
-			<artifactId>wsdl-activity-translator</artifactId>
-			<version>${t2.translators.version}</version>
-		</dependency>
-	  <dependency>
-			<groupId>net.sf.taverna.t2</groupId>
-			<artifactId>platform</artifactId>
-			<version>0.2</version>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.taverna.t2.infrastructure</groupId>
-			<artifactId>raven</artifactId>
-			<version>${t2.infrastructure.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.taverna.t2.core</groupId>
-			<artifactId>reference-core-extensions</artifactId>
-			<version>${t2.reference.core.extensions.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.taverna.t2.core</groupId>
-			<artifactId>reference-impl</artifactId>
-			<version>${t2.core.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.taverna.t2.translators</groupId>
-			<artifactId>wsdl-activity-translator</artifactId>
-			<version>${t2.translators.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>uk.org.mygrid.taverna.processors</groupId>
-			<artifactId>taverna-wsdl-processor</artifactId>
-			<version>${taverna.version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>uk.org.mygrid.taverna.raven
-					</groupId>
-					<artifactId>raven</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>uk.org.mygrid.taverna.raven
-					</groupId>
-					<artifactId>raven-log4j</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>uk.org.mygrid.taverna.processors</groupId>
-			<artifactId>taverna-beanshell-processor</artifactId>
-			<version>${taverna.version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>uk.org.mygrid.taverna.raven
-					</groupId>
-					<artifactId>raven</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>uk.org.mygrid.taverna.raven
-					</groupId>
-					<artifactId>raven-log4j</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>-->
-		
-		<!-- egso data providers -->
-		<!--<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.13</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate</artifactId>
-			<version>3.2.5.ga.raven</version>
-		</dependency>
-		<dependency>
-			<groupId>xalan</groupId>
-			<artifactId>xalan</artifactId>
-			<version>2.7.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.hp.hpl.jena</groupId>
-			<artifactId>concurrent-jena</artifactId>
-			<version>1.3.2</version>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.xml.rpc</groupId>
-			<artifactId>jaxrpc-impl</artifactId>
-			<version>1.1.3_01</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-configuration</groupId>
-			<artifactId>commons-configuration</artifactId>
-			<version>1.5</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.jms</groupId>
-			<artifactId>jms</artifactId>
-			<version>1.1</version>
-		</dependency>
-		<dependency>
-			<groupId>cds.savot</groupId>
-			<artifactId>cds.savot.common</artifactId>
-			<version>2.6</version>
-		</dependency>
-		<dependency>
-			<groupId>cds.savot</groupId>
-			<artifactId>cds.savot.model</artifactId>
-			<version>2.6</version>
-		</dependency>
-		<dependency>
-			<groupId>cds.savot</groupId>
-			<artifactId>cds.savot.pull</artifactId>
-			<version>2.6</version>
-		</dependency>
-		<dependency>
-			<groupId>cds.savot</groupId>
-			<artifactId>cds.savot.sax</artifactId>
-			<version>2.6</version>
-		</dependency>
-		<dependency>
-			<groupId>cds.savot</groupId>
-			<artifactId>cds.savot.writer</artifactId>
-			<version>2.6</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.xml</groupId>
-			<artifactId>jaxm-api</artifactId>
-			<version>1.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons.id</groupId>
-			<artifactId>commons-id</artifactId>
-			<version>0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.messaging</groupId>
-			<artifactId>imqxm</artifactId>
-			<version>3.5</version>
-		</dependency>-->
-		
-
 		<!-- spring & ws -->
 		<dependency>
 		  <groupId>com.sun.xml.ws</groupId>
@@ -414,19 +237,6 @@
 	    <name>Java.net Maven2 Repository</name>
 	    <url>http://download.java.net/maven/2</url>
 	  </pluginRepository>
-	  <!--          <pluginRepository>
-            <id>snapshot.ocean.net.au</id>
-            <name>Ocean Snapshot Repository</name>
-            <url>http://maven.ocean.net.au/snapshot</url>
-            <releases>
-                <enabled>false</enabled>
-                <updatePolicy>never</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </pluginRepository>-->
 	</pluginRepositories>
 </project>
 
