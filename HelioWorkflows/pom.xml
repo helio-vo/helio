@@ -283,8 +283,8 @@
 			<snapshots>
 				<updatePolicy>daily</updatePolicy>
 			</snapshots>
-			<id>devjavanet</id>
-			<name>java net</name>
+			<id>devjavanet-mv1</id>
+			<name>java net MV1</name>
 			<url>http://download.java.net/maven/1</url>
 			<layout>legacy</layout>
 		</repository>
