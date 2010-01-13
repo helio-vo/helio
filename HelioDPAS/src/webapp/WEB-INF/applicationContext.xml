@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- glassfish doesn't like xsd's over https. don't change http:// to https:// -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:ws="http://jax-ws.dev.java.net/spring/core"
+       xmlns:wss="http://jax-ws.dev.java.net/spring/servlet"
+       xmlns:si="http://www.springframework.org/schema/integration"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://jax-ws.dev.java.net/spring/core http://jax-ws.dev.java.net/spring/core.xsd
+       http://jax-ws.dev.java.net/spring/servlet http://jax-ws.dev.java.net/spring/servlet.xsd
+       http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration-1.0.xsd"
+       >
+       
+  <bean class="ch.i4ds.helio.ApplicationContextProvider" />
+  
+  <wss:binding url="/services/hec">
+  	<wss:service>
+			<ws:service bean="#HEC" />
+		</wss:service>
+	</wss:binding>
+  <bean id="HEC" class="ch.i4ds.helio.dpas.HEC" />
+  
+  <bean id="TavernaExecutor" class="ch.i4ds.helio.core.TavernaExecutor" />
+  
+  
+  <!-- 
+  	frontend-facing facade
+ 	-->
+  <wss:binding url="/services/frontend">
+  	<wss:service>
+			<ws:service bean="#FrontendFacade" />
+		</wss:service>
+	</wss:binding>
+  <bean id="FrontendFacade" class="ch.i4ds.helio.core.FrontendFacade">
+  	<property name="taverna" ref="TavernaExecutor" />
+  	<property name="queryService" ref="QueryService" />
+  	<property name="remapWebservice">
+  		<map>
+  			<entry key="helio.i4ds.technik.fhnw.ch" value="http://helio.i4ds.technik.fhnw.ch:8080/core/services/" />
+  			<entry key="CN025" value="http://127.0.0.1:8080/core/services/" />
+  		</map>
+  	</property>
+  </bean>
+  
+  
+  <!--
+  	hard-coded workflows
+  -->
+  <wss:binding url="/services/workflows">
+  	<wss:service>
+			<ws:service bean="#Workflows" />
+		</wss:service>
+	</wss:binding>
+  <bean id="Workflows" class="ch.i4ds.helio.workflows.Workflows">
+  	<!--<property name="queryService" ref="QueryService" />-->
+  </bean>
+  
+  
+  <!-- 
+  	test-interface for simon's design idea
+ 	-->
+  <wss:binding url="/services/dbo">
+  	<wss:service>
+			<ws:service bean="#DBObjectInterface" />
+		</wss:service>
+	</wss:binding>
+  <bean id="DBObjectInterface" class="ch.i4ds.helio.core.DBObjectInterface">
+  	<property name="queryService" ref="QueryService" />
+  </bean>
+  
+  
+  <!--
+  	list of all data providers
+ 	-->
+  <bean id="DPAS-Hessi" class="ch.i4ds.helio.dpas.sources.Hessi" />
+  <bean id="DPAS-Phoenix2" class="ch.i4ds.helio.dpas.sources.Phoenix2" />
+  <bean id="EC-Hessi" class="ch.i4ds.helio.dpas.sources.HessiEC" />
+  <bean id="SM-SEIT" class="ch.i4ds.helio.dpas.sources.SolarMonitorSEIT" />
+  
+  <!--
+  	query facade for all data providers
+  -->
+	<bean id="QueryService" class="ch.i4ds.helio.dpas.QueryService">
+  	<property name="dataProviders">
+  		<map>
+  			<entry key="hessi" value-ref="DPAS-Hessi" />
+  			<entry key="phoenix2" value-ref="DPAS-Phoenix2" />
+  			<entry key="hessi-ec" value-ref="EC-Hessi" />
+  			<entry key="sm-seit" value-ref="SM-SEIT" />
+  		</map>
+  	</property>
+  </bean>
+</beans>
