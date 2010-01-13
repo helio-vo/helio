@@ -3,7 +3,6 @@ package com.org.helio.common.util;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import javax.naming.Context;
-import javax.naming.InitialContext;
 import javax.naming.Name;
 import javax.naming.NamingException;
 import javax.naming.RefAddr;
@@ -21,6 +20,7 @@ public class BeanFactory implements ObjectFactory {
           RefAddr addr = (RefAddr) addrs.nextElement();
           String propertyName = addr.getType();
           String propertyValue = (String) addr.getContent();
+          //Checking 
           if (propertyName.equals("propertyValue")) {        	
         	  return propertyValue;
           }

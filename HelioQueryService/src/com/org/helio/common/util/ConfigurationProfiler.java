@@ -10,10 +10,6 @@ import java.util.Enumeration;
 import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
-
-import javax.naming.Context;
-import javax.naming.InitialContext;
-
 import org.apache.log4j.Logger;
 
 public class ConfigurationProfiler {
