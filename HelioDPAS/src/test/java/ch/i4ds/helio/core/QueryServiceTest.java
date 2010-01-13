@@ -6,11 +6,11 @@ import org.springframework.context.ApplicationContext;
 import ch.i4ds.helio.dpas.ResultItem;
 import junit.framework.TestCase;
 
-public class FrontendFacadeTest extends TestCase
+public class QueryServiceTest extends TestCase
 {
   private FrontendFacade ff;
   
-  public FrontendFacadeTest()
+  public QueryServiceTest()
   {
     ApplicationContext ac=new FileSystemXmlApplicationContext("src/webapp/WEB-INF/applicationContext.xml");
     ff=(FrontendFacade)ac.getBean("FrontendFacade");
