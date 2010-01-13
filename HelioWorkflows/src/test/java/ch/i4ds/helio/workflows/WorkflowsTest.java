@@ -1,4 +1,4 @@
-package ch.i4ds.helio.core;
+package ch.i4ds.helio.workflows;
 
 import org.apache.xbean.spring.context.FileSystemXmlApplicationContext;
 import org.springframework.context.ApplicationContext;
