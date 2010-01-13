@@ -289,6 +289,18 @@
 			<layout>legacy</layout>
 		</repository>
 		
+    <repository>
+      <releases>
+        <updatePolicy>daily</updatePolicy>
+      </releases>
+      <snapshots>
+        <updatePolicy>daily</updatePolicy>
+      </snapshots>
+      <id>devjavanet</id>
+      <name>java net</name>
+      <url>http://download.java.net/maven/2</url>
+    </repository>
+    
 		<repository>
 			<releases>
 				<updatePolicy>daily</updatePolicy>
@@ -300,6 +312,8 @@
 			<name>helio-vo Repository</name>
 			<url>https://helio-vo.svn.sourceforge.net/svnroot/helio-vo/maven-repository/</url>
 		</repository>
+
+
 
 		<repository>
 			<id>spring-snapshot</id>
