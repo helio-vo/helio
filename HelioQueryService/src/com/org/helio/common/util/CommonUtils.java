@@ -43,7 +43,7 @@ public class CommonUtils {
 	  public static String getPropertyFilePath() throws NamingException{
 			InitialContext initCtx = new InitialContext();			
 			Context envCtx = (Context) initCtx.lookup("java:comp/env");
-			String  propertyBean = (String ) envCtx.lookup("property/contex");
+			String  propertyBean = (String ) envCtx.lookup("property/context");
 			return propertyBean;
 	  }	
 	
