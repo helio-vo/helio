@@ -2,6 +2,8 @@ package ch.i4ds.helio.workflows;
 
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.*;
+
 import javax.jws.*;
 import javax.xml.bind.*;
 import ws.clients.FrontendServices.*;
@@ -16,7 +18,8 @@ import ws.clients.HEC.HECService;
 public class Workflows
 {
   /**
-   * Gets a list of files from HESSI over a specified time period.
+   * Gets a list of files from HESSI over a specified time period. This workflow is a Java
+   * conversion of the Taverna2 workflow created by Anja LeBlanc.
    * 
    * @param _dateFrom A string in the following format YYYY-MM-DD HH:MM:SS, specifying the beginning of the time period
    * @param _dateTo A string in the following format YYYY-MM-DD HH:MM:SS, specifying the end of the time period
@@ -33,76 +36,117 @@ public class Workflows
       @WebParam(name="goes_max") String _GOESmax,
       @WebParam(name="service_location") String _serviceLocation) throws java.lang.Exception
   {
-    /*
-     * This code is a 1:1 implementation of Anja LeBlanc's initial workflow. Check the Taverna
-     * workflow file to see a visual representation of this workflow.
-     * 
-     */
+    //prepare the query to get events from the goes event list (via HEC)
+    String goes="";
+    String sql_base="SELECT * FROM goes_xray_flare WHERE  time_start>='%start_date%' AND time_start<'%stop_date%' %goes% ORDER BY ntime_start;";
+
+    if(_GOESmin.length()>0)
+      goes+=" AND xray_class > '"+_GOESmin+"'";
     
-    //get events from the goes event list (via HEC)
-    String goes = new String("");
-    String sql_base = "SELECT * FROM goes_xray_flare WHERE  time_start>='%start_date%' AND time_start<'%stop_date%' %goes% ORDER BY ntime_start;";
-    String sql_string = sql_base.replace("%start_date%",_dateFrom);
-    sql_string = sql_string.replace("%stop_date%",_dateTo);
-    if(_GOESmin.length() > 0) {
-      goes = goes.concat(" AND xray_class > '"+_GOESmin+"'");
-    }
-    if (_GOESmax.length() > 0) {
-       goes = goes.concat(" AND xray_class < '"+_GOESmax+"'");
-    }
-    sql_string = sql_string.replace("%goes%",goes);
+    if (_GOESmax.length()>0)
+       goes+=" AND xray_class < '"+_GOESmax+"'";
+    
+    String sql_string=sql_base.replace("%start_date%",_dateFrom).replace("%stop_date%",_dateTo).replace("%goes%",goes);
+    
+    //query the HEC
     String sql_output=new HECService().getHECPort().sql(sql_string);
     
     //parse the results
-    List<String> startDates=new ArrayList<String>();
-    List<String> endDates=new ArrayList<String>();
+    final List<String> startDates=new ArrayList<String>();
+    final List<String> endDates=new ArrayList<String>();
     List<Integer> positions=new ArrayList<Integer>();
     InitialWorkflowHelpers.getAllEventDates(sql_output,startDates,endDates,positions);
     
-    List<String> startDate=new ArrayList<String>();
-    List<String> endDate=new ArrayList<String>();
+    final List<String> startDate=new ArrayList<String>();
+    final List<String> endDate=new ArrayList<String>();
     InitialWorkflowHelpers.datesSM(sql_output,startDate,endDate);
     
     
-    //query the three available data sources
+    //prepare threaded execution
     List<String> query_v1_hessi_ec=new ArrayList<String>();
     List<String> query_v1_phoenix2=new ArrayList<String>();
     List<String> query_v1_solarmonitor=new ArrayList<String>();
     
-    FrontendFacade port=new FrontendFacadeService().getFrontendFacadePort();
-    ObjectFactory of=new ObjectFactory();
-    JAXBContext jc=JAXBContext.newInstance(QueryV1Response.class);
-    Marshaller m=jc.createMarshaller();
-    QueryV1Response res;
-    StringWriter sw;
+    Executor ex=Executors.newCachedThreadPool();  
+    CompletionService<String> ecs_hessi_ec=new ExecutorCompletionService<String>(ex);    
+    CompletionService<String> ecs_phoenix2=new ExecutorCompletionService<String>(ex);    
+    CompletionService<String> ecs_solarmonitor=new ExecutorCompletionService<String>(ex);    
+    
+    
+    /**
+     * Note that the web service invocation is a bit ugly. This is done in this way so we
+     * can get the XML-serialized resutlt of a web service invocation, because the workflow
+     * parses "un-deserialized" XML snippets. We therefore call the web service first as usual
+     * and then serialize the results again for the workflow. This is done multi-threaded as
+     * well and should scale very well (in theory - never tested).
+     */
+    
+    //query the data sources; hessi, phoenix II
     for(int i=0;i<startDates.size();i++)
     {
-      res=of.createQueryV1Response();
-      res.getReturn().addAll(port.queryV1("hessi-ec",startDates.get(i),endDates.get(i),0));
-      sw=new StringWriter();
-      m.marshal(res,sw);
-      query_v1_hessi_ec.add(sw.toString());
-      sw.close();
+      final int counter=i;
+      ecs_hessi_ec.submit(new Callable<String>(){
+        public String call() throws java.lang.Exception
+        {
+          FrontendFacade port=new FrontendFacadeService().getFrontendFacadePort();
+          JAXBContext jc=JAXBContext.newInstance(QueryV1Response.class);
+          Marshaller m=jc.createMarshaller();
+          QueryV1Response res=new ObjectFactory().createQueryV1Response();
+          res.getReturn().addAll(port.queryV1("hessi-ec",startDates.get(counter),endDates.get(counter),0));
+          StringWriter sw=new StringWriter();
+          m.marshal(res,sw);
+          String stringResult=sw.toString();
+          sw.close();
+          return stringResult;
+        }});
       
-      res=of.createQueryV1Response();
-      res.getReturn().addAll(port.queryV1("phoenix2",startDates.get(i),endDates.get(i),0));
-      sw=new StringWriter();
-      m.marshal(res,sw);
-      query_v1_phoenix2.add(sw.toString());
-      sw.close();
+      ecs_phoenix2.submit(new Callable<String>(){
+        public String call() throws java.lang.Exception
+        {
+          FrontendFacade port=new FrontendFacadeService().getFrontendFacadePort();
+          JAXBContext jc=JAXBContext.newInstance(QueryV1Response.class);
+          Marshaller m=jc.createMarshaller();
+          QueryV1Response res=new ObjectFactory().createQueryV1Response();
+          res.getReturn().addAll(port.queryV1("phoenix2",startDates.get(counter),endDates.get(counter),0));
+          StringWriter sw=new StringWriter();
+          m.marshal(res,sw);
+          String stringResult=sw.toString();
+          sw.close();
+          return stringResult;
+        }});
     }
     
+    //query solar monitor for quicklook data
     for(int i=0;i<startDate.size();i++)
     {
-      res=of.createQueryV1Response();
-      res.getReturn().addAll(port.queryV1("sm-seit",startDate.get(i),endDate.get(i),0));
-      sw=new StringWriter();
-      m.marshal(res,sw);
-      query_v1_solarmonitor.add(sw.toString());
-      sw.close();
+      final int counter=i;
+      ecs_solarmonitor.submit(new Callable<String>(){
+        public String call() throws java.lang.Exception
+        {
+          FrontendFacade port=new FrontendFacadeService().getFrontendFacadePort();
+          JAXBContext jc=JAXBContext.newInstance(QueryV1Response.class);
+          Marshaller m=jc.createMarshaller();
+          QueryV1Response res=new ObjectFactory().createQueryV1Response();
+          res.getReturn().addAll(port.queryV1("sm-seit",startDate.get(counter),endDate.get(counter),0));
+          StringWriter sw=new StringWriter();
+          m.marshal(res,sw);
+          String stringResult=sw.toString();
+          sw.close();
+          return stringResult;
+        }});
     }
     
-    //call the combineData beanshell script
+    //collect the results from the asynchronous queries
+    for(int i=0;i<startDates.size();i++)
+    {
+      query_v1_hessi_ec.add(ecs_hessi_ec.take().get());
+      query_v1_phoenix2.add(ecs_phoenix2.take().get());
+    }
+    for(int i=0;i<startDate.size();i++)
+      query_v1_solarmonitor.add(ecs_solarmonitor.take().get());
+    
+    
+    //call the combineData beanshell script and return the result
     return InitialWorkflowHelpers.combineData(query_v1_hessi_ec,query_v1_phoenix2,positions,query_v1_solarmonitor,sql_output);
   }
 }

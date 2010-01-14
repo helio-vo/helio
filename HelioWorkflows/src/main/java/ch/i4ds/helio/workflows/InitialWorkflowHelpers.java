@@ -10,10 +10,10 @@ import java.text.SimpleDateFormat;
 import java.io.StringWriter;
 
 /**
- * Beanshell scripts from Anja LeBlanc's initial workflow. This code was mostly copied 1:1
- * from the Taverna version of the initial workflow. 
+ * Beanshell scripts from Anja LeBlanc's initial workflow. This code was (mostly) copied 1:1
+ * from the Taverna version of the initial workflow.
  * 
- * @author Simon Felix (de@iru.ch)
+ * @author Anja LeBlanc, conversion by Simon Felix (de@iru.ch)
  */
 public class InitialWorkflowHelpers
 {
