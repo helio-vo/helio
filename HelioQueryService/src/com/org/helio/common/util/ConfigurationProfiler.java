@@ -21,7 +21,7 @@ public class ConfigurationProfiler {
 	private ConfigurationProfiler()
 	{
 		try
-		{							
+		{							 
 			if(sProfileFilePath==null || sProfileFilePath.equals("")){			
 				sProfileFilePath=CommonUtils.getPropertyFilePath();
 				logger.info("  : Property File Path  : "+sProfileFilePath);
