@@ -19,7 +19,7 @@ import com.org.helio.common.dao.exception.DetailsNotFoundException;
 import com.org.helio.common.dao.interfaces.CommonDao;
 import com.org.helio.common.dao.interfaces.ShortNameQueryDao;
 import com.org.helio.common.transfer.CommonResultTO;
-import com.org.helio.common.transfer.CommonTO;
+import com.org.helio.common.transfer.CommonTO; 
 import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
 import com.org.helio.common.util.ConfigurationProfiler;
 import com.org.helio.common.util.VOTableMaker;
@@ -41,12 +41,18 @@ public class CommonDaoImpl implements CommonDao {
 		 params.put("kwlistname", comCriteriaTO.getListName());
 		 //Query with time
 		 String query=ConfigurationProfiler.getInstance().getProperty("sql.query");
-		 //Query with and clause.
-		 String queryContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.constraint");
-		 //Appending query with query constraint.
-		 if(queryContraint!=null && !queryContraint.equals("")){
-			 query=query+" "+queryContraint;
-		 }
+		 //Appending Instrument clause.
+		 String queryInstContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.instr.constraint");
+		 if(queryInstContraint!=null && !queryInstContraint.equals(""))
+			 query=query+" "+queryInstContraint; 
+		 //Appending ListName clause.
+		 String queryListNameContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.listname.constraint");
+		 if(queryListNameContraint!=null && !queryListNameContraint.equals(""))
+			 query=query+" "+queryListNameContraint; 
+		 //Appending Order By clause.
+		 String queryOrderByContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.orderby.constraint");
+		 if(queryOrderByContraint!=null && !queryOrderByContraint.equals(""))
+			 query=query+" "+queryOrderByContraint;
 		 logger.info(" : Query String FROM PROPERTY FILE : "+query);		
 		 ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
 		 CommonResultTO result=shortNameDao.getSNQueryResult(query,params);
