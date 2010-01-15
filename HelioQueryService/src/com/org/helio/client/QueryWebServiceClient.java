@@ -28,13 +28,13 @@ public class QueryWebServiceClient {
 		doc = registryBuilder.newDocument();
 		//change this to helio:TimeSearch
 		//the getSoapBodyNamespaceURI() you can hard code it should be the same namespace you used to register in the SoapServlet.
-		Element root = doc.createElementNS("http://helio.org/xml/QueryService/v1.0", "helio:Query");			
+		Element root = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1", "helio:Query");			
 		//This configuration for TIME.		  	
-		Element xqueryElemTime = doc.createElementNS("http://helio.org/xml/QueryService/v1.0","helio:TIME");			
+		Element xqueryElemTime = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:TIME");			
 		//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
 		xqueryElemTime.appendChild(doc.createTextNode("1990-10-20T20:30:56/2009-10-20T20:30:56"));	
 		//This configuration for INSTRUMENT.
-		Element xqueryElemIntrument = doc.createElementNS("http://helio.org/xml/QueryService/v1.0","helio:INSTRUMENT");			
+		Element xqueryElemIntrument = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:INSTRUMENT");			
 		//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
 		xqueryElemIntrument.appendChild(doc.createTextNode("HXT"));
 		//ok put all these into Document.
@@ -66,7 +66,7 @@ public class QueryWebServiceClient {
 	           //I believe it should not be that important but if my memory serves me correct
 	           //Axis seemed to throw a NullPointerException if these two methods were not set.
 	           sbeRequest.setName(name);
-	           sbeRequest.setNamespaceURI("http://helio.org/xml/QueryService/v1.0");	           
+	           sbeRequest.setNamespaceURI("http://helio-vo.eu/xml/QueryService/v0.1");	           
 	           //call the web service, on axis-message style it
 	           //comes back as a vector of soabodyelements.
 	           result = (Vector)call.invoke(new Object[] { sbeRequest });
