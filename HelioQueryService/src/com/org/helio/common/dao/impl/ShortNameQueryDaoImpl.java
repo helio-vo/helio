@@ -95,7 +95,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 					Object[] X = new Object[colCount+countColumndata];
 					//code for setting access url.
 					if(sAccessUrl!=null && !sAccessUrl.equals(""))
-					X[count]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
+						X[count]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
 					//code for getting database data.
 					for (int g = 0; g < colCount; g++) {
 						//logger.info(" : Access URL value : "+X[0]);
@@ -109,7 +109,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 					}
 					// code for setting format
 					if(sFormat!=null && !sFormat.equals(""))
-					X[X.length-1]=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
+						X[X.length-1]=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
 					arr.add(X);
 				 }while(rs.next()&& i<noOfRecords); 				
 				result.setResult(arr.toArray()); 
