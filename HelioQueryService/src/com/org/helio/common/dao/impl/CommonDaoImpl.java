@@ -69,7 +69,7 @@ public class CommonDaoImpl implements CommonDao {
 			 inArray = (Object[])objArr[i];
 			 	for(int j=0;j<inArray.length;j++)
 				 {
-					 logger.info(inArray[j]+" inArray.length " +inArray.length +"  voTableMarker.getValues() "+voTableMarker.getValues().length);
+					 //logger.info(inArray[j]+" inArray.length " +inArray.length +"  voTableMarker.getValues() "+voTableMarker.getValues().length);
 					 voTableMarker.getValues()[j]=inArray[j];					 
 				 }
 			 	voTableMarker.addRow();
