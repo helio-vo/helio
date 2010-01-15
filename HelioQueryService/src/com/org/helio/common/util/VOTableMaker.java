@@ -24,8 +24,7 @@ public class VOTableMaker {
    	
    }
     public void addRow() {
-    	helioRowList.addRow( values );
-    	System.out.println(" ++++++++++++++ numCols +++++++++++++++"+ numCols);
+    	helioRowList.addRow( values );    	
         values = new Object[numCols];
     }
     
