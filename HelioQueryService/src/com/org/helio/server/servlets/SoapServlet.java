@@ -24,7 +24,7 @@ public void init() throws ServletException
     factory.setStyle("message");
     
     //now create the linkup with the SoapDispather to the namespace and endpoint being "HelioService"
-    Service queryServicev1_0 = factory.create(SoapDispatcher.class,"HelioService","http://helio.org/xml/QueryService/v1.0",null);
+    Service queryServicev1_0 = factory.create(SoapDispatcher.class,"HelioService","http://helio-vo.eu/xml/QueryService/v0.1",null);
     
     //we register the service with the controller that handles soap requests
     getController().getServiceRegistry().register(queryServicev1_0);
