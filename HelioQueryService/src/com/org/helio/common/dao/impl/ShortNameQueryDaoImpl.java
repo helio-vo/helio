@@ -51,6 +51,10 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		try 
 		{
 			String sRepSql = CommonUtils.replaceParams(sSql, hmArgs);
+			// Getting Access URL
+			String sAccessUrl=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
+			//Getting Format
+			String sFormat=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
 			logger.info(" : Query String After Replacing Value :"+sRepSql);	
 			con = ConnectionManager.getConnection();
 			st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
@@ -80,9 +84,17 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 				do {
 					i++;
 					int count=0;
-					//Added '2' for acces url & format.
-					Object[] X = new Object[colCount+2];
+					int countColumndata=0;
+					//Checking AccessUrl defined.
+					if(sAccessUrl!=null && !sAccessUrl.equals(""))
+						countColumndata=countColumndata+1;
+					//Checking Format defined.
+					if(sFormat!=null && !sFormat.equals(""))
+						countColumndata=countColumndata+1;
+					//Added actual count and extra count .
+					Object[] X = new Object[colCount+countColumndata];
 					//code for setting access url.
+					if(sAccessUrl!=null && !sAccessUrl.equals(""))
 					X[count]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
 					//code for getting database data.
 					for (int g = 0; g < colCount; g++) {
@@ -96,6 +108,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 						count++;
 					}
 					// code for setting format
+					if(sFormat!=null && !sFormat.equals(""))
 					X[X.length-1]=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
 					arr.add(X);
 				 }while(rs.next()&& i<noOfRecords); 				
