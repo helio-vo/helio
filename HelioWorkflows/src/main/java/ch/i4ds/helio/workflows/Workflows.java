@@ -33,8 +33,8 @@ public class Workflows
       @WebParam(name="date_from") String _dateFrom,
       @WebParam(name="date_to") String _dateTo,
       @WebParam(name="goes_min") String _GOESmin,
-      @WebParam(name="goes_max") String _GOESmax,
-      @WebParam(name="service_location") String _serviceLocation) throws java.lang.Exception
+      @WebParam(name="goes_max") String _GOESmax/*,
+      @WebParam(name="service_location") String _serviceLocation*/) throws java.lang.Exception
   {
     //prepare the query to get events from the goes event list (via HEC)
     String goes="";
