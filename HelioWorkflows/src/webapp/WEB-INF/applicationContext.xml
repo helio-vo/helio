@@ -15,7 +15,7 @@
   <!--
   	hard-coded workflows
   -->
-  <wss:binding url="/services/workflows">
+  <wss:binding url="/WorkflowsService">
   	<wss:service>
 			<ws:service bean="#Workflows" />
 		</wss:service>
