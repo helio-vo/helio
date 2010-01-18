@@ -89,7 +89,7 @@
 		<commons.io.version>1.3</commons.io.version>
 		<commons.cli.version>1.0</commons.cli.version>
 		<jdom.version>1.0</jdom.version>
-		<glassfish.home>C:\Program Files (x86)\GlassFish-Tools-Bundle-For-Eclipse-1.2\glassfishv3</glassfish.home>
+		<glassfish.home>C:\GlassFish-Tools-Bundle-For-Eclipse-1.2\glassfishv3</glassfish.home>
 		<glassfish.domain.user>admin</glassfish.domain.user>
 		<glassfish.domain.password>adminadmin</glassfish.domain.password>
 	</properties>
