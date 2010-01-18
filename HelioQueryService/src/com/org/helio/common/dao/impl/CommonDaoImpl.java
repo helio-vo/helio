@@ -83,6 +83,7 @@ public class CommonDaoImpl implements CommonDao {
 	
 		}catch(Exception pe) {
         	pe.printStackTrace();
+        	logger.fatal("   : Exception in CommonDaoImpl:generateVOTableDetails : ", pe);
         	try {
 				output.write(pe.getMessage());
 			} catch (IOException e) {
@@ -95,6 +96,7 @@ public class CommonDaoImpl implements CommonDao {
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					logger.fatal("   : Exception in CommonDaoImpl:generateVOTableDetails : ", e);
 				}
 			}
         	return;
