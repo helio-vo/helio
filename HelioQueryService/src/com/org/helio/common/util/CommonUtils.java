@@ -49,7 +49,7 @@ public class CommonUtils {
 	
 	public static String getColumnNamesForQuery(){
 		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames").split("::");
-		StringBuffer result = new StringBuffer();
+		StringBuffer result = new StringBuffer(); 
 	    if (columnNames.length > 0) {
 	        result.append(columnNames[0]);
 	        for (int i=1; i<columnNames.length; i++) {
