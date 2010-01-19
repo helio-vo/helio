@@ -40,11 +40,23 @@ public class CommonUtils {
 		return sTextQuery.toString();
 	}
 	
-	  public static String getPropertyFilePath() throws NamingException{
+	public static String getPropertyFilePath() throws NamingException{
 			InitialContext initCtx = new InitialContext();			
 			Context envCtx = (Context) initCtx.lookup("java:comp/env");
 			String  propertyBean = (String ) envCtx.lookup("property/context");
 			return propertyBean;
-	  }	
+	 }	
+	
+	public static String getColumnNamesForQuery(){
+		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames").split("::");
+		StringBuffer result = new StringBuffer();
+	    if (columnNames.length > 0) {
+	        result.append(columnNames[0]);
+	        for (int i=1; i<columnNames.length; i++) {
+	            result.append(columnNames[i]);
+	        }
+	    }
+	    return result.toString();
+	}
 	
 }
