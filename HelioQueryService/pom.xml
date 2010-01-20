@@ -5,13 +5,14 @@
   <groupId>ch.i4ds.helio</groupId>
   <artifactId>helio-query</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <packaging>pom</packaging>  
+   <packaging>jar</packaging>  
   <name>helio-query-service</name>
   <description>Helio Query Service</description>
+  <!-- 
    <modules>
-      <module>server</module>
-      <module>webapp</module>
-   </modules>   
+      <module>WebContent</module>
+   </modules>
+    -->   
   <build>
     <sourceDirectory>src</sourceDirectory>
 
@@ -271,9 +272,9 @@
 </dependency>
 
 <dependency>
-  <groupId>stax-api</groupId>
+  <groupId>javax.xml.stream</groupId>
   <artifactId>stax-api</artifactId>
-<version>1.0</version>
+  <version>1.0-2</version>
 </dependency>
 
 <dependency>
@@ -331,21 +332,21 @@
 </dependency>
 
 <dependency>
-  <groupId>xfire-all</groupId>
+  <groupId>org.codehaus.xfire</groupId>
   <artifactId>xfire-all</artifactId>
-  <version>1.2</version>
+  <version>1.2.6</version>
 </dependency>
 
 <dependency>
-  <groupId>xfire-annotations</groupId>
+  <groupId>org.codehaus.xfire</groupId>
   <artifactId>xfire-annotations</artifactId>
-  <version>1.2</version>
+  <version>1.2.6</version>
 </dependency>
 
 <dependency>
-  <groupId>xfire-core</groupId>
+  <groupId>org.codehaus.xfire</groupId>
   <artifactId>xfire-core</artifactId>
-  <version>1.2</version>
+  <version>1.2.6</version>
 </dependency>
 
 <dependency>
