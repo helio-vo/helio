@@ -67,32 +67,7 @@ public class CommonDaoImpl implements CommonDao {
 		 ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
 		 shortNameDao.getSNQueryResult(comCriteriaTO);
 		  
-		/* HashMap<String,CommonTO> hmbColumnList=result.getColumnNameList();		
-		 //Create VOTABLE 
-		 comCriteriaTO.setHmbColumnList(hmbColumnList);
-		 VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
-		 voTableMarker.writeBeginVOTable(output,ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc"),comCriteriaTO.getStatus());
-		 //Getting result set values.
-		 Object[] objArr = result.getResult();
-		 if(objArr!=null){ 	
-			for(int i=0;i<objArr.length;i++)
-			{
-			 inArray = (Object[])objArr[i];
-			 	for(int j=0;j<inArray.length;j++)
-				 {
-					 //logger.info(inArray[j]+" inArray.length " +inArray.length +"  voTableMarker.getValues() "+voTableMarker.getValues().length);
-					 voTableMarker.getValues()[j]=inArray[j];					 
-				 }
-			 	voTableMarker.addRow();
-			}
-		 }
-		if(voTableMarker.getRowCount() > 0) {
-			 voTableMarker.writeTable(output);
-     	} 
-		//Writing end of VOTable.
-		voTableMarker.writeEndVOTable(output,comCriteriaTO.getStatus());		 
-		*/
-		 
+				 
 		}catch(Exception pe) {
         	pe.printStackTrace();
         	logger.fatal("   : Exception in CommonDaoImpl:generateVOTableDetails : ", pe);
