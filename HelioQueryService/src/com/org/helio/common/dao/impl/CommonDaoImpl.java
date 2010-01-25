@@ -39,24 +39,35 @@ public class CommonDaoImpl implements CommonDao {
 		 params.put("kwenddate", comCriteriaTO.getEndDateTime());
 		 params.put("kwinstrument", comCriteriaTO.getInstruments());
 		 params.put("kwlistname", comCriteriaTO.getListName());
+		 
+		 comCriteriaTO.setParamData(params);
+		 
 		 //Query with time
 		 String query=ConfigurationProfiler.getInstance().getProperty("sql.query");
+		 
 		 //Appending Instrument clause.
 		 String queryInstContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.instr.constraint");
 		 if(queryInstContraint!=null && !queryInstContraint.equals(""))
 			 query=query+" "+queryInstContraint; 
+		 
 		 //Appending ListName clause.
 		 String queryListNameContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.listname.constraint");
 		 if(queryListNameContraint!=null && !queryListNameContraint.equals(""))
 			 query=query+" "+queryListNameContraint; 
+		 
 		 //Appending Order By clause.
 		 String queryOrderByContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.orderby.constraint");
 		 if(queryOrderByContraint!=null && !queryOrderByContraint.equals(""))
 			 query=query+" "+queryOrderByContraint;
-		 logger.info(" : Query String FROM PROPERTY FILE : "+query);		
+		 
+		 logger.info(" : Query String FROM PROPERTY FILE : "+query);
+		 
+		 comCriteriaTO.setQuery(query);
+		 
 		 ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
-		 CommonResultTO result=shortNameDao.getSNQueryResult(query,params);
-		 HashMap<String,CommonTO> hmbColumnList=result.getColumnNameList();		
+		 shortNameDao.getSNQueryResult(comCriteriaTO);
+		  
+		/* HashMap<String,CommonTO> hmbColumnList=result.getColumnNameList();		
 		 //Create VOTABLE 
 		 comCriteriaTO.setHmbColumnList(hmbColumnList);
 		 VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
@@ -80,7 +91,8 @@ public class CommonDaoImpl implements CommonDao {
      	} 
 		//Writing end of VOTable.
 		voTableMarker.writeEndVOTable(output,comCriteriaTO.getStatus());		 
-	
+		*/
+		 
 		}catch(Exception pe) {
         	pe.printStackTrace();
         	logger.fatal("   : Exception in CommonDaoImpl:generateVOTableDetails : ", pe);
@@ -104,22 +116,6 @@ public class CommonDaoImpl implements CommonDao {
 		
 	}
 
-	private  VOTableMaker createVOTableMaker(CommonCriteriaTO comCriteriaTO) {
-		HashMap<String,CommonTO> hmbColumnList=comCriteriaTO.getHmbColumnList();
-		 logger.info(ConfigurationProfiler.getInstance().getProperty("sql.columnnames"));
-		 String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames").split("::");
-		 logger.info(" : Column Name String  : "+columnNames);
-		 String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc").split("::");
-		 logger.info(" : Column Desc String  : "+columnDesc);
-		 String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd").split("::");
-		 logger.info(" : Column UCD String  : "+columnUcd); 
-		ColumnInfo [] defValues = new ColumnInfo[columnNames.length];
-		for(int inColCount=0;inColCount<columnNames.length;inColCount++){			
-			//CommonTO commonTO=hmbColumnList.get(columnNames[inColCount]);				
-			defValues[inColCount] = new ColumnInfo(columnNames[inColCount],String.class,columnDesc[inColCount]);			
-	        defValues[inColCount].setUCD(columnUcd[inColCount]);
-		}
-		return new VOTableMaker(defValues);
-	}
+	
 	
 }
