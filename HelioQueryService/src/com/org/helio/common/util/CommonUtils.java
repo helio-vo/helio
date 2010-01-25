@@ -29,7 +29,7 @@ public class CommonUtils {
 				int argEndIndex = sTextQuery.indexOf(ARGSUFFIX);
 				String argKey = sTextQuery.substring(argBeginIndex + ARGPREFIX.length(), argEndIndex);
 				String argValue = (String) hmArgs.get(argKey);
-				if (argValue == null) {
+				if (argValue == null || argValue.equals("")) {
 					//sTextQuery = sTextQuery.delete(argBeginIndex, argEndIndex + sTextQuery.length());
 					sTextQuery = sTextQuery.replace(argBeginIndex, argEndIndex + ARGSUFFIX.length(), "");
 				} else {
