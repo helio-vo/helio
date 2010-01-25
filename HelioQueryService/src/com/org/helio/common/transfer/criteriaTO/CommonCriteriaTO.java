@@ -27,14 +27,29 @@ public class CommonCriteriaTO implements Serializable{
 	private String status;
 	private String instruments;
 	private String listName;
-	
+	private String query;
+	HashMap<String,String> paramData;
 	
 	public CommonCriteriaTO(){
 		this.setIPageNumber(0);
 		this.setIRowsPerPage(10);
 	}
 	
-		
+	public String getQuery() {
+		return query;
+	}
+
+	public void setQuery(String query) {
+		this.query = query;
+	}
+	public HashMap<String, String> getParamData() {
+		return paramData;
+	}
+	
+	public void setParamData(HashMap<String, String> paramData) {
+		this.paramData = paramData;
+	}
+
 	public String getInstruments() {
 		return instruments;
 	}
