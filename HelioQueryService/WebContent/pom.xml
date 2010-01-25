@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>  
     <groupId>ch.i4ds.helio</groupId>
@@ -9,7 +9,7 @@
   <name>helio-query-webapp</name>
   <parent>
   	<groupId>ch.i4ds.helio</groupId>
-	<artifactId>helio-ics</artifactId>    
+	<artifactId>helio-query</artifactId>    
     <version>0.0.1-SNAPSHOT</version>
   </parent>  
   <description>Helio Query</description>
@@ -18,7 +18,7 @@
 <!--      <testSourceDirectory>src/junit</testSourceDirectory> -->
     <resources>
       <resource>
-        <directory>${basedir}/src</directory>
+        <directory>${basedir}/WEB-INF</directory>
         <includes>
           <include>*.xml</include>
           <include>*.properties</include>
@@ -45,7 +45,7 @@
   
 <dependency>
     <groupId>ch.i4ds.helio</groupId>
-  <artifactId>helio-ics-server</artifactId>
+  <artifactId>helio-query-src</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 </dependency>
 
