@@ -14,11 +14,20 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.log4j.Logger;
+
+import uk.ac.starlink.table.ColumnInfo;
+
+import com.org.helio.common.transfer.CommonTO;
+import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
+
 
 public class CommonUtils {
 	private static final String ARGSUFFIX = ":]";
 
 	private static final String ARGPREFIX = "[:";
+	
+	protected final  Logger logger = Logger.getLogger(this.getClass());
 	
 	public static String replaceParams(String sText , HashMap<String,String> hmArgs)
 	{
