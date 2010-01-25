@@ -25,5 +25,9 @@
         <servlet-name>XFireServlet</servlet-name>
         <url-pattern>/services/*</url-pattern>
     </servlet-mapping>    
- 
+  <env-entry>
+   <env-entry-name>property/context</env-entry-name>
+   <env-entry-type>java.lang.String</env-entry-type>
+   <env-entry-value>/Users/vineethtshetty/HELIO/sec-hessi.txt</env-entry-value>
+  </env-entry>
 </web-app>
