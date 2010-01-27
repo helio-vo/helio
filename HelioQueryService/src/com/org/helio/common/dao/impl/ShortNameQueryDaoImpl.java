@@ -228,20 +228,23 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	 */
 	@SuppressWarnings("unused")
 	private  VOTableMaker createVOTableMaker(CommonCriteriaTO comCriteriaTO) {
+		
 		HashMap<String,CommonTO> hmbColumnList=comCriteriaTO.getHmbColumnList();
-		 logger.info(ConfigurationProfiler.getInstance().getProperty("sql.columnnames"));
-		 String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames").split("::");
-		 logger.info(" : Column Name String  : "+columnNames);
-		 String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc").split("::");
-		 logger.info(" : Column Desc String  : "+columnDesc);
-		 String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd").split("::");
-		 logger.info(" : Column UCD String  : "+columnUcd); 
+		logger.info(ConfigurationProfiler.getInstance().getProperty("sql.columnnames"));
+		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames").split("::");
+		logger.info(" : Column Name String  : "+columnNames);
+		String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc").split("::");
+		logger.info(" : Column Desc String  : "+columnDesc);
+		String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd").split("::");
+		logger.info(" : Column UCD String  : "+columnUcd); 
+		 
 		ColumnInfo [] defValues = new ColumnInfo[columnNames.length];
 		for(int inColCount=0;inColCount<columnNames.length;inColCount++){			
 			//CommonTO commonTO=hmbColumnList.get(columnNames[inColCount]);				
 			defValues[inColCount] = new ColumnInfo(columnNames[inColCount],String.class,columnDesc[inColCount]);			
 	        defValues[inColCount].setUCD(columnUcd[inColCount]);
-		}
+	      }
+		
 		return new VOTableMaker(defValues);
 	}
 	
