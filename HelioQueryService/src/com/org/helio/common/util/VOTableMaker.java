@@ -17,12 +17,13 @@ public class VOTableMaker {
     public VOTableMaker(){
     	
     }
+    
     public VOTableMaker(ColumnInfo[] Cols) {
         helioRowList = new RowListStarTable( Cols );
         numCols = Cols.length;
-        values = new Object[numCols];
-   	
-   }
+        values = new Object[numCols];   	
+    }
+    
     public void addRow() {
     	helioRowList.addRow( values );    	
         values = new Object[numCols];
@@ -66,19 +67,21 @@ public class VOTableMaker {
         } 
        out.close();
     }
+    
 	public Object[] getValues() {
 		return values;
 	}
+	
 	public void setValues(Object[] values) {
 		this.values = values;
 	}
+	
 	public int getNumCols() {
 		return numCols;
 	}
+	
 	public void setNumCols(int numCols) {
 		this.numCols = numCols;
 	}
-    
-    
-    
+   
 }
