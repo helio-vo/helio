@@ -33,7 +33,8 @@ public class CommonDaoImpl implements CommonDao {
 	public void generateVOTableDetails(CommonCriteriaTO comCriteriaTO) throws DetailsNotFoundException {
 		Object[] inArray = null;	
 		BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
-		try{			
+		try{
+			
 		 HashMap<String,String> params  = new HashMap<String,String>();
 		 params.put("kwstartdate", comCriteriaTO.getStartDateTime());
 		 params.put("kwenddate", comCriteriaTO.getEndDateTime());
@@ -66,8 +67,7 @@ public class CommonDaoImpl implements CommonDao {
 		 
 		 ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
 		 shortNameDao.getSNQueryResult(comCriteriaTO);
-		  
-				 
+		  				 
 		}catch(Exception pe) {
         	pe.printStackTrace();
         	logger.fatal("   : Exception in CommonDaoImpl:generateVOTableDetails : ", pe);

@@ -63,6 +63,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			String[] colNames=getColumnNamesAndType(rms,colCount);
 			rs.last();
 			int cnt = rs.getRow();			
+			
 			//Creating VOTable
 			VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
 			voTableMarker.writeBeginVOTable(output,ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc"),comCriteriaTO.getStatus());
@@ -78,6 +79,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			{
 				rs.absolute(startRow + 1);
 				do {
+					
 					i++;
 					int count=0;
 					//code for setting access url.
@@ -89,6 +91,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 						if(voTableMarker.getValues()[0]!=null && !voTableMarker.getValues()[0].equals("") && g==0){
 							count=count+1;
 						}
+						
 						voTableMarker.getValues()[count] = rs.getString(colNames[g]);
 						count++;
 					}
@@ -96,6 +99,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 					if(sFormat!=null && !sFormat.equals(""))
 					voTableMarker.getValues()[voTableMarker.getValues().length-1]=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
 					voTableMarker.addRow();
+					
 				 }while(rs.next()&& i<noOfRecords); 	
 				
 				if(voTableMarker.getRowCount() > 0) {
