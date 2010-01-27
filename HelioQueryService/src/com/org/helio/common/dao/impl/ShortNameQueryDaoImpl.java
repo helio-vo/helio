@@ -131,7 +131,8 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			}
 		} catch (Exception e) {			
 			throw new ShortNameQueryException("EXCEPTION ", e);
-		} 
+		}
+		
 		finally
 		{
 			try {
