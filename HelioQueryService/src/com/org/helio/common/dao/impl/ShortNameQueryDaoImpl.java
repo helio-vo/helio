@@ -3,18 +3,16 @@ package com.org.helio.common.dao.impl;
 
 import java.io.BufferedWriter;
 import java.sql.Connection;
+import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import org.apache.log4j.Logger;
 import uk.ac.starlink.table.ColumnInfo;
 import com.org.helio.common.dao.exception.ShortNameQueryException;
 import com.org.helio.common.dao.interfaces.ShortNameQueryDao;
-import com.org.helio.common.transfer.CommonResultTO;
 import com.org.helio.common.transfer.CommonTO;
 import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
 import com.org.helio.common.util.CommonUtils;
@@ -163,6 +161,9 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	}
 
 
+	/*
+	 * Get the list of Column Names;Column Type in a Table.
+	 */
 	@SuppressWarnings("unused")
 	private  HashMap<String,CommonTO> getColumnNamesAndType(ResultSetMetaData rsMetaData) throws Exception {
 	    if (rsMetaData == null) {
@@ -186,7 +187,10 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	    return hmbColumnList;
 	  }
 	
-	
+
+	/*
+	 * Get the list of Column Names in a Table.
+	 */
 	@SuppressWarnings("unused")
 	private String[] getColumnNamesAndType(ResultSetMetaData rsMetaData,int colCount) throws Exception {
 	    if (rsMetaData == null) {
@@ -202,6 +206,27 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	    return colNames;
 	  }
 	
+	/*
+	 * Get the list of Tables in a Database.
+	 */
+	@SuppressWarnings("unused")
+	private HashMap<String,String> getDatabaseTableNames(Connection con) throws Exception 
+	{
+		HashMap<String,String> hmbDatabaseTableList=new HashMap<String,String>();	  
+		DatabaseMetaData md = con.getMetaData();
+	    ResultSet rs = md.getTables(null, null, "%", null);
+	    while (rs.next()) {
+	      // System.out.println(rs.getString(3));
+	      hmbDatabaseTableList.put(rs.getString(3), rs.getString(3));
+	    }
+	    
+	    return hmbDatabaseTableList;
+	}
+	
+	/*
+	 * It creates the VOTable.
+	 */
+	@SuppressWarnings("unused")
 	private  VOTableMaker createVOTableMaker(CommonCriteriaTO comCriteriaTO) {
 		HashMap<String,CommonTO> hmbColumnList=comCriteriaTO.getHmbColumnList();
 		 logger.info(ConfigurationProfiler.getInstance().getProperty("sql.columnnames"));
