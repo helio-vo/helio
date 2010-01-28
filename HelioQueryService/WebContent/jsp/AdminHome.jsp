@@ -41,7 +41,7 @@ cellspacing="0">
           Admin Page To Create Property File
          </td>
          </tr>
-         <tr class="txtblackBP" >
+         <tr class="txtblackBP" > 
            <td>
               <ul>
                   <li><a href="javascript:doSub('getCreatePropertyFilePage.action')"> Create Property File </a></li>		             
