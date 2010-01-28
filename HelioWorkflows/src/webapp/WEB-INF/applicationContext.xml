@@ -11,7 +11,27 @@
        >
        
   <bean class="ch.i4ds.helio.ApplicationContextProvider" />
-  
+  	
+  <bean id="ServiceLocator" class="ch.i4ds.helio.ServiceLocator">
+    <property name="serviceSets">
+      <map>
+        <entry key="fhnw">
+          <map>
+            <entry key="hec" value="http://helio.i4ds.technik.fhnw.ch:8080/core/services/hec?wsdl" />
+            <entry key="frontend" value="http://helio.i4ds.technik.fhnw.ch:8080/core/services/frontend?wsdl" />
+          </map>
+        </entry>
+        <entry key="fhnw-dev">
+          <map>
+            <entry key="hec" value="http://helio-dev.i4ds.technik.fhnw.ch/core/services/hec?wsdl" />
+            <entry key="frontend" value="http://helio-dev.i4ds.technik.fhnw.ch/core/services/frontend?wsdl" />
+          </map>
+        </entry>
+      </map>
+    </property>
+    
+  </bean>
+  	
   <!--
   	hard-coded workflows
   -->
@@ -21,6 +41,9 @@
 		</wss:service>
 	</wss:binding>
   <bean id="Workflows" class="ch.i4ds.helio.workflows.Workflows">
-  	<!--<property name="queryService" ref="QueryService" />-->
+  	<property name="serviceLocator" ref="ServiceLocator" />
   </bean>
+  
+  
+  
 </beans>

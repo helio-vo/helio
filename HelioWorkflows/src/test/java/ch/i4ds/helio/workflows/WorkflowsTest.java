@@ -17,7 +17,8 @@ public class WorkflowsTest extends TestCase
   
   public void testInstrumentList() throws Exception
   {
-    
+    System.out.println(
+    wf.runInitialWorkflow("2005-01-01 00:00:00","2005-03-01 00:00:00","","","fhnw"));
     /*assertTrue(ff.getInstruments().length>0);
     for(String instrumentName:ff.getInstruments())
     {
