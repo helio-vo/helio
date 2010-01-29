@@ -43,7 +43,7 @@ public class HelioQueryService extends HttpServlet {
 		    //Setting time parameter
 		    String sTime=request.getParameter("TIME");
 		    if(sTime!=null && !sTime.equals("")){
-				String[] dateTime= sTime.replace("T", " ").split("/");			
+				String[] dateTime= sTime.split("/");			
 				System.out.println(" startDateTime : "+dateTime[0]+" startEndTime : "+dateTime[1]);			
 				comCriteriaTO.setStartDateTime(dateTime[0]);
 				comCriteriaTO.setEndDateTime(dateTime[1]);						
