@@ -34,11 +34,16 @@ public class QueryWebServiceClient {
 		xqueryElemTime.appendChild(doc.createTextNode("1990-10-20T20:30:56/2009-10-20T20:30:56"));	
 		//This configuration for INSTRUMENT.
 		Element xqueryElemIntrument = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:INSTRUMENT");			
-		//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
+		//xquery should be 'Instrument' 
 		xqueryElemIntrument.appendChild(doc.createTextNode("HXT"));
+		//This configuration for LISTNAME.
+		Element xqueryElemListName = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:LISTNAME");			
+		//xquery should be LISTNAME
+		xqueryElemListName.appendChild(doc.createTextNode("INSTRUMETS"));
 		//ok put all these into Document.
 		root.appendChild(xqueryElemTime); //Time Element.
 		root.appendChild(xqueryElemIntrument); // Instrument Element.
+		root.appendChild(xqueryElemListName); // List Name Element.
 		doc.appendChild(root);
 		//Calling the service.
 		callService(doc,"Query","Query");
