@@ -79,6 +79,9 @@ public class SoapDispatcher {
 				 //Setting for Instrument parameter.
 				 String instruments = inputDoc.getDocumentElement().getElementsByTagNameNS("*","INSTRUMENT").item(0).getFirstChild().getNodeValue();
 				 comCriteriaTO.setInstruments(instruments);
+				 //Setting for ListName parameter.
+				 String listName = inputDoc.getDocumentElement().getElementsByTagNameNS("*","LISTNAME").item(0).getFirstChild().getNodeValue();
+				 comCriteriaTO.setListName(listName);
 				 //Thread created to load data into PipeReader.
 				 new QueryThreadAnalizer(comCriteriaTO).start();				
 				 logger.info(" : Done VOTABLE : ");												
