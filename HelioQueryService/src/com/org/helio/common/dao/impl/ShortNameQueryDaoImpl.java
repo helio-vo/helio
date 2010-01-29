@@ -34,8 +34,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		 getSNQueryResult(comCriteriaTO,0,-1); 
 	}
 	
-	
-	@SuppressWarnings("deprecation")
+	/*@SuppressWarnings("deprecation")
 	public void getSNQueryResult(CommonCriteriaTO comCriteriaTO, int startRow, int noOfRecords) throws ShortNameQueryException 
 	{		
 		Connection con = null;
@@ -45,17 +44,14 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
 		try 
 		{
-			String sRepSql = CommonUtils.replaceParams(comCriteriaTO.getQuery(), comCriteriaTO.getParamData());
+			String[] listName=comCriteriaTO.getListName().split(",");
+			comCriteriaTO.setTableName(listName[0]);
+			String sRepSql = CommonUtils.replaceParams(generateQuery(listName[0],comCriteriaTO), comCriteriaTO.getParamData());
 			// Getting Access URL
 			String sAccessUrl=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
 			//Getting Format
 			String sFormat=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
 			logger.info(" : Query String After Replacing Value :"+sRepSql);	
-			
-			//Creating VOTable
-			VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
-			voTableMarker.writeBeginVOTable(output,ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc"),comCriteriaTO.getStatus());
-			
 			con = ConnectionManager.getConnection();
 			st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 			rs= st.executeQuery(sRepSql);
@@ -66,8 +62,12 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			String[] colNames=getColumnNamesAndType(rms,colCount);
 			rs.last();
 			int cnt = rs.getRow();			
-											
-			/*if noOfRecords == -1 means we need complete Result till end*/
+			
+			//Creating VOTable
+			VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
+			voTableMarker.writeBeginVOTable(output,ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc"),comCriteriaTO.getStatus());
+						
+			if noOfRecords == -1 means we need complete Result till end
 			if(noOfRecords==-1)
 			{
 				startRow =0;
@@ -159,6 +159,152 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			}
 		}		
 	
+	}*/
+	
+	
+	@SuppressWarnings("deprecation")
+	public void getSNQueryResult(CommonCriteriaTO comCriteriaTO, int startRow, int noOfRecords) throws ShortNameQueryException 
+	{		
+		Connection con = null;
+		Statement st = null;
+		ResultSetMetaData rms =null;
+		ResultSet rs=null;
+		BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
+		
+		try 
+		{
+			// Getting Access URL
+			String sAccessUrl=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
+			//Getting Format
+			String sFormat=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
+						
+			//Creating VOTable
+			String[] listName=comCriteriaTO.getListName().split(",");
+			
+			VOTableMaker.writeVOTableHeader(output,comCriteriaTO.getStatus());
+			
+			for(int intCnt=0;intCnt<listName.length;intCnt++){
+				
+				String sRepSql = CommonUtils.replaceParams(generateQuery(listName[intCnt],comCriteriaTO), comCriteriaTO.getParamData());
+				logger.info(" : Query String After Replacing Value :"+sRepSql);	
+				
+				//Setting Table Name.
+				comCriteriaTO.setTableName(listName[intCnt]);
+				//Setting query with values.
+				comCriteriaTO.setQuery(sRepSql);
+				VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
+				voTableMarker.writeBeginVOTable(output,ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc."+listName[intCnt]),comCriteriaTO.getStatus());
+						
+				con = ConnectionManager.getConnection();
+				st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
+				rs= st.executeQuery(sRepSql);
+	     		rms = rs.getMetaData();
+	     		int i=0; // This Is for mySQL 
+				ArrayList<Object[]> arr = new ArrayList<Object[]>();
+				int colCount = rms.getColumnCount();			
+				String[] colNames=getColumnNamesAndType(rms,colCount);
+				rs.last();
+				int cnt = rs.getRow();			
+												
+				/*if noOfRecords == -1 means we need complete Result till end*/
+				if(noOfRecords==-1)
+				{
+					startRow =0;
+					noOfRecords = cnt;
+				}
+				
+				if(cnt!=0)
+				{
+					rs.absolute(startRow + 1);
+					do {
+						
+						i++;
+						int count=0;
+						//code for setting access url.
+						if(sAccessUrl!=null && !sAccessUrl.equals(""))
+						voTableMarker.getValues()[count]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
+						//code for getting database data.
+						for (int g = 0; g < colCount; g++) {
+							//This is done; to change index to '1' . Bcoz first index value is Access url.
+							if(voTableMarker.getValues()[0]!=null && !voTableMarker.getValues()[0].equals("") && g==0){
+								count=count+1;
+							}
+							
+							voTableMarker.getValues()[count] = rs.getString(colNames[g]);
+							count++;
+						}
+						// code for setting format
+						if(sFormat!=null && !sFormat.equals(""))
+						voTableMarker.getValues()[voTableMarker.getValues().length-1]=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
+						
+						voTableMarker.addRow();
+						
+					 }while(rs.next()&& i<noOfRecords); 	
+					
+					if(voTableMarker.getRowCount() > 0) {
+						 voTableMarker.writeTable(output);
+			     	} 
+					voTableMarker.writeEndVOTable(output, comCriteriaTO.getStatus());
+				}
+				}//end of for
+			
+				//Writing end of VOTable.
+				VOTableMaker.writeVOTableFooter(output,comCriteriaTO.getStatus());	
+				
+				if(rms!=null)
+				{
+					rms = null;
+				}
+				if(rs!=null)
+				{
+					rs.close();
+					rs=null;
+				}
+				if(st!=null)
+				{
+					st.close();
+					st=null;
+				}
+				if(con!=null)
+				{
+					con.close();
+					con=null;
+				}
+			} catch (Exception e) {			
+				throw new ShortNameQueryException("EXCEPTION ", e);
+			}
+			
+			finally
+			{
+				try {
+					if(rms!=null)
+					{
+						rms = null;
+					}
+					if(rs!=null)
+					{
+						rs.close();
+						rs=null;
+					}
+					if(st!=null)
+					{
+						st.close();
+						st=null;
+					}
+					if(con!=null)
+					{
+						con.close();
+						con=null;
+					}
+					if(output!=null){
+						output=null;
+						output.close();
+					}
+				} catch (Exception e) {
+					
+				}
+		}		
+	
 	}
 
 
@@ -198,14 +344,17 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	      return null;
 	    }	    
 	    String[] colNames = new String[colCount];
-	    int numberOfColumns = rsMetaData.getColumnCount();	    
+	    int numberOfColumns = rsMetaData.getColumnCount();
+	    
 	    // get the column names; column indexes start from 1
 	    for (int intColNo = 0; intColNo < numberOfColumns ; intColNo++) {
 	    	colNames[intColNo]=rsMetaData.getColumnName(intColNo+1);   
-	     }
+	    }
+	    
 	    logger.info("   :  Column Names  :  "+colNames.toString());
 	    return colNames;
 	  }
+	
 	
 	/*
 	 * Get the list of Tables in a Database.
@@ -231,22 +380,95 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	private  VOTableMaker createVOTableMaker(CommonCriteriaTO comCriteriaTO) {
 		
 		HashMap<String,CommonTO> hmbColumnList=comCriteriaTO.getHmbColumnList();
-		logger.info(ConfigurationProfiler.getInstance().getProperty("sql.columnnames"));
-		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames").split("::");
+		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames."+comCriteriaTO.getTableName()).split("::");
 		logger.info(" : Column Name String  : "+columnNames);
-		String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc").split("::");
+		String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc."+comCriteriaTO.getTableName()).split("::");
 		logger.info(" : Column Desc String  : "+columnDesc);
-		String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd").split("::");
+		String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd."+comCriteriaTO.getTableName()).split("::");
 		logger.info(" : Column UCD String  : "+columnUcd); 
 		 
 		ColumnInfo [] defValues = new ColumnInfo[columnNames.length];
 		for(int inColCount=0;inColCount<columnNames.length;inColCount++){			
-			//CommonTO commonTO=hmbColumnList.get(columnNames[inColCount]);				
 			defValues[inColCount] = new ColumnInfo(columnNames[inColCount],String.class,columnDesc[inColCount]);			
 	        defValues[inColCount].setUCD(columnUcd[inColCount]);
 	      }
 		
 		return new VOTableMaker(defValues);
 	}
+	
+	/*
+	 * 
+	 */
+	private String getColumnNamesFromProperty(String tableName)
+	{
+		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames."+tableName).split("::");
+		String colNamesForTable="";
+		
+		for(int i=0;i<columnNames.length;i++)
+		{
+			colNamesForTable=colNamesForTable+columnNames[i]+",";
+		}
+		
+		if(colNamesForTable.endsWith(",")){
+			colNamesForTable=colNamesForTable.substring(0, colNamesForTable.length()-1);
+		}
+		logger.info(" : Table Name : "+tableName +" List of columns "+colNamesForTable);
+		
+		return colNamesForTable;
+	}
+	
+	
+	@SuppressWarnings("unused")
+	private String  generateQuery(String listName,CommonCriteriaTO comCriteriaTO){
+			 String queryConstraint="";
+			 String query="";
+		
+			 HashMap<String,String> params  = new HashMap<String,String>();
+			 
+			 params.put("kwstartdate."+listName, comCriteriaTO.getStartDateTime());
+			 params.put("kwenddate."+listName, comCriteriaTO.getEndDateTime());
+			 params.put("kwinstrument."+listName, comCriteriaTO.getInstruments());
+					
+			 //Setting param value
+			 comCriteriaTO.setParamData(params);
+			 query="SELECT "+getColumnNamesFromProperty(listName)+" FROM "+listName;
+			 logger.info(" : Query String with 'Select' and 'From' : "+query);
+			 
+			 //Appending Time clause.
+			 String queryTimeContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.time.constraint."+listName);
+			 if(queryTimeContraint!=null && !queryTimeContraint.equals("") ){
+				 queryConstraint=queryConstraint+" "+queryTimeContraint;
+			 }
+			 
+			 logger.info(" : Appending Time Constraint If Avialable : "+queryConstraint);
+			 
+			 //Appending Instrument clause.
+			 String queryInstContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.instr.constraint."+listName);
+			 if(queryInstContraint!=null && !queryInstContraint.equals("")){
+				 if(queryConstraint!="")
+					 queryConstraint=queryConstraint+" AND "+queryInstContraint; 
+				 else
+					 queryConstraint=queryConstraint+" "+queryInstContraint; 
+				
+			 }
+			
+			 logger.info(" : Appending Instrument Constraint If Avialable : "+queryConstraint);
+			 
+			 //Appending Order By clause.
+			 String queryOrderByContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.orderby.constraint."+listName);
+			
+			 //Appending 'Select Part' ; 'Where Constraints' .
+			 if(queryConstraint!=null && queryConstraint!=""){
+				 query=query+" WHERE "+queryConstraint;
+			 }
+			 
+			 //Appending ; 'Order By Constraints' .
+			 query=query+" "+queryOrderByContraint;
+			 
+			 logger.info(" : Full Query String To Execute : "+query);
+			 
+		 return query;
+	}
+	
 	
 }
