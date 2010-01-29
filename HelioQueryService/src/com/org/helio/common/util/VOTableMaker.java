@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import uk.ac.starlink.table.ColumnInfo;
 import uk.ac.starlink.table.RowListStarTable;
+import uk.ac.starlink.table.formats.HTMLTableWriter;
 import uk.ac.starlink.votable.DataFormat;
 import uk.ac.starlink.votable.VOSerializer;
 
@@ -21,7 +22,8 @@ public class VOTableMaker {
     public VOTableMaker(ColumnInfo[] Cols) {
         helioRowList = new RowListStarTable( Cols );
         numCols = Cols.length;
-        values = new Object[numCols];   	
+        values = new Object[numCols]; 
+       
     }
     
     public void addRow() {
@@ -33,17 +35,24 @@ public class VOTableMaker {
         return helioRowList.getRowCount();
     }
     
-    public void writeBeginVOTable(BufferedWriter out, String description,String status) throws IOException {
-    	 //Adding response header start for WebService VOTABLE.
+    public static void writeVOTableHeader(BufferedWriter out,String status) throws IOException 
+    {
+    	//Adding response header start for WebService VOTABLE.
 		 if(status!=null && !status.equals("")){
 			 out.write("<helio:queryResponse xmlns:helio=\"http://helio-vo.eu/xml/QueryService/v0.1\">");
 		 }
-         out.write( "<VOTABLE version='1.1' xmlns=\"http://www.ivoa.net/xml/VOTable/v1.1\">\n" );
+		 out.write( "<VOTABLE version='1.1' xmlns=\"http://www.ivoa.net/xml/VOTable/v1.1\">\n" );
+    	
+    }
+    
+    public void writeBeginVOTable(BufferedWriter out, String description,String status) throws IOException {
+    	 
+        
          out.write( "<RESOURCE>\n" );
          out.write( "<DESCRIPTION>" + description + "</DESCRIPTION>\n" );
     }
     
-    public void writeTable(BufferedWriter out) throws IOException {
+    public void  writeTable(BufferedWriter out) throws IOException {
         VOSerializer vos = VOSerializer.makeSerializer( DataFormat.TABLEDATA, helioRowList );
         vos.writeInlineTableElement(out);
         out.flush();
@@ -61,12 +70,21 @@ public class VOTableMaker {
     
     public void writeEndVOTable(BufferedWriter out,String status) throws IOException {
         out.write( "</RESOURCE>\n" );
-        out.write( "</VOTABLE>\n" );
-        if(status!=null && !status.equals("")){
-        	out.write("</helio:queryResponse>");
-        } 
-       out.close();
+        
     }
+    
+    public static void writeVOTableFooter(BufferedWriter out,String status) throws IOException 
+    {
+    	out.write( "</VOTABLE>\n" );
+    	//Adding response header start for WebService VOTABLE.
+		 if(status!=null && !status.equals("")){
+			 out.write("</helio:queryResponse>");
+		 }
+		 out.close();
+    	
+    }
+    
+  
     
 	public Object[] getValues() {
 		return values;
