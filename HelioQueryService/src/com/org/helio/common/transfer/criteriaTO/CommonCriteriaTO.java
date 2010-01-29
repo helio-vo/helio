@@ -30,6 +30,7 @@ public class CommonCriteriaTO implements Serializable{
 	private String query;
 	HashMap<String,String> paramData;
 	private String queryForm;
+	private String tableName;
 	
 	public String getQueryForm() {
 		return queryForm;
@@ -165,6 +166,15 @@ public class CommonCriteriaTO implements Serializable{
 	public void setNoOfRecords(Integer noOfRecords) {
 		this.noOfRecords = noOfRecords;
 	}
+
+	public String getTableName() {
+		return tableName;
+	}
+
+	public void setTableName(String tableName) {
+		this.tableName = tableName;
+	}
+	
 	
 	
 }
