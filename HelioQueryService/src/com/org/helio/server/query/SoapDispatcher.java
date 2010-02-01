@@ -14,6 +14,7 @@ import org.apache.log4j.Logger;
 import org.codehaus.xfire.util.STAXUtils; 
 import org.codehaus.xfire.MessageContext;
 import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
+import com.org.helio.common.util.DomHelper;
 import com.org.helio.server.util.QueryThreadAnalizer;
 
 /**
