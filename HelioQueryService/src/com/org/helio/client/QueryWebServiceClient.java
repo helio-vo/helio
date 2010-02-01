@@ -39,7 +39,7 @@ public class QueryWebServiceClient {
 		//This configuration for LISTNAME.
 		Element xqueryElemListName = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:LISTNAME");			
 		//xquery should be LISTNAME
-		xqueryElemListName.appendChild(doc.createTextNode("INSTRUMETS"));
+		xqueryElemListName.appendChild(doc.createTextNode("INSTRUMENTS,OBSERVATORY"));
 		//ok put all these into Document.
 		root.appendChild(xqueryElemTime); //Time Element.
 		root.appendChild(xqueryElemIntrument); // Instrument Element.
