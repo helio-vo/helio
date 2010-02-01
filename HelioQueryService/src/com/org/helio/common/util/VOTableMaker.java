@@ -126,7 +126,7 @@ public class VOTableMaker {
 		if(status!=null && !status.equals("")){
 			 out.write("<helio:queryResponse xmlns:helio=\"http://helio-vo.eu/xml/QueryService/v0.1\">");
 		}
-        out.write( "<VOTABLE version='1.1'>\n" );
+        out.write( "<VOTABLE version='1.1' xmlns=\"http://www.ivoa.net/xml/VOTable/v1.1\">\n" );
         out.write( "<RESOURCE>\n" );
         out.write( "<DESCRIPTION>Some tables</DESCRIPTION>\n" );
         for ( int i = 0; i < tables.length; i++ ) {
