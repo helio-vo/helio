@@ -34,8 +34,8 @@ public class CommonDaoImpl implements CommonDao {
 		
 		try{
 				
-		 ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
-		 shortNameDao.getSNQueryResult(comCriteriaTO);
+			ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
+			shortNameDao.generateVOTableDetails(comCriteriaTO);
 		  				 
 		}catch(Exception pe) {
         	pe.printStackTrace();

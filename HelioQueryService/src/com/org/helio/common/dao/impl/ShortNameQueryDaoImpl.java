@@ -2,15 +2,22 @@
 package com.org.helio.common.dao.impl;
 
 import java.io.BufferedWriter;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.Statement;
+import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import org.apache.log4j.Logger;
 import uk.ac.starlink.table.ColumnInfo;
+import uk.ac.starlink.table.StarTable;
+import uk.ac.starlink.table.jdbc.SequentialResultSetStarTable;
+
+import com.org.helio.common.dao.exception.DetailsNotFoundException;
 import com.org.helio.common.dao.exception.ShortNameQueryException;
 import com.org.helio.common.dao.interfaces.ShortNameQueryDao;
 import com.org.helio.common.transfer.CommonTO;
@@ -34,134 +41,6 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		 getSNQueryResult(comCriteriaTO,0,-1); 
 	}
 	
-	/*@SuppressWarnings("deprecation")
-	public void getSNQueryResult(CommonCriteriaTO comCriteriaTO, int startRow, int noOfRecords) throws ShortNameQueryException 
-	{		
-		Connection con = null;
-		Statement st = null;
-		ResultSetMetaData rms =null;
-		ResultSet rs=null;
-		BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
-		try 
-		{
-			String[] listName=comCriteriaTO.getListName().split(",");
-			comCriteriaTO.setTableName(listName[0]);
-			String sRepSql = CommonUtils.replaceParams(generateQuery(listName[0],comCriteriaTO), comCriteriaTO.getParamData());
-			// Getting Access URL
-			String sAccessUrl=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
-			//Getting Format
-			String sFormat=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
-			logger.info(" : Query String After Replacing Value :"+sRepSql);	
-			con = ConnectionManager.getConnection();
-			st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
-			rs= st.executeQuery(sRepSql);
-     		rms = rs.getMetaData();
-     		int i=0; // This Is for mySQL 
-			ArrayList<Object[]> arr = new ArrayList<Object[]>();
-			int colCount = rms.getColumnCount();			
-			String[] colNames=getColumnNamesAndType(rms,colCount);
-			rs.last();
-			int cnt = rs.getRow();			
-			
-			//Creating VOTable
-			VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
-			voTableMarker.writeBeginVOTable(output,ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc"),comCriteriaTO.getStatus());
-						
-			if noOfRecords == -1 means we need complete Result till end
-			if(noOfRecords==-1)
-			{
-				startRow =0;
-				noOfRecords = cnt;
-			}
-			
-			if(cnt!=0)
-			{
-				rs.absolute(startRow + 1);
-				do {
-					
-					i++;
-					int count=0;
-					//code for setting access url.
-					if(sAccessUrl!=null && !sAccessUrl.equals(""))
-					voTableMarker.getValues()[count]=ConfigurationProfiler.getInstance().getProperty("sql.votable.accesurl");
-					//code for getting database data.
-					for (int g = 0; g < colCount; g++) {
-						//This is done; to change index to '1' . Bcoz first index value is Access url.
-						if(voTableMarker.getValues()[0]!=null && !voTableMarker.getValues()[0].equals("") && g==0){
-							count=count+1;
-						}
-						
-						voTableMarker.getValues()[count] = rs.getString(colNames[g]);
-						count++;
-					}
-					// code for setting format
-					if(sFormat!=null && !sFormat.equals(""))
-					voTableMarker.getValues()[voTableMarker.getValues().length-1]=ConfigurationProfiler.getInstance().getProperty("sql.votable.format");
-					voTableMarker.addRow();
-					
-				 }while(rs.next()&& i<noOfRecords); 	
-				
-				if(voTableMarker.getRowCount() > 0) {
-					 voTableMarker.writeTable(output);
-		     	} 
-				
-				//Writing end of VOTable.
-				voTableMarker.writeEndVOTable(output,comCriteriaTO.getStatus());		 
-				
-			}
-			if(rms!=null)
-			{
-				rms = null;
-			}
-			if(rs!=null)
-			{
-				rs.close();
-				rs=null;
-			}
-			if(st!=null)
-			{
-				st.close();
-				st=null;
-			}
-			if(con!=null)
-			{
-				con.close();
-				con=null;
-			}
-		} catch (Exception e) {			
-			throw new ShortNameQueryException("EXCEPTION ", e);
-		}
-		
-		finally
-		{
-			try {
-				if(rms!=null)
-				{
-					rms = null;
-				}
-				if(rs!=null)
-				{
-					rs.close();
-					rs=null;
-				}
-				if(st!=null)
-				{
-					st.close();
-					st=null;
-				}
-				if(con!=null)
-				{
-					con.close();
-					con=null;
-				}
-			} catch (Exception e) {
-				
-			}
-		}		
-	
-	}*/
-	
-	
 	@SuppressWarnings("deprecation")
 	public void getSNQueryResult(CommonCriteriaTO comCriteriaTO, int startRow, int noOfRecords) throws ShortNameQueryException 
 	{		
@@ -183,6 +62,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			
 			VOTableMaker.writeVOTableHeader(output,comCriteriaTO.getStatus());
 			
+			//For loop start
 			for(int intCnt=0;intCnt<listName.length;intCnt++){
 				
 				String sRepSql = CommonUtils.replaceParams(generateQuery(listName[intCnt],comCriteriaTO), comCriteriaTO.getParamData());
@@ -192,20 +72,27 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 				comCriteriaTO.setTableName(listName[intCnt]);
 				//Setting query with values.
 				comCriteriaTO.setQuery(sRepSql);
-				VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
-				voTableMarker.writeBeginVOTable(output,ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc."+listName[intCnt]),comCriteriaTO.getStatus());
-						
+				//Connecting to database.						
 				con = ConnectionManager.getConnection();
 				st = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 				rs= st.executeQuery(sRepSql);
 	     		rms = rs.getMetaData();
+	     		int colCount = rms.getColumnCount();
+	     		//Column Names
+	     		String[] colNames=getColumnNamesAndType(rms,colCount);
+	     		//Column name;Type and size.
+	     		HashMap<String,CommonTO> hmbColumnList=getColumnNamesAndType(rms);
+	     		comCriteriaTO.setHmbColumnList(hmbColumnList);
+	     		
 	     		int i=0; // This Is for mySQL 
 				ArrayList<Object[]> arr = new ArrayList<Object[]>();
-				int colCount = rms.getColumnCount();			
-				String[] colNames=getColumnNamesAndType(rms,colCount);
 				rs.last();
-				int cnt = rs.getRow();			
-												
+				int cnt = rs.getRow();	
+				
+	     		//Create VOTable 
+	     		VOTableMaker voTableMarker=createVOTableMaker(comCriteriaTO);		
+				voTableMarker.writeBeginVOTable(output,ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc."+listName[intCnt]));
+	     														
 				/*if noOfRecords == -1 means we need complete Result till end*/
 				if(noOfRecords==-1)
 				{
@@ -244,7 +131,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 					if(voTableMarker.getRowCount() > 0) {
 						 voTableMarker.writeTable(output);
 			     	} 
-					voTableMarker.writeEndVOTable(output, comCriteriaTO.getStatus());
+					voTableMarker.writeEndVOTable(output);
 				}
 				}//end of for
 			
@@ -308,6 +195,39 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	}
 
 
+	public void generateVOTableDetails(CommonCriteriaTO comCriteriaTO) throws DetailsNotFoundException,Exception {
+		Connection con = null;
+		Statement st = null;
+		ResultSetMetaData rms =null;
+		ResultSet rs=null;
+		String[] listName=comCriteriaTO.getListName().split(",");
+		BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
+		StarTable[] tables=new StarTable[listName.length];
+		
+		//For loop start
+		for(int intCnt=0;intCnt<listName.length;intCnt++){
+			String sRepSql = CommonUtils.replaceParams(generateQuery(listName[intCnt],comCriteriaTO), comCriteriaTO.getParamData());
+			logger.info(" : Query String After Replacing Value :"+sRepSql);	
+			
+			//Setting Table Name.
+			comCriteriaTO.setTableName(listName[intCnt]);
+			//Setting query with values.
+			comCriteriaTO.setQuery(sRepSql);
+			//Connecting to database.						
+			con = ConnectionManager.getConnection();
+			st = con.createStatement();
+			rs= st.executeQuery(sRepSql);
+			tables[intCnt]=new SequentialResultSetStarTable( rs );
+				
+		}
+		
+		//Editing column property.
+		VOTableMaker.setColInfoProperty(tables, listName);
+		//Writing all details into table.
+		VOTableMaker.writeTables(tables, output,comCriteriaTO.getStatus());
+					
+	}
+	
 	/*
 	 * Get the list of Column Names;Column Type in a Table.
 	 */
@@ -373,6 +293,8 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	    return hmbDatabaseTableList;
 	}
 	
+	
+	
 	/*
 	 * It creates the VOTable.
 	 */
@@ -387,17 +309,32 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd."+comCriteriaTO.getTableName()).split("::");
 		logger.info(" : Column UCD String  : "+columnUcd); 
 		 
-		ColumnInfo [] defValues = new ColumnInfo[columnNames.length];
-		for(int inColCount=0;inColCount<columnNames.length;inColCount++){			
-			defValues[inColCount] = new ColumnInfo(columnNames[inColCount],String.class,columnDesc[inColCount]);			
-	        defValues[inColCount].setUCD(columnUcd[inColCount]);
+		ColumnInfo[] defValues = new ColumnInfo[columnNames.length];
+		for(int inColCount=0;inColCount<columnNames.length;inColCount++){
+			Class c=null;
+			CommonTO commonTO=hmbColumnList.get(columnNames[inColCount]);
+			if(commonTO.getColumnType()!=null && commonTO.getColumnType().contains("VARCHAR")){
+				 c=String.class;
+			}else if(commonTO.getColumnType()!=null && commonTO.getColumnType().contains("INTEGER")){
+				 c=Integer.class;
+			}else if(commonTO.getColumnType()!=null && commonTO.getColumnType().contains("DOUBLE")){
+				 c=Double.class;
+			}else if(commonTO.getColumnType()!=null && commonTO.getColumnType().contains("CHAR")){
+				 c=Character.class;
+			}else if(commonTO.getColumnType()!=null && commonTO.getColumnType().contains("DATETIME")){
+				 c=String.class;
+			}else{
+				 c=String.class;
+			}
+			defValues[inColCount] = new ColumnInfo(columnNames[inColCount],c,columnDesc[inColCount]);
+		      defValues[inColCount].setUCD(columnUcd[inColCount]);
 	      }
 		
 		return new VOTableMaker(defValues);
 	}
 	
 	/*
-	 * 
+	 * Creating column names.
 	 */
 	private String getColumnNamesFromProperty(String tableName)
 	{
