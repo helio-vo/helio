@@ -8,9 +8,12 @@ import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
 
+import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
+
 import uk.ac.starlink.table.StarTable;
 
 import uk.ac.starlink.table.ColumnInfo;
+import uk.ac.starlink.table.DescribedValue;
 import uk.ac.starlink.table.RowListStarTable;
 import uk.ac.starlink.table.Tables;
 import uk.ac.starlink.table.formats.HTMLTableWriter;
@@ -120,15 +123,19 @@ public class VOTableMaker {
         new VOTableWriter().writeInlineStarTable(table, out );
     } 
     
-    public static void writeTables( StarTable[] tables, BufferedWriter out,String status ) throws IOException {
-        
+    //Writing all the details into VOtable.
+    public static void writeTables( CommonCriteriaTO comCriteriaTO ) throws IOException {
+    	BufferedWriter out = new BufferedWriter( comCriteriaTO.getPrintWriter() );
+    	StarTable[] tables=comCriteriaTO.getTables();
+    	String status=comCriteriaTO.getStatus();
+    	    		
     	//Adding response header start for WebService VOTABLE.
 		if(status!=null && !status.equals("")){
 			 out.write("<helio:queryResponse xmlns:helio=\"http://helio-vo.eu/xml/QueryService/v0.1\">");
 		}
         out.write( "<VOTABLE version='1.1' xmlns=\"http://www.ivoa.net/xml/VOTable/v1.1\">\n" );
         out.write( "<RESOURCE>\n" );
-        out.write( "<DESCRIPTION>Some tables</DESCRIPTION>\n" );
+        out.write( "<DESCRIPTION>"+ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc")+"</DESCRIPTION>\n" );
         for ( int i = 0; i < tables.length; i++ ) {
             VOSerializer.makeSerializer( DataFormat.TABLEDATA, tables[ i ] )
                         .writeInlineTableElement( out );
@@ -143,6 +150,7 @@ public class VOTableMaker {
         out.close();
     }
     
+    //Setting column property.
     public static void setColInfoProperty(StarTable[] tables,String[] listName){
     	   	
     	for ( int i = 0; i < tables.length; i++ ) {

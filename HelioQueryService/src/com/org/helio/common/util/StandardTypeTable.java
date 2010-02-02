@@ -143,7 +143,7 @@ public class StandardTypeTable extends WrapperStarTable {
         }
         Object getValue(Object baseValue) {
             return (String)
-                   (baseValue == null ? null : baseValue.toString());
+                   (baseValue == null ? "0000-00-00 00:00:00.0" : baseValue.toString());
         }
     }
 }
