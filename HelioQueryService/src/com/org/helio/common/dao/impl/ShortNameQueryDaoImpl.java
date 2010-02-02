@@ -25,6 +25,7 @@ import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
 import com.org.helio.common.util.CommonUtils;
 import com.org.helio.common.util.ConfigurationProfiler;
 import com.org.helio.common.util.ConnectionManager;
+import com.org.helio.common.util.StandardTypeTable;
 import com.org.helio.common.util.VOTableMaker;
 
 
@@ -201,7 +202,6 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		ResultSetMetaData rms =null;
 		ResultSet rs=null;
 		String[] listName=comCriteriaTO.getListName().split(",");
-		BufferedWriter output = new BufferedWriter( comCriteriaTO.getPrintWriter() );
 		StarTable[] tables=new StarTable[listName.length];
 		
 		//For loop start
@@ -217,14 +217,13 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			con = ConnectionManager.getConnection();
 			st = con.createStatement();
 			rs= st.executeQuery(sRepSql);
-			tables[intCnt]=new SequentialResultSetStarTable( rs );
-				
+			tables[intCnt] = new StandardTypeTable( new SequentialResultSetStarTable( rs ) );
 		}
-		
+		comCriteriaTO.setTables(tables);
 		//Editing column property.
 		VOTableMaker.setColInfoProperty(tables, listName);
 		//Writing all details into table.
-		VOTableMaker.writeTables(tables, output,comCriteriaTO.getStatus());
+		VOTableMaker.writeTables(comCriteriaTO);
 					
 	}
 	
@@ -340,6 +339,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	{
 		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames."+tableName).split("::");
 		String colNamesForTable="";
+		String colColName="";
 		
 		for(int i=0;i<columnNames.length;i++)
 		{
