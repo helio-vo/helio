@@ -6,6 +6,8 @@ import java.io.Serializable;
 import java.io.Writer;
 import java.util.HashMap;
 
+import uk.ac.starlink.table.StarTable;
+
 import com.org.helio.common.transfer.CommonTO;
 
 public class CommonCriteriaTO implements Serializable{
@@ -31,7 +33,17 @@ public class CommonCriteriaTO implements Serializable{
 	HashMap<String,String> paramData;
 	private String queryForm;
 	private String tableName;
+	StarTable[] tables;
 	
+	
+	public StarTable[] getTables() {
+		return tables;
+	}
+
+	public void setTables(StarTable[] tables) {
+		this.tables = tables;
+	}
+
 	public String getQueryForm() {
 		return queryForm;
 	}
