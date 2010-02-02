@@ -7,6 +7,7 @@ import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -279,7 +280,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	 * Get the list of Tables in a Database.
 	 */
 	@SuppressWarnings("unused")
-	private HashMap<String,String> getDatabaseTableNames(Connection con) throws Exception 
+	public HashMap<String,String> getDatabaseTableNames(Connection con) throws Exception 
 	{
 		HashMap<String,String> hmbDatabaseTableList=new HashMap<String,String>();	  
 		DatabaseMetaData md = con.getMetaData();
@@ -292,8 +293,32 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	    return hmbDatabaseTableList;
 	}
 	
+	/*
+	 * Get the list of Columns in a Table.
+	 */
+	public CommonTO[] getTableColumnNames(Connection con,String tableName) throws Exception
+	{
+		ResultSet rsColumns = null;
+		CommonTO[] columnTO = null;
+		DatabaseMetaData meta = con.getMetaData();
+	    rsColumns = meta.getColumns(null, null, tableName, null);
+	    rsColumns.last();
+	    int intCount=rsColumns.getRow();
+	    rsColumns.beforeFirst();
+	    if(rsColumns!=null){
+	    	columnTO = new CommonTO[intCount];
+     		int i=0;
+		    while (rsColumns.next()) {
+		      columnTO[i]=new CommonTO();
+		      columnTO[i].setColumnName(rsColumns.getString("COLUMN_NAME"));
+		      columnTO[i].setColumnType(rsColumns.getString("TYPE_NAME"));
+		      i++;
+		    }
+	    }
+		return columnTO;
+	}
 	
-	
+		
 	/*
 	 * It creates the VOTable.
 	 */
