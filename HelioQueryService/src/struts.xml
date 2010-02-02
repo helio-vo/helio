@@ -11,6 +11,18 @@
 	<package name="HelioQueryService" namespace="/" extends="struts-default">	 
 		<default-interceptor-ref name="defaultStack"/>	
 	
+	<action name="display" method="display" class="com.org.helio.common.action.CommonAction">
+            <result  name="SUCCESS" >jsp/AdminHome.jsp</result>		
+	</action>
+	
+	<action name="getConfigurationPropertyFilePage" method="getConfigurationPropertyFilePage" class="com.org.helio.common.action.CommonAction">
+            <result  name="SUCCESS" >jsp/DatabaseTables.jsp</result>		
+	</action>
+	
+	<action name="getTableColumnList" method="getTableColumnList" class="com.org.helio.common.action.CommonAction">
+            <result  name="SUCCESS" >jsp/ListOfTableColumns.jsp</result>		
+	</action>
+	
 	<!-- End of instruments -->
     </package>
 </struts>
