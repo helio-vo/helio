@@ -73,7 +73,7 @@ public class SoapDispatcher {
 	    		 comCriteriaTO.setStatus("WebService");
 	    		 //Setting for TIME parameter.
 	    		 String time = inputDoc.getDocumentElement().getElementsByTagNameNS("*","TIME").item(0).getFirstChild().getNodeValue();
-	    		 String[] dateTime= time.replace("T", " ").split("/");			
+	    		 String[] dateTime= time.split("/");			
 				 logger.info(" : startDateTime : "+dateTime[0]+" : startEndTime : "+dateTime[1]);			
 				 comCriteriaTO.setStartDateTime(dateTime[0]);
 				 comCriteriaTO.setEndDateTime(dateTime[1]);	
