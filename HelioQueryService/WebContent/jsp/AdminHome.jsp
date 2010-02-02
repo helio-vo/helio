@@ -12,7 +12,7 @@
 <script>
 		 function doSub(action)
 		 {
-		 		 document.frmAdmin.action=action;
+		 		 document.frmAdmin.action=action; 
 		 		 document.frmAdmin.method="post";
 		 	     document.frmAdmin.submit();		 		 
 		 }
@@ -41,13 +41,21 @@ cellspacing="0">
           Admin Page To Create Property File
          </td>
          </tr>
+         <tr><td>&nbsp;</td></tr>
          <tr class="txtblackBP" > 
            <td>
               <ul>
-                  <li><a href="javascript:doSub('getCreatePropertyFilePage.action')"> Create Property File </a></li>		             
+                  <li><a href="javascript:doSub('getConfigurationPropertyFilePage.action')"> Create Property File </a></li>		             
               </ul>            
           </td>
-         </tr>                                
+         </tr> 
+        <!--  <tr class="txtblackBP" > 
+           <td>
+              <ul>
+                  <li><a href="javascript:doSub('getConfigurationPropertyFilePage.action')"> How to configure my property file </a></li>		             
+              </ul>            
+          </td>
+         </tr> -->                                
       </table>   
      </s:form>
  	</td>
