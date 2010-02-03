@@ -34,6 +34,7 @@ public class CommonCriteriaTO implements Serializable{
 	private String queryForm;
 	private String tableName;
 	StarTable[] tables;
+	String whereClause;
 	
 	
 	public StarTable[] getTables() {
@@ -185,6 +186,14 @@ public class CommonCriteriaTO implements Serializable{
 
 	public void setTableName(String tableName) {
 		this.tableName = tableName;
+	}
+
+	public String getWhereClause() {
+		return whereClause;
+	}
+
+	public void setWhereClause(String whereClause) {
+		this.whereClause = whereClause;
 	}
 	
 	
