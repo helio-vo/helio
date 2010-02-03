@@ -45,7 +45,7 @@
    						 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 						    <tr align="left" valign="middle">
 								<td align="left">&nbsp;
-									<a href="javascript:addColumnsOfSelectedTable();" onMouseOver="MM_swapImage('addcol','','Images/but_addColumn_click.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/but_addColumn_normal.gif" name="Close"  border="0" align="absmiddle" id="addcol"></a>
+									<a  onclick="javascript: addColumnsOfSelectedTable()" onMouseOver="MM_swapImage('addcol','','Images/but_addColumn_click.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/but_addColumn_normal.gif" name="Close"  border="0" align="absmiddle" id="addcol"></a>
 								</td>
 					        </tr>
 					     </table>

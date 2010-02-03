@@ -120,7 +120,7 @@
 			</tr>
 			<tr>
 				<td >
-					<TABLE width="100%" border="0" cellspacing="1" cellpadding="0" id="addedColumns" >
+				  <TABLE width="100%" border="0" cellspacing="1" cellpadding="0" id="addedColumns" style="display: inline;" >
 				  	   <tr class="txtPopupGridHeading">
 					      <td class="txtblackBP">&nbsp;</td>
 					      <td class="txtblackBP">Table Name</td>
@@ -129,8 +129,8 @@
 			              <td class="txtblackBP">Instrument Constraint</td>                       
 			              <td class="txtblackBP">Coordinate Constraint</td>
 					  </tr>
-					  
-				   </TABLE>
+					 </TABLE>
+				 
 			    </td>
 			</tr>	     
 	     </TABLE>
