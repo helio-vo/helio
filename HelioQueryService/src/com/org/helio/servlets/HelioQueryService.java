@@ -57,6 +57,9 @@ public class HelioQueryService extends HttpServlet {
 		    //Setting for List Name parameter.
 		    String sListName=request.getParameter("LISTNAME");
 		    comCriteriaTO.setListName(sListName);
+		    //Setting where cluase parameter
+		    String whereClause=request.getParameter("WHERE");
+		    comCriteriaTO.setWhereClause(whereClause);
 			CommonDao commonNameDao= CommonDaoFactory.getInstance().getCommonDAO();
 			commonNameDao.generateVOTableDetails(comCriteriaTO);
 		}catch(Exception e){
