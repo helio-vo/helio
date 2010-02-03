@@ -373,13 +373,13 @@ function addColumnsOfSelectedTable()
 	var instrumentConstraint=document.forms[0].instrumentConstraint.value;
 	var coordinateConstraint=document.forms[0].coordinateConstraint.value;
 	var tableName=document.forms[0].cmbDatabaseTableList.value;
-	alert(" selectedColumnValues : "+selectedColumnValues +"timeConstraint "+timeConstraint+"instrumentConstraint "+instrumentConstraint+"coordinateConstraint "+coordinateConstraint );
+	//alert(" selectedColumnValues : "+selectedColumnValues +"timeConstraint "+timeConstraint+"instrumentConstraint "+instrumentConstraint+"coordinateConstraint "+coordinateConstraint );
 	
 	if(selectedColumnValues==null || selectedColumnValues==""){
 		alert("Please select atleast one column name.");
-		return false;
+		return true;
 	}else{
-		selectedColumnValues=selectedColumnValues.substring(0,selectedColumnValues.length-3);
+		selectedColumnValues=selectedColumnValues.substring(0,selectedColumnValues.length-2);
 	}
 	
 
@@ -388,13 +388,13 @@ function addColumnsOfSelectedTable()
 	var rows = table.rows;
 	var lastRow = rows.length;
 
-	alert("rows "+rows);
+	//alert("rows "+rows);
 	var rowsCount=0;
 	if(rows.length>1){
 		rowsCount = parseInt(rows.length-1);
 	}
 	
-	alert(" rowsCount : "+rowsCount);
+	//alert(" rowsCount : "+rowsCount);
 	var hiddenValue=tableName+"^$$^"+selectedColumnValues+"^$$^"+timeConstraint+"^$$^"+instrumentConstraint+"^$$^"+coordinateConstraint;
 	var columnHidValue= '<input type="hidden" name="addedTableDetails" id="addedTableDetails'+rowsCount+'" value="'+hiddenValue+'">';
 	
@@ -405,7 +405,7 @@ function addColumnsOfSelectedTable()
 		}
 	}
 	
-	alert("previousRowClassName "+previousRowClassName);
+	//alert("previousRowClassName "+previousRowClassName);
 	
 	//get new Row Class Name
 	var newRowClassName;
@@ -415,7 +415,7 @@ function addColumnsOfSelectedTable()
 		newRowClassName="PopupAltDataRow";
 	}
 	
-	alert("table "+table);
+	//alert("table "+table);
 	
 	var newRow= table.insertRow(lastRow);
 	newRow.id="columnRow"+rowsCount;
@@ -424,41 +424,64 @@ function addColumnsOfSelectedTable()
 	
 	var oCell = newRow.insertCell(0);
 	oCell.innerHTML = '<a href="#"><img src="Images/delete.gif"  alt="" border="0" title="Remove Criteria" onClick="removeColumn(this);"></a>';
-	oCell.align="center";
+	oCell.align="left";
 	oCell.width=20;
 	
 	oCell = newRow.insertCell(1);
-	oCell.innerHTML =tableName;
-	oCell.align="right";
+	oCell.innerHTML =trim(tableName);
+	oCell.align="left";
 	oCell.style.paddingLeft="30px";
 	oCell.width=300;
    	
 	oCell = newRow.insertCell(2);
-	oCell.innerHTML =selectedColumnValues.replace("::", ",");
-	oCell.align="right";
+	oCell.innerHTML =trim(replaceAll(selectedColumnValues,"::", ","));
+	oCell.align="left";
 	oCell.style.paddingLeft="30px";
 	oCell.width=300;
 	
 	oCell = newRow.insertCell(3);
-	oCell.innerHTML =timeConstraint;
-	oCell.align="right";
+	oCell.innerHTML =trim(timeConstraint);
+	oCell.align="left";
 	oCell.style.paddingLeft="30px";
 	oCell.width=300;
 	
 	oCell = newRow.insertCell(4);
-	oCell.innerHTML =instrumentConstraint;
-	oCell.align="right";
+	oCell.innerHTML =trim(instrumentConstraint);
+	oCell.align="left";
 	oCell.style.paddingLeft="30px";
 	oCell.width=300;
 	
 	oCell = newRow.insertCell(5);
-	oCell.innerHTML =coordinateConstraint+columnHidValue;
-	oCell.align="right";
+	oCell.innerHTML =trim(coordinateConstraint)+columnHidValue;
+	oCell.align="left";
 	oCell.style.paddingLeft="30px";
 	oCell.width=300;
 	
+	var cmbFilter = document.getElementById("cmbDatabaseTableList");
+	cmbFilter.remove(cmbFilter.selectedIndex);
 	
-	
+	document.getElementById("columnTableDiv").style.display = "none";
 	
 }
 
+function trim(stringToTrim) {
+	return stringToTrim.replace(/^\s+|\s+$/g,"");
+}
+function ltrim(stringToTrim) {
+	return stringToTrim.replace(/^\s+/,"");
+}
+function rtrim(stringToTrim) {
+	return stringToTrim.replace(/\s+$/,"");
+}
+function replaceAll( str, from, to ) {
+
+    var idx = str.indexOf( from );
+
+
+    while ( idx > -1 ) {
+        str = str.replace( from, to ); 
+        idx = str.indexOf( from );
+    }
+
+    return str;
+}
