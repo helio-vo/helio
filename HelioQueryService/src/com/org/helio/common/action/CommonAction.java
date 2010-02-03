@@ -94,7 +94,13 @@ public class CommonAction  extends ActionSupport
    }
 	
     String[] addedTableDetails;
-
+	private String filenameandpath;
+	private String jdbcDriverName;
+	private String jdbcUrl;
+	private String jdbcUser;
+	private String jdbcPassword;
+	
+	
 	public String[] getAddedTableDetails() {
 		return addedTableDetails;
 	}
@@ -103,6 +109,49 @@ public class CommonAction  extends ActionSupport
 		this.addedTableDetails = addedTableDetails;
 	}
 
-   
+	public String getFilenameandpath() {
+		return filenameandpath;
+	}
+
+	public void setFilenameandpath(String filenameandpath) {
+		this.filenameandpath = filenameandpath;
+	}
+
+	public String getJdbcDriverName() {
+		return jdbcDriverName;
+	}
+
+	public void setJdbcDriverName(String jdbcDriverName) {
+		this.jdbcDriverName = jdbcDriverName;
+	}
+
+	public String getJdbcUrl() {
+		return jdbcUrl;
+	}
+
+	public void setJdbcUrl(String jdbcUrl) {
+		this.jdbcUrl = jdbcUrl;
+	}
+
+	public String getJdbcUser() {
+		return jdbcUser;
+	}
+
+	public void setJdbcUser(String jdbcUser) {
+		this.jdbcUser = jdbcUser;
+	}
+
+	public String getJdbcPassword() {
+		return jdbcPassword;
+	}
+
+	public void setJdbcPassword(String jdbcPassword) {
+		this.jdbcPassword = jdbcPassword;
+	}
+
+
+	public String createConfigurationFile(){
+		return "SUCCESS";
+	}
        
 }
