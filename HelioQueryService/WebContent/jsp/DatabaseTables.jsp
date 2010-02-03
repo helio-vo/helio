@@ -74,13 +74,17 @@
   	
 		<TABLE width="100%" border="0" cellspacing="1" cellpadding="0" >
 			
-			<TR height=20 class="PopupAltDataRow">
+			<TR height=20 class="PopupAltDataRow"  >
 				<TD nowrap class="txtblackBP" width="15%"> Database tables : </TD>
-				<TD nowrap class="txtblackBP" >		
+				<TD nowrap class="txtblackBP"  >		
 					<s:select name="cmbDatabaseTableList" id="cmbDatabaseTableList" cssClass="stylecombo" list="hmbDatabaseTableList" onchange="javascript:getTableColumns();" headerKey="s" headerValue="-Select-" listKey="key" listValue="value" theme="simple"  />	
-		   			<!-- <A  href="javascript:getTableColumns();" onMouseOver="MM_swapImage('save','','<%=contextPath%>/Images/but_display_click.gif',1)" onMouseOut="MM_swapImgRestore()"><IMG src="<%=contextPath%>/Images/but_display_normal.gif" name="display" border="0" align="absmiddle" id="save" ></A>-->
-		   			&nbsp;&nbsp;&nbsp;<a href="javascript:doneColumnAdd();" onMouseOver="MM_swapImage('=done','','<%=contextPath%>/Images/but_done_click.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="<%=contextPath%>/Images/but_done_normal.gif" name="Done"  border="0" align="absmiddle" id="done"></a>&nbsp;
-	   		</TD>
+					&nbsp;&nbsp;&nbsp;<a href="javascript:doneColumnAdd();" onMouseOver="MM_swapImage('=done','','<%=contextPath%>/Images/but_done_click.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="<%=contextPath%>/Images/but_done_normal.gif" name="Done"  border="0" align="absmiddle" id="done"></a>&nbsp;
+		 	   </TD>
+	   		  <!--  <TD nowrap class="txtblackBP" > File Name and Path : </TD>
+	   		   <TD nowrap class="txtblackBP" >
+	   		  		<s:textfield id="filenameandpath" name="filenameandpath" cssClass="textfield" size="20" maxlength="50" value="" theme="simple"/>
+	   				&nbsp;&nbsp;&nbsp;<a href="javascript:doneColumnAdd();" onMouseOver="MM_swapImage('=done','','<%=contextPath%>/Images/but_done_click.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="<%=contextPath%>/Images/but_done_normal.gif" name="Done"  border="0" align="absmiddle" id="done"></a>&nbsp;
+	   		   </TD>-->
 			</TR>
 	     </TABLE>
 	     <TABLE width="100%" border="0" cellspacing="1" cellpadding="0" >
