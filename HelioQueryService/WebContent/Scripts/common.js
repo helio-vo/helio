@@ -359,6 +359,8 @@ function commonColumnAJAXRequest()
 	
 }
 
+
+
 function addColumnsOfSelectedTable()
 {
 	var selectedColumnValues="";
@@ -382,7 +384,6 @@ function addColumnsOfSelectedTable()
 		selectedColumnValues=selectedColumnValues.substring(0,selectedColumnValues.length-2);
 	}
 	
-
 	//create the Filter Row
 	var table = document.getElementById("addedColumns");
 	var rows = table.rows;
@@ -420,7 +421,6 @@ function addColumnsOfSelectedTable()
 	var newRow= table.insertRow(lastRow);
 	newRow.id="columnRow"+rowsCount;
 	newRow.className = newRowClassName;
-	
 	
 	var oCell = newRow.insertCell(0);
 	oCell.innerHTML = '<a href="#"><img src="Images/delete.gif"  alt="" border="0" title="Remove Criteria" onClick="removeColumn(this);"></a>';
@@ -463,6 +463,8 @@ function addColumnsOfSelectedTable()
 	document.getElementById("columnTableDiv").style.display = "none";
 	
 }
+
+
 
 function trim(stringToTrim) {
 	return stringToTrim.replace(/^\s+|\s+$/g,"");
