@@ -359,5 +359,106 @@ function commonColumnAJAXRequest()
 	
 }
 
+function addColumnsOfSelectedTable()
+{
+	var selectedColumnValues="";
+	var sColNameDt=document.forms[0].sColumnName;
+	for (i=0;i<sColNameDt.length;i++){
+		if(sColNameDt[i].checked){										 
+			selectedColumnValues+= sColNameDt[i].value+'::';										
+		}
+	}
+	
+	var timeConstraint=document.forms[0].timeConstraint.value;
+	var instrumentConstraint=document.forms[0].instrumentConstraint.value;
+	var coordinateConstraint=document.forms[0].coordinateConstraint.value;
+	var tableName=document.forms[0].cmbDatabaseTableList.value;
+	alert(" selectedColumnValues : "+selectedColumnValues +"timeConstraint "+timeConstraint+"instrumentConstraint "+instrumentConstraint+"coordinateConstraint "+coordinateConstraint );
+	
+	if(selectedColumnValues==null || selectedColumnValues==""){
+		alert("Please select atleast one column name.");
+		return false;
+	}else{
+		selectedColumnValues=selectedColumnValues.substring(0,selectedColumnValues.length-3);
+	}
+	
 
+	//create the Filter Row
+	var table = document.getElementById("addedColumns");
+	var rows = table.rows;
+	var lastRow = rows.length;
+
+	alert("rows "+rows);
+	var rowsCount=0;
+	if(rows.length>1){
+		rowsCount = parseInt(rows.length-1);
+	}
+	
+	alert(" rowsCount : "+rowsCount);
+	var hiddenValue=tableName+"^$$^"+selectedColumnValues+"^$$^"+timeConstraint+"^$$^"+instrumentConstraint+"^$$^"+coordinateConstraint;
+	var columnHidValue= '<input type="hidden" name="addedTableDetails" id="addedTableDetails'+rowsCount+'" value="'+hiddenValue+'">';
+	
+	var previousRowClassName="";
+	for(var i=0;i<rows.length;i++){
+		if(rows[i].className!=null && rows[i].className!=""){
+			previousRowClassName=rows[i].className;
+		}
+	}
+	
+	alert("previousRowClassName "+previousRowClassName);
+	
+	//get new Row Class Name
+	var newRowClassName;
+	if(previousRowClassName=="PopupAltDataRow"){
+		newRowClassName="PopupDataRow";
+	}else{
+		newRowClassName="PopupAltDataRow";
+	}
+	
+	alert("table "+table);
+	
+	var newRow= table.insertRow(lastRow);
+	newRow.id="columnRow"+rowsCount;
+	newRow.className = newRowClassName;
+	
+	
+	var oCell = newRow.insertCell(0);
+	oCell.innerHTML = '<a href="#"><img src="Images/delete.gif"  alt="" border="0" title="Remove Criteria" onClick="removeColumn(this);"></a>';
+	oCell.align="center";
+	oCell.width=20;
+	
+	oCell = newRow.insertCell(1);
+	oCell.innerHTML =tableName;
+	oCell.align="right";
+	oCell.style.paddingLeft="30px";
+	oCell.width=300;
+   	
+	oCell = newRow.insertCell(2);
+	oCell.innerHTML =selectedColumnValues.replace("::", ",");
+	oCell.align="right";
+	oCell.style.paddingLeft="30px";
+	oCell.width=300;
+	
+	oCell = newRow.insertCell(3);
+	oCell.innerHTML =timeConstraint;
+	oCell.align="right";
+	oCell.style.paddingLeft="30px";
+	oCell.width=300;
+	
+	oCell = newRow.insertCell(4);
+	oCell.innerHTML =instrumentConstraint;
+	oCell.align="right";
+	oCell.style.paddingLeft="30px";
+	oCell.width=300;
+	
+	oCell = newRow.insertCell(5);
+	oCell.innerHTML =coordinateConstraint+columnHidValue;
+	oCell.align="right";
+	oCell.style.paddingLeft="30px";
+	oCell.width=300;
+	
+	
+	
+	
+}
 
