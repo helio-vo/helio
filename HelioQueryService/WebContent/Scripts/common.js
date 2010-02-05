@@ -392,7 +392,7 @@ function addColumnsOfSelectedTable()
 	//alert("rows "+rows);
 	var rowsCount=0;
 	if(rows.length>1){
-		rowsCount = parseInt(rows.length-1);
+		rowsCount = parseInt(rows.length-1); 
 	}
 	
 	//alert(" rowsCount : "+rowsCount);
@@ -419,51 +419,99 @@ function addColumnsOfSelectedTable()
 	//alert("table "+table);
 	
 	var newRow= table.insertRow(lastRow);
-	newRow.id="columnRow"+rowsCount;
+	newRow.id="columnRow"+lastRow;
 	newRow.className = newRowClassName;
+	newRow.align = "left";
 	
 	var oCell = newRow.insertCell(0);
-	oCell.innerHTML = '<a href="#"><img src="Images/delete.gif"  alt="" border="0" title="Remove Criteria" onClick="removeColumn(this);"></a>';
+	oCell.innerHTML = '<a href="#"><img src="Images/delete.gif"  alt="" border="0" title="Remove Table" onClick=javascript:deleteTable("'+lastRow+'");></a>';
 	oCell.align="left";
 	oCell.width=20;
 	
 	oCell = newRow.insertCell(1);
 	oCell.innerHTML =trim(tableName);
 	oCell.align="left";
-	oCell.style.paddingLeft="30px";
+	oCell.style.paddingLeft="10px";
 	oCell.width=300;
    	
 	oCell = newRow.insertCell(2);
 	oCell.innerHTML =trim(replaceAll(selectedColumnValues,"::", ","));
 	oCell.align="left";
-	oCell.style.paddingLeft="30px";
+	oCell.style.paddingLeft="10px";
 	oCell.width=300;
 	
 	oCell = newRow.insertCell(3);
 	oCell.innerHTML =trim(timeConstraint);
 	oCell.align="left";
-	oCell.style.paddingLeft="30px";
+	oCell.style.paddingLeft="10px";
 	oCell.width=300;
 	
 	oCell = newRow.insertCell(4);
 	oCell.innerHTML =trim(instrumentConstraint);
 	oCell.align="left";
-	oCell.style.paddingLeft="30px";
+	oCell.style.paddingLeft="10px";
 	oCell.width=300;
 	
 	oCell = newRow.insertCell(5);
 	oCell.innerHTML =trim(coordinateConstraint)+columnHidValue;
 	oCell.align="left";
-	oCell.style.paddingLeft="30px";
+	oCell.style.paddingLeft="10px";
 	oCell.width=300;
 	
-	var cmbFilter = document.getElementById("cmbDatabaseTableList");
-	cmbFilter.remove(cmbFilter.selectedIndex);
+	var cmbTableList = document.getElementById("cmbDatabaseTableList");
+	cmbTableList.remove(cmbTableList.selectedIndex);
 	
 	document.getElementById("columnTableDiv").style.display = "none";
 	
 }
 
+function doneDatabaseConnection() 
+{
+	   
+	   var jdbcDriverName=document.forms[0].jdbcDriverName.value;
+	   var jdbcUrl=document.forms[0].jdbcUrl.value;
+	   var jdbcUser=document.forms[0].jdbcUser.value;
+	   var jdbcPassword=document.forms[0].jdbcPassword.value;
+			
+		   
+		if(jdbcDriverName==null || jdbcDriverName==""){
+			alert("Please enter Jdbc Driver Name.");
+			return true;
+		}
+		
+		if(jdbcUrl==null || jdbcUrl==""){
+			alert("Please enter Jdbc URL.");
+			return true;
+		}
+		
+		if(jdbcUser==null || jdbcUser==""){
+			alert("Please enter Jdbc User Name.");
+			return true;
+		}
+		
+		if(jdbcPassword==null || jdbcPassword==""){
+			alert("Please enter Jdbc Password.");
+			return true;
+		}
+		
+		document.forms[0].target="_self";
+		document.forms[0].action="getConfigurationPropertyFilePage.action";
+		document.forms[0].method="post";
+		document.forms[0].submit();
+		
+		
+}
+
+function deleteTable(rowIndex){		    
+  	alert("  rowIndex  "+rowIndex);
+    var table=document.getElementById("addedColumns");
+    var Row = document.getElementById("columnRow"+rowIndex);
+    var tableName = Row.cells[1].innerHTML;
+	alert("tableName "+tableName)
+	table.deleteRow(rowIndex);
+	var cmbTableList = document.getElementById("cmbDatabaseTableList");
+	
+}
 
 
 function trim(stringToTrim) {
