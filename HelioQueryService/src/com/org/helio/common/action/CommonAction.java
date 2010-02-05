@@ -25,8 +25,6 @@ public class CommonAction  extends ActionSupport
     
     public boolean statusDisplay;
     
-    
-    
 	public boolean isStatusDisplay() {
 		return statusDisplay;
 	}
