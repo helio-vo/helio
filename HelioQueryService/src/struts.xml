@@ -12,15 +12,22 @@
 		<default-interceptor-ref name="defaultStack"/>	
 	
 	<action name="display" method="display" class="com.org.helio.common.action.CommonAction">
-            <result  name="SUCCESS" >jsp/AdminHome.jsp</result>		
+            <result  name="SUCCESS" >jsp/AdminHome.jsp</result>
+            <result  name="ERROR" >jsp/AdminHome.jsp</result>				
 	</action>
 	
 	<action name="getConfigurationPropertyFilePage" method="getConfigurationPropertyFilePage" class="com.org.helio.common.action.CommonAction">
-            <result  name="SUCCESS" >jsp/DatabaseTables.jsp</result>		
+            <result  name="SUCCESS" >jsp/DatabaseTables.jsp</result>
+            <result  name="ERROR" >jsp/DatabaseConfiguration.jsp</result>				
 	</action>
 	
 	<action name="getTableColumnList" method="getTableColumnList" class="com.org.helio.common.action.CommonAction">
             <result  name="SUCCESS" >jsp/ListOfTableColumns.jsp</result>		
+	</action>
+	
+	<action name="getDatabaseConfigurationPage" method="getDatabaseConfigurationPage" class="com.org.helio.common.action.CommonAction">
+            <result  name="SUCCESS" >jsp/DatabaseConfiguration.jsp</result>	
+            <result  name="ERROR" >jsp/DatabaseConfiguration.jsp</result>	
 	</action>
 	
 	<!-- End of instruments -->
