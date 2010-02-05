@@ -12,7 +12,7 @@
 <HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <HEAD>
     <TITLE> 
-    		HelioSystem - Instruments 
+    		Helio Query Service - Database configuration. 
     </TITLE>
     <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
@@ -27,7 +27,7 @@
 			var CalendarToolTip=new Array();
 			CalendarToolTip[0]=new toolTipObj('1','Date Picker')
 		</script>
-  <BODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"  onLoad="MM_preloadImages('<%=contextPath%>/Images/but_save_click.gif','<%=contextPath%>Images/but_cancel_click.gif');">
+  <BODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"  onLoad="MM_preloadImages('<%=contextPath%>/Images/but_done_click.gif');">
     <DIV id="ToolTip">
     </DIV>
     
@@ -90,21 +90,24 @@
 	     <TABLE width="100%" border="0" cellspacing="1" cellpadding="0" >
 	   		<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" width="15%">Jdbc Driver Name:</TD>
-				<td >&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcDriverName" name="jdbcDriverName" cssClass="textfield" size="20" maxlength="20" value="" theme="simple"/></td>				
+				<td >&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcDriverName" name="jdbcDriverName" cssClass="textfield" size="20" maxlength="20"  theme="simple"/></td>				
 			</TR>
 			<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" >Jdbc URL:</TD>
-				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcUrl" name="jdbcUrl" cssClass="textfield" size="20" maxlength="100" value="" theme="simple"/></td>				
+				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcUrl" name="jdbcUrl" cssClass="textfield" size="20" maxlength="100"  theme="simple"/></td>				
 			</TR>
 				<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" >Jdbc User:</TD>
-				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcUser" name="jdbcUser" cssClass="textfield" size="20" maxlength="20" value="" theme="simple"/></td>				
+				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcUser" name="jdbcUser" cssClass="textfield" size="20" maxlength="20"  theme="simple"/></td>				
 			</TR>
 			<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" >Jdbc Password:</TD>
-				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcPassword" name="jdbcPassword" cssClass="textfield" size="20" maxlength="20" value="" theme="simple"/></td>				
+				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcPassword" name="jdbcPassword" cssClass="textfield" size="20" maxlength="20"  theme="simple"/></td>				
 			</TR>			
-				
+			<TR height=20 class="PopupAltDataRow">
+				<TD nowrap class="txtblackBP" >File Name & Path:</TD>
+				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="fileNamePath" name="fileNamePath" cssClass="textfield" size="20" maxlength="20"  theme="simple"/></td>				
+			</TR>	
 	     </TABLE>
 	     <TABLE width="100%" border="0" cellspacing="1" cellpadding="0" >
 	    <tr>

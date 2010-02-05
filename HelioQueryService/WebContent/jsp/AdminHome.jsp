@@ -31,6 +31,19 @@ cellspacing="0">
 		 <%@ include file="./includes/MenuHeader.jsp" %>
 	</td>
   </tr>
+  <TR>
+          <TD align="left" valign="top">
+            <!-- Body starts here -->
+            <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+              <TR>
+                <TD  align="left" valign="middle" class="txtError"> 
+                	<!--Error message can be displayed here....-->
+                	<s:actionerror/>
+                </TD>
+              </TR>
+            </TABLE>
+           </TD>
+        </TR>
   <tr>
     <td height="100%" align="left" valign="top">
 		 		   
@@ -42,6 +55,7 @@ cellspacing="0">
          </td>
          </tr>
          <tr><td>&nbsp;</td></tr>
+         <s:if test="statusDisplay == true">
          <tr class="txtblackBP" > 
            <td>
               <ul>
@@ -49,13 +63,14 @@ cellspacing="0">
               </ul>            
           </td>
          </tr> 
-        <!--  <tr class="txtblackBP" > 
+         </s:if>
+         <tr class="txtblackBP" > 
            <td>
               <ul>
-                  <li><a href="javascript:doSub('getConfigurationPropertyFilePage.action')"> How to configure my property file </a></li>		             
+                  <li><a href="javascript:doSub('getDatabaseConfigurationPage.action')"> Configuration for connecting database. </a></li>		             
               </ul>            
           </td>
-         </tr> -->                                
+         </tr>                              
       </table>   
      </s:form>
  	</td>
