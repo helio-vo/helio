@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 
 public class InstanceHolders {
-	private HashMap<String,Process> hmRunningProcess=new HashMap<String,Process>();
+	private HashMap<String,String> hmRunningProcess=new HashMap<String,String>();
 	private static InstanceHolders oInstanceHolders =null;
 	private InstanceHolders ()
 	{
@@ -19,16 +19,16 @@ public class InstanceHolders {
 		return oInstanceHolders; 
 	}
 
-	public synchronized  void addProcess(String sUser,Process oProcess) throws Exception
+	public synchronized  void setProperty(String key,String value) throws Exception
 	{
-		if(hmRunningProcess.containsKey(sUser))
+		if(hmRunningProcess.containsKey(key))
 		{
-			throw new Exception("Could not update database connection details. ");
+			hmRunningProcess.remove(key);
 		}
-		hmRunningProcess.put(sUser, oProcess);
+		hmRunningProcess.put(key, value);
 	}
 	
-	public synchronized  void removeProcess(String sUser)
+	public synchronized  void removeProperty(String sUser)
 	{
 		if(!hmRunningProcess.containsKey(sUser))
 		{
@@ -37,22 +37,15 @@ public class InstanceHolders {
 		hmRunningProcess.remove(sUser);
 	}
 	
-	public synchronized  Process getProcess(String sUser)
+	public synchronized  String getProperty(String key)
 	{
-		if(!hmRunningProcess.containsKey(sUser))
+		if(!hmRunningProcess.containsKey(key))
 		{
-			return null;
+			return "";
 		}
-		return hmRunningProcess.get(sUser);
+		return hmRunningProcess.get(key);
 	}
 	
-	public synchronized  boolean isProcessRunning(String sUser)
-	{
-		if(!hmRunningProcess.containsKey(sUser))
-		{
-			return false;
-		}
-		return true;
-	}
+	
 		
 }
