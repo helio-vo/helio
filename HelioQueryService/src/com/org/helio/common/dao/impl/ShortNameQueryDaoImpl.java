@@ -204,7 +204,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		ResultSet rs=null;
 		String[] listName=comCriteriaTO.getListName().split(",");
 		StarTable[] tables=new StarTable[listName.length];
-		
+		try{
 		//For loop start
 		for(int intCnt=0;intCnt<listName.length;intCnt++){
 			String sRepSql = CommonUtils.replaceParams(generateQuery(listName[intCnt],comCriteriaTO), comCriteriaTO.getParamData());
@@ -225,7 +225,57 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		VOTableMaker.setColInfoProperty(tables, listName);
 		//Writing all details into table.
 		VOTableMaker.writeTables(comCriteriaTO);
-					
+		
+		if(rms!=null)
+		{
+			rms = null;
+		}
+		if(rs!=null)
+		{
+			rs.close();
+			rs=null;
+		}
+		if(st!=null)
+		{
+			st.close();
+			st=null;
+		}
+		if(con!=null)
+		{
+			con.close();
+			con=null;
+		}
+		
+		} catch (Exception e) {			
+			throw new ShortNameQueryException("EXCEPTION ", e);
+		}
+		finally
+		{
+			try {
+				if(rms!=null)
+				{
+					rms = null;
+				}
+				if(rs!=null)
+				{
+					rs.close();
+					rs=null;
+				}
+				if(st!=null)
+				{
+					st.close();
+					st=null;
+				}
+				if(con!=null)
+				{
+					con.close();
+					con=null;
+				}
+				
+			} catch (Exception e) {
+				
+			}
+	}		
 	}
 	
 	/*
@@ -283,13 +333,29 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	public HashMap<String,String> getDatabaseTableNames(Connection con) throws Exception 
 	{
 		HashMap<String,String> hmbDatabaseTableList=new HashMap<String,String>();	  
-		DatabaseMetaData md = con.getMetaData();
-	    ResultSet rs = md.getTables(null, null, "%", null);
-	    while (rs.next()) {
-	      // System.out.println(rs.getString(3));
-	      hmbDatabaseTableList.put(rs.getString(3), rs.getString(3));
-	    }
-	    
+		try{
+			DatabaseMetaData md = con.getMetaData();
+		    ResultSet rs = md.getTables(null, null, "%", null);
+		    while (rs.next()) {
+		      // System.out.println(rs.getString(3));
+		      hmbDatabaseTableList.put(rs.getString(3), rs.getString(3));
+		    }
+		} catch (Exception e) {			
+			throw new Exception("EXCEPTION ", e);
+		}
+		finally
+		{
+			try {
+				if(con!=null)
+				{
+					con.close();
+					con=null;
+				}
+				
+			} catch (Exception e) {
+				
+			}
+	}	
 	    return hmbDatabaseTableList;
 	}
 	
@@ -300,21 +366,43 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	{
 		ResultSet rsColumns = null;
 		CommonTO[] columnTO = null;
-		DatabaseMetaData meta = con.getMetaData();
-	    rsColumns = meta.getColumns(null, null, tableName, null);
-	    rsColumns.last();
-	    int intCount=rsColumns.getRow();
-	    rsColumns.beforeFirst();
-	    if(rsColumns!=null){
-	    	columnTO = new CommonTO[intCount];
-     		int i=0;
-		    while (rsColumns.next()) {
-		      columnTO[i]=new CommonTO();
-		      columnTO[i].setColumnName(rsColumns.getString("COLUMN_NAME"));
-		      columnTO[i].setColumnType(rsColumns.getString("TYPE_NAME"));
-		      i++;
+		try{
+			DatabaseMetaData meta = con.getMetaData();
+		    rsColumns = meta.getColumns(null, null, tableName, null);
+		    rsColumns.last();
+		    int intCount=rsColumns.getRow();
+		    rsColumns.beforeFirst();
+		    if(rsColumns!=null){
+		    	columnTO = new CommonTO[intCount];
+	     		int i=0;
+			    while (rsColumns.next()) {
+			      columnTO[i]=new CommonTO();
+			      columnTO[i].setColumnName(rsColumns.getString("COLUMN_NAME"));
+			      columnTO[i].setColumnType(rsColumns.getString("TYPE_NAME"));
+			      i++;
+			    }
 		    }
-	    }
+		} catch (Exception e) {			
+			throw new Exception("EXCEPTION ", e);
+		}
+		finally
+		{
+			try {
+				if(rsColumns!=null)
+				{
+					rsColumns.close();
+					rsColumns=null;
+				}
+				if(con!=null)
+				{
+					con.close();
+					con=null;
+				}
+				
+			} catch (Exception e) {
+				
+			}
+	}	
 		return columnTO;
 	}
 	
