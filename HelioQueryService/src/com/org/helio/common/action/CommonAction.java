@@ -1,5 +1,6 @@
 package com.org.helio.common.action;
 
+import java.sql.Connection;
 import java.util.HashMap;
 
 import org.apache.log4j.Logger;
@@ -7,11 +8,14 @@ import org.apache.struts2.ServletActionContext;
 import org.hibernate.Session;
 
 import javax.servlet.http.HttpServletRequest;
+
 import com.opensymphony.xwork2.ActionSupport;
 import com.org.helio.common.dao.CommonDaoFactory;
 import com.org.helio.common.dao.interfaces.ShortNameQueryDao;
 import com.org.helio.common.transfer.CommonTO;
+import com.org.helio.common.util.ConfigurationProfiler;
 import com.org.helio.common.util.ConnectionManager;
+import com.org.helio.common.util.InstanceHolders;
  
 public class CommonAction  extends ActionSupport
 {	
@@ -19,9 +23,33 @@ public class CommonAction  extends ActionSupport
     private static final long serialVersionUID = 1L;
     protected final  Logger logger = Logger.getLogger(this.getClass());
     
+    public boolean statusDisplay;
+    
+    
+    
+	public boolean isStatusDisplay() {
+		return statusDisplay;
+	}
+
+	public void setStatusDisplay(boolean statusDisplay) {
+		this.statusDisplay = statusDisplay;
+	}
+
 	public String display(){ 
+		String sReturnStatus="ERROR";
 		
-    	return "SUCCESS";
+		//Checking for connection
+		Connection con=ConnectionManager.getConnectionForWebApp();
+		if(con!=null){
+			setStatusDisplay(true);
+			sReturnStatus="SUCCESS";
+		}else{
+			sReturnStatus="ERROR";
+			setStatusDisplay(false);
+			addActionError("Could not connect database, please check database configuration details.");
+		}
+		
+    	return sReturnStatus;
     }
 	
 	private String cmbDatabaseTableList;
@@ -44,18 +72,84 @@ public class CommonAction  extends ActionSupport
 		this.hmbDatabaseTableList = hmbDatabaseTableList;
 	}
 
+	/*
+	 * Configuration of database table.
+	 */
+	public String getDatabaseConfigurationPage()
+	{
+		
+		//Setting jdbc driver name
+		setJdbcDriverName(InstanceHolders.getInstance().getProperty("jdbc.driver"));
+		//Setting jdbc connection url
+		setJdbcUrl(InstanceHolders.getInstance().getProperty("jdbc.url"));
+		//Setting jdbc connection user
+		setJdbcUser(InstanceHolders.getInstance().getProperty("jdbc.user"));
+		//Setting jdbc connection password.
+		setJdbcPassword(InstanceHolders.getInstance().getProperty("jdbc.password"));
+		String sReturnStatus="ERROR";
+		//Checking for connection
+		Connection con=ConnectionManager.getConnectionForWebApp();
+		if(con!=null){
+			setStatusDisplay(true);
+			sReturnStatus="SUCCESS";
+		}else{
+			sReturnStatus="ERROR";
+			setStatusDisplay(false);
+			addActionError(" Database configuration details is incorrect.");
+		}
+		
+		return sReturnStatus;
+	}
+	
 
 	public String getConfigurationPropertyFilePage(){
-		
+		String sReturnStatus="ERROR";
+		Connection con=null;
 		ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
 		try {
-			hmbDatabaseTableList=shortNameDao.getDatabaseTableNames(ConnectionManager.getConnection());
+			System.out.println(""+getJdbcDriverName()+""+getJdbcUrl()+""+getJdbcUser()+""+getJdbcPassword());
+			//Setting jdbc driver name
+			if(getJdbcDriverName()!=null && !getJdbcDriverName().equals(""))
+				InstanceHolders.getInstance().setProperty("jdbc.driver",getJdbcDriverName());
+			else
+				setJdbcDriverName(InstanceHolders.getInstance().getProperty("jdbc.driver"));
+			//Setting jdbc connection url
+			if(getJdbcUrl()!=null && !getJdbcUrl().equals(""))
+				InstanceHolders.getInstance().setProperty("jdbc.url",getJdbcUrl());
+			else
+				setJdbcUrl(InstanceHolders.getInstance().getProperty("jdbc.url"));	
+			//Setting jdbc connection user
+			if(getJdbcUser()!=null && !getJdbcUser().equals(""))
+				InstanceHolders.getInstance().setProperty("jdbc.user",getJdbcUser());
+			else
+				setJdbcUser(InstanceHolders.getInstance().getProperty("jdbc.user"));
+			//Setting jdbc connection password.
+			if(getJdbcPassword()!=null && !getJdbcPassword().equals(""))
+				InstanceHolders.getInstance().setProperty("jdbc.password",getJdbcPassword());
+			else
+				setJdbcPassword(InstanceHolders.getInstance().getProperty("jdbc.password"));
+			//Checking for connection
+			con= ConnectionManager.getConnectionForWebApp();
+			if(con!=null){
+				setStatusDisplay(true);
+				sReturnStatus="SUCCESS";
+				//List of table names of the database
+				hmbDatabaseTableList=shortNameDao.getDatabaseTableNames(con);
+			}else{
+				sReturnStatus="ERROR";
+				setStatusDisplay(false);
+				addActionError("Could not connect database, please check database configuration details.");
+			}
+		
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.fatal(" Exception occured in getDatabaseTableNames method of ShortNameQueryDaoImpl :",e);
+			addActionError("Couldn't retrieve database table name.");
+			sReturnStatus="ERROR";
+			
 		}
 		
-		return "SUCCESS";
+		return sReturnStatus;
 	}
 	
 	private CommonTO[] columnTO;
@@ -83,7 +177,7 @@ public class CommonAction  extends ActionSupport
 		
 		ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
 		try {
-			columnTO=shortNameDao.getTableColumnNames(ConnectionManager.getConnection(),tableName);
+			columnTO=shortNameDao.getTableColumnNames(ConnectionManager.getConnectionForWebApp(),tableName);
 			setTableName(tableName);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -153,5 +247,18 @@ public class CommonAction  extends ActionSupport
 	public String createConfigurationFile(){
 		return "SUCCESS";
 	}
+	
+	private String fileNamePath;
+	
+
+	public String getFileNamePath() {
+		return fileNamePath;
+	}
+
+	public void setFileNamePath(String fileNamePath) {
+		this.fileNamePath = fileNamePath;
+	}
+	
+	
        
 }
