@@ -78,7 +78,7 @@
 				<TD nowrap class="txtblackBP" width="15%"> Database tables : </TD>
 				<TD nowrap class="txtblackBP"  >		
 					<s:select name="cmbDatabaseTableList" id="cmbDatabaseTableList" cssClass="stylecombo" list="hmbDatabaseTableList" onchange="javascript:getTableColumns();" headerKey="s" headerValue="-Select-" listKey="key" listValue="value" theme="simple"  />	
-					&nbsp;&nbsp;&nbsp;<a href="javascript:doneColumnAdd();" onMouseOver="MM_swapImage('=done','','<%=contextPath%>/Images/but_done_click.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="<%=contextPath%>/Images/but_done_normal.gif" name="Done"  border="0" align="absmiddle" id="done"></a>&nbsp;
+					&nbsp;&nbsp;&nbsp;<a onclick="javascript:doneColumnAdd();" onMouseOver="MM_swapImage('=done','','<%=contextPath%>/Images/but_done_click.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="<%=contextPath%>/Images/but_done_normal.gif" name="Done"  border="0" align="absmiddle" id="done"></a>&nbsp;
 		 	   </TD>
 	   		  <!--  <TD nowrap class="txtblackBP" > File Name and Path : </TD>
 	   		   <TD nowrap class="txtblackBP" >
@@ -90,7 +90,7 @@
 	     <TABLE width="100%" border="0" cellspacing="1" cellpadding="0" >
 	   		<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" width="15%">Jdbc Driver Name:</TD>
-				<td >&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcDriverName" name="jdbcDriverName" cssClass="textfield" size="20" maxlength="20"  theme="simple"/></td>				
+				<td >&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcDriverName" name="jdbcDriverName" cssClass="textfield" size="20" maxlength="100"  theme="simple"/></td>				
 			</TR>
 			<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" >Jdbc URL:</TD>
@@ -98,15 +98,15 @@
 			</TR>
 				<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" >Jdbc User:</TD>
-				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcUser" name="jdbcUser" cssClass="textfield" size="20" maxlength="20"  theme="simple"/></td>				
+				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcUser" name="jdbcUser" cssClass="textfield" size="20" maxlength="100"  theme="simple"/></td>				
 			</TR>
 			<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" >Jdbc Password:</TD>
-				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcPassword" name="jdbcPassword" cssClass="textfield" size="20" maxlength="20"  theme="simple"/></td>				
+				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="jdbcPassword" name="jdbcPassword" cssClass="textfield" size="20" maxlength="100"  theme="simple"/></td>				
 			</TR>			
 			<TR height=20 class="PopupAltDataRow">
 				<TD nowrap class="txtblackBP" >File Name & Path:</TD>
-				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="fileNamePath" name="fileNamePath" cssClass="textfield" size="20" maxlength="20"  theme="simple"/></td>				
+				<td>&nbsp;&nbsp;&nbsp;<s:textfield id="fileNamePath" name="fileNamePath" cssClass="textfield" size="20" maxlength="100"  theme="simple"/></td>				
 			</TR>	
 	     </TABLE>
 	     <TABLE width="100%" border="0" cellspacing="1" cellpadding="0" >
@@ -131,6 +131,7 @@
 			              <td class="txtblackBP">Time Constraint</td>
 			              <td class="txtblackBP">Instrument Constraint</td>                       
 			              <td class="txtblackBP">Coordinate Constraint</td>
+			              <td class="txtblackBP">Order By Constraint</td>
 					  </tr>
 					 </TABLE>
 				 

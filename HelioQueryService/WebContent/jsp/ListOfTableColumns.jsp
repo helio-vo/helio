@@ -15,6 +15,11 @@
 								<TD nowrap class="txtblackBP" >Coordinate Constraint:</TD>
 								<td>&nbsp;&nbsp;&nbsp;<s:textfield id="coordinateConstraint" name="coordinateConstraint" cssClass="textfield" size="20" maxlength="200" value="" theme="simple"/></td>				
 							</TR>
+							</TR>
+								<TR height=20 class="PopupAltDataRow">
+								<TD nowrap class="txtblackBP" >Oder By Constraint:</TD>
+								<td>&nbsp;&nbsp;&nbsp;<s:textfield id="orderByConstraint" name="orderByConstraint" cssClass="textfield" size="20" maxlength="200" value="" theme="simple"/></td>				
+							</TR>
 					 		<%
 						        int i=0;
 						    %>
