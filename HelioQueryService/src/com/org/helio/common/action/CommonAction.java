@@ -153,8 +153,6 @@ public class CommonAction  extends ActionSupport
 	}
 	
 	
-	
-	
 	private CommonTO[] columnTO;
 	private String tableName;
 	public CommonTO[] getColumnTO() {
