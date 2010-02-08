@@ -30,6 +30,11 @@
             <result  name="ERROR" >jsp/DatabaseConfiguration.jsp</result>	
 	</action>
 	
+	<action name="createConfigurationFile" method="createConfigurationFile" class="com.org.helio.common.action.CommonAction">
+            <result  name="SUCCESS" >jsp/AdminHome.jsp</result>	
+            <result  name="ERROR" >jsp/DatabaseTables.jsp</result>	
+	</action>
+	
 	<!-- End of instruments -->
     </package>
 </struts>
