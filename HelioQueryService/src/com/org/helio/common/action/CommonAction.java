@@ -143,7 +143,7 @@ public class CommonAction  extends ActionSupport
 		
 		} catch (Exception e) {
 			e.printStackTrace();
-			logger.fatal(" Exception occured in getDatabaseTableNames method of ShortNameQueryDaoImpl :",e);
+			logger.fatal(" Exception occured in getDatabaseTableNames method of CommonAction :",e);
 			addActionError("Couldn't retrieve database table name.");
 			sReturnStatus="ERROR";
 			
@@ -184,7 +184,7 @@ public class CommonAction  extends ActionSupport
 			setTableName(tableName);
 		} catch (Exception e) {
 			e.printStackTrace();
-			logger.fatal(" Exception occured in getTableColumnList method of ShortNameQueryDaoImpl :",e);
+			logger.fatal(" Exception occured in getTableColumnList method of CommonAction :",e);
 	}
 	
 	return "SUCCESS";
@@ -286,14 +286,20 @@ public class CommonAction  extends ActionSupport
 					}
 				}
 			}
+			
+			//Getting content to write the file.
 			String aContents=FileUtils.getContents(fileResultTO);
 			
+			//Writing all value into the file.
 			FileUtils.setContents(fileNamePath, aContents);
 			
+			//Setting flag to true, database details are correct.
 			setStatusDisplay(true);
 		
 		}catch (Exception e) {
-			setStatusDisplay(false);
+			setStatusDisplay(true);
+			logger.fatal(" Exception occured in createConfigurationFile method of CommonAction :",e);
+			addActionError("Couldn't create the property file at "+fileNamePath);
 		}
 		
 		return sReturnStatus;
