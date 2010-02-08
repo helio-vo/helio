@@ -262,35 +262,35 @@ public class CommonAction  extends ActionSupport
 		String sReturnStatus="SUCCESS";
 		FileResultTO[] fileResultTO=null;
 		try{
-		
-		System.out.println(" :  Added Table Details  : "+getAddedTableDetails());
-		fileResultTO = new FileResultTO[getAddedTableDetails().length];
-		if(getAddedTableDetails()!=null){
-			for(int i=0;i<getAddedTableDetails().length;i++){
-				if(getAddedTableDetails()[i]!=null && !getAddedTableDetails()[i].equals("")){
-					String[] details=getAddedTableDetails()[i].split("\\^\\$\\$\\^");
-					System.out.println(getAddedTableDetails()[i]);
-					fileResultTO[i]=new FileResultTO();
-					fileResultTO[i].setJdbcDriverName("jdbc.driver="+jdbcDriverName);
-					fileResultTO[i].setJdbcUrl("jdbc.url="+jdbcUrl);
-					fileResultTO[i].setJdbcPassword("jdbc.password="+jdbcPassword);
-					fileResultTO[i].setJdbcUser("jdbc.user="+jdbcUser);
-					fileResultTO[i].setColumnNames("sql.columnnames."+details[0]+"="+details[1]);
-					fileResultTO[i].setColumnUCD("sql.columnucd."+details[0]+"=");
-					fileResultTO[i].setColumnUType("sql.columnutypes."+details[0]+"=");
-					fileResultTO[i].setColumnDesc("sql.columndesc."+details[0]+"=");
-					fileResultTO[i].setTimeConstraint("sql.query.time.constraint."+details[0]+"="+details[2]);
-					fileResultTO[i].setCoordinateConstraint("sql.query.coordinates.constraint."+details[0]+"="+details[4]);
-					fileResultTO[i].setInstrumentConstraint("sql.query.instr.constraint."+details[0]+"="+details[3]);
-					fileResultTO[i].setOrderByConstraint("sql.query.orderby.constraint."+details[0]+"="+details[5]);
+			
+			System.out.println(" :  Added Table Details  : "+getAddedTableDetails());
+			fileResultTO = new FileResultTO[getAddedTableDetails().length];
+			if(getAddedTableDetails()!=null){
+				for(int i=0;i<getAddedTableDetails().length;i++){
+					if(getAddedTableDetails()[i]!=null && !getAddedTableDetails()[i].equals("")){
+						String[] details=getAddedTableDetails()[i].split("\\^\\$\\$\\^");
+						System.out.println(getAddedTableDetails()[i]);
+						fileResultTO[i]=new FileResultTO();
+						fileResultTO[i].setJdbcDriverName("jdbc.driver="+jdbcDriverName);
+						fileResultTO[i].setJdbcUrl("jdbc.url="+jdbcUrl);
+						fileResultTO[i].setJdbcPassword("jdbc.password="+jdbcPassword);
+						fileResultTO[i].setJdbcUser("jdbc.user="+jdbcUser);
+						fileResultTO[i].setColumnNames("sql.columnnames."+details[0]+"="+details[1]);
+						fileResultTO[i].setColumnUCD("sql.columnucd."+details[0]+"=");
+						fileResultTO[i].setColumnUType("sql.columnutypes."+details[0]+"=");
+						fileResultTO[i].setColumnDesc("sql.columndesc."+details[0]+"=");
+						fileResultTO[i].setTimeConstraint("sql.query.time.constraint."+details[0]+"="+details[2]);
+						fileResultTO[i].setCoordinateConstraint("sql.query.coordinates.constraint."+details[0]+"="+details[4]);
+						fileResultTO[i].setInstrumentConstraint("sql.query.instr.constraint."+details[0]+"="+details[3]);
+						fileResultTO[i].setOrderByConstraint("sql.query.orderby.constraint."+details[0]+"="+details[5]);
+					}
 				}
 			}
-		}
-		String aContents=FileUtils.getContents(fileResultTO);
-		
-		FileUtils.setContents(fileNamePath, aContents);
-		
-		setStatusDisplay(true);
+			String aContents=FileUtils.getContents(fileResultTO);
+			
+			FileUtils.setContents(fileNamePath, aContents);
+			
+			setStatusDisplay(true);
 		
 		}catch (Exception e) {
 			setStatusDisplay(false);
