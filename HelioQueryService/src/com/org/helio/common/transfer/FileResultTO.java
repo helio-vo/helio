@@ -19,6 +19,8 @@ public class FileResultTO implements Serializable {
 	private String columnUCD;
 	private String columnUType;
 	private String columnDesc;
+	private String orderByConstraint;
+	
 	
 	public String getJdbcDriverName() {
 		return jdbcDriverName;
@@ -92,6 +94,13 @@ public class FileResultTO implements Serializable {
 	public void setColumnDesc(String columnDesc) {
 		this.columnDesc = columnDesc;
 	}
+	public String getOrderByConstraint() {
+		return orderByConstraint;
+	}
+	public void setOrderByConstraint(String orderByConstraint) {
+		this.orderByConstraint = orderByConstraint;
+	}
+	
 	
 	
 
