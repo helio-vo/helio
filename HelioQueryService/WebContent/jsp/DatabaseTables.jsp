@@ -23,10 +23,7 @@
       <script src="<%=contextPath%>/Scripts/toolTip.js"></script>
       <script src="<%=contextPath%>/Scripts/menu.js"></script>
   </HEAD>
-   <script type="text/javascript">
-			var CalendarToolTip=new Array();
-			CalendarToolTip[0]=new toolTipObj('1','Date Picker')
-		</script>
+ 
   <BODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"  onLoad="MM_preloadImages('<%=contextPath%>/Images/but_done_click.gif');">
     <DIV id="ToolTip">
     </DIV>
