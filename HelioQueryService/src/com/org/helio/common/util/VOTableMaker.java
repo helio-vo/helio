@@ -155,15 +155,15 @@ public class VOTableMaker {
     	   	
     	for ( int i = 0; i < tables.length; i++ ) {
     		//Column Description
-    		String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc."+listName[i]).split("::");
+    		//String[] columnDesc=ConfigurationProfiler.getInstance().getProperty("sql.columndesc."+listName[i]).split("::");
     		//Column UCD's
-    		String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd."+listName[i]).split("::");
+    		//String[] columnUcd=ConfigurationProfiler.getInstance().getProperty("sql.columnucd."+listName[i]).split("::");
     		
     		for(int j=0;j<tables[ i ].getColumnCount();j++){
     			//Setting UCD's for column.
-    			tables[ i ].getColumnInfo( j ).setUCD(columnUcd[j]);
+    			//tables[ i ].getColumnInfo( j ).setUCD(columnUcd[j]);
     			//Setting Description for column.
-    			tables[ i ].getColumnInfo( j ).setDescription(columnDesc[j]);
+    			//tables[ i ].getColumnInfo( j ).setDescription(columnDesc[j]);
     			Tables.setUtype( tables[ i ].getColumnInfo( j ), "xx:foo.bar" );
     		}
     	}
