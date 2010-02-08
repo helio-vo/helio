@@ -13,8 +13,10 @@ import com.opensymphony.xwork2.ActionSupport;
 import com.org.helio.common.dao.CommonDaoFactory;
 import com.org.helio.common.dao.interfaces.ShortNameQueryDao;
 import com.org.helio.common.transfer.CommonTO;
+import com.org.helio.common.transfer.FileResultTO;
 import com.org.helio.common.util.ConfigurationProfiler;
 import com.org.helio.common.util.ConnectionManager;
+import com.org.helio.common.util.FileUtils;
 import com.org.helio.common.util.InstanceHolders;
  
 public class CommonAction  extends ActionSupport
@@ -31,8 +33,8 @@ public class CommonAction  extends ActionSupport
 
 	public void setStatusDisplay(boolean statusDisplay) {
 		this.statusDisplay = statusDisplay;
-	}
-
+	}	
+	
 	public String display(){ 
 		String sReturnStatus="ERROR";
 		
@@ -243,11 +245,6 @@ public class CommonAction  extends ActionSupport
 	public void setJdbcPassword(String jdbcPassword) {
 		this.jdbcPassword = jdbcPassword;
 	}
-
-
-	public String createConfigurationFile(){
-		return "SUCCESS";
-	}
 	
 	private String fileNamePath;
 	
@@ -260,6 +257,46 @@ public class CommonAction  extends ActionSupport
 		this.fileNamePath = fileNamePath;
 	}
 	
+	public String createConfigurationFile()
+	{
+		String sReturnStatus="SUCCESS";
+		FileResultTO[] fileResultTO=null;
+		try{
+		
+		System.out.println(" :  Added Table Details  : "+getAddedTableDetails());
+		fileResultTO = new FileResultTO[getAddedTableDetails().length];
+		if(getAddedTableDetails()!=null){
+			for(int i=0;i<getAddedTableDetails().length;i++){
+				if(getAddedTableDetails()[i]!=null && !getAddedTableDetails()[i].equals("")){
+					String[] details=getAddedTableDetails()[i].split("\\^\\$\\$\\^");
+					System.out.println(getAddedTableDetails()[i]);
+					fileResultTO[i]=new FileResultTO();
+					fileResultTO[i].setJdbcDriverName("jdbc.driver="+jdbcDriverName);
+					fileResultTO[i].setJdbcUrl("jdbc.url="+jdbcUrl);
+					fileResultTO[i].setJdbcPassword("jdbc.password="+jdbcPassword);
+					fileResultTO[i].setJdbcUser("jdbc.user="+jdbcUser);
+					fileResultTO[i].setColumnNames("sql.columnnames."+details[0]+"="+details[1]);
+					fileResultTO[i].setColumnUCD("sql.columnucd."+details[0]+"=");
+					fileResultTO[i].setColumnUType("sql.columnutypes."+details[0]+"=");
+					fileResultTO[i].setColumnDesc("sql.columndesc."+details[0]+"=");
+					fileResultTO[i].setTimeConstraint("sql.query.time.constraint."+details[0]+"="+details[2]);
+					fileResultTO[i].setCoordinateConstraint("sql.query.coordinates.constraint."+details[0]+"="+details[4]);
+					fileResultTO[i].setInstrumentConstraint("sql.query.instr.constraint."+details[0]+"="+details[3]);
+				}
+			}
+		}
+		String aContents=FileUtils.getContents(fileResultTO);
+		
+		FileUtils.setContents(fileNamePath, aContents);
+		
+		setStatusDisplay(true);
+		
+		}catch (Exception e) {
+			setStatusDisplay(false);
+		}
+		
+		return sReturnStatus;
+	}
 	
        
 }
