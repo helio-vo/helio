@@ -374,6 +374,7 @@ function addColumnsOfSelectedTable()
 	var timeConstraint=document.forms[0].timeConstraint.value;
 	var instrumentConstraint=document.forms[0].instrumentConstraint.value;
 	var coordinateConstraint=document.forms[0].coordinateConstraint.value;
+	var orderByConstraint=document.forms[0].orderByConstraint.value;
 	var tableName=document.forms[0].cmbDatabaseTableList.value;
 	//alert(" selectedColumnValues : "+selectedColumnValues +"timeConstraint "+timeConstraint+"instrumentConstraint "+instrumentConstraint+"coordinateConstraint "+coordinateConstraint );
 	
@@ -395,8 +396,26 @@ function addColumnsOfSelectedTable()
 		rowsCount = parseInt(rows.length-1); 
 	}
 	
+	//Checking for time constraint
+	if(timeConstraint==null || timeConstraint==""){
+		timeConstraint=" ";
+	}
+	
+	//Checking for instrument constraint
+	if(instrumentConstraint==null || instrumentConstraint==""){
+		instrumentConstraint=" ";
+	}
+	//Checking for coordinates constraint
+	if(coordinateConstraint==null || coordinateConstraint==""){
+		coordinateConstraint=" ";
+	}
+	
+	//Checking for order by constraint
+	if(orderByConstraint==null || orderByConstraint==""){
+		orderByConstraint=" ";
+	}
 	//alert(" rowsCount : "+rowsCount);
-	var hiddenValue=tableName+"^$$^"+selectedColumnValues+"^$$^"+timeConstraint+"^$$^"+instrumentConstraint+"^$$^"+coordinateConstraint;
+	var hiddenValue=tableName+"^$$^"+selectedColumnValues+"^$$^"+timeConstraint+"^$$^"+instrumentConstraint+"^$$^"+coordinateConstraint+"^$$^"+orderByConstraint;
 	var columnHidValue= '<input type="hidden" name="addedTableDetails" id="addedTableDetails'+rowsCount+'" value="'+hiddenValue+'">';
 	
 	var previousRowClassName="";
@@ -453,7 +472,13 @@ function addColumnsOfSelectedTable()
 	oCell.width=300;
 	
 	oCell = newRow.insertCell(5);
-	oCell.innerHTML =trim(coordinateConstraint)+columnHidValue;
+	oCell.innerHTML =trim(coordinateConstraint);
+	oCell.align="left";
+	oCell.style.paddingLeft="10px";
+	oCell.width=300;
+	
+	oCell = newRow.insertCell(6);
+	oCell.innerHTML =trim(orderByConstraint)+columnHidValue;
 	oCell.align="left";
 	oCell.style.paddingLeft="10px";
 	oCell.width=300;
@@ -503,13 +528,64 @@ function doneDatabaseConnection()
 }
 
 function deleteTable(rowIndex){		    
-  	alert("  rowIndex  "+rowIndex);
+  	//alert("  rowIndex  "+rowIndex);
     var table=document.getElementById("addedColumns");
     var Row = document.getElementById("columnRow"+rowIndex);
     var tableName = Row.cells[1].innerHTML;
-	alert("tableName "+tableName)
+	//alert("tableName "+tableName)
 	table.deleteRow(rowIndex);
 	var cmbTableList = document.getElementById("cmbDatabaseTableList");
+	var opt=document.createElement('option');
+	opt.value=tableName;
+	opt.text=tableName;
+	try {
+		cmbTableList.add(opt,null); // standards compliant; doesn't work in IE
+	  }
+	  catch(ex) {
+		  cmbTableList.add(opt); // IE only
+	  }
+
+	
+}
+
+
+function doneColumnAdd()
+{
+	   var jdbcDriverName=document.forms[0].jdbcDriverName.value;
+	   var jdbcUrl=document.forms[0].jdbcUrl.value;
+	   var jdbcUser=document.forms[0].jdbcUser.value;
+	   var jdbcPassword=document.forms[0].jdbcPassword.value;
+	   var fileNamePath=document.forms[0].fileNamePath.value;
+		   
+		if(jdbcDriverName==null || jdbcDriverName==""){
+			alert("Please enter Jdbc Driver Name.");
+			return true;
+		}
+		
+		if(jdbcUrl==null || jdbcUrl==""){
+			alert("Please enter Jdbc URL.");
+			return true;
+		}
+		
+		if(jdbcUser==null || jdbcUser==""){
+			alert("Please enter Jdbc User Name.");
+			return true;
+		}
+		
+		if(jdbcPassword==null || jdbcPassword==""){
+			alert("Please enter Jdbc Password.");
+			return true;
+		}
+		
+		if(fileNamePath==null || fileNamePath==""){
+			alert("Please enter file name and path.");
+			return true;
+		}
+		
+		document.forms[0].target="_self";
+		document.forms[0].action="createConfigurationFile.action";
+		document.forms[0].method="post";
+		document.forms[0].submit();
 	
 }
 
