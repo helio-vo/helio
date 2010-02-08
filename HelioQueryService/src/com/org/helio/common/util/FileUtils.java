@@ -77,6 +77,7 @@ public class FileUtils {
 	    		 contents.append(System.getProperty("line.separator"));
 	    		 contents.append(fileResultTO[i].getJdbcPassword());
 	    		 contents.append(System.getProperty("line.separator"));
+	    		 contents.append(System.getProperty("line.separator"));
 	    	 }
 	    	 
 	    	 contents.append(fileResultTO[i].getTimeConstraint());
@@ -84,6 +85,8 @@ public class FileUtils {
 	    	 contents.append(fileResultTO[i].getInstrumentConstraint());
 	    	 contents.append(System.getProperty("line.separator"));
 	    	 contents.append(fileResultTO[i].getCoordinateConstraint());
+	    	 contents.append(fileResultTO[i].getOrderByConstraint());
+	    	 contents.append(System.getProperty("line.separator"));
 	    	 contents.append(System.getProperty("line.separator"));
 	    	 
 	    	 contents.append(fileResultTO[i].getColumnNames());
@@ -93,6 +96,7 @@ public class FileUtils {
 	    	 contents.append(fileResultTO[i].getColumnUCD());
 	    	 contents.append(System.getProperty("line.separator"));
 	    	 contents.append(fileResultTO[i].getColumnUType());
+	    	 contents.append(System.getProperty("line.separator"));
 	    	 contents.append(System.getProperty("line.separator"));
 	    	 
 	     }
