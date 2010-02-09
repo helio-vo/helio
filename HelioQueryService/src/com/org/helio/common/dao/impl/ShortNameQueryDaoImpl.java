@@ -62,6 +62,8 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			st = con.createStatement();
 			rs= st.executeQuery(sRepSql);
 			tables[intCnt] = new StandardTypeTable( new SequentialResultSetStarTable( rs ) );
+			tables[intCnt].setName(listName[intCnt]);
+			
 		}
 		comCriteriaTO.setTables(tables);
 		//Editing column property.
@@ -90,7 +92,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		}
 		
 		} catch (Exception e) {			
-			throw new ShortNameQueryException("EXCEPTION ", e);
+			throw new DetailsNotFoundException("EXCEPTION ", e);
 		}
 		finally
 		{
