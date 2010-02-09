@@ -237,7 +237,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			 params.put("kwenddate."+listName, comCriteriaTO.getEndDateTime());
 			 params.put("kwinstrument."+listName, comCriteriaTO.getInstruments());
 					
-			 //Setting param value
+			 //Setting parameter value
 			 comCriteriaTO.setParamData(params);
 			 query="SELECT "+getColumnNamesFromProperty(listName)+" FROM "+listName;
 			 logger.info(" : Query String with 'Select' and 'From' : "+query);
@@ -273,7 +273,16 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			 //Appending ; 'Order By Constraints' .
 			 query=query+" "+queryOrderByContraint;
 			 
-			 logger.info(" : Full Query String To Execute : "+query);
+			 logger.info(" : Appending OderBy Constraint If Avialable : "+query);
+			 
+			 //Appending limit clause.
+			 String querylimitContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.limit.constraint."+listName);
+			 
+			 //Appending ; 'Limit Constraints' .
+			 query=query+" "+querylimitContraint;
+			 
+			 logger.info(" : Full query for execution : "+query);
+			 
 			 
 		 return query;
 	}
