@@ -20,6 +20,11 @@
 								<TD nowrap class="txtblackBP" >Oder By Constraint:</TD>
 								<td>&nbsp;&nbsp;&nbsp;<s:textfield id="orderByConstraint" name="orderByConstraint" cssClass="textfield" size="20" maxlength="200" value="" theme="simple"/></td>				
 							</TR>
+							</TR>
+								<TR height=20 class="PopupAltDataRow">
+								<TD nowrap class="txtblackBP" >Limit Constraint:</TD>
+								<td>&nbsp;&nbsp;&nbsp;<s:textfield id="limitConstraint" name="limitConstraint" cssClass="textfield" size="20" maxlength="200" value="" theme="simple"/></td>				
+							</TR>
 					 		<%
 						        int i=0;
 						    %>
