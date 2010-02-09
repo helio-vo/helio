@@ -142,8 +142,15 @@ public class StandardTypeTable extends WrapperStarTable {
             return info_;
         }
         Object getValue(Object baseValue) {
-            return (String)
-                   (baseValue == null ? "0000-00-00 00:00:00.0" : baseValue.toString());
+        	String sDate="0000-00-00 00:00:00";
+        	//Checking for Date object.
+        	if(baseValue!=null && !baseValue.toString().equals("")){
+        		if(baseValue.toString().endsWith(".0")){
+        			sDate=baseValue.toString().substring(0, baseValue.toString().length()-2);
+        		}
+        	}
+        	
+            return (String)sDate;
         }
     }
 }
