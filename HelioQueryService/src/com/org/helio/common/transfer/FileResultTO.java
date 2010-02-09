@@ -20,7 +20,7 @@ public class FileResultTO implements Serializable {
 	private String columnUType;
 	private String columnDesc;
 	private String orderByConstraint;
-	
+	private String limitConstraint;
 	
 	public String getJdbcDriverName() {
 		return jdbcDriverName;
@@ -99,6 +99,12 @@ public class FileResultTO implements Serializable {
 	}
 	public void setOrderByConstraint(String orderByConstraint) {
 		this.orderByConstraint = orderByConstraint;
+	}
+	public String getLimitConstraint() {
+		return limitConstraint;
+	}
+	public void setLimitConstraint(String limitConstraint) {
+		this.limitConstraint = limitConstraint;
 	}
 	
 	
