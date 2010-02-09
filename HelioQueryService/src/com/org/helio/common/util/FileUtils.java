@@ -68,6 +68,7 @@ public class FileUtils {
 	     //...checks on aFile are elided
 	     StringBuilder contents = new StringBuilder();
 	     for(int i=0;i<fileResultTO.length;i++){
+	    	 
 	    	 if(i==0){
 	    		 contents.append(fileResultTO[i].getJdbcDriverName());
 	    		 contents.append(System.getProperty("line.separator"));
@@ -78,14 +79,17 @@ public class FileUtils {
 	    		 contents.append(fileResultTO[i].getJdbcPassword());
 	    		 contents.append(System.getProperty("line.separator"));
 	    		 contents.append(System.getProperty("line.separator"));
-	    	 }
+	    	  }
 	    	 
 	    	 contents.append(fileResultTO[i].getTimeConstraint());
 	    	 contents.append(System.getProperty("line.separator"));
 	    	 contents.append(fileResultTO[i].getInstrumentConstraint());
 	    	 contents.append(System.getProperty("line.separator"));
 	    	 contents.append(fileResultTO[i].getCoordinateConstraint());
+	    	 contents.append(System.getProperty("line.separator"));
 	    	 contents.append(fileResultTO[i].getOrderByConstraint());
+	    	 contents.append(System.getProperty("line.separator"));
+	    	 contents.append(fileResultTO[i].getLimitConstraint());
 	    	 contents.append(System.getProperty("line.separator"));
 	    	 contents.append(System.getProperty("line.separator"));
 	    	 
