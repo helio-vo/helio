@@ -1,6 +1,7 @@
 package com.org.helio.common.action;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.HashMap;
 
 import org.apache.log4j.Logger;
@@ -35,20 +36,32 @@ public class CommonAction  extends ActionSupport
 		this.statusDisplay = statusDisplay;
 	}	
 	
-	public String display(){ 
+	public String display() throws SQLException{ 
 		String sReturnStatus="ERROR";
-		
-		//Checking for connection
-		Connection con=ConnectionManager.getConnectionForWebApp();
-		if(con!=null){
-			setStatusDisplay(true);
-			sReturnStatus="SUCCESS";
-		}else{
-			sReturnStatus="ERROR";
-			setStatusDisplay(false);
-			addActionError("Could not connect database, please check database configuration details.");
+		Connection con=null;
+		try{
+			//Checking for connection
+			con=ConnectionManager.getConnectionForWebApp();
+			if(con!=null){
+				setStatusDisplay(true);
+				sReturnStatus="SUCCESS";
+			}else{
+				sReturnStatus="ERROR";
+				setStatusDisplay(false);
+				addActionError("Could not connect database, please check database configuration details.");
+			}
+		}catch (Exception e) {
+			if(con!=null){
+				con.close();
+				con=null;
+			}
 		}
-		
+		finally{
+			if(con!=null){
+				con.close();
+				con=null;
+			}
+		}
     	return sReturnStatus;
     }
 	
@@ -75,34 +88,47 @@ public class CommonAction  extends ActionSupport
 	/*
 	 * Configuration of database table.
 	 */
-	public String getDatabaseConfigurationPage()
+	public String getDatabaseConfigurationPage() throws SQLException
 	{
-		
-		//Setting jdbc driver name
-		setJdbcDriverName(InstanceHolders.getInstance().getProperty("jdbc.driver"));
-		//Setting jdbc connection url
-		setJdbcUrl(InstanceHolders.getInstance().getProperty("jdbc.url"));
-		//Setting jdbc connection user
-		setJdbcUser(InstanceHolders.getInstance().getProperty("jdbc.user"));
-		//Setting jdbc connection password.
-		setJdbcPassword(InstanceHolders.getInstance().getProperty("jdbc.password"));
+		Connection con=null;
 		String sReturnStatus="ERROR";
-		//Checking for connection
-		Connection con=ConnectionManager.getConnectionForWebApp();
-		if(con!=null){
-			setStatusDisplay(true);
-			sReturnStatus="SUCCESS";
-		}else{
-			sReturnStatus="ERROR";
-			setStatusDisplay(false);
-			addActionError(" Database configuration details is incorrect.");
+		try{
+			//Setting jdbc driver name
+			setJdbcDriverName(InstanceHolders.getInstance().getProperty("jdbc.driver"));
+			//Setting jdbc connection url
+			setJdbcUrl(InstanceHolders.getInstance().getProperty("jdbc.url"));
+			//Setting jdbc connection user
+			setJdbcUser(InstanceHolders.getInstance().getProperty("jdbc.user"));
+			//Setting jdbc connection password.
+			setJdbcPassword(InstanceHolders.getInstance().getProperty("jdbc.password"));
+			
+			//Checking for connection
+			con=ConnectionManager.getConnectionForWebApp();
+			if(con!=null){
+				setStatusDisplay(true);
+				sReturnStatus="SUCCESS";
+			}else{
+				sReturnStatus="ERROR";
+				setStatusDisplay(false);
+				addActionError(" Database configuration details is incorrect.");
+			}
+		}catch (Exception e) {
+			if(con!=null){
+				con.close();
+				con=null;
+			}
 		}
-		
+		finally{
+			if(con!=null){
+				con.close();
+				con=null;
+			}
+		}
 		return sReturnStatus;
 	}
 	
 	
-	public String getConfigurationPropertyFilePage(){
+	public String getConfigurationPropertyFilePage() throws SQLException{
 		String sReturnStatus="ERROR";
 		Connection con=null;
 		ShortNameQueryDao shortNameDao= CommonDaoFactory.getInstance().getShortNameQueryDao();
@@ -146,9 +172,17 @@ public class CommonAction  extends ActionSupport
 			logger.fatal(" Exception occured in getDatabaseTableNames method of CommonAction :",e);
 			addActionError("Couldn't retrieve database table name.");
 			sReturnStatus="ERROR";
-			
+			if(con!=null){
+				con.close();
+				con=null;
+			}
 		}
-		
+		finally{
+			if(con!=null){
+				con.close();
+				con=null;
+			}
+		}
 		return sReturnStatus;
 	}
 	
