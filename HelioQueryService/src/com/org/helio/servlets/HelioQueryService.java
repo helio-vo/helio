@@ -33,12 +33,12 @@ public class HelioQueryService extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/xml;charset=UTF-8");
+		 CommonCriteriaTO comCriteriaTO=new CommonCriteriaTO();
+		 PrintWriter printWriter = response.getWriter(); 
 		try{
 			System.out.println(System.getenv("file.path"));
 			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			PrintWriter printWriter = response.getWriter(); 
 		    dateFormat.setTimeZone(TimeZone.getTimeZone("GMT+00:00"));
-		    CommonCriteriaTO comCriteriaTO=new CommonCriteriaTO();
 		    comCriteriaTO.setPrintWriter(printWriter);
 		    //Setting time parameter
 		    String sTime=request.getParameter("TIME");
@@ -65,6 +65,10 @@ public class HelioQueryService extends HttpServlet {
 		}catch(Exception e){
 			e.printStackTrace();
 		}		
+		finally
+		{
+			printWriter.close();
+		}
 	}
 
 	/**
