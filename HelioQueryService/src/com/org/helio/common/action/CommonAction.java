@@ -101,7 +101,7 @@ public class CommonAction  extends ActionSupport
 		return sReturnStatus;
 	}
 	
-
+	
 	public String getConfigurationPropertyFilePage(){
 		String sReturnStatus="ERROR";
 		Connection con=null;
@@ -194,7 +194,7 @@ public class CommonAction  extends ActionSupport
 	private String jdbcUrl;
 	private String jdbcUser;
 	private String jdbcPassword;
-	
+	private String limitConstraint;
 	
 	public String[] getAddedTableDetails() {
 		return addedTableDetails;
@@ -254,7 +254,15 @@ public class CommonAction  extends ActionSupport
 	public void setFileNamePath(String fileNamePath) {
 		this.fileNamePath = fileNamePath;
 	}
-	
+
+	public String getLimitConstraint() {
+		return limitConstraint;
+	}
+
+	public void setLimitConstraint(String limitConstraint) {
+		this.limitConstraint = limitConstraint;
+	}
+
 	public String createConfigurationFile()
 	{
 		String sReturnStatus="SUCCESS";
@@ -281,6 +289,7 @@ public class CommonAction  extends ActionSupport
 						fileResultTO[i].setCoordinateConstraint("sql.query.coordinates.constraint."+details[0]+"="+details[4]);
 						fileResultTO[i].setInstrumentConstraint("sql.query.instr.constraint."+details[0]+"="+details[3]);
 						fileResultTO[i].setOrderByConstraint("sql.query.orderby.constraint."+details[0]+"="+details[5]);
+						fileResultTO[i].setLimitConstraint("sql.query.limit.constraint."+details[0]+"="+details[5]);
 					}
 				}
 			}
