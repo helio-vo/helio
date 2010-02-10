@@ -14,11 +14,10 @@
   </parent>  
   <description>Helio Query</description>
   <build>
-    <!-- <sourceDirectory>src</sourceDirectory>   -->
-<!--      <testSourceDirectory>src/junit</testSourceDirectory> -->
+    <sourceDirectory>com</sourceDirectory>  
     <resources>
       <resource>
-        <directory>${basedir}/src</directory>
+        <directory>${basedir}</directory>
         <includes>
           <include>*.xml</include>
           <include>*.properties</include>
