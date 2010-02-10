@@ -14,18 +14,24 @@
   </parent>  
   <description>Helio Contracts Filter</description>
   <build>
-  <sourceDirectory>src/java</sourceDirectory>
+  
       <!-- This section controls the set of files other than Java classes that 
          are built into the jar artefact (Java classes are included automatically). -->
+      <sourceDirectory>com</sourceDirectory>
       <resources>
           <resource>
-            <directory>${basedir}/src</directory>
+            <directory>${basedir}</directory>
             <includes>
-               <include>schema/*</include>
+              <include>schema/*</include>
                <include>schema/**/*</include>
+               <include>*.xml</include>
+               <include>*.properties</include>
             </includes>
+    
          </resource>
-      </resources>
+     </resources>
+    
+      
   </build>
 
   
