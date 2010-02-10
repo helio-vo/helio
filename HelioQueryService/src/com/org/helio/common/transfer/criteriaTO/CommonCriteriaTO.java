@@ -33,10 +33,24 @@ public class CommonCriteriaTO implements Serializable{
 	HashMap<String,String> paramData;
 	private String queryForm;
 	private String tableName;
-	StarTable[] tables;
-	String whereClause;
+	private StarTable[] tables;
+	private String whereClause;
+	private String queryStatus;
+	private String queryDescription;
 	
+	public CommonCriteriaTO(){
+		this.setIPageNumber(0);
+		this.setIRowsPerPage(10);
+	}
 	
+	public String getQueryDescription() {
+		return queryDescription;
+	}
+
+	public void setQueryDescription(String queryDescription) {
+		this.queryDescription = queryDescription;
+	}
+
 	public StarTable[] getTables() {
 		return tables;
 	}
@@ -53,11 +67,15 @@ public class CommonCriteriaTO implements Serializable{
 		this.queryForm = queryForm;
 	}
 
-	public CommonCriteriaTO(){
-		this.setIPageNumber(0);
-		this.setIRowsPerPage(10);
+		
+	public String getQueryStatus() {
+		return queryStatus;
 	}
-	
+
+	public void setQueryStatus(String queryStatus) {
+		this.queryStatus = queryStatus;
+	}
+
 	public String getQuery() {
 		return query;
 	}
