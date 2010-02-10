@@ -61,8 +61,6 @@ public class JunitWebserveTest {
 	      }
 	   }
 
-	 
-
 	   /*
 	    * This test uses raw Service class for service, wsimport/wsdl2java
 	    * generated SEI
