@@ -15,7 +15,9 @@ import java.util.Date;
 import java.util.HashMap;
 import org.apache.log4j.Logger;
 import uk.ac.starlink.table.ColumnInfo;
+import uk.ac.starlink.table.DescribedValue;
 import uk.ac.starlink.table.StarTable;
+import uk.ac.starlink.table.ValueInfo;
 import uk.ac.starlink.table.jdbc.SequentialResultSetStarTable;
 
 import com.org.helio.common.dao.exception.DetailsNotFoundException;
@@ -39,7 +41,10 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	protected final  Logger logger = Logger.getLogger(this.getClass());
 		
 	
-
+	/*
+	 * (non-Javadoc)
+	 * @see com.org.helio.common.dao.interfaces.ShortNameQueryDao#generateVOTableDetails(com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO)
+	 */
 	public void generateVOTableDetails(CommonCriteriaTO comCriteriaTO) throws DetailsNotFoundException,Exception {
 		Connection con = null;
 		Statement st = null;
@@ -61,9 +66,11 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			con = ConnectionManager.getConnection();
 			st = con.createStatement();
 			rs= st.executeQuery(sRepSql);
-			tables[intCnt] = new StandardTypeTable( new SequentialResultSetStarTable( rs ) );
-			tables[intCnt].setName(listName[intCnt]);
+			comCriteriaTO.setQueryStatus("OK");
+			comCriteriaTO.setQueryDescription(sRepSql);
 			
+			tables[intCnt] = new StandardTypeTable( new SequentialResultSetStarTable( rs ) );
+			tables[intCnt].setName(listName[intCnt]);			
 		}
 		comCriteriaTO.setTables(tables);
 		//Editing column property.
@@ -91,7 +98,11 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			con=null;
 		}
 		
-		} catch (Exception e) {			
+		} catch (Exception e) {		
+			//Writing all details into table.
+			comCriteriaTO.setQueryStatus("ERROR");
+			VOTableMaker.writeTables(comCriteriaTO);
+			comCriteriaTO.setQueryDescription(e.getMessage());
 			throw new DetailsNotFoundException("EXCEPTION ", e);
 		}
 		finally
