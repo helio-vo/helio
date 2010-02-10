@@ -54,6 +54,12 @@ public class VOTableMaker {
         out.write( "<VOTABLE version='1.1' xmlns=\"http://www.ivoa.net/xml/VOTable/v1.1\">\n" );
         out.write( "<RESOURCE>\n" );
         out.write( "<DESCRIPTION>"+ConfigurationProfiler.getInstance().getProperty("sql.votable.head.desc")+"</DESCRIPTION>\n" );
+        out.write( "<INFO name=\"QUERY_STATUS\" value=\""+comCriteriaTO.getQueryStatus()+"\"/>");
+        if(comCriteriaTO.getQueryStatus().equals("ERROR")){
+        	 out.write( "<INFO name=\"QUERY_STATUS\" value=\""+comCriteriaTO.getQueryDescription()+"\"/>");
+        }
+       	//out.write("<INFO ID=\""+comCriteriaTO.getQueryStatus()+"\" name=\""+comCriteriaTO.getQueryStatus()+"\" value=\""+comCriteriaTO.getQueryDescription()+"\"/>");
+        
         for ( int i = 0; i < tables.length; i++ ) {
             VOSerializer.makeSerializer( DataFormat.TABLEDATA, tables[ i ] )
                         .writeInlineTableElement( out );
