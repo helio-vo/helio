@@ -77,27 +77,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		VOTableMaker.setColInfoProperty(tables, listName);
 		//Writing all details into table.
 		VOTableMaker.writeTables(comCriteriaTO);
-		
-		if(rms!=null)
-		{
-			rms = null;
-		}
-		if(rs!=null)
-		{
-			rs.close();
-			rs=null;
-		}
-		if(st!=null)
-		{
-			st.close();
-			st=null;
-		}
-		if(con!=null)
-		{
-			con.close();
-			con=null;
-		}
-		
+				
 		} catch (Exception e) {		
 			//Writing all details into table.
 			comCriteriaTO.setQueryStatus("ERROR");
@@ -141,10 +121,12 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	@SuppressWarnings("unused")
 	public HashMap<String,String> getDatabaseTableNames(Connection con) throws Exception 
 	{
-		HashMap<String,String> hmbDatabaseTableList=new HashMap<String,String>();	  
+		HashMap<String,String> hmbDatabaseTableList=new HashMap<String,String>();
+		DatabaseMetaData md=null;
+		ResultSet rs=null;
 		try{
-			DatabaseMetaData md = con.getMetaData();
-		    ResultSet rs = md.getTables(null, null, "%", null);
+			 md = con.getMetaData();
+		     rs = md.getTables(null, null, "%", null);
 		    while (rs.next()) {
 		      // System.out.println(rs.getString(3));
 		      hmbDatabaseTableList.put(rs.getString(3), rs.getString(3));
@@ -160,7 +142,15 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 					con.close();
 					con=null;
 				}
-				
+				if(md!=null)
+				{
+					md=null;
+				}
+				if(rs!=null)
+				{
+					rs.close();
+					rs=null;
+				}
 			} catch (Exception e) {
 				
 			}
@@ -175,8 +165,9 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	{
 		ResultSet rsColumns = null;
 		CommonTO[] columnTO = null;
+		DatabaseMetaData meta =null;
 		try{
-			DatabaseMetaData meta = con.getMetaData();
+			meta = con.getMetaData();
 		    rsColumns = meta.getColumns(null, null, tableName, null);
 		    rsColumns.last();
 		    int intCount=rsColumns.getRow();
@@ -207,7 +198,10 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 					con.close();
 					con=null;
 				}
-				
+				if(meta!=null)
+				{
+					meta=null;
+				}
 			} catch (Exception e) {
 				
 			}
@@ -223,8 +217,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	{
 		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames."+tableName).split("::");
 		String colNamesForTable="";
-		String colColName="";
-		
+				
 		for(int i=0;i<columnNames.length;i++)
 		{
 			colNamesForTable=colNamesForTable+columnNames[i]+",";
