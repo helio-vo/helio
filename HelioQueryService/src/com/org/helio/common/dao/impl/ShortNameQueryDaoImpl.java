@@ -57,7 +57,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		for(int intCnt=0;intCnt<listName.length;intCnt++){
 			String sRepSql = CommonUtils.replaceParams(generateQuery(listName[intCnt],comCriteriaTO), comCriteriaTO.getParamData());
 			logger.info(" : Query String After Replacing Value :"+sRepSql);	
-			
+			comCriteriaTO.setUpdatedQuery(sRepSql);
 			//Setting Table Name.
 			comCriteriaTO.setTableName(listName[intCnt]);
 			//Setting query with values.
@@ -291,6 +291,16 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			 //Appending limit clause.
 			 String querylimitContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.limit.constraint."+listName);
 			 
+			 if(querylimitContraint==null || querylimitContraint.trim().equals("")){
+				 //Setting start row.
+				 if(comCriteriaTO.getNoOfRows()!=null && !comCriteriaTO.getNoOfRows().equals("")){
+					 querylimitContraint=" LIMIT "+comCriteriaTO.getNoOfRows();
+				 }
+				 //Setting No Of Rows
+				 if(comCriteriaTO.getStartRow()!=null && !comCriteriaTO.getStartRow().equals("") && querylimitContraint!=null && !querylimitContraint.equals("")){
+					 querylimitContraint=querylimitContraint+" OFFSET "+comCriteriaTO.getStartRow();
+				 }
+			 }
 			 //Appending ; 'Limit Constraints' .
 			 query=query+" "+querylimitContraint;
 			 
