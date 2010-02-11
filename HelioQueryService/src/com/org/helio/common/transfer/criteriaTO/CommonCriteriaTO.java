@@ -37,6 +37,9 @@ public class CommonCriteriaTO implements Serializable{
 	private String whereClause;
 	private String queryStatus;
 	private String queryDescription;
+	private String startRow;
+	private String noOfRows;
+	private String updatedQuery;
 	
 	public CommonCriteriaTO(){
 		this.setIPageNumber(0);
@@ -212,6 +215,30 @@ public class CommonCriteriaTO implements Serializable{
 
 	public void setWhereClause(String whereClause) {
 		this.whereClause = whereClause;
+	}
+
+	public String getStartRow() {
+		return startRow;
+	}
+
+	public void setStartRow(String startRow) {
+		this.startRow = startRow;
+	}
+
+	public String getNoOfRows() {
+		return noOfRows;
+	}
+
+	public void setNoOfRows(String noOfRows) {
+		this.noOfRows = noOfRows;
+	}
+
+	public String getUpdatedQuery() {
+		return updatedQuery;
+	}
+
+	public void setUpdatedQuery(String updatedQuery) {
+		this.updatedQuery = updatedQuery;
 	}
 	
 	
