@@ -23,11 +23,7 @@ import uk.ac.starlink.votable.VOSerializer;
 import uk.ac.starlink.votable.VOTableWriter;
 
 public class VOTableMaker {
-
-	private Object [] values = null;
-    private RowListStarTable helioRowList = null;    
-    private  int numCols;
-    
+  
     protected final  Logger logger = Logger.getLogger(this.getClass());
     
     public VOTableMaker(){
