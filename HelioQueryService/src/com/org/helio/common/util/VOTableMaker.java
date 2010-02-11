@@ -57,12 +57,15 @@ public class VOTableMaker {
         out.write( "<INFO name=\"QUERY_STATUS\" value=\""+comCriteriaTO.getQueryStatus()+"\"/>");
         if(comCriteriaTO.getQueryStatus().equals("ERROR")){
         	 out.write( "<INFO name=\"QUERY_STATUS\" value=\""+comCriteriaTO.getQueryDescription()+"\"/>");
+        	 //out.write( "<DESCRIPTION>"+comCriteriaTO.getUpdatedQuery()+"</DESCRIPTION>\n" );
+        	// out.write("</INFO>");
         }
        	//out.write("<INFO ID=\""+comCriteriaTO.getQueryStatus()+"\" name=\""+comCriteriaTO.getQueryStatus()+"\" value=\""+comCriteriaTO.getQueryDescription()+"\"/>");
-        
-        for ( int i = 0; i < tables.length; i++ ) {
-            VOSerializer.makeSerializer( DataFormat.TABLEDATA, tables[ i ] )
-                        .writeInlineTableElement( out );
+        if(tables!=null){
+	        for ( int i = 0; i < tables.length; i++ ) {
+	            VOSerializer.makeSerializer( DataFormat.TABLEDATA, tables[ i ] )
+	                        .writeInlineTableElement( out );
+	        }
         }
         out.write( "</RESOURCE>\n" );
         out.write( "</VOTABLE>\n" );
