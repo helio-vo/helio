@@ -73,7 +73,10 @@ public class HelioQueryService extends HttpServlet {
 		}		
 		finally
 		{
-			printWriter.close();
+			if(printWriter!=null){
+				printWriter.close();
+				printWriter=null;
+			}
 		}
 	}
 
