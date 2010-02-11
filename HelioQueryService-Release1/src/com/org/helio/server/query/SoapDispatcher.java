@@ -47,6 +47,8 @@ public class SoapDispatcher {
    * soap response populated by InputStream (PipedInputStream) 
    */
   public XMLStreamReader invoke(MessageContext context) {
+	  PipedReader pr=null;
+	  PipedWriter pw=null;
 	 try {
 		 logger.info("  : Starting Webservice Call :  ");
 		 //get the soap request.
@@ -65,8 +67,8 @@ public class SoapDispatcher {
    	    	 //each method should return a XMLStreamReader that is streamed back to the client.
 	    	 if(interfaceName == "Query".intern()) {
 	    		 CommonCriteriaTO comCriteriaTO=new CommonCriteriaTO(); 
-	    		 PipedReader pr = new PipedReader();
-	    		 PipedWriter pw = new PipedWriter(pr);	    		   		   		  		   	 
+	    		 pr = new PipedReader();
+	    		 pw = new PipedWriter(pr);	    		   		   		  		   	 
 	    		 comCriteriaTO.setPrintWriter(pw);
 	    		 //Indicator to define VOTABLE for Web Service request
 	    		 comCriteriaTO.setStatus("WebService");
@@ -88,6 +90,23 @@ public class SoapDispatcher {
 	 	 return responseReader;
 	 }catch(Exception e) {
 		 logger.fatal("   : Exception in SoapDispatcher:invoke : ", e);
+	 }
+	 finally
+	 {
+		 try{
+			 if(pr!=null){
+				 pr.close();
+				 pr=null;
+			 }
+			 
+			 if(pw!=null){
+				 pw.close();
+				 pw=null;
+			 }
+		 
+		 }catch (Exception e) {
+			 logger.fatal("   : Exception in SoapDispatcher:invoke : ", e);
+		}
 	 }
 	 return null;
   }
