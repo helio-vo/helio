@@ -39,7 +39,6 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	}
 	
 	protected final  Logger logger = Logger.getLogger(this.getClass());
-		
 	
 	/*
 	 * (non-Javadoc)
