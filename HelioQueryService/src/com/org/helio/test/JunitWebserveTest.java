@@ -29,6 +29,8 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.w3c.dom.Document;
 
+import com.org.helio.common.dao.impl.CommonDaoImpl;
+
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
@@ -44,12 +46,12 @@ public class JunitWebserveTest {
 
 	   @BeforeClass
 	   public static void setUp() throws Exception {
-	      address = "http://localhost:9000/services/DoubleItPortType";
+	      address = "http://localhost:8080/HelioQueryService/services/HelioService";
 	      wsdlURL = new URL(address + "?wsdl");
-	      serviceName = new QName("http://www.example.org/DoubleIt",
-	         "DoubleItService");
+	      serviceName = new QName("http://helio-vo.eu/xml/QueryService/v0.1",
+	         "HelioService");
 	      portName = new QName("http://www.example.org/DoubleIt", "DoubleItPort");
-	      //ep = Endpoint.publish(address, new DoubleItPortTypeImpl());
+	      ep = Endpoint.publish(address ,new CommonDaoImpl());
 	   }
 
 	   @AfterClass
@@ -81,10 +83,8 @@ public class JunitWebserveTest {
 	      Service jaxwsService = Service.create(wsdlURL, serviceName);
 	      Dispatch<SOAPMessage> disp = jaxwsService.createDispatch(portName,
 	            SOAPMessage.class, Service.Mode.MESSAGE);
-	      InputStream is = getClass().getClassLoader().getResourceAsStream(
-	            "fullSOAPMessage.xml");
-	      SOAPMessage reqMsg = MessageFactory.newInstance().createMessage(null,
-	            is);
+	      InputStream is = getClass().getClassLoader().getResourceAsStream("fullSOAPMessage.xml");
+	      SOAPMessage reqMsg = MessageFactory.newInstance().createMessage(null,is);
 	      assertNotNull(reqMsg);
 	      SOAPMessage response = (SOAPMessage) disp.invoke(reqMsg);
 	      assertEquals("Double-It not doubling zero correctly", "0", response
@@ -109,14 +109,12 @@ public class JunitWebserveTest {
 	      Document newDoc = builder.parse(is);
 	      DOMSource request = new DOMSource(newDoc);
 	      // Both CXF and Metro:
-	      Dispatch<Source> disp = jaxwsService.createDispatch(portName,
-	            Source.class, Service.Mode.PAYLOAD);
+	      Dispatch<Source> disp = jaxwsService.createDispatch(portName,Source.class, Service.Mode.PAYLOAD);
 	      Source result = (Source) disp.invoke(request);
 	      DOMResult domResponse = new DOMResult();
 	      Transformer trans = TransformerFactory.newInstance().newTransformer();
 	      trans.transform(result, domResponse);
-	      assertEquals("Double-It failing with prime numbers", "14", domResponse
-	            .getNode().getFirstChild().getTextContent().trim());
+	      assertEquals("Double-It failing with prime numbers", "14", domResponse.getNode().getFirstChild().getTextContent().trim());
 	      /*
 	        Alternative for CXF, uses Dispatch: 
 	        Dispatch disp = jaxwsService.createDispatch(portName, DOMSource.class,
@@ -134,10 +132,8 @@ public class JunitWebserveTest {
 	   @Test
 	   public void doubleItWorksWithOddNumbers() throws Exception {
 	      Service jaxwsService = Service.create(wsdlURL, serviceName);
-	      JAXBContext jaxbContext = JAXBContext
-	            .newInstance("org.example.doubleit");
-	      Dispatch jaxbDispatch = jaxwsService.createDispatch(portName,
-	            jaxbContext, Service.Mode.PAYLOAD);
+	      JAXBContext jaxbContext = JAXBContext.newInstance("org.example.doubleit");
+	      Dispatch jaxbDispatch = jaxwsService.createDispatch(portName,jaxbContext, Service.Mode.PAYLOAD);
 
 	      //DoubleIt myDoubleIt = new DoubleIt();
 	      //myDoubleIt.setNumberToDouble(new BigInteger("3"));
