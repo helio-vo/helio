@@ -60,6 +60,12 @@ public class HelioQueryService extends HttpServlet {
 		    //Setting where cluase parameter
 		    String whereClause=request.getParameter("WHERE");
 		    comCriteriaTO.setWhereClause(whereClause);
+		    //Setting start row parameter
+		    String startRow=request.getParameter("STARTINDEX");
+		    comCriteriaTO.setStartRow(startRow);
+		    //Setting no of row parameter
+		    String noOfRows=request.getParameter("MAXRECORDS");
+		    comCriteriaTO.setNoOfRows(noOfRows);
 			CommonDao commonNameDao= CommonDaoFactory.getInstance().getCommonDAO();
 			commonNameDao.generateVOTableDetails(comCriteriaTO);
 		}catch(Exception e){
