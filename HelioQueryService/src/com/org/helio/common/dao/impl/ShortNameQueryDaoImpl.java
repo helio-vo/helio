@@ -213,7 +213,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	/*
 	 * Creating column names.
 	 */
-	private String getColumnNamesFromProperty(String tableName)
+	private String getColumnNamesFromProperty(String tableName) throws Exception
 	{
 		String[] columnNames=ConfigurationProfiler.getInstance().getProperty("sql.columnnames."+tableName).split("::");
 		String colNamesForTable="";
@@ -233,7 +233,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	
 	
 	@SuppressWarnings("unused")
-	private String  generateQuery(String listName,CommonCriteriaTO comCriteriaTO){
+	private String  generateQuery(String listName,CommonCriteriaTO comCriteriaTO) throws Exception{
 			 String queryConstraint="";
 			 String query="";
 		
