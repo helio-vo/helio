@@ -33,8 +33,7 @@ public class VOTableMaker {
     public VOTableMaker(){
     	
     }
-    
-    
+       
     
     public static void writeResultSet( ResultSet rset, BufferedWriter out ) throws Exception {
         StarTable table = new SequentialResultSetStarTable( rset );
