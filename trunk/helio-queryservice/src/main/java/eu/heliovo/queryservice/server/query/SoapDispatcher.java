@@ -1,6 +1,6 @@
-package com.org.helio.server.query;
+package eu.heliovo.queryservice.server.query;
 
- import java.io.PipedReader;
+import java.io.PipedReader;
 import java.io.PipedWriter;
 import java.util.Hashtable;
 
@@ -13,8 +13,8 @@ import org.codehaus.xfire.MessageContext;
 import org.codehaus.xfire.util.STAXUtils;
 import org.w3c.dom.Document;
 
-import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
-import com.org.helio.server.util.QueryThreadAnalizer;
+import eu.heliovo.queryservice.common.transfer.criteriaTO.CommonCriteriaTO;
+import eu.heliovo.queryservice.server.util.QueryThreadAnalizer;
 
 /**
  * Class: SoapDispatcher
@@ -74,13 +74,16 @@ public class SoapDispatcher {
 	    		 comCriteriaTO.setStatus("WebService");
 	    		 //Setting for TIME parameter.
 	    		 String time = inputDoc.getDocumentElement().getElementsByTagNameNS("*","TIME").item(0).getFirstChild().getNodeValue();
-	    		 String[] dateTime= time.replace("T", " ").split("/");			
+	    		 String[] dateTime= time.split("/");			
 				 logger.info(" : startDateTime : "+dateTime[0]+" : startEndTime : "+dateTime[1]);			
 				 comCriteriaTO.setStartDateTime(dateTime[0]);
 				 comCriteriaTO.setEndDateTime(dateTime[1]);	
 				 //Setting for Instrument parameter.
 				 String instruments = inputDoc.getDocumentElement().getElementsByTagNameNS("*","INSTRUMENT").item(0).getFirstChild().getNodeValue();
 				 comCriteriaTO.setInstruments(instruments);
+				 //Setting for ListName parameter.
+				 String listName = inputDoc.getDocumentElement().getElementsByTagNameNS("*","LISTNAME").item(0).getFirstChild().getNodeValue();
+				 comCriteriaTO.setListName(listName);
 				 //Thread created to load data into PipeReader.
 				 new QueryThreadAnalizer(comCriteriaTO).start();				
 				 logger.info(" : Done VOTABLE : ");												
@@ -91,6 +94,7 @@ public class SoapDispatcher {
 	 }catch(Exception e) {
 		 logger.fatal("   : Exception in SoapDispatcher:invoke : ", e);
 	 }
+	 
 	 finally
 	 {
 		 try{
@@ -108,6 +112,7 @@ public class SoapDispatcher {
 			 logger.fatal("   : Exception in SoapDispatcher:invoke : ", e);
 		}
 	 }
+	 
 	 return null;
   }
 }

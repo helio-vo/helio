@@ -1,11 +1,12 @@
 /* #ident	"%W%" */
-package com.org.helio.common.transfer.criteriaTO;
+package eu.heliovo.queryservice.common.transfer.criteriaTO;
 
 import java.io.Serializable;
 import java.io.Writer;
 import java.util.HashMap;
 
-import com.org.helio.common.transfer.CommonTO;
+import uk.ac.starlink.table.StarTable;
+import eu.heliovo.queryservice.common.transfer.CommonTO;
 
 public class CommonCriteriaTO implements Serializable{
 	private static final long serialVersionUID = 1L;
@@ -28,12 +29,54 @@ public class CommonCriteriaTO implements Serializable{
 	private String listName;
 	private String query;
 	HashMap<String,String> paramData;
+	private String queryForm;
+	private String tableName;
+	private StarTable[] tables;
+	private String whereClause;
+	private String queryStatus;
+	private String queryDescription;
+	private String startRow;
+	private String noOfRows;
+	private String updatedQuery;
 	
 	public CommonCriteriaTO(){
 		this.setIPageNumber(0);
 		this.setIRowsPerPage(10);
 	}
 	
+	public String getQueryDescription() {
+		return queryDescription;
+	}
+
+	public void setQueryDescription(String queryDescription) {
+		this.queryDescription = queryDescription;
+	}
+
+	public StarTable[] getTables() {
+		return tables;
+	}
+
+	public void setTables(StarTable[] tables) {
+		this.tables = tables;
+	}
+
+	public String getQueryForm() {
+		return queryForm;
+	}
+
+	public void setQueryForm(String queryForm) {
+		this.queryForm = queryForm;
+	}
+
+		
+	public String getQueryStatus() {
+		return queryStatus;
+	}
+
+	public void setQueryStatus(String queryStatus) {
+		this.queryStatus = queryStatus;
+	}
+
 	public String getQuery() {
 		return query;
 	}
@@ -155,6 +198,44 @@ public class CommonCriteriaTO implements Serializable{
 	public void setNoOfRecords(Integer noOfRecords) {
 		this.noOfRecords = noOfRecords;
 	}
-	
-	
+
+	public String getTableName() {
+		return tableName;
+	}
+
+	public void setTableName(String tableName) {
+		this.tableName = tableName;
+	}
+
+	public String getWhereClause() {
+		return whereClause;
+	}
+
+	public void setWhereClause(String whereClause) {
+		this.whereClause = whereClause;
+	}
+
+	public String getStartRow() {
+		return startRow;
+	}
+
+	public void setStartRow(String startRow) {
+		this.startRow = startRow;
+	}
+
+	public String getNoOfRows() {
+		return noOfRows;
+	}
+
+	public void setNoOfRows(String noOfRows) {
+		this.noOfRows = noOfRows;
+	}
+
+	public String getUpdatedQuery() {
+		return updatedQuery;
+	}
+
+	public void setUpdatedQuery(String updatedQuery) {
+		this.updatedQuery = updatedQuery;
+	}
 }
