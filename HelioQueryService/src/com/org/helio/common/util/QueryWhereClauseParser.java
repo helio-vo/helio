@@ -82,7 +82,7 @@ public class QueryWhereClauseParser {
 	}
 
 	//Yet to be done.
-	public static void checkAllType(String whereClause){
+	private static void checkAllType(String whereClause){
 		String stringForOr="";
 		String prevColumnName="";
 		String coulumnName="";
