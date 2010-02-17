@@ -28,6 +28,7 @@ import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
 import com.org.helio.common.util.CommonUtils;
 import com.org.helio.common.util.ConfigurationProfiler;
 import com.org.helio.common.util.ConnectionManager;
+import com.org.helio.common.util.QueryWhereClauseParser;
 import com.org.helio.common.util.StandardTypeTable;
 import com.org.helio.common.util.VOTableMaker;
 
@@ -234,6 +235,7 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 	@SuppressWarnings("unused")
 	private String  generateQuery(String listName,CommonCriteriaTO comCriteriaTO) throws Exception{
 			 String queryConstraint="";
+			 String queryWhereClause="";
 			 String query="";
 		
 			 HashMap<String,String> params  = new HashMap<String,String>();
@@ -246,11 +248,25 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			 comCriteriaTO.setParamData(params);
 			 query="SELECT "+getColumnNamesFromProperty(listName)+" FROM "+listName;
 			 logger.info(" : Query String with 'Select' and 'From' : "+query);
+			 //Getting where clause.
+			 if(comCriteriaTO.getWhereClause()!=null && !comCriteriaTO.getWhereClause().equals("")){
+				 queryWhereClause=QueryWhereClauseParser.generateWhereClause(comCriteriaTO.getWhereClause());
+			 }
+			 
+			 //Setting all declared string to null;
+			 QueryWhereClauseParser.deAllocateStringToNull();
 			 
 			 //Appending Time clause.
 			 String queryTimeContraint=ConfigurationProfiler.getInstance().getProperty("sql.query.time.constraint."+listName);
 			 if(queryTimeContraint!=null && !queryTimeContraint.equals("") ){
-				 queryConstraint=queryConstraint+" "+queryTimeContraint;
+				 //Checking if it has where clause.
+				 if(!queryWhereClause.equals("")){
+					 queryConstraint=queryConstraint+" "+queryWhereClause+" AND "+queryTimeContraint;
+				 }else{
+					 queryConstraint=queryConstraint+" "+queryTimeContraint;
+				 }
+			 }else{
+				 queryConstraint=queryConstraint+" "+queryWhereClause;
 			 }
 			 
 			 logger.info(" : Appending Time Constraint If Avialable : "+queryConstraint);
