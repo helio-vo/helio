@@ -143,6 +143,9 @@ public class QueryWhereClauseParser {
 		return whereClauseString;
 	}
 	
+	public static void deAllocateStringToNull(){
+		whereClauseString=null;
+	}
 
 	/*
 	public static void main(String arg[]){
