@@ -41,6 +41,7 @@ public class CommonCriteriaTO implements Serializable{
 	private String noOfRows;
 	private String updatedQuery;
 	
+	
 	public CommonCriteriaTO(){
 		this.setIPageNumber(0);
 		this.setIRowsPerPage(10);
