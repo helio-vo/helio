@@ -86,6 +86,7 @@ public class QueryWhereClauseParser {
 		String stringForOr="";
 		String prevColumnName="";
 		String coulumnName="";
+		whereClauseString="";
 		String[] whereClauseArray=whereClause.split(";");
 		for(int count=0;count<whereClauseArray.length;count++){
 			prevColumnName="";
