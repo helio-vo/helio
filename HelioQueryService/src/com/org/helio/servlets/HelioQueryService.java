@@ -55,7 +55,7 @@ public class HelioQueryService extends HttpServlet {
 		    String sInstrument=request.getParameter("INSTRUMENT");
 		    comCriteriaTO.setInstruments(sInstrument);
 		    //Setting for List Name parameter.
-		    String sListName=request.getParameter("LISTNAME");
+		    String sListName=request.getParameter("FROM");
 		    comCriteriaTO.setListName(sListName);
 		    //Setting where cluase parameter
 		    String whereClause=request.getParameter("WHERE");
