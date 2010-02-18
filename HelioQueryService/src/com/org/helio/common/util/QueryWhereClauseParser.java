@@ -72,7 +72,7 @@ public class QueryWhereClauseParser {
 		
 	}
 		
-	
+	// Not in use now.
 	private static void checkIfEqual(String value){
 		String data[]=value.split(",");
 		if(data.length>1){
