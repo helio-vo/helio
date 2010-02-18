@@ -83,7 +83,7 @@ public class SoapDispatcher {
 				 String instruments = inputDoc.getDocumentElement().getElementsByTagNameNS("*","INSTRUMENT").item(0).getFirstChild().getNodeValue();
 				 comCriteriaTO.setInstruments(instruments);
 				 //Setting for ListName parameter.
-				 String listName = inputDoc.getDocumentElement().getElementsByTagNameNS("*","LISTNAME").item(0).getFirstChild().getNodeValue();
+				 String listName = inputDoc.getDocumentElement().getElementsByTagNameNS("*","FROM").item(0).getFirstChild().getNodeValue();
 				 comCriteriaTO.setListName(listName);
 				 //Thread created to load data into PipeReader.
 				 new QueryThreadAnalizer(comCriteriaTO).start();				
@@ -96,7 +96,7 @@ public class SoapDispatcher {
 		 logger.fatal("   : Exception in SoapDispatcher:invoke : ", e);
 	 }
 	 
-	 finally
+	 /*finally
 	 {
 		 try{
 			 if(pr!=null){
@@ -112,7 +112,7 @@ public class SoapDispatcher {
 		 }catch (Exception e) {
 			 logger.fatal("   : Exception in SoapDispatcher:invoke : ", e);
 		}
-	 }
+	 }*/
 	 
 	 return null;
   }
