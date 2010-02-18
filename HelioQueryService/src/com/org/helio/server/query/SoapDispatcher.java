@@ -7,14 +7,12 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import java.io.PipedReader;
 import java.io.PipedWriter;
-import java.io.StringWriter;
 import java.util.Hashtable;
 
 import org.apache.log4j.Logger;
 import org.codehaus.xfire.util.STAXUtils; 
 import org.codehaus.xfire.MessageContext;
 import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
-import com.org.helio.common.util.DomHelper;
 import com.org.helio.server.util.QueryThreadAnalizer;
 
 /**
