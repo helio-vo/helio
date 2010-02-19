@@ -41,12 +41,12 @@
       </xs:restriction>
    </xs:simpleType>
    
-   <xs:simpleType name="listName">
+   <!-- <xs:simpleType name="listName">
 	<xs:restriction base="xs:string">
 		<xs:enumeration value="INSTRUMENTS"/>
 		<xs:enumeration value="OBSERVATORY"/>
 	</xs:restriction>
-</xs:simpleType>
+</xs:simpleType>-->
 
    <xs:simpleType name="coordinateType">
 	<xs:restriction base="xs:string">
