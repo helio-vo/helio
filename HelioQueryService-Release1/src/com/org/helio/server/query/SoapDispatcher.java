@@ -79,8 +79,10 @@ public class SoapDispatcher {
 				 comCriteriaTO.setStartDateTime(dateTime[0]);
 				 comCriteriaTO.setEndDateTime(dateTime[1]);	
 				 //Setting for Instrument parameter.
-				 String instruments = inputDoc.getDocumentElement().getElementsByTagNameNS("*","INSTRUMENT").item(0).getFirstChild().getNodeValue();
-				 comCriteriaTO.setInstruments(instruments);
+				 if(inputDoc.getDocumentElement().getElementsByTagNameNS("*","INSTRUMENT").getLength()>0){
+							 String instruments = inputDoc.getDocumentElement().getElementsByTagNameNS("*","INSTRUMENT").item(0).getFirstChild().getNodeValue();
+							 comCriteriaTO.setInstruments(instruments);
+				 }
 				 //Thread created to load data into PipeReader.
 				 new QueryThreadAnalizer(comCriteriaTO).start();				
 				 logger.info(" : Done VOTABLE : ");												
