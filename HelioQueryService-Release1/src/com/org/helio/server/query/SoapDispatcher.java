@@ -101,7 +101,7 @@ public class SoapDispatcher {
 			 
 			 if(pw!=null){
 				 pw.close();
-				 pw=null;
+				 pw=null; 
 			 }
 		 
 		 }catch (Exception e) {
