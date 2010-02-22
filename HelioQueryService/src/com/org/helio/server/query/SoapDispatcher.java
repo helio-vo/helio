@@ -72,11 +72,13 @@ public class SoapDispatcher {
 	    		 //Indicator to define VOTABLE for Web Service request
 	    		 comCriteriaTO.setStatus("WebService");
 	    		 //Setting for TIME parameter.
-	    		 String time = inputDoc.getDocumentElement().getElementsByTagNameNS("*","TIME").item(0).getFirstChild().getNodeValue();
-	    		 String[] dateTime= time.split("/");			
-				 logger.info(" : startDateTime : "+dateTime[0]+" : startEndTime : "+dateTime[1]);			
-				 comCriteriaTO.setStartDateTime(dateTime[0]);
-				 comCriteriaTO.setEndDateTime(dateTime[1]);	
+	    		 if(inputDoc.getDocumentElement().getElementsByTagNameNS("*","TIME").getLength()>0){
+		    		 String time = inputDoc.getDocumentElement().getElementsByTagNameNS("*","TIME").item(0).getFirstChild().getNodeValue();
+		    		 String[] dateTime= time.split("/");			
+					 logger.info(" : startDateTime : "+dateTime[0]+" : startEndTime : "+dateTime[1]);			
+					 comCriteriaTO.setStartDateTime(dateTime[0]);
+					 comCriteriaTO.setEndDateTime(dateTime[1]);	
+	    		 }
 				//Setting for ListName parameter.
 				 String listName = inputDoc.getDocumentElement().getElementsByTagNameNS("*","FROM").item(0).getFirstChild().getNodeValue();
 				 comCriteriaTO.setListName(listName);
