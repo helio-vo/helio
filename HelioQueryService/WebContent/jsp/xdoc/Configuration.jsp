@@ -25,7 +25,7 @@
 cellspacing="0">
   <tr>
     <td align="left" valign="top">      
-		 <%@ include file="./includes/MenuHeader.jsp" %>
+		 <%@ include file="./../includes/MenuHeader.jsp" %>
 	</td>
   </tr>
   </table>
@@ -499,7 +499,7 @@ cellspacing="0">
   <tr>
 	 <td align="left" valign="top">
 	   <!-- Footer starts here --> 
-		 		 <%@ include file="./includes/footer.jsp" %>
+		 		 <%@ include file="./../includes/footer.jsp" %>
 	   <!-- Footer ends here -->
 	 </td>
   </tr>
