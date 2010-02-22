@@ -1,5 +1,7 @@
 package com.org.helio.common.util;
 
+import com.org.helio.common.transfer.criteriaTO.CommonCriteriaTO;
+
 public class QueryWhereClauseParser {
 	
 	private static String whereClauseString="";
@@ -127,12 +129,21 @@ public class QueryWhereClauseParser {
 		
 	}
 		
-	
+	// Count of search string.
 	private static int count(String input, String countString){
         return input.split("\\Q"+countString+"\\E", -1).length - 1;
     }
 	
+	// check is string is a join query
+	public boolean checkIfJoinQuery(CommonCriteriaTO comCriteriaTO)
+	{
+		boolean status=true;
 		
+		
+		
+		return status;
+	}
+	
 	public static String generateWhereClause(String sWhereClause){
 		//Checking All type of cluase
 		checkAllType(sWhereClause);
