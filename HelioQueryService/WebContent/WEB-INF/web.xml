@@ -19,7 +19,7 @@
        <filter-class>com.org.helio.filters.ContractsFilter</filter-class>
         <init-param>
            <param-name>wsdlFile</param-name>
-           <param-value>schema/helioquery.wsdl</param-value>
+           <param-value>schema/helio_complex.wsdl</param-value>
         </init-param>   
      </filter>
 
