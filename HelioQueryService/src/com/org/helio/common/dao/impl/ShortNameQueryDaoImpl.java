@@ -81,8 +81,8 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		} catch (Exception e) {		
 			//Writing all details into table.
 			comCriteriaTO.setQueryStatus("ERROR");
-			VOTableMaker.writeTables(comCriteriaTO);
 			comCriteriaTO.setQueryDescription(e.getMessage());
+			VOTableMaker.writeTables(comCriteriaTO);
 			throw new DetailsNotFoundException("EXCEPTION ", e);
 		}
 		finally
