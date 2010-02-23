@@ -40,17 +40,12 @@ public class HelioQueryService extends HttpServlet {
 			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		    dateFormat.setTimeZone(TimeZone.getTimeZone("GMT+00:00"));
 		    comCriteriaTO.setPrintWriter(printWriter);
-		    //Setting time parameter
-		    String sTime=request.getParameter("TIME");
-		    if(sTime!=null && !sTime.equals("")){
-				String[] dateTime= sTime.split("/");			
-				System.out.println(" startDateTime : "+dateTime[0]+" startEndTime : "+dateTime[1]);			
-				comCriteriaTO.setStartDateTime(dateTime[0]);
-				comCriteriaTO.setEndDateTime(dateTime[1]);						
-		    }else{ 
-		    	comCriteriaTO.setStartDateTime(dateFormat.format(new Date()));
-				comCriteriaTO.setEndDateTime(dateFormat.format(new Date()));
-		    }
+		    //Setting start time & end time parameter
+		    String sStartTime=request.getParameter("STARTTIME");
+		    String sEndTime=request.getParameter("ENDTIME");
+		   	System.out.println(" sStartTime : "+sStartTime+" sEndTime : "+sEndTime);			
+			comCriteriaTO.setStartDateTime(sStartTime);
+			comCriteriaTO.setEndDateTime(sEndTime);					
 		    //Setting for Instrument parameter.
 		    String sInstrument=request.getParameter("INSTRUMENT");
 		    comCriteriaTO.setInstruments(sInstrument);
