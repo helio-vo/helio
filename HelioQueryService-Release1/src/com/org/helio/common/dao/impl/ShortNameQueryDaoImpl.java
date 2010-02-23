@@ -103,11 +103,10 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 				if(voTableMarker.getRowCount() > 0) {
 					 voTableMarker.writeTable(output);
 		     	} 
-				
-				//Writing end of VOTable.
-				voTableMarker.writeEndVOTable(output,comCriteriaTO.getStatus());		 
-				
 			}
+			
+			//Writing end of VOTable.
+			voTableMarker.writeEndVOTable(output,comCriteriaTO.getStatus());	
 			if(rms!=null)
 			{
 				rms = null;
