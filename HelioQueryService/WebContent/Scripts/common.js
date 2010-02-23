@@ -54,7 +54,7 @@ function rtrim(stringToTrim) {
 
 function confirmYesNo(str)
 {
-    execScript('n = msgbox("'+str+'","4132","Display/Export")', "vbscript");
+    execScript('n = msgbox("'+str+'","4132","Yes/No")', "vbscript");
     return(n == 6);
 }
 
