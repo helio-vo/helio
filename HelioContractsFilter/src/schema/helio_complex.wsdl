@@ -6,19 +6,11 @@
   <xs:import xmlns:vot="http://www.ivoa.net/xml/VOTable/v1.1" namespace="http://www.ivoa.net/xml/VOTable/v1.1" schemaLocation="votable1_1.xsd"/>   
   <xs:import xmlns:ins="http://helio-vo.eu/xml/Instruments/v0.1" namespace="http://helio-vo.eu/xml/Instruments/v0.1" schemaLocation="Instruments.xsd"/>   
 
+<xs:element name="Query" type="tns:Query"/>
 <xs:element name="TimeQuery" type="tns:TimeQuery"/>
-<xs:element name="FullQuery" type="tns:FullQuery"/>
 <xs:element name="queryResponse" type="tns:queryResponse"/>
 
-	<xs:complexType name="TimeQuery">
-		<xs:sequence>
-			<xs:element minOccurs="1" name="StartTime" type="xs:dateTime"/>
-			<xs:element minOccurs="1" name="EndTime" type="xs:dateTime"/>
-			<xs:element minOccurs="1" name="From" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-
-	<xs:complexType name="FullQuery">
+	<xs:complexType name="Query">
 		<xs:sequence>
 			<xs:element minOccurs="0" name="StartTime" type="xs:dateTime"/>
 			<xs:element minOccurs="0" name="EndTime" type="xs:dateTime"/>
@@ -29,49 +21,20 @@
 			<xs:element minOccurs="0" name="StartIndex" type="xs:int"/>
 		</xs:sequence>
 	</xs:complexType>
+	
+	<xs:complexType name="TimeQuery">
+		<xs:sequence>
+			<xs:element minOccurs="1" name="StartTime" type="xs:dateTime"/>
+			<xs:element minOccurs="1" name="EndTime" type="xs:dateTime"/>
+			<xs:element minOccurs="1" name="From" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
 
 <xs:complexType name="queryResponse">
 	<xs:sequence>
  		<xs:element ref="vot:VOTABLE" minOccurs="1" maxOccurs="1" />
 	</xs:sequence>
 </xs:complexType>
-
-<!--
-<xs:simpleType name="HelioTimeInterval">
-      <xs:annotation>
-         <xs:documentation>
-           A timestamp that is compliant with ISO8601 but disallows
-           the use of a timezone indicator and must be in the format of
-           Datetime/Datetime.
-         </xs:documentation> 
-      </xs:annotation>
-    <xs:restriction base="xs:string">
-         <xs:pattern value="\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\/\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d"/>
-      </xs:restriction>
-   </xs:simpleType>
-   
-   <xs:simpleType name="coordinateType">
-	<xs:restriction base="xs:string">
-		<xs:enumeration value="CARRINGTON"/>
-		<xs:enumeration value="DECIMALDEGREES"/>
-	</xs:restriction>
-</xs:simpleType>
-
-<xs:simpleType name="instrument">
-	<xs:restriction base="xs:string">
-		<xs:enumeration value="ALL"/>
-		<xs:enumeration value="GENERIC"/>
-		<xs:enumeration value="YOHKOH"/>
-		<xs:enumeration value="SOLWIND"/>
-		<xs:enumeration value="SOLFLEX"/>
-		<xs:enumeration value="YOHKOH"/>
-		<xs:enumeration value="SOHOEIT"/>
-		<xs:enumeration value="SOHOCDS"/>
-		<xs:enumeration value="SOHOMDI"/>
-	</xs:restriction>
-</xs:simpleType>
--->
-
 
 </xs:schema>
   </wsdl:types>
@@ -81,52 +44,53 @@
     </wsdl:part>
   </wsdl:message>
   
+   <wsdl:message name="Query">
+    <wsdl:part name="parameters" element="tns:Query">
+    </wsdl:part>
+  </wsdl:message>
+  
   <wsdl:message name="TimeQuery">
     <wsdl:part name="parameters" element="tns:TimeQuery">
     </wsdl:part>
   </wsdl:message>
-  
-  <wsdl:message name="FullQuery">
-    <wsdl:part name="parameters" element="tns:FullQuery">
-    </wsdl:part>
-  </wsdl:message>
+
   
   <wsdl:portType name="HelioQueryService">
-    <wsdl:operation name="TimeQuery">
-      <wsdl:input name="TimeQuery" message="tns:TimeQuery">
+  <wsdl:operation name="Query">
+      <wsdl:input message="tns:Query">
     </wsdl:input>
-      <wsdl:output name="queryResponse" message="tns:queryResponse">
+      <wsdl:output  message="tns:queryResponse">
     </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="FullQuery">
-      <wsdl:input name="FullQuery" message="tns:FullQuery">
+  </wsdl:operation>
+  <wsdl:operation name="TimeQuery">
+      <wsdl:input  message="tns:TimeQuery">
     </wsdl:input>
-      <wsdl:output name="queryResponse" message="tns:queryResponse">
-    </wsdl:output>
-    </wsdl:operation>
+      <wsdl:output message="tns:queryResponse">
+  </wsdl:output>
+  </wsdl:operation>
   </wsdl:portType>
   
    <wsdl:binding name="HelioQueryServiceServiceSoapBinding" type="tns:HelioQueryService">
     <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsdl:operation name="Query">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="TimeQuery">
       <soap:operation soapAction="" style="document"/>
-      <wsdl:input name="TimeQuery">
+      <wsdl:input>
         <soap:body use="literal"/>
       </wsdl:input>
-      <wsdl:output name="queryResponse">
+      <wsdl:output>
         <soap:body use="literal"/>
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="FullQuery">
-      <soap:operation soapAction="" style="document"/>
-      <wsdl:input name="FullQuery">
-        <soap:body use="literal"/>
-      </wsdl:input>
-      <wsdl:output name="queryResponse">
-        <soap:body use="literal"/>
-      </wsdl:output>
-    </wsdl:operation>
-  </wsdl:binding>
+   </wsdl:binding>
   
   <wsdl:service name="HelioQueryServiceService">
     <wsdl:port name="HelioQueryServicePort" binding="tns:HelioQueryServiceServiceSoapBinding">
