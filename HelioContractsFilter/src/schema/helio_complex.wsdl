@@ -27,6 +27,8 @@
 			<xs:element minOccurs="1" name="StartTime" type="xs:dateTime"/>
 			<xs:element minOccurs="1" name="EndTime" type="xs:dateTime"/>
 			<xs:element minOccurs="1" name="From" type="xs:string"/>
+			<xs:element minOccurs="0" name="MaxRecords" type="xs:int"/>
+			<xs:element minOccurs="0" name="StartIndex" type="xs:int"/>
 		</xs:sequence>
 	</xs:complexType>
 
