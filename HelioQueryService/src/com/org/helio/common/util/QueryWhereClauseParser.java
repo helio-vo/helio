@@ -135,12 +135,14 @@ public class QueryWhereClauseParser {
     }
 	
 	// check is string is a join query
-	public boolean checkIfJoinQuery(CommonCriteriaTO comCriteriaTO)
+	public static boolean checkIfJoinQuery(CommonCriteriaTO comCriteriaTO)
 	{
-		boolean status=true;
+		boolean status=false;
+		String sWhereClause=comCriteriaTO.getWhereClause();
 		
-		
-		
+		if(count(sWhereClause,"J.")>0){
+			status=true;
+		}
 		return status;
 	}
 	
