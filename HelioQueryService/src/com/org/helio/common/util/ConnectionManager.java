@@ -20,7 +20,7 @@ public class ConnectionManager {
 		int i = 0;
 		int count=0;
 		String jdbcString = ConfigurationProfiler.getInstance().getProperty("jdbc.driver");
-	    String jdbcURL = ConfigurationProfiler.getInstance().getProperty("jdbc.url");
+	    String jdbcURL = getHsqlDBEmbeddedDatabasePath(ConfigurationProfiler.getInstance().getProperty("jdbc.url"));
 	    String user = ConfigurationProfiler.getInstance().getProperty("jdbc.user");
 	    String passwd = ConfigurationProfiler.getInstance().getProperty("jdbc.password");
 	    System.out.println(" jdbcString : "+jdbcString+" jdbcURL : "+jdbcURL+" user : "+user+" passwd  "+passwd);
@@ -110,5 +110,15 @@ public class ConnectionManager {
 		}	
 		return con;
 	} 
+	
+	//To get HSQL DB embedded database path.
+	private static String getHsqlDBEmbeddedDatabasePath(String url){
+		if(url!=null){
+			url=url.replaceAll("[:kwpath:]",InstanceHolders.getInstance().getProperty("hsqldb.database.path") );
+		}
+		return url;
+	}
+	
+	
 	
 }

@@ -10,7 +10,11 @@ import java.util.Enumeration;
 import java.util.Properties;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.log4j.Logger;
+import org.apache.struts2.ServletActionContext;
 
 public class ConfigurationProfiler {
 
@@ -21,11 +25,21 @@ public class ConfigurationProfiler {
 	private ConfigurationProfiler()
 	{
 		try
-		{							 
+		{				
+			//getting env value from web.xml.
 			if(sProfileFilePath==null || sProfileFilePath.equals("")){			
 				sProfileFilePath=CommonUtils.getPropertyFilePath();
-				logger.info("  : Property File Path  : "+sProfileFilePath);
 			}
+			
+			// If it is text.txt, then need to configure to test helio db.
+			if(sProfileFilePath!=null && sProfileFilePath.trim().equals("test.txt")){
+				//Configuring test.txt inside the webapp.
+				ClassLoader loader = this.getClass().getClassLoader();
+				sProfileFilePath=loader.getResource(sProfileFilePath).getFile();	
+			}
+			
+			logger.info("  : Property File Path  : "+sProfileFilePath);
+			
 			loadPropertyValues();			
 			TimerTask task = new FileWatcher(new File(sProfileFilePath)) {
 			      protected void onChange( File file ){
