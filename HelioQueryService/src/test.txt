@@ -3,7 +3,7 @@ jdbc.url=jdbc:hsqldb:file:kwpath/HelioDB/testdb
 jdbc.user=sa
 jdbc.password=
 
-sql.query.time.constraint.helio=
+sql.query.time.constraint.helio=start_date>='[:kwstartdate:]' AND end_date<='[:kwenddate:]'
 sql.query.instr.constraint.helio=
 sql.query.coordinates.constraint.helio= 
 sql.query.orderby.constraint.helio=
