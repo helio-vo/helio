@@ -29,9 +29,13 @@ public class QueryWebServiceClient {
 		//the getSoapBodyNamespaceURI() you can hard code it should be the same namespace you used to register in the SoapServlet.
 		Element root = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1", "helio:Query");			
 		//This configuration for TIME.		  	
-		Element xqueryElemTime = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:TIME");			
+		Element xqueryElemStartTime = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:STARTTIME");			
 		//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
-		xqueryElemTime.appendChild(doc.createTextNode("1990-10-20T20:30:56/2009-10-20T20:30:56"));	
+		xqueryElemStartTime.appendChild(doc.createTextNode("1890-10-20T20:30:56"));
+		//
+		Element xqueryElemEndTime = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:ENDTIME");			
+		//xquery should be 'time' so 2009-10-09T00:00:00/2009-10-09T01:00:00
+		xqueryElemEndTime.appendChild(doc.createTextNode("2009-10-20T20:30:56"));	
 		//This configuration for INSTRUMENT.
 		Element xqueryElemIntrument = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:INSTRUMENT");			
 		//xquery should be 'Instrument' 
@@ -39,9 +43,10 @@ public class QueryWebServiceClient {
 		//This configuration for LISTNAME.
 		Element xqueryElemListName = doc.createElementNS("http://helio-vo.eu/xml/QueryService/v0.1","helio:FROM");			
 		//xquery should be LISTNAME
-		xqueryElemListName.appendChild(doc.createTextNode("INSTRUMENTS,OBSERVATORY"));
+		xqueryElemListName.appendChild(doc.createTextNode("helio"));
 		//ok put all these into Document.
-		root.appendChild(xqueryElemTime); //Time Element.
+		root.appendChild(xqueryElemStartTime); //Start Time Element.
+		root.appendChild(xqueryElemEndTime); //End Time Element.
 		root.appendChild(xqueryElemIntrument); // Instrument Element.
 		root.appendChild(xqueryElemListName); // List Name Element.
 		doc.appendChild(root);
