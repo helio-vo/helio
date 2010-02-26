@@ -231,6 +231,7 @@ public class CommonAction  extends ActionSupport
 	private String jdbcUser;
 	private String jdbcPassword;
 	private String limitConstraint;
+	private String serviceDesc;
 	
 	public String[] getAddedTableDetails() {
 		return addedTableDetails;
@@ -298,11 +299,20 @@ public class CommonAction  extends ActionSupport
 	public void setLimitConstraint(String limitConstraint) {
 		this.limitConstraint = limitConstraint;
 	}
+	
+	public String getServiceDesc() {
+		return serviceDesc;
+	}
+
+	public void setServiceDesc(String serviceDesc) {
+		this.serviceDesc = serviceDesc;
+	}
 
 	public String createConfigurationFile()
 	{
 		String sReturnStatus="SUCCESS";
 		FileResultTO[] fileResultTO=null;
+		HttpServletRequest req = ServletActionContext.getRequest();
 		try{
 			
 			System.out.println(" :  Added Table Details  : "+getAddedTableDetails());
@@ -313,10 +323,11 @@ public class CommonAction  extends ActionSupport
 						String[] details=getAddedTableDetails()[i].split("\\^\\$\\$\\^");
 						System.out.println(getAddedTableDetails()[i]);
 						fileResultTO[i]=new FileResultTO();
-						fileResultTO[i].setJdbcDriverName("jdbc.driver="+jdbcDriverName);
-						fileResultTO[i].setJdbcUrl("jdbc.url="+jdbcUrl);
-						fileResultTO[i].setJdbcPassword("jdbc.password="+jdbcPassword);
-						fileResultTO[i].setJdbcUser("jdbc.user="+jdbcUser);
+						fileResultTO[i].setJdbcDriverName("jdbc.driver="+req.getParameter("jdbcDriverName"));
+						fileResultTO[i].setJdbcUrl("jdbc.url="+req.getParameter("jdbcUrl"));
+						fileResultTO[i].setJdbcPassword("jdbc.password="+req.getParameter("jdbcPassword"));
+						fileResultTO[i].setJdbcUser("jdbc.user="+req.getParameter("jdbcUser"));
+						fileResultTO[i].setServiceDesc("sql.votable.head.desc="+serviceDesc);
 						fileResultTO[i].setColumnNames("sql.columnnames."+details[0]+"="+details[1]);
 						fileResultTO[i].setColumnUCD("sql.columnucd."+details[0]+"="+details[8]);
 						fileResultTO[i].setColumnUType("sql.columnutypes."+details[0]+"=");
