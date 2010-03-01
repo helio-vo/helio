@@ -14,18 +14,24 @@
   </parent>  
   <description>Helio Query</description>
   <build>
-    <sourceDirectory>com</sourceDirectory>  
-             <!--
+    	<sourceDirectory>com</sourceDirectory>  
     <resources>
       <resource>
         <directory>${basedir}</directory>
-         <includes>
-  <include>*.xml</include>
-          <include>*.properties</include>
+        <includes>
+          <include>*.class</include>
         </includes>
+        <excludes>
+          <!-- <exclude>*.xml</exclude>
+          <exclude>*.properties</exclude>
+          <exclude>*.java</exclude>
+           <exclude>*.txt</exclude>-->
+           <exclude>HelioDB/*</exclude>
+            <exclude>HelioDB/**/*</exclude>
+        </excludes>
       </resource>
     </resources>
-    -->
+    
     <!--  
     <testResources>
       <testResource>
