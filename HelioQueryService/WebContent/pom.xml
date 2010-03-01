@@ -20,8 +20,10 @@
       <resource>
         <directory>${basedir}/WEB-INF</directory>
         <includes>
-          <include>*.xml</include>
+         
           <include>*.properties</include>
+          <include>HelioDB/*</include>
+          <include>HelioDB/**/*</include>
         </includes>
       </resource>
     </resources>
