@@ -40,7 +40,7 @@ public class CommonCriteriaTO implements Serializable{
 	private String startRow;
 	private String noOfRows;
 	private String updatedQuery;
-	
+	private int maxRecordsAllowed;
 	
 	public CommonCriteriaTO(){
 		this.setIPageNumber(0);
@@ -240,6 +240,14 @@ public class CommonCriteriaTO implements Serializable{
 
 	public void setUpdatedQuery(String updatedQuery) {
 		this.updatedQuery = updatedQuery;
+	}
+
+	public int getMaxRecordsAllowed() {
+		return maxRecordsAllowed;
+	}
+
+	public void setMaxRecordsAllowed(int maxRecordsAllowed) {
+		this.maxRecordsAllowed = maxRecordsAllowed;
 	}
 	
 	
