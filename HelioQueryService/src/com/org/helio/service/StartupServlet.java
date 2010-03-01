@@ -20,6 +20,7 @@ public class StartupServlet extends HttpServlet {
 			String sProfileFilePath=loader.getResource("test.txt").getFile();
 			if(sProfileFilePath!=null && !sProfileFilePath.equals("")){
 				InstanceHolders.getInstance().setProperty("hsqldb.database.path",sProfileFilePath.replaceAll("/test.txt", ""));
+				System.out.println(" : HSQLDB database location : "+sProfileFilePath.replaceAll("/test.txt", ""));
 			}
 			
 			System.out.println("++++++++++ Servleter started +++++++++++++");
