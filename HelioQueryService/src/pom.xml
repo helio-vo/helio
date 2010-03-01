@@ -15,15 +15,17 @@
   <description>Helio Query</description>
   <build>
     <sourceDirectory>com</sourceDirectory>  
+             <!--
     <resources>
       <resource>
         <directory>${basedir}</directory>
-        <includes>
-          <include>*.xml</include>
+         <includes>
+  <include>*.xml</include>
           <include>*.properties</include>
         </includes>
       </resource>
     </resources>
+    -->
     <!--  
     <testResources>
       <testResource>
