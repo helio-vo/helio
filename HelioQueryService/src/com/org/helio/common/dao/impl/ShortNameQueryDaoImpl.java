@@ -400,9 +400,11 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 			comCriteriaTO.setNoOfRows(Integer.toString(userMaxRecord));
 		}
 		//Changing the no of row value.
-		if(userMaxRecord>comCriteriaTO.getMaxRecordsAllowed()){
-			userMaxRecord=comCriteriaTO.getMaxRecordsAllowed();
-			comCriteriaTO.setNoOfRows(Integer.toString(userMaxRecord));
+		if(comCriteriaTO.getMaxRecordsAllowed()>0){
+			if(userMaxRecord>comCriteriaTO.getMaxRecordsAllowed()){
+				userMaxRecord=comCriteriaTO.getMaxRecordsAllowed();
+				comCriteriaTO.setNoOfRows(Integer.toString(userMaxRecord));
+			}
 		}
 	}
 	
