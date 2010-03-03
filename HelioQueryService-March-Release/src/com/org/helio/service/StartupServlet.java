@@ -23,8 +23,6 @@ public class StartupServlet extends HttpServlet {
 				System.out.println(" : HSQLDB database location : "+sProfileFilePath.replaceAll("/test.txt", ""));
 			}
 			
-			System.out.println("++++++++++ Servleter started +++++++++++++");
-			
 		}
 		catch(Exception ex)
 		{
