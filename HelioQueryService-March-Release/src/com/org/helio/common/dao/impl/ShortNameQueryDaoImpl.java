@@ -76,12 +76,14 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 		VOTableMaker.setColInfoProperty(tables, listName);
 		//Writing all details into table.
 		VOTableMaker.writeTables(comCriteriaTO);
-				
+		logger.info(" : VOTable succesfully created :");	
 		} catch (Exception e) {		
 			//Writing all details into table.
 			comCriteriaTO.setQueryStatus("ERROR");
 			comCriteriaTO.setQueryDescription(e.getMessage());
 			VOTableMaker.writeTables(comCriteriaTO);
+			logger.info(" Exception occured while generating VOTABLE: ",e);
+			logger.fatal(" Exception occured while generating VOTABLE: ",e);
 			throw new DetailsNotFoundException("EXCEPTION ", e);
 		}
 		finally
@@ -406,6 +408,8 @@ public class ShortNameQueryDaoImpl implements ShortNameQueryDao {
 				comCriteriaTO.setNoOfRows(Integer.toString(userMaxRecord));
 			}
 		}
+		
+		logger.info(" : Max allowed record/ Limit constriant value : "+comCriteriaTO.getNoOfRows());
 	}
 	
 	
