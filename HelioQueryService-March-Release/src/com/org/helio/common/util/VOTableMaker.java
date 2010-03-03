@@ -67,6 +67,7 @@ public class VOTableMaker {
 				 out.write("</helio:queryResponse>");
 			}
     	}catch (Exception e) {
+    		System.out.println(" Exception occured writeTables() "+e.getMessage());
     		throw new Exception("Couldn't create VO TABLE.");
 		}
         out.flush();
@@ -101,6 +102,7 @@ public class VOTableMaker {
     	}
     	
     }catch(Exception e){
+    	System.out.println(" Exception occured setColInfoProperty() "+e.getMessage());
     	throw new Exception("Couldn't set ucd's||Desc||UTypes. Please check configuration property file.");
     }
     	
