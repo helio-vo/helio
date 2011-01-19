@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <groupId>org.semanticweb</groupId>
+  <artifactId>owlapi</artifactId>
+  <version>3.1.0</version>
+  <description>OWL api</description>
+</project>
