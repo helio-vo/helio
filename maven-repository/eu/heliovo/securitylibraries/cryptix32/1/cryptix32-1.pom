@@ -1,0 +1,6 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.heliovo.securitylibraries</groupId>
+  <artifactId>cryptix32</artifactId>
+  <version>1</version>
+</project>
