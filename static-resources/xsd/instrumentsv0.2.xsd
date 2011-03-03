@@ -1,0 +1,2116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 rel. 3 sp1 (http://www.altova.com) by Anja Le Blanc (University of Manchester) -->
+<!-- some comment -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ins="http://helio-vo.eu/xml/Instruments/v0.1" targetNamespace="http://helio-vo.eu/xml/Instruments/v0.1" elementFormDefault="unqualified" attributeFormDefault="unqualified" version="1.03">
+	<simpleType name="instrument">
+		<restriction base="xs:string">
+			<enumeration value="SMM__GRS">
+				<annotation>
+					<documentation>
+      Gamma-Ray Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SMM__HXRBS">
+				<annotation>
+					<documentation>
+      Hard X-ray Burst Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SMM__HXIS">
+				<annotation>
+					<documentation>
+      Hard X-ray Imaging Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SMM__BCS">
+				<annotation>
+					<documentation>
+      Bent Crystal Spectrometer  (XRP)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SMM__FCS">
+				<annotation>
+					<documentation>
+      Flat Crystal Spectrometer  (XRP)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SMM__UVSP">
+				<annotation>
+					<documentation>
+      Ultra-Violet Spectrometer + Polarimeter
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SMM__CP">
+				<annotation>
+					<documentation>
+      Coronagraph Polarimeter
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SMM__ACRIM">
+				<annotation>
+					<documentation>
+      Active Cavity Radiometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINOTORI__SXT">
+				<annotation>
+					<documentation>
+      Solar X-ray Telescope
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINOTORI__SOX">
+				<annotation>
+					<documentation>
+      Soft X-ray crystal spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINOTORI__SGR">
+				<annotation>
+					<documentation>
+      Solar Gamma-Ray detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINOTORI__HXM">
+				<annotation>
+					<documentation>
+      Hard X-ray Monitor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINOTORI__FLM">
+				<annotation>
+					<documentation>
+      Soft Flare Monitor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINOTORI__PXM">
+				<annotation>
+					<documentation>
+      Particle radiation monitor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINOTORI__IMP">
+				<annotation>
+					<documentation>
+      Plasma electron density measurement 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINOTORI__TEL">
+				<annotation>
+					<documentation>
+      Plasma electron temperature measurement
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CGRO__BATSE">
+				<annotation>
+					<documentation>
+      Burst And Transient Source Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="YOHKOH__SXT">
+				<annotation>
+					<documentation>
+      Soft X-ray Telescope
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="YOHKOH__HXT">
+				<annotation>
+					<documentation>
+      Hard X-ray Telescope
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="YOHKOH__BCS">
+				<annotation>
+					<documentation>
+      Bragg Crystal Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="YOHKOH__WBS_GRS">
+				<annotation>
+					<documentation>
+      Gamma-Ray Spectrometer  (WBS)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="YOHKOH__WBS_HXS">
+				<annotation>
+					<documentation>
+      Hard X-ray Spectrometer  (WBS)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="YOHKOH__WBS_SXS">
+				<annotation>
+					<documentation>
+      Soft X-ray Spectrometer  (WBS)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__EIT">
+				<annotation>
+					<documentation>
+      Extreme-ultraviolet Imaging Telescope
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__CDS">
+				<annotation>
+					<documentation>
+      Coronal Diagnostic Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__SUMER">
+				<annotation>
+					<documentation>
+      Solar Ultraviolet Measurements of Emitted Radiation 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__UVCS">
+				<annotation>
+					<documentation>
+      UltraViolet Coronagraph Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__LASCO">
+				<annotation>
+					<documentation>
+      Large Angle Spectroscopic Coronagraph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__SWAN">
+				<annotation>
+					<documentation>
+      Solar Wind ANisotropies
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__MDI">
+				<annotation>
+					<documentation>
+      Michelson Doppler Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__SOI_MDI">
+				<annotation>
+					<documentation>
+      Solar Oscillation Investigation / Michelson Doppler Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__GOLF">
+				<annotation>
+					<documentation>
+      Global Oscillations at Low Frequency
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__VIRGO">
+				<annotation>
+					<documentation>
+      Variability of solar IRradiance and Gravity Oscillations
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__CELIAS">
+				<annotation>
+					<documentation>
+      Charge, Element and Isotope Analysis System
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__COSTEP">
+				<annotation>
+					<documentation>
+      Comprehensive Suprathermal and Energetic Particle Analyzer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__ERNE">
+				<annotation>
+					<documentation>
+      Energetic Particle and Relative Nuclei and Electron Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SOHO__SEM">
+				<annotation>
+					<documentation>
+      Solar Extreme ultraviolet Monitor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SPARTAN_201__WLC">
+				<annotation>
+					<documentation>
+      White Light Coronagraph.
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SPARTAN_201__UVCS">
+				<annotation>
+					<documentation>
+      UltraViolet Coronal Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="TRACE__TRACE_EUV">
+				<annotation>
+					<documentation>
+      Transition Region and Coronal Explorer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="TRACE__TRACE_UV">
+				<annotation>
+					<documentation>
+      Transition Region and Coronal Explorer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="TRACE__TRACE_VIS">
+				<annotation>
+					<documentation>
+      Transition Region and Coronal Explorer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CORONAS_F__SRT">
+				<annotation>
+					<documentation>
+      Soft X-ray telescope  (SPIRIT)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CORONAS_F__RES">
+				<annotation>
+					<documentation>
+      X-ray Spectroheliograph  (SPIRIT)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CORONAS_F__DIFOS">
+				<annotation>
+					<documentation>
+      Multichannel solar photometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CORONAS_F__DIOGENESS">
+				<annotation>
+					<documentation>
+      X-ray Spectrometer and Photometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CORONAS_F__RESIK">
+				<annotation>
+					<documentation>
+      X-ray Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="RHESSI__HESSI_GMR">
+				<annotation>
+					<documentation>
+      Ramaty High Energy Solar Spectroscopic Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="RHESSI__HESSI_HXR">
+				<annotation>
+					<documentation>
+      Ramaty High Energy Solar Spectroscopic Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CORIOLIS__SMEI">
+				<annotation>
+					<documentation>
+      Solar Mass Ejection Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINODE__SOT_SP">
+				<annotation>
+					<documentation>
+      Solar Optical Telescope/ Spectro-polarimeter
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINODE__SOT_FG">
+				<annotation>
+					<documentation>
+      Solar Optical Telescope/ Filter vector-magnetogram
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINODE__XRT">
+				<annotation>
+					<documentation>
+      X-Ray Telescope
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HINODE__EIS">
+				<annotation>
+					<documentation>
+      EUV Imaging Spectrograph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_A__EUVI">
+				<annotation>
+					<documentation>
+      Extreme UltraViolet Imager  (SECCHI)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_A__COR">
+				<annotation>
+					<documentation>
+      White light Coronagraph 1 and 2  (SECCHI)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_A__HI">
+				<annotation>
+					<documentation>
+      Heliospheric Imager 1 and 2  (SECCHI)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_A__SWAVES">
+				<annotation>
+					<documentation>
+      STEREO WAVES Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_A__SWEA">
+				<annotation>
+					<documentation>
+      Solar Wind Plasma Electron Analyze (IMPACT)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_A__MAG">
+				<annotation>
+					<documentation>
+      Magnetometer (IMPACT)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_A__SEP">
+				<annotation>
+					<documentation>
+      Solar Energetic Particle package (IMPACT)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_A__PLASTIC">
+				<annotation>
+					<documentation>
+      PLasma and SupraThermal Ion and Composition
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_B__EUVI">
+				<annotation>
+					<documentation>
+      Extreme UltraViolet Imager  (SECCHI)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_B__COR">
+				<annotation>
+					<documentation>
+      White light Coronagraph 1 and 2  (SECCHI)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_B__HI">
+				<annotation>
+					<documentation>
+      Heliospheric Imager 1 and 2  (SECCHI)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_B__SWAVES">
+				<annotation>
+					<documentation>
+      STEREO WAVES Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_B__SWEA">
+				<annotation>
+					<documentation>
+      Solar Wind Plasma Electron Analyze (IMPACT)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_B__MAG">
+				<annotation>
+					<documentation>
+      Magnetometer (IMPACT)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_B__SEP">
+				<annotation>
+					<documentation>
+      Solar Energetic Particle package (IMPACT)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="STEREO_B__PLASTIC">
+				<annotation>
+					<documentation>
+      PLasma and SupraThermal Ion and Composition
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="IBEX__IBEX_HI">
+				<annotation>
+					<documentation>
+      High Energy Neutral Atom Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="IBEX__IBEX_LO">
+				<annotation>
+					<documentation>
+      IBEX-Lo Sensor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="PROBA_2__SWAP">
+				<annotation>
+					<documentation>
+      Sun Watcher using AP-sensors and image Processing experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="PROBA_2__LYRA">
+				<annotation>
+					<documentation>
+      Lyman-Alpha radiometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="PROBA_2__DSLP">
+				<annotation>
+					<documentation>
+      Dual Segmented Langmuir Probes
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="PROBA_2__TPMU">
+				<annotation>
+					<documentation>
+      Thermal plasma measurement unit
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SDO__HMI">
+				<annotation>
+					<documentation>
+      Heliospheric and Magnetic Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SDO__AIA_EUV">
+				<annotation>
+					<documentation>
+      Atmospheric Imaging Assembly
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SDO__AIA_UV">
+				<annotation>
+					<documentation>
+      Atmospheric Imaging Assembly
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="SDO__EVE">
+				<annotation>
+					<documentation>
+      Extreme ultraviolet Variability Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="PROBA_3__ASPIICS">
+				<annotation>
+					<documentation>
+      Association de Satellites Pour lImagerie et lInterfromtrie de la Couronne Solaire
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GOES__XRS">
+				<annotation>
+					<documentation>
+      X-ray Sensor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GOES__HEPAD">
+				<annotation>
+					<documentation>
+      High Energy Proton and Alpha Detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GOES__EPS">
+				<annotation>
+					<documentation>
+      Energetic Particle Sensor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GOES__MAG">
+				<annotation>
+					<documentation>
+      Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GOES_12__SXI">
+				<annotation>
+					<documentation>
+      Soft X-ray Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GOES_13__SXI">
+				<annotation>
+					<documentation>
+      Soft X-ray Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GOES_14__SXI">
+				<annotation>
+					<documentation>
+      Soft X-ray Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ACE__SIS">
+				<annotation>
+					<documentation>
+      Solar Isotope Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ACE__ULEIS">
+				<annotation>
+					<documentation>
+      Ulltra Low Energy Isotope Spectometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ACE__EPAM">
+				<annotation>
+					<documentation>
+      Electron, Proton and Alpha Monitor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ACE__SEPICA">
+				<annotation>
+					<documentation>
+      Solar Energetic Particle Ionic Charge Analyzer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ACE__SWIMS">
+				<annotation>
+					<documentation>
+      Solar Wind Ion Mass Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ACE__SWICS">
+				<annotation>
+					<documentation>
+      Solar Wind Ion Composition Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ACE__SWEPAM">
+				<annotation>
+					<documentation>
+      Solar Wind Electron, Proton and Alpha Monitor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ACE__MAG">
+				<annotation>
+					<documentation>
+      Magnetic Field Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__PEACE">
+				<annotation>
+					<documentation>
+      Plasma Electron And Current Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__EDI">
+				<annotation>
+					<documentation>
+      Electron Drift Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__STAFF">
+				<annotation>
+					<documentation>
+      Spatio-Temporal Analysis of Field Fluctuation experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__EFW">
+				<annotation>
+					<documentation>
+      Electric Field and Wave experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__DWP">
+				<annotation>
+					<documentation>
+      Digital Wave Processing experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__WHISPER">
+				<annotation>
+					<documentation>
+      Waves of HIgh frequency and Sounder for Probing of Electron density by Relaxation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__WBD">
+				<annotation>
+					<documentation>
+      Wide Band Data instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__CIS">
+				<annotation>
+					<documentation>
+      Cluster Ion Spectrometer experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_1__RAPID">
+				<annotation>
+					<documentation>
+      Research with Adaptive Particle Imaging Detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__PEACE">
+				<annotation>
+					<documentation>
+      Plasma Electron And Current Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__EDI">
+				<annotation>
+					<documentation>
+      Electron Drift Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__STAFF">
+				<annotation>
+					<documentation>
+      Spatio-Temporal Analysis of Field Fluctuation experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__EFW">
+				<annotation>
+					<documentation>
+      Electric Field and Wave experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__DWP">
+				<annotation>
+					<documentation>
+      Digital Wave Processing experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__WHISPER">
+				<annotation>
+					<documentation>
+      Waves of HIgh frequency and Sounder for Probing of Electron density by Relaxation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__WBD">
+				<annotation>
+					<documentation>
+      Wide Band Data instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__CIS">
+				<annotation>
+					<documentation>
+      Cluster Ion Spectrometer experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_2__RAPID">
+				<annotation>
+					<documentation>
+      Research with Adaptive Particle Imaging Detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__PEACE">
+				<annotation>
+					<documentation>
+      Plasma Electron And Current Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__EDI">
+				<annotation>
+					<documentation>
+      Electron Drift Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__STAFF">
+				<annotation>
+					<documentation>
+      Spatio-Temporal Analysis of Field Fluctuation experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__EFW">
+				<annotation>
+					<documentation>
+      Electric Field and Wave experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__DWP">
+				<annotation>
+					<documentation>
+      Digital Wave Processing experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__WHISPER">
+				<annotation>
+					<documentation>
+      Waves of HIgh frequency and Sounder for Probing of Electron density by Relaxation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__WBD">
+				<annotation>
+					<documentation>
+      Wide Band Data instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__CIS">
+				<annotation>
+					<documentation>
+      Cluster Ion Spectrometer experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_3__RAPID">
+				<annotation>
+					<documentation>
+      Research with Adaptive Particle Imaging Detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__PEACE">
+				<annotation>
+					<documentation>
+      Plasma Electron And Current Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__EDI">
+				<annotation>
+					<documentation>
+      Electron Drift Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__STAFF">
+				<annotation>
+					<documentation>
+      Spatio-Temporal Analysis of Field Fluctuation experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__EFW">
+				<annotation>
+					<documentation>
+      Electric Field and Wave experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__DWP">
+				<annotation>
+					<documentation>
+      Digital Wave Processing experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__WHISPER">
+				<annotation>
+					<documentation>
+      Waves of HIgh frequency and Sounder for Probing of Electron density by Relaxation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__WBD">
+				<annotation>
+					<documentation>
+      Wide Band Data instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__CIS">
+				<annotation>
+					<documentation>
+      Cluster Ion Spectrometer experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CLUSTER_4__RAPID">
+				<annotation>
+					<documentation>
+      Research with Adaptive Particle Imaging Detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_A__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_A__ESA">
+				<annotation>
+					<documentation>
+      Electrostatic Analyzer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_A__SST">
+				<annotation>
+					<documentation>
+      Solid-State Telescopes
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_A__SCM">
+				<annotation>
+					<documentation>
+      Search Coil Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_A__EFI">
+				<annotation>
+					<documentation>
+      Electric Field Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_B__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_B__ESA">
+				<annotation>
+					<documentation>
+      Electrostatic Analyzer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_B__SST">
+				<annotation>
+					<documentation>
+      Solid-State Telescopes
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_B__SCM">
+				<annotation>
+					<documentation>
+      Search Coil Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_B__EFI">
+				<annotation>
+					<documentation>
+      Electric Field Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_C__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_C__ESA">
+				<annotation>
+					<documentation>
+      Electrostatic Analyzer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_C__SST">
+				<annotation>
+					<documentation>
+      Solid-State Telescopes
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_C__SCM">
+				<annotation>
+					<documentation>
+      Search Coil Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_C__EFI">
+				<annotation>
+					<documentation>
+      Electric Field Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_D__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_D__ESA">
+				<annotation>
+					<documentation>
+      Electrostatic Analyzer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_D__SST">
+				<annotation>
+					<documentation>
+      Solid-State Telescopes
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_D__SCM">
+				<annotation>
+					<documentation>
+      Search Coil Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_D__EFI">
+				<annotation>
+					<documentation>
+      Electric Field Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_E__FGM">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_E__ESA">
+				<annotation>
+					<documentation>
+      Electrostatic Analyzer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_E__SST">
+				<annotation>
+					<documentation>
+      Solid-State Telescopes
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_E__SCM">
+				<annotation>
+					<documentation>
+      Search Coil Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEMIS_E__EFI">
+				<annotation>
+					<documentation>
+      Electric Field Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__3DP">
+				<annotation>
+					<documentation>
+      Hot Plasma and Charged Particles
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__TGRS">
+				<annotation>
+					<documentation>
+      Transient Gamma Ray and EUV Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__MFI">
+				<annotation>
+					<documentation>
+      Magnetic Fields Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__WAVES">
+				<annotation>
+					<documentation>
+      Plasma and Radio Waves
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__SWE">
+				<annotation>
+					<documentation>
+      Solar Wind Experiment 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__EPACT">
+				<annotation>
+					<documentation>
+      Energetic Particle Acceleration, Composition and Transport
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__SWICS">
+				<annotation>
+					<documentation>
+      Solar Wind Ion Composition Spectrometer  (SMS)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__STICS">
+				<annotation>
+					<documentation>
+      SupraThermal Ion Composition Spectrometer  (SMS)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__MASS">
+				<annotation>
+					<documentation>
+      High MASS Resolution Spectrometer  (SMS)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="WIND__KONUS">
+				<annotation>
+					<documentation>
+      Gamma Ray Burst Detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GEOTAIL__HEP">
+				<annotation>
+					<documentation>
+      High Energy Particles
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GEOTAIL__PWI">
+				<annotation>
+					<documentation>
+      Plasma Wave Investigation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GEOTAIL__EPIC">
+				<annotation>
+					<documentation>
+      Energetic Particles and Ion Composition 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GEOTAIL__CPI">
+				<annotation>
+					<documentation>
+      Comprehensive Plasma Instrument 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GEOTAIL__EFD">
+				<annotation>
+					<documentation>
+      Electric Field Detector 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GEOTAIL__MGF">
+				<annotation>
+					<documentation>
+      Magnetic Fields Measurement
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GEOTAIL__LEP">
+				<annotation>
+					<documentation>
+      Low Energy Particles
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__TIMAS">
+				<annotation>
+					<documentation>
+      Toroidal Imaging Mass-Angle Spectrograph 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__PWI">
+				<annotation>
+					<documentation>
+      Plasma Waves Investigation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__HYDRA">
+				<annotation>
+					<documentation>
+      Hot Plasma Analyzer 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__TIDE">
+				<annotation>
+					<documentation>
+      Thermal Ion Dynamics Experiment 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__CEPPAD">
+				<annotation>
+					<documentation>
+      Comprehensive Energetic-Particle Pitch-Angle Distribution
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__CAMMICE">
+				<annotation>
+					<documentation>
+      Charge and Mass Magnetospheric Ion Composition Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__PIXIE">
+				<annotation>
+					<documentation>
+      Polar Ionospheric X-ray Imaging Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__MFE">
+				<annotation>
+					<documentation>
+      Magnetic Fields Experiment 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__EFI">
+				<annotation>
+					<documentation>
+      Electric Fields Investigation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__UVI">
+				<annotation>
+					<documentation>
+      Ultraviolet Imager 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="POLAR__VIS">
+				<annotation>
+					<documentation>
+      Visible Imaging System
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="IMAGE__RPI">
+				<annotation>
+					<documentation>
+      Radio Plasma Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="IMAGE__LENA">
+				<annotation>
+					<documentation>
+      Low-Energy Neutral Atom Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="IMAGE__MENA">
+				<annotation>
+					<documentation>
+      Medium-Energy Neutral Atom Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="IMAGE__HENA">
+				<annotation>
+					<documentation>
+      High-Energy Neutral Atom Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="IMAGE__FUV">
+				<annotation>
+					<documentation>
+      Far Ultraviolet Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="IMAGE__EUV">
+				<annotation>
+					<documentation>
+      Extreme Ultraviolet Imager
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__VHM_FGM">
+				<annotation>
+					<documentation>
+      Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__SWOOPS">
+				<annotation>
+					<documentation>
+      Solar Wind Plasma Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__SWICS">
+				<annotation>
+					<documentation>
+      Solar Wind Ion Composition Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__URAP">
+				<annotation>
+					<documentation>
+      Unified Radio and Plasma Wave Investigation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__HISCALE">
+				<annotation>
+					<documentation>
+      Heliospheric Instrument for Spectra, Composition and Anisotropy at Low Energy
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__SCE">
+				<annotation>
+					<documentation>
+      Coronal-Sounding Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__DUST">
+				<annotation>
+					<documentation>
+      Dust Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__EPAC">
+				<annotation>
+					<documentation>
+      Energetic Particle Composition Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__COSPIN">
+				<annotation>
+					<documentation>
+      Cosmic-ray and Solar Particle Investigation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ULYSSES__GRB">
+				<annotation>
+					<documentation>
+      Solar X-ray and Cosmic Gamma-Ray Burst Instrument
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__RSS">
+				<annotation>
+					<documentation>
+      Radio Science Subsystem
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__RPWS">
+				<annotation>
+					<documentation>
+      Radio and Plasma Wave Science
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__INMS">
+				<annotation>
+					<documentation>
+      Ion and Neutral Mass Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__CDA">
+				<annotation>
+					<documentation>
+      Cosmic Dust Anayzer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__RPWS">
+				<annotation>
+					<documentation>
+      Radio and Plasma Wave Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__CAPS">
+				<annotation>
+					<documentation>
+      Cassini Plasma Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__MAG">
+				<annotation>
+					<documentation>
+      Dual Technique Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__HPD">
+				<annotation>
+					<documentation>
+      Hot Plasma Detector  (MIMI0
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CASSINI__ENA">
+				<annotation>
+					<documentation>
+      Energetic Neutral Analyzer (MIMI)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GALILEO__MAG">
+				<annotation>
+					<documentation>
+      Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GALILEO__PLS">
+				<annotation>
+					<documentation>
+      Plasma Detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GALILEO__EPD">
+				<annotation>
+					<documentation>
+      Energetic Particles Detector
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GALILEO__DDS">
+				<annotation>
+					<documentation>
+      Dust Detection System
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GALILEO__PWS">
+				<annotation>
+					<documentation>
+      Plasma Wave Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="GALILEO__RS">
+				<annotation>
+					<documentation>
+      Radio Science: Propagation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MGS__MAG">
+				<annotation>
+					<documentation>
+      Magnetometer (MAG/ER)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MGS__ER">
+				<annotation>
+					<documentation>
+      Electron Reflectometer (MAG/ER)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MGS__RS">
+				<annotation>
+					<documentation>
+      Radio Science Investigations
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ODYSSEY__MARIE">
+				<annotation>
+					<documentation>
+      Mars Radiation Environment Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ODYSSEY__RS">
+				<annotation>
+					<documentation>
+      Radio Science 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MEX__NPI">
+				<annotation>
+					<documentation>
+      Neutral Particle Imager (ASPERA-3)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MEX__NPD">
+				<annotation>
+					<documentation>
+      Neutral Particle Detector (ASPERA-3)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MEX__ELS">
+				<annotation>
+					<documentation>
+      Electron Spectrometer (ASPERA-3)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MEX__IMA">
+				<annotation>
+					<documentation>
+      Ion Mass Analyser (ASPERA-3)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MEX__MARSIS">
+				<annotation>
+					<documentation>
+      Mars Advanced Radar for Subsurface and Ionospheric Sounding 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VEX__NPI">
+				<annotation>
+					<documentation>
+      Neutral Particle Imager (ASPERA-4)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VEX__NPD">
+				<annotation>
+					<documentation>
+      Neutral Particle Detector (ASPERA-4)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VEX__ELS">
+				<annotation>
+					<documentation>
+      Electron Spectrometer (ASPERA-4)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VEX__IMA">
+				<annotation>
+					<documentation>
+      Ion Mass Analyser (ASPERA-4)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VEX__MAG">
+				<annotation>
+					<documentation>
+      Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NEAR__MAG">
+				<annotation>
+					<documentation>
+      Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ROSETTA__LAP">
+				<annotation>
+					<documentation>
+      Langmuir Probe
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ROSETTA__IES">
+				<annotation>
+					<documentation>
+      Ion and Electron Sensor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ROSETTA__MAG">
+				<annotation>
+					<documentation>
+      Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ROSETTA__ICA">
+				<annotation>
+					<documentation>
+      Ion Composition Analyser
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="ROSETTA__RSI">
+				<annotation>
+					<documentation>
+      Radio Science Investigations
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MESSENGER__XRS">
+				<annotation>
+					<documentation>
+      X-ray Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MESSENGER__EPS">
+				<annotation>
+					<documentation>
+      Energetic Particle Spectrometer (EPPS)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MESSENGER__FIPS">
+				<annotation>
+					<documentation>
+      Fast Imaging Plasma Spectrometer (EPPS)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MESSENGER__MAG">
+				<annotation>
+					<documentation>
+      Magnetometer 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_1__RSS">
+				<annotation>
+					<documentation>
+      Radio Science
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_1__MAG">
+				<annotation>
+					<documentation>
+      Triaxial Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_1__PLS">
+				<annotation>
+					<documentation>
+      Plasma Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_1__LECP">
+				<annotation>
+					<documentation>
+      Low-Energy Charged Particles
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_1__CRS">
+				<annotation>
+					<documentation>
+      Cosmic Ray System
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_1__PRA">
+				<annotation>
+					<documentation>
+      Planetary Radio Astronomy
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_1__PWS">
+				<annotation>
+					<documentation>
+      Plasma Wave System
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_2__RSS">
+				<annotation>
+					<documentation>
+      Radio Science (RSS) 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_2__MAG">
+				<annotation>
+					<documentation>
+      Triaxial Fluxgate Magnetometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_2__PLS">
+				<annotation>
+					<documentation>
+      Plasma Spectrometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_2__LECP">
+				<annotation>
+					<documentation>
+      Low-Energy Charged Particles
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_2__CRS">
+				<annotation>
+					<documentation>
+      Cosmic Ray System
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_2__PRA">
+				<annotation>
+					<documentation>
+      Planetary Radio Astronomy
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="VOYAGER_2__PWS">
+				<annotation>
+					<documentation>
+      Plasma Wave System
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NEWHORIZONS__PEPSSI">
+				<annotation>
+					<documentation>
+      Pluto Energetic Particle Spectrometer Science Investigation
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NEWHORIZONS__SWAP">
+				<annotation>
+					<documentation>
+      Solar Wind Analyzer around Pluto 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NEWHORIZONS__REX">
+				<annotation>
+					<documentation>
+      Radio Experiment
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NEWHORIZONS__VENETIA">
+				<annotation>
+					<documentation>
+      Venetia Burney Student Dust Counter
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MEUD__MWLT">
+				<annotation>
+					<documentation>
+      Meudon White Light Telescope
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MEUD__MSH">
+				<annotation>
+					<documentation>
+      Meudon Spectroheliograph 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NANC__NRH">
+				<annotation>
+					<documentation>
+      Nancay Radioheliograph  (164 + 327 MHz)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NANC__NDA">
+				<annotation>
+					<documentation>
+      Nancay Decametric Array
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NANC__NTRFA">
+				<annotation>
+					<documentation>
+      Nancay Total Radio Flux Antenna
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="PDMO__COGHA">
+				<annotation>
+					<documentation>
+      Pic-du-Midi H-alpha Coronagraph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KPNO__MAGMP">
+				<annotation>
+					<documentation>
+      KPVT 512 channel Magnetograph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KPNO__SPMAG">
+				<annotation>
+					<documentation>
+      KPVT Spectro-Magnetograph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KPNO__VSM">
+				<annotation>
+					<documentation>
+      SOLIS Vector Spectro-Magnetograph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KPNO__FDP">
+				<annotation>
+					<documentation>
+      SOLIS Full Disk Patrol
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KSAC__COGHA">
+				<annotation>
+					<documentation>
+      Evans Coronagraph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KSAC__SHELIO">
+				<annotation>
+					<documentation>
+      Evans Spectroheliograph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MLSO__MK3">
+				<annotation>
+					<documentation>
+      Coronagraph, Mk III
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MLSO__MK4">
+				<annotation>
+					<documentation>
+      Coronagraph, Mk IV
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MLSO__DPM">
+				<annotation>
+					<documentation>
+      Digital Prominence Monitor
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MLSO__PICS">
+				<annotation>
+					<documentation>
+      Polarimeter for Inner Coronal Studies
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MLSO__CHIP">
+				<annotation>
+					<documentation>
+      Chromospheric Helium Imaging Photometer
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MWSO__MAGMP">
+				<annotation>
+					<documentation>
+      Magnetograph
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KISF__HALPH">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope  (Patrol)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="THEM__HALPH">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope??
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="NOBE__NORH">
+				<annotation>
+					<documentation>
+      Nobeyama Radioheliograph  (17 + 34 GHz)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="OVRO__OVSA">
+				<annotation>
+					<documentation>
+      Owens Valley Solar Array  (radioheliograph, 1-18 GHz)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KSFO__CFDT1">
+				<annotation>
+					<documentation>
+      Cartesian Full Disk Telecsope No. 1
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KSFO__CFDT2">
+				<annotation>
+					<documentation>
+      Cartesian Full Disk Telecsope No. 2
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="HSOS__HALPH">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope  (GHAN)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="YNAO__HALPH">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope  (GHAN)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="OACT__HALPH">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope  (GHAN)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KANZ__HALPH">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope  (GHAN)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="KANZ__SYNOP">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope  (GHAN)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="BBSO__SYNOP">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope  (GHAN + Synoptic)
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CUCS__HASTA">
+				<annotation>
+					<documentation>
+      H-Alpha Telescope for Argentina
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="LEAR__GONG_SYN">
+				<annotation>
+					<documentation>
+      Magnetograph + Intensity Synoptic 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="UDPR__GONG_SYN">
+				<annotation>
+					<documentation>
+      Magnetograph + Intensity Synoptic 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="TEID__GONG_SYN">
+				<annotation>
+					<documentation>
+      Magnetograph + Intensity Synoptic 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="CTIO__GONG_SYN">
+				<annotation>
+					<documentation>
+      Magnetograph + Intensity Synoptic 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="BBSO__GONG_SYN">
+				<annotation>
+					<documentation>
+      Magnetograph + Intensity Synoptic 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="MLSO__GONG_SYN">
+				<annotation>
+					<documentation>
+      Magnetograph + Intensity Synoptic 
+     </documentation>
+				</annotation>
+			</enumeration>
+			<enumeration value="BLEIEN__PHOENIX_2">
+				<annotation>
+					<documentation>
+      Phoenix-2 Radio Spectrometer  (0.1 to 4.0 GHz)
+     </documentation>
+				</annotation>
+			</enumeration>
+		</restriction>
+	</simpleType>
+</schema>
