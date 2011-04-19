@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>IDL client service provider</display-name>
+  <servlet>
+  	<servlet-name>AsyncQueryServiceServlet</servlet-name>
+  	<display-name>AsyncQueryServiceServlet</display-name>
+  	<description></description>
+  	<servlet-class>eu.heliovo.idlclient.provider.servlet.AsyncQueryServiceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AsyncQueryServiceServlet</servlet-name>
+  	<url-pattern>/AsyncQueryServiceServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

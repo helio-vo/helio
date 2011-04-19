@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime' version='2.0'>
+<!-- 
+    <endpoint
+        name='HelioDpas'
+        implementation='eu.heliovo.dpas.ie.controller.QueryService'
+        url-pattern='/services'/>
+        -->
+   <endpoint 
+	    name="HelioService"                    
+	    implementation="eu.heliovo.dpas.ie.services.common.server.SoapDispatcher"
+	    wsdl="WEB-INF/wsdl/helio_full_query.wsdl"
+	    service="{http://helio-vo.eu/xml/QueryService/v0.1}HelioQueryServiceService"
+	    port="{http://helio-vo.eu/xml/QueryService/v0.1}HelioQueryServicePort"
+	    url-pattern="/HelioService"/>
+	    
+	    <endpoint 
+	    name="HelioLongQueryService"                    
+	    implementation="eu.heliovo.dpas.ie.services.common.server.SoapDispatcher"
+	     wsdl="WEB-INF/wsdl/long_runningquery.wsdl"
+	    service="{http://helio-vo.eu/xml/LongQueryService/v0.9}LongHelioQueryService"
+	    port="{http://helio-vo.eu/xml/LongQueryService/v0.9}LongHelioQueryServicePort"
+	    url-pattern="/HelioLongQueryService"/>
+	    
+		<!-- OLD: http://helio-vo.eu/xml/QueryService/v0.1 -->	    
+
+	    <endpoint 
+	    name="HelioTavernaService"                    
+	    implementation="eu.heliovo.dpas.ie.services.common.server.SoapDispatcher" 
+	    wsdl="WEB-INF/wsdl/helio_service_traverna.wsdl"
+	    service="{http://helio-vo.eu/xml/QueryService/v0.1}HelioQueryServiceServiceTwo"
+	    port="{http://helio-vo.eu/xml/QueryService/v0.1}HelioQueryServicePortTwo"
+	    url-pattern="/HelioTavernaService"/>
+
+</endpoints>
