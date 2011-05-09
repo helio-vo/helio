@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.067" errors="0" skipped="0" tests="7" name="org.helio.cil.CommunityInteractionServiceTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/pierang/Software/glassfishBundle/jre/jre/lib/i386"/>
+    <property name="java.vm.version" value="14.2-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/pierang/workspace/heliovo/helio-cil"/>
+    <property name="java.runtime.version" value="1.6.0_16-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/pierang/workspace/heliovo/helio-cil"/>
+    <property name="java.endorsed.dirs" value="/home/pierang/Software/glassfishBundle/jre/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="surefire.real.class.path" value="/home/pierang/workspace/heliovo/helio-cil/target/surefire/surefirebooter3797832827766555411.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/home/pierang/Software/glassfishBundle/jre/jre/lib/i386/server:/home/pierang/Software/glassfishBundle/jre/jre/lib/i386:/home/pierang/Software/glassfishBundle/jre/jre/../lib/i386:/home/pierang/Software/glassfishBundle/jre/jre/lib/i386/client:/home/pierang/Software/glassfishBundle/jre/jre/lib/i386:/usr/lib/xulrunner-addons:/usr/lib/xulrunner-addons:/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/pierang/workspace/heliovo/helio-cil/target/test-classes:/home/pierang/workspace/heliovo/helio-cil/target/classes:/home/pierang/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/pierang/.m2/repository/condor/classad/2.4/classad-2.4.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/cog-jglobus/1.8.0/cog-jglobus-1.8.0.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/commons-logging/1.1/commons-logging-1.1.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/jce-jdk13/131/jce-jdk13-131.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/puretls/1/puretls-1.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/cryptix32/1/cryptix32-1.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/cryptix-asn1/1/cryptix-asn1-1.jar:/home/pierang/.m2/repository/axis/axis-ant/1.4/axis-ant-1.4.jar:/home/pierang/.m2/repository/axis/axis/1.4/axis-1.4.jar:/home/pierang/.m2/repository/axis/axis-jaxrpc/1.4/axis-jaxrpc-1.4.jar:/home/pierang/.m2/repository/axis/axis-saaj/1.4/axis-saaj-1.4.jar:/home/pierang/.m2/repository/axis/axis-wsdl4j/1.5.1/axis-wsdl4j-1.5.1.jar:/home/pierang/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:/home/pierang/.m2/repository/commons-discovery/commons-discovery/0.2/commons-discovery-0.2.jar:/home/pierang/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/home/pierang/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-31-generic"/>
+    <property name="user.home" value="/home/pierang"/>
+    <property name="user.timezone" value="Eire"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="pierang"/>
+    <property name="java.class.path" value="/home/pierang/workspace/heliovo/helio-cil/target/test-classes:/home/pierang/workspace/heliovo/helio-cil/target/classes:/home/pierang/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/pierang/.m2/repository/condor/classad/2.4/classad-2.4.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/cog-jglobus/1.8.0/cog-jglobus-1.8.0.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/commons-logging/1.1/commons-logging-1.1.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/jce-jdk13/131/jce-jdk13-131.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/puretls/1/puretls-1.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/cryptix32/1/cryptix32-1.jar:/home/pierang/.m2/repository/eu/heliovo/securitylibraries/cryptix-asn1/1/cryptix-asn1-1.jar:/home/pierang/.m2/repository/axis/axis-ant/1.4/axis-ant-1.4.jar:/home/pierang/.m2/repository/axis/axis/1.4/axis-1.4.jar:/home/pierang/.m2/repository/axis/axis-jaxrpc/1.4/axis-jaxrpc-1.4.jar:/home/pierang/.m2/repository/axis/axis-saaj/1.4/axis-saaj-1.4.jar:/home/pierang/.m2/repository/axis/axis-wsdl4j/1.5.1/axis-wsdl4j-1.5.1.jar:/home/pierang/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar:/home/pierang/.m2/repository/commons-discovery/commons-discovery/0.2/commons-discovery-0.2.jar:/home/pierang/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/home/pierang/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/home/pierang/Software/glassfishBundle/jre/jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_16"/>
+    <property name="java.ext.dirs" value="/home/pierang/Software/glassfishBundle/jre/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/home/pierang/Software/glassfishBundle/jre/jre/lib/resources.jar:/home/pierang/Software/glassfishBundle/jre/jre/lib/rt.jar:/home/pierang/Software/glassfishBundle/jre/jre/lib/sunrsasign.jar:/home/pierang/Software/glassfishBundle/jre/jre/lib/jsse.jar:/home/pierang/Software/glassfishBundle/jre/jre/lib/jce.jar:/home/pierang/Software/glassfishBundle/jre/jre/lib/charsets.jar:/home/pierang/Software/glassfishBundle/jre/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="/home/pierang/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.027" classname="org.helio.cil.CommunityInteractionServiceTest" name="testCommunityInteractionService"/>
+  <testcase time="0.067" classname="org.helio.cil.CommunityInteractionServiceTest" name="testValidateLogin"/>
+  <testcase time="0.009" classname="org.helio.cil.CommunityInteractionServiceTest" name="testGetLowSecurityHITFor"/>
+  <testcase time="0.002" classname="org.helio.cil.CommunityInteractionServiceTest" name="testGetLowSecurityHITForAnonymousUser"/>
+  <testcase time="0.404" classname="org.helio.cil.CommunityInteractionServiceTest" name="testGetHighSecurityHITForAnonymousUser"/>
+  <testcase time="0.523" classname="org.helio.cil.CommunityInteractionServiceTest" name="testGetHighSecurityHITFor"/>
+  <testcase time="0.001" classname="org.helio.cil.CommunityInteractionServiceTest" name="testSetUserProfileEntity"/>
+</testsuite>
