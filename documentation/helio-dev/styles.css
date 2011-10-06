@@ -59,20 +59,20 @@
 	height: 400px;
 }
 a:link{
-	font: 120% Verdana, sans-serif;
+	font: 100% Verdana, sans-serif;
 	font-variant: none;
 	text-decoration: none;
 	color: #0000CD;
 	
 }
 a:visited{
-	font: 120% Verdana, sans-serif;
+	font: 100% Verdana, sans-serif;
 	font-variant: none;
 	text-decoration: underline;
 	color: #C71585;
 }
 a:hover{
-	font: 120% Verdana, sans-serif;
+	font: 100% Verdana, sans-serif;
 	font-variant: small-caps;
 	letter-spacing: 5px;
 	text-decoration: none;
@@ -82,7 +82,17 @@ h1{
 	font: normal small-caps bold 130% Verdana, sans-serif;
 	text-align: center;
 }
-	
+h2{
+	font: normal small-caps bold 110% Verdana, sans-serif;
+	text-align: left;
+	text-decoration: underline;
+	line-height: 1.5;
+}
+h3{
+	font: bold small-caps normal 100% Verdana, sans-serif;
+	text-align: left;
+	line-height: 0;
+}	
 	
 	
 	
