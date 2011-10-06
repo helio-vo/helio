@@ -1,0 +1,126 @@
+			/* div */
+#all{
+	width: 1300px;
+	margin: 0 auto;
+}
+#branding{
+	background: #473C8B;
+	width: 1310px;
+	height: 100px;
+	padding: 20px;
+	color: #FFFFFF;
+	font: normal 500% "Comic Sans MS", serif;
+	font-variant: small-caps;
+	text-align: center;
+	
+}
+#wrapper{
+	background: #FFFFFFF;
+	float: left;
+	width: 1340px;
+	border: 5px solid #473C8B;
+	min-height: 1000px;
+	margin: 0 auto;
+	text-align: right;
+}
+#left{
+	background: #FFFFFF;
+	width: 500px;
+	min-height: 1000px;
+	padding: 20px;
+	float: left;
+	font: 120% Verdana, sans-serif;
+	text-align: left;
+	padding-left: 50px;
+}
+#right{
+	background: #FFFFFF;
+	min-height: 1000px;
+	width: 600px;
+	padding: 20px 20px;
+	font: 120% Verdana, sans-serif;
+	margin-right: 50px;
+	float: right;
+}
+#footer{
+	background: #473C8B; 
+	position: absolute;
+	width: 1350px;
+	height: 50px;
+	margin: 0 auto;
+	font: normal italic 120% Verdana, sans-serif;
+}
+			/* classes */
+.clear{
+	clear:both;
+}
+.image{
+	width: 400px;
+	height: 400px;
+}
+a:link{
+	font: 100% Verdana, sans-serif;
+	font-variant: none;
+	text-decoration: none;
+	color: #0000CD;
+	
+}
+a:visited{
+	font: 100% Verdana, sans-serif;
+	font-variant: none;
+	text-decoration: underline;
+	color: #C71585;
+}
+a:hover{
+	font: 100% Verdana, sans-serif;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+	text-decoration: none;
+}
+			/* font */
+h1{
+	font: normal small-caps bold 130% Verdana, sans-serif;
+	text-align: center;
+}
+h2{
+	font: normal small-caps bold 110% Verdana, sans-serif;
+	text-align: left;
+	text-decoration: underline;
+	line-height: 1.5;
+}
+h3{
+	font: bold small-caps normal 100% Verdana, sans-serif;
+	text-align: left;
+	line-height: 1;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
