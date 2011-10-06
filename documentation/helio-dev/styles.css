@@ -1,15 +1,16 @@
-			/* div */
+				/* div */
 #all{
-	width: 1300px;
+	width: 900px;
 	margin: 0 auto;
+	text-align: left;
 }
 #branding{
 	background: #473C8B;
-	width: 1310px;
+	width: 910px;
 	height: 100px;
 	padding: 20px;
 	color: #FFFFFF;
-	font: normal 500% "Comic Sans MS", serif;
+	font: normal 300% Arial;
 	font-variant: small-caps;
 	text-align: center;
 	
@@ -17,15 +18,15 @@
 #wrapper{
 	background: #FFFFFFF;
 	float: left;
-	width: 1340px;
+	width: 940px;
 	border: 5px solid #473C8B;
-	min-height: 1000px;
+	min-height: 600px;
 	margin: 0 auto;
 	text-align: right;
 }
 #left{
 	background: #FFFFFF;
-	width: 500px;
+	width: 400px;
 	min-height: 1000px;
 	padding: 20px;
 	float: left;
@@ -35,8 +36,8 @@
 }
 #right{
 	background: #FFFFFF;
-	min-height: 1000px;
-	width: 600px;
+	min-height: 900px;
+	width: 300px;
 	padding: 20px 20px;
 	font: 120% Verdana, sans-serif;
 	margin-right: 50px;
@@ -45,7 +46,7 @@
 #footer{
 	background: #473C8B; 
 	position: absolute;
-	width: 1350px;
+	width: 950px;
 	height: 50px;
 	margin: 0 auto;
 	font: normal italic 120% Verdana, sans-serif;
@@ -55,8 +56,8 @@
 	clear:both;
 }
 .image{
-	width: 400px;
-	height: 400px;
+	width: 250px;
+	height: 250px;
 }
 a:link{
 	font: 100% Verdana, sans-serif;
