@@ -1,1 +1,0 @@
-Dont touch these Ontologies! Tests are carried out against them!

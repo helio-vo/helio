@@ -1,2 +1,0 @@
-DRIVER|URL|USER|PASSWORD
-com.mysql.jdbc.Driver|jdbc:mysql://voparis-mysql5-paris.obspm.fr:3306/hfc1|guest|guest
