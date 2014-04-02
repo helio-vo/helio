@@ -91,7 +91,7 @@ PRO display2d,Z_in,Xin=X_in,Yin=Y_in, $
 ;       None.
 ;
 ; RESTRICTIONS:
-;	None.
+;	      None.
 ;
 ; EXAMPLE:
 ;
@@ -104,8 +104,8 @@ PRO display2d,Z_in,Xin=X_in,Yin=Y_in, $
 ;
 ;       Written by X.Bonnin, 10-May-2005.
 ;       15-SEP-2006, X.Bonnin:	Added map keyword.
-;	01-JUN-2010, X.Bonnin: 	Added background keyword.
-;	17-JUL-2011, X.Bonnin:  Added contrast optional input.	
+;	      01-JUN-2010, X.Bonnin: 	Added background keyword.
+;	      17-JUL-2011, X.Bonnin:  Added contrast optional input.	
 ;       03-JAN-2012, X.Bonnin:  Replaced /SILENT by /LOUD keyword.	
 ;       30-JAN-2012, X.Bonnin:  Added ttcharsize optional input.
 ;       26-JUL-2012, X.Bonnin:  Added /AUTOCONTRAST keyword.
@@ -244,7 +244,7 @@ if (LOUD) then print,'min_val = ',min_val,' / max_val = ',max_val
 arrayb =bytscl(Z,min=min_val,max=max_val,top=(!d.n_colors<255)-1)
 
 ;**** Create window ****
-if (!D.NAME eq 'X') or (!D.NAME eq 'WIN') then begin
+if (!D.NAME ne 'PS') then begin
    device,decomposed=0
    if (n_elements(window_set) ne 0) then begin
       wset,window_set 
