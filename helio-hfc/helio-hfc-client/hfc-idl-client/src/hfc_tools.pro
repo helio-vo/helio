@@ -1,35 +1,35 @@
-PRO wget,url,response, $
-         options=options, $
-         cmd=cmd
+PRO hfc_wget,url,response, $
+             options=options, $
+             cmd=cmd
 
 ;+
 ; NAME:
-;       wget
+;       hfc_wget
 ;
 ; PURPOSE:
-; 	Launch a wget software
+; 	    Launch a wget software
 ;       call using spawn IDL command.
 ;
 ; CATEGORY:
-;	Network
+;	      Network
 ;
 ; GROUP:
-;	None.
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	wget,url,response
+;	      hfc_wget,url,response
 ;
 ; INPUTS:
 ;       url - String containing the url to reach.
 ;	
 ; OPTIONAL INPUTS:
-;	options - String containg the wget options
+;	      options - String containg the wget options
 ;
 ; KEYWORD PARAMETERS:
 ;       None.
 ;
 ; OUTPUTS:
-;	None.
+;	      None.
 ;
 ; OPTIONAL OUTPUTS:
 ;       response - Vector of strings containing the 
@@ -37,13 +37,13 @@ PRO wget,url,response, $
 ;       cmd      - String containing the wget command line.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;     	None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget software must be installed 
+;	      wget software must be installed 
 ;       on the OS.
 ;    
 ;       Simple quote character is not allowed 
@@ -51,7 +51,7 @@ PRO wget,url,response, $
 ;       if required.
 ;			
 ; CALL:
-;       wget
+;       wget (command line tool)
 ;
 ; EXAMPLE:
 ;       None.		
@@ -81,27 +81,27 @@ return
 END
 ; =============================================================
 ; =============================================================
-PRO download,urls, $
-             options=options, $
-             target_directory=target_directory, $
-             cmd=cmd,QUIET=QUIET
+PRO hfc_download,urls, $
+                options=options, $
+                target_directory=target_directory, $
+                cmd=cmd,QUIET=QUIET
 
 ;+
 ; NAME:
-;       download
+;       hfc_download
 ;
 ; PURPOSE:
-; 	Download one or more files
+; 	    Download one or more files
 ;       using wget software.
 ;
 ; CATEGORY:
-;	Network
+;	      Network
 ;
 ; GROUP:
-;	None.
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	download,urls
+;	      hfc_download,urls
 ;
 ; INPUTS:
 ;       urls - Scalar or Vector of strings
@@ -109,7 +109,7 @@ PRO download,urls, $
 ;              files to download.
 ;	
 ; OPTIONAL INPUTS:
-;	options          - String containg wget options.
+;	      options          - String containg wget options.
 ;       target_directory - Directory where file(s) must
 ;                          be saved.
 ;                          Default is current one.
@@ -118,20 +118,20 @@ PRO download,urls, $
 ;       /QUIET - wget quiet mode.
 ;
 ; OUTPUTS:
-;	None.
+;	      None.
 ;
 ; OPTIONAL OUTPUTS:
 ;       cmd - Scalar or Vector of strings
 ;             containing the wget command lines.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget software must be installed 
+;	      wget software must be installed 
 ;       on the OS.
 ;    
 ;       Simple quote character is not allowed 
@@ -139,13 +139,13 @@ PRO download,urls, $
 ;       if required.
 ;			
 ; CALL:
-;       wget
+;       hfc_wget
 ;
 ; EXAMPLE:
 ;       None.		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -153,10 +153,10 @@ CD,current=current_directory
 cmd=''
 if (n_params() lt 1) then begin
    message,/INFO,'Call is:'
-   print,'download_file,urls, $'
-   print,'              options=options, $'
-   print,'              target_directory=target_directory ,$'
-   print,'              cmd=cmd,/QUIET'
+   print,'hfc_download,urls, $'
+   print,'             options=options, $'
+   print,'             target_directory=target_directory ,$'
+   print,'             cmd=cmd,/QUIET'
    return
 endif
 QUIET=keyword_set(QUIET)
@@ -177,9 +177,9 @@ if (QUIET) then options=options+' -q'
 nfiles=n_elements(urls)
 cmd=strarr(nfiles)
 for i=0l,nfiles-1l do begin
-   wget,urls[i],response, $
-        options=options, $
-        cmd=cmd_i
+   hfc_wget,urls[i],response, $
+            options=options, $
+            cmd=cmd_i
    cmd[i]=cmd_i
 endfor
 
@@ -216,16 +216,16 @@ FUNCTION read_image,image_file, $
 ;       read_image
 ;
 ; PURPOSE:
-; 	Reads an image file (jpg or png format accepted).
+; 	    Reads an image file (jpg or png format accepted).
 ;
 ; CATEGORY:
-;	I/O
+;	      I/O
 ;
 ; GROUP:
-;	None.
+;	      None.
 ;
 ; CALLING SEQUENCE:
-;	array=read_image(image_file)
+;	      array=read_image(image_file)
 ;
 ; INPUTS:
 ;       image_file - String containing the path to the image file to read.
@@ -243,20 +243,20 @@ FUNCTION read_image,image_file, $
 ;                      (Only works if a downloading is required.)
 ;
 ; OUTPUTS:
-;	array - 2d array of byte type containing the loaded image.
+;	      array - 2d array of byte type containing the loaded image.
 ;
 ; OPTIONAL OUTPUTS:
 ;       local_file - Path to the local file if a downloading
 ;                    has been done.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget software must be installed 
+;	      wget software must be installed 
 ;       on the OS.
 ;    
 ;       Simple quote character is not allowed 
@@ -270,7 +270,7 @@ FUNCTION read_image,image_file, $
 ;       None.		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 

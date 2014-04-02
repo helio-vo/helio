@@ -15,27 +15,27 @@ FUNCTION hqi_query,from, url, $
 ;       hqi_query
 ;
 ; PURPOSE:
-; 	This function permits to query 
+; 	    This function permits to query 
 ;       a HELIO Query Interface (HQI).
 ;
 ; CATEGORY:
-;	Web service
+;	      Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	votable=hqi_query(from)
+;	      votable=hqi_query(from)
 ;
 ; INPUTS:
 ;       from - Name of the database table to query. 
 ;	
 ; OPTIONAL INPUTS:
-;	url       -  URL of the HQI service to query.
+;	      url       -  URL of the HQI service to query.
 ;                    Default is the HFC interface.
-;	starttime -  String containing the start date and time
+;	      starttime -  String containing the start date and time
 ;                    of the data to be returned (ISO 8601 format).
-;	endtime    - String containing the end date and time
+;	      endtime    - String containing the end date and time
 ;                    of the data to be returned (ISO 8601 format).
 ;       maxrecords - Maximal number of records to be returned.
 ;                    Default is 100000.
@@ -54,7 +54,7 @@ FUNCTION hqi_query,from, url, $
 ;       /HELP          - Display the help message.
 ;
 ; OUTPUTS:
-;	votable - String containing data returned by the HQI in
+;	      votable - String containing data returned by the HQI in
 ;                 a votable format.
 ;                 If /STRUCTURE keyword is set, a IDL structure is
 ;                 returned instead.
@@ -63,18 +63,18 @@ FUNCTION hqi_query,from, url, $
 ;       cmd - String containing the command line called by this function.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget software must be installed 
+;	      wget software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
-;       wget
-;	decode_votable
+;       hfc_wget
+;	      decode_votable
 ;
 ; EXAMPLE:
 ;       Search for all active regions detected on SDO images between 01 June
@@ -87,7 +87,7 @@ FUNCTION hqi_query,from, url, $
 ; 
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -124,9 +124,9 @@ if (keyword_set(join)) then url = url + '&JOIN='+strtrim(join[0],2)
 if (keyword_set(order_by)) then url = url + '&ORDER_BY='+strtrim(order_by[0],2)
 if (keyword_set(limit)) then url = url + '&LIMIT='+strtrim(limit[0],2)
 
-wget,url,response, $
-     options='-qO-', $
-     cmd=cmd
+hfc_wget,url,response, $
+        options='-qO-', $
+        cmd=cmd
 
 if (STRUCTURE) then votable=decode_votable(strjoin(response),/QUIET) else votable=response
 
@@ -144,7 +144,7 @@ FUNCTION nearest_date,from,date_obs,url, $
 ;       nearest_date
 ;
 ; PURPOSE:
-; 	This function searches the entry
+; 	    This function searches the entry
 ;       in a database table accessible through
 ;       the Helio Query Interface, and for which
 ;       the date and time are close as possible
@@ -152,13 +152,13 @@ FUNCTION nearest_date,from,date_obs,url, $
 ;       The nearest date found is then returned. 
 ;
 ; CATEGORY:
-;	Web service
+;	      Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	near_date=nearest_date(from,date_obs)
+;	      near_date=nearest_date(from,date_obs)
 ;
 ; INPUTS:
 ;       from     - Name of the database table to query. 
@@ -167,39 +167,39 @@ FUNCTION nearest_date,from,date_obs,url, $
 ;                  date and time must be found in the table.
 ;	
 ; OPTIONAL INPUTS:
-;	url       -  URL of the HQI service to query.
+;	      url       -  URL of the HQI service to query.
 ;                    Default is the HFC interface.
 ;       sqlwhere   - String containing a SQL-like where clause.
 ;
 ; KEYWORD PARAMETERS:
-;	/VERBOSE       - Talkative mode.
+;	      /VERBOSE       - Talkative mode.
 ;       /HELP          - Display the help message.
 ;
 ; OUTPUTS:
-;	near_date - String containing the nearest date and time
+;	      near_date - String containing the nearest date and time
 ;                   found (ISO 8601 format).
 ;
 ; OPTIONAL OUTPUTS:
 ;       cmd - String containing the command line called by this function.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget or curl software must be installed 
+;	      wget or curl software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
 ;       hqi_query
 ;
 ; EXAMPLE:
-;	near_data=nearest_date('VIEW_AR_HQI','2011-01-01T00:00:00')		
+;	      near_data=nearest_date('VIEW_AR_HQI','2011-01-01T00:00:00')		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -247,37 +247,37 @@ FUNCTION sql_query, query, $
 ;       sql_query
 ;
 ; PURPOSE:
-; 	This function allows to
+; 	    This function allows to
 ;       query the HFC database
 ;       using a MySQL client. 
 ;
 ; CATEGORY:
-;	MySQL
+;	      MySQL
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	tabledata=sql_query(query)
+;	      tabledata=sql_query(query)
 ;
 ; INPUTS:
 ;       query - String containg the MySQL query.
 ;	
 ; OPTIONAL INPUTS:
-;	database - Scalar string containing the name of the database to query.	
-;	hostname - Scalar string containing the host name of the database.
-;	username - Scalar string containing the user name.
-;	password - Scalar string containing the corresponding password.
+;	      database - Scalar string containing the name of the database to query.	
+;	      hostname - Scalar string containing the host name of the database.
+;	      username - Scalar string containing the user name.
+;	      password - Scalar string containing the corresponding password.
 ;
 ; KEYWORD PARAMETERS:
 ;       /STRUCTURE - Return a IDL structure array instead of a
 ;                    vector of string type.
-;	/XML       - Return response string using the xml format.
-;	/VERBOSE   - Talkative mode.
+;	      /XML       - Return response string using the xml format.
+;	      /VERBOSE   - Talkative mode.
 ;       /HELP      - Display the help message.
 ;
 ; OUTPUTS:
-;	tabledata - String or structure containing the query response.
+;	      tabledata - String or structure containing the query response.
 ;
 ; OPTIONAL OUTPUTS:
 ;       cmd    - String containing the command line called by this
@@ -286,25 +286,25 @@ FUNCTION sql_query, query, $
 ;       header - Response's header.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	mysql client software must be installed 
+;	      mysql client software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
 ;       mysql_query
 ;
 ; EXAMPLE:
-;	tabledata=sql_query('select * from VIEW_AR_HQI WHERE DATE_OBS>="2001-01-01 00:00:00" LIMIT 10', $
+;	      tabledata=sql_query('select * from VIEW_AR_HQI WHERE DATE_OBS>="2001-01-01 00:00:00" LIMIT 10', $
 ;                           database='hfc1test',hostname='helio-fc1.obspm.fr', $
 ;                           user='guest',pass='guest',/STRUCT,/VERB)		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 

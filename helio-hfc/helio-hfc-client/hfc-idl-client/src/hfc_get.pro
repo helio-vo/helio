@@ -1,42 +1,42 @@
-FUNCTION get_feature,feature_name, $
-                     starttime=starttime, $
-                     endtime=endtime, $
-                     near_date=near_date, $
-                     code=code, $
-                     instrument=instrument, $
-                     observatory=observatory, $
-                     telescope=telescope, $
-                     maxrecords=maxrecords, $
-                     cmd=cmd,ndata=ndata, $
-                     QUIET=QUIET,DEBUG=DEBUG, $
-                     HELP=HELP
+FUNCTION hfc_get_feature,feature_name, $
+                          starttime=starttime, $
+                          endtime=endtime, $
+                          near_date=near_date, $
+                          code=code, $
+                          instrument=instrument, $
+                          observatory=observatory, $
+                          telescope=telescope, $
+                          maxrecords=maxrecords, $
+                          cmd=cmd,ndata=ndata, $
+                          QUIET=QUIET,DEBUG=DEBUG, $
+                          HELP=HELP
 
 
 ;+
 ; NAME:
-;       get_feature
+;       hfc_get_feature
 ;
 ; PURPOSE:
-; 	This function permits to retrieve
+;       This function permits to retrieve
 ;       feature data from the HFC. 
 ;
 ; CATEGORY:
-;	Web service
+;	      Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	data=get_feature(feature_name)
+;	      data=hfc_get_feature(feature_name)
 ;
 ; INPUTS:
 ;       feature_name - Name of the feature for which data
 ;                      must be returned.
 ;	
 ; OPTIONAL INPUTS:
-;	starttime   - String containing the start date and time
+;	      starttime   - String containing the start date and time
 ;                     of the data to be returned (ISO 8601 format).
-;	endtime     - String containing the end date and time
+;	      endtime     - String containing the end date and time
 ;                     of the data to be returned (ISO 8601 format).
 ;       near_date   - String containing the date and time
 ;                     of the data to be returned (ISO 8601 format).
@@ -54,25 +54,25 @@ FUNCTION get_feature,feature_name, $
 ;                     which data must be returned.
 ;
 ; KEYWORD PARAMETERS:
-;	/QUIET      - Quiet mode.
+;	      /QUIET      - Quiet mode.
 ;       /DEBUG      - Debug mode.
 ;       /HELP       - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	data - IDL structure containing the feature data found in the HFC.
+;	      data - IDL structure containing the feature data found in the HFC.
 ;
 ; OPTIONAL OUTPUTS:
 ;       ndata - Number of data samples returned.
 ;       cmd   - String containing the command line called by this function.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget or curl software must be installed 
+;	      wget or curl software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
@@ -83,11 +83,11 @@ FUNCTION get_feature,feature_name, $
 ;       Get sunspots data from SDO/HMI near 01 January 2011 at
 ;       midnight (UTC): 
 ; 
-;	hfc_ss_data = get_feature('sunspots',near_date='2011-01-01T00:00:00', $
-;                                 observatory='SDO',instrument='HMI')		
+;	      hfc_ss_data = hfc_get_feature('sunspots',near_date='2011-01-01T00:00:00', $
+;                                     observatory='SDO',instrument='HMI')		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -96,16 +96,16 @@ dbquote=string(34b)
 
 if (n_params() lt 1) or (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_feature(feature_name, $'
-   print,'                    starttime=starttime,$'
-   print,'                    endtime=endtime, $'
-   print,'                    near_date=near_date, $'
-   print,'                    code=code,instrument=instrument, $'
-   print,'                    observatory=observatory, $'
-   print,'                    telescope=telescope, $'
-   print,'                    maxrecords=maxrecords, $'
-   print,'                    cmd=cmd,ndata=ndata, $'
-   print,'                    /QUIET,/DEBUG,/HELP)'
+   print,'Results=hfc_get_feature(feature_name, $'
+   print,'                        starttime=starttime,$'
+   print,'                        endtime=endtime, $'
+   print,'                        near_date=near_date, $'
+   print,'                        code=code,instrument=instrument, $'
+   print,'                        observatory=observatory, $'
+   print,'                        telescope=telescope, $'
+   print,'                        maxrecords=maxrecords, $'
+   print,'                        cmd=cmd,ndata=ndata, $'
+   print,'                        /QUIET,/DEBUG,/HELP)'
    return,''
 endif
 DEBUG=keyword_set(DEBUG)
@@ -190,33 +190,33 @@ return,data
 END
 ; =============================================================
 ; =============================================================
-FUNCTION get_observation,instrument=instrument, $
-                         observatory=observatory, $
-                         telescope=telescope, $
-                         starttime=starttime, $
-                         endtime=endtime, $
-                         near_date=near_date, $
-                         maxrecords=maxrecords, $
-                         cmd=cmd,ndata=ndata, $
-                         QUIET=QUIET, DEBUG=DEBUG, $
-                         HELP=HELP
+FUNCTION hfc_get_observation,instrument=instrument, $
+                            observatory=observatory, $
+                            telescope=telescope, $
+                            starttime=starttime, $
+                            endtime=endtime, $
+                            near_date=near_date, $
+                            maxrecords=maxrecords, $
+                            cmd=cmd,ndata=ndata, $
+                            QUIET=QUIET, DEBUG=DEBUG, $
+                            HELP=HELP
 
 ;+
 ; NAME:
-;       get_observation
+;       hfc_get_observation
 ;
 ; PURPOSE:
-; 	This function permits to retrieve
+;       This function permits to retrieve
 ;       observation data from the HFC. 
 ;
 ; CATEGORY:
-;	Web service
+;       Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	data=get_observation()
+;	      data=hfc_get_observation()
 ;
 ; INPUTS:
 ;       None.
@@ -228,9 +228,9 @@ FUNCTION get_observation,instrument=instrument, $
 ;                     which data must be returned.
 ;       telescope   - Name of the telescope/receiver for
 ;                     which data must be returned.
-;	starttime   - String containing the start date and time
+;	      starttime   - String containing the start date and time
 ;                     of the data to be returned (ISO 8601 format).
-;	endtime     - String containing the end date and time
+;	      endtime     - String containing the end date and time
 ;                     of the data to be returned (ISO 8601 format).
 ;       near_date   - String containing the date and time
 ;                     of the data to be returned (ISO 8601 format).
@@ -240,25 +240,25 @@ FUNCTION get_observation,instrument=instrument, $
 ;                     Default is 100000.       
 ;
 ; KEYWORD PARAMETERS:
-;	/QUIET      - Quiet mode.
+;	      /QUIET      - Quiet mode.
 ;       /DEBUG      - Debug mode.
 ;       /HELP       - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	data - IDL structure containing the observation data found in the HFC.
+;	      data - IDL structure containing the observation data found in the HFC.
 ;
 ; OPTIONAL OUTPUTS:
 ;       ndata - Number of data samples returned.
 ;       cmd   - String containing the command line called by this function.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget or curl software must be installed 
+;	      wget or curl software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
@@ -269,12 +269,12 @@ FUNCTION get_observation,instrument=instrument, $
 ;       Get observation data from SoHO/EIT between 05 April 2008 at
 ;       22:55:00 (UTC) and 10 April 2008 at 12:00:00 (UTC): 
 ; 
-;	hfc_eit_data = get_observation(observatory='SoHO',instrument='EIT', $
-;                                      starttime='2001-04-05T22:55:00', $
-;                                      endtime='2001-04-10T12:00:00')		
+;	      hfc_eit_data = hfc_get_observation(observatory='SoHO',instrument='EIT', $
+;                                           starttime='2001-04-05T22:55:00', $
+;                                           endtime='2001-04-10T12:00:00')		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -284,15 +284,15 @@ dbquote=string(34b)
 
 if (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_observation(instrument=instrument, $'
-   print,'                        observatory=observatory, $'
-   print,'                        telescope=telescope, $'
-   print,'                        starttime=starttime,$'
-   print,'                        endtime=endtime, $'
-   print,'                        near_date=near_date, $'
-   print,'                        maxrecords=maxrecords, $'
-   print,'                        cmd=cmd,ndata=ndata, $'
-   print,'                        /QUIET,/DEBUG,/HELP)'
+   print,'Results=hfc_get_observation(instrument=instrument, $'
+   print,'                            observatory=observatory, $'
+   print,'                            telescope=telescope, $'
+   print,'                            starttime=starttime,$'
+   print,'                            endtime=endtime, $'
+   print,'                            near_date=near_date, $'
+   print,'                            maxrecords=maxrecords, $'
+   print,'                            cmd=cmd,ndata=ndata, $'
+   print,'                            /QUIET,/DEBUG,/HELP)'
    return,''
 endif
 DEBUG=keyword_set(DEBUG)
@@ -344,30 +344,30 @@ return,data
 END
 ; =============================================================
 ; =============================================================
-FUNCTION get_code,code=code, $
-                  feature_name=feature_name, $
-                  maxrecords=maxrecords, $
-                  cmd=cmd, ndata=ndata, $
-                  QUIET=QUIET, DEBUG=DEBUG, $
-                  HELP=HELP
+FUNCTION hfc_get_code,code=code, $
+                      feature_name=feature_name, $
+                      maxrecords=maxrecords, $
+                      cmd=cmd, ndata=ndata, $
+                      QUIET=QUIET, DEBUG=DEBUG, $
+                      HELP=HELP
 
 ;+
 ; NAME:
-;       get_code
+;       hfc_get_code
 ;
 ; PURPOSE:
-; 	This function permits to retrieve
+; 	    This function permits to retrieve
 ;       information about HFC feature 
 ;       recognition codes. 
 ;
 ; CATEGORY:
-;	Web service
+;       Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	data=get_code()
+;	      data=hfc_get_code()
 ;
 ; INPUTS:
 ;       None.
@@ -382,25 +382,25 @@ FUNCTION get_code,code=code, $
 ;                      Default is 100000.       
 ;
 ; KEYWORD PARAMETERS:
-;	/QUIET      - Quiet mode.
+;	      /QUIET      - Quiet mode.
 ;       /DEBUG      - Debug mode.
 ;       /HELP       - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	data - IDL structure containing the code data found in the HFC.
+;	      data - IDL structure containing the code data found in the HFC.
 ;
 ; OPTIONAL OUTPUTS:
 ;       ndata - Number of data samples returned.
 ;       cmd   - String containing the command line called by this function.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget or curl software must be installed 
+;	      wget or curl software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
@@ -408,10 +408,10 @@ FUNCTION get_code,code=code, $
 ;
 ; EXAMPLE:
 ;       To get all of the HFC feature recognition code content:
-;       data = get_code()	
+;       data = hfc_get_code()	
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -420,11 +420,11 @@ dbquote=string(34b)
 
 if (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_code(code=code, $'
-   print,'                 feature_name=feature_name, $'
-   print,'                 maxrecords=maxrecords, $'
-   print,'                 cmd=cmd,ndata=ndata, $'
-   print,'                 /QUIET,/DEBUG,/HELP)'
+   print,'Results=hfc_get_code(code=code, $'
+   print,'                     feature_name=feature_name, $'
+   print,'                     maxrecords=maxrecords, $'
+   print,'                     cmd=cmd,ndata=ndata, $'
+   print,'                     /QUIET,/DEBUG,/HELP)'
    return,''
 endif
 DEBUG=keyword_set(DEBUG)
@@ -454,33 +454,33 @@ return,data
 END
 ; =============================================================
 ; =============================================================
-FUNCTION get_observatory,instrument=instrument, $
-                         observatory=observatory, $
-                         telescope=telescope, $
-                         obs_type=obs_type, $
-                         spectral_name=spectral_name, $
-                         wavemin=wavemin,wavemax=wavemax, $
-                         maxrecords=maxrecords, $
-                         cmd=cmd, ndata=ndata, $
-                         QUIET=QUIET, DEBUG=DEBUG, $
-                         HELP=HELP
+FUNCTION hfc_get_observatory,instrument=instrument, $
+                              observatory=observatory, $
+                              telescope=telescope, $
+                              obs_type=obs_type, $
+                              spectral_name=spectral_name, $
+                              wavemin=wavemin,wavemax=wavemax, $
+                              maxrecords=maxrecords, $
+                              cmd=cmd, ndata=ndata, $
+                              QUIET=QUIET, DEBUG=DEBUG, $
+                              HELP=HELP
 
 ;+
 ; NAME:
-;       get_observatory
+;       hfc_get_observatory
 ;
 ; PURPOSE:
-; 	This function permits to retrieve
+; 	    This function permits to retrieve
 ;       information about HFC observatories. 
 ;
 ; CATEGORY:
-;	Web service
+;	      Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	data=get_observatory()
+;	      data=hfc_get_observatory()
 ;
 ; INPUTS:
 ;       None.
@@ -499,25 +499,25 @@ FUNCTION get_observatory,instrument=instrument, $
 ;                         Default is 100000.       
 ;
 ; KEYWORD PARAMETERS:
-;	/QUIET      - Quiet mode.
+;	      /QUIET      - Quiet mode.
 ;       /DEBUG      - Debug mode.
 ;       /HELP       - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	data - IDL structure containing the code data found in the HFC.
+;	      data - IDL structure containing the code data found in the HFC.
 ;
 ; OPTIONAL OUTPUTS:
 ;       ndata - Number of data samples returned.
 ;       cmd   - String containing the command line called by this function.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget or curl software must be installed 
+;	      wget or curl software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
@@ -525,10 +525,10 @@ FUNCTION get_observatory,instrument=instrument, $
 ;
 ; EXAMPLE:
 ;       To get all of the HFC observatory content:
-;       data = get_observatory()		
+;       data = hfc_get_observatory()		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -537,16 +537,16 @@ dbquote=string(34b)
 
 if (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_observatory(instrument=instrument, $'
-   print,'                        observatory=observatory, $'
-   print,'                        telescope=telescope, $'
-   print,'                        obs_type=obs_type, $'
-   print,'                        spectral_name=spectral_name, $'
-   print,'                        wavemin=wavemin, $'
-   print,'                        wavemax=wavemax, $'
-   print,'                        maxrecords=maxrecords, $'
-   print,'                        cmd=cmd,ndata=ndata, $'
-   print,'                        /QUIET,/DEBUG,/HELP)'
+   print,'Results=hfc_get_observatory(instrument=instrument, $'
+   print,'                            observatory=observatory, $'
+   print,'                            telescope=telescope, $'
+   print,'                            obs_type=obs_type, $'
+   print,'                            spectral_name=spectral_name, $'
+   print,'                            wavemin=wavemin, $'
+   print,'                            wavemax=wavemax, $'
+   print,'                            maxrecords=maxrecords, $'
+   print,'                            cmd=cmd,ndata=ndata, $'
+   print,'                            /QUIET,/DEBUG,/HELP)'
    return,''
 endif
 DEBUG=keyword_set(DEBUG)
@@ -581,25 +581,25 @@ return,data
 END
 ; =============================================================
 ; =============================================================
-FUNCTION get_tables, QUIET=QUIET, $
-                     HELP=HELP
+FUNCTION hfc_get_tables, QUIET=QUIET, $
+                          HELP=HELP
 
 ;+
 ; NAME:
-;       get_tables
+;       hfc_get_tables
 ;
 ; PURPOSE:
-; 	This function returns the name of
+; 	    This function returns the name of
 ;       the HFC tables available. 
 ;
 ; CATEGORY:
-;	Web service
+;	      Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	data=get_tables()
+;	      data=hfc_get_tables()
 ;
 ; INPUTS:
 ;       None.
@@ -608,24 +608,24 @@ FUNCTION get_tables, QUIET=QUIET, $
 ;       None.      
 ;
 ; KEYWORD PARAMETERS:
-;	/QUIET      - Quiet mode.
+;	      /QUIET      - Quiet mode.
 ;       /HELP       - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	tables - IDL structure containing the HFC tables names
+;	      tables - IDL structure containing the HFC tables names
 ;                for each type of content.
 ;
 ; OPTIONAL OUTPUTS:
 ;       None.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	None.
+;	      None.
 ;			
 ; CALL:
 ;       None.
@@ -634,13 +634,13 @@ FUNCTION get_tables, QUIET=QUIET, $
 ;       None.		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	       Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
 if (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_tables(/QUIET,/HELP)'
+   print,'Results=hfc_get_tables(/QUIET,/HELP)'
    return,''
 endif
 
@@ -661,25 +661,25 @@ return,tables
 END
 ; =============================================================
 ; =============================================================
-FUNCTION get_content, QUIET=QUIET, $
-                      HELP=HELP
+FUNCTION hfc_get_content, QUIET=QUIET, $
+                           HELP=HELP
 
 ;+
 ; NAME:
-;       get_content
+;       hfc_get_content
 ;
 ; PURPOSE:
-; 	This function returns the type of 
+; 	    This function returns the type of 
 ;       content available in the HFC. 
 ;
 ; CATEGORY:
-;	Web service
+;	      Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	data=get_content()
+;	      data=hfc_get_content()
 ;
 ; INPUTS:
 ;       None.
@@ -688,43 +688,43 @@ FUNCTION get_content, QUIET=QUIET, $
 ;       None.      
 ;
 ; KEYWORD PARAMETERS:
-;	/QUIET      - Quiet mode.
+;	      /QUIET      - Quiet mode.
 ;       /HELP       - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	tables - Array of strings containing
+;	      tables - Array of strings containing
 ;                the HFC content.
 ;
 ; OPTIONAL OUTPUTS:
 ;       None.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	None.
+;	      None.
 ;			
 ; CALL:
-;       None.
+;       hfc_get_tables
 ;
 ; EXAMPLE:
 ;       None.		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
 if (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_content(/QUIET,/HELP)'
+   print,'Results=hfc_get_content(/QUIET,/HELP)'
    return,''
 endif
 
-content=tag_names(get_tables(/QUIET))
+content=tag_names(hfc_get_tables(/QUIET))
 
 if not (keyword_set(QUIET)) then print,content
 
@@ -732,18 +732,18 @@ return,content
 END
 ; =============================================================
 ; =============================================================
-FUNCTION get_datafile,_EXTRA=EXTRA, $
-                      target_directory=target_directory, $
-                      cmd=cmd,ndata=ndata, $
-                      DOWNLOAD_FILE=DOWNLOAD_FILE
+FUNCTION hfc_get_datafile,_EXTRA=EXTRA, $
+                          target_directory=target_directory, $
+                          cmd=cmd,ndata=ndata, $
+                          DOWNLOAD_FILE=DOWNLOAD_FILE
 
 
 ;+
 ; NAME:
-;       get_datafile
+;       hfc_get_datafile
 ;
 ; PURPOSE:
-; 	This function returns
+; 	    This function returns
 ;       the URL of original 
 ;       data files 
 ;       used by the HFC codes 
@@ -751,21 +751,21 @@ FUNCTION get_datafile,_EXTRA=EXTRA, $
 ;       (when available).
 ;
 ; CATEGORY:
-;	Web service
+;	      Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	qclk_url=get_datafile()
+;	      qclk_url=hfc_get_datafile()
 ;
 ; INPUTS:
 ;       None.
 ;	
 ; OPTIONAL INPUTS:
-;	starttime        - String containing the start date and time
+;	      starttime        - String containing the start date and time
 ;                          of the quicklooks to be returned (ISO 8601 format).
-;	endtime          - String containing the end date and time
+;	      endtime          - String containing the end date and time
 ;                          of the quicklooks to be returned (ISO 8601 format).
 ;       near_date        - String containing the date and time
 ;                          of the quicklooks to be returned (ISO 8601 format).
@@ -787,36 +787,36 @@ FUNCTION get_datafile,_EXTRA=EXTRA, $
 ;
 ; KEYWORD PARAMETERS:
 ;       /DOWNLOAD_FILE - Download data files.
-;	/QUIET         - Quiet mode.
+;	      /QUIET         - Quiet mode.
 ;       /DEBUG         - Debug mode.
 ;       /HELP          - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	file_url - Array of strings containing the datafile URLs.
+;	       file_url - Array of strings containing the datafile URLs.
 ;
 ; OPTIONAL OUTPUTS:
 ;       ndata - Number of data samples returned.
 ;       cmd   - String containing the command line called by this function.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget or curl software must be installed 
+;	      wget or curl software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
-;       get_observation
-;       download
+;       hfc_get_observation
+;       hfc_download
 ;
 ; EXAMPLE:
 ;       None.		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -826,17 +826,17 @@ dbquote=string(34b)
 CD,current=current_directory
 if (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_datafile(instrument=instrument, $'
-   print,'                     observatory=observatory, $'
-   print,'                     telescope=telescope, $'
-   print,'                     starttime=starttime,$'
-   print,'                     endtime=endtime, $'
-   print,'                     near_date=near_date, $'
-   print,'                     maxrecords=maxrecords, $'
-   print,'                     target_directory=target_directory, $'
-   print,'                     cmd=cmd,ndata=ndata, $'
-   print,'                     /DOWNLOAD_FILE, $'
-   print,'                     /QUIET,/DEBUG,/HELP)'
+   print,'Results=hfc_get_datafile(instrument=instrument, $'
+   print,'                         observatory=observatory, $'
+   print,'                         telescope=telescope, $'
+   print,'                         starttime=starttime,$'
+   print,'                         endtime=endtime, $'
+   print,'                         near_date=near_date, $'
+   print,'                         maxrecords=maxrecords, $'
+   print,'                         target_directory=target_directory, $'
+   print,'                         cmd=cmd,ndata=ndata, $'
+   print,'                         /DOWNLOAD_FILE, $'
+   print,'                         /QUIET,/DEBUG,/HELP)'
    return,''
 endif
 DEBUG=keyword_set(DEBUG)
@@ -845,53 +845,53 @@ DOWNLOAD_FILE=keyword_set(DOWNLOAD_FILE)
 
 if not (keyword_set(target_directory)) then target_directory=current_directory
 
-data = get_observation(_EXTRA=EXTRA,cmd=cmd,ndata=ndata)
+data = hfc_get_observation(_EXTRA=EXTRA,cmd=cmd,ndata=ndata)
 if (size(data,/TNAME) ne 'STRUCT') then return,''
 
 file_url = data.url
 
 if (DOWNLOAD_FILE) then begin
-   download,file_url, $
-            target_dir=target_directory, $
-            QUIET=QUIET
+   hfc_download,file_url, $
+                target_dir=target_directory, $
+                QUIET=QUIET
 endif
 
 return,file_url
 END
 ; =============================================================
 ; =============================================================
-FUNCTION get_quicklook,_EXTRA=EXTRA, $
-                       target_directory=target_directory, $
-                       cmd=cmd,ndata=ndata, $
-                       DOWNLOAD_FILE=DOWNLOAD_FILE
+FUNCTION hfc_get_quicklook,_EXTRA=EXTRA, $
+                            target_directory=target_directory, $
+                            cmd=cmd,ndata=ndata, $
+                            DOWNLOAD_FILE=DOWNLOAD_FILE
 
 
 ;+
 ; NAME:
-;       get_quicklook
+;       hfc_get_quicklook
 ;
 ; PURPOSE:
-; 	This function returns
+; 	    This function returns
 ;       the URL of quicklook
 ;       images stored in the ftp server
 ;       of the HFC.
 ;
 ; CATEGORY:
-;	Web service
+;	      Web service
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	qclk_url=get_quicklook()
+;	      qclk_url=hfc_get_quicklook()
 ;
 ; INPUTS:
 ;       None.
 ;	
 ; OPTIONAL INPUTS:
-;	starttime        - String containing the start date and time
+;	      starttime        - String containing the start date and time
 ;                          of the quicklooks to be returned (ISO 8601 format).
-;	endtime          - String containing the end date and time
+;	      endtime          - String containing the end date and time
 ;                          of the quicklooks to be returned (ISO 8601 format).
 ;       near_date        - String containing the date and time
 ;                          of the quicklooks to be returned (ISO 8601 format).
@@ -913,40 +913,40 @@ FUNCTION get_quicklook,_EXTRA=EXTRA, $
 ;
 ; KEYWORD PARAMETERS:
 ;       /DOWNLOAD_FILE - Download quicklook files.
-;	/QUIET         - Quiet mode.
+;	      /QUIET         - Quiet mode.
 ;       /DEBUG         - Debug mode.
 ;       /HELP          - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	qclk_url - Array of strings containing the quicklook URLs.
+;	      qclk_url - Array of strings containing the quicklook URLs.
 ;
 ; OPTIONAL OUTPUTS:
 ;       ndata - Number of data samples returned.
 ;       cmd   - String containing the command line called by this function.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget software must be installed 
+;	      wget software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
-;       get_observation
-;       download
+;       hfc_get_observation
+;       hfc_download
 ;
 ; EXAMPLE:
 ;       Download SDO/HMI quicklook images on 01 April 2012 at noon
 ;       into the ../tmp folder:
 ; 
-;         qclk_url=get_quicklook(instrument='HMI',near_date='2012-04-01T12:00:00', $'
-;                                target_directory='../tmp',/DOWNLOAD_FILE)		
+;         qclk_url=hfc_get_quicklook(instrument='HMI',near_date='2012-04-01T12:00:00', $'
+;                                    target_directory='../tmp',/DOWNLOAD_FILE)		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA,CNRS).
 ;				
 ;-
 
@@ -956,17 +956,17 @@ CD,current=current_directory
 
 if (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_quicklook(instrument=instrument, $'
-   print,'                      observatory=observatory, $'
-   print,'                      telescope=telescope, $'
-   print,'                      starttime=starttime,$'
-   print,'                      endtime=endtime, $'
-   print,'                      near_date=near_date, $'
-   print,'                      maxrecords=maxrecords, $'
-   print,'                      target_directory=target_directory, $'
-   print,'                      cmd=cmd,ndata=ndata, $'
-   print,'                      /DOWNLOAD_FILE, $'
-   print,'                      /QUIET,/DEBUG,/HELP)'
+   print,'Results=hfc_get_quicklook(instrument=instrument, $'
+   print,'                          observatory=observatory, $'
+   print,'                          telescope=telescope, $'
+   print,'                          starttime=starttime,$'
+   print,'                          endtime=endtime, $'
+   print,'                          near_date=near_date, $'
+   print,'                          maxrecords=maxrecords, $'
+   print,'                          target_directory=target_directory, $'
+   print,'                          cmd=cmd,ndata=ndata, $'
+   print,'                          /DOWNLOAD_FILE, $'
+   print,'                          /QUIET,/DEBUG,/HELP)'
    return,''
 endif
 DEBUG=keyword_set(DEBUG)
@@ -975,45 +975,45 @@ DOWNLOAD_FILE=keyword_set(DOWNLOAD_FILE)
 
 if not (keyword_set(target_directory)) then target_directory=current_directory
 
-data = get_observation(_EXTRA=EXTRA,cmd=cmd,ndata=ndata)
+data = hfc_get_observation(_EXTRA=EXTRA,cmd=cmd,ndata=ndata)
 if (size(data,/TNAME) ne 'STRUCT') then return,''
 
 qclk_url = data.qclk_url+'/'+data.qclk_fname
 
 if (DOWNLOAD_FILE) then begin
-   download,qclk_url, $
-            target_dir=target_directory, $
-            QUIET=QUIET
+   hfc_download,qclk_url, $
+               target_dir=target_directory, $
+               QUIET=QUIET
 endif
 
 return,qclk_url
 END
 ; =============================================================
 ; =============================================================
-FUNCTION get_gui,browser=browser, $
-                 OPEN=OPEN, $
-                 MIRROR_SITE=MIRROR_SITE, $
-                 HELIO=HELIO,HFE=HFE,HEC=HEC, $
-                 ICS=ICS,ILS=ILS,DES=DES, $
-                 CXS=CXS,DPAS=DPAS,SHEBA=SHEBA, $
-                 UOC=UOC,HELP=HELP
+FUNCTION hfc_get_gui,browser=browser, $
+                    OPEN=OPEN, $
+                    MIRROR_SITE=MIRROR_SITE, $
+                    HELIO=HELIO,HFE=HFE,HEC=HEC, $
+                    ICS=ICS,ILS=ILS,DES=DES, $
+                    CXS=CXS,DPAS=DPAS,SHEBA=SHEBA, $
+                    UOC=UOC,HELP=HELP
 
 ;+
 ; NAME:
-;       get_gui
+;       hfc_get_gui
 ;
 ; PURPOSE:
-; 	This function returns
+; 	    This function returns
 ;       the URL of the HFC web page.
 ;
 ; CATEGORY:
-;	Web
+;	      Web
 ;
 ; GROUP:
-;	hfc_client
+;	      hfc_idl_client
 ;
 ; CALLING SEQUENCE:
-;	gui_url=get_gui()
+;	      gui_url=hfc_get_gui()
 ;
 ; INPUTS:
 ;       None.
@@ -1049,19 +1049,19 @@ FUNCTION get_gui,browser=browser, $
 ;       /HELP        - Display help message.
 ;
 ; OUTPUTS:
-;	gui_url - URL of the HFC web page.
+;	      gui_url - URL of the HFC web page.
 ;
 ; OPTIONAL OUTPUTS:
 ;       None.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	Require a web browser to be installed
+;	      Require a web browser to be installed
 ;       if /OPEN keyword is called.
 ;       Default browser is firefox.
 ;			
@@ -1072,7 +1072,7 @@ FUNCTION get_gui,browser=browser, $
 ;       None.		
 ;
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -1080,12 +1080,12 @@ os=!VERSION.OS
 
 if (keyword_set(HELP)) then begin
    message,/INFO,'Call is:'
-   print,'Results=get_quicklook(browser=browser, $'
-   print,'                      /MIRROR_SITE, $'
-   print,'                      /HELIO,/HFE,/HEC, $'
-   print,'                      /ICS,/ILS,/UOC, /DES, $'
-   print,'                      /DPAS,/CXS,/SHEBA, $'
-   print,'                      /OPEN,/HELP)'
+   print,'Results=hfc_get_quicklook(browser=browser, $'
+   print,'                          /MIRROR_SITE, $'
+   print,'                          /HELIO,/HFE,/HEC, $'
+   print,'                          /ICS,/ILS,/UOC, /DES, $'
+   print,'                          /DPAS,/CXS,/SHEBA, $'
+   print,'                          /OPEN,/HELP)'
    return,''
 endif
 
@@ -1102,9 +1102,9 @@ case 1 of
    keyword_set(SHEBA):gui_url='http://cagnode58.cs.tcd.ie:8080/PropagationModelGUI/'
    else:begin
       if (keyword_set(MIRROR_SITE)) then $
-         gui_url='http://bass2000.obspm.fr/hfc-gui/' $
+         gui_url='http://helio-hfc.ias.u-psud.fr' $
       else $
-         gui_url='http://voparis-helio.obspm.fr/hfc-gui/' 
+         gui_url='http://voparis-helio.obspm.fr' 
    end
 endcase
 

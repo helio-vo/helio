@@ -81,28 +81,28 @@ PRO hfc_show,data, $
 ;       /FULL_SCREEN     - If set, use a full sceen window.
 ;       /REMOVE_FILE     - if downloading is required, remove file(s)
 ;                          after reading.
-;	/QUIET           - Quiet mode.
+;	      /QUIET           - Quiet mode.
 ;       /HELP            - Display help message, then quit the program.
 ;
 ; OUTPUTS:
-;	None.
+;	      None.
 ;
 ; OPTIONAL OUTPUTS:
 ;       None.
 ;		
 ; COMMON BLOCKS:		
-;	None.
+;	      None.
 ;	
 ; SIDE EFFECTS:
-;	None.
+;	      None.
 ;		
 ; RESTRICTIONS/COMMENTS:
-;	wget software must be installed 
+;	      wget software must be installed 
 ;       on the OS.
 ;			
 ; CALL:
-;       get_observation
-;       get_feature
+;       hfc_get_observation
+;       hfc_get_feature
 ;       read_image
 ;       chain2image
 ;       tag_exist
@@ -111,7 +111,7 @@ PRO hfc_show,data, $
 ; EXAMPLE:
 ;       1 - To plot Nancay radioheliograph image for 01 January 2008 at 08:00:00
 ;       
-;           hfc_nrh_data=get_observation(observat='Nancay',instrume='Radioheliograph',near_date='2008-01-01T08:00:00')
+;           hfc_nrh_data=hfc_get_observation(observat='Nancay',instrume='Radioheliograph',near_date='2008-01-01T08:00:00')
 ;           hfc_show,hfc_nrh_data 		
 ;       or
 ;           hfc_show,observat='Nancay',instrume='Radioheliograph',near_date='2008-01-01T08:00:00'
@@ -119,7 +119,7 @@ PRO hfc_show,data, $
 ;       2 - To plot Sunspots detected on SDO/HMI between 10 June 2012
 ;           at 12:00:00 and 10 June 2012 at 18:00:00 with tracking information:
 ;       
-;           hfc_hmi_data=get_feature('sunspots',observat='SDO',instrume='HMI', $
+;           hfc_hmi_data=hfc_get_feature('sunspots',observat='SDO',instrume='HMI', $
 ;                                    starttime='2012-06-10T12:00:00', $
 ;                                    endtime='2012-06-10T18:00:00')
 ;           hfc_show,hfc_hmi_data,/TRACKING_COLORS,/ONE_WINDOW,/FULL_SCREEN		
@@ -130,7 +130,7 @@ PRO hfc_show,data, $
 ;                    /TRACKING_COLORS,/ONE_WINDOW,/FULL_SCREEN
 ; 
 ; MODIFICATION HISTORY:
-;	Written by X.Bonnin (LESIA).
+;	      Written by X.Bonnin (LESIA, CNRS).
 ;				
 ;-
 
@@ -183,8 +183,8 @@ endelse
 
 if (n_params() lt 1) then begin
    if (keyword_set(feature_name)) then begin
-      data=get_feature(feature_name,_EXTRA=EXTRA)
-   endif else data = get_observation(_EXTRA=EXTRA)
+      data=hfc_get_feature(feature_name,_EXTRA=EXTRA)
+   endif else data = hfc_get_observation(_EXTRA=EXTRA)
 endif 
 if (size(data,/TNAME) ne 'STRUCT') then begin
    message,/CONT,'Input argument must be a IDL structure!'
