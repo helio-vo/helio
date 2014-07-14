@@ -37,7 +37,7 @@ public class HelioRemoteServiceRegistryClient extends AbstractHelioServiceRegist
 
 	/** The default address of the registry. */
 	//public static final String REGISTRY_AT_MSSL = "http://msslxw.mssl.ucl.ac.uk:8080/helio_registry/services/RegistryQueryv1_0";
-	public static final String REGISTRY_AT_MSSL = "http://msslkz.mssl.ucl.ac.uk/helio_registry/services/RegistryQueryv1_0";
+	public static final String REGISTRY_AT_MSSL = "http://helio.mssl.ucl.ac.uk/helio_registry/services/RegistryQueryv1_0";
 
 	/**
 	 * Name of the remote registry location
