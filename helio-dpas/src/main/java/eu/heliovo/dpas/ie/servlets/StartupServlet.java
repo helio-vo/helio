@@ -28,8 +28,13 @@ public class StartupServlet extends HttpServlet {
 			System.out.println("---> getting HSQL database path -------->");
 			String sProfileFilePath=getServletContext().getRealPath("/");
 			if(sProfileFilePath!=null && !sProfileFilePath.equals("")){
-				 	sProfileFilePath=sProfileFilePath+ "WEB-INF";
+					if(sProfileFilePath.endsWith("/")) {
+						sProfileFilePath=sProfileFilePath+ "WEB-INF";
+					}else {
+						sProfileFilePath=sProfileFilePath+ "/WEB-INF";
+					}
 					InstanceHolders.getInstance().setProperty("hsqldb.database.path",sProfileFilePath);
+					
 					System.out.println(" : HSQLDB database location : "+sProfileFilePath);
 			}
 			//
