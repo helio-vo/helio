@@ -47,8 +47,8 @@ public abstract class AbstractHelioServiceRegistryClient implements
     public ServiceDescriptor registerServiceDescriptor(
 			ServiceDescriptor helioServiceDescriptor) {
 		ServiceDescriptor ret;
-		boolean exists = serviceDescriptors.add(helioServiceDescriptor);
-		if (!exists) {
+		boolean isNew = serviceDescriptors.add(helioServiceDescriptor);
+		if (!isNew) {
 			ret = null;
 			for (ServiceDescriptor currentDescriptor : serviceDescriptors) {
 				if (currentDescriptor.equals(helioServiceDescriptor)) {
@@ -62,12 +62,18 @@ public abstract class AbstractHelioServiceRegistryClient implements
 						"Internal Error: unable to register "
 								+ helioServiceDescriptor + ".");
 			}
+			
+			if (_LOGGER.isDebugEnabled()) {
+				_LOGGER.debug("Service descriptor '" + helioServiceDescriptor
+						+ "' has been previously registered. This is probably fine.");
+			}
+			
 		} else {
-		    if (_LOGGER.isDebugEnabled()) {
-    			_LOGGER.debug("Service descriptor '" + helioServiceDescriptor
-    					+ "' has been previously registered. This is probably fine.");
-		    }
 			ret = helioServiceDescriptor;
+			if (_LOGGER.isDebugEnabled()) {
+				_LOGGER.debug("Service descriptor '" + helioServiceDescriptor
+						+ "' has been registered.");
+			}
 		}
 		return ret;
 	}
