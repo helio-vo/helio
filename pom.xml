@@ -113,6 +113,13 @@
 			<email>laszlo.etesi@fhnw.ch</email>
 			<timezone>+1</timezone>
 		</developer>
+		<developer>
+			<id>juschoch</id>
+			<name>Junia Schoch</name>
+			<organization>i4ds@FHNW</organization>
+			<email>junia.schoch@fhnw.ch</email>
+			<timezone>+1</timezone>
+		</developer>
 	</developers>
 
 	<dependencies>
