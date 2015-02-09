@@ -155,7 +155,7 @@
       <module>helio-client</module>
       <module>helio-frontend</module>
       
-      <module>helio-idlclient</module>
+      
 	</modules>
 
 	<scm>
