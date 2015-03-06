@@ -51,10 +51,16 @@ public class HelioServiceName implements Iterable<HelioServiceName> {
 	 */
 	public static final HelioServiceName ICS = register("ICS", "ivo://helio-vo.eu/ics");
 	
-	/**s
+	/**
 	 * The instrument location service.
 	 */
 	public static final HelioServiceName ILS = register("ILS", "ivo://helio-vo.eu/ils");
+	
+	/**
+	 * The observation data by event/instrument service.
+	 * @author junia schoch at fhnw ch
+	 */
+	public static final HelioServiceName IES = register("IES", "helio://helio-vo.eu/ies");
 	
 	/**
 	 * The Unified Observation catalogue.
