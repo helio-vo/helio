@@ -35,6 +35,12 @@ public class ServiceCapability implements Iterable<ServiceCapability> {
     public static final ServiceCapability LOCAL_QUERY_SERVICE = register("LOCAL_QUERY_SERVICE","helio://helio-vo.eu/local/FullQuery");
 
     /**
+     * Experimental helio query services
+     */
+    public static final ServiceCapability EXPERIMENTAL_QUERY_SERVICE = register("EXPERIMENTAL_QUERY_SERVICE","helio://helio-vo.eu/local/ExperimentalQuery");
+
+    
+    /**
      * Link provider service.
      */
     public static final ServiceCapability LINK_PROVIDER_SERVICE = register("LINK_PROVIDER_SERVICE","helio://helio-vo.eu/lps/v0.1");
