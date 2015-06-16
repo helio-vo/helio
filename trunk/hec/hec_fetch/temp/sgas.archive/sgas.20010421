@@ -1,0 +1,48 @@
+From sgas-owner  Sat Apr 21 02:50:11 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA01183
+	for sgas-sendit; Sat, 21 Apr 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 21 Apr 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104210250.CAA01037@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 21 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 111 Issued at 0245Z on 21 Apr 2001
+This report is compiled from data received at SWO on 20 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0345 0345 0345                       170                           
+ 0501 0523 0543  9433 N16E63 M1.0  1f                               
+ 1951 2004 2016  9433 N15E55 M4.1  1f        70                     
+ 2128 2134 2140              C8.0     180    79                     
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled. The greater than 10 MeV proton event dropped below the 10
+pfu event threshold at 20/1015 UTC (start 18/0315 UTC and 321 pfu
+peak at 18/1045 UTC) and continues to slowly decay.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 180  SSN 103  Afr/Ap 009/008   X-ray Background B5.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.8e+06   GT 10 MeV 7.0e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 1 2 2 3 3 2 Planetary 3 3 1 2 2 3 2 2 
+F.  Comments:  None
+

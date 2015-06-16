@@ -1,0 +1,45 @@
+From sgas-owner  Sun Mar  5 02:55:21 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA23422
+	for sgas-sendit; Sun, 5 Mar 2000 02:55:09 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 5 Mar 2000 02:55:07 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200003050255.CAA26813@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 05 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 065 ISSUED AT 0245Z ON 05 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 04 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1811 1832 1859              C1.8                   II              
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+SLIGHTLY UNSETTLED.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 200  SSN 167  AFR/AP 003/005   X-RAY BACKGROUND B8.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 9.8E+04   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.70E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 0 0 0 2 3 1 1 PLANETARY 1 0 0 0 2 3 2 2 
+F.  COMMENTS:  A MODERATE INTENSITY 245 MHZ NOISE STORM WAS IN
+PROGRESS FOR ALMOST ALL OF THE PERIOD.
+
+

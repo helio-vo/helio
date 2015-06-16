@@ -1,0 +1,64 @@
+From owner-srs@proton.sel.noaa.gov Wed Dec 18 12:50:17 1996
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA179041417; Wed, 18 Dec 1996 12:50:17 -0500
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Wed, 18 Dec 1996 10:50:12 -0700
+From: SESC <sel@proton.sel.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1996 Dec 18 1750 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 353 ISSUED AT 0030Z ON 18 DEC 1996
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 17 DEC
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 17/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8004 N07W07   252  0070 CSO  04   04 BETA
+8005 S13E11   234  0000 AXX  00   01 ALPHA
+8006 S28E20   225  0020 BXO  04   03 BETA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 17/2400Z DEC
+NMBR  LOCATION  LO
+NONE
+II. REGIONS DUE TO RETURN 18 DEC TO 20 DEC
+NMBR LAT    LO
+NONE
+
+
+From owner-srs@proton.sel.noaa.gov Wed Dec 18 19:35:12 1996
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA248755711; Wed, 18 Dec 1996 19:35:12 -0500
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Wed, 18 Dec 1996 17:35:07 -0700
+From: SESC <sel@proton.sel.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1996 Dec 19 0035 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 354 ISSUED AT 0030Z ON 19 DEC 1996
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 18 DEC
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 18/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8004 N08W20   251  0180 DSO  05   12 BETA-GAMMA
+8006 S28E05   226  0010 AXX  01   01 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 18/2400Z DEC
+NMBR  LOCATION  LO
+8005  S13W02   234
+II. REGIONS DUE TO RETURN 19 DEC TO 21 DEC
+NMBR LAT    LO
+7997 N05    242
+8000 S14    233
+
+

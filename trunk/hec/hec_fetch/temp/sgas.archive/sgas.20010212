@@ -1,0 +1,58 @@
+From sgas-owner  Mon Feb 12 02:50:18 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16807
+	for sgas-sendit; Mon, 12 Feb 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 12 Feb 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200102120250.CAA16710@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Feb 12 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 043 Issued at 0245Z on 12 Feb 2001
+This report is compiled from data received at SWO on 11 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0057 0123 0146  9346 N24W57 C6.5  1f               II              
+B.  Proton Events:  An enhancement in the greater than 10 MeV proton
+flux at geosynchronous orbit began about 0600 UTC, following the C6
+event at 0123 UTC. The particle increase reached the 1 pfu level,
+most recently at 1025 UTC, before the slow decay now occurring,
+commenced.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+predominantly quiet to unsettled. However, brief active conditions
+occurred from 0600-0900 UTC at Boulder from a short-lived substorm.
+D.  Stratwarm:  Stratwarm Alert Exists Stratwarm Sunday
+Major warming continues. Temperature gradient between 60N 
+and the pole reversed at the 100 to 10 HPA levels. Wind reversal
+at 60N/10HPA expected within the next day.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 151  SSN 169  Afr/Ap 005/007   X-ray Background B5.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.2e+05   GT 10 MeV 2.9e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.70e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 4 3 2 3 1 1 Planetary 2 2 3 3 2 2 1 1 
+F.  Comments:  AUTODIN transmission of the following bulletins will
+ cease on 
+15 Feb 01: FXXX01 KBOU, AXXX01 KBOU, AXXX02 KBOU, and AXXX03 KBOU. 
+The bulletins will still be available via the Internet at 
+www.afwin.afwa.af.mil for military users and www.sec.noaa.gov for 
+non-military users.  If web access is not acceptable or you have 
+any questions, please contact Mr. Jerry Sanders at DSN 271-1399 
+(COMM 402-294-1399), e-mail jerry.sanders@afwa.af.mil.
+

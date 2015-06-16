@@ -1,0 +1,46 @@
+From sgas-owner  Mon Feb 21 02:55:29 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA07273
+	for sgas-sendit; Mon, 21 Feb 2000 02:55:10 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 21 Feb 2000 02:55:07 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200002210255.CAA13867@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Feb 21 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 052 ISSUED AT 0245Z ON 21 FEB 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 20 FEB
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0658 0658 0658                       280                           
+ 2200 2207 2213              M2.4     1100   130    II              
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  A SUDDEN IMPULSE OF 15 NANOTESLAS
+OCCURRED AT BOULDER AT 2140Z. QUIET TO UNSETTLED CONDITIONS
+DOMINATED THROUGHOUT THE DAY.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 153  SSN 131  AFR/AP 005/005   X-RAY BACKGROUND B9.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.7E+06   GT 10 MEV 4.1E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.90E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 0 1 2 2 1 1 1 3 PLANETARY 1 0 3 1 0 0 2 3 
+F.  COMMENTS:  NONE
+
+

@@ -1,0 +1,54 @@
+From sgas-owner  Mon Nov 27 02:50:10 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA05694
+	for sgas-sendit; Mon, 27 Nov 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 27 Nov 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200011270250.CAA05521@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Nov 27 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 332 Issued at 0245Z on 27 Nov 2000
+This report is compiled from data received at SWO on 26 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0247 0308 0320  9236 N19W30 M2.2  1f 68     60                     
+ 0442 0442 0443                       140                           
+ 0445 0445 0445                       200                           
+ 0448 0449 0449                       180                           
+ 0612 0612 0613                       140                           
+ 1634 1648 1656  9236 N18W38 X4.0  2b 3200   700    II              
+ 2032 2033 2033                       1000                          
+ 2322 2323 2325                       100                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 24/1520Z continues, reaching a new high of 923 pfu at 26/1955Z. 
+Value at the end of the reporting period was 289 pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field began the
+reporting period at quiet levels, rose to unsettled and then active
+conditions by mid period, and ended at minor storm levels for all
+latitudes.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 202  SSN 095  Afr/Ap 020/022   X-ray Background B8.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.6e+08   GT 10 MeV 1.8e+07 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 2 3 5 3 5 Planetary 1 1 3 2 4 4 5 5 
+F.  Comments:  X4.0 Type II estimated shock velocity 999 km/s.
+

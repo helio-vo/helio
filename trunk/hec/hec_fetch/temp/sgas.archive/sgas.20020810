@@ -1,0 +1,45 @@
+From sgas-owner@sec.noaa.gov  Sat Aug 10 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g7A2o4V05073
+	for sgas-sendit; Sat, 10 Aug 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 10 Aug 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200208100250.g7A2o2u04931@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Aug 10 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 222 Issued at 0245Z on 10 Aug 2002
+This report is compiled from data received at SWO on 09 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  Active periods occurred in association with a
+rising trend in solar wind speed and sustained periods of southward
+Bz throughout the latter part of the day.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 140  SSN 164  Afr/Ap 009/015   X-ray Background B6.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+05   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.80e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 2 2 4 4 3 4 Planetary 2 2 2 2 4 3 4 4 
+F.  Comments:  None
+

@@ -1,0 +1,31 @@
+:Product: 1021SGAS.txt
+:Issued: 2012 Oct 21 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 295 Issued at 0245Z on 21 Oct 2012
+This report is compiled from data received at SWO on 20 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0722 0724 0724                       160                           
+ 1047 1047 1047                       110                           
+ 1118 1118 1118                       300                           
+ 1405 1405 1405                       100                           
+ 1805 1814 1819  1598        M9.0     280           II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 151  SSN 112  Afr/Ap 003/001   X-ray Background B6.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.50e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 0 0 2 2 2 0 Planetary 0 0 0 0 0 0 1 1 
+F.  Comments:  The greater than 2 MeV electron fluence at
+geosynchronous orbit was at high levels.

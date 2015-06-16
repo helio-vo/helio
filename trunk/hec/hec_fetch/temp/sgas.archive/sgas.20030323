@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Sun Mar 23 02:50:12 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h2N2o5107660
+	for sgas-sendit; Sun, 23 Mar 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 23 Mar 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200303230250.h2N2o3U07512@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Mar 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 082 Issued at 0245Z on 23 Mar 2003
+This report is compiled from data received at SWO on 22 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to active conditions.  The solar wind speed has shown a
+slow, yet steady decrease during the interval as a favorably
+positioned coronal hole enters into its waning stage.  The greater
+than 2 MeV electron fluxes at geosynchronous orbit have again
+exceeded high levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 089  SSN 040  Afr/Ap 014/016   X-ray Background B1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.4e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 3 3 3 2 2 3 Planetary 3 4 4 4 3 3 2 3 
+F.  Comments:  None
+

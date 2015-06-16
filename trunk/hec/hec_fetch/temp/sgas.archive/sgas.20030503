@@ -1,0 +1,55 @@
+From sgas-owner@sec.noaa.gov  Sat May  3 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h432o4d22033
+	for sgas-sendit; Sat, 3 May 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 3 May 2003 02:50:01 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200305030250.h432o1F21896@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 May 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 123 Issued at 0245Z on 03 May 2003
+This report is compiled from data received at SWO on 02 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0247 0308 0344  0345 S15W22 M1.0  Sf 110    37                     
+ 0403 0404 0404                       110                           
+ 0442 0443 0443                       250                           
+ 0559 0601 0602                       120                           
+ 0703 0703 0703                       130                           
+ 0725 0725 0725                       130                           
+ 0820 0820 0821                       140                           
+ 1627 1627 1627                       140                           
+ 1639 1639 1639                       11000                         
+ 1745 1749 1753              B6.6     150                           
+ 1804 1814 1932  0345 S17W30 C5.4  Sf 380    130                    
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to major storm levels.  Elevated solar wind speed combined
+with a period of southward Bz resulted in one period of isolated
+major storm levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 144  SSN 175  Afr/Ap 023/017   X-ray Background B3.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.3e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.70e+08 e/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 3 6 3 4 3 3 1 2 Planetary 3 5 3 3 3 2 2 3 
+F.  Comments:  None
+

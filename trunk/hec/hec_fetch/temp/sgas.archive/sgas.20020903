@@ -1,0 +1,49 @@
+From sgas-owner@sec.noaa.gov  Tue Sep  3 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g832o5J00255
+	for sgas-sendit; Tue, 3 Sep 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 3 Sep 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209030250.g832o3w00120@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 246 Issued at 0245Z on 03 Sep 2002
+This report is compiled from data received at SWO on 02 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0006 0008 0010              C2.0     1800                          
+ 0012 0000 0014                                     II              
+ 0133 0133 0133                       3600                          
+ 0244 0248 0250              C2.3     4500   32                     
+ 0713 0717 0719              C1.9     2100                          
+ 0934 0934 0939                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  An isolate active period was observed at 02/1200
+UTC due to a 6 hour period of negative Bz.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 174  SSN 227  Afr/Ap 012/014   X-ray Background B9.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.7e+04   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 4 3 3 1 2 Planetary 3 3 2 4 3 3 3 2 
+F.  Comments:  None
+

@@ -1,0 +1,45 @@
+From sgas-owner  Fri May 26 02:51:36 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA26824
+	for sgas-sendit; Fri, 26 May 2000 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 26 May 2000 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200005260250.CAA26695@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 May 26 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 147 ISSUED AT 0245Z ON 26 MAY 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 25 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0122 0122 0124                       110                           
+ 2330 2331 2331                       470                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  ACTIVITY WAS AT ACTIVE TO MINOR
+STORM LEVELS UNTIL 25/1200Z, THEN DECREASED TO QUIET TO ACTIVE
+LEVELS WITH THE ACTIVE LEVELS CONFINED TO HIGH LATITUDES.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 173  SSN 125  AFR/AP 022/031   X-RAY BACKGROUND C1.9
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.1E+05   GT 10 MEV 9.9E+03 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.20E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 5 4 4 2 3 3 3 PLANETARY 5 5 5 5 3 4 3 3 
+F.  COMMENTS:  NONE
+

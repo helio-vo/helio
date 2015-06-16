@@ -1,0 +1,56 @@
+From sgas-owner@sec.noaa.gov  Tue Oct 28 02:50:17 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id h9S2o3227554
+	for sgas-sendit; Tue, 28 Oct 2003 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 28 Oct 2003 02:50:01 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200310280250.h9S2o1x27470@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Oct 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 301 Issued at 0245Z on 28 Oct 2003
+This report is compiled from data received at SWO on 27 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0249 0249 0249                       180                           
+ 0412 0439 0508  0484 N00W44 M1.2  Sf                               
+ 0557 0654 0733  0486 S15E44 X1.2  3b 14000  4000   II/IV           
+ 0751 0833 0924  0484 N00W45 M2.7  2f 1000   1100      IV           
+ 0847 0847 0850  0000 N08E17       Sf                  IV           
+ 0921 0927 0932  0486 S16E26 M5.0  Sf        65                     
+ 1134 1135 1135                       290                           
+ 1227 1243 1252  0486 S17E25 M6.7  Sf 420    59                     
+ 1906 1907 1908                       190                           
+ 1948 1957 2016  0484 N07W50 C9.0  1n 490                           
+ 2146 2151 2205  0488 N08E09 M1.9  Sn                               
+ 2312 2317 2322  0488 N10E10 C4.1  Sf 400                           
+ 2356 2356 2357                       250                           
+B.  Proton Events:  The greater than 10 MeV flux at geosynchronous
+orbit was above 10 pfu until approximately 1910 UTC on 27 October.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 257  SSN 238  Afr/Ap 014/015   X-ray Background C3.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+07   GT 10 MeV 9.6e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W108 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 4 4 4 3 3 4 2 1 Planetary 3 3 4 3 2 3 3 1 
+F.  Comments:  None.
+

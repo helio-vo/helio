@@ -1,0 +1,46 @@
+From sgas-owner  Sun May 21 02:45:13 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA19730
+	for sgas-sendit; Sun, 21 May 2000 02:45:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 21 May 2000 02:45:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200005210245.CAA19580@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 May 21 0245 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 142 ISSUED AT 0245Z ON 21 MAY 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 20 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0525 0535 0544  8998 S15W08 C7.6  1N        130    II/IV           
+ 1117 0000 2203                                        IV           
+ 2111 2115 2124  8996 S20W41 C2.8  SF 280    28                     
+ 2223 2234 2240  9010 N21E43 C2.6  SF 590                           
+ 2312 2318 2322                       760                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 246  SSN 282  AFR/AP 004/006   X-RAY BACKGROUND C2.2
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 9.1E+05   GT 10 MEV 1.9E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.60E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 2 2 2 2 2 2 PLANETARY 2 2 1 2 2 2 2 2 
+F.  COMMENTS:  NONE
+

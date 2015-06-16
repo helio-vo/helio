@@ -1,0 +1,28 @@
+:Product: 20050508SGAS.txt
+:Issued: 2005 May 08 1540 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 128 Issued at 0245Z on 08 May 2005
+This report is compiled from data received at SWO on 07 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0757 0813 0819  0756        M1.4     70                            
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm. A small Sudden Impulse was observed at many
+ground locations (6 nT at Boulder) at about 07/1844 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 100  SSN 055  Afr/Ap 010/010   X-ray Background B2.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+07   GT 10 MeV 1.4e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.10e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 2 1 1 1 2 2 2 5 Planetary 2 1 0 1 2 2 3 4 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.

@@ -1,0 +1,31 @@
+:Product: 20040313SGAS.txt
+:Issued: 2004 Mar 13 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 073 Issued at 0245Z on 13 Mar 2004
+This report is compiled from data received at SWO on 12 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0027 0028 0028                       320                           
+ 0232 0237 0240  0570 S16W04 C3.1  Sf        110                    
+ 1354 1355 1355                       120                           
+ 1816 1816 1816                       290                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels. A high speed stream associated with a
+large transequatorial coronal hole is responsible for the current
+disturbance.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 108  SSN 071  Afr/Ap 022/023   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.2e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W99 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.70e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 5 4 3 3 4 2 3 Planetary 5 5 4 3 3 4 2 3 
+F.  Comments:  None

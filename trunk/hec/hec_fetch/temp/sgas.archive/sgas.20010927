@@ -1,0 +1,48 @@
+From sgas-owner  Thu Sep 27 02:50:23 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA14618
+	for sgas-sendit; Thu, 27 Sep 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 27 Sep 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200109270250.CAA14538@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Sep 27 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 270 Issued at 0245Z on 27 Sep 2001
+This report is compiled from data received at SWO on 26 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0252 0258 0303              M1.8     81     74                     
+ 0300 0302 0306                       100    40                     
+ 1021 1021 1021                       590                           
+B.  Proton Events:  
+ Start    Max      End     Peak Flux
+24/1215  25/2235      ip   12900 (greater than 10 MeV)
+24/1440  25/0755  26/1940     31 (greater than 100 MeV)
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 283  SSN 278  Afr/Ap 022/024   X-ray Background C1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+09   GT 10 MeV 2.3e+08 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 3 5 4 2 2 2 2 Planetary 5 4 5 4 3 3 2 2 
+F.  Comments:  None
+

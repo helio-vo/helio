@@ -1,0 +1,30 @@
+:Product: 1010SGAS.txt
+:Issued: 2012 Oct 10 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 284 Issued at 0245Z on 10 Oct 2012
+This report is compiled from data received at SWO on 09 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 2322 2331 2335              M1.7                                   
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field reached
+minor to major storm levels with severe storms at high latitudes due
+to continued effects from the 05 Oct CME. Unsettled to active
+periods were observed from 09/1200-2100Z followed by another minor
+storm period to end the day due to effects from a coronal hole high
+speed wind stream.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 106  SSN 063  Afr/Ap 032/050   X-ray Background B4.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.5e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 6 6 6 5 2 3 3 5 Planetary 7 6 6 4 1 2 3 5 
+F.  Comments:  None

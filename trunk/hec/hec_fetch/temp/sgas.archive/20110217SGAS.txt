@@ -1,0 +1,39 @@
+:Product: 0217SGAS.txt
+:Issued: 2011 Feb 17 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 048 Issued at 0245Z on 17 Feb 2011
+This report is compiled from data received at SWO on 16 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0735 0744 0755  1161        M1.1                                   
+ 0806 0806 0806                       140                           
+ 0926 0948 1007  1158 S21W28       Sf 100                           
+ 1025 1032 1039  1158        C3.2                                   
+ 1055 1055 1055                       160                           
+ 1146 1150 1150                       500                           
+ 1158 1202 1205  1158        C1.0     480                           
+ 1419 1425 1429  1158 S20W32 M1.6  1f 9900   330    II              
+ 1527 1532 1537  1158 S20W33 C7.7  Sf 120              IV           
+ 1612 1612 1612                       110                           
+ 1801 1801 1801                       100                           
+ 1950 1950 1950                       100                           
+ 2004 2004 2004                       120                           
+ 2050 2051 2054                       240                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+quiet levels for the past 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 114  SSN 060  Afr/Ap 001/002   X-ray Background B4.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.0e+05   GT 10 MeV 2.9e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 2 1 1 1 1 1 0 Planetary 0 2 0 0 0 0 0 1 
+F.  Comments:  None

@@ -1,0 +1,50 @@
+From sgas-owner  Sat Dec 22 02:50:12 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA27427
+	for sgas-sendit; Sat, 22 Dec 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 22 Dec 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112220250.CAA27331@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Dec 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 356 Issued at 0245Z on 22 Dec 2001
+This report is compiled from data received at SWO on 21 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. An increase in the solar wind speed began at around
+21/1100Z. This increase was accompanied by sustained periods of
+southward Bz resulting in unsettled to active periods at all
+latitudes.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM FRIDAY
+STRATOSPHERIC WARMING IN THE MIDDLE AND UPPER STRATOSPHERE,
+FURTHER INTENSIFYING WITH A REVERSED TEMPERATURE GRADIENT
+BETWEEN 60N AND THE POLE IN THE UPPERMOST LEVELS EXPECTED
+WITHIN THE NEXT 3 DAYS.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 234  SSN 215  Afr/Ap 011/011   X-ray Background C1.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.8e+05   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 2 2 2 2 4 4 2 Planetary 1 2 2 2 3 4 4 3 
+F.  Comments:  None
+

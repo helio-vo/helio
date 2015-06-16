@@ -1,0 +1,54 @@
+From owner-sgas@proton.sel.noaa.gov Fri Jul  2 22:59:36 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA250300776; Fri, 2 Jul 1999 22:59:36 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 3 Jul 1999 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199907030255.CAA05193@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Jul 03 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 184 ISSUED AT 0245Z ON 03 JUL 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 02 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0129 0138 0147  8611 S27E05 M2.5  1B        71                     
+ 0417 0418 0419                       180                           
+ 0503 0504 0509  8613 N18E44       SF 350                           
+ 0517 0519 0519                       190                           
+ 0558 0559 0559                       230                           
+ 1418 1418 1419                       130                           
+ 1512 1520 1530  8611 S27E01 M1.6  SF        58                     
+ 1656 1656 1657                       660                           
+ 1747 1759 1806  8603 S15W31 C1.4  SF 120                           
+ 2238 2242 2247              C1.4     260                           
+ 2252 2253 2253                       460                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS AT
+UNSETTLED TO MINOR STORM LEVELS. A SUDDEN IMPULSE WAS OBSERVED AT
+0101Z.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 187  SSN 232  AFR/AP 022/026   X-RAY BACKGROUND C1.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 8.9E+05   GT 10 MEV 1.5E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.70E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 3 4 4 2 5 4 5 PLANETARY 4 3 5 4 3 4 4 5 
+F.  COMMENTS:  NONE
+
+

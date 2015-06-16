@@ -1,0 +1,62 @@
+From sgas-owner  Mon Dec 31 02:50:19 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA18273
+	for sgas-sendit; Mon, 31 Dec 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 31 Dec 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112310250.CAA18119@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Dec 31 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 365 Issued at 0245Z on 31 Dec 2001
+This report is compiled from data received at SWO on 30 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1431 1431 1432                       100                           
+ 1435 1436 1437                       880                           
+B.  Proton Events:  The greater than 10 MeV proton flux at
+geosynchronous orbit has fluctuated near the event threshold value
+of 10 pfu for most of the day, though now appears to be undergoing
+an enhancement due to the recent shock passage.  As a result of
+near-threshold activity, a 10 MeV proton event has been in progress
+since 30/0245 UTC.  Max flux observed today is 19 pfu, at 30/2355
+UTC.
+C.  Geomagnetic Activity Summary:  Geomagnetic field activity has
+been quiet to active.  Most of the day was dominated by ongoing
+effects from yesterday's shock passage, with an extended period of
+southward IMF producing active conditions during 30/0300-0900 UTC. 
+Active conditions returned late in the day, when an additional shock
+passage was observed at the ACE satellite at 30/1932 UTC, followed
+by a sudden impulse of 27 nT observed at Boulder at 30/2010 UTC. 
+This event is presumed to be an early arrival of effects from the
+powerful X-class event of 28 December.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM SUNDAY
+WARM AIR COVERS MOST OF THE POLAR REGION IN THE UPPER AND MIDDLE
+STRATOSPHERE, FURTHER PENETRATING DOWNWARDS.  THE TEMPERATURE
+GRADIENT BETWEEN 60N AND THE POLE WILL BE REVERSED DOWN TO 50
+HPA, AND MEAN ZONAL EASTERLY WINDS ARE EXPECTED BETWEEN 10 
+AND 1 HPA AT 60N.  MAJOR WARMING IN PROGRESS.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 247  SSN 218  Afr/Ap 017/017   X-ray Background C8.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+07   GT 10 MeV 8.6e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.10e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 3 2 3 3 4 3 Planetary 3 4 4 2 3 2 4 4 
+F.  Comments:  Afr estimated from Boulder A.
+

@@ -1,0 +1,52 @@
+From sgas-owner@sec.noaa.gov  Mon Dec 30 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id gBU2o5I29288
+	for sgas-sendit; Mon, 30 Dec 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 30 Dec 2002 02:50:01 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200212300250.gBU2o1829086@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Dec 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 364 Issued at 0245Z on 30 Dec 2002
+This report is compiled from data received at SWO on 29 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0058 0058 0100                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+quiet to unsettled. Solar wind speed remains elevated -  near 550
+km/s, due to a  high speed coronal hole stream. The high speed
+stream is declining as the coronal hole rotates out of a
+geoeffective position. The greater than 2 MeV electron fluxes at
+geosynchronous orbit once again reached high levels.
+D.  Stratwarm:  STRATWARM ALERT / SUNDAY / STRATWARM EXISTS
+INTENSE WARMING COMTINUES IN THE UPPER STRATOSPHERE.  WITHIN THE NEXT
+THREE DAYS: EASILY WINDS AT 60N IN 1 HPA; REVERSED TEMPERATURE
+GRADIENT BETWEEN THE NORTH POLE AND 60N FROM 10 TO 1 HPA; AN
+ELONGATION OF THE COLD POLAR VORTEX INTO TWO CENTRES IN THE LOWER
+AND MID-STRATOSPHERE.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 115  SSN 051  Afr/Ap 012/013   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.3e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 1 3 3 3 3 3 2 Planetary 3 2 3 3 3 3 3 3 
+F.  Comments:  None
+

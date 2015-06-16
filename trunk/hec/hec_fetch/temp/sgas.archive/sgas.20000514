@@ -1,0 +1,47 @@
+From sgas-owner  Sun May 14 02:50:08 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA09267
+	for sgas-sendit; Sun, 14 May 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 14 May 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200005140250.CAA09158@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 May 14 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 135 ISSUED AT 0245Z ON 14 MAY 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 13 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0121 0144 0240              M1.1                                   
+ 0451 0501 0513  8998 S13E74       1F 130                           
+ 1323 1325 1329  8990 N13W12       SF 420                           
+ 1815 1815 1817                       160                           
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS ACTIVE
+BETWEEN 13/0000-0300Z AND QUIET TO UNSETTLED THEREAFTER.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 217  SSN 260  AFR/AP 012/015   X-RAY BACKGROUND C2.6
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.4E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.10E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 2 3 3 2 3 3 3 PLANETARY 4 3 2 3 3 3 3 2 
+F.  COMMENTS:  A MODERATE INTENSITY 245 MHZ NOISE STORM WAS IN
+PROGRESS FOR THE FIRST HALF OF THE DAY.
+

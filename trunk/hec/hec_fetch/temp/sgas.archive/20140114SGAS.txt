@@ -1,0 +1,42 @@
+:Product: 0114SGAS.txt
+:Issued: 2014 Jan 14 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 014 Issued at 0245Z on 14 Jan 2014
+This report is compiled from data received at SWO on 13 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0411 0412 0412                       270                           
+ 0419 0419 0419                       140                           
+ 0421 0421 0421                       130                           
+ 0539 0539 0539                       100                           
+ 0633 0633 0633                       140                           
+ 0639 0639 0639                       130                           
+ 0639 0639 0639                       120                           
+ 0700 0700 0700                       130                           
+ 0711 0713 0713                       170                           
+ 1241 1241 1241                       100                           
+ 1311 1311 1311                       100                           
+ 1315 1315 1315                       110                           
+ 1329 1329 1329                       110                           
+ 2058 2058 2058                       100                           
+ 2148 2151 2153  1944 S07W11 M1.3  Sf        94                     
+B.  Proton Events:  There was a slight enhancement in the 1Mev
+Protons as flux values decrease toward background levels from the
+event last week.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 143  SSN 102  Afr/Ap 006/004   X-ray Background B6.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.3e+06   GT 10 MeV 1.6e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.20e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 1 1 2 1 1 Planetary 2 2 1 0 1 0 0 1 
+F.  Comments:  None

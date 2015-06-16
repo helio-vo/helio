@@ -1,0 +1,40 @@
+:Product: 0322SGAS.txt
+:Issued: 2014 Mar 22 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 081 Issued at 0245Z on 22 Mar 2014
+This report is compiled from data received at SWO on 21 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000      0316                                        IV           
+ 0524 0524 0524                       100                           
+ 0545 0545 0546                       120                           
+ 0753 0753 0753                       120                           
+ 0802 0802 0802                       100                           
+ 1247 1247 1247                       170                           
+ 1257 1257 1257                       100                           
+ 1420 1420 1420                       100                           
+ 1832 1835 1832                       470                           
+ 1834 1835 1835                       210                           
+ 1850 1851 1851                       2100                          
+ 2046 2046 2046                       120                           
+ 2114 2115 2115                       580                           
+ 2220 2224 2226  2008        C1.5     720                           
+ 2243 2243 2243                       170                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 153  SSN 125  Afr/Ap 010/010   X-ray Background B6.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+05   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.50e+04 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 3 3 3 4 1 2 Planetary 3 2 2 3 2 3 2 2 
+F.  Comments:  None.

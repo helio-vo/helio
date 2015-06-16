@@ -1,0 +1,45 @@
+From srs-owner  Mon May  8 00:45:14 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id AAA26369
+	for srs-sendit; Mon, 8 May 2000 00:45:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Mon, 8 May 2000 00:45:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200005080045.AAA26224@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2000 May 08 0045 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 129 ISSUED AT 0030Z ON 08 MAY 2000
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 07 MAY
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 07/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8980 S16W48   168  0020 BXO  04   05 BETA
+8981 S22W43   163  0010 AXX  01   02 ALPHA
+8983 N26E19   101  0030 BXO  06   10 BETA
+8984 S13W14   134  0010 BXO  03   04 BETA
+8986 S16E17   103  0010 BXO  03   03 BETA
+8987 N12E10   110  0010 AXX  02   06 ALPHA
+8988 N08W04   124  0010 BXO  03   03 BETA
+8989 N17E38   082  0020 BXO  04   05 BETA
+8990 N14E63   057  0010 AXX  02   02 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 07/2400Z MAY
+NMBR  LOCATION  LO
+8982  S19W32   153
+8985  N12E25   096
+II. REGIONS DUE TO RETURN 08 MAY TO 10 MAY
+NMBR LAT    LO
+8955 S21    029
+8962 N24    357
+8963 N17    002
+

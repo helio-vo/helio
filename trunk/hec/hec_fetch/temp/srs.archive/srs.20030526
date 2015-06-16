@@ -1,0 +1,45 @@
+From srs-owner@sec.noaa.gov  Mon May 26 00:40:10 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h4Q0e5A20381
+	for srs-sendit; Mon, 26 May 2003 00:40:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Mon, 26 May 2003 00:40:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200305260040.h4Q0e3w20282@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2003 May 26 0040 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar Region Summary
+SRS Number 146 Issued at 0030Z on 26 May 2003
+Report compiled from data received at SWO on 25 May
+I.  Regions with Sunspots.  Locations Valid at 25/2400Z 
+Nmbr Location  Lo  Area  Z   LL   NN Mag Type
+0365 S08E08   181  0190 Dai  06   16 Beta
+0367 S14E29   160  0040 Cso  04   04 Beta
+0368 S33E37   152  0130 Hax  02   01 Alpha
+IA. H-alpha Plages without Spots.  Locations Valid at 25/2400Z May
+Nmbr  Location  Lo
+0361  N10W90   281
+0362  S10W57   246
+0366  N11E23   166
+0369  N12W21   210
+0370  N16E25   164
+II. Regions Due to Return 26 May to 28 May
+Nmbr Lat    Lo
+0351 N09    082
+99999
+Plain:  Region 365 was sent out with
+an incorrect position on yesterdays 
+report.
+99999
+

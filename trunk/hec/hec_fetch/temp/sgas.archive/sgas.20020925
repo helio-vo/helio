@@ -1,0 +1,48 @@
+From sgas-owner@sec.noaa.gov  Wed Sep 25 02:50:10 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g8P2o5k22906
+	for sgas-sendit; Wed, 25 Sep 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 25 Sep 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209250250.g8P2o2j22768@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 25 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 268 Issued at 0245Z on 25 Sep 2002
+This report is compiled from data received at SWO on 24 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0032 0037 0041              B6.8     200                           
+ 0850 0851 0851                       350                           
+ 1053 1053 1053                       390                           
+ 1340 1340 1340                       120                           
+ 1941 1941 1941                       190                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 158  SSN 240  Afr/Ap 004/006   X-ray Background B4.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.00e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 2 1 2 1 2 2 Planetary 2 2 1 2 2 2 3 2 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.
+

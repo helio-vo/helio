@@ -1,0 +1,46 @@
+From sgas-owner@sec.noaa.gov  Tue Nov 12 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id gAC2o5i25575
+	for sgas-sendit; Tue, 12 Nov 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 12 Nov 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200211120250.gAC2o3F25450@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Nov 12 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 316 Issued at 0245Z on 12 Nov 2002
+This report is compiled from data received at SWO on 11 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0725 0733 0739  0180 S12W53 M2.9  1n 27     190                    
+ 1511 1620 1645  0180 S13W60 M1.8  1n 51     230    II              
+B.  Proton Events:  The greater than 10 MeV proton event ended at
+11/0525 UTC. The event began at 09/1920 UTC and had a 404 pfu peak
+at 10/0540 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 185  SSN 197  Afr/Ap 008/012   X-ray Background C1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.7e+07   GT 10 MeV 4.9e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.10e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 3 3 2 2 2 Planetary 2 2 3 3 4 3 2 3 
+F.  Comments:  The Afr index reported in Part E is estimated.
+

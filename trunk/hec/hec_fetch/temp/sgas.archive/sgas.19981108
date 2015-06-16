@@ -1,0 +1,59 @@
+From owner-sgas@proton.sel.noaa.gov Sun Nov  8 21:57:10 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA045130230; Sun, 8 Nov 1998 21:57:10 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Mon, 9 Nov 1998 02:55:07 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199811090255.CAA03760@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Nov 09 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 313 ISSUED AT 0245Z ON 09 NOV 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 08 NOV
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0019 0021 0022                       200                           
+ 0151 0152 0203  8375 N22W49       SF 2400                          
+ 0343 0344 0344                       380                           
+ 0451 0451 0452                       230                           
+ 0630 0630 0631                       120                           
+ 1337 1337 1344  8375 N14W58       SF 680                           
+ 1427 1712 1921  8375 N19W58       2B                               
+ 1438 1438 1439                       350                           
+ 1704 1712 1722  8375 N19W58 M2.7  1N                               
+ 2155 2158 2203  8376 S28W35       SF 200                           
+ 2237 2256 2310  8375 N21W61 M1.1  1F                               
+B.  PROTON EVENTS:  THE GT 10 MEV LEVELS ROSE ABOVE THE 10 PFU
+THRESHOLD FOR 25 MINUTES STARTING AT 08/0245UT.  LEVELS DECLINED TO
+LOW LEVELS OVER THE REMAINDER OF THE PERIOD.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+SEVERE STORM. THE CME REPORTED ON 5 NOV ARRIVED AT AND INTERACTED
+WITH THE EARTH'S MAGNETOSPHERE, CAUSING SEVERE STORM CONDITIONS
+DURING THE 06-09UT PERIOD.  THE GT 10 MEV PROTONS CLIMBED PAST THE
+10 PFU THRESHOLD FOR APPROXIMATELY 25 MINUTES STARTING AT 08/0245UT.
+THEY HAVE DECLINED TO LOW LEVELS SINCE THAT TIME.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 153  SSN 137  AFR/AP 047/068   X-RAY BACKGROUND C1.3
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.9E+07   GT 10 MEV 2.3E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 9.90E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 5 6 7 5 4 3 2 3 PLANETARY 5 7 8 6 4 3 2 3 
+F.  COMMENTS:  NONE
+
+

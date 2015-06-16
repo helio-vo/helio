@@ -1,0 +1,52 @@
+From owner-sgas@proton.sel.noaa.gov Fri Aug 27 22:55:22 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA094558922; Fri, 27 Aug 1999 22:55:22 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 28 Aug 1999 02:55:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199908280255.CAA11065@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Aug 28 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 240 ISSUED AT 0245Z ON 28 AUG 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 27 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0122 0137 0151              M3.0            32                     
+ 1250 1307 1322  8674 S23W09 M5.5  2N        150                    
+ 1547 1549 1552  8673 S20W24       SF 100                           
+ 1623 1636 1707  8674 S31E04 M3.0  2N        110                    
+ 1755 1755 1756                       1100                          
+ 1816 1817 1818                       100                           
+ 2234 2234 2234                       160                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+MILDLY ACTIVE. SOLAR WIND SPEEDS IN EXCESS OF 600 KM/S ARE STILL
+OCCURRING, LIKELY ORIGINATING FROM A WELL- POSITIONED CORONAL HOLE
+WEST OF CENTRAL MERIDIAN. THE GREATER THAN 2 MEV ELECTRON FLUX AT
+GEOSYNCHRONOUS ORBIT APPROACHED HIGH LEVELS AT APPROXIMATELY 1500Z.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 223  SSN 194  AFR/AP 009/013   X-RAY BACKGROUND C1.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.7E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.50E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 3 1 3 2 2 2 PLANETARY 3 3 4 2 3 3 3 2 
+F.  COMMENTS:  NONE
+
+

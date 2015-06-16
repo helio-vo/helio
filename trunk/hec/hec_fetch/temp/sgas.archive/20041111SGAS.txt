@@ -1,0 +1,46 @@
+:Product: 20041111SGAS.txt
+:Issued: 2004 Nov 11 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 316 Issued at 0245Z on 11 Nov 2004
+This report is compiled from data received at SWO on 10 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000 0000 0247                                        IV           
+ 0159 0213 0220  0696 N09W49 X2.5  3b 2700   650    II/IV           
+ 0221 0221 0249       N09W48       3n                               
+ 0234 0000 0241                                     II              
+ 0247 0000 0410                                        IV           
+ 0305 0305 0306                       480                           
+ 0441 0441 0441                       87               IV           
+ 0600 0000 0800                                        IV           
+ 0727 0739 0747              C2.6     110                           
+ 0749 0749 0750                       440                           
+ 0839 0839 0839                       520                           
+ 0956 0956 0956                       250                           
+ 2205 2205 2205                       67               IV           
+B.  Proton Events:  A greater than 10 MeV peak flux of 424 pfu was
+observed at 10/1655Z. A greater than 100 Mev proton event began at
+10/0320Z, peaked at 2.1 pfu at 10/0340Z, and ended at 10/1250Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+active to severe storm levels. Yesterday's strong shock at 09/1852Z
+was followed by a short period of strong southward Bz to near 40 nT,
+before rotating northward for approximately five hours. At 10/0100Z,
+the solar wind exceeded 800 km/s and Bz rotated southward again,
+ranging from -15 to -25 nT for over nine hours. The geomagnetic
+field response was severe at all latitudes. The period ended at
+minor storm levels with solar wind speed declining to near 600 km/s.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 105  SSN 050  Afr/Ap 100/181   X-ray Background B5.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.2e+08   GT 10 MeV 1.1e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W102 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.30e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 7 7 8 8 6 5 5 3 Planetary 8 8 9 9 7 6 5 4 
+F.  Comments:  None.

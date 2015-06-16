@@ -1,0 +1,37 @@
+:Product: 0112SGAS.txt
+:Issued: 2014 Jan 12 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 012 Issued at 0245Z on 12 Jan 2014
+This report is compiled from data received at SWO on 11 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0057 0059 0100                       170                           
+ 1230 1230 1230                       110                           
+ 1409 1409 1409                       110                           
+ 1415 1416 1416                       200                           
+ 1507 1507 1507                       120                           
+ 1544 1544 1544                       120                           
+ 1846 1846 1846                       140                           
+ 1949 1949 1949                       100                           
+ 2015 2015 2015                       100                           
+ 2020 2025 2026                       350                           
+ 2029 2029 2036                       760                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 06/0915Z and reached a maximum of 1033 pfu at 09/0340Z, ended at
+11/2020Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 166  SSN 134  Afr/Ap 003/002   X-ray Background B7.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+07   GT 10 MeV 1.3e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 0 0 1 1 1 2 2 1 Planetary 0 0 0 0 0 1 2 2 
+F.  Comments:  None.

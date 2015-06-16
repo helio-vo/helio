@@ -1,0 +1,49 @@
+From sgas-owner  Wed Feb 13 02:50:15 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA02117
+	for sgas-sendit; Wed, 13 Feb 2002 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 13 Feb 2002 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200202130250.CAA02049@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Feb 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 044 Issued at 0245Z on 13 Feb 2002
+This report is compiled from data received at SWO on 12 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0848 0853 0906  9825 N11E40 C2.3  Sf 150                           
+ 1830 1830 1831                       110                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM TUESDAY
+TEMPERATURE INCREASE FROM -55 TO -17 DEGREE CELSIUS OVER EASTERN
+SIBERIA AT 10 HPA AND A TEMPERATURE INCREASE OF 50 K OVER WESTERN
+SIBERIA AT 3 AND 2 HPA WITHIN ONE WEEK. THE WARMING OVER NORTHERN
+ASIA CONTINUES, PROPAGATING DOWNWARD. REVERSED TEMPERATURE GRADIENT
+BETWEEN 60 N AND THE POLE AT 1 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 208  SSN 182  Afr/Ap 008/006   X-ray Background B9.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.4e+04   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.00e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 1 2 2 1 2 Planetary 3 2 2 1 1 2 2 2 
+F.  Comments:  None
+

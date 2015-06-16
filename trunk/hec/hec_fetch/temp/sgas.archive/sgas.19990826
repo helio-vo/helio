@@ -1,0 +1,43 @@
+From owner-sgas@proton.sel.noaa.gov Thu Aug 26 22:55:10 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA076682510; Thu, 26 Aug 1999 22:55:10 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Fri, 27 Aug 1999 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199908270255.CAA21172@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Aug 27 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 239 ISSUED AT 0245Z ON 27 AUG 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 26 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1105 1109 1114  8674 S31E08 C4.4  SN 700    81                     
+ 1250 1253 1312  8674 S22E04       SF 130                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  QUIET TO ACTIVE
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 222  SSN 176  AFR/AP 010/013   X-RAY BACKGROUND C1.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.0E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.20E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 1 2 2 2 2 3 PLANETARY 2 3 1 2 4 4 3 3 
+F.  COMMENTS:  NONE
+
+

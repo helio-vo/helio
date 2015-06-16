@@ -1,0 +1,63 @@
+From sgas-owner  Fri Jun 28 02:50:32 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_24419)/8.8.6) id CAA22357
+	for sgas-sendit; Fri, 28 Jun 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 28 Jun 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200206280250.CAA22218@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jun 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 179 Issued at 0245Z on 28 Jun 2002
+This report is compiled from data received at SWO on 27 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0006 0007 0007                       920                           
+ 0011 0011 0011                       310                           
+ 0016 0016 0016                       110                           
+ 0033 0040 0044              B4.1     130                           
+ 0047 0047 0047                       210                           
+ 0454 0454 0455                       110                           
+ 1914 1917 1921  0008        B3.8     370                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet to unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 139  SSN 106  Afr/Ap 004/007   X-ray Background B2.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.8e+04   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.30e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 1 2 2 1 1 Planetary 2 1 1 2 3 3 2 1 
+F.  Comments:  This message is for users of the NOAA/SEC Space 
+Weather Operations sunspot region numbers. As you 
+may have noticed, region number 10000 was assigned
+on June 14. Space Weather operations is going 
+through the sequence of Region numbers as 9998, 
+9999, 0000, 0001, and so on. SEC's product text 
+discussions of the active regions will ignore the 
+leading zeroes (for example, we will say 'Region 
+number 5' rather than Region number '0005'). However, 
+the Geoalert product, the Region Report product, as 
+well as the USAF and ISES data exchange codes will 
+preserve the 4 digit format. The necessity of using 
+four digits is for operational purposes only. For 
+historical purposes all regions beyond Region 9999 
+will be understood to be in a series of region numbers 
+10000 and higher.
+

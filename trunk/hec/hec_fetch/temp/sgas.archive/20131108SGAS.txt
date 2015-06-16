@@ -1,0 +1,43 @@
+:Product: 1108SGAS.txt
+:Issued: 2013 Nov 08 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 312 Issued at 0245Z on 08 Nov 2013
+This report is compiled from data received at SWO on 07 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0334 0340 0343  1890 S14E28 M2.3  Sn 1700          II              
+ 0612 0612 0612                       190                           
+ 0701 0701 0701                       170                           
+ 1216 1217 1217  1890                 240                           
+ 1415 1425 1431  1890 S13E23 M2.4  1n 11000  170    II/IV           
+ 1433 1433 1433                       100                           
+ 1539 1547 1549  1890        C1.6     180                           
+ 1621 1626 1629  1890        C6.0     990                           
+ 1751 1752 1752                       280                           
+ 1758 1758 1758                       1400                          
+ 1812 1812 1812                       130                           
+ 1902 1902 1902                       260                           
+ 1907 1907 1909                       1800                          
+ 1946 1946 1946                       950                           
+ 2344 0002 0014              M1.8                                   
+B.  Proton Events:  There was an enhancement of the greater than 10
+MeV proton flux at geosynchronous orbit beginning at approximately
+07/0205Z with a maximum flux level of 6 pfu at 07/0435Z (below 10
+pfu threshold).  The event ended at approximately 07/1440Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 148  SSN 159  Afr/Ap 011/014   X-ray Background B6.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.7e+06   GT 10 MeV 1.7e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 4 4 1 2 2 Planetary 1 4 3 4 4 2 2 1 
+F.  Comments:  None.

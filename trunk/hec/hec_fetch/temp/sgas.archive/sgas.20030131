@@ -1,0 +1,94 @@
+From sgas-owner@sec.noaa.gov  Fri Jan 31 01:00:09 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h0V106m16308
+	for sgas-sendit; Fri, 31 Jan 2003 01:00:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 31 Jan 2003 01:00:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200301310100.h0V102c16080@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jan 31 0100 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 364 Issued at 0245Z on 30 Dec 1899
+This report is compiled from data received at SWO on 30 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Conditions varied from quiet to
+minor storm, due to the effects of a high speed solar wind stream.
+D.  Stratwarm:  STRATWARM ALERT/THURSDAY/STRATWARM EXISTS
+STILL DISTURBED WAVE NUMBER TWO PATTERN OF THE CIRCULATION.  WARM AIR
+COVERS THE POLAR REGION IN THE MIDDLE AND UPPER STRATOSPHERE,
+LEADING TO A REVERSED TEMPERATURE GRADIENT BETWEEN 60N AND THE POLE
+AT 20 HPA AND AT THE UPPER LEVELS.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 121  SSN 105  Afr/Ap 018/026   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.0e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 4 3 5 4 1 Planetary 5 4 4 4 4 5 4 2 
+F.  Comments:  None
+
+From sgas-owner@sec.noaa.gov  Fri Jan 31 18:00:13 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h0VI06N02595
+	for sgas-sendit; Fri, 31 Jan 2003 18:00:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 31 Jan 2003 18:00:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200301311800.h0VI02k02402@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jan 31 1800 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 031 Issued at 0245Z on 31 Jan 2003
+This report is compiled from data received at SWO on 30 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Conditions varied from quiet to
+minor storm, due to the effects of a high speed solar wind stream.
+D.  Stratwarm:  STRATWARM ALERT/THURSDAY/STRATWARM EXISTS
+STILL DISTURBED WAVE NUMBER TWO PATTERN OF THE CIRCULATION.  WARM AIR
+COVERS THE POLAR REGION IN THE MIDDLE AND UPPER STRATOSPHERE,
+LEADING TO A REVERSED TEMPERATURE GRADIENT BETWEEN 60N AND THE POLE
+AT 20 HPA AND AT THE UPPER LEVELS.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 121  SSN 105  Afr/Ap 018/026   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.0e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 4 3 5 4 1 Planetary 5 4 4 4 4 5 4 2 
+F.  Comments:  None
+

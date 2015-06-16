@@ -1,0 +1,51 @@
+From sgas-owner@sec.noaa.gov  Sat Dec 28 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id gBS2o5W09395
+	for sgas-sendit; Sat, 28 Dec 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 28 Dec 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200212280250.gBS2o2n09275@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Dec 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 362 Issued at 0245Z on 28 Dec 2002
+This report is compiled from data received at SWO on 27 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to minor storm levels with isolated major storm periods at
+higher latitudes. These storm conditions are a result of a large
+coronal hole that rotated into a geoeffective position late
+yesterday. Solar wind speed ranged 700 - 800 km/s during the latter
+half of this period.
+D.  Stratwarm:  STRATWARM ALERT/FRIDAY/STRATWARM EXISTS.  INTENSE
+WARMING IN THE UPPER STRATOSPHERE OVER THE NORTH ATLANTIC AND EUROPE
+WITH MAXIMUM TEMPERATURES OF PLUS 48 C AT 2 HPA.  REVERSED
+TEMPERATURE GRADIENT BETWEEN THE NORTH POLE AND 60N EXPECTED WITHIN
+THE NEXT 5 DAYS.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 117  SSN 063  Afr/Ap 026/037   X-ray Background B2.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.90e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 4 5 4 3 3 3 Planetary 4 6 4 5 5 4 4 3 
+F.  Comments:  None
+

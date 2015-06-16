@@ -1,0 +1,48 @@
+From sgas-owner@sec.noaa.gov  Tue Jul 30 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g6U2o5u15685
+	for sgas-sendit; Tue, 30 Jul 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 30 Jul 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200207300250.g6U2o2o15525@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jul 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 211 Issued at 0245Z on 30 Jul 2002
+This report is compiled from data received at SWO on 29 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0019 0023 0027              M1.4            74                     
+ 0229 0238 0246              M4.8     860    380    II              
+ 1027 1044 1113              M4.7     100    110                    
+ 1753 1756 1758              C3.8     1000                          
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Geomagnetic activity was at quiet
+to unsettled levels until a sudden impulse (SI) occurred at 29/1330
+UTC (9nT, Boulder USGS magnetometer). Activity increased to
+unsettled to active levels following the SI.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 234  SSN 304  Afr/Ap 013/011   X-ray Background C4.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.4e+06   GT 10 MeV 1.6e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 1 4 4 3 2 Planetary 2 3 2 2 4 3 3 2 
+F.  Comments:  Afr estimated based on Boulder USGS magnetometer data.
+

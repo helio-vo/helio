@@ -1,0 +1,54 @@
+From sgas-owner  Fri Nov 10 02:50:14 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA06205
+	for sgas-sendit; Fri, 10 Nov 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 10 Nov 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200011100250.CAA06032@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Nov 10 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 315 Issued at 0245Z on 10 Nov 2000
+This report is compiled from data received at SWO on 09 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0303 0314 0339              M1.2                                   
+ 0601 0610 0621              M1.2                                   
+ 1545 1613 1620  9221 S11E10 M1.0  Sf                               
+ 2113 2122 2132  9125 S19W43 C6.4  1f               II              
+ 2242 2328 0005  9213 N10W77 M7.4  3f 40     710       IV           
+ 2256 0000 2257                                     II              
+B.  Proton Events:  The 10 MeV and 100 MeV proton events which began
+late on 8 November are still in progress.  The 100 MeV proton event
+peaked at 347 pfu at 09/0350 UTC, declining to a current level of 13
+pfu.  The 10 MeV proton event peaked at 13,300 pfu at 09/1600 UTC
+and has slowly declined to a current level of 2962 pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Active conditions occurred during the 09/1500 - 1800 UTC
+period.  A polar cap absorption event was associated with the proton
+event.  Peak absorption was estimated to be 33 dB at 09/1640 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 166  SSN 149  Afr/Ap 010/011   X-ray Background M1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+09   GT 10 MeV 7.5e+08 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.00e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 1 1 2 3 4 2 3 Planetary 3 1 1 1 3 3 3 3 
+F.  Comments:  None
+

@@ -1,0 +1,53 @@
+From sgas-owner@sec.noaa.gov  Sat Sep  7 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g872o5P06687
+	for sgas-sendit; Sat, 7 Sep 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 7 Sep 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209070250.g872o2q06531@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 07 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 250 Issued at 0245Z on 07 Sep 2002
+This report is compiled from data received at SWO on 06 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0358 0358 0358                       230                           
+ 0446 0446 0446                       150                           
+ 0512 0512 0512                       330                           
+ 0638 0638 0638                       100                           
+ 1143 1143 1143                       110                           
+ 1938 1938 1938                       340                           
+ 2010 2010 2010                       210                           
+B.  Proton Events:  The greater than 10 MeV proton flux has been
+slowly increasing over the past 24 hours, apparently due to a
+backside solar event over the northwest limb. Current proton flux is
+about 6 pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 178  SSN 189  Afr/Ap 008/010   X-ray Background B7.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+06   GT 10 MeV 3.0e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.90e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 3 2 1 1 1 Planetary 2 3 3 3 3 2 3 2 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.
+

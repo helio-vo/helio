@@ -1,0 +1,53 @@
+From sgas-owner@sec.noaa.gov  Wed Jan 22 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h0M2o5V29665
+	for sgas-sendit; Wed, 22 Jan 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 22 Jan 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200301220250.h0M2o2J29532@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jan 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 022 Issued at 0245Z on 22 Jan 2003
+This report is compiled from data received at SWO on 21 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0223 0228 0233              C8.1     220    59     II              
+ 0550 0557 0602  0260 N14E08 C4.1  Sf 350    140    II              
+ 1459 1526 1552              M1.9            380                    
+ 1725 1725 1725                       140                           
+ 2129 2140 2148  0260 N15W01 C2.3  Sf 200                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  A lingering southern coronal hole extension is
+believed to be responsible for the elevated conditions.  The greater
+than 2 MeV electron flux at geosynchronous orbit reached high levels
+today.
+D.  Stratwarm:  STRATWARM ALERT/TUESDAY/STRATWARM EXISTS.
+DECAYING WARMING, BUT STILL DISTURBED POLAR VORTEX THROUGHOUT THE
+STRATOSPHERE. REVERSED TERMERATURE GRADIENT BETWEEN 60N AND THE POLE
+FROM 50 TO 10 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 134  SSN 167  Afr/Ap 017/017   X-ray Background B5.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+06   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.10e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 4 4 3 3 2 3 Planetary 3 3 3 4 3 3 3 3 
+F.  Comments:  None
+

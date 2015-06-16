@@ -1,0 +1,34 @@
+:Product: 0124SGAS.txt
+:Issued: 2012 Jan 24 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 024 Issued at 0245Z on 24 Jan 2012
+This report is compiled from data received at SWO on 23 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0152 0236 0242  1402 N29W20       Sf 200                           
+ 0336 0336 0336                       100                           
+ 0338 0359 0434  1402 N28W21 M8.7  2b 4000   5100      IV           
+ 0344 0349 0349                       740    3200                   
+B.  Proton Events:  Proton levels are high.  A 10 MeV proton event
+began at 23/0530Z and reached a peak of 3630 pfu at 23/2330Z and
+remains elevated.  A 100 MeV proton event began at 23/0445Z and
+reached a maximum of 2.3 pfu at 23/0750Z before decreasing below the
+1 pfu threshold.
+C.  Geomagnetic Activity Summary:  The geomagnetic field began the
+period at minor storm levels and then decreased to mostly quiet for
+the remainder of the day.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 144  SSN 108  Afr/Ap 007/011   X-ray Background B6.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.7e+08   GT 10 MeV 1.4e+08 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 4 3 2 0 1 1 1 1 Planetary 5 3 2 1 1 2 1 2 
+F.  Comments:  None.

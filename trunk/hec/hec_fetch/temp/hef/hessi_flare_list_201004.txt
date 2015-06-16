@@ -1,0 +1,49 @@
+HESSI Flare List  (generated 17-Sep-2012 20:01)
+
+Total # flares: 68319  Time range: 12-Feb-2002 21:29:56.000 - 31-Aug-2012 23:58:56.000
+ 
+    Flare     Start time        Peak      End      Dur   Peak     Total      Energy X Pos Y Pos Radial   AR        Flags         
+                                                     s    c/s    Counts         keV  asec  asec   asec                           
+
+ 10043001 30-Apr-2010 03:21:44 03:23:26 03:28:08   384   5104   8600352         3-6     0     0      0    0  A0 GE NS PE Q2        
+ 10043002 30-Apr-2010 05:55:44 05:56:46 05:58:16   152   7408   6236928         3-6     0     0      0    0  A0 DF DR GE GS PS Q4  
+
+Notes: 
+  Note that only events with non-zero position and energy range not equal to 3-6 keV are confirmed as solar sources.
+  Events which have no position and show up mostly in the front detectors, but were not able to be imaged 
+    are flagged as "PS".
+  Events which do not have valid position are only confirmed to be non-solar if the NS flag is set.
+  Peak Rate:  peak counts/second in energy range 6-12 keV, averaged over active collimators, including background.
+  Total Counts:  counts in energy range 6-12 keV integrated over duration of flare summed over all subcollimators,
+    including background.
+  Energy:  the highest energy band in which the flare was observed.
+  Radial Distance:  distance from Sun center
+  Quality Codes: Qn, where n is the total number of data gap, SAA, particle, eclipse or decimation flags set for event.
+    n ranges from 0 to 11.  Use care when analyzing the data when the quality is not zero.
+
+Flare Flag Codes: 
+  a0 - In attenuator state 0 (None) sometime during flare
+  a1 - In attenuator state 1 (Thin) sometime during flare
+  a2 - In attenuator state 2 (Thick) sometime during flare
+  a3 - In attenuator state 3 (Both) sometime during flare
+  An - Attenuator state (0=None, 1=Thin, 2=Thick, 3=Both) at peak of flare
+  DF - Front segment counts were decimated sometime during flare
+  DR - Rear segment counts were decimated sometime during flare
+  ED - Spacecraft eclipse (night) sometime during flare
+  EE - Flare ended in spacecraft eclipse (night)
+  ES - Flare started in spacecraft eclipse (night)
+  FE - Flare ongoing at end of file
+  FR - In Fast Rate Mode
+  FS - Flare ongoing at start of file
+  GD - Data gap during flare
+  GE - Flare ended in data gap
+  GS - Flare started in data gap
+  MR - Spacecraft in high-latitude zone during flare
+  NS - Non-solar event
+  PE - Particle event: Particles are present
+  PS - Possible Solar Flare; in front detectors, but no position
+  Pn - Position Quality: P0 = Position is NOT valid, P1 = Position is valid
+  Qn - Data Quality: Q0 = Highest Quality, Q11 = Lowest Quality
+  SD - Spacecraft was in SAA sometime during flare
+  SE - Flare ended when spacecraft was in SAA
+  SS - Flare started when spacecraft was in SAA

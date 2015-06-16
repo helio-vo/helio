@@ -1,0 +1,27 @@
+:Product: 0524SGAS.txt
+:Issued: 2007 May 24 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 144 Issued at 0245Z on 24 May 2007
+This report is compiled from data received at SWO on 23 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0715 0732 0750              B5.3     140           II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storming. Extended periods of southward Bz accounted
+for the most disturbed periods.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 070  SSN 012  Afr/Ap 035/042   X-ray Background  LT A1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.8e+06   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.80e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 5 6 4 3 4 5 Planetary 4 3 5 6 5 2 6 5 
+F.  Comments:  None

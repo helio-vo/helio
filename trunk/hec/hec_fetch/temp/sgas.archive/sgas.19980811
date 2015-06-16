@@ -1,0 +1,48 @@
+From owner-sgas@proton.sel.noaa.gov Tue Aug 11 22:55:21 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA207210521; Tue, 11 Aug 1998 22:55:21 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Wed, 12 Aug 1998 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199808120255.CAA18202@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Aug 12 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 224 ISSUED AT 0245Z ON 12 AUG 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 11 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0000 0000 0000                       110                           
+ 0402 0402 0403                       900                           
+ 0454 0459 0509              M1.0                                   
+ 1255 1256 1256                       230                           
+ 1427 1427 1427                       360                           
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD HAS BEEN
+QUIET AT MIDDLE LATITUDES, AND QUIET TO UNSETTLED AT HIGH LATITUDES
+FOR THE PAST 24 HOURS.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 150  SSN 144  AFR/AP 006/009   X-RAY BACKGROUND B5.8
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.4E+05   GT 10 MEV 1.5E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.10E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 0 2 1 2 2 1 2 PLANETARY 3 1 1 2 3 3 3 3 
+F.  COMMENTS:  NONE
+
+

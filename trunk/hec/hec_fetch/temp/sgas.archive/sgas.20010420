@@ -1,0 +1,49 @@
+From sgas-owner  Fri Apr 20 02:50:16 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA29294
+	for sgas-sendit; Fri, 20 Apr 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 20 Apr 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104200250.CAA29231@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 110 Issued at 0245Z on 20 Apr 2001
+This report is compiled from data received at SWO on 19 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0217 0000 0000                                     II              
+ 1122 1135 1155              M2.0            270                    
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet to unsettled. The greater than 100 MeV proton event ended at
+19/0325 UTC (start 18/0315 UTC, 12 pfu peak at 18/0600 UTC). The
+polar cap absorption (PCA) event has also ended (19/1400 UTC). The
+greater than 10 MeV proton event continues in progress (start
+18/0315 UTC, 321 pfu peak at 18/1045 UTC, and current flux about 15
+pfu at 19/2100 UTC) and is slowly decaying.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 145  SSN 085  Afr/Ap 008/007   X-ray Background B5.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.6e+07   GT 10 MeV 2.9e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.80e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 2 2 3 3 2 1 Planetary 3 2 3 1 2 2 1 2 
+F.  Comments:  None
+

@@ -1,0 +1,49 @@
+:Product: 1019SGAS.txt
+:Issued: 2014 Oct 19 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 292 Issued at 0245Z on 19 Oct 2014
+This report is compiled from data received at SWO on 18 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0007 0007 0007                       100                           
+ 0053 0107 0115              C5.0     240                           
+ 0209 0209 0210                       890                           
+ 0230 0231 0231                       290                           
+ 0235 0238 0238                       230                           
+ 0248 0249 0250                       1600                          
+ 0506 0506 0507                       100                           
+ 0532 0532 0532                       150                           
+ 0551 0551 0551                       150                           
+ 0702 0758 0849  2192 S13E71 M1.6  Sf                               
+ 0850 0850 0850                       150                           
+ 0910 0910 0910                       100                           
+ 1009 1009 1009                       110                           
+ 1347 1347 1348                       230                           
+ 1403 1404 1404                       260                           
+ 1407 1407 1407                       120                           
+ 1407 1407 1407                       120                           
+ 1419 1419 1419                       100                           
+ 1450 1450 1450                       100                           
+ 1849 1849 1849                       120                           
+ 1859 1916 1933              C3.8            290                    
+ 1954 2006 2016              C6.7     140                           
+ 2200 2200 2200                       170                           
+ 2320 2321 2325  2192 S15E56       Sf 110                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled with isolated active periods.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 160  SSN 060  Afr/Ap 011/013   X-ray Background B8.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.8e+05   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.10e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 2 3 4 2 2 Planetary 3 3 2 2 3 4 3 3 
+F.  Comments:  None

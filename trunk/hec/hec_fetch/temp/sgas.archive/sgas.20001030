@@ -1,0 +1,47 @@
+From sgas-owner  Mon Oct 30 02:50:14 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA10581
+	for sgas-sendit; Mon, 30 Oct 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 30 Oct 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200010300250.CAA10419@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Oct 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 304 Issued at 0245Z on 30 Oct 2000
+This report is compiled from data received at SWO on 29 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0128 0157 0209  9209 S25E35 M4.4  2b 120    1800   II/IV           
+ 0230 0230 0245                       140    480                    
+ 0245 0251 0303  9210 S27E42       Sf 160                           
+ 1128 1128 1129                       110                           
+ 1136 1137 1137                       270                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 187  SSN 163  Afr/Ap 024/026   X-ray Background C1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.2e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.20e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 5 3 5 3 3 2 1 Planetary 5 5 4 4 4 3 3 2 
+F.  Comments:  None
+

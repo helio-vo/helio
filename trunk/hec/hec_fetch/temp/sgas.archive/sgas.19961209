@@ -1,0 +1,130 @@
+From owner-sgas@proton.sel.noaa.gov Mon Dec  9 19:09:30 1996
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA276826570; Mon, 9 Dec 1996 19:09:30 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Tue, 10 Dec 1996 00:09:29 GMT
+From: SESC <sel@proton.sel.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SEC Announcement
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+
+       -----  SEC Product HEADER Change Announcement -----
+
+
+Dear Space Environment Center (SEC) customer:
+
+SEC is converting its products and data listings to a more consistant 
+header format. Samples of the old and new formats are shown below. 
+
+In general, the changes add header and information lines with a unique
+beginning character:
+      o  A "#" in the first column indicates a header line
+      o  A ":" n the first column indicates a key-word line. The key-word 
+         between the colons is followed by some information
+All products and listings will have two addtional lines: its name and
+issue date. 
+
+THERE ARE NO FORMAT CHANGES WITHIN THE PRODUCTS only to the header lines.
+
+
+    !!!!!!!  The new formats will begin sometime after Dec 11th.  !!!!!!!
+
+Products initially effected:
+    Alert and Warning Messages
+    RSGA - the "Forecast" - Report of Solar and Geophysical Activity
+    SRS  - Solar Region Summary
+    SGAS - Solar and Geophysical Activity Summary
+    SCDR - Solar Coronal Disturbance Report
+    GEOA - GEOALERT
+    WWV  - The Geophysical Alert Message
+    Weekly Highlights and Forecast
+    Weekly 27-day Outlook
+
+SEC Services effected:
+    Majodomo List Server
+    World-wide web (only products in/from the Gopher/ftp directories)
+    Gopher
+    ftp
+
+Update on other SEC changes: The new software to move us off the old 
+database machine is scheduled to be installed beginning December 16th. 
+While these changes will not effect the product format or contain, they may
+cause disturbtions in service. Please bear with us during this transition.
+
+We apologize for the inconvience these changes will cause our customers,
+espically those who have developed software to decode our products. Again,
+these are changes to the header line only, the product format do NOT change.
+Our objectives are to:
+       o standardize our products,
+       o provide additional information with each product,
+       o improve the reliabilities of our services,
+       o establish format conventions for upcoming, new products.
+
+Please send questions and comments to Viola Raben at vraben@sec.noaa.gov 
+or (303) 497-5691.
+
+
+Sincerely,
+
+Viola Raben
+Space Environment Center
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SAMPLE OLD FORMAT
+
+Prepared jointly by the U.S. Dept. of Commerce, NOAA, Space Environment Center
+and the U.S. Air Force.
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SAMPLE NEW FORMAT
+:Product: RSGA
+:Issued: 1996 Dec 9 2210UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA, 
+# Space Environment Center and the U.S. Air Force.
+# 
+
+From owner-sgas@proton.sel.noaa.gov Mon Dec  9 21:55:12 1996
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA235966512; Mon, 9 Dec 1996 21:55:12 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Mon, 9 Dec 1996 19:55:11 -0700
+From: SESC <sel@proton.sel.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+Prepared jointly by the U.S. Dept. of Commerce, NOAA, Space Environment Center
+and the U.S. Air Force.
+ 
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 345 ISSUED AT 0245Z ON 10 DEC 1996
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SESC ON 09 DEC
+A.  ENERGETIC EVENTS:
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+NONE
+B.  PROTON EVENTS:
+NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:
+THE GEOMAGNETIC FIELD WAS QUIET TO ACTIVE.
+D.  STRATWARM:
+NONE
+E.  DAILY INDICES:
+10 CM 074  SSN 020  AFR/AP 005/007  X-RAY BACKGROUND LT A1.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.0E+06  GT 10 MEV 1.6E+04 P/(CM2-STER-DAY)
+(GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.0E+05 E/(CM2-STER-DAY)
+(GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 0 0 0 1 1 1 2 4 PLANETARY 0 0 0 1 1 2 1 4
+F.  COMMENTS:
+NONE
+
+
+

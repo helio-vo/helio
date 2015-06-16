@@ -1,0 +1,48 @@
+From owner-sgas@proton.sel.noaa.gov Fri Aug  7 22:56:07 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA083744967; Fri, 7 Aug 1998 22:56:07 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 8 Aug 1998 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199808080255.CAA11636@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Aug 08 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 220 ISSUED AT 0245Z ON 08 AUG 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 07 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0142 0143 0143                       220                           
+ 0148 0148 0150                       220                           
+ 0318 0321 0323              B9.3     130    11                     
+ 1221 1225 1227              C1.1     580                           
+ 1417 1431 1451  8296 N18E52 C2.9  SF               II              
+ 2227 2235 2241              C1.2     150                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO  STORM LEVELS.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 145  SSN 127  AFR/AP 018/028   X-RAY BACKGROUND B5.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.4E+05   GT 10 MEV 1.5E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 9.50E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 4 4 4 3 3 2 2 PLANETARY 4 6 5 4 4 3 2 3 
+F.  COMMENTS:  NONE
+
+

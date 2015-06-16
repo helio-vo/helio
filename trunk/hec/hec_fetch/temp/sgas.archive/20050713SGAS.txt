@@ -1,0 +1,36 @@
+:Product: 20050713SGAS.txt
+:Issued: 2005 Jul 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 194 Issued at 0245Z on 13 Jul 2005
+This report is compiled from data received at SWO on 12 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1247 1306 1325  0786        M1.0     21     65                     
+ 1547 1624 1807  0786 N11W64 M1.5  Sf 210    100       IV           
+ 1647 1651 1705  0786                 100    750                    
+ 1819 1819 1819                       100                           
+ 2235 2252 2302  0786 N08W72 M1.3  Sf 54                            
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels.  A discontinuity in the solar wind
+plasma parameters at around 12/0400Z was likely the arrival of
+transient flow from the 9 July CME. Solar wind speed increased from
+400 km/s to near 550 km/s. The IMF Bz was southward for extended
+periods of time before rotating northward at around 1600Z. Minor to
+major storming was observed at high latitudes between 12/0000 -
+1800Z.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 096  SSN 052  Afr/Ap 025/048   X-ray Background B7.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.1e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W115 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 5 5 5 4 3 2 Planetary 5 6 5 6 6 5 3 2 
+F.  Comments:  None

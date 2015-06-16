@@ -1,0 +1,49 @@
+From owner-sgas@proton.sel.noaa.gov Wed Sep 15 22:56:23 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA268830583; Wed, 15 Sep 1999 22:56:23 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 16 Sep 1999 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199909160255.CAA16668@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Sep 16 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 259 ISSUED AT 0245Z ON 16 SEP 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 15 SEP
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0422 0427 0430              C1.1     450                           
+ 1049 1050 1050                       120                           
+ 1119 1121 1125                       110                           
+ 2106 2108 2109  8699 N22W20 C1.5  SF 230                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO MINOR STORM LEVELS WITH A PERIOD OF SEVERE STORM LEVELS AT
+HIGH LATITUDE. A SUDDEN IMPULSE WAS OBSERVED AT 15/2019Z, MEASURING
+8 NT IN BOULDER.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 155  SSN 155  AFR/AP 026/032   X-RAY BACKGROUND B6.9
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.3E+06   GT 10 MEV 1.6E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.00E+08 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 4 5 5 3 2 2 1 PLANETARY 4 3 5 7 4 3 3 2 
+F.  COMMENTS:  THE GREATER THAN 2 MEV ELECTRON FLUENCE ATTAINED
+MODERATE LEVELS FOR THE 15TH OF SEPTEMBER.
+
+

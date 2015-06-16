@@ -1,0 +1,45 @@
+From sgas-owner  Sun Jan  2 02:55:20 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA28184
+	for sgas-sendit; Sun, 2 Jan 2000 02:55:10 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 2 Jan 2000 02:55:08 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200001020255.CAA23040@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jan 02 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 002 ISSUED AT 0245Z ON 02 JAN 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 01 JAN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 2013 2016 2020  8814 N11E32 B8.0  SF 120                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS AT
+UNSETTLED TO MINOR STORM LEVELS. EFFECTS FROM THE CORONAL HOLE
+HIGH SPEED STREAM THAT BEGAN ON 30 DEC CONTINUED THIS PERIOD.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 130  SSN 069  AFR/AP 025/027   X-RAY BACKGROUND B5.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.9E+06   GT 10 MEV 1.6E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.30E+08 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 5 5 4 3 4 3 3 2 PLANETARY 4 5 4 4 5 3 3 2 
+F.  COMMENTS:  NONE
+
+

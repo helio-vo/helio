@@ -1,0 +1,53 @@
+From sgas-owner@sec.noaa.gov  Sat Aug 17 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g7H2o5m18841
+	for sgas-sendit; Sat, 17 Aug 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 17 Aug 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200208170250.g7H2o2218701@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Aug 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 229 Issued at 0245Z on 17 Aug 2002
+This report is compiled from data received at SWO on 16 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0208 0208 0208                       270                           
+ 0546 0611 0631  0061 N07W83 M2.4  Sf 280    46     II              
+ 1132 1232 1307  0069 S14E20 M5.2  2n 4100   1600   II/IV           
+ 1220 1227 1242  0066 N15W16       Sf               II              
+ 2207 2212 2215              M1.2                                   
+ 2304 0000 0000                                        IV           
+ 2329 2333 2335  0069 S05E06 M1.7  Sf                               
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to minor storm levels.  A slight indication of a weak
+shock passage at the ACE spacecraft was observed at the beginning of
+the period.  The greater than 2 MeV electron flux at geo-synchronous
+orbit exceeded threshold at 16/1505 UTC, preliminary maximum flux
+was 1340 pfu at 16/1530 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 214  SSN 247  Afr/Ap 019/017   X-ray Background C1.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+06   GT 10 MeV 3.5e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.60e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 5 3 3 3 3 2 Planetary 4 3 5 3 3 3 3 2 
+F.  Comments:  None
+

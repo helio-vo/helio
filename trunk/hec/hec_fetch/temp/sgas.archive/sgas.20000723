@@ -1,0 +1,53 @@
+From sgas-owner  Sun Jul 23 02:50:13 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA05556
+	for sgas-sendit; Sun, 23 Jul 2000 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 23 Jul 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007230250.CAA05503@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 205 ISSUED AT 0245Z ON 23 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 22 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0224 0234 0250  9100 S33E75       SF 200                           
+ 0652 0711 0724  9090 N12W05 M1.0  1F                               
+ 1117 1134 1202  9085 N14W56 M3.7  2N 140    70     II/IV           
+ 1447 1452 1527  9095 N22W46       SF 180                           
+ 1815 1815 1824  9087 S14W36       SF 120                           
+ 1839 1840 1840                       100                           
+ 1908 1908 1908                       220                           
+ 2052 2052 2052                       120                           
+ 2331 0001 0006  9088 N21W61 M3.3  SF 140                           
+ 2334 2336 2337                       150                           
+B.  PROTON EVENTS:  A GREATER THAN 10 MEV PROTON EVENT BEGAN AT
+22/1320Z AND REACHED A MAXIMUM FLUX OF 17 PFU AT 22/1405Z.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO MINOR STORM LEVELS.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 251  SSN 290  AFR/AP 011/018   X-RAY BACKGROUND C2.3
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.4E+06   GT 10 MEV 5.4E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 5.00E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 3 3 3 3 4 3 3 PLANETARY 2 3 4 5 3 4 3 3 
+F.  COMMENTS:  NONE.
+

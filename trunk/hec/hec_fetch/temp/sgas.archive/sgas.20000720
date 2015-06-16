@@ -1,0 +1,59 @@
+From sgas-owner  Thu Jul 20 02:50:14 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA03469
+	for sgas-sendit; Thu, 20 Jul 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 20 Jul 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007200250.CAA03425@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 202 ISSUED AT 0245Z ON 20 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 19 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0020 0020 0020                       140                           
+ 0149 0149 0149                       370                           
+ 0427 0441 0449  9087 S19E13 C6.7  SF 330                           
+ 0523 0524 0524                       340                           
+ 0645 0726 0750  9087 S21E12 M6.4  3N 2800   84        IV           
+ 0840 0840 0840                       300                           
+ 0900 0900 0900                       340                           
+ 1607 1611 1621  9077 N19W69 C3.4  SF 130                           
+ 1630 1633 1638  9087 S12E03 C3.5  SF 370                           
+B.  PROTON EVENTS:  THE GREATER THAN 10 MEV FLUX BEGAN THE PERIOD
+NEAR 20 PFU AND DECAYED TO NEAR 10 PFU AT THE END OF THE PERIOD.  A
+SLIGHT INCREASE IN FLUX WAS OBSERVED AROUND 19/1500Z WHICH MAY HAVE
+BEEN RELATED TO THE M6 FLARE MENTIONED ABOVE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED FOR MOST OF THE PERIOD.  A SHOCK WAS OBSERVED AT ACE AT
+19/1450Z AND A SUDDEN IMPULSE WAS OBSERVED AT THE EARTH AT 19/1526Z.
+UNSETTLED TO ACTIVE CONDITIONS FOLLOWED THE SHOCK PASSAGE.  SOLAR
+WIND VELOCITY JUMPED FROM APPROXIMATELY 450 KM/S TO OVER 600 KM/S. 
+THE LIKELY SOURCE OF THIS DISTURBANCE WAS A MASS EJECTION ON 17 JULY
+THAT APPEARED TO BE DIRECTED OFF THE EAST LIMB OF THE SUN.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 250  SSN 342  AFR/AP 011/015   X-RAY BACKGROUND C2.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.5E+07   GT 10 MEV 1.3E+06 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.60E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 1 1 1 1 4 3 4 PLANETARY 3 1 1 2 3 4 4 5 
+F.  COMMENTS:  NONE
+

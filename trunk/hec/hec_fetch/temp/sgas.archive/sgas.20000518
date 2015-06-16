@@ -1,0 +1,45 @@
+From sgas-owner  Thu May 18 02:50:20 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA10431
+	for sgas-sendit; Thu, 18 May 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 18 May 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200005180250.CAA10262@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 May 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 139 ISSUED AT 0245Z ON 18 MAY 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 17 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0645 0646 0704  8996 S19E05       SF 8600   51                     
+ 2343 2353 2359  8998        C4.3     550                           
+ 2359 2359 0000  8996                 4300                          
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+MINOR STORM.  THE STORMING OCCURRED BETWEEN 17/00 AND 17/09Z
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 262  SSN 342  AFR/AP 020/022   X-RAY BACKGROUND C2.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.9E+06   GT 10 MEV 2.5E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 9.80E+04 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 5 5 3 2 2 2 3 PLANETARY 5 5 5 2 2 2 3 3 
+F.  COMMENTS:  NONE
+

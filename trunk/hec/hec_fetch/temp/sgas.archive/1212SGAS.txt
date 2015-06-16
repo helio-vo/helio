@@ -1,0 +1,31 @@
+:Product: 1212SGAS.txt
+:Issued: 2006 Dec 12 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 346 Issued at 0245Z on 12 Dec 2006
+This report is compiled from data received at SWO on 11 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0532 0532 0532                       220                           
+ 0754 0818 0822  0930 S07E00 C5.7  Sb 330    62                     
+ 1017 1022 1025  0930        B4.7     200                           
+ 1103 1107 1109  0930        B4.1     230                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 06/1555 UTC continues and is currently around 15 pfu's.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+minor storm conditions. Solar wind speed at ACE has increased
+slightly to approximately 680 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 092  SSN 028  Afr/Ap 008/015   X-ray Background A6.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.2e+07   GT 10 MeV 3.5e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W136 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 4 2 2 2 2 4 Planetary 3 4 3 1 1 1 2 5 
+F.  Comments:  None

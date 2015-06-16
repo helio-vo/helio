@@ -1,0 +1,52 @@
+From sgas-owner  Mon Oct  2 02:51:08 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA01328
+	for sgas-sendit; Mon, 2 Oct 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 2 Oct 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200010020250.CAA01260@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Oct 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 276 ISSUED AT 0245Z ON 02 OCT 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 01 OCT
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0623 0701 0725  9169        M5.0     550    180                    
+ 0831 0831 0831                       110                           
+ 1255 1304 1315  9176 S10E15 C3.8  1F 1700   37     II              
+ 1356 1410 1441  9178 S24E27 M2.2  SF                               
+ 2340 2342 2343                       140                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS ACTIVE
+TO QUIET.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 202  SSN 157  AFR/AP 013/013   X-RAY BACKGROUND C1.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.7E+05   GT 10 MEV 1.0E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.20E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 4 3 3 2 2 2 1 PLANETARY 4 4 3 3 2 3 2 2 
+F.  COMMENTS:  EFFECTIVE 2 OCT 2000, SEC WILL ISSUE ITS TEXT PRODUCTS
+IN MIXED CASE VS. ALL UPPER CASE.  THIS CHANGE WILL BE VISIBLE ON ALL 
+SEC RODUCT DELIVERY SYSTEMS EXCEPT FOR TELETYPE CIRCUITS.  ONLY THE 
+CASE OF THE TEXT IN EACH PRODUCT WILL CHANGE, NOT THE FORMAT OR 
+SPACING WITHIN THE PRODUCT.  FOR DETAILS SEE OUR WEBSITE AT 
+SEC.NOAA.GOV/MIXEDCASE.HTML
+

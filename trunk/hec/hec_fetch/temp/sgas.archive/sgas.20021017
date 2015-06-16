@@ -1,0 +1,46 @@
+From sgas-owner@sec.noaa.gov  Thu Oct 17 02:50:10 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g9H2o5N24640
+	for sgas-sendit; Thu, 17 Oct 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 17 Oct 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210170250.g9H2o2824497@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Oct 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 290 Issued at 0245Z on 17 Oct 2002
+This report is compiled from data received at SWO on 16 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels with an isolated period of minor storm conditions
+at high latitudes between 16/1800-2100 UTC.  The Advanced
+Composition Explorer (ACE) satellite hinted at the possibility of a
+weak shock passage commencing shortly after 16/1600 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 183  SSN 182  Afr/Ap 010/014    
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+05   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.20e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 1 2 2 3 4 3 Planetary 3 2 1 2 3 4 5 3 
+F.  Comments:  None
+

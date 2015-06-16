@@ -1,0 +1,51 @@
+From sgas-owner  Mon Apr 16 02:50:10 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA26565
+	for sgas-sendit; Mon, 16 Apr 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 16 Apr 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104160250.CAA26388@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 106 Issued at 0245Z on 16 Apr 2001
+This report is compiled from data received at SWO on 15 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1319 1350 1355  9415 S20W85 X14.4 2b 61000  48000  II/IV           
+ 1632 1632 1632                       150                           
+ 1700 1700 1709                       110    65                     
+B.  Proton Events:  Solar proton events at greater than 100 MeV and
+greater than 10 MeV followed the X14 flare. The greater than 100 MeV
+event began at 15/1405 UTC, reached a maximum of 146 PFU at 15/1525
+UTC, then gradually decreased to 12 PFU by the close of the period.
+The greater than 10 MeV event began at 15/1410 UTC and reached a
+maximum of 951 PFU at 15/1920 UTC. The greater than 10 MeV flux was
+551 PFU at the close of the period and slowly decreasing.
+C.  Geomagnetic Activity Summary:  Activity ranged from quiet to
+active levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 134  SSN 100  Afr/Ap 013/013   X-ray Background B5.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.9e+07   GT 10 MeV 2.1e+07 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.40e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 3 2 3 3 2 2 Planetary 3 4 3 2 4 3 2 3 
+F.  Comments:  None
+

@@ -1,0 +1,52 @@
+From sgas-owner  Thu Mar 15 02:50:07 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA03386
+	for sgas-sendit; Thu, 15 Mar 2001 02:50:02 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 15 Mar 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200103150250.CAA03340@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Mar 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 074 Issued at 0245Z on 15 Mar 2001
+This report is compiled from data received at SWO on 14 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0854 0854 0854                       240                           
+ 1310 1316 1319              B5.3     110                           
+ 1501 1510 1519              B4.1     260                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  stratwarm alert/wednesday/stratwarm exists.
+as a result of the major warming the circulation
+in the lower stratosphere remains further disturbed
+leading to a reversed temperature gradient up to
+20 hpa.
+in the middle and upper stratosphere the cold and
+elongated vortex weakens.
+slow transitions to summer conditions most probable.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 142  SSN 159  Afr/Ap 008/007   X-ray Background B3.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.1e+04   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 3 3 2 2 2 Planetary 2 2 3 3 2 1 2 1 
+F.  Comments:  None
+

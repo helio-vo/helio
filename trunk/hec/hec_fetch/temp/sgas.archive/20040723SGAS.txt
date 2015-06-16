@@ -1,0 +1,39 @@
+:Product: 20040723SGAS.txt
+:Issued: 2004 Jul 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 205 Issued at 0245Z on 23 Jul 2004
+This report is compiled from data received at SWO on 22 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0014 0032 0043  0652        M9.1     2600   37                     
+ 0355 0357 0358                       800                           
+ 0741 0759 0808  0652        C5.3     4600   180                    
+ 0907 0912 0919  0652        C1.8     560    42                     
+ 1003 1009 1058                              210                    
+ 1102 1111 1124  0652 N04E11 C5.8  Sf 3100   200                    
+ 1157 1158 1201                       300                           
+ 1203 1204 1205                       190                           
+ 1224 1225 1226                       400                           
+ 1537 1543 1549  0652        C2.3     1100   31                     
+ 1756 1800 1836  0652 N04E07       Sf 290                           
+ 2201 2212 2218  0652        C4.1     150                           
+ 2226 2226 2226                       240                           
+ 2240 2258 2307  0652 N05E04 M1.6  2n 550    68                     
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet to active.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 173  SSN 117  Afr/Ap 012/019   X-ray Background B9.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.8e+05   GT 10 MeV 2.9e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W97 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 0 3 3 3 4 5 Planetary 2 0 0 3 3 3 5 6 
+F.  Comments:  None.

@@ -1,0 +1,53 @@
+From owner-sgas@proton.sel.noaa.gov Fri May  8 22:50:16 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA287232215; Fri, 8 May 1998 22:50:16 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Fri, 8 May 1998 20:50:08 -0600
+From: SESC <sel@proton.sel.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 May 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 129 ISSUED AT 0245Z ON 09 MAY 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 08 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0149 0204 0217              M3.1     2400   30     II              
+ 0553 0608 0626              M1.4     2900   430    II/IV           
+ 0625 0625 0626                       350                           
+ 0628 0628 0628                       110                           
+ 1154 1306 1334  8214 N25W51 C5.4  1N 170                           
+ 1350 1415 1437              M1.8                                   
+ 1821 1821 1822                       350                           
+ 2028 2028 2028                       180                           
+ 2240 2241 2241                       220                           
+ 2315 2315 2316                       100                           
+ 2340 2344 2350              C3.2     290                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS MOSTLY
+ACTIVE WITH QUIETER PERIODS OBSERVED LATE IN THE DAY.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES:
+10 CM 118  SSN 081  AFR/AP 024/020   X-RAY BACKGROUND B9.9
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 3.0E+06   GT 10 MEV 2.6E+04 P/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.50E+08 E/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 4 4 3 4 4 2 2 PLANETARY 4 4 4 4 4 4 3 3 
+F.  COMMENTS:  THE ENERGETIC ELECTRON FLUENCE AT GEOSYNCHRONOUS ORBIT
+ WAS MODERATE. 
+SOHO EIT AND LASCO IMAGES INDICATED THAT TODAY'S M-CLASS X-RAY EVENTS
+ORIGINATED FROM BEHIND THE WEST LIMB NEAR THE LOCATION OF DEPARTED
+REGION 8210 (S15).
+
+

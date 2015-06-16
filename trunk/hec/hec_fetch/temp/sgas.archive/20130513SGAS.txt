@@ -1,0 +1,31 @@
+:Product: 0513SGAS.txt
+:Issued: 2013 May 13 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 133 Issued at 0245Z on 13 May 2013
+This report is compiled from data received at SWO on 12 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0102 0102 0102                       510                           
+ 0747 0749 0749                       510                           
+ 1156 1156 1156                       100                           
+ 1238 1238 1239                       920                           
+ 2017 2032 2103              M1.9            65                     
+ 2237 2244 2252              M1.2                                   
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Geomagnetic activity has been at
+quiet levels with an isolated unsettled period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 147  SSN 173  Afr/Ap 006/005   X-ray Background B8.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.50e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 1 1 1 2 1 2 Planetary 2 2 0 1 1 2 1 2 
+F.  Comments:  None

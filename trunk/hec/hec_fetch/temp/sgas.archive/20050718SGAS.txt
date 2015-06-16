@@ -1,0 +1,35 @@
+:Product: 20050718SGAS.txt
+:Issued: 2005 Jul 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 199 Issued at 0245Z on 18 Jul 2005
+This report is compiled from data received at SWO on 17 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0127 0127 0127                       100                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 14/0245Z, had a peak flux of 134 pfu at 15/0345Z, and underwent
+an injection of flux at 17/1735Z allowing for the event to remain
+in-progress at near 17 pfu at the time of this writing.  The source
+believed responsible for the increase in proton flux was the
+back-sided activity relating to the full halo CME first seen on
+LASCO C2 imagery at 17/1130Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels.  A weak transient signature (likely
+from the X1 related CME activity seen on 14 July) was detected at
+the ACE spacecraft near 17/0000Z where the wind speeds increased
+from near 425 km/sec to 500 km/sec.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 074  SSN 012  Afr/Ap 018/022   X-ray Background A5.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+07   GT 10 MeV 6.5e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W115 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 3 4 3 3 2 5 Planetary 3 2 3 5 3 3 3 5 
+F.  Comments:  None

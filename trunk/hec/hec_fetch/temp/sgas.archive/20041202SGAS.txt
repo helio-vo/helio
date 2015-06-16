@@ -1,0 +1,31 @@
+:Product: 20041202SGAS.txt
+:Issued: 2004 Dec 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 337 Issued at 0245Z on 02 Dec 2004
+This report is compiled from data received at SWO on 01 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0700 0720 0741  0708 N06E20 M1.1  Sn 270    130       IV           
+ 0743 0744 0744                       320                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels over the past 24 hours. Most periods
+were quiet to unsettled. An isolated active to minor storm period
+was observed from 0600 to 0900 UTC. ACE RTSW observations suggest
+the continued influence of a high-speed solar wind stream.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 111  SSN 052  Afr/Ap 011/013   X-ray Background B2.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+06   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W104 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.80e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 3 4 2 2 2 2 3 Planetary 1 3 5 2 1 2 1 2 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.

@@ -1,0 +1,30 @@
+:Product: 0625SGAS.txt
+:Issued: 2013 Jun 25 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 176 Issued at 0245Z on 25 Jun 2013
+This report is compiled from data received at SWO on 24 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0818 0824 0827  1778 S16E56 C3.5  Sf 270                           
+ 0854 0854 0854                       160                           
+ 1127 1132 1136  1778 S17E54 C9.9  1n 670                           
+B.  Proton Events:  The greater than 10 MeV protons have dropped
+below the 10 pfu alert threshold, but continue to be enhanced near 2
+pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+unsettled to active.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 121  SSN 082  Afr/Ap 014/020   X-ray Background B4.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.3e+07   GT 10 MeV 5.6e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.80e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 3 3 3 3 3 Planetary 3 3 3 3 3 4 5 3 
+F.  Comments:  None

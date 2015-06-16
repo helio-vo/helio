@@ -1,0 +1,29 @@
+:Product: 20040915SGAS.txt
+:Issued: 2004 Sep 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 259 Issued at 0245Z on 15 Sep 2004
+This report is compiled from data received at SWO on 14 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0747 0930 1000  0672 N04E17 M1.5  1f 510    120    II/IV           
+ 0855 0010 0940                       200                           
+ 1047 1047 1048                       260                           
+B.  Proton Events:  The greater than 10 MeV electron flux was at high
+levels today.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+unsettled to active.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 115  SSN 070  Afr/Ap 020/028   X-ray Background B4.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.6e+08   GT 10 MeV 8.5e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W99 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.50e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 4 4 3 3 3 3 Planetary 4 4 4 5 4 3 4 4 
+F.  Comments:  None.

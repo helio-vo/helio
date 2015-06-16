@@ -1,0 +1,56 @@
+From sgas-owner@sec.noaa.gov  Wed Nov  6 02:50:10 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id gA62o5q29027
+	for sgas-sendit; Wed, 6 Nov 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 6 Nov 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200211060250.gA62o2e28890@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Nov 06 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 310 Issued at 0245Z on 06 Nov 2002
+This report is compiled from data received at SWO on 05 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0117 0117 0117                       320                           
+ 0328 0348 0405  0180 S12E29 C1.2  Sf 110                           
+ 0333 0334 0335                       160                           
+ 0346 0346 0346                       130                           
+ 0550 0554 0556  0177 N19W01 C1.2  Sf 310                           
+ 0620 0620 0621                       120                           
+ 1253 1257 1301  0177 N20W04 C7.5  Sf 610    80                     
+ 1606 1610 1613  0177 N20W07 C6.4  Sn 4700   49                     
+ 1945 1946 1947                       120                           
+ 2015 2015 2016                       240                           
+ 2041 2046 2049  0177 N21W09 C2.8  Sf 1100                          
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to active levels.  The Bz component of the interplanetary
+magnetic field remained mostly southward today in a high speed
+coronal hole stream.  The greater than 2 MeV electron fluxes at
+geosynchronous orbit reached high levels during the past 24 hours.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 183  SSN 175  Afr/Ap 019/019   X-ray Background B7.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.9e+05   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.90e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 4 3 3 3 3 4 Planetary 3 4 4 4 4 3 3 3 
+F.  Comments:  None
+

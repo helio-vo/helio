@@ -1,0 +1,42 @@
+:Product: 1215SGAS.txt
+:Issued: 2006 Dec 15 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 349 Issued at 0245Z on 15 Dec 2006
+This report is compiled from data received at SWO on 14 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0214 0240 0257  0930 S06W24 X3.4  4b        44000  II/IV           
+ 0610 0615 0622              B2.8     190                           
+ 0933 0937 0939              B2.4     760                           
+ 1107 1110 1113              B1.8     200                           
+ 2107 2215 2226  0930 S05W31 X1.5  Sf 99     620    II              
+ 2209 2210 2227                       1200          II              
+ 2222 0000 0000                                        IV           
+B.  Proton Events:  A greater than 100 MeV proton event commenced at
+13/0300 UTC, reached maximum at 13/0525 UTC with 88.7 pfu and ended
+at 14/1150 UTC.  The greater than 10 MeV event that started 13/0310
+UTC is still in progress with current levels increasing due to
+enhancement from an X1.5 flare from Region 930  (S05W47).  Another
+greater than 100 MeV proton event commenced at 14/2255 UTC .
+C.  Geomagnetic Activity Summary:  The geomagnetic field reached
+major to severe storm levels.  The ACE satellite observed the shock
+from the 13 December CME at 14/1356 UTC.  A sudden impulse was
+observed at the Boulder magnetometer at 14/1416 UTC with a deviation
+of 26 nT.  Periods of major to severe storming occurred between
+14/1200 UTC and 14/1800 UTC.  Solar wind speed is currently 900
+km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 093  SSN 023  Afr/Ap 040/063   X-ray Background B1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.5e+08   GT 10 MeV 1.0e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W136 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.70e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 3 5 6 4 7 Planetary 2 1 2 2 6 7 6 8 
+F.  Comments:  None

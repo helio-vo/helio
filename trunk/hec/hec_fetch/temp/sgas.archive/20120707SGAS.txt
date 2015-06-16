@@ -1,0 +1,40 @@
+:Product: 0707SGAS.txt
+:Issued: 2012 Jul 07 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 189 Issued at 0245Z on 07 Jul 2012
+This report is compiled from data received at SWO on 06 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0137 0140 0142  1515 S18W41 M2.9  Sn        130                    
+ 0156 0156 0157                       300                           
+ 0640 0641 0648  1515 S17W40       Sf 110                           
+ 0650 0650 0650                       110                           
+ 0725 0726 0732  1515 S17W40       Sf 110                           
+ 0817 0823 0827  1515 S17W40 M1.5  Sb                               
+ 0847 0847 0847                       110                           
+ 0945 0945 0945                       240                           
+ 0956 0956 0956                       370                           
+ 1024 1029 1032  1515 S17W42 M1.8  1n                               
+ 1109      1117                                     II              
+ 1326 1330 1332  1515 S20W45 M1.2  Sf        55                     
+ 1356      1553                                        IV           
+ 1848 1855 1905  1515 S18W51 M1.3  Sf                               
+ 2301 2308 2314  1515        X1.1     270    520    II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field activity
+ranged from quiet to minor storm levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 158  SSN 131  Afr/Ap 014/017   X-ray Background C2.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.1e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.20e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 2 2 3 3 4 Planetary 2 3 2 1 2 3 4 5 
+F.  Comments:  None

@@ -1,0 +1,48 @@
+From sgas-owner  Mon May  8 02:50:09 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA01879
+	for sgas-sendit; Mon, 8 May 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 8 May 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200005080250.CAA01721@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 May 08 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 129 ISSUED AT 0245Z ON 08 MAY 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 07 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 2041 2042 2043                       600                           
+ 2046 2046 2047                       270                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS
+PREDOMINANTLY QUIET. BRIEF UNSETTLED CONDITIONS WERE EXPERIENCED IN
+THE 07/0300-0600Z PERIOD. SOLAR WIND VELOCITY SLOWLY DECLINED TO
+BELOW 400 KM/S NEAR THE END OF THE PERIOD. ENERGETIC (GT 10 MEV)
+PROTON FLUXES REMAINED SLIGHTLY ELEVATED ABOVE BACKGROUND DURING THE
+PERIOD BUT WERE DECLINING.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 131  SSN 130  AFR/AP 007/007   X-RAY BACKGROUND B2.3
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 9.3E+05   GT 10 MEV 2.6E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.10E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 2 1 2 1 2 2 PLANETARY 2 3 1 1 2 2 2 1 
+F.  COMMENTS:  NONE
+

@@ -1,0 +1,45 @@
+:Product: 1028SGAS.txt
+:Issued: 2013 Oct 28 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 301 Issued at 0245Z on 28 Oct 2013
+This report is compiled from data received at SWO on 27 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0033 0034 0034                       220                           
+ 0751 0755 0800  1875 N07W59 C1.9  Sf 270                           
+ 1229 1229 1229                       120                           
+ 1236 1248 1252  1875 N06W63 M3.5  1f 150                           
+ 1255 1300 1312  1875 N07W63       1f 360                           
+ 1707 1708 1708                       2800                          
+ 1724 1729 1734  1873        C5.7     130                           
+ 1748 1753 1804  1875 N06W70 C9.1  1f 160                           
+ 1857 1857 1857                       140                           
+ 1921 1921 1921                       250                           
+ 1927 1927 1928                       220                           
+ 1931 1931 1931                       190                           
+ 1940 1940 1940                       100                           
+ 2048 2048 2048                       110                           
+ 2110 2110 2110                       110                           
+ 2125 2125 2125                       100                           
+ 2236 2236 2236                       110                           
+ 2312 2316 2323  1875 N09W68       Sf 180                           
+ 2340 2340 2340                       110                           
+ 2345 2345 2345                       100                           
+ 2354 2354 2354                       110                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 167  SSN 206  Afr/Ap 002/002   X-ray Background C1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.3e+06   GT 10 MeV 2.9e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.60e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 0 0 1 0 2 2 2 1 Planetary 0 0 0 0 1 0 0 1 
+F.  Comments:  None.

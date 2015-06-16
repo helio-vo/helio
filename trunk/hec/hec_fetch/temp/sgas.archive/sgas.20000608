@@ -1,0 +1,51 @@
+From sgas-owner  Thu Jun  8 02:50:14 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA06356
+	for sgas-sendit; Thu, 8 Jun 2000 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 8 Jun 2000 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200006080250.CAA06246@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jun 08 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 160 ISSUED AT 0245Z ON 08 JUN 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 07 JUN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0437 0444 0452  9031 S31W69 M2.2  1B        120                    
+ 0543 0544 0544                       100                           
+ 1429 1430 1432                       120                           
+ 1534 1553 1606  9026 N23E03 X1.2  3B 97     200    II/IV           
+ 2315 2315 2316                       1200                          
+ 2326 2326 2327                       370                           
+B.  PROTON EVENTS:  THE GREATER THAN 10 MEV PROTON FLUX AT
+GEOSYNCHRONOUS ORBIT CROSSED THE 10 PFU EVENT THRESHOLD AT 07/1335Z.
+FLUX LEVLES SLOWLY INCREASED THEREAFTER, REACHING 39 PFU BY END OF
+SUMMARY PERIOD AT 07/2400Z.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO ACTIVE LEVELS AT BOTH MID AND HIGH LATITUDES.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 180  SSN 145  AFR/AP 013/014   X-RAY BACKGROUND C1.6
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.8E+07   GT 10 MEV 9.7E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.70E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 3 3 3 3 3 4 PLANETARY 2 2 4 3 3 3 3 4 
+F.  COMMENTS:  NONE
+

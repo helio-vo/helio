@@ -1,0 +1,57 @@
+From owner-sgas@proton.sel.noaa.gov Fri Nov  6 21:56:57 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA144027417; Fri, 6 Nov 1998 21:56:57 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 7 Nov 1998 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199811070255.CAA04624@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Nov 07 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 311 ISSUED AT 0245Z ON 07 NOV 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 06 NOV
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0028 0028 0028                       190                           
+ 0239 0243 0246  8375 N19W24 C4.4  SF 280    23                     
+ 0434 0438 0443  8375 N19W25 C1.1  SF 140                           
+ 0828 0833 0835  8375 N19W27 C3.5  SF 4500                          
+ 0907 0911 0915  8375 N19W27 C4.2  SN 9700                          
+ 1105 1110 1112  8375 N16W29 C2.3  SN 44000                         
+ 1201 1206 1210  8375 N15W30 C6.4  SB 2100   88                     
+ 1436 1436 1438                       140                           
+ 1507 1511 1513  8375 N15W32 M1.7  1B 67000  150                    
+ 1847 1851 1853  8375 N15W35 C3.1  SF 700                           
+ 1854 1856 1856                       1000                          
+ 1900 1901 1901                       110                           
+ 2046 2046 2053  8375 N17W36       SF 230                           
+ 2145 2152 2152                       440                           
+ 2205 2209 2211  8375 N15W37 C9.4  SN 27000  66     II              
+ 2327 2334 2340  8375 N15W33 C3.2  SF 870           II              
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  QUIET TO MINOR STORM.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 141  SSN 142  AFR/AP 018/022   X-RAY BACKGROUND C1.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.6E+07   GT 10 MEV 2.6E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.30E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 5 4 3 4 2 3 PLANETARY 3 3 5 4 4 4 3 3 
+F.  COMMENTS:  NONE
+
+

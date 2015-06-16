@@ -1,0 +1,48 @@
+From sgas-owner  Wed Aug  9 02:50:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA13242
+	for sgas-sendit; Wed, 9 Aug 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 9 Aug 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200008090250.CAA13172@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Aug 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 222 ISSUED AT 0245Z ON 09 AUG 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 08 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0606 0620 0622                       280                           
+ 1105 1115 1149              M1.9            28                     
+ 2046 2046 2047                       110                           
+ 2112 2117 2118                       190                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS
+PREDOMINANTLY QUIET, WITH ISOLATED PERIODS OF ACTIVE LEVELS. 
+GREATER THAN 2 MEV ELECTRON FLUX AT GEOSYNCHRONOUS ORBIT WAS
+MODERATE, BUT REMAINED BELOW THRESHOLD VALUES.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 170  SSN 188  AFR/AP 007/009   X-RAY BACKGROUND B7.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.4E+05   GT 10 MEV 9.2E+03 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.10E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 3 1 2 2 2 2 PLANETARY 2 2 3 2 2 2 3 2 
+F.  COMMENTS:  NONE
+

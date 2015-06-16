@@ -1,0 +1,270 @@
+id,spacecraft,time_start,mag_ratio,norm_angle,beta,mach_no,data_avail,source,f_r_shock,shock_comment
+1|STEREO-A|2007-01-14 19:35:08.00|1.19000|67.6000|-1.00000|1.10000|Y|ICME|F|F
+2|STEREO-A|2007-02-12 08:10:06.00|1.27000|47.3000|-1.00000|1.28000|N|data gap, probably a SIR|F|F
+3|STEREO-A|2007-02-12 08:39:13.00|1.36000|76.6000|-1.00000|1.28000|N|data gap, probably a SIR|F|F
+4|STEREO-A|2007-04-21 18:59:15.00|1.57000|76.6000|3.91000|1.40000|N|SIR|F|F
+5|STEREO-A|2007-04-23 06:53:44.00|1.32000|73.0000|1.67000|1.22000|N|SIR|R|R
+6|STEREO-A|2007-05-07 08:11:54.40|1.72000|80.3000|4.35000|1.53000|N|SIR|F|F
+7|STEREO-A|2007-05-08 20:38:34.00|1.39000|24.8000|1.32000|1.62000|N|SIR|R|R
+8|STEREO-A|2007-06-09 13:15:50.00|1.28000|67.0000|1.81000|1.22000|N|small SIR-like structure|F|F
+9|STEREO-A|2007-06-10 12:55:35.00|1.22000|64.0000|0.760000|1.18000|N|small SIR-like structure|R|R
+10|STEREO-A|2007-07-04 22:09:40.00|1.35000|38.9000|2.02000|1.43000|Y|SIR|R|R, not very sharp B change
+11|STEREO-A|2007-07-11 20:22:25.00|2.25000|61.8000|1.04000|2.20000|N|SIR|R|R
+12|STEREO-A|2007-08-25 20:30:01.00|2.01000|70.4000|3.85000|1.83000|Y|ICME+SIR|F|F
+13|STEREO-A|2007-09-15 01:54:34.50|1.36000|75.4000|1.25000|1.26000|Y|SIR|F|F
+14|STEREO-A|2007-09-15 15:35:03.00|1.30000|70.3000|0.700000|1.22000|N|SIR|R|R
+15|STEREO-A|2007-09-23 11:31:58.00|1.36000|79.4000|0.750000|1.28000|N|SIR|R|R
+16|STEREO-A|2007-09-30 11:09:06.00|1.55000|76.5000|0.300000|1.42000|N|SIR|R|R
+17|STEREO-A|2007-10-18 16:46:12.00|1.19000|21.4000|3.24000|1.50000|Y|SIR|F|F
+18|STEREO-A|2008-01-08 01:48:30.00|1.36000|66.3000|0.570000|1.28000|N|SIR|R|R
+19|STEREO-A|2008-02-29 22:51:02.50|1.41000|84.5000|6.38000|1.29000|N|SIR|F|F
+20|STEREO-A|2008-03-08 18:16:32.00|1.31000|66.8000|1.67000|1.28000|Y|SIR|F|F
+21|STEREO-A|2008-03-09 19:50:07.33|1.59000|79.4000|1.39000|1.44000|N|SIR|R|R
+22|STEREO-A|2008-03-29 18:12:58.00|1.25000|35.5000|1.23000|1.28000|N|SIR|R|R
+23|STEREO-A|2008-04-08 07:34:40.00|1.19000|51.6000|0.920000|1.16000|N|SIR|R|R
+24|STEREO-A|2008-04-24 13:06:55.00|2.46000|81.9000|4.11000|2.25000|N|SIR|F|F
+25|STEREO-A|2008-05-11 06:31:09.50|1.67000|75.5000|-1.00000|1.52000|N|ICME|F|F
+26|STEREO-A|2008-05-19 09:18:42.50|1.48000|76.7000|1.14000|1.36000|Y|in slow wind|F|F, strong upstream waves
+27|STEREO-A|2008-05-21 00:41:35.00|1.57000|38.9000|1.13000|1.61000|Y|SIR|F|F
+28|STEREO-A|2008-07-05 00:47:53.67|1.65000|43.6000|0.850000|1.62000|Y|ICME|F|F
+29|STEREO-A|2008-09-16 13:49:29.00|1.71000|79.6000|2.36000|1.54000|N|SIR|F|F
+30|STEREO-A|2008-09-17 08:08:21.50|1.42000|68.0000|0.970000|1.32000|N|SIR|R|R
+31|STEREO-A|2008-10-12 17:12:56.00|1.50000|83.7000|9.24000|1.38000|N|SIR|F|F
+32|STEREO-A|2008-10-26 17:17:21.00|1.49000|60.1000|2.30000|1.41000|Y|in slow wind|F|a small speed increase
+33|STEREO-A|2008-10-31 03:24:55.00|1.54000|42.7000|1.39000|1.60000|N|SIR|F|F
+34|STEREO-A|2008-11-01 07:59:17.00|1.65000|60.9000|1.84000|1.58000|Y|SIR|R|R, Vp increase is not sharp
+35|STEREO-A|2008-11-09 00:38:46.00|1.34000|42.6000|17.7400|1.45000|N|SIR|F|F
+36|STEREO-A|2008-11-28 16:44:26.00|1.45000|46.8000|5.51000|1.50000|Y|SIR|F|F, strong plasma signatures, upstream and downstream waves
+37|STEREO-A|2008-12-06 05:42:30.00|1.42000|45.2000|7.50000|1.50000|Y|SIR|F|F
+38|STEREO-A|2008-12-25 09:45:08.00|1.12000|55.0000|2.58000|1.11000|N|in slow wind, a small SIR-like structure|F|F
+39|STEREO-A|2009-01-25 18:22:52.33|1.46000|79.4000|1.14000|1.34000|Y|ICME|F|F, downstream waves
+40|STEREO-A|2009-02-13 10:20:58.00|1.42000|61.2000|2.00000|1.35000|N|slow wind|F|a small Vp increase
+41|STEREO-A|2009-02-18 01:54:56.00|1.79000|60.1000|0.940000|1.70000|Y|SIR|R|R, downstream waves
+42|STEREO-A|2009-03-09 20:17:19.00|1.65000|44.0000|10.0800|1.82000|Y|SIR|F|F, downstream waves
+43|STEREO-A|2009-04-27 21:42:22.00|1.45000|39.2000|2.00000|1.55000|N|a small bump in slow wind ~ 300 km/s|F|F
+44|STEREO-A|2009-06-03 17:07:44.00|1.30000|70.7000|0.300000|1.23000|N|ICME|F|F
+45|STEREO-A|2009-06-30 05:14:45.00|1.22000|32.5000|1.00000|1.27000|N|SIR|R|R
+46|STEREO-A|2009-07-26 14:42:05.00|1.23000|42.9000|1.00000|1.22000|N|SIR|F|F
+47|STEREO-A|2009-09-08 05:30:54.00|1.43000|32.6000|20.0000|1.87000|N|SIR|F|F
+48|STEREO-A|2009-10-16 14:56:55.00|1.25000|58.9000|1.00000|1.21000|Y|ICME|F|F
+49|STEREO-A|2009-11-26 23:06:27.00|1.30000|73.1000|3.01000|1.20000|N|in slow wind, 12 hrs after SIR|F|F, weak plasma signatures, upstream waves
+50|STEREO-A|2009-12-01 04:09:10.00|1.52000|69.4000|1.49000|1.40000|N|SIR|R|R, clear plasma signatures
+51|STEREO-A|2009-12-08 23:37:45.30|1.92000|75.0000|27.6900|1.72000|Y|ICME|F|F, clear plasma signatures, downstream waves
+52|STEREO-A|2009-12-14 06:08:59.00|1.20000|64.9000|1.74000|1.15000|Y|a small Vp increase in slow wind < 300 km/s|F|F, clear plasma signatures except no Tp increase, strong upstream and downstream waves
+53|STEREO-A|2009-12-22 23:51:15.00|1.59000|30.0000|0.950000|1.78000|Y|SIR|R|R, weak plasma signatures, not a neat B rise
+54|STEREO-A|2009-12-31 12:52:31.50|1.67000|53.7000|7.54000|1.68000|Y|SIR|F|F, clear plasma signatures, upstream waves
+55|STEREO-A|2010-02-05 03:33:13.00|2.28000|49.3000|3.77000|2.70000|Y|ICME+SIR|F|F, clear plasma signatures, upstream and downstream waves
+56|STEREO-A|2010-02-15 04:41:31.00|1.55000|71.6000|1.57000|1.42000|N|~ 2 days after a SIR, a bump in slow wind|F|F, clear plasma signatures, downstream waves
+57|STEREO-A|2010-03-11 19:09:23.00|1.42000|50.7000|2.91000|1.42000|Y|SIR|F|F, plasma signatures except slow Tp increase, upstream waves
+58|STEREO-A|2010-03-15 13:39:26.00|1.49000|47.4000|1.90000|1.50000|Y|a big bump in fast wind ~ 700 km/s|F|F, plasma signatures
+59|STEREO-A|2010-04-04 01:10:04.75|1.47000|84.3000|1.23000|1.35000|Y|SIR|F|F, upstream and downstream waves, clear plasma signatures
+60|STEREO-A|2010-04-23 00:34:36.00|1.55000|73.5000|2.78000|1.40000|N|ICME|F|F, plasma signatures except no Tp increase, downstream waves
+61|STEREO-A|2010-05-08 09:24:07.00|1.51000|82.1000|0.660000|1.39000|Y|SIR|R|R, weak plasma signatures, downstream waves
+62|STEREO-A|2010-05-30 14:59:19.00|1.63000|58.1000|2.76000|1.56000|N|ICME|F|F, plasma signatures, upstream waves
+63|STEREO-A|2010-06-03 08:36:28.50|2.12000|67.2000|14.6200|2.00000|Y|ICME|F|F, downstream waves, plasma signatures
+64|STEREO-A|2010-06-05 07:30:10.00|1.37000|63.8000|0.370000|1.30000|N|SIR|R|R, downstream waves, plasma signatures
+65|STEREO-A|2010-08-20 16:13:39.50|2.91000|56.8000|0.750000|4.05000|Y|ICME|F|F, upstream and downstream waves, clear plasma signatures
+66|STEREO-A|2010-08-21 16:57:26.00|1.19000|69.3000|0.270000|1.15000|N|3 hrs after an ICME, a faster solar wind overtaking the ICME|R|R, upstream waves, weak plasma signatures
+67|STEREO-A|2010-09-07 08:29:06.40|1.37000|86.7000|1.21000|1.28000|Y|ICME|F|F, upstream and downstream waves, plasma signatures
+68|STEREO-A|2010-09-11 06:58:47.00|2.08000|75.0000|1.42000|1.92000|Y|ICME|F|F, upstream and downstream waves, plasma signatures
+69|STEREO-A|2010-09-17 22:33:43.50|1.43000|53.3000|0.540000|1.36000|N|ICME|F|F, upstream waves, plasma signatures
+70|STEREO-A|2010-10-31 10:04:13.00|1.58000|40.7000|0.390000|1.52000|N|SIR|R|R, upstream and downstream waves, plasma signatures
+71|STEREO-A|2010-11-16 19:25:53.50|1.09000|15.5000|-1.00000|1.18000|Y|SIR|R|R, downstream waves, weak plasma signatures
+72|STEREO-A|2010-12-04 00:10:21.00|1.86000|70.4000|3.70000|1.70000|N|SIR|F|F, upstream and downstream waves, plasma signatures
+73|STEREO-A|2010-12-14 17:15:32.50|1.46000|71.0000|1.98000|1.35000|Y|ICME|F|F, downstream waves, weak plasma signatures
+74|STEREO-A|2011-01-17 18:31:00.00|1.45000|40.9000|0.650000|1.42000|N|8 hrs after an ICME, caused by a fast wind ~ 530 km/s|R|R, waves in the transition region
+75|STEREO-A|2011-01-23 17:06:03.20|1.48000|59.3000|1.76000|1.40000|Y|SIR|F|F, upstream waves, Vp and Np increase, but Tp does not increase promptly
+76|STEREO-A|2011-01-25 00:06:27.00|1.21000|59.1000|0.610000|1.16000|N|SIR|R|R, upstream waves (not sure of the origin), ICWs upstream, field change is not very sharp, changes of plasma parameters are not abrupt
+77|STEREO-A|2011-02-18 17:43:00.25|1.22000|72.2000|2.32000|1.16000|Y|a small Vp increase in slow wind ~ 350 km/s|F|F, large-amplitude upstream waves of fs/c ~ 1.4 Hz, increases of plasma parameters are small
+78|STEREO-A|2011-03-09 06:47:40.00|1.62000|28.7000|6.23000|2.56000|Y|ICME|F|F, no upstream or downstream waves, clear plasma signatures
+79|STEREO-A|2011-03-19 11:24:39.30|1.84000|84.3000|1.06000|1.66000|N|ICME|F|F, upstream and downstream waves, prominent plasma signatures
+80|STEREO-A|2011-03-22 03:57:37.70|1.50000|71.6000|0.960000|1.38000|Y|ICME|F|F, large-amplitude upstream waves of fs/c ~ 1.5 Hz, clear plasma parameters
+81|STEREO-A|2011-03-22 18:21:06.30|2.02000|77.5000|0.180000|1.90000|Y|ICME|F|F, strong field increase, clear Vp, Np, Tp increases, but there are holes of Np and Tp before it
+82|STEREO-A|2011-03-31 12:37:10.00|1.14000|29.1000|1.58000|1.20000|Y|SIR|R|R, plasma signatures, low frequency upstream waves, a dip in B downstream, bidirectional suprathermal electron flux upstream
+83|STEREO-A|2011-04-09 13:39:33.00|1.17000|76.9000|-1.00000|1.12000|Y|data gap, probably a SIR|R|R, no upstream or downstream waves, plasma data gap
+84|STEREO-A|2011-04-11 12:08:00.00|1.89000|71.4000|0.750000|1.74000|Y|ICME|F|F, downstream waves, clear plasma signatures, Vp increase lasts < 1hr
+85|STEREO-A|2011-04-22 10:59:16.80|1.21000|77.9000|0.680000|1.16000|N|just after an ICME, a faster solar wind|F|F, upstream and downstream waves, weak plasma signatures
+86|STEREO-A|2011-05-07 11:32:53.00|1.62000|82.0000|0.630000|1.48000|N|SIR|R|R, clear plasma signatures, sharp B decrease, there are current sheets near the shock though
+87|STEREO-A|2011-06-04 18:48:50.00|1.60000|20.7000|1.46000|3.50000|Y|SIR|R|R, clear plasma signatures, B decrease takes 2.5 seconds
+88|STEREO-A|2011-06-05 18:59:00.50|1.57000|52.6000|1.50000|1.54000|Y|ICME|F|F, clear plasma signatures
+89|STEREO-A|2011-06-09 22:40:53.00|1.44000|60.2000|1.82000|1.38000|N|SIR|F|F, weak plasma signatures, upstream waves, increase of suprathermal electron flux
+90|STEREO-A|2011-06-12 00:02:24.00|1.28000|49.6000|1.18000|1.25000|N|SIR|R|R, weak plasma signatures, two B decreases separated by 16 s, this is the 2nd one to match the time of plasma data
+91|STEREO-A|2011-06-16 03:10:22.50|1.61000|25.4000|2.68000|2.70000|Y|SIR|F|F, abrupt plasma changes, upstream and downstream waves
+92|STEREO-A|2011-07-12 03:47:04.00|1.20000|48.4000|0.350000|1.16000|Y|ICME|F|F, abrupt plasma changes, downstream waves, a dip of B in 4 minutes
+93|STEREO-A|2011-07-23 09:41:09.30|1.43000|38.4000|4.18000|1.60000|N|ICME|F|F, clear plasma signatures, upstream and downstream waves, B decreased in 40 min
+94|STEREO-A|2011-07-24 22:36:05.00|1.03000|13.3000|1.61000|1.16000|Y|11 hrs after ICME, faster solar wind of only about 440 km/s|R|R, plasma signatures, waves in upstream, downstream, and ramp
+95|STEREO-A|2011-08-06 12:42:39.80|2.18000|52.2000|1.88000|2.32000|Y|ICME|F|F
+96|STEREO-A|2011-08-11 05:38:57.50|2.65000|73.9000|-1.00000|2.70000|N|unclear driver, because of DG|F|F
+97|STEREO-A|2011-08-13 19:43:20.50|2.00000|83.1000|0.380000|1.86000|Y|ICME|F|F
+98|STEREO-A|2011-09-08 16:01:27.00|1.28000|60.7000|1.40000|1.23000|Y|ICME|F|F
+99|STEREO-A|2011-09-11 08:51:29.30|1.64000|89.0000|0.180000|1.50000|Y|faster wind overtaking preceding ICME|F|F
+100|STEREO-A|2011-09-21 22:35:45.00|1.06000|23.1000|0.810000|1.07000|N|unclear driver|R|in the trailing part of a SIR
+101|STEREO-A|2011-09-24 08:30:40.50|1.29000|70.1000|5.49000|1.22000|Y|ICME|F|F
+102|STEREO-A|2011-09-28 03:54:29.50|1.44000|57.2000|0.460000|1.36000|Y|SIR|F|F
+103|STEREO-A|2011-10-02 06:53:15.00|1.10000|32.9000|0.810000|1.11000|N|ICME|F|F
+104|STEREO-A|2011-10-03 02:28:25.00|1.49000|75.5000|0.690000|1.38000|N|ICME|F|F
+105|STEREO-A|2011-10-06 03:55:07.00|1.32000|53.1000|0.830000|1.29000|Y|in slow wind|F|F
+106|STEREO-A|2011-10-07 17:15:23.50|1.77000|54.2000|3.47000|1.77000|N|SIR|F|F
+107|STEREO-A|2011-10-23 20:59:00.40|1.28000|76.8000|0.660000|1.22000|Y|in slow wind|F|F
+108|STEREO-A|2011-10-25 04:51:14.30|1.90000|76.3000|0.890000|1.74000|Y|ICME|F|F
+109|STEREO-A|2011-11-05 21:12:09.60|1.48000|70.9000|1.78000|1.38000|N|SIR|F|F
+110|STEREO-A|2011-11-06 12:35:14.00|1.61000|27.8000|0.460000|1.67000|Y|SIR|R|R
+111|STEREO-A|2011-11-20 21:50:23.00|1.48000|67.4000|1.06000|1.39000|N|SIR|R|R
+112|STEREO-A|2011-11-23 17:35:05.00|1.52000|82.2000|0.670000|1.41000|N|SIR|R|R
+113|STEREO-A|2011-11-25 21:39:03.70|1.36000|55.2000|0.870000|1.31000|Y|ICME|F|F
+114|STEREO-A|2011-11-26 18:09:24.00|1.51000|22.9000|0.850000|1.79000|Y|ICME|F|F
+115|STEREO-A|2011-11-28 14:51:25.50|1.83000|61.7000|0.620000|1.73000|N|ICME|F|F
+116|STEREO-A|2011-12-12 03:47:21.00|1.36000|80.7000|0.940000|1.27000|Y|SIR|R|R
+117|STEREO-A|2011-12-17 02:05:07.00|1.80000|54.2000|1.69000|1.77000|Y|SIR|F|F
+118|STEREO-A|2011-12-21 00:30:00.00|1.64000|68.9000|0.390000|1.50000|Y|SIR|R|R
+119|STEREO-A|2011-12-21 09:27:28.00|1.16000|10.8000|1.91000|2.30000|Y|ICME|F|F
+120|STEREO-A|2011-12-28 01:28:46.00|1.63000|75.9000|4.55000|1.47000|Y|SIR|F|F
+121|STEREO-A|2011-12-28 20:47:09.00|2.01000|51.8000|0.390000|1.98000|Y|SIR|R|R
+122|STEREO-A|2012-01-01 13:22:21.00|2.02000|80.6000|1.20000|1.84000|Y|ICME|F|F
+123|STEREO-A|2012-01-04 16:40:40.00|1.54000|66.5000|1.60000|1.42000|Y|SIR (embedded ICME starts 29 hr after the shock)|F|F, weak plasma signatures
+124|STEREO-A|2012-01-23 01:07:00.00|1.58000|49.8000|1.36000|1.54000|Y|SIR|F|F
+125|STEREO-A|2012-01-29 02:13:36.00|1.66000|34.1000|2.88000|2.10000|N|ICME|F|F
+126|STEREO-A|2012-01-29 13:04:18.80|2.15000|87.7000|0.410000|2.00000|Y|ICME|F|F
+127|STEREO-A|2012-02-19 20:52:04.30|1.48000|78.5000|2.17000|1.35000|Y|in slow wind|F|F
+128|STEREO-A|2012-02-20 19:17:48.00|1.71000|37.4000|2.06000|2.00000|N|SIR+ICME (ICME embedded, 10 hr after the shock)|F|F
+129|STEREO-A|2012-02-28 23:20:13.00|1.48000|78.4000|1.88000|1.36000|N|SIR|R|R
+130|STEREO-A|2012-03-14 06:51:37.80|1.60000|73.4000|2.77000|1.46000|Y|SIR|F|F
+131|STEREO-A|2012-03-15 22:32:31.00|1.28000|38.5000|6.24000|1.39000|Y|ICME|F|F
+132|STEREO-A|2012-03-18 15:03:40.00|1.10000|15.3000|0.810000|1.14000|Y|ICME|F|F, weak plasma signatures
+133|STEREO-A|2012-03-18 19:30:46.00|1.26000|12.3000|0.620000|1.35000|Y|ICME|F|F
+134|STEREO-A|2012-03-19 19:17:44.00|1.34000|43.7000|0.350000|1.30000|Y|ICME|F|F
+135|STEREO-A|2012-03-23 10:14:42.50|1.37000|32.0000|0.520000|1.36000|Y|in the trailing part of fast wind|F|F, Vp and Tp do not have clear increases, slight Np increase, prominent B increase
+136|STEREO-A|2012-03-23 19:07:15.00|1.18000|3.40000|0.590000|1.24000|Y|in slow wind V ~ 400 km/s|F|F
+137|STEREO-A|2012-03-26 09:59:34.00|1.24000|51.1000|1.79000|1.22000|Y|in fast wind V ~ 450 km/s|F|F
+138|STEREO-A|2012-04-03 20:47:13.00|1.26000|70.2000|6.66000|1.51000|N|15 hr before the start of a SIR|F|F, mirror mode storms 7 min after the shock
+139|STEREO-A|2012-04-04 10:40:11.00|1.12000|50.1000|1.56000|1.11000|N|SIR|F|F
+140|STEREO-A|2012-05-18 12:43:18.30|1.96000|63.2000|0.950000|1.85000|Y|ICME|F|F
+141|STEREO-A|2012-05-24 01:00:21.50|1.82000|65.2000|0.230000|1.59000|Y|ICME|F|F
+142|STEREO-A|2012-05-28 02:48:40.75|2.70000|74.8000|0.200000|2.85000|Y|ICME|F|F
+143|STEREO-A|2012-05-28 19:53:47.00|1.24000|34.1000|0.0400000|1.18000|N|trailing edge of ICME, probably due to overtaking of the following fast wind|R|R
+144|STEREO-A|2012-06-05 14:17:49.00|1.24000|71.4000|2.71000|1.18000|N|in slow wind|F|F, weak
+145|STEREO-A|2012-06-25 20:55:59.60|2.27000|68.5000|0.730000|2.20000|Y|ICME|F|F
+146|STEREO-A|2012-06-30 12:39:33.00|1.29000|39.4000|0.240000|1.24000|Y|in slow wind|F|F
+147|STEREO-A|2012-07-08 18:42:35.00|1.12000|74.7000|0.960000|1.09000|N|SIR|F|F
+148|STEREO-A|2012-07-09 02:33:26.70|2.05000|35.3000|0.670000|2.50000|Y|SIR|F|F
+149|STEREO-A|2012-07-10 18:55:15.20|1.18000|13.4000|2.59000|2.05000|Y|ICME|F|F
+150|STEREO-A|2012-07-20 06:00:58.00|1.97000|46.4000|0.810000|2.05000|Y|SIR|F|F
+151|STEREO-A|2012-07-20 22:43:11.20|1.16000|22.1000|1.25000|1.28000|N|ICME|F|F
+152|STEREO-A|2012-07-23 20:55:25.00|2.17000|45.5000|-1.00000|2.46000|N|ICME|F|F, questionable, a shock attempts to form, Vp increases, avoided a short-lived B enhancement ahead, coincides with current sheet, a lot of large-amplitude fluctuations downstream
+153|STEREO-A|2012-08-01 16:51:53.00|1.20000|72.3000|5.76000|1.15000|Y|SIR|F|F, weak
+154|STEREO-A|2012-08-03 03:15:18.00|1.38000|59.7000|1.27000|1.32000|Y|SIR|R|R
+155|STEREO-A|2012-08-13 14:23:32.50|1.87000|49.7000|6.68000|2.00000|Y|ICME|F|F
+156|STEREO-A|2012-08-18 11:43:13.00|1.12000|53.0000|1.34000|1.11000|Y|in slow wind|F|F
+157|STEREO-A|2012-09-11 17:10:22.00|1.40000|38.3000|8.51000|1.64000|Y|ICME|F|F
+158|STEREO-A|2012-09-11 18:13:52.80|2.61000|64.6000|21.5000|2.75000|Y|ICME|F|F
+159|STEREO-A|2012-09-16 23:11:03.30|1.36000|22.0000|3.49000|2.05000|Y|ICME|F|F
+160|STEREO-A|2012-09-19 21:45:46.80|1.38000|71.6000|14.7300|1.68000|N|ICME|F|F
+161|STEREO-A|2012-09-21 22:35:46.00|1.21000|71.0000|2.08000|1.16000|Y|fast wind overtaking ICME|F|F
+162|STEREO-A|2012-09-23 14:28:45.20|1.90000|71.0000|6.57000|1.72000|N|ICME|F|F
+163|STEREO-A|2012-09-29 18:36:44.00|1.75000|51.6000|9.45000|1.79000|N|slow wind|F|F
+164|STEREO-A|2012-10-01 19:29:02.50|1.32000|52.8000|3.01000|1.30000|Y|slow wind|R|R
+165|STEREO-A|2012-10-05 02:51:26.70|1.55000|70.1000|7.09000|1.41000|Y|ICME|F|F
+166|STEREO-A|2012-10-11 01:46:01.50|1.82000|73.6000|4.58000|1.64000|N|ICME|F|F
+167|STEREO-A|2012-10-22 15:35:54.00|1.21000|73.0000|4.45000|1.14000|N|ICME|F|F
+168|STEREO-A|2012-10-22 23:30:00.00|1.28000|84.9000|6.15000|1.19000|N|ICME|F|F
+169|STEREO-A|2012-10-26 00:42:30.00|1.35000|83.2000|5.48000|1.24000|Y|ICME|F|F
+170|STEREO-A|2012-10-28 05:48:09.00|1.54000|78.2000|4.82000|1.38000|Y|slow wind|F|F
+171|STEREO-A|2012-10-31 07:28:45.00|1.19000|33.4000|3.78000|1.29000|N|slow wind|R|R
+172|STEREO-A|2012-11-06 21:48:30.00|1.36000|65.6000|5.31000|1.29000|N|slow wind|F|F
+173|STEREO-A|2012-11-10 22:30:03.75|1.71000|61.5000|5.14000|1.63000|Y|ICME|F|F
+174|STEREO-A|2012-11-12 13:49:24.50|1.39000|52.5000|1.92000|1.36000|Y|inside ICME|F|at the start of the flux rope
+175|STEREO-A|2012-11-12 15:23:30.00|1.29000|80.6000|2.61000|1.20000|Y|inside ICME|F|at the start of the flux rope
+176|STEREO-A|2012-11-13 20:57:03.00|1.56000|46.5000|3.08000|1.60000|Y|ICME|F|F
+177|STEREO-A|2012-11-23 04:04:17.00|1.33000|79.8000|2.69000|1.24000|Y|14-hr before ICME|F|F
+178|STEREO-A|2012-11-23 18:27:37.30|1.49000|82.5000|12.8800|1.35000|N|ICME|F|F
+179|STEREO-A|2012-11-26 07:57:49.50|1.77000|81.2000|5.07000|1.58000|Y|ICME|F|F
+180|STEREO-A|2012-12-06 03:40:58.00|1.28000|86.3000|10.5000|1.18000|N|SIR|F|F
+181|STEREO-A|2012-12-17 16:58:24.00|1.09000|12.4000|3.46000|1.75000|Y|DG for event identification|F|F
+182|STEREO-A|2013-01-09 02:25:10.00|1.44000|7.46000|4.19000|7.02000|N|ICME|F|F? plasma signatures although some of the changes are gradual, B decreased wthin 1 min after the shock, current sheet 15 ms apart, downstream waves, Mach number determined by case study
+183|STEREO-A|2013-01-25 00:14:12.00|1.32000|69.7300|1.26000|1.25000|N|ICME|F|F? weak plasma signatures, B decreased within 1 min and increased to post-shock scale in 2 min, no upstream or downstream waves
+184|STEREO-A|2013-02-08 07:44:00.00|1.33000|86.8300|1.40000|1.22000|N|ICME|F|F, plasma signatures, downstream waves
+185|STEREO-A|2013-02-28 21:14:33.00|1.73000|56.5900|0.350000|1.63000|N|ICME|F|F, prominent plasma signatures, upstream and downstream waves
+186|STEREO-A|2013-03-08 02:20:15.80|1.71000|67.3000|1.23000|1.59000|N|ICME|F|F, plasma signatures, upstream and downstream waves
+187|STEREO-A|2013-03-26 02:45:43.50|1.92000|52.8400|1.06000|1.91000|N|ICME|F|F, plasma signatures, downstream waves
+188|STEREO-A|2013-03-30 05:14:22.00|1.18000|71.1800|1.02000|1.13000|N|in slow wind|F|F, weak plasma signatures, prompt and small rise of B
+189|STEREO-A|2013-04-08 08:41:30.00|1.79000|85.9700|1.99000|1.60000|N|SIR|R|R, plasma signatures, downstream waves
+190|STEREO-A|2013-04-16 15:36:37.00|1.75000|86.4900|0.150000|1.60000|N|ICME|F|F, prominent plasma signatures, downstream waves
+191|STEREO-A|2013-04-19 14:19:14.00|1.27000|60.1400|0.480000|1.21000|N|SIR|R|R, weak plasma signatures, upstream waves
+192|STEREO-A|2013-04-22 10:08:20.50|1.68000|63.0600|1.73000|1.57000|N|ICME|F|F, prominent plasma signatures, a few upstream and downstream waves
+193|STEREO-A|2013-04-27 04:19:44.00|1.61000|22.7000|2.18000|3.30000|N|ICME|F|F, prominent plasma signatures, upstream and downstream waves
+194|STEREO-A|2013-04-27 23:32:15.00|1.28000|59.6600|2.09000|1.22000|N|ICME|F|F, plasma signatures, a B dip after the shock
+195|STEREO-A|2013-04-30 04:17:41.00|1.58000|22.2100|1.26000|2.45000|N|SIR|F|F, plasma signatures, upstream waves
+196|STEREO-A|2013-05-02 21:02:27.00|1.48000|25.2400|0.550000|1.55000|N|ICME|F|F, prominent plasma signatures, upstream and downstream waves, amplified at the ramp
+197|STEREO-A|2013-05-06 06:36:37.00|1.48000|25.1700|3.45000|2.23000|N|SIR|F|F, weak plasma signatures, few downstream waves
+198|STEREO-A|2013-05-12 23:30:46.00|1.56000|87.2900|1.43000|1.41000|N|ICME|F|F, weak plasma signatures, downstream waves
+199|STEREO-A|2013-05-16 05:22:35.00|1.19000|32.0900|2.78000|1.29000|N|SIR|F|F, weak plasma signatures, upstream and downstream waves, including at the ramp
+200|STEREO-A|2013-05-16 09:42:43.30|2.32000|55.9100|3.35000|2.48000|N|SIR|F|F, prominent plasma signatures, near HCS, downstream waves
+201|STEREO-A|2013-05-17 00:05:35.00|1.55000|37.4500|0.540000|1.53000|N|SIR|R|R, weak plasma signatures, upstream and downstream waves
+202|STEREO-A|2013-05-24 06:51:46.00|1.22000|47.7000|1.17000|1.21000|N|in slow wind|F|F, weak plasma signatures, downstream waves
+203|STEREO-A|2013-05-25 06:05:08.50|1.78000|13.2500|4.40000|7.59000|N|ICME|F|F, plasma signatures, downstream waves, Mach number determined by case study
+204|STEREO-A|2013-06-03 17:12:30.00|1.44000|80.8800|1.11000|1.33000|N|SIR|R|R, plasma signatures, downstream waves
+205|STEREO-A|2013-06-10 08:45:58.00|1.14000|47.9000|0.440000|1.12000|N|SIR|F|F, very weak plasma signatures, little increase of Tp, little increase of B, waves lasted long upstream and downstream
+206|STEREO-A|2013-06-11 03:37:16.00|1.83000|73.1000|1.10000|1.67000|N|SIR|R|R, plasma signatures, downstream waves
+207|STEREO-A|2013-06-11 14:04:50.00|1.31000|39.4600|0.920000|1.32000|N|SIR|R|R, little increase of V, weak plasma signatures, shock ramp lasted 20 ms, waves upstream, downstream and at the ramp
+208|STEREO-A|2013-06-27 16:17:42.30|1.59000|82.5700|0.930000|1.45000|N|ICME|F|F, prominent plasma signatures, upstream and downstream waves
+209|STEREO-A|2013-07-25 06:12:48.00|3.12000|55.9400|7.74000|6.00000|N|ICME|F|F, prominent plasma sigantures, sharp rise of suprathermal electron flux, fluctuations downstream, Mach number is 2 using V&S method
+210|STEREO-A|2013-08-04 13:42:51.00|1.09000|49.7100|1.96000|1.09000|N|SIR|F|F, weak plasma signatures, gradual change of B, intermittent LFWs at the two sides
+211|STEREO-A|2013-08-10 09:18:03.00|1.84000|56.9100|1.76000|1.78000|N|ICME|F|F, clear plasma signatures, rise of suprathermal e flux, upstream and downstream waves
+212|STEREO-A|2013-08-12 13:46:00.00|1.57000|85.9300|0.810000|1.43000|N|SIR|F|F, prominent plasma signatures, waves upstream and at ramp
+213|STEREO-A|2013-08-18 14:42:09.00|1.41000|82.8100|0.220000|1.32000|N|slow wind|F|F, weak plasma signatures, downstream waves
+214|STEREO-A|2013-08-22 07:05:50.00|2.42000|81.4000|3.12000|2.24000|N|ICME|F|F, plasma signatures, downstream waves
+215|STEREO-A|2013-09-02 02:20:00.00|1.25000|23.8800|0.780000|1.31000|N|SIR|F|F, plasma signatures, LFWs lasted long
+216|STEREO-A|2013-09-10 11:09:56.00|1.22000|76.4000|1.65000|1.16000|N|slow wind|F|F, weak plasma signatures, rise and diffusion of suprathermal e flux
+217|STEREO-A|2013-10-04 04:28:16.00|1.27000|57.8200|2.91000|1.23000|N|ICME|F|F, weak plasma signatures, rise of suprathermal e flux
+218|STEREO-A|2013-10-21 12:54:34.00|1.08000|79.0500|0.890000|1.06000|N|slow wind|F|F, weak plasma signatures, upstream and downstream waves
+219|STEREO-A|2013-10-26 02:25:15.00|1.30000|45.8700|1.38000|1.30000|N|SIR|R|R, weak plasma signatures, waves upstream and at ramp
+220|STEREO-A|2013-11-01 10:55:16.50|1.83000|84.0700|1.13000|1.65000|N|ICME|F|F, plasma signatures, weak upstream and downstream waves, a direction change of By 15 s downstream
+221|STEREO-A|2013-11-04 08:57:25.00|2.21000|69.8400|0.290000|2.12000|N|ICME|F|F, prominent plasma signatures, short upstream waves
+222|STEREO-A|2013-11-05 22:24:10.00|1.29000|72.7000|0.410000|1.22000|N|fast wind overtaking ICME, there is a residual of CME in the trailing part of the fast wind|F|F, weak and transient plasma signatures, upstream waves, increase of suprathermal e flux
+223|STEREO-A|2013-11-05 23:53:09.00|1.57000|73.4100|0.470000|1.45000|N|fast wind overtaking ICME|F|F, clear plasma signatures, short downstream waves
+224|STEREO-A|2013-11-10 00:26:00.00|1.41000|53.8700|1.14000|1.37000|N|in the trailing part of fast wind|F|F, plasma signatures, gradual increase of B
+225|STEREO-A|2013-11-11 10:31:52.00|1.45000|61.7800|4.33000|1.37000|N|ICME|F|F, plasma signatures, downstream waves
+226|STEREO-A|2013-11-13 17:00:55.00|1.55000|77.7100|-1.00000|1.42000|N|ICME|F|F, Vp increases, DG of Np and Tp at the shock, upstream waves
+227|STEREO-A|2013-11-14 05:50:48.00|1.62000|34.6100|10.8000|1.75000|N|ICME|F|F, clear plasma signatures, B decreased 1 min after the shock, many fluctuations upstream and downstream
+228|STEREO-A|2013-11-18 18:24:00.00|1.57000|44.2400|1.46000|1.61000|N|ICME|F|F, Np and Tp spikes downstream, upstream and downstream waves
+229|STEREO-A|2013-11-20 23:52:07.00|1.29000|76.1100|0.410000|1.22000|N|SIR|F|F, clear plasma signatures, downstream waves
+230|STEREO-A|2013-11-24 03:51:30.00|1.31000|45.8000|1.53000|1.32000|N|in the trailing part of fast wind|F|F, plasma signatures, intermittent fluctuations during 1 hr around the shock
+231|STEREO-A|2013-12-01 22:29:46.50|2.76000|81.3000|0.340000|2.92000|N|ICME|F|F, prominent plasma signatures, overshoot, downstream waves
+232|STEREO-A|2013-12-17 16:07:44.00|1.88000|53.1000|0.520000|1.83000|N|SIR|R|R, clear plasma signatures, upstream and downstream waves
+233|STEREO-A|2013-12-24 20:06:47.00|1.14000|80.5400|1.41000|1.10000|N|SIR with an embedded ICME|F|F, weak plasma signatures
+234|STEREO-A|2013-12-24 22:18:38.00|1.18000|82.3300|0.520000|1.13000|N|SIR with an embedded ICME|F|F, weak plasma signatures
+235|STEREO-A|2013-12-26 05:04:12.00|1.53000|83.2700|0.900000|1.40000|N|SIR with an embedded ICME|R|R, weak plasma signatures, downstream waves
+236|STEREO-A|2013-12-29 03:39:05.00|1.25000|51.2600|0.910000|1.21000|N|SIR|F|F, weak plasma signatures, fluctuations last long time around the shock
+237|STEREO-A|2013-12-29 07:15:51.00|1.76000|50.5400|0.960000|1.73000|N|SIR|F|F, plasma signatures, upstream and downstream waves
+238|STEREO-A|2013-12-31 13:31:40.00|1.50000|66.1000|0.890000|1.40000|N|ICME|F|F, plasma signatures, a short B dip after the shock
+239|STEREO-A|2014-01-09 13:17:36.00|1.20000|41.3000|0.410000|1.16000|N|ICME embedded within SIR|F|F, 2-min plasma DG at the shock, plasma signatures, extensive upstream and downstream waves
+240|STEREO-A|2014-01-12 19:11:41.50|1.27000|65.7300|2.31000|1.21000|N|in the declining part of fast wind|F|F, plasma signatures, waves upstream and downstream
+241|STEREO-A|2014-01-14 23:59:09.00|1.52000|82.9300|0.290000|1.40000|N|in ICME|F|F, 3-min plasma DG at the shock, nice waves upstream and downstream
+242|STEREO-A|2014-01-17 10:52:22.80|1.44000|70.4300|4.25000|1.34000|N|in slow wind|F|F, weak plasma signatures
+243|STEREO-A|2014-01-20 19:21:50.00|1.79000|74.2900|0.180000|1.65000|N|front edge of SIR|F|F, plasma signatures, moderate-amplitude waves upstream and downstream
+244|STEREO-A|2014-01-22 15:14:30.80|1.39000|76.7400|1.17000|1.30000|N|within SIR|F|F, plasma signatures
+245|STEREO-A|2014-01-29 18:13:27.00|1.53000|49.9700|0.930000|1.49000|N|ICME|F|F, clear plasma signatures, sharp increase of suprathermal e flux, waves upstream and at the foot
+246|STEREO-A|2014-02-01 06:19:28.00|1.33000|33.4600|0.970000|1.36000|N|in slow wind|F|F, weak plasma signatures, upstream waves last long
+247|STEREO-A|2014-02-02 00:18:17.00|1.41000|81.3500|1.94000|1.30000|N|ICME|F|F, plasma signatures
+248|STEREO-A|2014-02-05 03:27:37.50|1.64000|84.7300|3.07000|1.47000|N|ICME|F|F, plasma signatures, downstream waves
+249|STEREO-A|2014-02-07 20:59:03.80|1.66000|78.1000|0.460000|1.52000|N|ICME|F|F, clear plasma signatures, increase of suprathermal e flux, waves upstream and downstream
+250|STEREO-A|2014-02-15 05:50:04.50|1.37000|75.1800|4.55000|1.26000|N|1 day ahead of ICME|F|F, weak plasma signatures, abrupt B increase, downstream waves
+251|STEREO-A|2014-02-16 07:50:14.50|1.88000|12.6200|0.360000|2.72000|N|ICME replacing fast wind in SIR|F|F, 3-min plasma DG upstream, upstream waves, B spike at the ramp, Mach number needs further check
+252|STEREO-A|2014-02-22 08:00:03.70|1.93000|61.3200|1.41000|1.84000|N|ICME|F|F, plasma signatures, short upstream waves
+253|STEREO-A|2014-02-22 23:06:24.00|1.93000|70.8100|1.85000|1.76000|N|ICME|F|F, plasma signatures, upstream and downstream waves
+254|STEREO-A|2014-02-25 12:15:56.00|1.15000|53.0200|0.930000|1.12000|N|ICME|F|F, plasma signatures, gradual increase of B, small-amplitude downstream waves, sharp change of suprathermal e flux
+255|STEREO-A|2014-02-27 20:46:45.00|1.42000|46.5700|0.690000|1.38000|N|ICME|F|F, plasma signatures, low frequency waves upstream and downstream
+256|STEREO-A|2014-03-07 18:35:13.00|1.35000|80.6600|0.700000|1.25000|N|ICME replacing fast wind in SIR|F|F, weak plasma signatures, sharp rise of suprathermal e flux
+257|STEREO-A|2014-03-11 09:37:10.00|2.05000|70.2100|0.830000|1.90000|N|ICME|F|F, plasma signatures, downstream waves
+258|STEREO-A|2014-03-14 16:37:40.00|1.18000|64.0100|0.390000|1.14000|N|ICME in fast wind of SIR|F|F, plasma signatures, change in suprathermal e flux, gradual rise of B, waves upstream and at the ramp
+259|STEREO-A|2014-03-30 21:38:04.00|1.97000|55.4700|0.600000|1.91000|N|ICME|F|F, plasma signatures, rise of suprathermal e flux, step rise of B, upstream and downstream waves, B dips downstream
+260|STEREO-A|2014-04-08 22:51:35.00|1.17000|57.2700|2.26000|1.14000|N|in slow wind, 14 hrs ahead of ICME|F|F, weak plasma signatures, change of suprathermal e flux, upstream waves
+261|STEREO-A|2014-04-09 13:07:45.00|1.55000|80.8100|0.650000|1.40000|N|ICME|F|F, plasma signatures, upstream and downstream waves, not much change in suprathermal e flux
+262|STEREO-A|2014-04-11 15:24:02.00|1.21000|14.0100|0.240000|1.17000|N|ICME|F|F, extensive upstream and downstream waves
+263|STEREO-A|2014-04-25 17:15:11.00|1.32000|86.2600|0.750000|1.23000|N|SIR|R|R, weak plasma signatures, weak downstream waves
+264|STEREO-A|2014-05-10 13:26:41.50|2.03000|69.1200|0.880000|1.89000|N|in slow wind, 1 day ahead of ICME|F|F, plasma signatures, V increase > 50 km/s, upstream and downstream waves last short
+265|STEREO-A|2014-05-11 12:33:49.00|1.47000|64.0400|1.46000|1.38000|N|ICME|F|F, plasma signatures
+266|STEREO-A|2014-06-09 09:30:27.00|1.30000|64.4500|0.350000|1.22000|N|ICME|F|F, plasma signatures, upstream and downstream waves last long
+267|STEREO-A|2014-06-09 12:50:02.50|1.68000|63.5300|0.900000|1.56000|N|ICME|F|F, plasma signatures
+268|STEREO-A|2014-06-11 00:14:42.50|2.09000|82.3100|1.21000|1.90000|N|ICME|F|F, plasma signatures, upstream and downstream waves
+269|STEREO-A|2014-06-27 21:58:06.00|1.23000|72.1800|1.08000|1.17000|N|1 day before a SIR with ICME embedded|F|F, weak plasma signatures

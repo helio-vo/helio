@@ -1,0 +1,47 @@
+From srs-owner  Tue Sep 26 00:40:10 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id AAA26808
+	for srs-sendit; Tue, 26 Sep 2000 00:40:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Tue, 26 Sep 2000 00:40:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200009260040.AAA26659@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2000 Sep 26 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 270 ISSUED AT 0030Z ON 26 SEP 2000
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 25 SEP
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 25/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+9166 S12W70   125  0380 DAI  10   23 BETA
+9167 N15W42   097  0080 CSO  06   05 BETA
+9169 N11W22   077  1450 FKC  20   88 BETA-GAMMA-DELTA
+9170 S06W27   082  0080 DAO  10   19 BETA
+9171 S15E33   022  0080 CSO  07   03 BETA
+9172 N12E58   357  0100 DAO  06   06 BETA
+9173 S13E60   355  0070 HAX  03   01 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 25/2400Z SEP
+NMBR  LOCATION  LO
+NONE
+II. REGIONS DUE TO RETURN 26 SEP TO 28 SEP
+NMBR LAT    LO
+NONE
+III. COMMENTS
+EFFECTIVE 2 OCT 2000, SEC WILL ISSUE ITS TEXT PRODUCTS IN MIXED 
+CASE VS. ALL UPPER CASE.  THIS CHANGE WILL BE VISIBLE ON ALL SEC 
+PRODUCT DELIVERY SYSTEMS EXCEPT FOR TELETYPE CIRCUITS.  ONLY THE 
+CASE OF THE TEXT IN EACH PRODUCT WILL CHANGE, NOT THE FORMAT OR 
+SPACING WITHIN THE PRODUCT.  FOR DETAILS SEE OUR WEBSITE AT 
+SEC.NOAA.GOV/MIXEDCASE.HTML
+

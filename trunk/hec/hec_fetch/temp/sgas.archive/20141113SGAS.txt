@@ -1,0 +1,27 @@
+:Product: 1113SGAS.txt
+:Issued: 2014 Nov 13 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 317 Issued at 0245Z on 13 Nov 2014
+This report is compiled from data received at SWO on 12 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0054 0054 0054                       160                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+quiet with the exception of the first period of the day which was
+active due to extended southward Bz.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 153  SSN 089  Afr/Ap 006/006   X-ray Background B8.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.30e+05 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 2 2 1 2 2 2 Planetary 3 1 2 1 1 1 1 2 
+F.  Comments:  None

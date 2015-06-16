@@ -1,0 +1,49 @@
+From sgas-owner  Sat Jul 29 02:50:13 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA18390
+	for sgas-sendit; Sat, 29 Jul 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 29 Jul 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007290250.CAA18342@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 211 ISSUED AT 0245Z ON 29 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 28 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1937 1937 1938                       140                           
+ 2222 0000 2224                                     II              
+B.  PROTON EVENTS:  A GREATER THAN 10 MEV PROTON EVENT BEGAN AT
+28/1050Z, REACHED A MAXIMUM FLUX OF 18 PFU AT 28/1130Z, AND ENDED AT
+28/1310Z.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS FROM
+QUIET TO MINOR STORM LEVELS. A SHOCK WAS OBSERVED AT ACE AT
+28/0543Z, SHORTLY FOLLOWED BY A SUDDEN IMPULSE AT 28/0635Z
+(MEASURING 41 NT). THE LIKELY SOURCE OF THIS DISTURBANCE WAS A CME
+FROM 25 JULY.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 158  SSN 163  AFR/AP 030/030   X-RAY BACKGROUND B9.2
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.4E+06   GT 10 MEV 3.9E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.90E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 4 5 4 5 5 3 3 PLANETARY 3 3 5 5 5 5 4 3 
+F.  COMMENTS:  NONE
+

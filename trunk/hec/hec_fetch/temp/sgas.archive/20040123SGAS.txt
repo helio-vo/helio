@@ -1,0 +1,28 @@
+:Product: 20040123SGAS.txt
+:Issued: 2004 Jan 23 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 023 Issued at 0245Z on 23 Jan 2004
+This report is compiled from data received at SWO on 22 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1749 1749 1750                       360                           
+ 2107 2107 2108                       130                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to severe storm levels.  A shock passage was observed to pass
+the ACE spacecraft around 22/0100Z.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 122  SSN 076  Afr/Ap 046/062   X-ray Background B2.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.5e+07   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W102 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 4 4 5 7 4 4 4 Planetary 5 5 6 7 7 4 5 4 
+F.  Comments:  None

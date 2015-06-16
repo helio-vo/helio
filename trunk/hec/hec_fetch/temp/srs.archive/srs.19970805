@@ -1,0 +1,68 @@
+From owner-srs@proton.sel.noaa.gov Tue Aug  5 11:02:15 1997
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA056403335; Tue, 5 Aug 1997 11:02:15 -0400
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Tue, 5 Aug 1997 15:02:12 GMT
+From: SESC <sel@proton.sel.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1997 Aug 05 0035 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 217 ISSUED AT 0030Z ON 05 AUG 1997
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 04 AUG
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 04/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8068 S22E18   071  0020 HSX  01   02 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 04/2400Z AUG
+NMBR  LOCATION  LO
+8066  N24W56   146
+8067  N05E39   050
+II. REGIONS DUE TO RETURN 05 AUG TO 07 AUG
+NMBR LAT    LO
+NONE
+
+
+From owner-srs@proton.sel.noaa.gov Tue Aug  5 20:42:55 1997
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA245358175; Tue, 5 Aug 1997 20:42:55 -0400
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Wed, 6 Aug 1997 00:40:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199708060040.AAA03792@solar.sec.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=X-roman8
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1997 Aug 06 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 218 ISSUED AT 0030Z ON 06 AUG 1997
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 05 AUG
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 05/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8068 S21E06   070  0020 CSO  05   02 BETA
+8069 N21W35   111  0010 BXO  03   06 BETA
+8070 S20E53   023  0000 AXX  00   01 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 05/2400Z AUG
+NMBR  LOCATION  LO
+8066  N24W69   146
+8067  N05E26   050
+II. REGIONS DUE TO RETURN 06 AUG TO 08 AUG
+NMBR LAT    LO
+NONE
+
+

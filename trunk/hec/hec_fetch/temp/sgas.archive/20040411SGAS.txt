@@ -1,0 +1,33 @@
+:Product: 20040411SGAS.txt
+:Issued: 2004 Apr 11 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 102 Issued at 0245Z on 11 Apr 2004
+This report is compiled from data received at SWO on 10 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled. Solar wind speed was in gradual decline following
+yesterday's CME impact. Speed had declined from a peak near 570 km/s
+at 09/0505Z to near 400 km/s late in the period. A sharp
+discontinuity in solar wind plasma and IMF measurements occurred at
+10/1925Z. This was likely the interplanetary shock associated with
+the C7 flare and CME on 08 April. Solar wind speed following the
+shock ranged from 500 to 540 km/s, but the IMF BZ was mostly
+northward.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 088  SSN 020  Afr/Ap 012/010   X-ray Background A7.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.9e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W98 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 2 2 2 3 3 Planetary 3 3 3 2 2 2 3 3 
+F.  Comments:  None

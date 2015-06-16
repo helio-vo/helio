@@ -1,0 +1,44 @@
+:Product: 0424SGAS.txt
+:Issued: 2013 Apr 24 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 114 Issued at 0245Z on 24 Apr 2013
+This report is compiled from data received at SWO on 23 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000      2359                                        IV           
+ 0508 0509 0509                       450                           
+ 1116 1116 1116                       190                           
+ 1138 1141 1144              B8.8     320                           
+ 1219 1219 1220                       620                           
+ 1308 1311 1313  1726 N10W44 B8.9  Sf 230                           
+ 1327 1331 1334              C2.1     490                           
+ 1405 1414 1416  1726 N09W43 C8.2  Sf 5000          II              
+ 1504 1507 1509  1726 N14W42 C1.5  Sf 250                           
+ 1515 1518 1520  1726 N15W40 C2.5  Sf 670                           
+ 1550 1550 1550                       210                           
+ 1610 1610 1611                       160                           
+ 1706 1706 1707                       330                           
+ 1757 1758 1758                       160                           
+ 1807 1807 1807                       100                           
+ 1810 1833 1845  1723        C3.0                   II              
+ 1854 1854 1854                       100                           
+ 1917 1917 1919                       540                           
+ 1945 1947 1947                       170                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 118  SSN 095  Afr/Ap 006/006   X-ray Background B4.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.6e+05   GT 10 MeV 2.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.60e+05 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 2 2 2 2 2 2 3 Planetary 0 1 1 1 2 2 2 3 
+F.  Comments:  None

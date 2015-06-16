@@ -1,0 +1,31 @@
+:Product: 1109SGAS.txt
+:Issued: 2013 Nov 09 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 313 Issued at 0245Z on 09 Nov 2013
+This report is compiled from data received at SWO on 08 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0420 0426 0429  1890 S14E15 X1.1  2b 65000  1000   II/IV           
+ 0658 0658 0707                       140                           
+ 0922 0928 0931  1891 S18W28 M2.3  1b                               
+ 1816 1821 1827  1887 N21W55 C1.1  Sf                  IV           
+B.  Proton Events:  A slight enhancement (below the 10 pfu threshold
+level) in the greater than 10 MeV proton flux at geosynchronous
+orbit occurred today in association with the X1/2b flare at
+08/0426Z.  Maximum flux value reached 1 pfu at 08/2125Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 146  SSN 160  Afr/Ap 003/004   X-ray Background B6.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.8e+05   GT 10 MeV 4.4e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.10e+05 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 2 1 2 1 1 2 1 1 Planetary 2 1 1 1 1 0 0 1 
+F.  Comments:  None.

@@ -1,0 +1,44 @@
+From sgas-owner  Thu Aug 23 02:50:20 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA26709
+	for sgas-sendit; Thu, 23 Aug 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 23 Aug 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200108230250.CAA26558@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Aug 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 235 Issued at 0245Z on 23 Aug 2001
+This report is compiled from data received at SWO on 22 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1158 1216 1229              M1.0                                   
+ 2206 0000 2203                                     II              
+ 2224 2224 2225                       660                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet to active.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 162  SSN 183  Afr/Ap 015/017   X-ray Background C1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.4e+06   GT 10 MeV 2.3e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 3 4 3 3 3 Planetary 2 2 3 4 4 4 4 4 
+F.  Comments:  None
+

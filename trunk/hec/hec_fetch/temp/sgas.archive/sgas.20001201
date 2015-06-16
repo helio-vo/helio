@@ -1,0 +1,49 @@
+From sgas-owner  Fri Dec  1 02:50:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA15989
+	for sgas-sendit; Fri, 1 Dec 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 1 Dec 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200012010250.CAA15811@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Dec 01 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 336 Issued at 0245Z on 01 Dec 2000
+This report is compiled from data received at SWO on 30 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0215 0248 0409  9247 N13E18 C3.6  Sf 110                           
+ 0521 0522 0522                       730                           
+ 0900 0925 0944              M1.0            22                     
+ 1451 1451 1451                       100                           
+ 2027 2038 2044  9246 S14E23 M1.3  Sf                               
+ 2213 2213 2214                       250                           
+B.  Proton Events:  The greater than 10 MeV protons remain elevated,
+but are below event threshold and should continue to slowly decline.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 192  SSN 191  Afr/Ap 005/006   X-ray Background B7.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.9e+06   GT 10 MeV 3.7e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 2 2 2 2 1 Planetary 1 1 2 2 2 3 2 2 
+F.  Comments:  None
+

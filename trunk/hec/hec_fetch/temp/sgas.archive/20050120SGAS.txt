@@ -1,0 +1,41 @@
+:Product: 20050120SGAS.txt
+:Issued: 2005 Jan 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 020 Issued at 0245Z on 20 Jan 2005
+This report is compiled from data received at SWO on 19 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0510 0526 0535  0720 N12W44 C7.2  Sf        3500                   
+ 0658 0731 0755  0720 N19W47 M6.7  2n        5000                   
+ 0803 0822 0840  0720        X1.3                   II/IV           
+ 1019 1024 1029  0720 N18W47 M2.7  1n 1400   2900                   
+ 1250 1251 1345                       65     150                    
+ 1532 1540 1548  0720 N13W50 M1.6  2f                               
+ 2132 2132 2132                       370                           
+ 2151 2151 2151                       100                           
+ 2207 2207 2207                       140                           
+ 2210 2210 2212                       170                           
+B.  Proton Events:  The greater than 100 MeV proton event has ended:
+start 17/1215 UTC, 28 pfu peak at 17/1700 UTC, and end 18/2205 UTC.
+The greater than 10 MeV proton event remains in progress but is
+decaying: start 16/0210 UTC and 5040 pfu peak at 17/1750 UTC. Proton
+fluxes have decreased enough for the GOES electron sensors and ACE
+SWEPAM instruments to again provide reliable data.
+C.  Geomagnetic Activity Summary:  The geomagnetic disturbance
+remained in progress at the unsettled to severe storm level.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 133  SSN 066  Afr/Ap 045/062   X-ray Background B6.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+08   GT 10 MeV 8.2e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.40e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 6 5 6 5 5 3 3 Planetary 6 6 6 7 6 4 3 4 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.

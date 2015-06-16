@@ -1,0 +1,54 @@
+From sgas-owner  Wed Feb 21 02:50:17 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA13424
+	for sgas-sendit; Wed, 21 Feb 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 21 Feb 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200102210250.CAA13249@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Feb 21 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 052 Issued at 0245Z on 21 Feb 2001
+This report is compiled from data received at SWO on 20 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to active levels.
+D.  Stratwarm:  Stratwarm Alert Exists Tuesday
+Major warming continues. A large warm area covers the polar region,
+Siberia, Europe, and the eastern Atlantic, leading to a reversed
+temperature gradient between 60N and the pole up to 5 HPA. Displaced
+vortex lead to net easterly winds at latitude 60N throughout the
+stratosphere.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 146  SSN 119  Afr/Ap 008/008   X-ray Background B5.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.9e+04   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.70e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 2 4 3 2 1 2 Planetary 1 1 2 3 3 2 2 2 
+F.  Comments:  AUTODIN transmission of the following bulletins will
+cease on 15 Feb 01: FXXX01 KBOU, AXXX01 KBOU, AXXX02 KBOU, and
+AXXX03 KBOU. The bulletins will still be available via the Internet
+at www.afwin.afwa.af.mil for military users and www.sec.noaa.gov for
+non-military users.  If web access is not acceptable or you have any
+questions, please contact Mr. Jerry Sanders at DSN 271-1399 (COMM
+402-294-1399), e-mail jerry.sanders@afwa.af.mil.
+

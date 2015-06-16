@@ -1,0 +1,40 @@
+From srs-owner  Mon Jan  3 00:40:16 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id AAA13473
+	for srs-sendit; Mon, 3 Jan 2000 00:40:08 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Mon, 3 Jan 2000 00:40:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200001030040.AAA04290@solar.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2000 Jan 03 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 3 ISSUED AT 0030Z ON 03 JAN 2000
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 02 JAN
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 02/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8810 N37W29   011  0180 EAO  15   07 BETA
+8813 S16E08   334  0060 DAO  08   07 BETA
+8814 N10E21   321  0150 HAX  03   03 ALPHA
+8815 N08E35   307  0070 CAO  08   12 BETA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 02/2400Z JAN
+NMBR  LOCATION  LO
+8809  N24W46   027
+8812  S27W73   054
+II. REGIONS DUE TO RETURN 03 JAN TO 05 JAN
+NMBR LAT    LO
+8796 S25    250
+8797 S32    235
+
+

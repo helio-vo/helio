@@ -1,0 +1,40 @@
+:Product: 0203SGAS.txt
+:Issued: 2014 Feb 03 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 034 Issued at 0245Z on 03 Feb 2014
+This report is compiled from data received at SWO on 02 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0624 0634 0637  1968 N12E18 M2.6  1b                               
+ 0717 0820 0829  1967 S10E14 M2.2  1n                               
+ 0849 0849 0849                       110                           
+ 0924 0931 0936  1967 S11E13 M4.4  1b                               
+ 1401 1406 1409  1967        M1.3     92     71                     
+ 1650 1650 1650                       680                           
+ 1734 1734 1734                       300                           
+ 1744 1744 1744                       110                           
+ 1805 1811 1818  1967        M3.1            180                    
+ 1934 1934 1937  1968 N09E71       Sf 390                           
+ 1938 1939 1942  1968 N09E71       Sf 600                           
+ 2124 2204 2214  1967        M1.3                                   
+ 2156 2156 2156                       1600                          
+ 2248 2248 2323  1967 S13E58       Sf 250                           
+ 2354 2357 0000              C2.3     230                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 190  SSN 163  Afr/Ap 004/003   X-ray Background C1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.2e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.70e+05 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 0 2 2 2 1 Planetary 1 1 0 0 1 0 2 1 
+F.  Comments:  None

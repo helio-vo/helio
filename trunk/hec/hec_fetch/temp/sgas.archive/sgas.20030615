@@ -1,0 +1,52 @@
+From sgas-owner@sec.noaa.gov  Sun Jun 15 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h5F2o4B18606
+	for sgas-sendit; Sun, 15 Jun 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 15 Jun 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200306150250.h5F2o2H18490@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jun 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 166 Issued at 0245Z on 15 Jun 2003
+This report is compiled from data received at SWO on 14 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0003 0018 0024  0380 S18W16       Sf 970                           
+ 0243 0243 0243                       210                           
+ 0249 0253 0259  0380        C7.5     130                           
+ 0507 0609 0657              M1.5            56                     
+ 1404 1405 1405                       190                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+active to major storm levels.  The onset of the expected coronal
+hole was marked by a co-rotating interacting region with solar wind
+speed increasing to near 600 km/s and a 12 hour period of minor
+storm levels.  Late in the period indications of a possible shock
+passage at the NASA/ACE spacecraft coincided with a major storm
+period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 134  SSN 091  Afr/Ap 046/032   X-ray Background C1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.5e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W124 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.30e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 4 4 5 5 5 5 6 5 Planetary 3 4 5 5 4 5 5 4 
+F.  Comments:  None
+

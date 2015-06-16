@@ -1,0 +1,55 @@
+From sgas-owner  Fri Mar 10 02:55:28 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA10171
+	for sgas-sendit; Fri, 10 Mar 2000 02:55:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 10 Mar 2000 02:55:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200003100255.CAA10114@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 10 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 070 ISSUED AT 0245Z ON 10 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 09 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+0529 0531 0531                       370
+0559 0600 0600                       1700
+0608 0611 0613              C1.7     110
+0909 0909 0910                       310
+0926 0926 0928                       210
+1020 1020 1021                       850
+1044 1044 1045                       140
+1200 1201 1201                       450
+1336 1339 1345  8906 S19E57 C1.5  SF 190
+1833 1838 1841  8906 S19E54 C2.9  1F 370
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS AT
+MOSTLY QUIET LEVELS.
+D.  STRATWARM:  STRATWARM ALERT/THURSDAY/STRATWARM EXISTS.
+THE INTENSE WARMING, CENTRED OVER CENTRAL SIBERIA AT
+10 HPA, CONTINUES.  WARM AIR SPREADING NORTHWESTWARDS.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 206  SSN 225  AFR/AP 003/005   X-RAY BACKGROUND B9.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 3.7E+04   GT 10 MEV 1.1E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.60E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 0 0 0 1 2 2 1 PLANETARY 2 0 0 2 3 2 2 2
+F.  COMMENTS:  NONE
+
+

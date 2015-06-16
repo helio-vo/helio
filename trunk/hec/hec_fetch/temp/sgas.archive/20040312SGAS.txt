@@ -1,0 +1,31 @@
+:Product: 20040312SGAS.txt
+:Issued: 2004 Mar 12 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 072 Issued at 0245Z on 12 Mar 2004
+This report is compiled from data received at SWO on 11 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1143 1144 1147                       140                           
+ 1202 1202 1202                       100                           
+ 1236 1241 1241                       780                           
+ 1516 1516 1516                       120                           
+ 1627 1627 1627                       120                           
+ 1842 1852 1901              B6.8     100                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to minor storm conditions.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 113  SSN 067  Afr/Ap 020/026   X-ray Background B2.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.3e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W99 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.50e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 4 4 3 3 5 4 3 Planetary 4 4 4 3 4 4 5 3 
+F.  Comments:  None.

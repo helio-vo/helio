@@ -1,0 +1,49 @@
+From sgas-owner@sec.noaa.gov  Wed Nov 12 02:50:20 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id hAC2o5J17758
+	for sgas-sendit; Wed, 12 Nov 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 12 Nov 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200311120250.hAC2o3b17663@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Nov 12 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 316 Issued at 0245Z on 12 Nov 2003
+This report is compiled from data received at SWO on 11 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0528 0531 0533                       520                           
+ 0536 0536 0536                       66            II              
+ 1321 1351 1417  0498 S03W61 M1.6  Sf 200    1100   II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+active to severe storm levels. A single K=7 period was observed at
+Boulder from 11/0300-0600 UTC. Solar wind conditions of high speed
+(700-800 km/s) and low density (about 2 p/cc) suggest that the
+expected coronal hole high-speed stream has arrived.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 096  SSN 043  Afr/Ap 030/051   X-ray Background B1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+07   GT 10 MeV 8.9e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.40e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 7 5 5 4 5 5 4 Planetary 5 6 5 6 5 5 5 4 
+F.  Comments:  The Afr index reported in part E is estimated from
+Boulder, CO observations.
+

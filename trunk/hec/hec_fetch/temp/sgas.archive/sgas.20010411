@@ -1,0 +1,45 @@
+From sgas-owner  Wed Apr 11 02:50:10 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA25359
+	for sgas-sendit; Wed, 11 Apr 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 11 Apr 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104110250.CAA25238@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 11 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 101 Issued at 0245Z on 11 Apr 2001
+This report is compiled from data received at SWO on 10 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0258 0258 0301                       150                           
+ 0506 0526 0542  9415 S23W09 X2.3  3b 10000  4000   II/IV           
+B.  Proton Events:  A greater than 10 MeV proton event began at 0850
+UTC. The maximum flux observed on the 10th was 110 PFU at 2325 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 170  SSN 170  Afr/Ap 013/009   X-ray Background B4.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+07   GT 10 MeV 3.7e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.50e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 0 2 2 3 4 2 2 Planetary 3 1 2 2 3 3 2 2 
+F.  Comments:  None
+

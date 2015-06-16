@@ -1,0 +1,33 @@
+:Product: 20050710SGAS.txt
+:Issued: 2005 Jul 10 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 191 Issued at 0245Z on 10 Jul 2005
+This report is compiled from data received at SWO on 09 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0409 0412 0414              B4.1     190                           
+ 1315 1318 1320  0789        B5.4     7700                          
+ 1803 1803 1803                       280                           
+ 1934 1938 1940  0789        B5.8     590                           
+ 2128 2129 2129                       230                           
+ 2147 2206 2219  0786 N11W27 M2.8  1n 1200   1500                   
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Active conditions followed a period of sustained southward
+Bz.  At approximately 0500 UTC, Bz turned south and varied between
+-5 and -10 nT.  At the time of issue, Bz remains south.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 107  SSN 126  Afr/Ap 015/019   X-ray Background B2.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.8e+05   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W115 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.40e+05 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 3 3 4 2 3 Planetary 3 3 3 3 4 4 3 4 
+F.  Comments:  None

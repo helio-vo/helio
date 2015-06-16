@@ -1,0 +1,45 @@
+From owner-sgas@proton.sel.noaa.gov Wed Jul 28 23:12:46 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA209567966; Wed, 28 Jul 1999 23:12:46 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 29 Jul 1999 03:10:07 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199907290310.DAA15178@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Jul 29 0310 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 210 ISSUED AT 0245Z ON 29 JUL 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 28 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0136 0201 0215  8649 S15E08 M1.1  SF 200    450       IV           
+ 0804 0814 0819  8649 S15E03 M2.3  1B 200    97                     
+ 1754 1812 1835  8645 S19E22 C7.7  1N        29     II              
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+ACTIVE.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 198  SSN 218  AFR/AP 012/009   X-RAY BACKGROUND B7.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.4E+04   GT 10 MEV 1.4E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.30E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 0 1 2 3 2 4 3 3 PLANETARY 1 1 2 2 2 3 3 3 
+F.  COMMENTS:  NONE
+
+

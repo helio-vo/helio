@@ -1,0 +1,29 @@
+:Product: 0719SGAS.txt
+:Issued: 2012 Jul 19 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 201 Issued at 0245Z on 19 Jul 2012
+This report is compiled from data received at SWO on 18 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1249 1250 1250                       1600                          
+ 1304 1304 1304                       640                           
+B.  Proton Events:  The greater than 10 MeV proton flux at
+geosynchronous orbit exceeded the 10 pfu threshold on 17/1715Z and
+was still ongoing.  A maximum of 136 pfu was observed at 18/0600Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 110  SSN 059  Afr/Ap 005/004   X-ray Background B6.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+07   GT 10 MeV 3.5e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.50e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 2 1 3 2 2 Planetary 1 1 1 1 1 1 1 2 
+F.  Comments:  None

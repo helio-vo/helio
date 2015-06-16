@@ -1,0 +1,51 @@
+From owner-sgas@proton.sel.noaa.gov Thu May  7 22:50:15 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA124085814; Thu, 7 May 1998 22:50:15 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 7 May 1998 20:50:07 -0600
+From: SESC <sel@proton.sel.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 May 08 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 128 ISSUED AT 0245Z ON 08 MAY 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 07 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0044 0044 0044                       260                           
+ 0106 0110 0112  8214 N29W40 C3.5  SF 490    17                     
+ 0455 0456 0456                       180                           
+ 0532 0532 0533                       850    37                     
+ 1105 1116 1127  8214 N29W47 M2.9  1B        26                     
+ 1331 1350 1405  8214 N28W47 M1.3  SF 150    22                     
+ 1844 1844 1844                       130                           
+ 1923 1925 1925                       100                           
+ 2236 2236 2237                       200                           
+B.  PROTON EVENTS:  THE GT 10 MEV EVENT THAT BEGAN ON 06/0835Z ENDED
+AT 07/0140Z.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS
+PREDOMINANTLY QUIET TO UNSETTLED. BRIEF ACTIVE CONDITIONS AT HIGH
+LATITUDES WERE OBSERVED FROM 07/0900-1200Z.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES:
+10 CM 123  SSN 082  AFR/AP 011/013   X-RAY BACKGROUND C2.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.6E+07   GT 10 MEV 3.7E+05 P/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.10E+09 E/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 3 3 2 2 2 3 PLANETARY 3 3 2 4 2 3 3 3 
+F.  COMMENTS:  THE ENERGETIC ELECTRON FLUENCE AT GEOSYNCHRONOUS ORBIT
+WAS VERY HIGH. A MODERATE INTENSITY 245 MHZ RADIO NOISE STORM WAS IN
+PROGRESS FOR THE MAJORITY OF THE PERIOD.
+
+

@@ -1,0 +1,37 @@
+:Product: 0911SGAS.txt
+:Issued: 2005 Sep 11 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 254 Issued at 0245Z on 11 Sep 2005
+This report is compiled from data received at SWO on 10 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0301 0301 0301                       460                           
+ 0606 0614 0617  0808 S11E51 M3.7  2n 61                            
+ 0859 0907 0931  0808        M1.9                                   
+ 1634 1643 1651  0808        X1.1            600                    
+ 1910 1936 1950  0808 S10E45 M4.1  1n        65                     
+ 2130 2211 2243  0808        X2.1     910    1600   II/IV           
+ 2242 2316 2333                       95     210                    
+ 2344 2349 0000                       59     130                    
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 08/0215Z reached a peak flux of 1040 pfu at 10/1105Z.  The
+greater than 100 MeV proton event that began at 08/0405Z reached a
+peak flux of 7 pfu at 09/1920Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels.  Southward Bz and continued transient
+flow are responsible for the elevated conditions.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 100  SSN 059  Afr/Ap 025/030   X-ray Background C1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.8e+08   GT 10 MeV 7.4e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 2 2 5 3 4 5 4 4 Planetary 2 2 5 3 4 5 5 5 
+F.  Comments:  None

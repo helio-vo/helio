@@ -1,0 +1,61 @@
+From sgas-owner  Sat Jun 15 02:50:22 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_24419)/8.8.6) id CAA27569
+	for sgas-sendit; Sat, 15 Jun 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 15 Jun 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200206150250.CAA27449@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jun 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 166 Issued at 0245Z on 15 Jun 2002
+This report is compiled from data received at SWO on 14 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0518 0518 0519                       140                           
+ 0815 0815 0815                       220                           
+ 1004 1020 1038              C1.3     210                           
+ 1855 1855 1855                       120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 131  SSN 102  Afr/Ap 006/007   X-ray Background B5.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.1e+04   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.00e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 2 2 1 2 1 2 Planetary 2 1 1 2 2 3 2 2 
+F.  Comments:  This message is for users of the NOAA/SEC Space 
+Weather Operations sunspot region numbers. As you 
+may have noticed, we are steadily approaching 
+region number 10000. The plan for Space Weather 
+operations is to go through the sequence of Region 
+numbers as 9998, 9999, 0000, 0001, and so on. SEC's 
+product text discussions of the active regions 
+will ignore the leading zeroes (for example, we 
+will say 'Region number 5' rather than Region 
+number '0005'). However, the Geoalert product, the 
+Region Report product, as well as the USAF and IUWDS 
+data exchange codes will preserve the 4 digit format. 
+The necessity of using four digits is for operational 
+purposes only. For historical purposes all regions 
+beyond Region 9999 will be understood to be in a 
+series of region numbers 10000 and higher.
+

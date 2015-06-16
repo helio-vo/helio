@@ -1,0 +1,48 @@
+From sgas-owner  Tue Apr  9 02:50:23 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_24419)/8.8.6) id CAA23489
+	for sgas-sendit; Tue, 9 Apr 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 9 Apr 2002 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200204090250.CAA23324@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Apr 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 099 Issued at 0245Z on 09 Apr 2002
+This report is compiled from data received at SWO on 08 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0011 0019 0031  9899 N19E61 C2.1  Sf 110                           
+ 0130 0130 0131                       130                           
+ 1652 1652 1653                       280                           
+ 1926 1926 1927                       320                           
+ 1930 1930 1931                       470                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field activity was
+at quiet levels.  The greater than 10 MeV electron flux was slightly
+elevated throughout the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 206  SSN 245  Afr/Ap 002/005   X-ray Background C1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.70e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 1 1 1 2 1 1 Planetary 1 0 1 1 2 3 2 1 
+F.  Comments:  None
+

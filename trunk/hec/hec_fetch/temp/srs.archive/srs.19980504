@@ -1,0 +1,75 @@
+From owner-srs@proton.sel.noaa.gov Mon May  4 20:42:17 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA162898937; Mon, 4 May 1998 20:42:17 -0400
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Tue, 5 May 1998 00:40:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199805050040.AAA27833@solar.sec.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1998 May 05 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 125 ISSUED AT 0030Z ON 05 MAY 1998
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 04 MAY
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 04/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8210 S17W47   136  0430 CKO  07   14 BETA-DELTA
+8214 N27W08   097  0510 DKI  14   60 BETA
+8216 S22E00   089  0000 AXX  01   02 ALPHA
+8217 S16E47   042  0040 HSX  02   01 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 04/2400Z MAY
+NMBR  LOCATION  LO
+8213  S25W22   112
+II. REGIONS DUE TO RETURN 05 MAY TO 07 MAY
+NMBR LAT    LO
+8203 N33    359
+
+
+From owner-srs@proton.sel.noaa.gov Mon May  4 21:12:14 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA212580734; Mon, 4 May 1998 21:12:14 -0400
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Tue, 5 May 1998 01:10:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199805050110.BAA07556@solar.sec.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1998 May 05 0110 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+:::::::::: CORRECTED COPY ::::::::::
+SRS NUMBER 125 ISSUED AT 0030Z ON 05 MAY 1998
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 04 MAY
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 04/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8210 S17W47   136  0430 CKO  07   14 BETA-DELTA
+8214 N27W08   097  0510 EKI  14   60 BETA
+8216 S22E00   089  0000 AXX  01   02 ALPHA
+8217 S16E47   042  0040 HSX  02   01 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 04/2400Z MAY
+NMBR  LOCATION  LO
+8213  S25W22   112
+II. REGIONS DUE TO RETURN 05 MAY TO 07 MAY
+NMBR LAT    LO
+8203 N33    359
+
+

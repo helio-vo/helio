@@ -1,0 +1,58 @@
+From sgas-owner  Thu Apr 18 02:50:14 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_24419)/8.8.6) id CAA07637
+	for sgas-sendit; Thu, 18 Apr 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 18 Apr 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200204180250.CAA07498@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Apr 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 108 Issued at 0245Z on 18 Apr 2002
+This report is compiled from data received at SWO on 17 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0746 0824 0957  9906 S14W34 M2.6  2n 890    3000   II/IV           
+ 1008 1016 1114                       150    230                    
+ 1413 1413 1413                       290                           
+ 1559 1559 1559                       150                           
+ 1643 1643 1643                       100                           
+ 1912 1912 1913                       210                           
+ 1932 1933 1933                       210                           
+ 2010 2010 2011                       2400                          
+ 2125 2126 2126                       140                           
+B.  Proton Events:  A greater than 10 MeV proton event began at
+17/1530 UTC. The maximum flux observed so far was 24 pfu at 17/1540
+UTC. This event remains in progress.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels. A shock was observed at the NASA ACE
+spacecraft at 17/1022 UTC and was followed by an SI at ground
+magnetometers at 17/1109 UTC (57 nT at Boulder). This shock is
+believed to be associated with the LDE M1/CME which occurred on 15
+April.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 194  SSN 137  Afr/Ap 031/041   X-ray Background C1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.9e+07   GT 10 MeV 4.7e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.50e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 5 5 6 4 3 Planetary 2 3 2 6 6 6 5 3 
+F.  Comments:  The 17 April Afr index reported in Part E is estimated
+from Boulder observations.
+

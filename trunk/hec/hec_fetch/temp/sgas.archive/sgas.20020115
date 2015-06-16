@@ -1,0 +1,50 @@
+From sgas-owner  Tue Jan 15 02:50:40 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA00257
+	for sgas-sendit; Tue, 15 Jan 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 15 Jan 2002 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200201150250.CAA29947@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jan 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 015 Issued at 0245Z on 15 Jan 2002
+This report is compiled from data received at SWO on 14 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0120 0136 0144  9775 S07W52 M1.0  Sf   
+ 0152 0156 0203  9782 N05E44 M1.7  2n        140                    
+ 0529 0627 0825              M4.4                   II              
+ 2235 2246 2258  9775 S05W65 M1.1  Sf                               
+B.  Proton Events:  Particle fluxes for >10MeV protons were enhanced,
+but remained below event thresholds.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.  High speed stream effects from a favorably positioned
+coronal hole appeared to wane, with falling solar wind velocities
+over the course of the period.  Particle fluxes for >2MeV electrons
+were enhanced, but remained below event thresholds.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 229  SSN 191  Afr/Ap 010/008   X-ray Background C2.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+07   GT 10 MeV 5.6e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 2 2 3 3 3 1 Planetary 3 2 1 2 3 3 2 2 
+F.  Comments:  Afr estimated from Boulder A.
+

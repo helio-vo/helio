@@ -1,0 +1,48 @@
+From sgas-owner  Fri Mar  9 02:50:12 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA06786
+	for sgas-sendit; Fri, 9 Mar 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 9 Mar 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200103090250.CAA06682@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Mar 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 068 Issued at 0245Z on 09 Mar 2001
+This report is compiled from data received at SWO on 08 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0952 1051 1105  9370 N11W02 C5.5  Sf 100    15                     
+ 1113 1118 1121  9368 N30W18 M5.7  1b 1800   82     II              
+ 1539 1539 1540                       130                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Stratwarm alert exists Thursday.
+As a result of the major warming, the circulation in the lower
+stratosphere remains disturbed. Reversed temperature gradient
+between 60N and the pole in the lower and middle stratosphere.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 167  SSN 098  Afr/Ap 006/006   X-ray Background B9.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.6e+04   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.30e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 2 3 2 3 2 2 Planetary 1 0 2 3 1 2 2 2 
+F.  Comments:  None
+

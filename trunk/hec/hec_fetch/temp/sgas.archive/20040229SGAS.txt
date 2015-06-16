@@ -1,0 +1,27 @@
+:Product: 20040229SGAS.txt
+:Issued: 2004 Feb 29 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 060 Issued at 0245Z on 29 Feb 2004
+This report is compiled from data received at SWO on 28 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0323 0324 0327  0564        B6.6     580                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+mostly quiet to active with an isolated period of minor storming at
+0900 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 116  SSN 104  Afr/Ap ???/020   X-ray Background B2.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.4e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W100 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.60e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 5 3 3 4 3 4 Planetary 2 3 5 4 3 4 3 3 
+F.  Comments:  None

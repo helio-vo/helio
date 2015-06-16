@@ -1,0 +1,52 @@
+From owner-sgas@proton.sel.noaa.gov Wed Oct  7 22:57:35 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA186135455; Wed, 7 Oct 1998 22:57:35 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 8 Oct 1998 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199810080255.CAA02719@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Oct 08 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 281 ISSUED AT 0245Z ON 08 OCT 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 07 OCT
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0736 0736 0736                       100                           
+ 0749 0757 0802              B6.1     110                           
+ 0853 0919 0923              B9.7     160                           
+ 1242 1247 1253  8355 S22E68 M1.6  1N        58                     
+ 1439 1440 1440                       4400                          
+ 1704 1712 1717  8355 S20E65 M2.3  SF                               
+ 2332 2335 2338              B8.0     3000                          
+ 2350 2350 2350                       1200                          
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO MINOR STORM LEVELS. THE MOST DISTURBED PERIOD WAS FROM
+07/1500-2100Z.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 124  SSN 098  AFR/AP 020/020   X-RAY BACKGROUND B2.2
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.3E+06   GT 10 MEV 2.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.20E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 3 3 4 5 4 2 PLANETARY 3 2 3 3 4 5 5 3 
+F.  COMMENTS:  ENERGETIC ELECTRON FLUXES AT GEOSYNCHRONOUS ORBIT
+REACHED HIGH LEVELS DURING THE PERIOD.
+
+

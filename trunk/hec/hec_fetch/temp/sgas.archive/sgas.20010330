@@ -1,0 +1,55 @@
+From sgas-owner  Fri Mar 30 02:50:10 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA12890
+	for sgas-sendit; Fri, 30 Mar 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 30 Mar 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200103300250.CAA12760@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Mar 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 089 Issued at 0245Z on 30 Mar 2001
+This report is compiled from data received at SWO on 29 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0244 0256 0300  9393 N17W04 M2.1  1n                               
+ 0957 1015 1032  9393 N20W19 X1.7  Sf 27000  2000                   
+ 1047 1047 1125  9393 N14W12       1f 670              IV           
+ 1129 1135 1139  9393 N15W12 M2.1  Sf 2100                          
+ 1300 1306 1321  9393 N16W11       Sf 11000  41                     
+ 1349 1349 1359                       2400                          
+ 1409 1418 1422  9393 N16W15 M1.6  Sf                               
+ 1428 1434 1441              M1.3                                   
+ 1452 1458 1505  9393 N16W13 M1.5  Sf                               
+ 1520 1525 1533  9393 N14W15 M1.2  Sf                               
+ 2043 2101 2109              M1.2                                   
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+minor storm.  The greater than 10 MeV protons crossed the 10 pfu
+event threshold at 29/1635Z and has not yet peaked (highest flux
+observed so far was 18 pfu at 29/2050Z).
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 262  SSN 315  Afr/Ap 022/022   X-ray Background C3.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.0e+06   GT 10 MeV 5.6e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.40e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 4 4 3 3 4 3 2 Planetary 4 4 5 3 3 4 2 3 
+F.  Comments:  None
+

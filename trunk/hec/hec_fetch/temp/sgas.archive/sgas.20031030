@@ -1,0 +1,66 @@
+From sgas-owner@sec.noaa.gov  Thu Oct 30 02:50:19 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id h9U2o5t14266
+	for sgas-sendit; Thu, 30 Oct 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 30 Oct 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200310300250.h9U2o2D14171@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Oct 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 303 Issued at 0245Z on 30 Oct 2003
+This report is compiled from data received at SWO on 29 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0026 0151 0208  0486 S16E10 M1.1  1f 5400   63                     
+ 0137 0337 0412                       5800                          
+ 0408 0511 0554  0486 S17E06 M3.5  Sn 6600   610       IV           
+ 1234 1234 1234                       1000                          
+ 1348 0000 2354                                        IV           
+ 2037 2049 2101  0486 S15W02 X10.0 2b 360000 2500   II/IV           
+ 2305 2322 2353       S18W02       Sf 8200                          
+B.  Proton Events:  The large proton event and GLE that followed the
+X17 flare on 28 Oct was in decline for most of the period. The
+greater than 10 MeV proton event that began on 28/1215Z, peaked at
+29/0615Z at 29,500 pfu, making it the second largest, greater than
+10 MeV proton event this cycle (second only to the 31,700 pfu proton
+event in November 2001). The greater than 100 MeV proton event began
+at 28/1145Z, and peaked at 29/0015Z at 186 pfu. The proton events
+were still in progress when a new stream of protons began, following
+the X10 flare at around 2100Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to severe storming. The powerful CME from the X17/4b flare
+on 28/1110Z, impacted the Earth's magnetic field at 29/0613Z. The
+transit time for this CME was around 19 hours, making it one of the
+fastest on record. The sudden impulse measured 140 nT on the Boulder
+magnetometer. Strong southward IMF Bz initiated severe (K9) storming
+at middle and high latitudes in the 29/0600 - 0900Z period. Mostly
+northward Bz occurred from 29/0900 - 1800Z; however, major to severe
+storming persisted. A sharp southward turn in the Bz occurred at
+around 1800Z ending the period with K8-9 severe storming.  A strong
+Forbush decrease (over 20%) is in progress.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 279  SSN 330  Afr/Ap 180/189   X-ray Background C3.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.0e+09   GT 10 MeV 7.7e+08 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W108 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.70e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W77 degrees)
+3 Hour K-indices:
+Boulder 4 3 9 7 6 7 9 8 Planetary 4 3 9 8 7 7 9 8 
+F.  Comments:  None
+

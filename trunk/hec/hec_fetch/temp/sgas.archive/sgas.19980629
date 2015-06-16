@@ -1,0 +1,50 @@
+From owner-sgas@proton.sel.noaa.gov Mon Jun 29 22:59:18 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA295665557; Mon, 29 Jun 1998 22:59:18 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Tue, 30 Jun 1998 02:55:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199806300255.CAA11756@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Jun 30 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 181 ISSUED AT 0245Z ON 30 JUN 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 29 JUN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0026 0027 0027                       150                           
+ 0854 0854 0855                       250                           
+ 1822 1824 1824                       130                           
+ 2220 2241 2256  8256 S23E21 C3.4  1F 210                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  QUIET
+D.  STRATWARM:  NONE
+E.  DAILY INDICES:
+10 CM 119  SSN 137  AFR/AP 003/004   X-RAY BACKGROUND B3.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 3.4E+05   GT 10 MEV 1.5E+04 P/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.00E+07 E/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 0 1 1 1 1 1 1 0 PLANETARY 1 1 1 1 2 2 2 1 
+F.  COMMENTS:  EFFECTIVE 01 JUL 98, THE REFERENCE "(REAL-TIME
+PRELIMINARY/ESTIMATED VALUES)" WILL BE ADDED TO THE FIRST LINE OF
+PARAGRAPH E TO READ: "E. DAILY INDICES: (REAL-TIME
+PRELIMINARY/ESTIMATED VALUES)." ALSO, LEFT PARENTHESES WILL BE ADDED
+TO LINES 05 AND 08 OF PARAGRAPH E, EACH LINE TO READ: "(GOES-9
+SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)."
+
+

@@ -1,0 +1,93 @@
+HESSI Flare List  (generated  7-Aug-2012 07:50)
+
+Total # flares: 63828  Time range: 12-Feb-2002 21:29:56.000 - 31-Jul-2012 14:38:28.000
+ 
+    Flare     Start time        Peak      End      Dur   Peak     Total      Energy X Pos Y Pos Radial   AR        Flags         
+                                                     s    c/s    Counts         keV  asec  asec   asec                           
+
+  7020110  1-Feb-2007 01:38:16 01:43:54 01:53:52   936    144    439968        6-12  -108    61    124  940  A0 P1                 
+  7020124  1-Feb-2007 01:53:52 01:59:22 02:09:08   916    128    373200        6-12  -111    62    127  940  A0 P1 PE Q1           
+  7020112  1-Feb-2007 02:44:12 02:50:58 02:58:20   848    232    655536        6-12   -98    67    118  940  A0 ES P1 Q1           
+  7020125  1-Feb-2007 02:58:20 03:05:18 03:12:00   820    448    977568       12-25   -85    65    107  940  A0 P1                 
+  7020101  1-Feb-2007 03:12:00 03:13:22 03:36:52  1492    224    597216        6-12   -95    70    118  940  A0 DR P1 Q1           
+  7020113  1-Feb-2007 04:22:28 04:24:06 04:26:32   244     28     31680        6-12   -74    57     94  940  A0 P1                 
+  7020114  1-Feb-2007 04:41:24 04:43:26 04:47:04   340    168    126192        6-12   -73    55     91  940  A0 P1                 
+  7020116  1-Feb-2007 05:56:08 06:00:02 06:21:12  1504     92    361128        6-12   -67    69     96  940  A0 P1                 
+  7020117  1-Feb-2007 06:41:24 06:43:50 06:47:04   340     76     66144        6-12   -57    47     74  940  A0 DR P1 Q1           
+  7020126  1-Feb-2007 06:47:04 06:51:10 06:59:12   728     44    136032        6-12  -572  -109    582  941  A0 DR P1 Q1           
+  7020121  1-Feb-2007 09:44:44 09:46:02 09:49:28   284     48     52704        6-12   -58   -20     61    0  A0 P1                 
+  7020123  1-Feb-2007 15:43:12 15:44:38 15:48:36   324     88     86352        6-12    26    53     60    0  A0 DR P1 PE Q2        
+  7020105  1-Feb-2007 16:29:28 16:30:18 16:34:40   312     36     45936        6-12    89    21     92    0  A0 DR EE P1 PE Q3     
+  7020210  2-Feb-2007 01:36:28 01:37:10 01:41:48   320     24     36408        6-12   128    22    130  940  A0 P1                 
+  7020212  2-Feb-2007 04:34:16 04:35:26 04:36:40   144     42     25200        6-12   166    15    166  940  A0 P1                 
+  7020311  3-Feb-2007 03:17:56 03:24:42 03:26:00   484     64    149232        6-12   404    21    405  940  A0 P1                 
+  7020313  3-Feb-2007 03:26:00 03:27:02 03:35:24   564     64    189888        6-12   401    20    401  940  A0 DR P1 Q1           
+  7020314  3-Feb-2007 03:35:24 03:40:34 03:42:48   444     64    147936        6-12   411    39    413  940  A0 P1                 
+  7020312  3-Feb-2007 04:17:56 04:32:26 04:34:32   996     52    184368        6-12   407    27    408  940  A0 P1                 
+  7020315  3-Feb-2007 04:34:32 04:35:30 04:38:36   244     48     66336        6-12   402    37    404  940  A0 P1                 
+  7020316  3-Feb-2007 04:38:36 04:39:30 05:07:08  1712     48    332448        6-12   406    39    408  940  A0 DR P1 Q1           
+  7020306  3-Feb-2007 16:25:16 16:28:42 16:30:08   292    112     42024         3-6     0     0      0    0  A0 DR EE GS PE PS Q4  
+  7020503  5-Feb-2007 13:49:08 13:51:22 13:59:48   640     76    152352        6-12   726   -52    728  940  A0 DR P1 PE Q2        
+  7020514  5-Feb-2007 14:39:52 14:44:34 14:49:44   592     38     93552        6-12   748   -41    750  940  A0 DR EE P1 Q2        
+  7020511  5-Feb-2007 19:09:08 19:10:58 19:11:04   116     84     26376         3-6     0     0      0    0  A0 GE PE PS Q2        
+  7020611  6-Feb-2007 16:21:32 16:23:02 16:23:20   108     80     14568         3-6     0     0      0    0  A0 DR EE PS Q2        
+  7020612  6-Feb-2007 18:34:40 18:35:10 18:41:36   416     40     62232        6-12   933   -82    937    0  A0 ES P1 Q1           
+  7020704  7-Feb-2007 17:25:20 17:26:42 17:26:48    88     80     18096         3-6     0     0      0    0  A0 GE PE PS Q2        
+  7020908  9-Feb-2007 02:49:52 02:53:06 02:54:40   288     32     40320        6-12   978   -43    979  940  A0 P1                 
+  7021102 11-Feb-2007 02:59:36 03:00:06 03:00:40    64    200     14232         3-6     0     0      0    0  A0 DR PS Q1           
+  7021109 11-Feb-2007 15:35:44 15:37:14 15:37:20    96     96     22992         3-6     0     0      0    0  A0 GE PE PS Q2        
+  7021201 12-Feb-2007 01:45:44 01:47:58 01:48:00   136    128     46070         3-6     0     0      0    0  A0 EE PE PS Q2        
+  7021205 12-Feb-2007 15:32:48 15:34:26 15:34:32   104     96     23592         3-6     0     0      0    0  A0 GE PE PS Q2        
+  7021303 13-Feb-2007 01:43:32 01:46:06 01:46:08   156     92     44064         3-6     0     0      0    0  A0 EE PE PS Q2        
+  7021512 15-Feb-2007 04:41:28 04:41:58 04:42:28    60    112      7944         3-6     0     0      0    0  A0 DR PS Q1           
+  7021511 15-Feb-2007 23:55:52 23:58:58 23:59:04   192    200     98400         3-6     0     0      0    0  A0 GE PE PS Q2        
+  7021604 16-Feb-2007 13:32:16 13:32:46 13:33:20    64    200     10800         3-6     0     0      0    0  A0 PS                 
+  7021607 16-Feb-2007 23:51:44 23:52:14 23:52:44    60    100      6552         3-6     0     0      0    0  A0 PS                 
+  7021608 16-Feb-2007 23:53:52 23:57:30 00:02:20   508    136    232368         3-6     0     0      0    0  A0 PE PS Q1           
+  7021808 18-Feb-2007 22:08:20 22:09:42 22:09:52    92     80     21240         3-6     0     0      0    0  A0 GE PE PS Q2        
+  7021909 19-Feb-2007 22:06:08 22:08:22 22:08:32   144    144     52896         3-6     0     0      0    0  A0 GE PE PS Q2        
+  7022005 20-Feb-2007 22:04:08 22:08:14 22:12:56   528    152    259872         3-6     0     0      0    0  A0 PE PS Q1           
+  7022112 21-Feb-2007 23:21:40 23:22:14 23:22:52    72    416     29808         3-6     0     0      0    0  A0 DR PS Q1           
+  7022402 24-Feb-2007 20:14:16 20:18:14 20:25:24   668    176    304651         3-6     0     0      0    0  a0 a1 A3 DF PE PS Q2  
+  7022704 27-Feb-2007 07:25:28 07:27:30 07:32:04   396    320    252984       12-25  -352   -14    353  944  A0 P1                 
+  7022806 28-Feb-2007 18:24:28 18:28:34 18:33:56   568    168    301200         3-6     0     0      0    0  a0 a1 A3 PE PS Q1     
+
+Notes: 
+  Note that only events with non-zero position and energy range not equal to 3-6 keV are confirmed as solar sources.
+  Events which have no position and show up mostly in the front detectors, but were not able to be imaged 
+    are flagged as "PS".
+  Events which do not have valid position are only confirmed to be non-solar if the NS flag is set.
+  Peak Rate:  peak counts/second in energy range 6-12 keV, averaged over active collimators, including background.
+  Total Counts:  counts in energy range 6-12 keV integrated over duration of flare summed over all subcollimators,
+    including background.
+  Energy:  the highest energy band in which the flare was observed.
+  Radial Distance:  distance from Sun center
+  Quality Codes: Qn, where n is the total number of data gap, SAA, particle, eclipse or decimation flags set for event.
+    n ranges from 0 to 11.  Use care when analyzing the data when the quality is not zero.
+
+Flare Flag Codes: 
+  a0 - In attenuator state 0 (None) sometime during flare
+  a1 - In attenuator state 1 (Thin) sometime during flare
+  a2 - In attenuator state 2 (Thick) sometime during flare
+  a3 - In attenuator state 3 (Both) sometime during flare
+  An - Attenuator state (0=None, 1=Thin, 2=Thick, 3=Both) at peak of flare
+  DF - Front segment counts were decimated sometime during flare
+  DR - Rear segment counts were decimated sometime during flare
+  ED - Spacecraft eclipse (night) sometime during flare
+  EE - Flare ended in spacecraft eclipse (night)
+  ES - Flare started in spacecraft eclipse (night)
+  FE - Flare ongoing at end of file
+  FR - In Fast Rate Mode
+  FS - Flare ongoing at start of file
+  GD - Data gap during flare
+  GE - Flare ended in data gap
+  GS - Flare started in data gap
+  MR - Spacecraft in high-latitude zone during flare
+  NS - Non-solar event
+  PE - Particle event: Particles are present
+  PS - Possible Solar Flare; in front detectors, but no position
+  Pn - Position Quality: P0 = Position is NOT valid, P1 = Position is valid
+  Qn - Data Quality: Q0 = Highest Quality, Q11 = Lowest Quality
+  SD - Spacecraft was in SAA sometime during flare
+  SE - Flare ended when spacecraft was in SAA
+  SS - Flare started when spacecraft was in SAA

@@ -1,0 +1,57 @@
+From sgas-owner@sec.noaa.gov  Mon Nov  3 02:50:19 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id hA32o4e13173
+	for sgas-sendit; Mon, 3 Nov 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 3 Nov 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200311030250.hA32o2x13067@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Nov 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 307 Issued at 0245Z on 03 Nov 2003
+This report is compiled from data received at SWO on 02 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0250 0250 0252                       180                           
+ 0900 0900 0902                       310    84                     
+ 1230 1247 1312  0488        M1.8            22                     
+ 1703 1725 1739  0486 S14W56 X8.3  2b 24000  7700   II/IV           
+ 2040 2040 2040                       260                           
+ 2226 2238 2249  0486 S12W60 M3.2  1n 90000  95     II/IV           
+B.  Proton Events:  The greater than 10 MeV proton fluxes reached
+alert levels at 02/1105Z and were initially believed to have been
+from the M3 event earlier in the period (early maximum was 30 pfu). 
+Since the X8 event they have seen a maximum of 1510 pfu at 02/2305Z.
+The greater than 100 MeV proton fluxes have also reached alert
+levels due to the X8 event; at 1740 (15 minutes from the flare
+maximum) they pushed through event threshold and have since seen a
+maximum of 49 pfu at 02/1915Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to minor storm levels.  Isolated minor storm conditions
+are likely due to the continued elevated solar wind speeds and the
+occasional southward Bz in the interplanetary magnetic field.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 190  SSN 174  Afr/Ap 015/018   X-ray Background C1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.1e+07   GT 10 MeV 1.5e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.30e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 2 4 3 5 4 2 Planetary 3 4 3 3 3 4 4 3 
+F.  Comments:  None
+

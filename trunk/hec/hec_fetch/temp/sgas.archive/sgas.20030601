@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Sun Jun  1 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h512o5U24561
+	for sgas-sendit; Sun, 1 Jun 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 1 Jun 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200306010250.h512o3J24468@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jun 01 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 152 Issued at 0245Z on 01 Jun 2003
+This report is compiled from data received at SWO on 31 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0213 0224 0240  0365 S07W65 M9.3  2b 21000  1300   II              
+B.  Proton Events:  A greater than 10 MeV proton event started at
+31/0440 UTC, reached a 27 pfu peak at 31/0645 UTC, and ended at
+31/1440 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels. The most disturbed period occurred from
+31/0300-0600 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 113  SSN 057  Afr/Ap 015/017   X-ray Background B4.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.6e+07   GT 10 MeV 8.0e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W109 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.60e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 6 3 2 2 3 2 2 Planetary 5 5 3 1 3 3 2 2 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.
+

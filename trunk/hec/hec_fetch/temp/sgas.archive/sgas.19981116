@@ -1,0 +1,48 @@
+From owner-sgas@proton.sel.noaa.gov Mon Nov 16 21:55:14 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA153621314; Mon, 16 Nov 1998 21:55:14 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Tue, 17 Nov 1998 02:55:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199811170255.CAA23155@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Nov 17 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 321 ISSUED AT 0245Z ON 17 NOV 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 16 NOV
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0940 0941 0941                       110                           
+ 0958 0959 0959                       140                           
+ 2144 2153 2200  8383 S14W29 C4.9  SF               II              
+B.  PROTON EVENTS:  THE GT 10 MEV PROTON FLUX BEGAN THE PERIOD NEAR
+16 PFU AND DECAYED SLOWLY THROUGH THE DAY. FLUXES AT THE END OF THE
+PERIOD WERE NEAR 3 PFU.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 125  SSN 076  AFR/AP 008/007   X-RAY BACKGROUND B4.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.8E+06   GT 10 MEV 7.4E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.00E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 3 1 2 2 2 1 3 PLANETARY 2 3 2 2 1 2 1 2 
+F.  COMMENTS:  A WEAK 245 MHZ RADIO NOISE STORM OCCURRED DURING THE
+PERIOD.
+
+

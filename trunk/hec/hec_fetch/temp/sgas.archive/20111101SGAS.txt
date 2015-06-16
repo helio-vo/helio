@@ -1,0 +1,31 @@
+:Product: 1101SGAS.txt
+:Issued: 2011 Nov 01 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 305 Issued at 0245Z on 01 Nov 2011
+This report is compiled from data received at SWO on 31 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0644 0646 0646                       100                           
+ 0744 0744 0744                       130                           
+ 0936 0936 0936                       120                           
+ 1455 1508 1527              M1.1                                   
+ 1721 1808 1850              M1.4                                   
+ 2316 2322 2328              C5.2     120                           
+ 2328 2328 2328                       130                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet to unsettled
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 138  SSN 112  Afr/Ap 009/008   X-ray Background B8.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.30e+05 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 1 1 1 2 2 2 3 Planetary 3 0 1 1 2 1 3 3 
+F.  Comments:  None

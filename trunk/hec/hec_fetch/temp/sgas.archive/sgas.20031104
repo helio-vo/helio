@@ -1,0 +1,58 @@
+From sgas-owner@sec.noaa.gov  Tue Nov  4 02:50:21 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id hA42o5c14604
+	for sgas-sendit; Tue, 4 Nov 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 4 Nov 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200311040250.hA42o3o14512@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Nov 04 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 308 Issued at 0245Z on 04 Nov 2003
+This report is compiled from data received at SWO on 03 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0109 0130 0145  0488 N10W83 X2.7  2b 100    240    II/IV           
+ 0112 0132 0000       N08W69       2b                  IV           
+ 0235 0236 0237                       150                           
+ 0242 0245 0250                       110                           
+ 0324 0324 0325                       130                           
+ 0730 0731 0731                       140                           
+ 0943 0955 1019  0488 N08W77 X3.9  2f 3900   4400   II/IV           
+ 1517 1517 1517                       100                           
+ 1526 1532 1543  0486 S15W79 M3.9  Sf 55     210                    
+ 1558 1558 1558                       140                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 02/1105Z has thus far had a maximum of 1570 pfu, which occurred
+at 03/0815Z and has recently been ranging between 400 and 800 pfu's
+at the time of this writing.  The greater than 100 MeV proton event
+began at 02/1740Z, reached a maximum of 49 pfu at 02/1905Z, and
+ended at 03/1720Z.  The polar cap absorption event remains in
+progress.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 167  SSN 076  Afr/Ap 012/010   X-ray Background C3.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.6e+08   GT 10 MeV 8.9e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 2 3 3 2 3 Planetary 3 3 2 3 2 3 2 3 
+F.  Comments:  None
+

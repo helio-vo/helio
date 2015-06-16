@@ -1,0 +1,57 @@
+From sgas-owner  Sun Sep 30 02:50:09 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA23136
+	for sgas-sendit; Sun, 30 Sep 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 30 Sep 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200109300250.CAA23051@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Sep 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 273 Issued at 0245Z on 30 Sep 2001
+This report is compiled from data received at SWO on 29 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000 0000 0043                                        IV
+ 1019 1106 1148  9636 N13E03 M1.8  1f 32                            
+ 1250 1301 1303                       420                           
+ 1334 1334 1334                       1300                          
+ 1529 1529 1530                       1000                                   
+ 1955 1955 1955                       100                           
+B.  Proton Events:  The greater than 10MeV proton event which began
+on 25 September remains in progress.  Peak flux was 12900 pfu at
+25/2235 UTC.  Current flux levels (at 29/2400 UTC) are about 22 pfu.
+C.  Geomagnetic Activity Summary:  Geomagnetic field activity was
+quiet to minor storm.  A 17 nT sudden impulse was observed on the
+Boulder magnetometer at 29/0940 UTC, preceded by an earlier shock
+passage observed on the ACE satellite.  Several active periods and
+an isolated minor storm period occurred through the remainder of the
+day.  Solar wind speed remains elevated and IMF signatures suggest
+the predominant influence of a coronal hole high speed stream.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 240  SSN 233  Afr/Ap ???/021   X-ray Background C2.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.1e+07   GT 10 MeV 4.3e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.50e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 4 2 4 4 5 Planetary 3 3 3 4 3 4 3 5 
+F.  Comments:  Afr estimated from Boulder A.  Type IV event reported
+in Section A above began at 28/1753 UTC, in association with an 
+optical flare from Region 9628 (S17W48) at that time.
+

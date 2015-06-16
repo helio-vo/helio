@@ -1,0 +1,49 @@
+From sgas-owner  Sun Sep  3 02:50:10 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA25877
+	for sgas-sendit; Sun, 3 Sep 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 3 Sep 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200009030250.CAA25828@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Sep 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 247 ISSUED AT 0245Z ON 03 SEP 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 02 SEP
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0453 0453 0454                       810                           
+ 0545 0545 0546                       660                           
+ 0617 0617 0617                       300                           
+ 0726 0727 0727                       310                           
+ 0939 0942 0943                       920                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+UNSETTLED TO ACTIVE, WITH SOME MINOR STORMING BETWEEN 0900 AND
+1200UTC.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 154  SSN 177  AFR/AP 018/023   X-RAY BACKGROUND B6.3
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.0E+05   GT 10 MEV 9.9E+03 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.30E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 4 4 5 4 4 3 3 PLANETARY 4 3 4 5 4 3 3 3 
+F.  COMMENTS:  ENERGETIC ELECTRON FLUXES AT GEOSYNCHRONOUS ORBIT
+REACHED MODERATE LEVELS.
+

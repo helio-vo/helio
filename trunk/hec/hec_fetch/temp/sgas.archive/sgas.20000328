@@ -1,0 +1,46 @@
+From sgas-owner  Tue Mar 28 02:50:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA12376
+	for sgas-sendit; Tue, 28 Mar 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 28 Mar 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200003280250.CAA12213@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 088 ISSUED AT 0245Z ON 28 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 27 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0637 0654 0714              C2.3     130           II              
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  QUIET TO UNSETTLED.
+D.  STRATWARM:  STRATWARM ALERT EXISTS STRATWARM MONDAY
+MINOR WARMING OVER EUROPE/SIBERIA AND THE WHOLE
+ARCTIC AT 10 HPA CONTINUES, SLOWLY WEAKENING. TEMPE-
+RATURE GRADIENT REVERSED BETWEEN 60N AND THE POLE
+IN THE MIDDLE AND UPPER STRATOSPHERE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 205  SSN 227  AFR/AP 003/005   X-RAY BACKGROUND C1.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.7E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 7.50E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 1 0 3 3 1 1 PLANETARY 2 1 0 1 2 2 2 1 
+F.  COMMENTS:  NONE
+

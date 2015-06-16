@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Tue Apr 29 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h3T2o5815357
+	for sgas-sendit; Tue, 29 Apr 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 29 Apr 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200304290250.h3T2o2n15201@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Apr 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 119 Issued at 0245Z on 29 Apr 2003
+This report is compiled from data received at SWO on 28 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0234 0234 0235                       350                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to minor storm levels.  A very weak signature from the NASA/ACE data
+indicate a transient may have passed around 28/1200Z although the
+elevated geomagnetic conditions are believed to be from a recurrent
+coronal hole.  The greater than 2 MeV electron fluxes at
+geosynchronous orbit have again reached high levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 152  SSN 175  Afr/Ap 016/020   X-ray Background B5.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.80e+08 e/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 3 5 3 4 2 2 1 2 Planetary 3 5 4 5 3 3 2 2 
+F.  Comments:  None
+

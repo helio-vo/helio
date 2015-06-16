@@ -1,0 +1,78 @@
+HESSI Flare List  (generated 23-Sep-2012 10:37)
+
+Total # flares: 68954  Time range: 12-Feb-2002 21:29:56.000 - 31-Aug-2012 23:58:56.000
+ 
+    Flare     Start time        Peak      End      Dur   Peak     Total      Energy X Pos Y Pos Radial   AR          Flags          
+                                                     s    c/s    Counts         keV  asec  asec   asec                              
+
+  9080105  1-Aug-2009 10:31:20 10:32:50 10:32:56    96     88     20328         3-6     0     0      0    0  A0 PE PS Q1              
+  9080107  1-Aug-2009 13:47:00 13:49:06 13:49:12   132     80     27336         3-6     0     0      0    0  A0 PE PS Q1              
+  9080212  2-Aug-2009 22:14:56 22:17:18 22:17:20   144     96     35953         3-6     0     0      0    0  a0 A1 GE PE PS Q2        
+  9080213  2-Aug-2009 22:24:12 22:24:18 22:31:12   420     76     48014         3-6     0     0      0    0  a0 A1 GS PE PS Q2        
+  9080304  3-Aug-2009 10:23:56 10:25:22 10:25:28    92     92     20544         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9080313  3-Aug-2009 22:12:04 22:16:02 22:21:20   556    168    286814         3-6     0     0      0    0  a0 A1 PE PS Q1           
+  9080403  4-Aug-2009 10:20:16 10:21:38 10:21:44    88     92     19200         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9080404  4-Aug-2009 11:58:12 11:59:54 12:00:00   108     92     24072         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9080515  5-Aug-2009 11:54:32 11:56:26 11:56:32   120     80     24504         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9080605  6-Aug-2009 11:50:52 11:53:22 11:53:28   156     80     31968         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9080704  7-Aug-2009 10:09:20 10:10:50 10:10:56    96     92     21000         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9080707  7-Aug-2009 20:19:36 20:24:02 20:29:00   564    200    339101         3-6     0     0      0    0  a0 a1 A3 PE PS Q1        
+  9080814  8-Aug-2009 20:16:40 20:19:54 20:23:48   428     88    122256         3-6     0     0      0    0  A0 PE PS Q1              
+  9081112 11-Aug-2009 18:26:56 18:31:18 18:37:08   612    224    413198         3-6     0     0      0    0  a0 a1 A3 PE PS Q1        
+  9081209 12-Aug-2009 18:24:08 18:27:30 18:31:44   456    104    154032         3-6     0     0      0    0  A0 PE PS Q1              
+  9081508 15-Aug-2009 16:34:24 16:37:38 16:38:56   272    224    126850         3-6     0     0      0    0  a0 a1 A3 GD GE PE PS Q3  
+  9081607 16-Aug-2009 13:43:36 13:44:10 13:46:12   156    120     23328         3-6     0     0      0    0  A0 NS                    
+  9081610 16-Aug-2009 16:31:32 16:34:54 16:39:56   504    128    200183        6-12   665   -68    669    0  a0 A1 P1 PE Q1           
+  9081801 18-Aug-2009 01:02:16 01:02:46 01:04:00   104    128     20160         3-6     0     0      0    0  A0 PE PS Q1              
+  9081802 18-Aug-2009 14:55:48 14:55:54 14:57:52   124     60     22176  7000-20000   583    79    588    0  A0 GS P1 PE Q2           
+  9081920 19-Aug-2009 14:41:44 14:44:50 14:44:56   192    224    110563         3-6     0     0      0    0  a0 a1 A3 GE PE PS Q2     
+  9082014 20-Aug-2009 14:38:44 14:42:22 14:47:40   536    160    269928         3-6     0     0      0    0  a0 A1 a3 PE PS Q1        
+  9082109 21-Aug-2009 11:13:56 11:15:06 11:15:12    76     96     18960         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9082110 21-Aug-2009 14:35:52 14:38:42 14:42:24   392     72     98040    800-7000   545    80    551    0  A0 P1 PE Q1              
+  9082424 24-Aug-2009 12:46:04 12:50:30 12:55:56   592    208    362018         3-6     0     0      0    0  a0 a1 A3 DF PE PS Q2     
+  9082736 27-Aug-2009 23:05:32 23:06:50 23:06:56    84     88     18576         3-6     0     0      0    0  A0 GE NS PE Q2           
+  9082825 28-Aug-2009 10:53:24 10:57:50 11:03:36   612    256    476960         3-6     0     0      0    0  a0 a1 A3 DF PE PS Q2     
+  9082831 28-Aug-2009 23:01:48 23:03:06 23:03:12    84     84     16728         3-6     0     0      0    0  A0 PE PS Q1              
+  9083001 30-Aug-2009 00:36:08 00:38:02 00:38:08   120     96     29616         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9083024 30-Aug-2009 22:54:36 22:55:54 22:56:00    84     84     17376         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9083101 31-Aug-2009 00:32:32 00:34:42 00:34:48   136     80     29424         3-6     0     0      0    0  A0 GE PE PS Q2           
+
+Notes: 
+  Note that only events with non-zero position and energy range not equal to 3-6 keV are confirmed as solar sources.
+  Events which have no position and show up mostly in the front detectors, but were not able to be imaged 
+    are flagged as "PS".
+  Events which do not have valid position are only confirmed to be non-solar if the NS flag is set.
+  Peak Rate:  peak counts/second in energy range 6-12 keV, averaged over active collimators, including background.
+  Total Counts:  counts in energy range 6-12 keV integrated over duration of flare summed over all subcollimators,
+    including background.
+  Energy:  the highest energy band in which the flare was observed.
+  Radial Distance:  distance from Sun center
+  Quality Codes: Qn, where n is the total number of data gap, SAA, particle, eclipse or decimation flags set for event.
+    n ranges from 0 to 11.  Use care when analyzing the data when the quality is not zero.
+
+Flare Flag Codes: 
+  a0 - In attenuator state 0 (None) sometime during flare
+  a1 - In attenuator state 1 (Thin) sometime during flare
+  a2 - In attenuator state 2 (Thick) sometime during flare
+  a3 - In attenuator state 3 (Both) sometime during flare
+  An - Attenuator state (0=None, 1=Thin, 2=Thick, 3=Both) at peak of flare
+  DF - Front segment counts were decimated sometime during flare
+  DR - Rear segment counts were decimated sometime during flare
+  ED - Spacecraft eclipse (night) sometime during flare
+  EE - Flare ended in spacecraft eclipse (night)
+  ES - Flare started in spacecraft eclipse (night)
+  FE - Flare ongoing at end of file
+  FR - In Fast Rate Mode
+  FS - Flare ongoing at start of file
+  GD - Data gap during flare
+  GE - Flare ended in data gap
+  GS - Flare started in data gap
+  MR - Spacecraft in high-latitude zone during flare
+  NS - Non-solar event
+  PE - Particle event: Particles are present
+  PS - Possible Solar Flare; in front detectors, but no position
+  Pn - Position Quality: P0 = Position is NOT valid, P1 = Position is valid
+  Qn - Data Quality: Q0 = Highest Quality, Q11 = Lowest Quality
+  SD - Spacecraft was in SAA sometime during flare
+  SE - Flare ended when spacecraft was in SAA
+  SS - Flare started when spacecraft was in SAA

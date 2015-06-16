@@ -1,0 +1,77 @@
+From sgas-owner  Thu Jun 22 02:50:32 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA23771
+	for sgas-sendit; Thu, 22 Jun 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 22 Jun 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200006220250.CAA23616@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jun 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 174 ISSUED AT 0245Z ON 22 JUN 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 21 JUN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0427 0427 0428                       720                           
+ 0431 0432 0432                       2300                          
+ 0435 0436 0437                       260                           
+ 0458 0458 0458                       570                           
+ 0501 0502 0502                       3700                          
+ 0523 0523 0524                       430                           
+ 0540 0543 0545  9036 S23W79       SF 790                           
+ 0612 0612 0613  9043                 2200                          
+ 0711 0711 0713                       580                           
+ 0734 0737 0738  9042                 2600                          
+ 0745 0745 0746                       380                           
+ 0755 0757 0756  9042                 420                           
+ 0756 0800 0802  9042 N19W37 C3.9  1N 7300   72     II              
+ 0841 0902 0916  9051 N19E20 C4.7  SF 1400                          
+ 0922 0929 0937  9042 N24W42 M1.3  SF        76                     
+ 1012 1018 1034  9046 N20W06       SF 120                           
+ 1041 1041 1042                       440                           
+ 1044 1045 1046                       2500                          
+ 1117 1124 1125                       400                           
+ 1206 1206 1207                       990                           
+ 1224 1225 1231  9042 N22W38       SF 570                           
+ 1232 1232 1232                       150                           
+ 1235 1235 1235                       130                           
+ 1246 1248 1249                       500                           
+ 1309 1309 1312                       300                           
+ 1356 1359 1359                       240                           
+ 1404 1405 1408  9042 N21W44       SF 3300                          
+ 1554 1554 1555                       350                           
+ 1846 1849 1849                       670                           
+ 2303 2304 2304                       220                           
+ 2327 2327 2329                       100                           
+ 2338 2338 2338                       750                           
+ 2342 2342 2343                       110                           
+ 2347 2347 2349                       1300                          
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 188  SSN 226  AFR/AP 006/008   X-RAY BACKGROUND B7.9
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.2E+04   GT 10 MEV 1.0E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 8.30E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 1 1 1 1 2 1 3 PLANETARY 2 1 1 2 2 3 3 3 
+F.  COMMENTS:  A 245 MHZ RADIO NOISE STORM WAS IN PROGRESS FROM
+APPROXIMATELY 21/1030-1315Z.
+

@@ -1,0 +1,34 @@
+:Product: 1001SGAS.txt
+:Issued: 2011 Oct 01 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 274 Issued at 0245Z on 01 Oct 2011
+This report is compiled from data received at SWO on 30 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0645 0645 0645                       150                           
+ 1201 1201 1203                       140                           
+ 1342 1349 1403              B7.6     580                           
+ 1627 1627 1627                       100                           
+ 1734 1734 1734                       200                           
+ 1855 1906 1915  1305 N08E06 M1.0  1f 220    260    II              
+ 2149 2207 2216  1302 N18W29       Sf 670                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field began the
+period quiet before increasing to active levels as the result of
+-10nT Bz conditions in conjunction with multiple polarity shifts
+observed at ACE late a period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 138  SSN 089  Afr/Ap 005/008   X-ray Background B4.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+06   GT 10 MeV 2.7e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.50e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 0 1 1 2 2 3 Planetary 1 0 0 0 1 1 4 4 
+F.  Comments:  None

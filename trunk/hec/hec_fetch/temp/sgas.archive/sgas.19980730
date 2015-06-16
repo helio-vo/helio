@@ -1,0 +1,45 @@
+From owner-sgas@proton.sel.noaa.gov Thu Jul 30 22:55:25 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA225773725; Thu, 30 Jul 1998 22:55:25 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Fri, 31 Jul 1998 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199807310255.CAA02836@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Jul 31 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 212 ISSUED AT 0245Z ON 31 JUL 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 30 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1210 1211 1212                       120                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC WAS MOSTLY QUIET
+TO UNSETTLED, BUT TRANSITIONED TO MINOR STORM LEVELS BETWEEN
+2100-2400Z. A SUDDEN IMPULSE OF 37 NT WAS OBSERVED IN BOULDER AT
+2340Z.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 115  SSN 069  AFR/AP 011/012   X-RAY BACKGROUND B1.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.8E+05   GT 10 MEV 1.7E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.40E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 1 2 2 2 2 5 PLANETARY 2 2 1 2 2 3 3 5 
+F.  COMMENTS:  NONE
+
+

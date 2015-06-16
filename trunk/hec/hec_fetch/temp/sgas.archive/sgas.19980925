@@ -1,0 +1,61 @@
+From owner-sgas@proton.sel.noaa.gov Fri Sep 25 22:56:44 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA136338603; Fri, 25 Sep 1998 22:56:44 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 26 Sep 1998 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199809260255.CAA00158@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Sep 26 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 269 ISSUED AT 0245Z ON 26 SEP 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 25 SEP
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0006 0009 0009                       500                           
+ 0108 0109 0111                       720                           
+ 0238 0243 0245                       640                           
+ 0556 0557 0558                       610                           
+ 0612 0612 0612                       260                           
+ 0616 0617 0617                       850                           
+ 0641 0643 0646                       580                           
+ 0715 0717 0718                       830                           
+ 0742 0742 0743                       560                           
+ 0804 0804 0805                       580                           
+ 1009 1011 1012                       960                           
+B.  PROTON EVENTS:  A GREATER THAN 10 MEV PROTON EVENT BEGAN AT
+25/0010Z, REACHED A MAXIMUM OF 44 PFU AT 25/0130Z, AND ENDED AT
+25/0230Z. THE EVENT WAS LIKELY ASSOCIATED WITH THE M7/3B ON
+23/0713Z.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD REACHED
+ACTIVE TO SEVERE STORM LEVELS SOON AFTER THE SHOCK AT
+GEOSYNCHRONOUS ORBIT AT 24/2315Z. K-INDICES REACHED 9 AT BOTH MID
+AND HIGH LATITUDES DURING THE 06-09Z INTERVAL. THE FIELD RETURNED TO
+QUIET TO UNSETTLED LEVELS BY THE END OF THE PERIOD. THE GREATER THAN
+2 MEV ENERGETIC ELECTRON FLUX REACHED HIGH LEVELS BETWEEN 25/1830 -
+2115Z.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 139  SSN 118  AFR/AP 097/121   X-RAY BACKGROUND B3.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.1E+08   GT 10 MEV 3.4E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 5.20E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 6 6 9 7 5 3 2 2 PLANETARY 7 8 9 7 7 5 3 3 
+F.  COMMENTS:  NONE
+
+

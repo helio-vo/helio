@@ -1,0 +1,45 @@
+From srs-owner  Sat Dec 15 00:40:08 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id AAA09206
+	for srs-sendit; Sat, 15 Dec 2001 00:40:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Sat, 15 Dec 2001 00:40:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112150040.AAA09142@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2001 Dec 15 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar Region Summary
+SRS Number 349 Issued at 0030Z on 15 Dec 2001
+Report compiled from data received at SWO on 14 Dec
+I.  Regions with Sunspots.  Locations Valid at 14/2400Z 
+Nmbr Location  Lo  Area  Z   LL   NN Mag Type
+9727 S21W77   020  0550 Eki  12   12 Beta-Gamma-Delta
+9732 N03W33   336  0060 Hsx  02   01 Alpha
+9733 N14W10   313  0450 Eac  15   58 Beta-Gamma-Delta
+9734 S13E12   291  0010 Axx  01   01 Alpha
+9736 S10W82   025  0060 Cso  06   03 Beta
+9737 S28E00   303  0040 Dso  07   08 Beta
+9738 S20E40   263  0060 Eso  11   07 Beta
+9739 S13W15   318  0060 Dao  07   09 Beta
+9740 S06E42   261  0010 Hsx  01   01 Alpha
+9741 N06E56   247  0010 Axx  02   02 Alpha
+IA. H-alpha Plages without Spots.  Locations Valid at 14/2400Z Dec
+Nmbr  Location  Lo
+9730  S12W70   015
+9731  N25W69   013
+II. Regions Due to Return 15 Dec to 17 Dec
+Nmbr Lat    Lo
+9712 N12    180
+9714 S08    195
+

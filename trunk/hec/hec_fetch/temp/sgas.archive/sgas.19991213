@@ -1,0 +1,48 @@
+From owner-sgas@proton.sel.noaa.gov Mon Dec 13 21:56:37 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA003370197; Mon, 13 Dec 1999 21:56:37 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Tue, 14 Dec 1999 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199912140255.CAA21245@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Dec 14 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 348 ISSUED AT 0245Z ON 14 DEC 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 13 DEC
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0040 0043 0045                       220                           
+ 1008 1008 1008                       150                           
+ 1648 1649 1649                       230                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+MAJOR STORM.  MAJOR STORM CONDITIONS WERE OBSERVED DURING THE PERIOD
+FROM 13/0900 - 1200Z.  THE PRECISE SOURCE OF THIS DISTURBANCE IS
+UNKNOWN.  THE GREATER THAN 2 MEV ELECTRONS AT GEOSYNCHRONOUS ORBIT
+DECREASED BELOW HIGH LEVELS AROUND 13/0500Z.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 166  SSN 147  AFR/AP 026/026   X-RAY BACKGROUND B5.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.7E+05   GT 10 MEV 1.1E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.10E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 4 4 6 4 4 2 1 PLANETARY 3 4 5 5 5 4 2 1 
+F.  COMMENTS:  NONE
+
+

@@ -1,0 +1,26 @@
+:Product: 0506SGAS.txt
+:Issued: 2012 May 06 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 127 Issued at 0245Z on 06 May 2012
+This report is compiled from data received at SWO on 05 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0744 0744 0744                       140                           
+ 1319 1323 1329  1476 N13E82 M1.4  Sn                               
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 116  SSN 088  Afr/Ap 004/004   X-ray Background B6.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.3e+04   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 0 2 2 2 1 2 Planetary 1 1 0 1 2 1 2 1 
+F.  Comments:  None

@@ -1,0 +1,40 @@
+From owner-srs@proton.sel.noaa.gov Thu Mar 25 19:42:18 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA223308938; Thu, 25 Mar 1999 19:42:18 -0500
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Fri, 26 Mar 1999 00:40:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199903260040.AAA13820@solar.sec.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1999 Mar 26 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 85 ISSUED AT 0030Z ON 26 MAR 1999
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 25 MAR
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 25/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8496 S11W89   208  0000 AXX  00   01 ALPHA
+8497 N29E25   094  0080 HSX  02   01 ALPHA
+8498 N17E42   077  0060 HAX  02   03 ALPHA
+8499 N22W50   169  0070 DSO  06   03 BETA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 25/2400Z MAR
+NMBR  LOCATION  LO
+8490  S17W41   160
+8494  S23W63   182
+8495  S21W16   135
+II. REGIONS DUE TO RETURN 26 MAR TO 28 MAR
+NMBR LAT    LO
+8477 S29    001
+8483 S18    018
+
+

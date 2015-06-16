@@ -1,0 +1,39 @@
+:Product: 0507SGAS.txt
+:Issued: 2013 May 07 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 127 Issued at 0245Z on 07 May 2013
+This report is compiled from data received at SWO on 06 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0049 0049 0049                       100                           
+ 0757 0757 0757                       100                           
+ 1007 1007 1007                       100                           
+ 1034 1034 1034                       170                           
+ 1034 1034 1034                       120                           
+ 1051 1051 1102                       390                           
+ 1129 1129 1130                       160                           
+ 1243 1243 1243                       170                           
+ 1541 1542 1549  1734 S16W20       Sf 130                           
+ 1721 1722 1725                       150                           
+ 1740 1740 1740                       100                           
+ 1747 1747 1747                       150                           
+ 1804 1804 1804                       150                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 131  SSN 122  Afr/Ap 009/008   X-ray Background B5.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.9e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 3 2 2 2 2 3 Planetary 2 1 3 2 2 2 2 3 
+F.  Comments:  NOAA planetary Kp values used in place of Boulder
+magnetometer due to missing data.

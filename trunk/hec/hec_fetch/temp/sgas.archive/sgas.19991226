@@ -1,0 +1,51 @@
+From owner-sgas@proton.sel.noaa.gov Sun Dec 26 21:57:28 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA169423448; Sun, 26 Dec 1999 21:57:28 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Mon, 27 Dec 1999 02:55:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199912270255.CAA22811@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Dec 27 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 361 ISSUED AT 0245Z ON 27 DEC 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 26 DEC
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0240 0240 0241                       770                           
+ 0614 0614 0614                       150                           
+ 0617 0618 0618                       190                           
+ 0646 0646 0646                       100                           
+ 1257 1257 1258                       150                           
+ 1611 1611 1612                       430                           
+ 1613 1617 1621  8806 N21W26 C1.7  SF 220                           
+ 1655 1702 1709              C2.0     550                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET,
+BECOMING SLIGHTLY DISTURBED AT THE END OF THE DAY.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 177  SSN 125  AFR/AP 001/002   X-RAY BACKGROUND B8.9
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.4E+04   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.00E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 0 0 0 0 1 0 1 PLANETARY 1 0 0 0 0 1 1 1 
+F.  COMMENTS:  A SHOCK WAS OBSERVED AT ACE AT 2126UT, A MINOR IMPULSE
+WAS SEEN AT EARTH AROUND 2230UT.
+
+

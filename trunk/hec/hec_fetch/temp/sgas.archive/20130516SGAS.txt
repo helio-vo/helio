@@ -1,0 +1,29 @@
+:Product: 0516SGAS.txt
+:Issued: 2013 May 16 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 136 Issued at 0245Z on 16 May 2013
+This report is compiled from data received at SWO on 15 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0125 0148 0158  1748 N12E64 X1.2  2n 430    440    II/IV           
+B.  Proton Events:  A Greater than 10 MeV Proton event occurred at
+15/1535Z, reached a peak flux of 23 pfu, and was ongoing as of the
+writing of this summary.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels with a brief period of minor storming detected
+at high latitudes.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 146  SSN 186  Afr/Ap 010/008   X-ray Background B7.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.8e+06   GT 10 MeV 8.1e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.00e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 2 3 3 3 2 2 Planetary 1 1 2 3 3 2 2 1 
+F.  Comments:  None

@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Fri Feb 14 02:50:09 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h1E2o4l17030
+	for sgas-sendit; Fri, 14 Feb 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 14 Feb 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200302140250.h1E2o2716897@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Feb 14 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 045 Issued at 0245Z on 14 Feb 2003
+This report is compiled from data received at SWO on 13 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.  The greater than 2 MeV electron fluxes at
+geosynchronous orbit reached moderate levels today.
+D.  Stratwarm:  STRATWARM ALERT / THURSDAY / STRATWARM EXITS.
+IN THE MIDDLE AND UPPER STRATOSPHERE, SLIGHTLY DISTURBED TEMPERATURE
+DISTRIBUTION WITH A WARM REGION OVER SIBERIA LEADING TO A REVERSED
+TEMPERATURE GRADIENT BETWEEN 60N AND THE POLE FROM 5 TO 1 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 131  SSN 113  Afr/Ap 007/008   X-ray Background B2.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.1e+04   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.50e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 2 1 2 2 2 3 Planetary 2 2 1 2 3 3 2 3 
+F.  Comments:  None
+

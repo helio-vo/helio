@@ -1,0 +1,52 @@
+From sgas-owner  Sat Aug  4 02:50:17 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA09355
+	for sgas-sendit; Sat, 4 Aug 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 4 Aug 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200108040250.CAA09263@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Aug 04 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 216 Issued at 0245Z on 04 Aug 2001
+This report is compiled from data received at SWO on 03 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0302 0307 0309  9563 N22E27       Sn 6300                          
+ 0541 0541 0543                       170                           
+ 0656 0656 0656                       160                           
+ 0713 0713 0714                       150                           
+ 0740 0750 0754  9563 N24E28       Sf 500                           
+ 1018 1019 1019                       110                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. Quiet conditions prevailed before a shock impacted ACE at
+03/0626Z.  This shock was likely associated with the filament
+eruption and CME on 31 July. The impact was relatively weak with no
+significant southward Bz, consequently, only isolated active periods
+were observed.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 132  SSN 140  Afr/Ap 013/014   X-ray Background B3.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.3e+04   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.50e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 4 3 2 3 3 3 Planetary 2 2 4 3 3 3 3 3 
+F.  Comments:  None
+

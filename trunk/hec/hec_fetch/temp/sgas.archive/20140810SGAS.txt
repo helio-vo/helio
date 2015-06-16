@@ -1,0 +1,40 @@
+:Product: 0810SGAS.txt
+:Issued: 2014 Aug 10 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 222 Issued at 0245Z on 10 Aug 2014
+This report is compiled from data received at SWO on 09 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0128 0128 0128                       100                           
+ 0201 0201 0201                       130                           
+ 0207 0207 0207                       250                           
+ 0607 0607 0607                       100                           
+ 0627 0627 0627                       110                           
+ 0632 0632 0632                       110                           
+ 0715 0715 0715                       150                           
+ 0812 0812 0812                       150                           
+ 0819 0819 0819                       100                           
+ 0842 0842 0842                       110                           
+ 1118 1118 1118                       110                           
+ 1200 1200 1200                       200                           
+ 1206 1206 1206                       110                           
+ 1426 1426 1426                       130                           
+ 1541 1541 1541                       100                           
+ 1758 1758 1758                       110                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 113  SSN 111  Afr/Ap 004/003   X-ray Background B3.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+05   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 2 3 0 1 2 2 1 Planetary 1 2 2 0 0 1 1 1 
+F.  Comments:  None.

@@ -1,0 +1,38 @@
+:Product: 0219SGAS.txt
+:Issued: 2011 Feb 19 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 050 Issued at 0245Z on 19 Feb 2011
+This report is compiled from data received at SWO on 18 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0114 0114 0114                       480                           
+ 0114 0114 0114                       140                           
+ 0154 0154 0154                       800                           
+ 0155 0155 0155                       590                           
+ 0502 0502 0503                       550                           
+ 0955 1011 1015  1162        M6.6     230                           
+ 1058 1059 1059                       210                           
+ 1148 1148 1148                       760                           
+ 1259 1303 1306  1158        M1.4                                   
+ 1636 1639 1641  1162        C2.3                                   
+ 1902 1918 1928  1162        C7.1                                   
+ 2056 2104 2114  1162        M1.3                                   
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was usettled
+to active with an isolated period of minor storm conditions at high
+latitudes.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 125  SSN 101  Afr/Ap 015/017   X-ray Background B8.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.4e+06   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.40e+05 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 4 3 3 3 3 2 Planetary 3 4 5 3 3 3 2 1 
+F.  Comments:  None

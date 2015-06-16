@@ -1,0 +1,53 @@
+From sgas-owner@sec.noaa.gov  Fri Jun 13 04:30:13 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h5D4U5B21086
+	for sgas-sendit; Fri, 13 Jun 2003 04:30:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 13 Jun 2003 04:30:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200306130430.h5D4U3k20988@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jun 13 0430 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 164 Issued at 0245Z on 13 Jun 2003
+This report is compiled from data received at SWO on 12 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0104 0130 0152  0375 N15W65 M7.3  1f 82                            
+ 0704 0704 0704                       160                           
+ 0726 0726 0726                       110                           
+ 0821 0822 0822                       110                           
+ 0927 0929 0930                       150                           
+ 1204 1204 1204                       300                           
+ 1358 1403 1409  0375 N10W65 M1.0  Sf                               
+ 1706 1712 1716  0375 N14W73 M1.1  Sf                               
+ 2122 2127 2131  0375        M2.6            130                    
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+ quiet to minor storm levels.  Solar
+wind speed decreased to around 500 km/s as a coronal hole has
+rotated out of geoeffective position.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 164  SSN 168  Afr/Ap 011/011   X-ray Background C1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.2e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W122 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 3 2 3 2 4 4 5 4 Planetary 2 2 3 2 3 3 3 3 
+F.  Comments:  None.
+

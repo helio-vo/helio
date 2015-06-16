@@ -1,0 +1,31 @@
+:Product: 0406SGAS.txt
+:Issued: 2010 Apr 06 0246 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 096 Issued at 0245Z on 06 Apr 2010
+This report is compiled from data received at SWO on 05 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to severe storm levels during the past 24 hours. Conditions
+were initially quiet to unsettled, but increased to active levels
+after 0300Z, and increased further to major to severe storm levels
+between 0900-1200Z.  Activity declined to active to major storm
+levels from 1200-1800Z and declined further to mostly quiet to
+unsettled levels from 1800-2400Z.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 079  SSN 041  Afr/Ap 028/049   X-ray Background A4.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.6e+07   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.10e+07 e/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 2 4 4 7 5 4 3 2 Planetary 3 4 4 7 6 5 4 4 
+F.  Comments:  None

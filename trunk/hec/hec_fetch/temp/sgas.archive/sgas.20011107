@@ -1,0 +1,62 @@
+From sgas-owner  Wed Nov  7 02:50:13 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA12861
+	for sgas-sendit; Wed, 7 Nov 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 7 Nov 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200111070250.CAA12734@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Nov 07 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 311 Issued at 0245Z on 07 Nov 2001
+This report is compiled from data received at SWO on 06 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0256 0300 0303  9687 S19E10 M2.0  1b        160    II              
+ 0301 0301 0304  9690 S19E65       Sf 370                           
+ 0620 0625 0629  9690        M1.2                                   
+ 0642 0642 0642                       210                           
+ 0707 0707 0716  9687 S19E08       Sf 190                           
+ 1158 1227 1303  9690        C5.9     250                           
+ 1345 1351 1405  9687 S17E05 M1.2  Sf        91                     
+ 1507 1549 1708  9690 S18E64 M1.1  Sf                               
+ 1759 1759 1800                       140                           
+ 2009 2011 2014                       210                           
+ 2158 2158 2200                       210                           
+ 2230 2231 2231                       150                           
+B.  Proton Events:  The greater than 10 MeV proton event peaked at
+31,700 pfu at 06/0215 UTC. The greater than 100 MeV proton event
+peaked at 253 pfu at 06/0220 UTC. Both proton events levels declined
+sharply during the period but continued through the end of the day.
+A polar cap absorption event remained in effect.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to severe storm conditions. The full-halo coronal mass
+ejection (CME) from the 04 November event impacted the geomagnetic
+field at 06/0150 UTC. This was indicated by a 90 nT sudden impulse
+as measured by the USGS Boulder magnetometer. Severe geomagnetic
+storming occurred between 06/0000 and 06/0600 UTC and 15-1800 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 237  SSN 189  Afr/Ap 075/112   X-ray Background C2.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.4e+09   GT 10 MeV 6.2e+08 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.90e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 7 7 6 4 4 7 4 3 Planetary 8 8 7 5 6 7 5 5 
+F.  Comments:  None
+

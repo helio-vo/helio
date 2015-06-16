@@ -1,0 +1,48 @@
+From owner-sgas@proton.sel.noaa.gov Fri Dec 17 21:56:53 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA145795813; Fri, 17 Dec 1999 21:56:53 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 18 Dec 1999 02:55:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199912180255.CAA03472@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Dec 18 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 352 ISSUED AT 0245Z ON 18 DEC 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 17 DEC
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0712 0712 0713                       160                           
+ 0802 0802 0802                       970                           
+ 1122 1123 1123                       4100                          
+ 1545 1545 1546                       380                           
+ 1627 1628 1628                       220                           
+ 2135 2141 2158              M1.0                                   
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 201  SSN 179  AFR/AP 008/005   X-RAY BACKGROUND C1.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 3.5E+04   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.40E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 1 2 3 2 2 1 PLANETARY 1 2 1 1 2 2 2 1 
+F.  COMMENTS:  NONE
+
+

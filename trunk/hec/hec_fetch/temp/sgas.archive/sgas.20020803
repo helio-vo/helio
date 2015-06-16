@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Sat Aug  3 02:50:10 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g732o5V19339
+	for sgas-sendit; Sat, 3 Aug 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 3 Aug 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200208030250.g732o2t19182@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Aug 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 215 Issued at 0245Z on 03 Aug 2002
+This report is compiled from data received at SWO on 02 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0649 0653 0655  0039 S16W68 C4.2  Sf 820                           
+ 1347 1355 1406  0039 S14W66 C3.6  Sf 470                           
+ 1410 1410 1411                       310                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+quiet to major storm conditions.  A shock hit eh ACE spacecraft at
+01/2220 UTC, resulting in a sudden impulse of 66 nt at 01/2313 UTC
+recorded on the Boulder magnetometer.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 180  SSN 220  Afr/Ap 025/037   X-ray Background C1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.6e+05   GT 10 MeV 8.5e+03 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.80e+04 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 6 4 2 3 4 3 5 Planetary 6 6 4 2 3 4 4 5 
+F.  Comments:  None
+

@@ -1,0 +1,46 @@
+From sgas-owner  Fri Oct 12 02:50:11 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA28251
+	for sgas-sendit; Fri, 12 Oct 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 12 Oct 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200110120250.CAA28087@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Oct 12 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 285 Issued at 0245Z on 12 Oct 2001
+This report is compiled from data received at SWO on 11 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0412 0425 0439  9657 N22E47 C4.6  Sf               II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Geomagnetic activity was at quiet
+to minor storm levels.  Quiet to unsettled conditions persisted
+until 11/1700 UTC when a 11 nT sudden impulse was observed.  Active
+to minor storming conditions have persisted since the shock which is
+believed to be associated with the 09/1113 UTC M1/2f flare and CME.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 175  SSN 174  Afr/Ap 017/017   X-ray Background B9.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.9e+07   GT 10 MeV 1.0e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 2 3 5 4 3 Planetary 2 3 2 1 3 5 5 4 
+F.  Comments:  None
+

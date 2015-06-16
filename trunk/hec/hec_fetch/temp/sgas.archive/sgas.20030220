@@ -1,0 +1,50 @@
+From sgas-owner@sec.noaa.gov  Thu Feb 20 02:50:10 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h1K2o4e24940
+	for sgas-sendit; Thu, 20 Feb 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 20 Feb 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200302200250.h1K2o2h24834@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Feb 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 051 Issued at 0245Z on 20 Feb 2003
+This report is compiled from data received at SWO on 19 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 2251 2310 2337                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.  The transient effects that began yesterday,
+and produced a structured solar wind, appear to be ending.  At
+19/1400 UTC, the steady decline in solar wind velocity reached a
+minimum near 500 km/s.  Solar wind velocity has since increased to
+560 km/s.  Bz show signs of returning to the fluctuating signature
+of a high speed stream.
+D.  Stratwarm:  STRATWARM ALERT/WEDNESDAY/STRATWARM EXISTS.
+The wave two pattern persists with a continuing reversed temperature
+gradient on all levels and easterly winds on 3 and 5 hpa.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 116  SSN 057  Afr/Ap 012/012   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.7e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.30e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 2 3 3 2 3 Planetary 3 3 3 2 3 3 3 3 
+F.  Comments:  None
+

@@ -1,0 +1,30 @@
+:Product: 0519SGAS.txt
+:Issued: 2006 May 19 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 139 Issued at 0245Z on 19 May 2006
+This report is compiled from data received at SWO on 18 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to minor storm levels. Solar wind speed at ACE showed an increase
+beginning around 18/0500 UTC as a coronal hole high speed stream
+moved into geoeffective position. Solar wind speed increased to
+around 600 km/s. An isolated minor storm period occurred between
+18/1500 and 18/1800 UTC.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 073  SSN 000  Afr/Ap 012/016   X-ray Background A2.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.9e+05   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W101 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.40e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 4 3 3 5 3 2 Planetary 2 2 3 2 2 5 4 2 
+F.  Comments:  None

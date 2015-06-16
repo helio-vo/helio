@@ -1,0 +1,46 @@
+From sgas-owner@sec.noaa.gov  Mon Aug  4 02:50:20 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_28809)/8.9.3) id CAA06196
+	for sgas-sendit; Mon, 4 Aug 2003 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 4 Aug 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200308040250.CAA06088@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Aug 04 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 216 Issued at 0245Z on 04 Aug 2003
+This report is compiled from data received at SWO on 03 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 2008 2009 2009                       150                           
+ 2014 2014 2014                       190                           
+ 2341 2354 0002  0424 S17E63 M1.3  1f                               
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+unsettled to active levels.  The coronal hole-driven high speed
+stream has passed beyond geoeffective range.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 120  SSN 144  Afr/Ap 012/015   X-ray Background B2.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W112 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.70e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 3 3 3 3 2 3 Planetary 3 4 3 3 3 3 3 3 
+F.  Comments:  None
+

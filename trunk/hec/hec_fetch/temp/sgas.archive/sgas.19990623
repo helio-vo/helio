@@ -1,0 +1,49 @@
+From owner-sgas@proton.sel.noaa.gov Wed Jun 23 22:58:54 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA012573134; Wed, 23 Jun 1999 22:58:54 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 24 Jun 1999 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199906240255.CAA11688@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Jun 24 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 175 ISSUED AT 0245Z ON 24 JUN 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 23 JUN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0037 0047 0055  8583 S12W78 C7.9  1F 350                           
+ 0542 0543 0544                       2400          II              
+ 0619 0619 0619                       160                           
+ 0649 0709 0735  8598 N23E42 M1.7  2N 220    88        IV           
+ 0715 0715 0716                       100                           
+ 1208 1252 1341  8592 N23E28 C2.3  SF 230              IV           
+ 2306 2316 2325              M1.1                                   
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 168  SSN 169  AFR/AP 005/006   X-RAY BACKGROUND B9.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 7.8E+05   GT 10 MEV 2.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.20E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 2 2 2 1 2 1 2 PLANETARY 1 1 2 2 2 2 2 3 
+F.  COMMENTS:  NONE
+
+

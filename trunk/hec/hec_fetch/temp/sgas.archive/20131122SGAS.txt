@@ -1,0 +1,36 @@
+:Product: 1122SGAS.txt
+:Issued: 2013 Nov 22 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 326 Issued at 0245Z on 22 Nov 2013
+This report is compiled from data received at SWO on 21 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1052 1111 1142  1893        M1.2                                   
+ 1219 1219 1219                       150                           
+ 1223 1223 1223                       100                           
+ 1424 1425 1425                       120                           
+ 1537 1537 1537                       130                           
+ 1635 1635 1635                       120                           
+ 1652 1652 1654                       180                           
+ 1721 1721 1721                       160                           
+ 2102 2102 2102                       890                           
+ 2129 2129 2130                       410                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 141  SSN 085  Afr/Ap 001/001   X-ray Background B6.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.0e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.60e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder ? ? ? ? ? ? ? ? Planetary 0 0 0 0 0 1 0 1 
+F.  Comments:  Boulder K-indices did not populate correctly. They
+should have populated as follows: 00-03 (0), 03-06 (0), 06-09 (0),
+09-12 (0), 12-15 (2), 15-18 (2), 18-21 (0), 21-24 (0).

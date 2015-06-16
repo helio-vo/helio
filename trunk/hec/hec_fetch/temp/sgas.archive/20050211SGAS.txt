@@ -1,0 +1,27 @@
+:Product: 20050211SGAS.txt
+:Issued: 2005 Feb 11 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 042 Issued at 0245Z on 11 Feb 2005
+This report is compiled from data received at SWO on 10 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0030 0030 0030                       120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Solar wind speed at ACE showed a decline from approximately
+750 km/s to 650 km/s during the reporting period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 114  SSN 063  Afr/Ap 010/017   X-ray Background B2.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.3e+06   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W109 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.70e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 4 3 3 4 3 3 3 3 Planetary 4 4 3 3 4 2 3 2 
+F.  Comments:  None

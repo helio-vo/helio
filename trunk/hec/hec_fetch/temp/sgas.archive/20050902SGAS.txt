@@ -1,0 +1,28 @@
+:Product: 0902SGAS.txt
+:Issued: 2005 Sep 02 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 245 Issued at 0245Z on 02 Sep 2005
+This report is compiled from data received at SWO on 01 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels.  Minor to major storm periods occurred
+between 31/2100 to 01/0600 UTC in response to the corotating
+interaction region that became geoeffective after 31/1000 UTC.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 079  SSN 024  Afr/Ap 022/021   X-ray Background A4.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+06   GT 10 MeV 4.9e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.70e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 6 3 3 4 1 1 2 Planetary 5 5 3 3 4 2 2 2 
+F.  Comments:  None

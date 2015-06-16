@@ -1,0 +1,49 @@
+From sgas-owner  Mon Apr  9 02:50:15 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA04543
+	for sgas-sendit; Mon, 9 Apr 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 9 Apr 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104090250.CAA04412@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 099 Issued at 0245Z on 09 Apr 2001
+This report is compiled from data received at SWO on 08 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0838 0838 0839                       150                           
+ 2335 2336 2336                       190                           
+ 2339 2340 2340                       560                           
+B.  Proton Events:  Proton fluxes > 10 MeV remained near event
+thresholds until the middle of the day and then have declined
+rapidly to near background levels.  The Thule Neutron Monitor has
+shown a decreasing counting rate beginning about 08/1500 UT and
+reaching down about five percent or more by 08/1800 UT.
+C.  Geomagnetic Activity Summary:  Geomagnetic activity has ranged
+from quiet to minor storm values.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 169  SSN 188  Afr/Ap 033/041   X-ray Background B6.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.7e+07   GT 10 MeV 2.8e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 4 5 5 4 5 5 Planetary 3 1 4 6 6 4 5 5 
+F.  Comments:  None
+

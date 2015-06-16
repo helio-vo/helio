@@ -1,0 +1,98 @@
+HESSI Flare List  (generated 21-Sep-2012 12:56)
+
+Total # flares: 68729  Time range: 12-Feb-2002 21:29:56.000 - 31-Aug-2012 23:58:56.000
+ 
+    Flare     Start time        Peak      End      Dur   Peak     Total      Energy X Pos Y Pos Radial   AR        Flags         
+                                                     s    c/s    Counts         keV  asec  asec   asec                           
+
+ 10060101  1-Jun-2010 19:09:56 19:11:26 19:11:28    92     48     17218         3-6     0     0      0    0  a0 A1 PE PS Q1        
+ 10060205  2-Jun-2010 18:43:52 18:44:34 18:46:24   152     38     19872        6-12   114   776    785 1075  A0 DR P1 Q1           
+ 10060301  3-Jun-2010 06:32:28 06:33:34 06:35:08   160     56     25440        6-12   386  -312    497 1076  A0 DF DR P1 Q2        
+ 10060304  3-Jun-2010 12:30:16 12:32:06 12:37:56   460     60     69888        6-12   421  -338    540 1076  A0 P1                 
+ 10060305  3-Jun-2010 13:49:04 13:51:50 13:58:08   544     64    117744        6-12   445  -326    552    0  A0 DR P1 Q1           
+ 10060307  3-Jun-2010 15:41:40 15:43:06 15:46:32   292     46     40920        6-12   452  -345    569    0  A0 P1 PE Q1           
+ 10060408  4-Jun-2010 14:04:16 14:05:34 14:05:36    80     40     11294         3-6     0     0      0    0  A0 PE PS Q2 SE        
+ 10060502  5-Jun-2010 04:42:16 04:42:58 04:45:56   220     26     27288        6-12   701  -317    769 1076  A0 DR P1 Q1           
+ 10060612  6-Jun-2010 02:50:44 02:52:58 03:00:40   596     76    115392        6-12   812  -310    870 1076  A0 DR P1 Q1           
+ 10060613  6-Jun-2010 03:12:24 03:13:22 03:16:52   268     34     37968        6-12   820  -319    880 1076  A0 P1                 
+ 10060701  7-Jun-2010 10:41:20 10:41:50 10:43:28   128     20     12168        6-12   845   340    911    0  A0 P1                 
+ 10060702  7-Jun-2010 13:25:12 13:25:54 13:28:56   224     34     27744        6-12  -405   242    472    0  A0 DR P1 PE Q2        
+ 10060802  8-Jun-2010 10:09:44 10:11:02 10:12:32   168     34     24864        6-12   568  -324    654    0  A0 DR P1 PE Q2        
+ 10060815  8-Jun-2010 21:44:52 21:45:22 21:46:36   104     26     13056        6-12   631  -368    731    0  A0 P1                 
+ 10060813  8-Jun-2010 22:07:32 22:08:02 22:09:32   120     24     12888        6-12   656  -337    738    0  A0 P1                 
+ 10060814  8-Jun-2010 22:10:52 22:11:22 22:13:24   152     32     18528        6-12   641  -319    716    0  A0 P1                 
+ 10060901  9-Jun-2010 00:30:28 00:32:26 00:37:48   440     30     49896        6-12   663  -325    739 1078  A0 P1                 
+ 10060902  9-Jun-2010 00:44:24 00:47:06 00:51:40   436     46     75576        6-12   666  -325    741 1078  A0 P1                 
+ 10060903  9-Jun-2010 00:51:40 00:56:10 00:59:40   480     68    104592        6-12   666  -333    745 1078  A0 P1                 
+ 10060937  9-Jun-2010 00:59:40 01:01:22 01:07:48   488     76    105216        6-12   666  -329    743 1078  A0 P1                 
+ 10060905  9-Jun-2010 04:37:52 04:39:18 04:41:44   232     36     38544        6-12   684  -323    756 1078  A0 DR P1 Q1           
+ 10060906  9-Jun-2010 05:17:16 05:17:50 05:25:52   516     80    106968         3-6     0     0      0    0  A0 DR ES PS Q2        
+ 10060914  9-Jun-2010 08:39:40 08:46:22 08:48:32   532    192    181488        6-12   680  -366    772 1078  A0 DR P1 Q1           
+ 10060938  9-Jun-2010 08:48:32 08:48:54 08:56:56   504     76    101256        6-12   674  -370    769 1078  A0 P1                 
+ 10060939  9-Jun-2010 09:01:52 09:03:10 09:03:56   124     24     13656        6-12   675  -362    766 1078  A0 P1                 
+ 10060917  9-Jun-2010 09:22:56 09:23:34 09:26:12   196     76     35472        6-12   678  -361    769 1078  A0 DR P1 Q1           
+ 10060923  9-Jun-2010 13:35:52 13:41:46 13:45:00   548    144    251424        6-12   698  -369    790 1078  A0 GE P1 PE Q2        
+ 10060927  9-Jun-2010 18:35:20 18:36:22 18:39:00   220     32     29208        6-12   764  -341    836    0  A0 P1                 
+ 10060928  9-Jun-2010 18:39:00 18:40:34 18:45:20   380     28     44112        6-12   769  -342    842    0  A0 P1                 
+ 10060929  9-Jun-2010 19:40:08 19:44:38 19:54:40   872    304    449280         3-6     0     0      0    0  A0 PS                 
+ 10061001 10-Jun-2010 12:02:12 12:03:26 12:03:32    80     46     11664         3-6     0     0      0    0  a0 A1 GE PE PS Q2     
+ 10061117 11-Jun-2010 23:45:32 23:49:58 23:54:12   520    160    253531         3-6     0     0      0    0  a0 a1 A3 EE PE PS Q2  
+ 10061201 12-Jun-2010 00:54:00 00:56:34 01:09:04   904     92    127403         3-6     0     0      0    0  a0 A1 PS              
+ 10061206 12-Jun-2010 09:07:24 09:08:46 09:11:20   236    108     76608         3-6     0     0      0    0  A0 PS                 
+ 10061208 12-Jun-2010 09:11:20 09:15:42 09:26:44   924    944   1310208         3-6     0     0      0    0  A0 PS                 
+ 10061303 13-Jun-2010 05:32:32 05:38:14 06:03:24  1852    688   1261920         3-6     0     0      0    0  A0 PE PS Q1           
+ 10061315 13-Jun-2010 10:51:36 10:52:22 10:55:00   204    108     65472         3-6     0     0      0    0  A0 PS                 
+ 10061401 14-Jun-2010 00:47:48 00:50:22 00:54:24   396    104    121776         3-6     0     0      0    0  A0 PS                 
+ 10062321 23-Jun-2010 12:07:08 12:07:54 12:08:36    88     24      9768        6-12   593   397    714 1082  A0 P1                 
+ 10062322 23-Jun-2010 12:17:16 12:18:54 12:19:12   116     32     16848        6-12   595   402    718 1082  A0 P1                 
+ 10062507 25-Jun-2010 10:19:12 10:21:02 10:28:48   576    216    220320         3-6     0     0      0    0  A0 PS                 
+ 10062532 25-Jun-2010 22:43:08 22:44:58 22:49:04   356    120     94992        6-12  -887  -342    951    0  A0 P1                 
+ 10062533 25-Jun-2010 23:13:52 23:16:38 23:22:32   520    120    118464        6-12  -883  -338    946    0  A0 DR P1 Q1           
+ 10062631 26-Jun-2010 22:57:36 22:58:46 23:00:04   148     26     16032        6-12  -854  -361    927    0  A0 DR P1 Q1           
+ 10062703 27-Jun-2010 03:10:48 03:11:30 03:12:40   112     52     19680        6-12  -223  -395    454    0  A0 DR P1 PE Q2        
+ 10062704 27-Jun-2010 03:14:40 03:17:50 03:21:00   380    104    109776        6-12  -834  -358    908    0  A0 DR P1 Q1           
+ 10062709 27-Jun-2010 03:21:00 03:23:06 03:24:56   236    192    113424        6-12  -833  -357    907    0  A0 DR P1 Q1           
+ 10062706 27-Jun-2010 03:30:32 03:31:14 03:32:08    96     36     12696        6-12  -830  -346    899    0  A0 P1                 
+ 10062707 27-Jun-2010 10:18:56 10:19:30 10:21:00   124     26     14184        6-12  -167  -402    436    0  A0 P1                 
+ 10062708 27-Jun-2010 10:21:00 10:21:42 10:23:00   120     26     13296        6-12  -176  -409    445    0  A0 P1                 
+ 10062901 29-Jun-2010 04:58:00 04:59:58 05:03:56   356     68     75648        6-12   233   215    317    0  A0 P1                 
+
+Notes: 
+  Note that only events with non-zero position and energy range not equal to 3-6 keV are confirmed as solar sources.
+  Events which have no position and show up mostly in the front detectors, but were not able to be imaged 
+    are flagged as "PS".
+  Events which do not have valid position are only confirmed to be non-solar if the NS flag is set.
+  Peak Rate:  peak counts/second in energy range 6-12 keV, averaged over active collimators, including background.
+  Total Counts:  counts in energy range 6-12 keV integrated over duration of flare summed over all subcollimators,
+    including background.
+  Energy:  the highest energy band in which the flare was observed.
+  Radial Distance:  distance from Sun center
+  Quality Codes: Qn, where n is the total number of data gap, SAA, particle, eclipse or decimation flags set for event.
+    n ranges from 0 to 11.  Use care when analyzing the data when the quality is not zero.
+
+Flare Flag Codes: 
+  a0 - In attenuator state 0 (None) sometime during flare
+  a1 - In attenuator state 1 (Thin) sometime during flare
+  a2 - In attenuator state 2 (Thick) sometime during flare
+  a3 - In attenuator state 3 (Both) sometime during flare
+  An - Attenuator state (0=None, 1=Thin, 2=Thick, 3=Both) at peak of flare
+  DF - Front segment counts were decimated sometime during flare
+  DR - Rear segment counts were decimated sometime during flare
+  ED - Spacecraft eclipse (night) sometime during flare
+  EE - Flare ended in spacecraft eclipse (night)
+  ES - Flare started in spacecraft eclipse (night)
+  FE - Flare ongoing at end of file
+  FR - In Fast Rate Mode
+  FS - Flare ongoing at start of file
+  GD - Data gap during flare
+  GE - Flare ended in data gap
+  GS - Flare started in data gap
+  MR - Spacecraft in high-latitude zone during flare
+  NS - Non-solar event
+  PE - Particle event: Particles are present
+  PS - Possible Solar Flare; in front detectors, but no position
+  Pn - Position Quality: P0 = Position is NOT valid, P1 = Position is valid
+  Qn - Data Quality: Q0 = Highest Quality, Q11 = Lowest Quality
+  SD - Spacecraft was in SAA sometime during flare
+  SE - Flare ended when spacecraft was in SAA
+  SS - Flare started when spacecraft was in SAA

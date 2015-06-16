@@ -1,0 +1,66 @@
+From sgas-owner@sec.noaa.gov  Mon Aug 19 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g7J2o5q25215
+	for sgas-sendit; Mon, 19 Aug 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 19 Aug 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200208190250.g7J2o2425044@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Aug 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 231 Issued at 0245Z on 19 Aug 2002
+This report is compiled from data received at SWO on 18 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0142 0142 0142                       220                           
+ 0143 0149 0157  0069 S06W10 C3.2  Sf 790                           
+ 0229 0229 0229                       100                           
+ 0328 0334 0337  0069 S11W10 C8.4  1f 6200                          
+ 0342 0342 0342                       160                           
+ 0346 0000 0349                                     II              
+ 0422 0000 1723                                        IV           
+ 0430 0436 0437                       200                           
+ 0522 0522 0523                       100                           
+ 0633 0633 0634                       100                           
+ 0954 1005 1009  0069        M2.3     240    61                     
+ 1023 1023 1023                       180                           
+ 1329 1330 1332  0069 S05W01       Sf                  IV           
+ 1433 1439 1443  0069 S06W15 M1.9  Sf                               
+ 2112 2125 2137  0069 S12W19 M2.2  1b 530    610    II              
+ 2200 2200 2200                       920                           
+ 2228 2231 2236              C4.3     230              IV           
+ 2307 2311 2311                       33000                         
+ 2315 2315 2315                       850                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled  levels.  The expected interplanetary shock from the
+M5/CME event on 16 Aug was observed at the L1 position by the
+NASA/ACE spacecraft at 18/1810 UTC.  A corresponding sudden impulse
+of 27 nT was recorded on the Boulder magnetometer at 18/1848 UTC. 
+Greater than 2 MeV electron flux at geosynchronous orbit exceeded
+event threshold with a peak value of 1590 pfu.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 241  SSN 308  Afr/Ap 015/018   X-ray Background C1.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.7e+07   GT 10 MeV 1.2e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.30e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 2 3 2 2 5 Planetary 4 3 2 3 3 2 4 5 
+F.  Comments:  None
+

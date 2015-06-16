@@ -1,0 +1,32 @@
+:Product: 0604SGAS.txt
+:Issued: 2013 Jun 04 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 155 Issued at 0245Z on 04 Jun 2013
+This report is compiled from data received at SWO on 03 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000      0929                                        IV           
+ 0000      0003                                     II              
+ 0207 0207 0207                       600                           
+ 0350      1356                                        IV           
+ 0703 0725 0742  1762 S27W21 C9.5  Sf 120                           
+ 0952      1911                                        IV           
+ 1647 1744 1801  1762        C1.8                      IV           
+ 2315      2359                                        IV           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet to Unsettled
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 112  SSN 099  Afr/Ap 009/008   X-ray Background B2.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.7e+06   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-15 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.80e+08 e/(cm2-ster-day)
+(GOES-15 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 3 3 1 3 2 3 2 3 Planetary 3 2 1 2 1 2 2 3 
+F.  Comments:  None

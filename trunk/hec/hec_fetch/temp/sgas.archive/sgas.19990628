@@ -1,0 +1,49 @@
+From owner-sgas@proton.sel.noaa.gov Mon Jun 28 22:59:15 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA189575155; Mon, 28 Jun 1999 22:59:15 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Tue, 29 Jun 1999 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199906290255.CAA25110@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Jun 29 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 180 ISSUED AT 0245Z ON 29 JUN 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 28 JUN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0114 0114 0115                       180                           
+ 0216 0216 0216                       150                           
+ 0431 0432 0432                       720                           
+ 0916 0916 0917                       530                           
+ 2055 2101 2117              C3.5     51     28     II              
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO MAJOR STORM LEVELS.  THE MAJOR STORM CONDITIONS WERE SEEN
+EARLY IN THE PERIOD COINCIDING WITH A SUDDEN IMPULSE AT 28/0304Z (20
+NT).
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 197  SSN 268  AFR/AP 021/026   X-RAY BACKGROUND B9.6
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.7E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.00E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 6 4 3 2 3 2 3 PLANETARY 2 6 5 3 3 3 3 3 
+F.  COMMENTS:  NONE
+
+

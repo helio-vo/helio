@@ -1,0 +1,48 @@
+From sgas-owner  Wed Feb 16 02:55:55 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA25871
+	for sgas-sendit; Wed, 16 Feb 2000 02:55:10 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 16 Feb 2000 02:55:07 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200002160255.CAA26574@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Feb 16 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 047 ISSUED AT 0245Z ON 16 FEB 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 15 FEB
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1553 1553 1554                       110                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+ACTIVE.
+D.  STRATWARM:  STRATWARM ALERT/TUESDAY/STRATWARM EXISTS.
+MINOR WARMING, CENTERED OVER NORTHERN SIBERIA AT
+10 HPA, CONTINUES AND IS SLOWLY WEAKENING. TEMPERATURE
+GRADIENT REVERSED BETWEEN 60N AND THE POLE AT
+10 HPA AND ABOVE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 156  SSN 158  AFR/AP 009/011   X-RAY BACKGROUND B3.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 8.2E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 6.00E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 3 2 1 1 2 2 3 PLANETARY 3 4 2 1 2 2 3 2 
+F.  COMMENTS:  NONE
+
+

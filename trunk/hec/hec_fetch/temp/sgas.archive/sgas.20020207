@@ -1,0 +1,54 @@
+From sgas-owner  Thu Feb  7 02:50:17 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA24224
+	for sgas-sendit; Thu, 7 Feb 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 7 Feb 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200202070250.CAA24080@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Feb 07 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 038 Issued at 0245Z on 07 Feb 2002
+This report is compiled from data received at SWO on 06 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0111 0111 0111                       120                           
+ 0433 0440 0443  9816 S17W48 C8.2  Sf 520    25     II              
+ 0451 0509 0513  9816 S17W50 C2.92 Sf 180                           
+ 1126 1132 1141              M1.4            88                     
+ 1522 1528 1529                       600                           
+ 1704 1707 1711  9816 S11W54 C1.7  Sf 320                           
+ 1719 1719 1719                       130                           
+ 2010 2014 2017  9815 N12E31 C5.3  Sf 120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to active levels with one 3 hour period of quiet
+conditions.  A large coronal hole is centered at S10W40 and is
+producing the unsettled to active conditions.  This coronal hole has
+an average solar wind speed of 625 km/s over the last 24 hours. 
+Average Bz for the last 24 hours was a negative 0 - 5 nT.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 203  SSN 226  Afr/Ap 015/016   X-ray Background C1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.1e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 4 3 3 4 3 2 Planetary 3 3 4 4 4 3 3 2 
+F.  Comments:  None
+

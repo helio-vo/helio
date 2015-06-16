@@ -1,0 +1,41 @@
+:Product: 0914SGAS.txt
+:Issued: 2005 Sep 14 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 257 Issued at 0245Z on 14 Sep 2005
+This report is compiled from data received at SWO on 13 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0357 0400 0402              C1.5     470                           
+ 0406 0406 0406                       2200                          
+ 0437 0445 0454  0808 S13E11 C5.1  Sf                  IV           
+ 0824 0828 0831  0808 S15E15 C1.8  Sf 320                           
+ 1041 0000 2237                                        IV           
+ 1041 1121 1124              M1.3            120                    
+ 1919 1927 2057  0808 S09E10 X1.5  2b 700    4900                   
+ 2315 2322 2330  0808        X1.7            180                    
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 08 September fell below the 10 pfu threshold today; however, a
+new influx of protons has raised levels to around 7 pfu's by the end
+of the reporting period and is expected to continue rising.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+unsettled to major storm levels. Storm conditions persisted through
+much of this period due to transient flow from the intense CME
+activity over the past several days. Conditions returned to
+predominantly unsettled levels by the end of the period. Solar wind
+speed at ACE remains elevated, but decreased from a high near 770
+km/s to approximately 650 km/s by the end of the period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 114  SSN 095  Afr/Ap 025/051   X-ray Background B5.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.9e+07   GT 10 MeV 5.9e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.10e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 5 5 5 6 5 1 4 3 Planetary 6 5 6 6 5 3 4 4 
+F.  Comments:  None

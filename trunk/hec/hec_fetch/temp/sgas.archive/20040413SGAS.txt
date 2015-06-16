@@ -1,0 +1,35 @@
+:Product: 20040413SGAS.txt
+:Issued: 2004 Apr 13 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 104 Issued at 0245Z on 13 Apr 2004
+This report is compiled from data received at SWO on 12 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0951 0951 0951                       900                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 11/1135Z, peaked at 35 pfu at 11/1845Z, and ended at 12/0405Z. 
+This proton event is likely to be associated with the C9 flare that
+occurred at 11/0419Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  A shock passage was observed at the ACE
+spacecraft at approximately 12/1730Z and it is believed to be in
+response to the partial halo CME that was associated with the C2
+flare that occurred on 09/2040Z.  Once again, the IMF Bz remained
+predominantly northward and the geomagnetic response was weak. 
+Solar wind speeds peaked at near 540 km/s shortly after the shock
+passage.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 091  SSN 037  Afr/Ap 013/011   X-ray Background A8.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.4e+07   GT 10 MeV 4.3e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W98 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.80e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 4 2 4 2 2 2 3 2 Planetary 3 2 4 3 2 2 3 1 
+F.  Comments:  None

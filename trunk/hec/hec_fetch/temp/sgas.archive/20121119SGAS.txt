@@ -1,0 +1,32 @@
+:Product: 1119SGAS.txt
+:Issued: 2012 Nov 19 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 324 Issued at 0245Z on 19 Nov 2012
+This report is compiled from data received at SWO on 18 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0328 0328 0328                       100                           
+ 0355 0407 0415  1615 N08W07 C5.7  1f 1100                          
+ 0423 0423 0423                       100                           
+ 0811 0815 0818  1613        C1.0     550                           
+ 0829 0829 0829                       160                           
+ 1528 1532 1537  1618        C1.3     120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Geomagnetic activity has been
+quiet with an isolated unsettled period at high latitudes.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 141  SSN 136  Afr/Ap 004/005   X-ray Background B4.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.9e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.30e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 2 2 2 1 1 0 1 Planetary 1 2 1 1 1 2 1 2 
+F.  Comments:  Greater than 2 MeV eletron flux at geosynchronous
+orbit orbit reached high levels

@@ -1,0 +1,28 @@
+:Product: 0806SGAS.txt
+:Issued: 2011 Aug 06 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 218 Issued at 0245Z on 06 Aug 2011
+This report is compiled from data received at SWO on 05 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None         
+B.  Proton Events:  The 10 MeV protons remained at S1 level
+throughout the day and shortly increased during shock arrival of a
+CME, reaching a peak of 96.4 PFU at 05/2150Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged
+between quiet and severe storm levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 109  SSN 094  Afr/Ap 032/049   X-ray Background B3.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.7e+07   GT 10 MeV 4.6e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 0 1 1 2 5 7 Planetary 3 2 0 0 1 2 8 7 
+F.  Comments:  None

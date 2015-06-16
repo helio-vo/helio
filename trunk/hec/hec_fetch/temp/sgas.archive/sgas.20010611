@@ -1,0 +1,48 @@
+From sgas-owner  Mon Jun 11 02:50:24 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16387
+	for sgas-sendit; Mon, 11 Jun 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 11 Jun 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200106110250.CAA16281@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Jun 11 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 162 Issued at 0245Z on 11 Jun 2001
+This report is compiled from data received at SWO on 10 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0851 0902 0913  9494 S08W50 C6.3  Sf 130                           
+ 1152 1156 1159  9487 N22W26 C2.7  Sf 270    24                     
+ 1631 1631 1631                       120                           
+ 1807 1809 1809                       200                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Geomagnetic field activity has
+been at quiet to minor storm levels.  Activity generally decreased
+through the course of the day, as coronal hole high speed stream
+effects slowly tapered off.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 163  SSN 217  Afr/Ap 013/020   X-ray Background C1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.6e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.50e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 3 3 3 3 3 2 2 Planetary 5 3 4 4 3 4 3 3 
+F.  Comments:  None
+

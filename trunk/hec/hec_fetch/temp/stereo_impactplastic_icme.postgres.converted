@@ -1,0 +1,72 @@
+1	\N	AB	2006-12-14T14:12:00Z	2006-12-14T23:04:00Z	2006-12-15T14:08:00Z	\N	\N	18	20	\N	\N	\N	\N	plasma data data gap like Group 3 event
+1	\N	A	2007-01-14T12:11:00Z	2007-01-14T14:39:00Z	2007-01-15T07:34:00Z	\N	\N	15	\N	\N	\N	\N	\N	plasma data data gap like Group 1 event
+2	\N	B	2007-01-14T12:24:00Z	2007-01-14T13:59:00Z	2007-01-15T07:37:00Z	\N	\N	14.8	\N	\N	\N	\N	\N	plasma data data gap like Group 1 event
+3	\N	A	2007-05-22T14:00:00Z	2007-05-22T14:00:00Z	2007-05-23T13:30:00Z	63	\N	11.5	\N	540	\N	-80	2	STEREO B: higher Ptmax shorter. At both A & B followed by fast stream
+4	\N	B	2007-05-22T04:20:00Z	2007-05-22T04:20:00Z	2007-05-22T22:00:00Z	135	\N	17.5	\N	480	\N	-60	1	\N
+5	\N	A	2007-08-25T20:30:00Z	2007-08-25T23:27:00Z	2007-08-26T16:00:00Z	130	200	14.8	\N	380	\N	\N	2	Vp almost constant a concave in Pt sharp increases of Np Tp entropy and beta followed by fast stream
+6	*	A	2007-11-19T22:00:00Z	2007-11-19T22:00:00Z	2007-11-21T03:17:00Z	250	\N	19.3	\N	450	\N	-50	\N	field rotation bi-directional electron flux (BDE) followed by a fast stream near heliospheric current sheet (HCS)
+7	\N	B	2007-10-23T10:35:00Z	2007-10-23T16:50:00Z	2007-10-24T00:07:00Z	50	125	10.3	10.6	395	420	-35	2	not nice B rotations slow low b followed by a stream interaction region (SIR)
+8	*	B	2007-11-19T22:50:00Z	2007-11-19T22:50:00Z	2007-11-20T06:56:00Z	225	\N	15.2	\N	485	\N	-80	\N	low beta some B rotations but not coherent embedded within an SIR near a HCS no prominent BDE the forward shock occurred 9 hours earlier may be attributed by the combined force of the ICME and SIR
+9	\N	B	2007-12-30T02:00:00Z	2007-12-30T07:00:00Z	2008-01-01T05:50:00Z	120	\N	12	\N	365	378	-85	1	fuzzy plasma data slow nice field rotations left-handed flux rope
+1	\N	A	2008-03-21T06:40:00Z	2008-03-21T08:33:00Z	2008-03-21T18:39:00Z	35	43	8.8	\N	480	\N	-50	2	in the declining part of fast stream; very small beta; Np Tp and S change during the event
+2	\N	A	2008-05-11T06:31:00Z	2008-05-11T11:00:00Z	2008-05-12T06:00:00Z	82	\N	14.4	\N	\N	\N	\N	1	plasma data gap nice flux rope COR2 and HI at STB saw it
+3	\N	A	2008-07-05T00:48:00Z	2008-07-05T06:34:00Z	2008-07-06T18:00:00Z	60	\N	10	\N	360	\N	-60	2	low beta some rotations of B but not coherent Pt is still higher than ambient after the structure
+4	\N	A	2008-09-04T05:25:00Z	2008-09-04T13:30:00Z	2008-09-05T12:00:00Z	90	\N	10	\N	360	\N	-60	2	very slow not near HCS
+5	*	A	2008-10-31T12:10:00Z	2008-10-31T12:10:00Z	2008-10-31T16:30:00Z	120	\N	16	\N	400	\N	40	2	embedded within a SIR low Tp and low beta hard to identify the boundary of the ICME
+6	?	A	2008-11-28T21:49:00Z	2008-11-28T21:49:00Z	2008-11-29T00:20:00Z	240	\N	20	\N	380	\N	30	2	uncertain very short embeded within a SIR STB saw a CME candidate on 11/24
+7	\N	B	2008-02-05T20:37:00Z	2008-02-05T20:37:00Z	2008-02-07T10:50:00Z	100	\N	13	\N	385	\N	-75	\N	Pt irregular B not quiet but there are BDE and field rotations has candidate CME near HCS
+8	\N	B	2008-03-06T12:35:00Z	2008-03-06T12:35:00Z	2008-03-06T17:03:00Z	233	\N	17	\N	400	\N	\N	2	Vp almost constant beta ~ 0.6 no BDE followed by a fast stream
+9	\N	B	2008-04-29T14:10:00Z	2008-04-29T15:34:00Z	2008-04-30T07:00:00Z	220	\N	13	14	490	\N	90	1	BDE for the later part strong forward shock Vp almost remains constant HCS at the leading edge
+10	?	B	2008-05-15T23:00:00Z	2008-05-15T23:00:00Z	2008-05-16T18:00:00Z	13	\N	3.7	\N	500	\N	-110	\N	no Pt increase extremely low Pt nice field rotation with BDE
+11	\N	B	2008-06-06T15:36:00Z	2008-06-06T22:15:00Z	2008-06-07T12:32:00Z	120	200	14.8	\N	430	\N	-52	2	followed by a faster speed stream Pt profile irregular has a concave very low beta
+12	\N	B	2008-08-15T12:00:00Z	2008-08-15T12:00:00Z	2008-08-15T22:00:00Z	60	\N	9.2	\N	365	\N	\N	2	nice flux rope very slow solar wind followed by a fast stream near HCS
+13	\N	B	2008-10-19T01:02:00Z	2008-10-19T01:02:00Z	2008-10-20T11:32:00Z	73	\N	9	\N	372	\N	-87	2	very slow 8-hr plasma data gap at the leading part nice field rotation BDE no good CME candidate
+14	\N	B	2008-12-31T02:00:00Z	2008-12-31T02:00:00Z	2009-01-01T07:20:00Z	60	\N	9	\N	460	\N	-90	\N	nice MC clear BDE big data gap of Np Tp and Pt
+1	\N	A	2009-01-25T18:22:00Z	2009-01-25T18:22:00Z	2009-01-27T10:00:00Z	90	\N	11.5	\N	400	\N	-40	2	relatively nice field rotations with forward shock STB saw CME on 1/20 at right location
+2	\N	A	2009-06-03T00:00:00Z	2009-06-03T06:42:00Z	2009-06-04T22:40:00Z	75	\N	11.5	\N	440	460	-140	1	nice BDE sharp increases of Pt and B at about 154 17:00 high Np the region between 154 00:00 and 06:42 has odd behaviors of plasma and field components
+3	\N	A	2009-07-11T23:10:00Z	2009-07-11T23:10:00Z	2009-07-13T05:45:00Z	120	\N	9.6	\N	340	\N	-50	\N	followed by a fast wind so sort of embedded within a SIR
+4	\N	A	2009-10-16T14:57:00Z	2009-10-16T21:35:00Z	2009-10-17T22:16:00Z	90	\N	11	\N	380	\N	-80	2	slow low Tp and B STB does not see the CME candidate partial BDE
+5	\N	A	2009-10-30T01:40:00Z	2009-10-30T01:40:00Z	2009-10-30T20:00:00Z	35	\N	6.5	\N	415	\N	-65	2	partial BDE very weak Vp does not gradually decrease STB see a CME on 10/27 but it is unlikely to be the source of this ICME
+6	\N	A	2009-11-01T08:00:00Z	2009-11-01T08:00:00Z	2009-11-03T02:00:00Z	35	\N	9	\N	530	\N	-185	1	low Np and beta not very low Tp weak Pt clear BDE a current sheet at the center following a SIR
+7	\N	A	2009-11-14T08:00:00Z	2009-11-14T20:00:00Z	2009-11-15T21:30:00Z	120	\N	9.6	\N	340	\N	-50	2	very slow B profile is a little concave
+8	\N	A	2009-11-25T23:00:00Z	2009-11-25T23:00:00Z	2009-11-26T01:30:00Z	150	\N	18	\N	370	\N	-30	1	very short but clear MC signatures strong flux of suprathermal electrons but no BDE
+9	\N	A	2009-12-08T23:38:00Z	2009-12-09T09:00:00Z	2009-12-10T23:13:00Z	200	180	12.5	\N	350	\N	-60	\N	tmax is in the later part of the obstacle regio
+10	\N	B	2009-01-13T05:22:00Z	2009-01-13T05:22:00Z	2009-01-13T22:00:00Z	70	\N	11.5	\N	400	\N	-40	\N	good CME candidate from STA SCCHI big data gap of Np Tp and Pt
+11	\N	B	2009-06-19T00:24:00Z	2009-06-19T07:40:00Z	2009-06-20T10:00:00Z	60	120	11.3	\N	380	\N	-115	2	relatively large-scale rotation of B in the sheath region. The region of 170 07:40 - 11:30 has a stronger B possibly due to another CME. 2 CME candidates seen by STA on 6/13 and 6/14
+12	\N	B	2009-07-16T17:08:00Z	2009-07-16T17:08:00Z	2009-07-17T17:00:00Z	120	\N	9.4	\N	330	\N	-50	2	BDE for part of 07/16 Pt is higher at the trailing part due to the compression of the upcoming faster solar wind. STA SECCHI detected CME candidate on 07/13 which is unlikely because the solar wind is slow
+13	\N	B	2009-07-31T02:16:00Z	2009-07-31T02:16:00Z	2009-07-31T10:54:00Z	58	\N	10.2	\N	460	\N	-80	2	short no clear CME candidate low Tp and beta the direction of suprathermal electrons is different from ambient
+14	\N	B	2009-08-05T22:35:00Z	2009-08-06T04:39:00Z	2009-08-07T05:24:00Z	100	130	13.8	\N	350	\N	125	2	ambiguous bounded by a pair of f-r shocks like hybrid of SIR and ICME. large-scale field rotations and low beta but the rotations are not smooth no BDE no CME candidate seen by STA
+15	\N	B	2009-08-25T09:40:00Z	2009-08-25T09:40:00Z	2009-08-26T13:27:00Z	75	\N	11	\N	360	\N	-50	1	BDE for a part of the ICME no CME candidate from STA
+16	\N	B	2009-08-30T02:50:00Z	2009-08-30T19:48:00Z	2009-08-31T08:28:00Z	80	\N	12	\N	460	\N	145	\N	BDE 2 CME candidates seen by STA COR2 on 8/25 10:39 and 8/26 6:54 a shock within the magnetic obstacle likely due to the second ICME
+17	\N	B	2009-09-09T17:17:00Z	2009-09-09T17:17:00Z	2009-09-11T04:13:00Z	80	\N	8.5	\N	340	\N	-50	2	BDE CME candidate seen by STA COR2 on 9/5 at 10:54 not very low Tp solar wind speed gradually decreases field rotations are not very smooth and a little noisy
+18	\N	B	2009-10-02T15:42:00Z	2009-10-03T05:48:00Z	2009-10-04T04:32:00Z	106	140	13.2	\N	360	\N	-80	1	nice field rotations no BDE possible CME candidate - 09/27 3:54 seen by STA
+19	\N	B	2009-11-10T18:48:00Z	2009-11-10T18:48:00Z	2009-11-11T11:00:00Z	60	\N	11.5	\N	370	\N	-45	1	low beta there are CME candidates plasma parameters do not vary smoothly and it is followed by an about 7-hour field rotation region
+20	\N	B	2009-11-27T12:36:00Z	2009-11-27T12:36:00Z	2009-11-27T20:44:00Z	100	\N	10.5	\N	345	\N	\N	2	<![CDATA[ beta < 1 there are CME candidates on Nov. 21 and 22. Field rotations are not nice solar wind speed is about constant and no BDE. ICME boundary layer at the two sides ]]>
+21	\N	B	2009-12-29T17:15:00Z	2009-12-30T01:50:00Z	2009-12-30T09:20:00Z	75	\N	12	\N	355	370	-55	1	slow well-defined flux rope but no BDE until about 364 12/30 08:00
+1	*	A	2010-02-05T03:33:00Z	2010-02-05T12:40:00Z	2010-02-06T02:00:00Z	140	150	14	15	420	\N	\N	2	a current sheet in the flux rope causing a Pt peak followed by a fast wind of 600 km/s
+2	\N	A	2010-03-05T18:25:00Z	2010-03-05T18:25:00Z	2010-03-06T10:10:00Z	110	\N	12.6	\N	320	\N	\N	\N	B is quieter than ambient but has a dip in middle low Tp and beta
+3	\N	A	2010-04-23T00:35:00Z	2010-04-23T06:27:00Z	2010-04-23T14:06:00Z	100	\N	12	\N	450	\N	-50	2	low Tp and beta B has some rotations but not coherent BDE Nalp/Np ~ 6%
+4	\N	A	2010-05-30T15:00:00Z	2010-05-31T00:26:00Z	2010-05-31T14:00:00Z	125.5	\N	10	11.4	430	463	-45	3	Nalp/Np ~ 6-8% BDE in the obstacle part no significant Fe/p difference
+5	\N	A	2010-06-03T08:36:00Z	2010-06-03T12:30:00Z	2010-06-04T02:46:00Z	120	135	15	\N	410	\N	-80	2	low beta BDE B rotations are not coherent SOHO saw some CME candidates
+6	\N	A	2010-06-16T16:20:00Z	2010-06-16T16:20:00Z	2010-06-18T03:44:00Z	62	\N	9	\N	510	\N	-130	1	low Tp and beta B rotations are noisy high Nalp/Np in the trailing part of a fast stream BDE
+7	\N	A	2010-08-20T16:14:00Z	2010-08-20T22:22:00Z	2010-08-21T13:14:00Z	380	\N	19	26	600	\N	-118	3	Vp decrease is small BDE
+8	\N	A	2010-08-30T21:38:00Z	2010-08-30T21:38:00Z	2010-08-31T09:32:00Z	180	\N	19.8	\N	540	\N	130	1	mbedded within a SI
+9	\N	A	2010-09-07T08:29:00Z	2010-09-07T08:29:00Z	2010-09-08T09:04:00Z	140	\N	12	\N	550	\N	-120	3	D
+10	\N	A	2010-09-11T06:59:00Z	2010-09-11T16:45:00Z	2010-09-13T05:55:00Z	140	400	17	22.5	620	660	-220	1	BDE high Nalp/Np and Fe charge state
+11	\N	A	2010-09-17T22:34:00Z	2010-09-18T06:22:00Z	2010-09-19T06:21:00Z	176.3	192.7	16.5	\N	450	\N	-100	2	relatively high Nalp/Np Fe charge state and Fe/H partial BDE
+12	\N	A	2010-12-14T17:16:00Z	2010-12-15T10:20:00Z	2010-12-16T04:00:00Z	180	260	19.7	21	530	570	-100	2	low Tp quiet B and BDE in the obstacle sheath region has low B
+13	\N	B	2010-01-20T20:20:00Z	2010-01-20T20:20:00Z	2010-01-21T22:48:00Z	36	\N	7	\N	350	\N	-50	1	not smooth field rotation the boundary layer ahead of the ICME has mag. reconnection features the plasma parameters and field are very different during the first 6 hours from other time. BDE in the first 4 hours candidate CME is observed.
+14	\N	B	2010-02-14T07:50:00Z	2010-02-14T07:50:00Z	2010-02-15T09:34:00Z	20	\N	6.6	\N	475	\N	-145	2	very weak very low Np ~ 0.1/cc possibly partly due to rarefraction low Tp and beta quiet B BDE SOHO observed CME candidate
+15	\N	B	2010-04-13T22:11:00Z	2010-04-13T22:11:00Z	2010-04-14T09:46:00Z	100	\N	14	\N	440	\N	\N	1	low Tp and beta nice Bt and Bn rotations no BDE
+16	\N	B	2010-06-07T04:08:00Z	2010-06-07T22:21:00Z	2010-06-08T12:30:00Z	87	120	11.5	\N	390	\N	-45	3	p varies irregularly; the sheath region is long; there are ICME boundary layer
+17	\N	B	2010-06-15T04:04:00Z	2010-06-15T04:04:00Z	2010-06-16T14:00:00Z	27	\N	5.8	\N	470	\N	-138	1	BDE for most of the duration very weak
+18	?	B	2010-06-23T08:00:00Z	2010-06-23T08:00:00Z	2010-06-25T03:30:00Z	60	\N	7.6	\N	550	\N	-160	\N	BDE Pt is weak and irregular field rotations B is noisy so it is an ambiguous event followed by a fast stream possible CME candidates
+19	\N	B	2010-08-03T05:00:00Z	2010-08-03T05:00:00Z	2010-08-03T09:50:00Z	460	\N	33.5	\N	760	\N	-180	2	low beta but high Tp B rotations BDE takes the place of SIR
+20	*	B	2010-09-16T10:50:00Z	2010-09-16T10:50:00Z	2010-09-17T07:12:00Z	75	\N	12.6	\N	550	\N	210	2	embedded within a SIR BDE before the ICME high flux of suprathermal electrons within the ICME not nice field rotations but clear low beta and higher B than ambient possible CME candidates seen by SOHO
+21	?	B	2010-09-19T23:22:00Z	2010-09-19T23:22:00Z	2010-09-20T06:45:00Z	16	\N	5.4	\N	520	\N	-50	\N	low Np and beta quiet B BDE very weak Pt though
+22	\N	B	2010-10-30T17:30:00Z	2010-10-30T17:30:00Z	2010-10-31T07:20:00Z	60	\N	10.2	\N	410	\N	-45	2	slow and weak low beta B is a little noisy
+23	\N	B	2010-11-08T02:46:00Z	2010-11-08T02:46:00Z	2010-11-09T09:06:00Z	140	\N	17.5	\N	430	\N	65	2	embedded within a SIR nice field rotations DG before it partial BDE
+24	\N	B	2010-11-19T20:26:00Z	2010-11-20T06:34:00Z	2010-11-21T09:10:00Z	60	\N	12	\N	490	500	-135	1	low beta nice B rotations BDE followed by a fast stream
+25	\N	B	2010-12-02T02:40:00Z	2010-12-02T09:55:00Z	2010-12-03T11:11:00Z	44	48	7.5	7.8	320	\N	-55	2	weak and leading a SIR BDE
+26	\N	B	2010-12-16T20:00:00Z	2010-12-17T01:50:00Z	2010-12-18T10:45:00Z	52	61	10	\N	315	\N	-105	2	weak BDE at HCS
+27	\N	B	2010-12-25T20:20:00Z	2010-12-25T20:20:00Z	2010-12-27T06:00:00Z	65	\N	11.7	\N	280	\N	\N	2	ahead of a HCS and SIR

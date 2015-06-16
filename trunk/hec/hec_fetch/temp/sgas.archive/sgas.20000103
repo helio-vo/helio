@@ -1,0 +1,45 @@
+From sgas-owner  Mon Jan  3 02:55:32 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA27602
+	for sgas-sendit; Mon, 3 Jan 2000 02:55:11 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 3 Jan 2000 02:55:09 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200001030255.CAA11974@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jan 03 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 003 ISSUED AT 0245Z ON 03 JAN 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 02 JAN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 2220 2227 2237  8813 S15E03 C5.1  SF 820    93                     
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  GEOMAGNETIC FIELD ACTIVITY RANGED
+FROM QUIET TO ACTIVE LEVELS WITH BRIEF, LOCALIZED MINOR STORM
+PERIODS AT HIGH LATITUDES.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 133  SSN 069  AFR/AP 015/014   X-RAY BACKGROUND B3.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.1E+06   GT 10 MEV 1.4E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.70E+08 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 4 4 2 3 3 2 PLANETARY 3 3 3 4 3 3 3 3 
+F.  COMMENTS:  NONE
+
+

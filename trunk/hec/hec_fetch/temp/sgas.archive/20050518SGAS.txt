@@ -1,0 +1,32 @@
+:Product: 20050518SGAS.txt
+:Issued: 2005 May 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 138 Issued at 0245Z on 18 May 2005
+This report is compiled from data received at SWO on 17 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0231 0239 0252  0763 S16W01 M1.8  1b 66     100    II/IV           
+ 0255 0000 0404                                        IV           
+ 0256 0000 0417                                        IV           
+ 0257 0316 0353                       1800                          
+ 0547 0553 0555  0763 S16W04 C2.8  Sf 130                           
+ 2354 0001 0005  0763 S16E06 B7.3  Sf                  IV           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Solar wind speed at ACE ranged from 600 km/s to 450 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 090  SSN 045  Afr/Ap 012/019   X-ray Background B1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+07   GT 10 MeV 4.2e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W114 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.80e+09 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 4 4 4 3 4 3 2 3 Planetary 4 4 4 3 3 3 2 3 
+F.  Comments:  The greater than 2 MeV electron fluence at
+geosynchronous orbit was high today.

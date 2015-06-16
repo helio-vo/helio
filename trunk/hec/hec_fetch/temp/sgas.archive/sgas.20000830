@@ -1,0 +1,45 @@
+From sgas-owner  Wed Aug 30 02:51:06 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA08906
+	for sgas-sendit; Wed, 30 Aug 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 30 Aug 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200008300250.CAA08847@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Aug 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 243 ISSUED AT 0245Z ON 30 AUG 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 29 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0750 0750 0751                       130                           
+ 1515 1519 1523  9147 N01E68 C3.3  SN 510                           
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+UNSETTLED TO MAJOR STORM LEVELS.  THE MOST DISTURBED PERIOD WAS FROM
+29/0000-0900Z.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 163  SSN 175  AFR/AP 021/031   X-RAY BACKGROUND B7.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.0E+05   GT 10 MEV 1.0E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.80E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 5 5 6 4 4 4 3 3 PLANETARY 5 5 5 4 4 4 4 3 
+F.  COMMENTS:  NONE.
+

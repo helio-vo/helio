@@ -1,0 +1,47 @@
+From sgas-owner  Sun Mar 31 02:50:22 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA22547
+	for sgas-sendit; Sun, 31 Mar 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 31 Mar 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200203310250.CAA22379@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Mar 31 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 090 Issued at 0245Z on 31 Mar 2002
+This report is compiled from data received at SWO on 30 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1245 1301 1314  9885 N11E33 M3.4  1n        24                     
+ 1402 1402 1402                       280                           
+ 1535 1539 1543  9884 S19E05       Sf 710                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to active levels. A shock was observed at the NASA ACE
+spacecraft at 29/2140 UTC and is believed to be associated with a
+trans-equatorial coronal hole.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 189  SSN 171  Afr/Ap 018/017   X-ray Background C1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.3e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.80e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 4 3 3 4 4 3 3 Planetary 2 4 4 3 4 3 3 2 
+F.  Comments:  None
+

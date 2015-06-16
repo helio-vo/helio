@@ -1,0 +1,53 @@
+From sgas-owner  Fri Oct  6 02:50:10 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA26945
+	for sgas-sendit; Fri, 6 Oct 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 6 Oct 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200010060250.CAA26871@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Oct 06 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 280 Issued at 0245Z on 06 Oct 2000
+This report is compiled from data received at SWO on 05 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to severe storm levels (estimated Kp of 7).  A strong
+shock was observed at the Ace spacecraft at 05/0241Z, and was
+followed by transient flow with enhanced density, speed, and
+magnetic fields.  Major to severe storming at all latitudes began
+after 0300Z.  There were two intervals of strongly negative Bz:  the
+first was from 05/0504 - 0543Z with Bz values reaching -27 nT, and
+the second was from 05/0958 - 1119Z with Bz values reaching -23 nT. 
+Severe levels were seen at high latitudes from 05/0300 - 1500Z, and
+mid-latitudes also attained the K=7 level from 05/0600 - 0900Z.  The
+disturbance appeared to be subsiding during the last hours of the
+day to unsettled to active levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 174  SSN 145  Afr/Ap 058/096   X-ray Background B6.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+05   GT 10 MeV 9.6e+03 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.90e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 6 7 6 6 6 3 4 Planetary 5 7 7 7 7 6 4 4 
+F.  Comments:  None
+

@@ -1,0 +1,37 @@
+:Product: 0105SGAS.txt
+:Issued: 2014 Jan 05 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 005 Issued at 0245Z on 05 Jan 2014
+This report is compiled from data received at SWO on 04 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0009 0009 0010                       350                           
+ 0418 0418 0418                       320                           
+ 0814 0815 0816                       350                           
+ 1016 1025 1041  1944 S05E48 M1.3  2n        140                    
+ 1248 1248 1248                       120                           
+ 1251 1251 1251                       130                           
+ 1528 1528 1528                       220                           
+ 1533 1541 1547  1944        C9.4     110                           
+ 1605 1605 1605                       170                           
+ 1905 1946 2023  1944        M4.0     620    550       IV           
+ 2204      2359                                        IV           
+ 2212 2252 2322  1936        M1.9                                   
+ 2304 2310 2314  1944 S06E39       Sf 190                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 215  SSN 178  Afr/Ap 006/004   X-ray Background C1.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.6e+05   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.70e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 2 2 2 3 1 Planetary 0 0 0 2 2 2 2 1 
+F.  Comments:  None

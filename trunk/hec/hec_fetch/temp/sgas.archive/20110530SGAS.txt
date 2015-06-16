@@ -1,0 +1,28 @@
+:Product: 0530SGAS.txt
+:Issued: 2011 May 30 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 150 Issued at 0245Z on 30 May 2011
+This report is compiled from data received at SWO on 29 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0725 0730 0735  1226 S23E64 C2.6  Sf                               
+ 1008 1033 1108  1226 S22E65 M1.4  1f 100           II              
+ 2104 2122 2145  1227 S18E68 C8.7  Sf 750    520                    
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+unsettled to minor storm during the past 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 111  SSN 100  Afr/Ap 017/032   X-ray Background B5.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 5 4 3 5 4 3 Planetary 4 6 5 4 3 5 4 3 
+F.  Comments:  None

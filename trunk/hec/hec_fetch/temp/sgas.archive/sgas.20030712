@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Sat Jul 12 02:50:13 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h6C2o5f24624
+	for sgas-sendit; Sat, 12 Jul 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 12 Jul 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200307120250.h6C2o3l24529@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jul 12 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 193 Issued at 0245Z on 12 Jul 2003
+This report is compiled from data received at SWO on 11 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0636 0739 0838  0401        C2.9     170                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to major storm levels.  An extended period of southward Bz (-10 nT)
+led to the elevated conditions.  An isolated period of major storm
+levels was observed between 11/0600 and 11/0900Z.  An increase in
+the solar wind speed began near mid-period and is likely to be the
+onset of a recurrent coronal hole.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 122  SSN 127  Afr/Ap 040/046   X-ray Background B5.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.00e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 5 6 5 4 5 3 5 Planetary 3 5 6 5 5 4 5 5 
+F.  Comments:  None
+

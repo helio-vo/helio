@@ -1,0 +1,59 @@
+From sgas-owner@sec.noaa.gov  Wed Apr  9 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h392o6e10224
+	for sgas-sendit; Wed, 9 Apr 2003 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 9 Apr 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200304090250.h392o2f10035@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Apr 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 099 Issued at 0245Z on 09 Apr 2003
+This report is compiled from data received at SWO on 08 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0723 0724 0724                       100                           
+ 1329 1329 1329                       110                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  A CME shock from the M1 event on 04 April arrived
+early today with a 33 nT sudden impulse at 08/0115Z recorded on the
+Boulder magnetometer.  Bz reached values near minus 10 nT and solar
+wind velocity reached peak values near 500 km/s.  Unsettled to
+active levels were observed at mid latitudes and an isolated minor
+storm condition on the planetary index.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 112  SSN 052  Afr/Ap 018/020   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.0e+06   GT 10 MeV 2.2e+04 p/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+07 e/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 3 3 4 4 3 4 2 3 Planetary 2 3 4 5 4 4 2 3 
+F.  Comments:  Beginning 1500 UTC April 8, SEC will begin using data
+from the GOES 12 satellite, and stop receiving GOES 8 data. GOES 12
+has the new Solar X-Ray Imager (SXI), which will acquire real-time,
+operational images of the solar x-ray flux. With the switch from
+GOES 8 to GOES 12, the primary/secondary designations will change.
+GOES 12 will be the primary satellite for the SXI. All other data,
+including magnetometer, XRS x-ray measurements, and energetic
+particles, will have GOES 10 as their primary source, with GOES 12
+as the secondary source where available. Please see
+http://www.sec.noaa.gov/GOES.html for important information on this
+changeover.
+

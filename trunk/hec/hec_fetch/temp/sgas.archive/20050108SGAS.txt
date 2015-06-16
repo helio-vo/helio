@@ -1,0 +1,35 @@
+:Product: 20050108SGAS.txt
+:Issued: 2005 Jan 08 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 008 Issued at 0245Z on 08 Jan 2005
+This report is compiled from data received at SWO on 07 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to severe storm levels. Transient flow, likely the CME
+activity from 04 and 05 January, impacted the geomagnetic field
+first at around 07/0900Z. The existing elevated solar wind speed
+increased from 500 km/s to just over 600 km/s. Major storming
+followed a period of sustained southward Bz to near -10 nT between
+07/1300 - 1500Z.  A second disturbance passed the ACE spacecraft at
+07/2010Z. Only a weak enhancement was observed on the plasma
+measurements; however, the IMF Bz turned sharply southward to near
+-20 nT. The geomagnetic field responded with major to severe storm
+conditions to end the period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 084  SSN 022  Afr/Ap 030/037   X-ray Background A6.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.1e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.10e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 0 0 1 6 6 3 7 Planetary 1 0 0 1 6 6 4 7 
+F.  Comments:  None

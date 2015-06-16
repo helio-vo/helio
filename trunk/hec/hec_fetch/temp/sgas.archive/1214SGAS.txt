@@ -1,0 +1,38 @@
+:Product: 1214SGAS.txt
+:Issued: 2006 Dec 14 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 348 Issued at 0245Z on 14 Dec 2006
+This report is compiled from data received at SWO on 13 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0214 0240 0257  0930 S06W24 X3.4  4b        44000  II/IV           
+ 0224 0225 0326                       100000        II/IV           
+ 0355 0357 0404                       460    1500                   
+ 0407 0408 0409                       500    480                    
+ 0417 0418 0420                       200    170                    
+ 0436 0437 0437                              140                    
+ 0443 0443 0443                              100                    
+ 0626 0631 0634  0930 S08W26       Sf                  IV           
+ 2332 2335 2338  0930 S06W22       2f 350                           
+B.  Proton Events:  A greater than 100 MeV proton event started at
+13/0245 UTC, and reached a maximum of 88.7 pfu at 13/0525 UTC. A
+greater than 10 MeV proton event started at 13/0250 UTC, and reached
+a maximum of 698 pfu at 13/0925 UTC. These events are associated
+with the X3 event from Region 930.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels for the last 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 094  SSN 021  Afr/Ap 008/005   X-ray Background B1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.4e+07   GT 10 MeV 2.7e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W136 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.60e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 1 1 2 1 1 2 Planetary 3 3 0 0 0 0 0 2 
+F.  Comments:  None

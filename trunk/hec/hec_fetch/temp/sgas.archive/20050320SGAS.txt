@@ -1,0 +1,30 @@
+:Product: 20050320SGAS.txt
+:Issued: 2005 Mar 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 079 Issued at 0245Z on 20 Mar 2005
+This report is compiled from data received at SWO on 19 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0656 0707 0711  0743 S08W48 C2.3  Sf 66            II              
+ 1205 1205 1205                       120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels.  An isolated period of minor storming
+occurred between 19/0000 and 0300 UTC.  This elevated conditions
+were most likely due to a sustained southward Bz and a slight
+increase in the solar wind speeds to approximately 460 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 093  SSN 041  Afr/Ap ???/014   X-ray Background B1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.3e+05   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W111 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 4 3 2 2 2 1 1 Planetary 5 4 2 2 2 1 1 1 
+F.  Comments:  None

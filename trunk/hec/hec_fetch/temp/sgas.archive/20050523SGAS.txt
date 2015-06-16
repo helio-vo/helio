@@ -1,0 +1,28 @@
+:Product: 20050523SGAS.txt
+:Issued: 2005 May 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 143 Issued at 0245Z on 23 May 2005
+This report is compiled from data received at SWO on 22 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+predominantly quiet to active levels.  A brief period of minor
+storming was observed at the Boulder magnetometer between 22/0000
+and 0300Z.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 082  SSN 042  Afr/Ap 016/014   X-ray Background A6.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.4e+05   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W114 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.20e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W77 degrees)
+3 Hour K-indices:
+Boulder 5 2 3 3 3 2 3 2 Planetary 4 2 3 4 3 2 3 2 
+F.  Comments:  None

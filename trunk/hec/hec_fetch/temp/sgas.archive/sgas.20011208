@@ -1,0 +1,50 @@
+From sgas-owner  Sat Dec  8 02:50:13 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA14269
+	for sgas-sendit; Sat, 8 Dec 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 8 Dec 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112080250.CAA14200@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Dec 08 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 342 Issued at 0245Z on 08 Dec 2001
+This report is compiled from data received at SWO on 07 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0233 0307 0347  9729 N24W15       Sf 52            II              
+ 0435 0439 0442              C2.5     5900                          
+ 0727 0727 0727                       110                           
+ 0857 0858 0858  9727                 370                           
+ 1017 1019 1019                       240                           
+ 1041 1041 1041                       100                           
+ 1928 1928 1928                       330                           
+ 1932 1932 1933                       310                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 226  SSN 200  Afr/Ap 007/005   X-ray Background C1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.60e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 1 1 3 2 3 2 Planetary 2 1 0 1 2 2 2 2 
+F.  Comments:  None
+

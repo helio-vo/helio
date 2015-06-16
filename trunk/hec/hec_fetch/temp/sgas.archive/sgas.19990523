@@ -1,0 +1,51 @@
+From owner-sgas@proton.sel.noaa.gov Sun May 23 22:56:50 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA285824610; Sun, 23 May 1999 22:56:50 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Mon, 24 May 1999 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199905240255.CAA13921@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 May 24 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 144 ISSUED AT 0245Z ON 24 MAY 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 23 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0804 0807 0809  8545 N36W27 C1.3  SF 440                           
+ 1012 1012 1013                       260                           
+ 1131 1131 1132                       180                           
+ 1409 1415 1417  8550 S15E29 C1.3  SF 710                           
+ 1631 1631 1631                       160                           
+ 1725 1725 1725                       300    32                     
+ 1728 1731 1733              C1.9     190                           
+ 2142 2143 2143                       2700                          
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+ACTIVE.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 141  SSN 104  AFR/AP 012/010   X-RAY BACKGROUND B5.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.4E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.10E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 1 2 4 4 3 2 1 PLANETARY 3 2 2 4 4 2 2 1 
+F.  COMMENTS:  ENERGETIC ELECTRON FLUXES AT GEOSYNCHRONOUS ORBIT WERE
+DECLINING TO NEAR BACKGROUND DURING THE PERIOD
+
+

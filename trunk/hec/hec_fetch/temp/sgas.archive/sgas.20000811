@@ -1,0 +1,49 @@
+From sgas-owner  Fri Aug 11 02:51:14 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA13845
+	for sgas-sendit; Fri, 11 Aug 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 11 Aug 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200008110250.CAA13794@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Aug 11 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 224 ISSUED AT 0245Z ON 11 AUG 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 10 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0832 0832 0833                       180                           
+ 1551 1551 1552                       120                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD VARIED FROM
+QUIET TO MINOR STORM CONDITIONS. A TRANSIENT WAS SEEN TO PASS ACE AT
+APPROXIMATELY 0400Z, FUELING THE HIGHER LEVELS OF ACTIVITY SEEN A
+FEW HOURS LATER. THIS CME DOES NOT HAVE AN OBVIOUS SOLAR SOURCE.
+ALTHOUGH THE SOLAR WIND SPEED HAS NOW RETURNED TO MORE NORMAL
+LEVELS, THE IMF BZ COMPONENT IS STILL SOUTHWARD, WITH A MAGNITUDE OF
+-10 NT.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 181  SSN 141  AFR/AP 026/023   X-RAY BACKGROUND B8.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.9E+05   GT 10 MEV 9.2E+03 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 9.70E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 2 5 4 5 4 4 4 PLANETARY 2 3 4 4 5 3 3 5 
+F.  COMMENTS:  NONE
+

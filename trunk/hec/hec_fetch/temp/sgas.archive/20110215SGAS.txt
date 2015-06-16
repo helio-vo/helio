@@ -1,0 +1,45 @@
+:Product: 0215SGAS.txt
+:Issued: 2011 Feb 15 0335 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+::::::::::Corrected Copy::::::::::
+SGAS Number 046 Issued at 0245Z on 15 Feb 2011
+This report is compiled from data received at SWO on 14 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0004 0004 0009  1158 S19E01       Sf 100                           
+ 0158 0158 0158                       100                           
+ 0235 0242 0246  1158 S21E04 C1.6  Sf 280                           
+ 0324 0448 0508              C7.1     200                           
+ 0429 0449 0509  1158 S20W01 C8.3  Sf 500                           
+ 0513 0517 0518                       150                           
+ 0543 0553 0554                       520                           
+ 0651 0658 0703  1158        C6.6     630                           
+ 0833 0833 0833                       160                           
+ 0839 0849 0904  1158        C1.8     620                           
+ 1044 1044 1044                       1000                          
+ 1151 1200 1226  1158        C1.7     140                           
+ 1303      1312                                     II              
+ 1720 1726 1732  1158 N56W18 M2.2  1n               II              
+ 1811 1811 1811                       150                           
+ 1923 1930 1936  1158 S20W05 C6.6  Sf 7200   94                     
+ 2053 2053 2053                       100                           
+ 2240 2241 2242                       320                           
+ 2244 2244 2246                       2300                          
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+quiet to active levels for the past 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 113  SSN 090  Afr/Ap 006/010   X-ray Background B5.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.7e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.70e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 1 1 1 3 4 3 Planetary 0 0 0 0 0 3 4 4 
+F.  Comments:  This is a corrected copy.

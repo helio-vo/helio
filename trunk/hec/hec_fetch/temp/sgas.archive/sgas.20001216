@@ -1,0 +1,49 @@
+From sgas-owner  Sat Dec 16 02:51:44 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA13712
+	for sgas-sendit; Sat, 16 Dec 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 16 Dec 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200012160250.CAA13570@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Dec 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 351 Issued at 0245Z on 16 Dec 2000
+This report is compiled from data received at SWO on 15 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet.  The greater than 2 MeV electron flux reached high levels
+during part of the day.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM FRIDAY
+STRONG STRATOSPHERIC WARMING IN PROGRESS.  THE VORTEX CENTER SHIFTED
+TOWARDS CANADA; THE VORTEX BEING ELONGATED TOWARDS THE BARENTS SEA
+AND KASACHSTAN.  AN ANTICYCLONE OVER THE PACIFIC; A NEW ANTICYCLONE
+DEVELOPING OVER THE NORTH ATLANTIC.  COLD AIR BEING DISPLACED TO
+NORTHERN CANADA; WARM AIR CENTERED OVER CENTRAL ASIA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 188  SSN 181  Afr/Ap 003/003   X-ray Background B5.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.1e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.80e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 0 1 2 2 0 1 Planetary 0 0 0 1 2 2 1 1 
+F.  Comments:  None
+

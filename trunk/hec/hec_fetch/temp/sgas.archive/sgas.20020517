@@ -1,0 +1,46 @@
+From sgas-owner  Fri May 17 02:50:17 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_24419)/8.8.6) id CAA01537
+	for sgas-sendit; Fri, 17 May 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 17 May 2002 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200205170250.CAA01428@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 May 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 137 Issued at 0245Z on 17 May 2002
+This report is compiled from data received at SWO on 16 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0011 0035 0118  9948        C4.5     98            II/IV           
+ 0316 0324 0326                       660                           
+ 0355 0355 0400                       1600                          
+ 2104 2105 2105                       120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 158  SSN 120  Afr/Ap 010/012   X-ray Background C2.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.9e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.90e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 2 3 2 2 2 Planetary 3 3 2 3 3 3 3 3 
+F.  Comments:  None
+

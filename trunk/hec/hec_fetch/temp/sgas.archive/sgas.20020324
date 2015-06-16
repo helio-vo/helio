@@ -1,0 +1,47 @@
+From sgas-owner  Sun Mar 24 02:50:15 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA19624
+	for sgas-sendit; Sun, 24 Mar 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 24 Mar 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200203240250.CAA19466@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Mar 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 083 Issued at 0245Z on 24 Mar 2002
+This report is compiled from data received at SWO on 23 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1202 1202 1202                       100                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 22/2020 UTC reached a maximum of 16 pfu at 23/1320 UTC, then
+ended at 23/2030 UTC.
+C.  Geomagnetic Activity Summary:  Activity increased to unsettled to
+active levels following a sudden impulse at 23/1137 UTC (16 nT, as
+measured by the Boulder USGS magnetometer).
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 170  SSN 176  Afr/Ap 010/009   X-ray Background B8.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.1e+07   GT 10 MeV 6.8e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.90e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 0 0 2 4 3 3 3 Planetary 1 0 0 2 3 3 3 3 
+F.  Comments:  Afr value estimated based upon Boulder magnetometer
+data.
+

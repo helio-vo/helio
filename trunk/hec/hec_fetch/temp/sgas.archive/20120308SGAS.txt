@@ -1,0 +1,39 @@
+:Product: 0308SGAS.txt
+:Issued: 2012 Mar 08 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 068 Issued at 0245Z on 08 Mar 2012
+This report is compiled from data received at SWO on 07 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0002 0024 0040  1429 N17E27 X5.4  3b 320000 7200   II/IV           
+ 0105 0114 0123  1430 N22E12 X1.3  Sf               II              
+ 0527 0527 0527                       240                           
+ 0819 0819 0819                       210                           
+ 0829 0829 0829                       170                           
+ 1155 1155 1155                       100                           
+ 1158      2229                                        IV           
+ 1413 1413 1413                       330                           
+ 1814      2359                                        IV           
+ 1919 1920 1920                       140                           
+B.  Proton Events:  A greater than 10 MeV proton event began at
+07/0500Z and has reached a peak of 1740 PFU at 07/2305Z.  A greater
+than 100 MeV proton event also occurred, beginning at 07/0405Z and
+reaching an apparent maximum of 69 PFU at 07/1540Z. Both of these
+events continue in progress at the time of this report.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+unsettled to severe storm levels for the past 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 136  SSN 102  Afr/Ap 033/064   X-ray Background C1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+08   GT 10 MeV 6.1e+07 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 6 6 6 5 3 3 Planetary 3 5 6 6 7 7 4 4 
+F.  Comments:  None.

@@ -1,0 +1,48 @@
+From sgas-owner  Tue Mar 13 02:50:11 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA01132
+	for sgas-sendit; Tue, 13 Mar 2001 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 13 Mar 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200103130250.CAA00927@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Mar 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 072 Issued at 0245Z on 13 Mar 2001
+This report is compiled from data received at SWO on 12 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet to unsettled with an
+isolated active period during 12/1500 - 1800 UTC.
+D.  Stratwarm:  Stratwarm alert exists Monday
+As a result of the major warming, the circulation in the lower
+stratosphere remains further disturbed leading to a reversed
+temperature gradient up to 20 hpa. In the middle and upper
+stratosphere, the cold and elongated polar vortex weakens. Slow
+transition to summer conditions most probable.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 158  SSN 174  Afr/Ap 010/010   X-ray Background B6.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 2 3 3 4 2 3 Planetary 1 0 2 3 3 3 3 3 
+F.  Comments:  None
+

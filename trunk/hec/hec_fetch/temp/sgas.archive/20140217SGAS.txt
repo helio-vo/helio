@@ -1,0 +1,39 @@
+:Product: 0217SGAS.txt
+:Issued: 2014 Feb 17 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 048 Issued at 0245Z on 17 Feb 2014
+This report is compiled from data received at SWO on 16 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0038 0038 0038                       190                           
+ 0140 0141 0141                       2300                          
+ 0402 0402 0402                       100                           
+ 0637 0637 0637                       130                           
+ 0708 0708 0708                       400                           
+ 0744 0744 0744                       100                           
+ 0920 0926 0929  1977 S11E01 M1.1  Sn 2400   92        IV           
+ 0944 0944 0944                       170                           
+ 0946 0947 0947                       1600                          
+ 1018 1019 1019                       180                           
+ 1348 1400 1405  1977        C3.4     720                           
+ 1519 1519 1519                       110                           
+ 1920 1925 1928  1977 S11W05 C1.7  Sf 590                           
+ 2006 2006 2006                       110                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to minor storm levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 154  SSN 137  Afr/Ap 014/018   X-ray Background B7.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.9e+05   GT 10 MeV 9.3e+03 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+05 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 5 3 2 2 3 4 3 2 Planetary 5 3 2 2 3 4 4 3 
+F.  Comments:  None.

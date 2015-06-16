@@ -1,0 +1,48 @@
+From sgas-owner@sec.noaa.gov  Wed Oct 23 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g9N2o5p05302
+	for sgas-sendit; Wed, 23 Oct 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 23 Oct 2002 02:50:01 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210230250.g9N2o1d05139@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Oct 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 296 Issued at 0245Z on 23 Oct 2002
+This report is compiled from data received at SWO on 22 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0746 0746 0746                       230                           
+ 0925 0925 0925                       250                           
+ 1807 1808 1808                       960                           
+ 1529 1535 1551  0162 N28E27 M1.0  Sf        110                    
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.  One period on isolated active conditions was
+observed at 22/09-12 UTC.  Solar wind velocity continues to
+gradually decrease, ending the period near 400 km/s.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 169  SSN 132  Afr/Ap 010/012   X-ray Background B7.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.8e+05   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.10e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 1 4 2 3 3 1 Planetary 3 2 1 4 3 3 3 3 
+F.  Comments:  None
+

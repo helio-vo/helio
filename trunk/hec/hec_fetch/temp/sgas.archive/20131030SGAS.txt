@@ -1,0 +1,39 @@
+:Product: 1030SGAS.txt
+:Issued: 2013 Oct 30 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 303 Issued at 0245Z on 30 Oct 2013
+This report is compiled from data received at SWO on 29 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000      1017                                        IV           
+ 0032 0032 0032                       180                           
+ 0123 0123 0123                       120                           
+ 0215 0215 0215                       100                           
+ 0235 0235 0235                       150                           
+ 0551 0551 0551                       110                           
+ 0604      1539                                        IV           
+ 0732 0748 0755  1875        C2.3     120                           
+ 0821 0821 0821                       100                           
+ 1134      2041                                        IV           
+ 1142 1142 1144                       100                           
+ 1332 1332 1332                       490                           
+ 2142 2154 2201              X2.3     3900          II/IV           
+ 2206 2206 2206                       280                           
+ 2210 2210 2210                       130                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 153  SSN 171  Afr/Ap 003/004   X-ray Background C1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.3e+06   GT 10 MeV 2.5e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 1 0 0 3 2 2 2 2 Planetary 0 0 0 2 1 1 2 2 
+F.  Comments:  None

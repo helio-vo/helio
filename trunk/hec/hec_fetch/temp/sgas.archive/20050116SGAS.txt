@@ -1,0 +1,41 @@
+:Product: 20050116SGAS.txt
+:Issued: 2005 Jan 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 016 Issued at 0245Z on 16 Jan 2005
+This report is compiled from data received at SWO on 15 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0022 0043 0102  0720 N11E10 X1.2  1b        97                     
+ 0214 0214 0215                       110                           
+ 0409 0416 0422  0720 N11E08 M1.3  2n                               
+ 0426 0431 0436  0720 N14E06 M8.4  2n                               
+ 0554 0638 0717  0720 N11E06 M8.6  Sf 41000  3000   II/IV           
+ 1141 1148 1150  0720 N12E04 M1.2  Sf                               
+ 1235 0000 1650                                        IV           
+ 1408 1423 1439  0718 S08W11 M3.2  Sf 500    420                    
+ 1730 0000 0000                                        IV           
+ 2225 2302 2331  0720 N14W08 X2.6  3b               II              
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to minor storm periods with isolated major storm levels at
+high latitudes. A gradual rise in the solar wind speed began early
+in the period, rising to a peak speed near 700 km/s, before
+gradually declining to near 550 km/s. The IMF Bz was predominantly
+southward during the first half of the period, which accounted for
+the most disturbed conditions. A greater than 10 MeV proton
+enhancement began soon after today's long duration M8 flare.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 145  SSN 100  Afr/Ap 015/022   X-ray Background C1.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.8e+06   GT 10 MeV 2.7e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.10e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 4 3 3 3 3 2 Planetary 3 6 4 3 3 3 3 2 
+F.  Comments:  None.

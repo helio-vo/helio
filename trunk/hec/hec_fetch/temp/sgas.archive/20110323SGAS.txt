@@ -1,0 +1,33 @@
+:Product: 0323SGAS.txt
+:Issued: 2011 Mar 23 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 082 Issued at 0245Z on 23 Mar 2011
+This report is compiled from data received at SWO on 22 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0320 0325 0329              C1.9                                   
+ 0644 0645 0645                       100                           
+ 1015 1016 1017                       310                           
+ 1858 1858 1858                       190                           
+ 1951 1951 1951                       170                           
+ 1957 1957 1957                       140                           
+B.  Proton Events:  The greater than 10 MeV proton event at
+geosynchronous orbit that began at 21/1950Z reached a maximum flux
+of 14 pfu at 22/0130Z and ended at 22/0335Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 100  SSN 031  Afr/Ap 005/006   X-ray Background B4.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+06   GT 10 MeV 3.5e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.10e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 2 3 1 1 1 Planetary 3 3 1 1 2 1 0 1 
+F.  Comments:  None

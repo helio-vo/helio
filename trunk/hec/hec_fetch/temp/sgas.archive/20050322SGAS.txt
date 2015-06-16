@@ -1,0 +1,31 @@
+:Product: 20050322SGAS.txt
+:Issued: 2005 Mar 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 081 Issued at 0245Z on 22 Mar 2005
+This report is compiled from data received at SWO on 21 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  A weak coronal hole high speed stream appears to
+have passed the ACE spacecraft at approximately 21/0800 UTC with
+maximum solar wind speeds reaching 650 km/s at approximately 20/0900
+UTC.  Following two hours of a sustained southward Bz, a brief
+geoeffective period of active conditions occurred between 20/1200
+and 1500 UTC.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 090  SSN 053  Afr/Ap 010/008   X-ray Background A6.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.2e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W111 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.30e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 0 2 3 4 3 2 2 Planetary 1 1 1 3 4 2 1 1 
+F.  Comments:  None

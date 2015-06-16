@@ -1,0 +1,52 @@
+From sgas-owner  Tue May 16 02:50:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA07183
+	for sgas-sendit; Tue, 16 May 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 16 May 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200005160250.CAA07048@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 May 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 137 ISSUED AT 0245Z ON 16 MAY 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 15 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0447 0457 0508              M1.3                                   
+ 0816 0902 0928  9002 N21E75 M4.4  SF 400    640                    
+ 1046 1050 1056              M1.2            160                    
+ 1546 1601 1618  8993 S24W67 C7.8  1F 50     1500                   
+ 1638 1644 1649  8998 S15E51 M1.1  SF 100                           
+ 1757 1802 1805  8993 S21W69 M1.2  SF                               
+ 1848 1853 1856  9002 N21E73 M2.0  1N                               
+B.  PROTON EVENTS:  A WEAK GT 10 MEV PROTON ENHANCEMENT BEGAN NEAR
+15/1600Z.  AT THE END OF THE PERIOD THE FLUX REACHED 1 PFU AND WAS
+SLOWLY INCREASING.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+ACTIVE.  THE MOST DISTURBED PERIODS WERE FROM 15/0000-0300Z AND
+15/0900-1200Z.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 244  SSN 302  AFR/AP 010/016   X-RAY BACKGROUND C1.8
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.9E+05   GT 10 MEV 1.6E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.30E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 3 2 3 2 3 2 2 PLANETARY 4 3 3 4 3 2 2 3 
+F.  COMMENTS:  NONE.
+

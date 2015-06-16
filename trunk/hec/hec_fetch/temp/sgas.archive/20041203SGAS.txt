@@ -1,0 +1,27 @@
+:Product: 20041203SGAS.txt
+:Issued: 2004 Dec 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 338 Issued at 0245Z on 03 Dec 2004
+This report is compiled from data received at SWO on 02 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 2344 0006 0035  0708 N08W02 M1.5     3400   520    II/IV           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+The coronal hole induced activity of the past few days has ended.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 106  SSN 062  Afr/Ap 004/004   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+06   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W104 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.50e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 2 0 1 2 2 1 Planetary 1 1 2 0 1 2 1 1 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.

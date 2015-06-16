@@ -1,0 +1,40 @@
+:Product: 0108SGAS.txt
+:Issued: 2014 Jan 08 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 008 Issued at 0245Z on 08 Jan 2014
+This report is compiled from data received at SWO on 07 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000      1054                                        IV           
+ 0625      1526                                        IV           
+ 1007 1013 1037  1944 S13E11 M7.2  2b 110    480                    
+ 1241 1242 1323  1944 S13E10       Sf                  IV           
+ 1347 1347 1347                       220                           
+ 1430 1430 1430                       140                           
+ 1804 1832 1858  1943 S15W11 X1.2  2n 7200   8300   II              
+ 1948 1948 1948                       1200                          
+ 1958 1958 1958                       210                           
+ 2053 2053 2053                       460                           
+ 2208 2208 2208                       200                           
+ 2216 2233 2239  1947 N13W84 C7.4  Sf 430              IV           
+B.  Proton Events:  A S2 (Moderate) solar radiation storm is in
+progress as a result of a new X1 flare/CME at 07/1832 UTC in
+addition to the already ongoing S1 event that was in progress prior
+to the X1/CME.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 237  SSN 196  Afr/Ap 007/006   X-ray Background B9.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+07   GT 10 MeV 2.6e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.10e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 0 2 1 1 2 3 4 2 Planetary 0 2 0 0 0 3 3 2 
+F.  Comments:  None

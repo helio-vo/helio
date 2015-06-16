@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Thu Jul 25 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g6P2o5B12125
+	for sgas-sendit; Thu, 25 Jul 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 25 Jul 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200207250250.g6P2o1s11931@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jul 25 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 206 Issued at 0245Z on 25 Jul 2002
+This report is compiled from data received at SWO on 24 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0018 0035 0047  0039 S13E72 X4.8  2b 6600   1800   II/IV           
+ 0433 0434 0435                       110                           
+ 1524 1555 1622  0039 S13E49 M1.2  1f                  IV           
+B.  Proton Events:  A greater than 10 MeV proton event began at
+22/0655 UTC and remains in progress.  Maximum flux observed thus far
+was 28 pfu at 23/1025 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 208  SSN 270  Afr/Ap 015/012   X-ray Background C1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+07   GT 10 MeV 1.7e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.20e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 2 2 2 3 2 Planetary 3 3 3 2 3 3 3 2 
+F.  Comments:  None
+

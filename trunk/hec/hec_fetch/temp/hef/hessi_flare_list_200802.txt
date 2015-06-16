@@ -1,0 +1,54 @@
+HESSI Flare List  (generated  2-Aug-2012 14:17)
+
+Total # flares: 63447  Time range: 12-Feb-2002 21:29:56.000 - 31-Jul-2012 14:38:28.000
+ 
+    Flare     Start time        Peak      End      Dur   Peak     Total      Energy X Pos Y Pos Radial   AR        Flags         
+                                                     s    c/s    Counts         keV  asec  asec   asec                           
+
+  8020703  7-Feb-2008 13:57:28 14:03:38 14:13:48   980     32    109224        6-12   853  -105    859    0  A0 DR P1 PE Q2        
+  8021602 16-Feb-2008 01:47:48 01:49:46 01:49:48   120     80     26928         3-6     0     0      0    0  A0 EE PE Q2           
+  8021910 19-Feb-2008 23:56:44 00:00:14 00:01:24   280    192    112800         3-6     0     0      0    0  a0 a1 A3 GD GE PE Q3  
+  8022011 20-Feb-2008 23:54:12 23:57:38 00:02:04   472     92    147696         3-6     0     0      0    0  A0 PE Q1              
+  8022314 23-Feb-2008 22:05:32 22:08:50 22:09:00   208    216    116376         3-6     0     0      0    0  A0 GE PE Q2           
+  8022423 24-Feb-2008 22:03:04 22:06:30 22:11:20   496    112    187272         3-6     0     0      0    0  A0 PE Q1              
+  8022712 27-Feb-2008 20:14:24 20:16:46 20:16:52   148    160     55872         3-6     0     0      0    0  a0 a1 A3 GE PE Q2     
+  8022828 28-Feb-2008 20:12:00 20:15:46 20:20:36   516    136    225989         3-6     0     0      0    0  a0 a1 A3 PE Q1        
+
+Notes: 
+  Note that only events with non-zero position and energy range not equal to 3-6 keV are confirmed as solar sources.
+  Events which do not have valid position are only confirmed to be non-solar if the NS flag is set.
+  Events which have no position, but no non-solar flag are events that show up in the front detectors, but were
+  not able to be imaged.
+  Peak Rate:  peak counts/second in energy range 6-12 keV, averaged over active collimators, including background.
+  Total Counts:  counts in energy range 6-12 keV integrated over duration of flare summed over all subcollimators,
+    including background.
+  Energy:  the highest energy band in which the flare was observed.
+  Radial Distance:  distance from Sun center
+  Quality Codes: Qn, where n is the total number of data gap, SAA, particle, eclipse or decimation flags set for event.
+    n ranges from 0 to 11.  Use care when analyzing the data when the quality is not zero.
+
+Flare Flag Codes: 
+  a0 - In attenuator state 0 (None) sometime during flare
+  a1 - In attenuator state 1 (Thin) sometime during flare
+  a2 - In attenuator state 2 (Thick) sometime during flare
+  a3 - In attenuator state 3 (Both) sometime during flare
+  An - Attenuator state (0=None, 1=Thin, 2=Thick, 3=Both) at peak of flare
+  DF - Front segment counts were decimated sometime during flare
+  DR - Rear segment counts were decimated sometime during flare
+  ED - Spacecraft eclipse (night) sometime during flare
+  EE - Flare ended in spacecraft eclipse (night)
+  ES - Flare started in spacecraft eclipse (night)
+  FE - Flare ongoing at end of file
+  FR - In Fast Rate Mode
+  FS - Flare ongoing at start of file
+  GD - Data gap during flare
+  GE - Flare ended in data gap
+  GS - Flare started in data gap
+  MR - Spacecraft in high-latitude zone during flare
+  NS - Non-solar event
+  PE - Particle event: Particles are present
+  Pn - Position Quality: P0 = Position is NOT valid, P1 = Position is valid
+  Qn - Data Quality: Q0 = Highest Quality, Q11 = Lowest Quality
+  SD - Spacecraft was in SAA sometime during flare
+  SE - Flare ended when spacecraft was in SAA
+  SS - Flare started when spacecraft was in SAA

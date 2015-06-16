@@ -1,0 +1,46 @@
+From sgas-owner  Fri Jan 28 02:55:18 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16320
+	for sgas-sendit; Fri, 28 Jan 2000 02:55:10 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 28 Jan 2000 02:55:07 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200001280255.CAA13700@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jan 28 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 028 ISSUED AT 0245Z ON 28 JAN 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 27 JAN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 2201 2201 2201                       170                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS MOSTLY
+QUIET UNTIL A SUDDEN IMPULSE AT 1455UT.  THE FIELD WAS UNSETTLED TO
+ACTIVE THE REMAINDER OF THE DAY.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 132  SSN 110  AFR/AP 013/012   X-RAY BACKGROUND B3.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.3E+05   GT 10 MEV 1.4E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.30E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 2 2 2 3 3 4 3 PLANETARY 2 2 2 3 3 3 4 4 
+F.  COMMENTS:  THERE WERE TWO MAGNETOPAUSE CROSSING EVENTS OBSERVED
+BY THE GOES 8 SPACECRAFT, AT 1727UT AND 1753UT.
+
+

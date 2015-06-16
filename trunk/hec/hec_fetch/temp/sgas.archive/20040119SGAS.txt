@@ -1,0 +1,33 @@
+:Product: 20040119SGAS.txt
+:Issued: 2004 Jan 19 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 019 Issued at 0245Z on 19 Jan 2004
+This report is compiled from data received at SWO on 18 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0007 0017 0021  0540 S15E19 M1.4  1n 23000  190    II              
+ 1033 1037 1039  0540        B7.0     180                           
+ 1150 1153 1155  0540        B5.0     840                           
+ 1344 1357 1401  0537 N05W83 C1.4  Sf 720                           
+ 2140 2144 2149  0540        C1.4     1700                          
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. A coronal hole high speed stream continues with solar wind
+speed ranging from 520 to 620 km/s. The IMF Bz was predominantly
+northward; however, periods of southward Bz occurred, inciting the
+occasional active periods.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 120  SSN 072  Afr/Ap 015/018   X-ray Background B2.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W102 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.40e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 4 4 2 3 3 3 3 Planetary 2 4 4 3 3 3 4 4 
+F.  Comments:  None

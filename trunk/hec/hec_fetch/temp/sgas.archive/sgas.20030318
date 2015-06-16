@@ -1,0 +1,50 @@
+From sgas-owner@sec.noaa.gov  Tue Mar 18 02:50:13 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h2I2o6w18475
+	for sgas-sendit; Tue, 18 Mar 2003 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 18 Mar 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200303180250.h2I2o3B18324@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Mar 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 077 Issued at 0245Z on 18 Mar 2003
+This report is compiled from data received at SWO on 17 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1850 1905 1916  0314 S14W39 X1.5  1b 500    520                    
+ 2014 2021 2028              C6.9     150    25                     
+ 2020 2021 2021                       170                           
+ 2023 2023 2025                       240                           
+ 2133 2133 2133                       120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to major storm levels under the influence of a coronal
+hole high-speed stream. Solar wind speeds remained above 600 km/s
+and Bz fluctuated between +/- 10 nT.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 125  SSN 080  Afr/Ap 025/039   X-ray Background B3.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.3e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.40e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 5 4 5 4 3 5 Planetary 3 4 6 4 6 4 4 5 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.
+

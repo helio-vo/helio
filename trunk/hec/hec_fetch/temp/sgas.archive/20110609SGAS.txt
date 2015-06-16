@@ -1,0 +1,29 @@
+:Product: 0609SGAS.txt
+:Issued: 2011 Jun 09 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 160 Issued at 0245Z on 09 Jun 2011
+This report is compiled from data received at SWO on 08 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 07/0820Z reached a maximum of 73 pfu at 07/1820Z and ended at
+08/1710Z. The greater than 100 MeV event that began at 07/0735Z
+reached a maximum of 4 pfu at 07/1025Z and ended at 08/0210Z
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 090  SSN 045  Afr/Ap 009/014   X-ray Background B1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.3e+07   GT 10 MeV 1.5e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.00e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 1 1 2 2 2 2 Planetary 5 4 2 2 3 2 1 2 
+F.  Comments:  None

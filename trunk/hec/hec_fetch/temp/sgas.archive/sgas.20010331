@@ -1,0 +1,54 @@
+From sgas-owner  Sat Mar 31 02:50:16 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA18318
+	for sgas-sendit; Sat, 31 Mar 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 31 Mar 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200103310250.CAA18216@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Mar 31 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 090 Issued at 0245Z on 31 Mar 2001
+This report is compiled from data received at SWO on 30 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0425 0430 0440  9393 N13W25       Sf 3700                          
+ 0511 0515 0520  9393 N14W24 M2.2  1n 1800   91                     
+ 1522 1528 1548  9397 S08W04 C4.9  Sf 370                           
+ 1559 0000 1605                                     II              
+ 1620 0000 1626                                     II              
+ 1839 1839 1844                       950                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Activity in the geomagnetic field
+has been unsettled the past 24 hours.  Some discontinuity was
+observed at the ACE spacecraft and at Earth between 30/1800 UTC and
+30/1900 UTC.  The event appeared to be small and is likely the
+ result of solar activity prior to 29 March.
+The small proton event that began at 29/1000 UTC reached a maximum
+flux of 35 pfu in the >10 MeV GOES detector and remains above 10 pfu
+today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 257  SSN 349  Afr/Ap 008/010   X-ray Background C3.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.7e+07   GT 10 MeV 2.1e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 3 4 3 2 3 Planetary 1 2 2 3 3 3 3 3 
+F.  Comments:  None
+

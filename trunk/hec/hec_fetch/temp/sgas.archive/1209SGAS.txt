@@ -1,0 +1,30 @@
+:Product: 1209SGAS.txt
+:Issued: 2006 Dec 09 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 343 Issued at 0245Z on 09 Dec 2006
+This report is compiled from data received at SWO on 08 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 06/1555Z continues, but is on the decline.  The maximum observed
+flux so far is 1980 pfu at 07/1930Z.  The greater than 100 MeV
+proton event that began at 07/0115Z continues, but is also on the
+decline.  The maximum observed flux so far is 19 pfu at 07/1610Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 096  SSN 032  Afr/Ap 025/025   X-ray Background A9.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.0e+08   GT 10 MeV 6.5e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W136 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.00e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 5 4 5 3 2 3 3 Planetary 3 5 3 5 3 3 3 3 
+F.  Comments:  None

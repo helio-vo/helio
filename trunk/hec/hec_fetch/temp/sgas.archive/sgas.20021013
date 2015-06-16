@@ -1,0 +1,46 @@
+From sgas-owner@sec.noaa.gov  Sun Oct 13 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g9D2o5V17944
+	for sgas-sendit; Sun, 13 Oct 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 13 Oct 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210130250.g9D2o2717799@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Oct 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 286 Issued at 0245Z on 13 Oct 2002
+This report is compiled from data received at SWO on 12 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1409 1409 1409                       250                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mainly
+quiet to unsettled, with one active period observed during
+12/0900-2100 UTC.  Greater than 2 MeV electron flux at
+geosynchronous orbit briefly reached high levels and exceeded event
+threshold today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 180  SSN 171  Afr/Ap 006/011   X-ray Background B6.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.3e+04   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.60e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 4 2 3 1 1 Planetary 2 3 2 4 3 3 3 2 
+F.  Comments:  None
+

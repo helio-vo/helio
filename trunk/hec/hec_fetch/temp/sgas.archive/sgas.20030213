@@ -1,0 +1,49 @@
+From sgas-owner@sec.noaa.gov  Thu Feb 13 02:50:10 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h1D2o5L10487
+	for sgas-sendit; Thu, 13 Feb 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 13 Feb 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200302130250.h1D2o2P10329@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Feb 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 044 Issued at 0245Z on 13 Feb 2003
+This report is compiled from data received at SWO on 12 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0142 0151 0202  0280 S05W43 C8.7  1f 7900   56     II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.  A single isolated active period was observed
+at higher latitudes between 12/1500 to 1800Z.  The greater than 2
+MeV electron fluxes at geosynchronous orbit reached high levels
+again today.
+D.  Stratwarm:  STRATWARM ALERT/WEDNESDAY/STRATWARM EXISTS.
+IN THE MIDDLE AND UPPER STRATOSPHERE SLIGHTLY DISTURBED TEMPERATURE
+DISTRIBUTION WITH A WARM REGION OVER SIBERIA, LEADING TO A REVERSED
+TEMPERATURE GRADIENT BETWEEN 60N AND THE POLE FROM 5 TO 1 HPA
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 132  SSN 119  Afr/Ap 009/012   X-ray Background B2.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.3e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.00e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 2 2 3 2 3 2 3 Planetary 2 2 2 3 3 4 3 3 
+F.  Comments:  None
+

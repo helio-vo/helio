@@ -1,0 +1,48 @@
+From sgas-owner  Sat Feb  5 02:55:28 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16384
+	for sgas-sendit; Sat, 5 Feb 2000 02:55:09 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 5 Feb 2000 02:55:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200002050255.CAA08180@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Feb 05 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 036 ISSUED AT 0245Z ON 05 FEB 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 04 FEB
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0911 0919 0928  8858 N25E71 M3.0  SF        27                     
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET.
+D.  STRATWARM:  STRATWARM ALERT/FRIDAY/STRATWARM EXISTS.
+AN INTENSE WARMING, CENTERED OVER THE LAPTEV
+SEA AT 10 HPA, CONTINUES.  WARM AIR EXTENDS
+NORTH AND NORTHEASTWARDS.  TEMPERATURE
+GRADIENT REVERSED BETWEEN 60N AND THE POLE
+AT 10 HPA AND ABOVE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 167  SSN 136  AFR/AP 005/004   X-RAY BACKGROUND B5.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.6E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.80E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 1 2 0 2 2 1 2 PLANETARY 2 0 2 0 2 1 2 1 
+F.  COMMENTS:  NONE
+
+

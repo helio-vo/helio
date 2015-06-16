@@ -1,0 +1,49 @@
+From sgas-owner  Wed Apr  5 02:50:12 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA26503
+	for sgas-sendit; Wed, 5 Apr 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 5 Apr 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200004050250.CAA26372@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Apr 05 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 096 ISSUED AT 0245Z ON 05 APR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 04 APR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0024 0026 0026                       200                           
+ 0118 0132 0144  8948        M1.0                                   
+ 1512 1541 1605  8933 N16W66 C9.7  2F 240    490       IV           
+B.  PROTON EVENTS:  A MINOR 10 MEV PROTON EVENT STARTED AT 04/2055Z,
+AND IS CURRENTLY STILL IN PROGRESS.  THIS PROTON EVENT IS PROBABLY
+RELATED TO THE C9/2F EVENT WHICH OCCURRED 04/1541Z.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO MAJOR STORM.  A K=6 WAS OBSERVED AT BOULDER FOR THE
+04/0300Z TIME PERIOD.  THE FIELD RETURNED TO QUIET LEVELS BY
+04/0900Z ONLY TO BECOME ACTIVE AGAIN BY 04/1500Z.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 207  SSN 184  AFR/AP 022/021   X-RAY BACKGROUND C1.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 3.2E+06   GT 10 MEV 2.2E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.00E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 6 4 2 0 3 4 3 3 PLANETARY 5 4 2 1 4 3 4 4 
+F.  COMMENTS:  NONE
+

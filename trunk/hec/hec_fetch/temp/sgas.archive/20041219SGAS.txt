@@ -1,0 +1,28 @@
+:Product: 20041219SGAS.txt
+:Issued: 2004 Dec 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 354 Issued at 0245Z on 19 Dec 2004
+This report is compiled from data received at SWO on 18 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Active periods due to the continued influence of a
+geoeffective high speed coronal hole stream.  Solar wind speed at
+ACE has decreased from approximately 640 km/s to 510 km/s.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 091  SSN 040  Afr/Ap 008/012   X-ray Background B1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W105 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.70e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 2 3 2 2 1 Planetary 4 4 2 2 3 2 1 1 
+F.  Comments:  None.

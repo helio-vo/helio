@@ -1,0 +1,28 @@
+:Product: 0118SGAS.txt
+:Issued: 2007 Jan 18 0247 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 018 Issued at 0245Z on 18 Jan 2007
+This report is compiled from data received at SWO on 17 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to minor storm conditions. Activity was due to the
+continued influence of a coronal hole high speed stream. Solar wind
+speed at ACE has been elevated around 680 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 078  SSN 017  Afr/Ap 018/026   X-ray Background A2.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+06   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.30e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 4 4 3 3 4 4 Planetary 4 4 4 3 3 3 5 4 
+F.  Comments:  None

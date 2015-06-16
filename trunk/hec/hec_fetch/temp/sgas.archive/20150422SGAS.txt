@@ -1,0 +1,41 @@
+:Product: 0422SGAS.txt
+:Issued: 2015 Apr 22 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 112 Issued at 0245Z on 22 Apr 2015
+This report is compiled from data received at SWO on 21 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0250 0250 0250                       230                           
+ 0708 0721 0727  2322 N09W80 M1.0  Sf 210                           
+ 0840 0840 0845  2324 N20W26       Sf 390                           
+ 0857 0857 0857                       220                           
+ 1017 1040 1059              M2.2                                   
+ 1149 1157 1202  2322 N10W84 M2.2  Sf                               
+ 1202 1202 1202                       110                           
+ 1202 1202 1202                       120                           
+ 1524 1545 1551  2322 N10W84 M4.0  Sf                               
+ 1655 1700 1709  2322 N13W84 M2.1  Sf                               
+ 1852 1852 1852                       690                           
+ 1852 1852 1852                       780                           
+ 1906 1906 1906                       230                           
+ 2139 2145 2155  2322        M1.8                                   
+ 2158 2201 2204  2325        M1.2                                   
+ 2206 2206 2206                       130                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field activity
+ranged from unsettled to active levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 154  SSN 153  Afr/Ap 018/020   X-ray Background B9.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.7e+05   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.30e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 3 4 4 2 3 Planetary 4 3 3 3 4 4 3 3 
+F.  Comments:  None

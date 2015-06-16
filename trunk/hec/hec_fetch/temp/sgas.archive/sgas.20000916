@@ -1,0 +1,68 @@
+From sgas-owner  Sat Sep 16 02:50:19 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA22143
+	for sgas-sendit; Sat, 16 Sep 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 16 Sep 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200009160250.CAA22069@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Sep 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 260 ISSUED AT 0245Z ON 16 SEP 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 15 SEP
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0005 0009 0014  9166 S14E79       SF 700                           
+ 0452 0452 0453                       280                           
+ 0505 0532 0553  9165 N13E09 M2.1  SF        45                     
+ 0558 0558 0600                       470    37                     
+ 0611 0613 0615                       140                           
+ 0717 0720 0724              C1.8     8900                          
+ 0806 0807 0808                       760                           
+ 0814 0819 0839  9165 N12E10 C2.1  SF 12000  27                     
+ 0846 0846 0847                       440                           
+ 0949 1005 1020  9165 N15E07 C5.8  SF 4800   65                     
+ 1035 1037 1041                       2100                          
+ 1051 1100 1108  9165 N13E08 C9.5  SF 74000  110                    
+ 1323 1325 1326                       4800                          
+ 1429 1437 1444  9165 N12E07 M2.0  1N 31000  190                    
+ 1632 1716 1741  9165 N14E04 C8.7  SF 10000  59     II              
+ 2052 2100 2106  9165 N12E04 C7.4  SF 20000  150                    
+B.  PROTON EVENTS:  THE GREATER THAN 10 MEV PROTON EVENT AT
+GEOSYNCHRONOUS ORBIT, WHICH BEGAN AT 12/1555 UTC, ENDED TODAY AT
+15/2140 UTC.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD VARIED FROM
+QUIET TO ACTIVE LEVELS.  A WEAK SUDDEN IMPULSE (36 NT AT BOULDER)
+WAS OBSERVED AT 15/0510 UTC, IN ASSOCIATION WITH SHOCK PASSAGE FROM
+THE CME ACTIVITY OF SEPTEMBER 12TH.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 159  SSN 113  AFR/AP 013/010   X-RAY BACKGROUND B6.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 8.4E+07   GT 10 MEV 1.3E+06 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.40E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 4 1 1 3 3 3 3 PLANETARY 1 3 1 1 2 2 3 4 
+F.  COMMENTS:  
+EFFECTIVE 2 OCT 2000, SEC WILL ISSUE ITS TEXT PRODUCTS IN MIXED 
+CASE VS. ALL UPPER CASE.  THIS CHANGE WILL BE VISIBLE ON ALL SEC 
+PRODUCT DELIVERY SYSTEMS EXCEPT FOR TELETYPE CIRCUITS.  ONLY THE 
+CASE OF THE TEXT IN EACH PRODUCT WILL CHANGE, NOT THE FORMAT OR 
+SPACING WITHIN THE PRODUCT.  FOR DETAILS SEE OUR WEB SITE AT
+SEC.NOAA.GOV/MIXEDCASE.HTML
+

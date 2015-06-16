@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Sun Dec  8 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id gB82o5Z21638
+	for sgas-sendit; Sun, 8 Dec 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 8 Dec 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200212080250.gB82o2d21519@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Dec 08 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 342 Issued at 0245Z on 08 Dec 2002
+This report is compiled from data received at SWO on 07 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels due to coronal hole effects.  Solar wind velocities
+reached peak values near 600 km/s at 07/0900 UTC and have stabilized
+near 550 km/s.  The Bz component of the interplanetary magnetic
+field has been predominantly positive resulting in only isolated
+active conditions.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 151  SSN 106  Afr/Ap 015/016   X-ray Background B4.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.4e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.70e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 3 3 3 3 2 3 3 Planetary 3 3 3 4 3 3 3 3 
+F.  Comments:  None
+

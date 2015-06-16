@@ -1,0 +1,52 @@
+From sgas-owner  Thu Feb 22 02:50:09 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA25951
+	for sgas-sendit; Thu, 22 Feb 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 22 Feb 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200102220250.CAA25835@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Feb 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 053 Issued at 0245Z on 22 Feb 2001
+This report is compiled from data received at SWO on 21 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1411 1427 1440  9354 S08W29 C6.2  Sf 2400                          
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.  A non-Earth directed CME occurred yesterday behind the
+NE limb.
+D.  Stratwarm:  STRATWARM ALERT/WEDNESDAY/STRATWARM EXISTS.
+MAJOR WARMING CONTINUES.
+A LARGE WARM AREA COVERS THE POLAR REGION,
+SIBERIA EUROPE AND THE EASTERN ATLANTIC,
+LEADING TO A REVERSED TEMPERATURE GRADIENT
+BETWEEN 60N AND THE POLE UP TO 10 HPA.
+A POLAR ANTICYCLONE AND A SPLIT, SOUTHWARD
+DISPLACED VORTEX LEAD TO NET EASTERLY WINDS
+AT LATITUDE 60N THROUGHOUT THE STRATOSPHERE.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 144  SSN 119  Afr/Ap 006/006   X-ray Background B3.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+04   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.90e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 2 2 3 2 1 1 Planetary 2 1 1 2 3 2 2 2 
+F.  Comments:  None
+

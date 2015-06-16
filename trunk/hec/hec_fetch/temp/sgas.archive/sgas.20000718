@@ -1,0 +1,55 @@
+From sgas-owner  Tue Jul 18 02:50:31 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA22752
+	for sgas-sendit; Tue, 18 Jul 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 18 Jul 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007180250.CAA22691@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 200 ISSUED AT 0245Z ON 18 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 17 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0020 0020 0021                       140                           
+ 0031 0034 0038  9088 N19E03 C8.1  SF 350                           
+ 0032 0033 0048  9087 S12E46       SN 420    31                     
+ 1111 1112 1112                       660                           
+ 1335 1345 1348  9087 S08E31 M1.2  1F 2800   14                     
+ 1438 1439 1444  9087 S08E33       SF 130                           
+ 1806 1806 1830  9077 N19W47       1F 210                           
+ 2014 2027 2032  9087 S11E36 M2.4  1N 7100   280    II              
+ 2337 0004 0015  9077 N17W38 M1.4  2F                               
+B.  PROTON EVENTS:  THE GREATER THAN 10 MEV PROTON FLUX BEGAN THE
+PERIOD AT APPROXIMATELY 180 PFU AND BY ISSUE TIME WERE NEAR 50 PFU. 
+THE POLAR CAP ABSORPTION EVENT ENDED AT 17/1943Z.  THE FORBUSH
+DECREASE REMAINED IN PROGRESS.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED.  SOLAR WIND VELOCITY DECLINED DURING THE PERIOD FROM
+APPROXIMATELY 750 TO 600 KM/S.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 228  SSN 335  AFR/AP 008/009   X-RAY BACKGROUND C2.3
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.5E+07   GT 10 MEV 8.0E+06 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.70E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 2 3 2 1 2 2 PLANETARY 3 3 2 3 2 2 2 2 
+F.  COMMENTS:  NONE
+

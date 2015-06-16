@@ -1,0 +1,40 @@
+From srs-owner  Mon Jul 30 00:40:11 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id AAA26316
+	for srs-sendit; Mon, 30 Jul 2001 00:40:02 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Mon, 30 Jul 2001 00:40:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200107300040.AAA26267@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2001 Jul 30 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar Region Summary
+SRS Number 211 Issued at 0030Z on 30 Jul 2001
+Report compiled from data received at SWO on 29 Jul
+I.  Regions with Sunspots.  Locations Valid at 29/2400Z 
+Nmbr Location  Lo  Area  Z   LL   NN Mag Type
+9553 N14W46   011  0010 Bxo  04   03 Beta
+9557 S20E36   289  0130 Fao  16   09 Beta
+9559 S24W14   339  0040 Dro  07   06 Beta
+9560 N18E46   279  0010 Axx  00   01 Alpha
+IA. H-alpha Plages without Spots.  Locations Valid at 29/2400Z Jul
+Nmbr  Location  Lo
+9549  S05W88   054
+9555  S09W12   337
+9558  N18W69   034
+II. Regions Due to Return 30 Jul to 01 Aug
+Nmbr Lat    Lo
+9531 S06    224
+9533 S08    203
+

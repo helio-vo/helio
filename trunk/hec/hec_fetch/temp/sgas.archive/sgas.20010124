@@ -1,0 +1,47 @@
+From sgas-owner  Wed Jan 24 02:50:27 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA20874
+	for sgas-sendit; Wed, 24 Jan 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 24 Jan 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200101240250.CAA20764@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Jan 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 024 Issued at 0245Z on 24 Jan 2001
+This report is compiled from data received at SWO on 23 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0434 0434 0435                       120                           
+B.  Proton Events:  The 10 MeV protons remained slightly enhanced but
+well below event threshold.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  An interplanetary shock was observed at the ACE spacecraft
+at 23/1008Z and was followed by a sudden impulse at Earth at
+23/1047Z.  The geomagnetic field was unsettled to active the rest of
+the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 167  SSN 178  Afr/Ap 007/011   X-ray Background B5.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+07   GT 10 MeV 1.1e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 0 3 3 4 4 3 Planetary 1 1 0 3 3 3 4 3 
+F.  Comments:  None
+

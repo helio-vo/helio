@@ -1,0 +1,29 @@
+:Product: 20050302SGAS.txt
+:Issued: 2005 Mar 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 061 Issued at 0245Z on 02 Mar 2005
+This report is compiled from data received at SWO on 01 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled with isolated active periods at high latitudes. A high
+speed coronal hole stream continues to buffet the geomagnetic field.
+Solar wind speed ranged from 600 - 700 km/s, but the IMF Bz was
+predominantly northward.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 074  SSN 011  Afr/Ap 010/011   X-ray Background A2.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+06   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W110 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 3 2 3 1 3 Planetary 2 1 3 3 2 2 2 4 
+F.  Comments:  None

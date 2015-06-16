@@ -1,0 +1,30 @@
+:Product: 0525SGAS.txt
+:Issued: 2007 May 25 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 145 Issued at 0245Z on 25 May 2007
+This report is compiled from data received at SWO on 24 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to major storming.  Extended periods of southward Bz
+starting on 23 May, combined with rising solar wind speeds,
+accounted for the most disturbed periods.  Solar wind speed
+increased to approximately 650 km/s during the summary period due to
+a recurrent coronal hole rotating into a geoeffective position.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 070  SSN 000  Afr/Ap 018/028   X-ray Background  LT A1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.8e+06   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W136 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.00e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 5 4 3 3 3 2 3 Planetary 6 5 4 2 3 4 4 4 
+F.  Comments:  None

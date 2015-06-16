@@ -1,0 +1,52 @@
+From sgas-owner@sec.noaa.gov  Fri Aug 23 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g7N2o5714386
+	for sgas-sendit; Fri, 23 Aug 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 23 Aug 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200208230250.g7N2o2r14238@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Aug 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 235 Issued at 0245Z on 23 Aug 2002
+This report is compiled from data received at SWO on 22 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0147 0157 0205  0069 S07W62 M5.4  2b        260    II              
+ 0210 0000 0000                                        IV           
+ 1054 1054 1056                       210                           
+ 1616 1624 1630  0079 S22W48 C7.0  Sf 100    40                     
+ 1739 1802 1815  0087 S05E76 M1.2  1n 1200   51                     
+ 1827 1834 2008                       2300                          
+B.  Proton Events:  A greater than 10 MeV proton event began at
+22/0440 UTC and is still in progress.  The tentative maximum for
+this event has been 36 pfu at 22/0940 UTC.  A greater than 100 MeV
+event began at 22/0340 UTC, reaching a maximum of 1 pfu at 22/0510
+UTC and ended at 22/0615 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet to active conditions.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 220  SSN 205  Afr/Ap 012/011   X-ray Background C1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.5e+06   GT 10 MeV 1.3e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.70e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 2 2 2 1 2 Planetary 4 3 3 2 2 2 3 3 
+F.  Comments:  None
+

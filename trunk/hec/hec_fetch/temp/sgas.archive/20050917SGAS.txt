@@ -1,0 +1,35 @@
+:Product: 0917SGAS.txt
+:Issued: 2005 Sep 17 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 260 Issued at 0245Z on 17 Sep 2005
+This report is compiled from data received at SWO on 16 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0141 0149 0156  0808 S13W26 M4.4  1b        220                    
+ 0450 0000 1638                                        IV           
+ 1735 1748 1810  0808 S11W33 M1.3  Sf        26                     
+ 1918 1936 1948  0808 S11W37 M3.5  1f        100                    
+ 2238 0000 1002                                        IV           
+B.  Proton Events:   The greater than 10 MeV proton event that began
+at 08/0215 UTC and reached a maximum of 1880 pfu at 11/0425 UTC
+ended at 16/0025 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  Active levels were the result of the high solar
+wind speeds early in the UTC day.  The solar wind speed declined
+over the past 24 hours from about 700 km/s to about 575 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 112  SSN 051  Afr/Ap 015/018   X-ray Background B3.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.5e+07   GT 10 MeV 4.1e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+09 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 4 3 1 2 2 Planetary 4 4 3 4 3 2 3 2 
+F.  Comments:  The greater than 2 MeV electron fluence at
+geosynchronous orbit was very high today.

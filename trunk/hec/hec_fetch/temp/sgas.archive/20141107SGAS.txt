@@ -1,0 +1,32 @@
+:Product: 1107SGAS.txt
+:Issued: 2014 Nov 07 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 311 Issued at 0245Z on 07 Nov 2014
+This report is compiled from data received at SWO on 06 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0129 0139 0154  2205 N15E58 M3.2  2n                               
+ 0332 0346 0402  2205 N17E58 M5.4  1n               II/IV           
+ 0542      0828                                        IV           
+ 2153 2216 2234  2205 N14E45 M2.5  1n                               
+ 2206 2208 2209                       190    200                    
+ 2214 2214 2214                       460    130                    
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels with isolated active periods at high latitudes.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 136  SSN 107  Afr/Ap ???/005   X-ray Background B9.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.30e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 2 3 2 3 3 2 2 Planetary 2 1 2 1 2 1 0 2 
+F.  Comments:  Fredericksburg (Afr) magnetometer data unavailable due
+to non-receipt.

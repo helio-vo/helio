@@ -1,0 +1,30 @@
+:Product: 0124SGAS.txt
+:Issued: 2006 Jan 24 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 024 Issued at 0245Z on 24 Jan 2006
+This report is compiled from data received at SWO on 23 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  An isolated period of minor storming occurred at
+the Boulder magnetometer between 23/0900 and 1200Z.  The elevated
+conditions are due to a recurrent high speed coronal hole stream. 
+The solar wind speeds increased from near 400 km/sec to over 600
+km/sec, between 23/0600 and 1200Z.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 092  SSN 073  Afr/Ap 019/015   X-ray Background A6.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.3e+05   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W108 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.80e+05 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 4 3 5 3 3 3 3 Planetary 1 4 3 4 3 2 2 3 
+F.  Comments:  None

@@ -1,0 +1,50 @@
+From sgas-owner  Sat Feb 16 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA01213
+	for sgas-sendit; Sat, 16 Feb 2002 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 16 Feb 2002 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200202160250.CAA01129@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Feb 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 047 Issued at 0245Z on 16 Feb 2002
+This report is compiled from data received at SWO on 15 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1025 1025 1025                       220                           
+ 1338 1338 1338                       220                           
+ 1421 1421 1421                       270                           
+ 1716 1716 1716                       120                           
+ 2015 2015 2015                       100                           
+ 2344 2345 2345                       180                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet
+D.  Stratwarm:  Stratwarm alert exists Friday. Intensifying warming
+over the Canadian Arctic and northern Asia penetrating downwards.
+Temperature gradient reversed between 60N and the pole from 30 HPA
+upwards.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 195  SSN 156  Afr/Ap 004/004   X-ray Background B7.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 1 1 2 2 2 1 Planetary 1 0 0 1 1 2 2 1 
+F.  Comments:  None
+

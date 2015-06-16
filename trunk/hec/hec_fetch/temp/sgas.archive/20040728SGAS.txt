@@ -1,0 +1,47 @@
+:Product: 20040728SGAS.txt
+:Issued: 2004 Jul 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 210 Issued at 0245Z on 28 Jul 2004
+This report is compiled from data received at SWO on 27 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0523 0523 0523                       130                           
+ 0541 0545 0552  0652 N02W53 M1.1  1n 320    100                    
+ 0556 0556 0556                       930                           
+ 1127 1128 1128                       100                           
+ 1959 2020 2037  0652 N09W65 M1.5  1f                               
+ 2346 0000 0011  0652 N10W54 M1.2  1f                               
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 25/1855Z is still in progress. A rapid, short-lived increase in
+the greater than 10 MeV protons to 2,090 pfu occurred with the shock
+passage at 25/2250Z. Protons quickly declined and were straddling
+the 10 pfu alert threshold by the end of the period.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+active to severe storming. A strong sudden impulse (SI) of 95 nT
+was observed on the Boulder magnetometer at 26/2228Z. This SI
+followed the very fast (~31 hours) transit of the full halo CME
+associated with the long duration M1 flare on 25/1514Z. Solar wind
+speed increased from the already elevated levels near 600 km/s to
+over 1050 km/s. After approximately four hours of fluctuating
+between  -15 and +15 nT, the IMF Bz rotated strong southward and
+ranged from -15 to -25 nT for about 15 hours. The fast solar wind
+speed and southward Bz combined to produce severe geomagnetic storm
+levels at all latitudes from 27/0000Z to 27/1500Z. Solar wind speed
+was still near 900 km/s by the end of the period but Bz was near
+zero. The disturbance declined to minor storm levels to end the
+period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 118  SSN 066  Afr/Ap 131/162   X-ray Background B4.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.7e+08   GT 10 MeV 1.9e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W97 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.40e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 7 7 7 8 8 6 4 5 Planetary 8 7 8 8 9 7 5 5 
+F.  Comments:  None

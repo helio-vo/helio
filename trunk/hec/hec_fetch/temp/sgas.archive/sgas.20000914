@@ -1,0 +1,48 @@
+From sgas-owner  Thu Sep 14 02:50:12 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA20607
+	for sgas-sendit; Thu, 14 Sep 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 14 Sep 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200009140250.CAA20553@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Sep 14 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 258 ISSUED AT 0245Z ON 14 SEP 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 13 SEP
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0655 0655 0656                       140                           
+ 2235 2235 2235                       150                           
+B.  PROTON EVENTS:  THE GREATER THAN 10 MEV PROTON EVENT AT
+GEOSYNCHRONOUS ORBIT, WHICH BEGAN AT 12/1555Z, REACHED A PEAK OF 321
+PFU AT 13/0340Z, THEN SLOWLY DECLINED. THE EVENT WAS STILL IN
+PROGRESS AT THE END OF THE PERIOD.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  ACTIVITY WAS AT UNSETTLED TO
+ACTIVE LEVELS UNTIL 13/0600Z, THEN DECREASED TO QUIET TO UNSETTLED
+LEVELS FOR HE REST OF THE DAY.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 133  SSN 096  AFR/AP 009/010   X-RAY BACKGROUND B3.8
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.7E+08   GT 10 MEV 1.4E+07 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.80E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 4 2 1 2 1 2 2 PLANETARY 3 4 2 2 2 3 2 2 
+F.  COMMENTS:  NONE
+

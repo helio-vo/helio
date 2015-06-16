@@ -1,0 +1,56 @@
+From sgas-owner@sec.noaa.gov  Fri May 30 02:50:10 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h4U2o4E27853
+	for sgas-sendit; Fri, 30 May 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 30 May 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200305300250.h4U2o2P27761@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 May 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 150 Issued at 0245Z on 30 May 2003
+This report is compiled from data received at SWO on 29 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0051 0105 0112  0365 S06W37 X1.2  2b 25000  730    II/IV           
+ 0209 0218 0224  0368 S37E03 M1.5  1f                  IV           
+ 1914 0000 2145                                        IV           
+ 1928 1937 1943  0368 S35W13 M2.8  1n 830    310    II              
+ 1948 0000 2040                                        IV           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to severe storm levels.  A recurrent coronal hole was
+responsible for the initial elevated conditions.  At approximately
+29/1155Z the first of two transients associated with the first two
+X-class flares from late on the 27th and early on the 28th passed
+the NASA/ACE space craft.  The second occurred at approximately
+29/1830Z and was responsible for the severe storm conditions seen
+late in the period.  The greater than 10 MeV proton fluxes at
+geosynchronous orbit achieved event levels at 28/2335Z and reached a
+maximum of 121 pfu at 29/1530Z.  The greater than 2 MeV electron
+fluxes at geosynchronous orbit reached high levels today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 138  SSN 098  Afr/Ap 076/089   X-ray Background B3.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.4e+08   GT 10 MeV 2.9e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.80e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 3 4 3 5 6 8 7 Planetary 5 4 4 3 6 7 8 8 
+F.  Comments:  None
+

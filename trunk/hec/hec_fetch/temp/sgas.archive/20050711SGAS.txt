@@ -1,0 +1,36 @@
+:Product: 20050711SGAS.txt
+:Issued: 2005 Jul 11 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 192 Issued at 0245Z on 11 Jul 2005
+This report is compiled from data received at SWO on 10 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0509 0520 0536  0786        C1.6     120                           
+ 1114 1114 1114                       170                           
+ 1438 1439 1439                       100                           
+ 1508 1516 1520  0783 S02W83 C9.9  Sf               II              
+ 1713 1713 1713                       450                           
+ 2147 2206 2219  0786 N11W27 M2.8  1n 1200   1500      IV           
+B.  Proton Events:  There was a proton enhancement in the greater
+than 10 MeV protons associated with the M2.8 flare on 09 July;
+however, proton levels remained under event thresholds.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to major storm levels.  A transient shock from the CME
+activity on 07 July was observed by ACE at approximately 10/0300
+UTC.  Following the shock, there was a period of sustained southward
+Bz resulting in major storming in the period from 1200 to 1500 UTC.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 102  SSN 078  Afr/Ap 028/047   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.4e+06   GT 10 MeV 8.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W115 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.70e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 5 4 5 4 5 4 Planetary 4 4 5 5 6 5 5 5 
+F.  Comments:  None

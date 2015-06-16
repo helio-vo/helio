@@ -1,0 +1,40 @@
+:Product: 0903SGAS.txt
+:Issued: 2012 Sep 03 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 247 Issued at 0245Z on 03 Sep 2012
+This report is compiled from data received at SWO on 02 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0150 0158 0210  1560 N03W05 C2.9  Sf 6200                          
+ 0419 0419 0420                       240                           
+ 0434      1503                                        IV           
+ 0435      0957                                        IV           
+ 0559 0559 0559                       320                           
+ 0728 0730 0736  1560 N03W08       Sf 240                           
+ 0739 0739 0739                       100                           
+ 0920 0920 0924  1553 S21W61       Sf 400                           
+ 1049      1622                                        IV           
+ 1350 1350 1403  1560 N05W14       Sf 150                           
+ 1800 1810 1815  1560 N07W16 C5.5  Sn 780    43                     
+ 2343 2349 0021  1560 N03W04       1f 120                           
+B.  Proton Events:  A greater than 10 MeV proton event, associated
+with a disappearing filament on 31 August, began at 01/1335Z,
+reached a maximum flux of 60 pfu at 02/0850Z, and is currently above
+threshold.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged
+between quiet to active levels throughout the day.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 142  SSN 108  Afr/Ap 014/015   X-ray Background B8.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.9e+07   GT 10 MeV 2.3e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 4 2 3 3 3 Planetary 3 3 3 3 2 3 3 4 
+F.  Comments:  None.

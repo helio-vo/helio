@@ -1,0 +1,49 @@
+From owner-sgas@proton.sel.noaa.gov Sun Jul  4 22:59:41 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA128333581; Sun, 4 Jul 1999 22:59:41 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Mon, 5 Jul 1999 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199907050255.CAA10631@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Jul 05 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 186 ISSUED AT 0245Z ON 05 JUL 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 04 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0920 0923 0925  8611 S27W22 C3.1  SF 530                           
+ 0926 0926 0926                       410                           
+ 1420 1423 1423                       260                           
+ 2131 2131 2132                       130                           
+ 2215 2215 2216                       220                           
+ 2244 2245 2246                       1600                          
+ 2313 2315 2315                       280                           
+ 2352 2353 0000                       100                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 186  SSN 211  AFR/AP 005/004   X-RAY BACKGROUND C2.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 7.6E+04   GT 10 MEV 1.5E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.20E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 0 0 0 1 1 1 0 1 PLANETARY 1 0 0 1 1 2 2 1 
+F.  COMMENTS:  NONE
+
+

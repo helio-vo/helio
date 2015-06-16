@@ -1,0 +1,29 @@
+:Product: 0809SGAS.txt
+:Issued: 2005 Aug 09 0249 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 221 Issued at 0245Z on 09 Aug 2005
+This report is compiled from data received at SWO on 08 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to unsettled levels.  Solar wind speed has decreased over the
+past 24 hours from approximately 600 km/s to 540 km/s as the coronal
+hole high speed stream declines.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 086  SSN 056  Afr/Ap 008/008   X-ray Background B1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.4e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+09 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 1 3 2 2 3 Planetary 2 2 3 1 2 2 1 3 
+F.  Comments:  The greater then 2 MeV electron fluence as measured by
+GOES-12 reached very high levels.

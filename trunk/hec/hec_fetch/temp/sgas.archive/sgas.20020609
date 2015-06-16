@@ -1,0 +1,47 @@
+From sgas-owner  Sun Jun  9 02:50:17 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_24419)/8.8.6) id CAA06575
+	for sgas-sendit; Sun, 9 Jun 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 9 Jun 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200206090250.CAA06428@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jun 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 160 Issued at 0245Z on 09 Jun 2002
+This report is compiled from data received at SWO on 08 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0152 0153 0153                       150                           
+ 1413 1416 1422                       110                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. A shock was observed at the NASA ACE spacecraft at 08/1028
+UTC and was followed by a Sudden Impulse at ground magnetometers
+(16nT at Boulder) at 08/1141 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 155  SSN 181  Afr/Ap 012/015   X-ray Background B4.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.4e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.80e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 3 4 4 3 3 Planetary 2 1 1 3 4 4 3 4 
+F.  Comments:  The observed Afr index reported in Part E is estimated
+from Boulder observations.
+

@@ -1,0 +1,29 @@
+:Product: 20041123SGAS.txt
+:Issued: 2004 Nov 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 328 Issued at 0245Z on 23 Nov 2004
+This report is compiled from data received at SWO on 22 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Isolated active periods were observed at mid latitudes
+between 0600 to 0900 UTC, and high latitudes between 0300 to 0900
+UTC.  Solar wind speed has declined from 600 km/s to 500 km/s during
+this reporting period.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 106  SSN 028  Afr/Ap 008/010   X-ray Background B2.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.6e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W102 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.90e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 4 3 2 1 2 1 Planetary 1 4 4 3 1 2 2 1 
+F.  Comments:  None.

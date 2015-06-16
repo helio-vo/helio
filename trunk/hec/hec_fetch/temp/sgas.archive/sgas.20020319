@@ -1,0 +1,57 @@
+From sgas-owner  Tue Mar 19 02:51:26 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA02555
+	for sgas-sendit; Tue, 19 Mar 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 19 Mar 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200203190250.CAA02463@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Mar 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 078 Issued at 0245Z on 19 Mar 2002
+This report is compiled from data received at SWO on 18 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0045 0045 0045                       300                           
+ 0133 0145 0150              C1.1     240                           
+ 0143 0144 0145                       920                           
+ 0216 0231 0400              M1.0     46     110    IV              
+ 0429 0429 0429                       110                           
+ 0923 0923 0923                       150                           
+ 0933 0933 0933                       130                           
+ 1247 1247 1247                       550                           
+ 1906 1918 1922  9871 S21E02 C8.9  1f 150    69                     
+ 2147 2152 2155  9871 S19E01 C2.1  Sf 140                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 17/0820 UTC reached maximum of 13 pfu at 17/0850 UTC and ended at
+17/1230 utc. A new greater than 10 MeV proton event began at 18/1300
+UTC and continues in progress. The peak flux observed so far was 25
+pfu at 18/1535 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to active. A sudden impulse of 42 nT was observed in Boulder
+at 19/1323 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 178  SSN 136  Afr/Ap 015/012   X-ray Background B6.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.9e+08   GT 10 MeV 9.6e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 0 2 4 3 3 3 Planetary 2 1 0 2 4 3 4 3 
+F.  Comments:  None
+

@@ -1,0 +1,53 @@
+From owner-sgas@proton.sel.noaa.gov Tue Aug 17 22:59:22 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA178375162; Tue, 17 Aug 1999 22:59:22 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Wed, 18 Aug 1999 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199908180255.CAA27731@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Aug 18 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 230 ISSUED AT 0245Z ON 18 AUG 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 17 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0453 0000 0459                                     II              
+ 0837 0837 0837                       150                           
+ 0848 0848 0849                       150                           
+ 1232 1323 1357  8668 N26E35 C2.6  SF 130    67                     
+ 1428 1602 1754  8668 N24E37 C5.9  SF 530    39                     
+ 1433 1435 1440  8662 S17W81       SF               II              
+ 1644 1738 1905                       820                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS AT
+ACTIVE TO MINOR STORM LEVELS THROUGHOUT THE PERIOD. A HIGH SPEED
+SOLAR WIND STREAM, REGISTERING BETWEEN 500 AND 700 KM/S, CONTINUES
+TO BUFFET THE MAGNETOPAUSE. THE FLUX OF GREATER THAN 2 MEV ELECTRONS
+AT GEOSYNCHRONOUS ORBIT REACHED HIGH LEVELS FROM APPROXIMATELY 1500
+TO 1800Z.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 141  SSN 067  AFR/AP 030/027   X-RAY BACKGROUND B3.2
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.4E+05   GT 10 MEV 1.4E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.00E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 5 5 5 4 4 4 3 2 PLANETARY 5 4 5 4 4 4 3 3 
+F.  COMMENTS:  NONE
+
+

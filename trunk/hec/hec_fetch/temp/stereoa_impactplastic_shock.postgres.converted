@@ -1,0 +1,73 @@
+1	2007-01-14T19:35:08Z	1.19	67.6	1.0	1.1	Y	F	\N
+2	2007-02-12T08:10:06Z	1.27	47.3	1.0	1.28	N	F	\N
+3	2007-02-12T08:39:13Z	1.36	76.6	1.0	1.28	N	F	\N
+4	2007-04-21T18:59:15Z	1.57	76.6	3.91	1.4	N	F	\N
+5	2007-04-23T06:53:44Z	1.32	73.0	1.67	1.22	N	R	\N
+6	2007-05-07T08:11:54Z	1.72	80.3	4.35	1.53	N	F	\N
+7	2007-05-08T20:38:34Z	1.39	24.8	1.32	1.62	N	R	\N
+8	2007-06-09T13:15:50Z	1.28	67.0	1.81	1.22	N	F	\N
+9	2007-06-10T12:55:35Z	1.22	64.0	0.76	1.18	N	R	\N
+10	2007-07-04T22:09:40Z	1.35	38.9	2.02	1.43	Y	R	not very sharp B change
+11	2007-07-11T20:22:25Z	2.25	61.8	1.04	2.2	N	R	\N
+12	2007-08-25T20:30:01Z	2.01	70.4	3.85	1.83	Y	F	\N
+13	2007-09-15T01:54:34Z	1.36	75.4	1.25	1.26	Y	F	\N
+14	2007-09-15T15:35:03Z	1.3	70.3	0.70	1.22	N	R	\N
+15	2007-09-23T11:31:58Z	1.36	79.4	0.75	1.28	N	R	\N
+16	2007-09-30T11:09:06Z	1.55	76.5	0.30	1.42	N	R	\N
+17	2007-10-18T16:46:12Z	1.19	21.4	3.24	1.5	Y	F	\N
+18	2008-01-08T01:48:30Z	1.36	66.3	0.57	1.28	N	R	\N
+19	2008-02-29T22:51:02Z	1.41	84.5	6.38	1.29	N	F	\N
+20	2008-03-08T18:16:32Z	1.31	66.8	1.67	1.28	Y	F	\N
+21	2008-03-09T19:50:07Z	1.59	79.4	1.39	1.44	N	R	\N
+22	2008-03-29T18:12:58Z	1.25	35.5	1.23	1.28	N	R	\N
+23	2008-04-08T07:34:40Z	1.19	51.6	0.92	1.16	N	R	\N
+24	2008-04-24T13:06:55Z	2.46	81.9	4.11	2.25	N	F	\N
+25	2008-05-11T06:31:09Z	1.67	75.5	1.0	1.52	N	F	\N
+26	2008-05-19T09:18:42Z	1.48	76.7	1.14	1.36	Y	F	strong upstream waves
+27	2008-05-21T00:41:35Z	1.57	38.9	1.13	1.61	Y	F	\N
+28	2008-07-05T00:47:54Z	1.65	43.6	0.85	1.62	Y	F	\N
+29	2008-09-16T13:49:29Z	1.71	79.6	2.36	1.54	N	F	\N
+30	2008-09-17T08:08:21Z	1.42	68.0	0.97	1.32	N	R	\N
+31	2008-10-12T17:12:56Z	1.5	83.7	9.24	1.38	N	F	\N
+32	2008-10-26T17:17:21Z	1.49	60.1	2.30	1.41	Y	F	\N
+33	2008-10-31T03:24:55Z	1.54	42.7	1.39	1.6	N	F	\N
+34	2008-11-01T07:59:17Z	1.65	60.9	1.84	1.58	Y	R	Vp increase is not sharp
+35	2008-11-09T00:38:46Z	1.34	42.6	17.74	1.45	N	F	\N
+36	2008-11-28T16:44:26Z	1.45	46.8	5.51	1.5	Y	F	strong plasma signatures upstream and downstream waves
+37	2008-12-06T05:42:30Z	1.42	45.2	7.50	1.5	Y	F	\N
+38	2008-12-25T09:45:08Z	1.12	55.0	2.58	1.11	N	F	\N
+39	2009-01-25T18:22:52Z	1.46	79.4	1.14	1.34	Y	F	downstream waves
+40	2009-02-13T10:20:58Z	1.42	61.2	2.00	1.35	N	F	\N
+41	2009-02-18T01:54:56Z	1.79	60.1	0.94	1.7	Y	R	downstream waves
+42	2009-03-09T20:17:19Z	1.65	44.0	10.08	1.82	Y	F	downstream waves
+43	2009-04-27T21:42:22Z	1.45	39.2	2.00	1.55	N	F	\N
+44	2009-06-03T17:07:44Z	1.3	70.7	0.30	1.23	N	F	\N
+45	2009-06-30T05:14:45Z	1.22	32.5	1.00	1.27	N	R	\N
+46	2009-07-26T14:42:05Z	1.23	42.9	1.00	1.22	N	F	\N
+47	2009-09-08T05:30:54Z	1.43	32.6	20.00	1.87	N	F	\N
+48	2009-10-16T14:56:55Z	1.25	58.9	1.00	1.21	Y	F	\N
+49	2009-11-26T23:06:27Z	1.3	73.1	3.01	1.2	N	F	weak plasma signatures upstream waves
+50	2009-12-01T04:09:10Z	1.52	69.4	1.49	1.4	N	R	clear plasma signatures
+51	2009-12-08T23:37:45Z	1.92	75.0	27.69	1.72	Y	F	clear plasma signatures downstream waves
+52	2009-12-14T06:08:59Z	1.2	64.9	1.74	1.15	Y	F	clear plasma signatures except no Tp increase strong upstream and downstream waves
+53	2009-12-22T23:51:15Z	1.59	30.0	0.95	1.78	Y	R	weak plasma signatures not a neat B rise
+54	2009-12-31T12:52:31Z	1.67	53.7	7.54	1.68	Y	F	clear plasma signatures upstream waves
+55	2010-02-05T03:33:13Z	2.28	49.3	3.77	2.7	Y	F	clear plasma signatures upstream and downstream waves
+56	2010-02-15T04:41:31Z	1.55	71.6	1.57	1.42	N	F	clear plasma signatures downstream waves
+57	2010-03-11T19:09:23Z	1.42	50.7	2.91	1.42	Y	F	plasma signatures except slow Tp increase upstream waves
+58	2010-03-15T13:39:26Z	1.49	47.4	1.90	1.5	Y	F	plasma signatures
+59	2010-04-04T01:10:05Z	1.47	84.3	1.23	1.35	Y	F	upstream and downstream waves clear plasma signatures
+60	2010-04-23T00:34:36Z	1.55	73.5	2.78	1.4	Y	F	plasma signatures except no Tp increase downstream waves
+61	2010-05-08T09:24:07Z	1.51	82.1	0.66	1.39	Y	R	weak plasma signatures downstream waves
+62	2010-05-30T14:59:19Z	1.63	58.1	2.76	1.56	N	F	plasma signatures upstream waves
+63	2010-06-03T08:36:28Z	2.12	67.2	14.62	2	Y	F	downstream waves plasma signatures
+64	2010-06-05T07:30:10Z	1.37	63.8	0.37	1.3	N	R	downstream waves plasma signatures
+65	2010-08-20T16:13:39Z	2.91	56.8	0.75	4.05	Y	F	upstream and downstream waves clear plasma signatures
+66	2010-08-21T16:57:26Z	1.19	69.3	0.27	1.15	N	R	upstream waves weak plasma signatures
+67	2010-09-07T08:29:06Z	1.37	86.7	1.21	1.28	Y	F	upstream and downstream waves plasma signatures
+68	2010-09-11T06:58:47Z	2.08	75.0	1.42	1.92	Y	F	upstream and downstream waves plasma signatures
+69	2010-09-17T22:33:43Z	1.43	53.3	0.54	1.36	N	F	upstream waves plasma signatures
+70	2010-10-31T10:04:13Z	1.58	40.7	0.39	1.52	N	R	upstream and downstream waves plasma signatures
+71	2010-11-16T19:25:53Z	1.09	15.5	1.0	1.18	Y	R	downstream waves weak plasma signatures
+72	2010-12-04T00:10:21Z	1.86	70.4	3.70	1.7	N	F	upstream and downstream waves plasma signatures
+73	2010-12-14T17:15:32Z	1.46	71.0	1.98	1.35	Y	F	downstream waves weak plasma signatures

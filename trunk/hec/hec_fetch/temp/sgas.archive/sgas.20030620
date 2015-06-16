@@ -1,0 +1,58 @@
+From sgas-owner@sec.noaa.gov  Fri Jun 20 20:33:31 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h5KKXR624893
+	for sgas-sendit; Fri, 20 Jun 2003 20:33:27 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 20 Jun 2003 20:33:27 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200306202033.h5KKXRJ24888@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jun 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 171 Issued at 0245Z on 20 Jun 2003
+This report is compiled from data received at SWO on 19 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0111 0112 0112                       100                           
+ 0319 0319 0319                       110                           
+ 2013 2013 2013                       380                           
+B.  Proton Events:  The greater than 10 MeV proton flux exceeded
+event  threshold at 18/2050Z (reached a max of 24 pfu at 19/0450Z),
+ended at 19/1900Z and after careful review the event is believed to
+have been the result of the M6.8 x-ray flare from June 17.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+predominantly active levels today.  Minor storm conditions were
+observed at both middle and high latitudes between 19/0000 and 0300Z
+due to the influence of a recurrent high speed coronal hole stream. 
+The greater than 2 MeV electron flux reached moderate levels today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 123  SSN 108  Afr/Ap 020/018   X-ray Background B2.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV MSG   GT 10 MeV 24 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 4 4 4 3 2 2 2 Planetary 5 4 4 3 3 3 3 2 
+F.  Comments:
+PLAIN
+K-Indices:
+On 16 June, it was determined that a scaling problem exists with the Boulder magnetometer instrument.  While this problem, and its fix are being investigated the primary instrument for Boulder K-indices has been switched to the Boulder USGS (via Domsat) magnetometer, effective 1500 UTC on 16 June.  
+
+GOES Protons:
+To ensure continued operational monitoring of important energetic particle data, it is necessary to reassign primary/secondary designations for the GOES Space Environment Monitor (SEM) detectors. GOES 11 (113W) is now the primary satellite for protons. GOES 12 will continue as the primary satellite for magnetometer, X-ray, and electron measurements. GOES 10 (135W) will be the secondary satellite for all SEM sensors - magnetometer, X-ray, and energetic particles.  Because of the degraded state of the proton data on GOES-10, its designation as the secondary source for proton data is a short-term solution.  More permanent solutions have been identified and are being evaluated.  Users will be notified when we define and schedule a permanent fix.  Further details can be found at http://www.sec.noaa.gov/GOES.html.
+99999
+

@@ -1,0 +1,49 @@
+From sgas-owner@sec.noaa.gov  Thu Aug  1 02:50:10 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g712o5j16463
+	for sgas-sendit; Thu, 1 Aug 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 1 Aug 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200208010250.g712o2b16277@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Aug 01 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 213 Issued at 0245Z on 01 Aug 2002
+This report is compiled from data received at SWO on 31 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0139 0153 0202  0039 S13W30 M1.2  Sb        38                     
+ 2104 2104 2104                       670                           
+ 2328 2355 0012              C4.7     110    42                     
+ 2343 2345 2345                       620    61                     
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.  A weak shock was detected at the L1 position
+by the NASA/ACE spacecraft at approximately 31/1100 UTC.  The Bz
+component of the IMF was northward resulting in little geomagnetic
+activity.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 209  SSN 265  Afr/Ap 009/009   X-ray Background C1.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.2e+05   GT 10 MeV 2.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.10e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 2 3 3 2 2 Planetary 3 2 1 2 3 3 3 2 
+F.  Comments:  None
+

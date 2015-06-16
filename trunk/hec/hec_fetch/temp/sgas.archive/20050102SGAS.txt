@@ -1,0 +1,32 @@
+:Product: 20050102SGAS.txt
+:Issued: 2005 Jan 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 002 Issued at 0245Z on 02 Jan 2005
+This report is compiled from data received at SWO on 01 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0001 0031 0039  0715        X1.7     8700   760    II/IV           
+ 0109 0113 0116                       230                           
+ 0149 0154 0155                       1900                          
+ 0223 0223 0223                       130                           
+ 0229 0232 0234                       210                           
+ 0237 0247 0256                       900                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet to active.  The greater than 2 MeV proton flux at
+geosynchronous orbit reached high levels today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 099  SSN 051  Afr/Ap 012/015   X-ray Background B1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.4e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W106 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.50e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 4 3 2 3 3 4 3 Planetary 1 4 3 2 3 3 4 3 
+F.  Comments:  None.

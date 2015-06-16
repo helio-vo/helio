@@ -1,0 +1,48 @@
+From sgas-owner  Thu Jul 13 02:50:12 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA12985
+	for sgas-sendit; Thu, 13 Jul 2000 02:50:07 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 13 Jul 2000 02:50:05 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007130250.CAA12895@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 195 ISSUED AT 0245Z ON 13 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 12 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0455 0502 0509  9077 N16E31 M1.2  1N        43                     
+ 1018 1037 1046  9077 N17E27 X1.9  2B 510    390       IV           
+ 1157 1158 1205  9070 N18W66       SF 170                           
+ 1841 1849 1907  9070 N16W64 M5.7  2F        230                    
+ 2009 2013 2016  9070 N17W65       SF 180    530    II              
+ 2137 2140 2143              M1.9            170                    
+ 2344 2344 2344                       140                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  QUIET TO ACTIVE.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 230  SSN 241  AFR/AP 012/012   X-RAY BACKGROUND C2.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.0E+06   GT 10 MEV 3.7E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 7.40E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 3 1 3 1 2 3 3 PLANETARY 4 3 2 3 2 3 2 3 
+F.  COMMENTS:  NONE
+

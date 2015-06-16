@@ -1,0 +1,49 @@
+From sgas-owner  Thu Jun 15 02:50:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA00729
+	for sgas-sendit; Thu, 15 Jun 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 15 Jun 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200006150250.CAA00528@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jun 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 167 ISSUED AT 0245Z ON 15 JUN 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 14 JUN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0459 0459 0459                       110                           
+ 1344 1349 1354  9033 N23W31 C1.8  1F 1900   54     II              
+ 1653 1702 1737  9040 N17E27       1F 150                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS
+PREDOMINATELY UNSETTLED TO ACTIVE.  SOLAR WIND PARAMETERS WERE
+UNUSUAL IN THAT VELOCITY WAS NEAR NOMINAL BUT TOTAL FIELD STRENGTH
+WAS APPROXIMATELY 15 NT AND DENSITY WAS HIGH AT APPROXIMATELY 55
+P/CC.  THIS COULD BE THE TRAILING END OF THE MASS EJECTION THAT
+IMPACTED THE EARTH LATE ON 12 JUNE.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 201  SSN 278  AFR/AP 017/023   X-RAY BACKGROUND B9.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.9E+06   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 6.00E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 2 3 3 4 4 4 5 PLANETARY 4 2 4 3 4 4 5 5 
+F.  COMMENTS:  NONE
+
