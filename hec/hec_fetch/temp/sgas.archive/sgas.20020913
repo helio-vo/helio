@@ -1,0 +1,47 @@
+From sgas-owner@sec.noaa.gov  Fri Sep 13 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g8D2o6D20580
+	for sgas-sendit; Fri, 13 Sep 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 13 Sep 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209130250.g8D2o3Y20408@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 256 Issued at 0245Z on 13 Sep 2002
+This report is compiled from data received at SWO on 12 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0917 0918 0918                       100                           
+ 1335 1338 1340  0105 S11E19 C1.0  Sf 4900                          
+ 2054 2123 2136  0105 S12E16 C3.1  Sf 120                           
+ 2203 2203 2203                       140                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Coronal hole high speed stream effects continued to be the
+main source of activity.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 212  SSN 258  Afr/Ap 009/017   X-ray Background B7.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.9e+05   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.10e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 4 2 4 2 3 2 Planetary 4 3 4 3 4 3 3 2 
+F.  Comments:  None
+

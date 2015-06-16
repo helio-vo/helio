@@ -1,0 +1,29 @@
+:Product: 20050502SGAS.txt
+:Issued: 2005 May 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 122 Issued at 0245Z on 02 May 2005
+This report is compiled from data received at SWO on 01 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0923 0925 0925                       140                           
+ 0939 0939 0941                       230                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to minor storm levels with an isolated major storm period between
+01/0300 and 01/0600 UTC.  Solar wind at ACE remained between
+approximately 600 km/s and 700 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 112  SSN 061  Afr/Ap 020/026   X-ray Background B2.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+06   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.80e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 5 4 3 3 3 3 2 Planetary 5 6 4 3 3 3 3 2 
+F.  Comments:  None

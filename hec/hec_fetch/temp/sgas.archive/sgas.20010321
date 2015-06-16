@@ -1,0 +1,51 @@
+From sgas-owner  Wed Mar 21 02:50:15 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA05793
+	for sgas-sendit; Wed, 21 Mar 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 21 Mar 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200103210250.CAA05631@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Mar 21 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 080 Issued at 0245Z on 21 Mar 2001
+This report is compiled from data received at SWO on 20 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0206 0218 0225  9373 S05W54 M1.1  Sf               II              
+ 0320 0333 0337  9384 N07W70 M1.2  Sf        27                     
+ 1419 1424 1438  9390 N14E76 M1.1  Sf                               
+ 1457 1507 1514  9373 S05W61 M1.6  1f        30                     
+ 2056 2104 2112  9373        M1.5                   II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+active to severe storm conditions.  An extended period of sustained
+southward Bz followed the shock observed at ACE early on 19 Mar. The
+geomagnetic storm was still in progress through the end of the
+period, but was showing signs of weakening. This disturbance is
+believed to be associated with the CME observed early on 16 Mar.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 153  SSN 098  Afr/Ap 052/066   X-ray Background B8.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.7e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.40e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 5 6 6 6 5 5 2 Planetary 5 5 6 6 7 6 4 3 
+F.  Comments:  None
+

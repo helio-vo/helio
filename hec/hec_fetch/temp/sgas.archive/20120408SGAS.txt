@@ -1,0 +1,32 @@
+:Product: 0408SGAS.txt
+:Issued: 2012 Apr 08 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 099 Issued at 0245Z on 08 Apr 2012
+This report is compiled from data received at SWO on 07 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1314 1314 1314                       120                           
+ 1438 1438 1438                       180                           
+ 1438 1439 1439                       110                           
+ 1457 1457 1457                       150                           
+ 1755 1756 1756                       120                           
+ 1823 1823 1823                       680                           
+ 2105 2105 2105                       190                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 099  SSN 038  Afr/Ap N/A/014   X-ray Background B1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.5e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.30e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 4 3 4 4 2 1 2 Planetary 2 4 3 4 4 2 1 2 
+F.  Comments:  Data not available from Fredericksburg since 07/0600Z.

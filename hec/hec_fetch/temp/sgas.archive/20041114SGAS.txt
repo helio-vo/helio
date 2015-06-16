@@ -1,0 +1,29 @@
+:Product: 20041114SGAS.txt
+:Issued: 2004 Nov 14 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 319 Issued at 0245Z on 14 Nov 2004
+This report is compiled from data received at SWO on 13 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 07/1910Z is nearing an end. The current proton flux is ranging
+from 5 to 10 pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled with isolated high latitude active periods. Solar wind
+speed remains slightly elevated, ranging from 450 to 500 km/s.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 096  SSN 050  Afr/Ap 009/008   X-ray Background B1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+07   GT 10 MeV 8.7e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W102 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.30e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 2 2 2 2 1 Planetary 2 2 4 2 2 2 1 1 
+F.  Comments:  None

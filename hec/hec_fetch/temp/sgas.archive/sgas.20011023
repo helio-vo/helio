@@ -1,0 +1,56 @@
+From sgas-owner  Tue Oct 23 02:50:26 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA09398
+	for sgas-sendit; Tue, 23 Oct 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 23 Oct 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200110230250.CAA09276@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Oct 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 296 Issued at 0245Z on 23 Oct 2001
+This report is compiled from data received at SWO on 22 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0022 0040 0048  9658 N17W57 M1.0  Sf 58                            
+ 1314 1315 1315                       130                           
+ 1427 1508 1531  9672 S21E18 M6.7  2n 230    380    II/IV           
+ 1728 1728 1729                       330                           
+ 1744 1759 1814  9672 S18E16 X1.2  2b 1600   790    II              
+ 1947 1951 1953                       710                           
+ 2001 2001 2001                       230                           
+ 2142 2142 2142                       100                           
+ 2152 2153 2153                       660                           
+B.  Proton Events:  The greater than 10 MeV proton flux at
+geosynchronous orbit exceeded threshold at 22/1910 UTC.  At the time
+of issue of this bulletin the 10 MeV proton flux was at 16 pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at minor
+to major storm levels.  The second CME passage that had been
+expected today appears to have been incorporated into the first
+creating minor to major storm conditions for the entire period aside
+from a couple isolated severe storm conditions at some stations.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 233  SSN 207  Afr/Ap 053/066   X-ray Background C1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.1e+06   GT 10 MeV 3.1e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.10e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 6 5 3 6 5 5 6 4 Planetary 6 5 4 6 5 7 6 5 
+F.  Comments:  Afr based on Boulder A-Indices
+

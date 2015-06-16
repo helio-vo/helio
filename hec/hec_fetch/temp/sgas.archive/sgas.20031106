@@ -1,0 +1,51 @@
+From sgas-owner@sec.noaa.gov  Thu Nov  6 02:50:26 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id hA62o4Z20216
+	for sgas-sendit; Thu, 6 Nov 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 6 Nov 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200311060250.hA62o2V20133@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Nov 06 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 310 Issued at 0245Z on 06 Nov 2003
+This report is compiled from data received at SWO on 05 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0237 0241 0245  0486 S19W89 M1.6  Sf                               
+ 1046 1052 1056  0486 S16W90 M5.3  Sf                               
+B.  Proton Events:  A greater than 10 MeV proton event from the X28
+flare began at 04/2225Z, reached a peak value of 353 pfu at
+05/0600Z, and is currently in progress, but declining.  A greater
+than 100 MeV proton event began at 05/0535Z, reached a peak value of
+1.3 pfu at 05/0540Z, and ended at 05/0705Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 114  SSN 032  Afr/Ap 008/009   X-ray Background C1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.3e+07   GT 10 MeV 1.2e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.90e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 0 1 0 1 2 3 3 Planetary 2 1 2 2 2 3 3 3 
+F.  Comments:  The GOES EPS instrument for greater than 2 MeV
+electron measurement at geosynchronous orbit is exhibiting proton
+contamination at this time, making the 2 MeV electron fluence data
+unreliable.
+

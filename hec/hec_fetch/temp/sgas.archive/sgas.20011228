@@ -1,0 +1,56 @@
+From sgas-owner  Fri Dec 28 02:50:29 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA21499
+	for sgas-sendit; Fri, 28 Dec 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 28 Dec 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112280250.CAA21363@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Dec 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 362 Issued at 0245Z on 28 Dec 2001
+This report is compiled from data received at SWO on 27 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0526 0613 0619  9752 S15W86 M1.4  2n        26                     
+ 1127 1133 1141  9742 N08W80 M1.0  Sf        44                     
+ 1339 1340 1340                       470                           
+ 1643 1658 1720  9748 S10W66 M2.3  2n        110                    
+ 1824 1828 1838  9743 S07W71       Sf 470                           
+ 1859 1902 1908                       140                           
+B.  Proton Events:  The greater than 10 MeV proton event, which began
+on 26 December, remains in progress. End of day flux levels are
+about 20 pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM THURSDAY
+STRONG STRATOSPHERIC WARMING, WEAKENING IN THE UPPER
+STRATOSPHERE, INTENSIFYING IN THE LOWER AND MIDDLE
+STRATOSPHERE.  TEMPERATURE GRADIENT REVERSED BETWEEN
+60N AND THE POLE FROM 10 TO 1 HPA, WITHIN 5 DAYS FROM
+50 TO 5 HPA.  EASTERLY ZONAL MEAN WINDS AT 60N
+FROM 5 TO 1 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 275  SSN 268  Afr/Ap 009/006   X-ray Background C3.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.8e+07   GT 10 MeV 3.8e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.90e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 1 2 3 3 3 2 Planetary 2 1 1 2 2 3 3 1 
+F.  Comments:  Afr estimated from Boulder A.
+

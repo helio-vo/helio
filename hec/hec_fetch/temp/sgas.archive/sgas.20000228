@@ -1,0 +1,51 @@
+From sgas-owner  Mon Feb 28 02:55:17 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA10934
+	for sgas-sendit; Mon, 28 Feb 2000 02:55:09 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 28 Feb 2000 02:55:07 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200002280255.CAA11800@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Feb 28 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 059 ISSUED AT 0245Z ON 28 FEB 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 27 FEB
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0032 0032 0033                       980                           
+ 0205 0205 0206                       970                           
+ 0326 0327 0328                       390                           
+ 0830 0830 0842  8882 S17E00       SF 500    31                     
+ 0956 0958 1001                       570                           
+ 2333 2352 0103  8889 N29E50 M1.0  2F 210    73                     
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO UNSETTLED LEVELS.  ENERGETIC ELECTRON FLUXES AT
+GEOSYNCHRONOUS ORBIT REACHED HIGH LEVELS FOR THE THIRD CONSECUTIVE
+DAY.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 227  SSN 201  AFR/AP 009/010   X-RAY BACKGROUND C4.9
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 8.0E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.40E+08 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 2 2 2 2 3 2 2 PLANETARY 3 1 2 3 2 3 3 2 
+F.  COMMENTS:  NONE
+
+

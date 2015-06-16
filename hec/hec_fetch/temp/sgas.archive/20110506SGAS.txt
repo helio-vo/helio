@@ -1,0 +1,33 @@
+:Product: 0506SGAS.txt
+:Issued: 2011 May 06 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 126 Issued at 0245Z on 06 May 2011
+This report is compiled from data received at SWO on 05 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0734 0734 0734                       100                           
+ 0741 0741 0741                       100                           
+ 1251 1251 1251                       170                           
+ 1355 1355 1355                       140                           
+ 1930 1930 1930                       130                           
+ 2037 2043 2051  1204        B4.2     240                           
+ 2112 2112 2112                       120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 105  SSN 095  Afr/Ap 005/007   X-ray Background B1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.3e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.40e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 1 2 1 2 1 Planetary 3 3 2 1 1 1 2 2 
+F.  Comments:  The greater than 2 MeV electron fluence at
+geosynchronous orbit reached high levels during the period.

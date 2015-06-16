@@ -1,0 +1,35 @@
+:Product: 20050618SGAS.txt
+:Issued: 2005 Jun 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 169 Issued at 0245Z on 18 Jun 2005
+This report is compiled from data received at SWO on 17 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0419 0421 0421                       860                           
+ 1424 1424 1424                       310                           
+ 1646 1646 1646                       470                           
+B.  Proton Events:  A greater than 100 MeV proton event began at
+16/2125Z following yesterday's M4 flare. The event ended at 17/0730Z
+with a peak flux of 2.9 pfu at 16/2315Z. A greater than 10 MeV
+proton event began at 16/2200Z, peaked at 17/0500Z at 44 pfu, and
+ended at 17/1805Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. The most disturbed conditions occurred early in the period
+during intervals of sustained southward Bz. The elevated solar wind
+conditions are due to the combined effects of CME transient flow and
+a high speed coronal hole stream.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 091  SSN 059  Afr/Ap 015/014   X-ray Background B2.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.7e+06   GT 10 MeV 1.9e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W115 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.00e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 2 3 3 2 1 Planetary 4 4 3 2 2 3 3 2 
+F.  Comments:  None

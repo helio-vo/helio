@@ -1,0 +1,46 @@
+From sgas-owner@sec.noaa.gov  Sat Mar 15 02:50:12 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h2F2o6g19076
+	for sgas-sendit; Sat, 15 Mar 2003 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 15 Mar 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200303150250.h2F2o3118927@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Mar 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 074 Issued at 0245Z on 15 Mar 2003
+This report is compiled from data received at SWO on 14 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  Early in the period solar wind velocity increased
+to over 600 km/s marking the onset of the expected high speed
+stream.  Fluctuations in the Bz component of the interplanetary
+magnetic field to -8 nT resulted in isolated active conditions.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 139  SSN 114  Afr/Ap 017/025   X-ray Background B2.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.2e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 4 3 4 3 4 3 Planetary 2 2 4 4 6 3 4 3 
+F.  Comments:  None
+

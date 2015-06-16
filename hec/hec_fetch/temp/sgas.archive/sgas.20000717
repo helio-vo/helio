@@ -1,0 +1,66 @@
+From sgas-owner  Mon Jul 17 02:50:12 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA23295
+	for sgas-sendit; Mon, 17 Jul 2000 02:50:07 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 17 Jul 2000 02:50:05 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007170250.CAA23196@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 199 ISSUED AT 0245Z ON 17 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 16 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0120 0127 0132  9087 S11E53 C6.3  1N 370    290                    
+ 0159 0203 0208  9090 N09E81 M5.5  1N        23                     
+ 0223 0228 0233              M1.1                                   
+ 0607 0608 0613                       200                           
+ 0608 0614 0622  9082 S08W25 C3.8  SF 500    67                     
+ 0630 0631 0632                       130                           
+ 0636 0640 0643                       120                           
+ 0841 0841 0841                       140                           
+ 1035 1035 1035                       160                           
+ 1245 1245 1245                       230                           
+ 1612 1612 1616  9085 N12E26       SF 850                           
+ 1934 1939 1948  9087 S13E48 C6.5  1N 980                           
+ 2147 2157 2204  9090 N14E76 M1.1  1N                               
+ 2337 0004 0015  9090 N11E76 M1.4  SN                               
+B.  PROTON EVENTS:    
+GRTR THAN 10 MEV    14/1045      15/1230     IP      24,000 PFU
+GRTR THAN 100 MEV   14/1040      14/1620    16/0400  408 PFU
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO SEVERE STORM LEVELS.  MAJOR TO SEVERE STORM CONDITIONS
+DECREASED EARLY ON 16 JULY.  THE GREATER THAN 100 MEV PROTON EVENT
+THAT BEGAN 14/1040Z, PEAKED AT 410 PFU AT 14/1620Z, AND ENDED AT
+16/0400Z.  THE GREATER THAN 10 MEV PROTON EVENT CONTINUES TO DECLINE
+FROM A PEAK OF 24000 PFU'S AT 15/1230Z AND IS CURRENTLY AROUND 180
+PFU'S.  THE PCA ASSOCIATED WITH THE X5/3B ON 14 JULY PEAKED AT
+15/1436Z WITH 49.0 DB AND IS STILL IN PROGRESS.  A MODERATE FORBUSH
+DECREASE CONTINUED THROUGHOUT THE PERIOD.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 219  SSN 268  AFR/AP 032/046   X-RAY BACKGROUND C1.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.4E+08   GT 10 MEV 2.6E+07 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.30E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 6 6 4 4 3 3 2 2 PLANETARY 8 6 4 4 4 3 3 3 
+F.  COMMENTS:  DUE TO THE SOLAR PROTON EVENT, THE GREATER THAN 2 MEV
+ELECTRON FLUENCE DATA ARE UNRELIABLE.
+

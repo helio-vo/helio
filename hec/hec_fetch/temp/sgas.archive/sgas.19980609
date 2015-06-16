@@ -1,0 +1,44 @@
+From owner-sgas@proton.sel.noaa.gov Tue Jun  9 22:50:10 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA246127010; Tue, 9 Jun 1998 22:50:10 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Tue, 9 Jun 1998 20:50:06 -0600
+From: SESC <sel@proton.sel.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Jun 10 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 161 ISSUED AT 0245Z ON 10 JUN 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 09 JUN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1400 1400 1401                       120                           
+ 1442 1442 1443                       590                           
+ 1610 1613 1615              B4.3     860                           
+ 1833 1834 1836                       120                           
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES:
+10 CM 112  SSN 101  AFR/AP 008/010   X-RAY BACKGROUND B3.2
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.0E+05   GT 10 MEV 1.6E+04 P/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.50E+08 E/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 1 3 2 3 2 2 2 PLANETARY 1 1 3 3 2 2 3 2 
+F.  COMMENTS:  ENERGETIC ELECTRON FLUXES REACHED HIGH LEVELS DURING
+THE PERIOD. A MODERATE INTENSITY 245 MHZ NOISESTORM OCCURRED FROM
+09/1548-1907Z.
+
+

@@ -1,0 +1,49 @@
+From sgas-owner  Wed Nov 29 02:50:12 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA20304
+	for sgas-sendit; Wed, 29 Nov 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 29 Nov 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200011290250.CAA20128@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Nov 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 334 Issued at 0245Z on 29 Nov 2000
+This report is compiled from data received at SWO on 28 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 24/1520Z, reaching a high value of 942 pfu at 26/2030, was just
+above event threshold at 11.1 pfu as the period ended.  Levels are
+expected to continue to steadily drop throughout the next 24 hours.
+C.  Geomagnetic Activity Summary:  The geomagnetic field began at
+mostly unsettled levels, rose steadily to minor storm levels at
+middle latitudes and major storm levels at high latitudes through
+most of the middle of the period, before decreasing back to
+mostly unsettled levels by the end of the reporting period.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 196  SSN 154  Afr/Ap 025/037   X-ray Background B8.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.4e+07   GT 10 MeV 3.4e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.00e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 5 5 5 2 3 3 Planetary 3 3 6 5 6 6 4 4 
+F.  Comments:  None
+

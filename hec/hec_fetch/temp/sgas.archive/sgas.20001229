@@ -1,0 +1,43 @@
+From sgas-owner  Fri Dec 29 02:50:17 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA02563
+	for sgas-sendit; Fri, 29 Dec 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 29 Dec 2000 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200012290250.CAA02374@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Dec 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 364 Issued at 0245Z on 29 Dec 2000
+This report is compiled from data received at SWO on 28 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1421 1429 1436  9279 S07W74 C2.3  Sf               II              
+ 2337 2337 2338                       240                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet to unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 185  SSN 159  Afr/Ap 005/005   X-ray Background C1.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.3e+04   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.80e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 2 2 2 1 2 1 1 Planetary 2 1 1 2 3 1 1 0 
+F.  Comments:  Estimated Type II shock velocity was 443 kn/sec.
+

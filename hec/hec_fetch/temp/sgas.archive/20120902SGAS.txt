@@ -1,0 +1,32 @@
+:Product: 0902SGAS.txt
+:Issued: 2012 Sep 02 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 246 Issued at 0245Z on 02 Sep 2012
+This report is compiled from data received at SWO on 01 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0722 0723 0724       S16E65       Sf 180                           
+ 1424 1441 1518  1560 N03W01       Sf 230                           
+ 1733 1737 1748  1553 S21W52 C1.5  Sf 100                           
+ 1939 1945 2029  1553 S21W54 C1.9  Sf 1200                          
+ 2306 2306 2306                       110                           
+B.  Proton Events:  A greater than 10 MeV proton event, associated
+with the disappearing filament on 31 August, began at 01/1335Z,
+reached a maximum flux of 41 pfu at 01/1925Z, and remains above
+threshold.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 146  SSN 120  Afr/Ap 008/007   X-ray Background B9.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.2e+07   GT 10 MeV 1.1e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.00e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 1 2 3 3 2 3 2 2 Planetary 2 2 2 2 2 2 2 2 
+F.  Comments:  None.

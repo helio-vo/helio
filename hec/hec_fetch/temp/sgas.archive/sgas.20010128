@@ -1,0 +1,47 @@
+From sgas-owner  Sun Jan 28 02:50:11 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA01048
+	for sgas-sendit; Sun, 28 Jan 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 28 Jan 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200101280250.CAA00914@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Jan 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 028 Issued at 0245Z on 28 Jan 2001
+This report is compiled from data received at SWO on 27 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0724 0724 0727                       140                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+quiet.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM SATURDAY
+MINOR WARMING CONTINUES WITH THE HIGHEST TEMPERATURES
+AT 10 HPA OVER EASTERN SIBERIA SLOPING EASTWARDS WITH
+HEIGHT TO A MAXIMUM TEMPERATURE OF +37 C OVER NOVAYA
+ZEMLYA TODAY.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 167  SSN 134  Afr/Ap 002/004   X-ray Background B5.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.5e+05   GT 10 MeV 2.0e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 1 0 1 2 0 1 Planetary 2 2 1 0 1 2 2 1 
+F.  Comments:  None
+

@@ -1,0 +1,36 @@
+:Product: 20050118SGAS.txt
+:Issued: 2005 Jan 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 018 Issued at 0245Z on 18 Jan 2005
+This report is compiled from data received at SWO on 17 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0310 0321 0332  0720        M2.6                                   
+ 0659 0952 1007  0720        X3.8  2f 39000  12000  II/IV           
+B.  Proton Events:  The proton event at greater than 10 MeV that
+began on 16/0210 UTC remains in progress. The  X3 flare which
+occurred at 17/0952 UTC has increased the current peak flux to 5040
+pfu observed at 17/1750 UTC. A proton event at greater than 100 MeV
+also resulted from the X3 flare, beginning at 17/1215 UTC and with a
+current peak flux of 28 pfu observed at 17/1700 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to severe storm levels. Solar wind conditions observed by
+the NASA ACE spacecraft show a fairly complex onset of activity
+which may suggest the arrival of a solar wind structure from
+combined CMEs expected from previous major flares on 15 January.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 138  SSN 107  Afr/Ap 046/063   X-ray Background C1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.2e+08   GT 10 MeV 1.1e+08 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 6 6 6 5 3 Planetary 5 4 3 7 7 7 5 3 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.

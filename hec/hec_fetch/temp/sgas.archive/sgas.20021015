@@ -1,0 +1,53 @@
+From sgas-owner@sec.noaa.gov  Tue Oct 15 02:50:13 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g9F2o5O16065
+	for sgas-sendit; Tue, 15 Oct 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 15 Oct 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210150250.g9F2o2i15932@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Oct 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 288 Issued at 0245Z on 15 Oct 2002
+This report is compiled from data received at SWO on 14 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 2342 0010 0108  0159 S13E75 M2.2  Sf 45     83     II              
+ 0238 0247 0301  0145 N10E11 C5.8  Sf 100                           
+ 1419 1423 1426              C1.3     72            II              
+ 1741 1743 1745                       220                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels.  And extended interval of active
+conditions, with an isolated period of major storming at high
+latitudes, appeared to occur primarily due to a sustained strong
+southward orientation of Bz, and a slow increase in solar wind
+speed.  Other solar wind data suggest an overall pattern of a CIR
+evolving toward to a weak high speed stream pattern near the end of
+the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 181  SSN 175  Afr/Ap 016/026   X-ray Background M1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.5e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.40e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 4 4 4 4 2 2 Planetary 3 4 4 4 6 4 3 2 
+F.  Comments:  First event listed in Section A above began on 13
+October and ended on 14 October.
+

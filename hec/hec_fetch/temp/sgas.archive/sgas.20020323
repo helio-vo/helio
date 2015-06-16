@@ -1,0 +1,45 @@
+From sgas-owner  Sat Mar 23 02:50:16 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA26617
+	for sgas-sendit; Sat, 23 Mar 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 23 Mar 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200203230250.CAA26506@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Mar 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 082 Issued at 0245Z on 23 Mar 2002
+This report is compiled from data received at SWO on 22 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1012 1114 1152  9866        M1.6            24                     
+B.  Proton Events:  A greater than 10 MeV proton event began at
+geo-synchronous orbit at 22/2020 UT and was in progress at the close
+of the period.
+C.  Geomagnetic Activity Summary:  Quiet to unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 172  SSN 194  Afr/Ap 007/008   X-ray Background B7.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.2e+06   GT 10 MeV 2.4e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.30e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 3 1 1 0 1 Planetary 2 3 3 3 1 2 2 1 
+F.  Comments:  Afr value estimated based on Boulder USGS magnetometer
+data.
+

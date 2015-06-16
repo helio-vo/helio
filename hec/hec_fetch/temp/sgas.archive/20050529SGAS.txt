@@ -1,0 +1,31 @@
+:Product: 20050529SGAS.txt
+:Issued: 2005 May 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 149 Issued at 0245Z on 29 May 2005
+This report is compiled from data received at SWO on 28 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. Active periods are due to the effects of a recurrent coronal
+hole high speed stream. At approximately 28/0330 UTC a Co-rotating
+Interaction Region (CIR) was observed at ACE preceding the coronal
+hole high speed stream. Solar wind speed at ACE increased from
+approximately 275 km/s to 550 km/s and decreased slightly to around
+420 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 092  SSN 071  Afr/Ap 012/013   X-ray Background B1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.6e+05   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W114 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.60e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 3 3 2 2 4 4 4 Planetary 1 3 2 2 2 4 4 4 
+F.  Comments:  None

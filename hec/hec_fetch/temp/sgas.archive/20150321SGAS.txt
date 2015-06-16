@@ -1,0 +1,29 @@
+:Product: 0321SGAS.txt
+:Issued: 2015 Mar 21 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 080 Issued at 0245Z on 21 Mar 2015
+This report is compiled from data received at SWO on 20 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0057 0133 0211  2297        C7.9     520                           
+ 1501 1501 1501                       110                           
+ 2247 2247 2247                       140                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field reached
+minor storm levels due to southern polar coronal hole high speed
+stream effects.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 113  SSN 027  Afr/Ap 018/019   X-ray Background B4.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+06   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.60e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 2 5 4 2 3 3 4 Planetary 4 2 5 3 2 2 3 4 
+F.  Comments:  The > 2 MeV electron fluence reached high levels.

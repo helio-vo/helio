@@ -1,0 +1,48 @@
+From sgas-owner  Sat Nov 24 02:50:16 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA04189
+	for sgas-sendit; Sat, 24 Nov 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 24 Nov 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200111240250.CAA04108@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Nov 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 328 Issued at 0245Z on 24 Nov 2001
+This report is compiled from data received at SWO on 23 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0828 0832 0836  9704 S20W38 C6.3  Sf 1300   41                     
+B.  Proton Events:  Energetic proton flux at geosynchronous orbit
+remained above event thresholds throughout the day, with maximum 100
+MeV integral flux of 4 pfu observed at 23/0850 UTC, and maximum 10
+MeV integral flux of 4800 pfu at 23/1400 UTC.  End of day flux
+values were 3.5 pfu and 4200 pfu, respectively.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+predominantly quiet to unsettled.  A single active period was
+observed at Boulder during 23/1200-1500 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 177  SSN 144  Afr/Ap 013/012   X-ray Background M1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.6e+08   GT 10 MeV 2.5e+08 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 2 3 4 3 3 2 Planetary 3 2 2 2 3 3 3 3 
+F.  Comments:  Afr estimated from Boulder A.
+

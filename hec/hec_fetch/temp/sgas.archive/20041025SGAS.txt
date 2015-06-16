@@ -1,0 +1,31 @@
+:Product: 20041025SGAS.txt
+:Issued: 2004 Oct 25 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 299 Issued at 0245Z on 25 Oct 2004
+This report is compiled from data received at SWO on 24 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0254 0303 0313  0687 N11E19 C1.7  Sf 500                           
+ 2017 2028 2035  0687 N10E15 M2.3  1n                               
+ 2046 2048 2051                       140                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.  Solar wind speed increased from approximately 360 km/s
+to 500 km/s, most likely due to a geoeffective coronal hole.   A
+prolonged period of the southward Bz component was responsible for
+the unsettled conditions experienced.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 135  SSN 178  Afr/Ap 005/009   X-ray Background B4.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.2e+05   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W101 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.00e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 0 1 2 3 3 3 Planetary 2 0 0 1 2 3 4 2 
+F.  Comments:  None.

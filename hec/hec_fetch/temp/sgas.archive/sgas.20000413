@@ -1,0 +1,49 @@
+From sgas-owner  Thu Apr 13 02:50:34 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA27950
+	for sgas-sendit; Thu, 13 Apr 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 13 Apr 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200004130250.CAA27820@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Apr 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 104 ISSUED AT 0245Z ON 13 APR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 12 APR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0130 0130 0131                       1800                          
+ 0327 0335 0350  8948 S15W24 M1.3  SF                               
+ 0622 0630 0633  8948 S19W28 C2.1  SN 1300          II              
+ 0724 0725 0735                       200                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE FIELD WAS AT QUIET TO
+UNSETTLED LEVELS.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 173  SSN 172  AFR/AP 007/005   X-RAY BACKGROUND C1.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.2E+05   GT 10 MEV 1.1E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 5.70E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 3 2 1 0 2 1 2 PLANETARY 3 2 2 2 2 1 2 2 
+F.  COMMENTS:  THE ELECTRON FLUX AT GEOSYNCHRONOUS ORBITS WAS AT
+ MODERATE LEVELS.
+A VALUE FROM FREDERICKSBURG (AFR) WAS NOT AVAILABLE, A FROM BOULDER
+BEING USED.
+

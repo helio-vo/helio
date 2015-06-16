@@ -1,0 +1,48 @@
+From sgas-owner  Sat Aug 19 02:50:24 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA02823
+	for sgas-sendit; Sat, 19 Aug 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 19 Aug 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200008190250.CAA02739@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Aug 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 232 ISSUED AT 0245Z ON 19 AUG 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 18 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0724 0724 0725                       670                           
+ 0753 0753 0755                       180                           
+ 0817 0817 0818                       160                           
+ 0941 0941 0943                       140                           
+ 1323 1323 1323                       220                           
+ 1553 1555 1556                       330                           
+ 1809 1810 1812  9125 N23W32 C1.1  SF 1300                          
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  QUIET.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 170  SSN 231  AFR/AP 003/006   X-RAY BACKGROUND B5.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 3.4E+05   GT 10 MEV 1.0E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.40E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 2 1 0 0 0 0 1 PLANETARY 2 2 2 2 2 2 2 2 
+F.  COMMENTS:  NONE
+

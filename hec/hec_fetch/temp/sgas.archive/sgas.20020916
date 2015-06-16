@@ -1,0 +1,48 @@
+From sgas-owner@sec.noaa.gov  Mon Sep 16 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g8G2o6117534
+	for sgas-sendit; Mon, 16 Sep 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 16 Sep 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209160250.g8G2o3517369@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 259 Issued at 0245Z on 16 Sep 2002
+This report is compiled from data received at SWO on 15 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0223 0227 0227                       230                           
+ 0554 0555 0555                       200                           
+ 0848 0848 0849                       390                           
+ 0901 0901 0901                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.  The greater than 2 MeV electron flux exceeded
+event threshold today at 15/1140 UTC (max flux 2620 pfu's at 15/2025
+UTC).
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 188  SSN 168  Afr/Ap 008/008   X-ray Background B7.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.5e+04   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.50e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 3 3 2 2 2 2 Planetary 2 2 3 3 2 2 3 2 
+F.  Comments:  None
+

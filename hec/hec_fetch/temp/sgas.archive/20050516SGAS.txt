@@ -1,0 +1,38 @@
+:Product: 20050516SGAS.txt
+:Issued: 2005 May 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 136 Issued at 0245Z on 16 May 2005
+This report is compiled from data received at SWO on 15 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0321 0321 0323                       170                           
+ 0820 0820 0821                       110                           
+ 0920 0920 0921                       110                           
+ 1737 1744 1802  0763        C1.2     140                           
+ 2018 2058 2236  0758        C2.8                      IV           
+ 2227 2236 2242  0763 S15E13 M3.5  1n 290    83                     
+B.  Proton Events:  The greater than 10 MeV proton flux at
+geosynchronous orbit increased above 10 pfu at 14/0525 UTC, reached
+a maximum of 3140 pfu at 15/0240 UTC, and decreased below 10 pfu at
+15/1120 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to severe storm levels.  The arrival of a CME from 13 May
+initiated the disturbance which caused severe storming conditions
+between 15/0600 UTC and 0900 UTC.  Solar wind speed at ACE increased
+from approximately 200 km/s to 950 km/s.  Solar wind speed has
+declined to approximately 750 km/s by the end of the period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 103  SSN 069  Afr/Ap 075/105   X-ray Background B2.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.7e+08   GT 10 MeV 2.2e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W114 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 5 5 9 7 3 3 4 5 Planetary 5 5 9 8 4 4 4 5 
+F.  Comments:  None

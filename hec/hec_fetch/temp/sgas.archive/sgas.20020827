@@ -1,0 +1,50 @@
+From sgas-owner@sec.noaa.gov  Tue Aug 27 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g7R2o5F19888
+	for sgas-sendit; Tue, 27 Aug 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 27 Aug 2002 02:50:01 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200208270250.g7R2o1C19735@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Aug 27 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 239 Issued at 0245Z on 27 Aug 2002
+This report is compiled from data received at SWO on 26 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0039 0103 0125  0083 S19W45 M1.8  Sf 100                           
+ 1936 2011 2029  0083 S18W56 C7.8  Sf 240                           
+B.  Proton Events:  The greater than 10 MeV proton event ended at
+26/1335 UTC ( start at 24/0140 UTC and 317 pfu peak at 24/0835 UTC).
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels. A shock in the solar wind was observed
+by the NASA ACE spacecraft at 26/1048 UTC. The most active 3-hour
+geomagnetic period was 26/1500 to 1800 UTC. This activity is
+believed to be related to the M5 flare/CME event which occurred on
+22 August.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 169  SSN 105  Afr/Ap 016/018   X-ray Background C3.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.0e+07   GT 10 MeV 9.1e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 3 4 6 3 3 Planetary 3 3 2 3 4 5 3 3 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.
+

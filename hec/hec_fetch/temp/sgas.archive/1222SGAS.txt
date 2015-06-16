@@ -1,0 +1,29 @@
+:Product: 1222SGAS.txt
+:Issued: 2006 Dec 22 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 356 Issued at 0245Z on 22 Dec 2006
+This report is compiled from data received at SWO on 21 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels, with isolated minor storm periods at high
+latitudes. A high speed coronal hole stream is responsible for the
+disturbed periods. Solar wind speed is in slow decline and ended the
+period near 600 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 072  SSN 000  Afr/Ap 012/014   X-ray Background  LT A1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+07   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W136 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.50e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 4 3 4 3 3 3 2 1 Planetary 4 3 4 3 3 2 2 1 
+F.  Comments:  None

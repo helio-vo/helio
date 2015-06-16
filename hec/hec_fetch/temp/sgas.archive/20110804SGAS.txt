@@ -1,0 +1,39 @@
+:Product: 0804SGAS.txt
+:Issued: 2011 Aug 04 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 216 Issued at 0245Z on 04 Aug 2011
+This report is compiled from data received at SWO on 03 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0156 0156 0156                       210                           
+ 0158 0158 0158                       210                           
+ 0308 0337 0351  1261 N17W24 M1.1  Sf                               
+ 0429 0432 0435  1263 N15E08 M1.7  1f        130                    
+ 0642 0646 0649  1261 N15W27 C1.1  Sf                               
+ 0658 0658 0658                       160                           
+ 0738 0758 0806  1261 N15W29 C8.7  Sn                               
+ 1204 1204 1204                       560                           
+ 1317 1348 1410  1261 N16W30 M6.0  2b 1400   180    II/IV           
+ 1912      2359                                        IV           
+ 1923 1930 1942  1261 N13W36 C8.5  Sf 230                           
+ 2059      2349                                        IV           
+ 2313      2359                                        IV           
+B.  Proton Events:  The GOES 13 satellite observed an enhancement of
+the 10 MeV protons.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 120  SSN 066  Afr/Ap 003/002   X-ray Background B4.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+05   GT 10 MeV 3.7e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.10e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 0 0 1 2 3 1 1 Planetary 1 0 0 0 1 1 1 1 
+F.  Comments:  None.

@@ -1,0 +1,31 @@
+:Product: 20040922SGAS.txt
+:Issued: 2004 Sep 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 266 Issued at 0245Z on 22 Sep 2004
+This report is compiled from data received at SWO on 21 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0203 0204 0204                       100                           
+ 1745 1745 1747                       100                           
+ 2355 2355 2356                       110                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled with an isolated active period between 0300Z to 0600Z. 
+The active conditions followed a period of southward IMF Bz.  Solar
+wind plasma and magnetic field measurements indicate the presence of
+a weak coronal hole stream.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 095  SSN 033  Afr/Ap 008/009   X-ray Background B1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.5e+06   GT 10 MeV 9.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W100 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.00e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 2 4 3 2 2 2 1 2 Planetary 2 3 3 2 2 2 2 2 
+F.  Comments:  None.

@@ -1,0 +1,47 @@
+:Product: 0702SGAS.txt
+:Issued: 2012 Jul 02 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 184 Issued at 0245Z on 02 Jul 2012
+This report is compiled from data received at SWO on 01 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0127 0130 0132              B6.4     1300                          
+ 0132      0135                                     II              
+ 0417 0419 0446       N17E32       Sf 580                           
+ 0551 0551 0556  1514 S17E15       Sf 760                           
+ 0711 0716 0720  1513 N17E30 C5.4  Sf 4000                          
+ 0721 0722 0724                       830                           
+ 0726 0726 0726                       100                           
+ 1202 1206 1258  1513 N21E35       Sf 150                           
+ 1246 1247 1252  1515 S17E23       Sf 170                           
+ 1327 1328 1328                       240                           
+ 1334 1334 1335                       250                           
+ 1445 1447 1450  1515 S16E24       Sf 450                           
+ 1526 1532 1537  1514 S17E12 C2.4  Sf 3700                          
+ 1636 1636 1636                       110                           
+ 1703 1703 1703                       130                           
+ 1750 1750 1750                       140                           
+ 1807 1812 1815              C2.7     840                           
+ 1810 1810 1810                       2700                          
+ 1825 1826 1828                       240                           
+ 1834 1845 1930  1515 S17E21       Sf 640                           
+ 1911 1918 1921  1513 N14E04 M2.8  Sb 1400   66                     
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field activity
+ranged from unsettled to minor storm levels, with on major storm
+period at high latitudes.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 133  SSN 137  Afr/Ap 020/023   X-ray Background B6.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.6e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.30e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 5 4 3 3 3 2 3 Planetary 5 5 3 3 3 3 3 3 
+F.  Comments:  None

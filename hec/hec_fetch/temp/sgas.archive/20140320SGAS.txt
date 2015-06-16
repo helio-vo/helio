@@ -1,0 +1,35 @@
+:Product: 0320SGAS.txt
+:Issued: 2014 Mar 20 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 079 Issued at 0245Z on 20 Mar 2014
+This report is compiled from data received at SWO on 19 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0358      0401                                     II              
+ 0405      0454                                        IV           
+ 0513 0513 0513                       100                           
+ 0629 0631 0636  2010 S15E52       Sf 500                           
+ 0917 0917 0917                       890                           
+ 0926 0926 0926                       290                           
+ 1103 1103 1103                       100                           
+ 1237 1237 1237                       320                           
+ 1249 1253 1256  2014        C3.3     1800                          
+ 1444 1449 1453  2014 S15E82 C1.8  1f 100                           
+ 1544 1544 1544                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 149  SSN 137  Afr/Ap 011/003   X-ray Background B7.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.7e+04   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.50e+04 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 1 1 2 2 1 Planetary 1 0 1 1 0 1 0 1 
+F.  Comments:  Afr value is unreliable due to a calculation problem.

@@ -1,0 +1,36 @@
+:Product: 20041110SGAS.txt
+:Issued: 2004 Nov 10 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 315 Issued at 0245Z on 10 Nov 2004
+This report is compiled from data received at SWO on 09 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000 0000 2150                                        IV           
+ 0413 0422 0427  0696 N07W20       Sf 530              IV           
+ 0514 0514 0514                       270                           
+ 0730 0730 0730                       100                           
+ 0740 0745 0748  0698        C1.8     170                           
+ 1659 1719 1732  0696 N07W51 M8.9  2n 2000   1000   II/IV           
+ 1701 1717 1801                              1000                   
+ 1836 1846 1849  0696 N07W47       Sf 1200                          
+ 1915 1925 1951  0696 N06W47       Sf 2500   58                     
+ 2205 2205 2205                       67               IV           
+B.  Proton Events:  The proton flux at GOES was above the 10 pfu
+threshold today.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to severe storm conditions.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 127  SSN 090  Afr/Ap 085/120   X-ray Background B7.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.0e+08   GT 10 MeV 3.9e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W102 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.30e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 6 6 5 6 6 6 7 7 Planetary 6 6 5 7 6 7 8 7 
+F.  Comments:  None.

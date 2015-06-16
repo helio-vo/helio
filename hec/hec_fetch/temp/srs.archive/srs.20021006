@@ -1,0 +1,41 @@
+From srs-owner@sec.noaa.gov  Sun Oct  6 00:40:10 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g960e5t19100
+	for srs-sendit; Sun, 6 Oct 2002 00:40:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Sun, 6 Oct 2002 00:40:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210060040.g960e2N18994@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2002 Oct 06 0040 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar Region Summary
+SRS Number 279 Issued at 0030Z on 06 Oct 2002
+Report compiled from data received at SWO on 05 Oct
+I.  Regions with Sunspots.  Locations Valid at 05/2400Z 
+Nmbr Location  Lo  Area  Z   LL   NN Mag Type
+0134 N13W70   078  0180 Dao  09   08 Beta
+0137 S19W33   041  0230 Eai  11   22 Beta-Gamma
+0138 N15W68   076  0020 Hsx  02   03 Alpha
+0139 N12E32   336  0680 Dkc  10   44 Beta-Gamma
+0140 S07E62   306  0230 Cao  09   05 Beta
+0141 S07E20   348  0020 Bxo  03   02 Beta
+0142 N07E64   304  0010 Axx  01   01 Alpha
+IA. H-alpha Plages without Spots.  Locations Valid at 05/2400Z Oct
+Nmbr  Location  Lo
+None
+II. Regions Due to Return 06 Oct to 08 Oct
+Nmbr Lat    Lo
+0115 S04    249
+0116 N15    267
+

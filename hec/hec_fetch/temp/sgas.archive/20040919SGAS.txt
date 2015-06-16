@@ -1,0 +1,31 @@
+:Product: 20040919SGAS.txt
+:Issued: 2004 Sep 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 263 Issued at 0245Z on 19 Sep 2004
+This report is compiled from data received at SWO on 18 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels with a period of major storming between
+18/0000 - 0300Z. The storm levels were in response to a prolonged
+period of southward IMF Bz and solar wind speeds near 500 km/s. The
+geomagnetic field was predominantly quiet to end the period as the
+solar wind speed declined to 400 km/s and IMF Bz was sustained
+north.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 103  SSN 050  Afr/Ap 015/016   X-ray Background B1.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+06   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W99 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.80e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 6 5 2 4 3 2 1 2 Planetary 5 5 1 3 3 2 1 2 
+F.  Comments:  None

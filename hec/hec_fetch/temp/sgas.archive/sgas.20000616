@@ -1,0 +1,49 @@
+From sgas-owner  Fri Jun 16 02:50:20 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA13944
+	for sgas-sendit; Fri, 16 Jun 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 16 Jun 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200006160250.CAA13814@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jun 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 168 ISSUED AT 0245Z ON 16 JUN 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 15 JUN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1509 1512 1521  9042 N18E48       SF               II              
+ 1639 1640 1640                       130                           
+ 1714 1720 1726  9033 N25W54 C4.1  1F 290                           
+ 1923 1923 1924                       200                           
+ 1938 1957 2019  9041 N20W65 M1.8  2N 62     250    II              
+ 2336 2343 2349  9042 N21E43 M2.0  SF 690    59                     
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+MINOR STORM.  THE STORM CONDITIONS WERE POSSIBLY THE RESULT OF A
+WELL POSITIONED POSITIVE CORONAL HOLE.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 202  SSN 261  AFR/AP 015/020   X-RAY BACKGROUND C1.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.7E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 8.20E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 5 2 3 3 3 4 3 3 PLANETARY 5 2 3 3 3 4 3 3 
+F.  COMMENTS:  NONE
+

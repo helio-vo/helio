@@ -1,0 +1,62 @@
+From sgas-owner@sec.noaa.gov  Wed Oct 29 02:50:20 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id h9T2o5a19079
+	for sgas-sendit; Wed, 29 Oct 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 29 Oct 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200310290250.h9T2o3n19000@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Oct 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 302 Issued at 0245Z on 29 Oct 2003
+This report is compiled from data received at SWO on 28 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0012 0014 0016  0488 N08E08       Sf 400                           
+ 0127 0133 0145  0486 S19E15 C7.5  Sf 210                           
+ 0149 0149 0149                       280                           
+ 0153 0154 0154                       540                           
+ 0203 0204 0205                       440                           
+ 0248 0257 0309  0488 N08E07       Sf 120                           
+ 0317 0333 0352  0488 N08E07       Sf 370                           
+ 0847 0847 0850  0000 N08E17       Sf                  IV           
+ 0951 1110 1124  0486 S16E08 X17.2 4b 490000 13000  II/IV           
+ 0954 0954 0954  0486                 2200   84                     
+ 1349 0000 0000                                        IV           
+ 1452 1453 1534  0486 S16E01       Sf 11000  440                    
+B.  Proton Events:  The X17 flare that occurred at 28/1110Z produced
+proton events at greater than 10 and greater than 100 MeV which
+remain in progress at this time. The greater than 100 MeV event
+began at 28/1145Z with a maximum so far of 186 pfu. The greater than
+10 MeV proton event began at 28/1215Z with a maximum so far of over
+13,000 pfu. A polar cap absorption began at 28/1237Z and remains in
+progress.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. A CME was observed to pass the ACE spacecraft at around
+28/0130Z. Solar wind speed rose to near 800 km/s, but Bz stayed
+northward, thwarting a significant geomagnetic response.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 274  SSN 230  Afr/Ap 015/020   X-ray Background C3.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+08   GT 10 MeV 1.8e+08 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W108 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.80e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W77 degrees)
+3 Hour K-indices:
+Boulder 2 4 4 4 2 4 3 4 Planetary 3 4 4 4 3 4 3 4 
+F.  Comments:  None
+

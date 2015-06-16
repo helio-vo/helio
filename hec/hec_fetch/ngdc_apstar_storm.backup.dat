@@ -1,0 +1,36 @@
+--
+-- PostgreSQL database dump
+--
+
+SET client_encoding = 'SQL_ASCII';
+SET standard_conforming_strings = off;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET escape_string_warning = off;
+
+SET search_path = public, pg_catalog;
+
+--
+-- Name: ngdc_apstar_storm; Type: VIEW; Schema: public; Owner: root
+--
+
+CREATE VIEW ngdc_apstar_storm AS
+    SELECT apstar_list.apstar_id AS hec_id, apstar_list.time_start, apstar_list.time_peak, apstar_list.time_end, (apstar_list.hduration)::real AS duration, (apstar_list.apstar_max)::real AS apstar_max, (apstar_list.apstar_ave)::real AS apstar_ave, (apstar_list.apstar_sum)::real AS apstar_sum FROM apstar_list;
+
+
+ALTER TABLE public.ngdc_apstar_storm OWNER TO root;
+
+--
+-- Name: ngdc_apstar_storm; Type: ACL; Schema: public; Owner: root
+--
+
+REVOKE ALL ON TABLE ngdc_apstar_storm FROM PUBLIC;
+REVOKE ALL ON TABLE ngdc_apstar_storm FROM root;
+GRANT ALL ON TABLE ngdc_apstar_storm TO root;
+GRANT SELECT ON TABLE ngdc_apstar_storm TO apache;
+
+
+--
+-- PostgreSQL database dump complete
+--
+

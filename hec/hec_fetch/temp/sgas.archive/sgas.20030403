@@ -1,0 +1,58 @@
+From sgas-owner@sec.noaa.gov  Thu Apr  3 02:50:12 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h332o6621176
+	for sgas-sendit; Thu, 3 Apr 2003 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 3 Apr 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200304030250.h332o2p20970@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Apr 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 093 Issued at 0245Z on 03 Apr 2003
+This report is compiled from data received at SWO on 02 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0331 0332 0332                       260                           
+ 0738 0738 0738                       170                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to active levels.  The high speed stream that began on 30
+March has gained slightly in strength to nearly 580 km/sec. 
+Intermittently southward Bz has generated disturbed periods. The
+greater than 2 MeV electrons at geosynchronous orbit reached high
+levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 158  SSN 189  Afr/Ap 021/020   X-ray Background B5.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.3e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 4 4 4 4 3 3 Planetary 2 4 4 4 4 3 3 4 
+F.  Comments:  Beginning 1500 UTC April 8, SEC will begin using data
+from the GOES 12 satellite, and stop receiving GOES 8 data. GOES 12
+has the new Solar X-Ray Imager (SXI), which will acquire real-time,
+operational images of the solar x-ray flux. With the switch from
+GOES 8 to GOES 12, the primary/secondary designations will change.
+GOES 12 will be the primary satellite for the SXI. All other data,
+including magnetometer, XRS x-ray measurements, and energetic
+particles, will have GOES 10 as their primary source, with GOES 12
+as the secondary source where available. Please see
+http://www.sec.noaa.gov/GOES.html for important information on this
+changeover.
+

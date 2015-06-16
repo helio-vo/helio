@@ -1,0 +1,28 @@
+:Product: 0906SGAS.txt
+:Issued: 2012 Sep 06 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 250 Issued at 0245Z on 06 Sep 2012
+This report is compiled from data received at SWO on 05 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0155 0234 0313  1560        C1.5     130                           
+ 0338 0347 0402  1564 S14E15 C6.1  Sf 170                           
+ 0415 0415 0417  1560 N04W48       Sf 100                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field activity
+ranged from quiet to major storm levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 133  SSN 105  Afr/Ap 024/034   X-ray Background B5.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.9e+06   GT 10 MeV 4.5e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.50e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 5 6 4 3 3 3 3 2 Planetary 6 6 4 3 3 3 3 3 
+F.  Comments:  None.

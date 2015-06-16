@@ -1,0 +1,56 @@
+From sgas-owner  Sat Oct 27 02:50:10 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA28032
+	for sgas-sendit; Sat, 27 Oct 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 27 Oct 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200110270250.CAA27953@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Oct 27 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 300 Issued at 0245Z on 27 Oct 2001
+This report is compiled from data received at SWO on 26 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0100 0100 0101                       390                           
+ 0800 0800 0803                       100                           
+ 0905 0905 0906                       110                           
+ 0952 1004 1013  9672        M1.6     560                           
+ 1258 1319 1335  9682 N10E66 C3.4  Sf 180                           
+ 1428 1435 1437  9678 N07E16 M2.0  Sn 9600   130                    
+ 1554 1554 1554                       350                           
+ 1655 1655 1655                       1000                          
+ 1800 1801 1801                       1500                          
+ 1940 1948 1949                       5900                          
+ 2054 2054 2054                       180                           
+ 2100 2100 2100                       1700                          
+ 2222 2228 2246  9682 N13E56       Sf 640                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+levels.  A coronal hole/high speed stream has begun to rotate into a
+geoeffective position.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 237  SSN 239  Afr/Ap 005/005   X-ray Background C1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.3e+06   GT 10 MeV 8.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.70e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 0 2 2 1 2 2 2 Planetary 1 0 2 2 1 2 2 2 
+F.  Comments:  None
+

@@ -1,0 +1,67 @@
+From sgas-owner@sec.noaa.gov  Wed Jun 18 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h5I2o4d09161
+	for sgas-sendit; Wed, 18 Jun 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 18 Jun 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200306180250.h5I2o3B09074@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jun 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 169 Issued at 0245Z on 18 Jun 2003
+This report is compiled from data received at SWO on 17 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 2144 2153 2158  0386 S07E55 C5.2  1f        140                    
+ 2227 2255 2312  0386        M6.8     1200   2100   II/IV           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+active to major storm levels.  A six-hour period of southward Bz,
+from 06 - 09 UTC combined with elevated solar wind speed near 510
+km/s produced minor and major storm levels.  Greater than 2 MeV
+fluence levels were at background levels today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 122  SSN 080  Afr/Ap 040/050   X-ray Background B2.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.9e+05   GT 10 MeV 1.8e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W127 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.00e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 5 5 6 5 4 4 3 4 Planetary 5 6 6 6 4 4 4 4 
+F.  Comments:  K-Indices:
+On 16 June, it was determined that a scaling problem exists with the
+H-trace on the Boulder magnetometer instrument.  While this problem,
+and its fix are being investigated the primary instrument for
+Boulder K-indices has been switched to the Boulder USGS (via Domsat)
+ magnetometer, effective 1500 UTC on 16 June.  
+
+GOES Protons:
+To ensure continued operational monitoring of important energetic
+particle data, it is necessary to reassign primary/secondary
+designations for the GOES Space Environment Monitor (SEM) detectors.
+Beginning 1700 UTC on June 18, GOES 11 (105W) will become the
+primary satellite for protons. GOES 12 will continue as the primary
+satellite for magnetometer, X-ray, and electron measurements. GOES
+10 (135W) will be the secondary satellite for all SEM sensors -
+magnetometer, X-ray, and energetic particles.  Because of the
+degraded state of the proton data on GOES-10, its designation as the
+secondary source for proton data is a short-term solution.  More
+permanent solutions have been identified and are being evaluated. 
+Users will be notified when we define and schedule a permanent fix. 
+Further details can be found at http://www.sec.noaa.gov/GOES.html.
+

@@ -1,0 +1,46 @@
+From sgas-owner@sec.noaa.gov  Wed Dec  3 02:51:37 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id hB32o5413639
+	for sgas-sendit; Wed, 3 Dec 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 3 Dec 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200312030250.hB32o2a13528@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Dec 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 337 Issued at 0245Z on 03 Dec 2003
+This report is compiled from data received at SWO on 02 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1247 1308 1322  0508        M1.4                                   
+ 2250 2300 2307              M1.5                                   
+B.  Proton Events:  A greater than 10 MeV proton event that began at
+1505Z and reached a peak flux of 86 pfu at 1730Z.  Currently flux
+levels are in a slow decline.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 139  SSN 119  Afr/Ap 008/009   X-ray Background B8.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.0e+06   GT 10 MeV 5.8e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W105 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.40e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 2 2 2 2 2 Planetary 3 2 3 2 3 2 3 1 
+F.  Comments:  None
+

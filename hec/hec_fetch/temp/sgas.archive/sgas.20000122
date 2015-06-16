@@ -1,0 +1,48 @@
+From sgas-owner  Sat Jan 22 02:55:13 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA17994
+	for sgas-sendit; Sat, 22 Jan 2000 02:55:08 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 22 Jan 2000 02:55:06 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200001220255.CAA28160@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jan 22 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 022 ISSUED AT 0245Z ON 22 JAN 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 21 JAN
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0502 0510 0515              C6.7     270    140                    
+ 0612 0612 0615                       110                           
+ 0634 0648 0658              M1.4     58                            
+ 0904 0904 0904                       280                           
+ 0917 0917 0918                       100                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD HAS BEEN
+QUIET.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 159  SSN 144  AFR/AP 002/003   X-RAY BACKGROUND C1.3
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.4E+05   GT 10 MEV 2.8E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.00E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 0 0 0 1 1 1 2 PLANETARY 1 0 0 0 1 1 1 1 
+F.  COMMENTS:  NONE
+
+

@@ -1,0 +1,31 @@
+:Product: 20040729SGAS.txt
+:Issued: 2004 Jul 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 211 Issued at 0245Z on 29 Jul 2004
+This report is compiled from data received at SWO on 28 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0905 0911 0911                       100                           
+ 1030 1030 1030                       780                           
+ 2345 0006 0016  0652        M2.0                                   
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 25/1855Z, ended on 28/0040Z. The peak flux was 2,090 pfu at
+26/2250Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled. Yesterday's severe geomagnetic storm ended by 28/0000Z.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 101  SSN 066  Afr/Ap 013/014   X-ray Background B4.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.9e+07   GT 10 MeV 3.5e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W97 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.50e+09 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 2 3 2 3 3 Planetary 3 3 3 3 3 3 2 3 
+F.  Comments:  The greater than 2 MeV electron fluence was at very
+high levels.

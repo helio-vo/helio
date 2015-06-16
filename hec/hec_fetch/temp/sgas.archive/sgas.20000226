@@ -1,0 +1,48 @@
+From sgas-owner  Sat Feb 26 02:56:52 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA11947
+	for sgas-sendit; Sat, 26 Feb 2000 02:55:21 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 26 Feb 2000 02:55:17 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200002260255.CAA28040@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Feb 26 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 057 ISSUED AT 0245Z ON 26 FEB 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 25 FEB
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0452 0452 0454                       330                           
+ 0456 0503 0508  8879 N23W22 C2.3  SF 120                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS
+PREDOMINANTLY UNSETTLED TO ACTIVE. ISOLATED PERIODS OF MINOR
+STORMING WAS OBSERVED. SOLAR WIND VELOCITY DECREASED DURING THE
+PERIOD BUT REMAINED ELEVATED ABOVE 650 KM/S. ENERGETIC ELECTRON
+FLUXES AT GEOSYNCHRONOUS ORBIT BECAME HIGH AROUND 25/1710Z.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 210  SSN 202  AFR/AP 021/018   X-RAY BACKGROUND C1.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.8E+06   GT 10 MEV 1.4E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.80E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 5 4 3 4 3 2 3 PLANETARY 3 4 4 3 4 3 2 3 
+F.  COMMENTS:  NONE
+
+

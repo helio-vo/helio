@@ -1,0 +1,50 @@
+:Product: 20050114SGAS.txt
+:Issued: 2005 Jan 14 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 014 Issued at 0245Z on 14 Jan 2005
+This report is compiled from data received at SWO on 13 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0332 0332 0332                       150                           
+ 0340 0340 0340                       100                           
+ 0548 0556 0603  0718 S06E25 B6.5  Sf 110                           
+ 0808 0819 0829  0718        C1.0     130                           
+ 1119 1126 1129  0718        C1.6     460                           
+ 1344 1346 1348                       130                           
+ 1359 1359 1359                       170                           
+ 1410 1410 1411  0718                 220                           
+ 1432 1432 1432                       170                           
+ 1501 1503 1504                       140                           
+ 1512 1512 1512                       140                           
+ 1553 1554 1555                       140                           
+ 1624 1633 1637  0718 S07E16 C3.3  Sf 270    21                     
+ 1624 1624 1627                       1500                          
+ 1642 1642 1643                       220                           
+ 1704 1712 1717  0718 S08E16 C4.2  Sf 670                           
+ 1830 1831 1831                       480                           
+ 1834 1834 1836                       530                           
+ 1850 1905 1910  0718 S07E15 C2.5  Sf 600                           
+ 1947 1947 1947                       160                           
+ 1949 1949 1949                       200                           
+ 1954 1955 2002                       1000                          
+ 2236 2252 2258  0718        C6.8     2100                          
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Active conditions were due to the persistence of a high
+speed stream.  The solar wind speed at ACE has decreased from
+approximately 720 km/s to 650 km/s during the past 24 hours.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 116  SSN 077  Afr/Ap 010/013   X-ray Background B2.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+06   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.80e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 4 3 2 2 3 3 3 Planetary 2 4 2 2 3 3 3 3 
+F.  Comments:  None.

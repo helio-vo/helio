@@ -1,0 +1,47 @@
+From sgas-owner  Sun Aug 19 02:50:21 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA13556
+	for sgas-sendit; Sun, 19 Aug 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 19 Aug 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200108190250.CAA13479@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Aug 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 231 Issued at 0245Z on 19 Aug 2001
+This report is compiled from data received at SWO on 18 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  The greater than 10 MeV solar energetic proton
+event has ended (start 16/0135 UTC, 493 pfu peak at 16/0355 UTC, and
+end 18/1845 UTC).
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 156  SSN 148  Afr/Ap 016/014   X-ray Background B5.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.2e+06   GT 10 MeV 9.4e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV ***** e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 1 4 4 2 4 Planetary 3 3 3 2 3 4 3 3 
+F.  Comments:  The GT 2 MeV electron fluence is not available due to
+sensor degradation caused by the GT 10 MeV solar energetic proton
+event.
+

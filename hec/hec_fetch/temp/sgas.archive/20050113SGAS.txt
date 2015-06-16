@@ -1,0 +1,28 @@
+:Product: 20050113SGAS.txt
+:Issued: 2005 Jan 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 013 Issued at 0245Z on 13 Jan 2005
+This report is compiled from data received at SWO on 12 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0805 0828 0840  0718        B5.9     150                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to minor storm levels.  Minor storm levels occurred due to
+the onset of a geoeffective coronal hole.  Solar wind speed has
+increased from approximately 400 km/s to 700 km/s.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 102  SSN 058  Afr/Ap 015/030   X-ray Background B1.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+06   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 3 5 4 3 3 3 Planetary 4 5 3 5 5 3 3 3 
+F.  Comments:  None.

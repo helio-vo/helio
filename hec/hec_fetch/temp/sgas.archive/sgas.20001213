@@ -1,0 +1,51 @@
+From sgas-owner  Wed Dec 13 02:51:26 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA18063
+	for sgas-sendit; Wed, 13 Dec 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 13 Dec 2000 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200012130250.CAA17867@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Dec 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 348 Issued at 0245Z on 13 Dec 2000
+This report is compiled from data received at SWO on 12 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1437 1507 1523  9267 N08E25 M1.3  1f        78                     
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+predominantly quiet throughout the day.  A single unsettled period
+was observed at Boulder during 1500-1800 UTC.  The greater-than-2
+MeV electron flux at geosynchronous orbit was elevated at moderate
+levels (above 1000 pfu) during local daytime hours.
+D.  Stratwarm:  STRATWARM ALERT/TUESDAY/STRATWARM EXISTS.
+MAJOR WARMING CONTINUES.  5 AND 8-DAY FORECASTS
+INDICATE A VORTEX SPLITTING EVENT TO FORM TWO NEW
+CENTRES OVER THE CANADIAN ARCTIC AND A WEAKER
+CENTRE OVER SIBERIA.  THE WARM AIR OVER SIBERIA AND
+RUSSIA COOLS SLIGHTLY AND SPREADS TO THE WEST.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 150  SSN 095  Afr/Ap 003/005   X-ray Background B6.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+05   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.90e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 2 2 3 2 1 Planetary 1 1 1 2 2 2 2 1 
+F.  Comments:  None
+

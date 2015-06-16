@@ -1,0 +1,52 @@
+From sgas-owner  Thu Nov 30 02:50:18 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA19438
+	for sgas-sendit; Thu, 30 Nov 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 30 Nov 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200011300250.CAA19234@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Nov 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 335 Issued at 0245Z on 30 Nov 2000
+This report is compiled from data received at SWO on 29 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0619 0629 0638  9246 S13E43 C9.1  Sf 150           II              
+ 0837 0837 0839                       140                           
+ 0841 0842 0843                       1500                          
+ 1123 1125 1127                       170                           
+ 1149 1152 1152                       9200                          
+ 1357 1358 1359                       490                           
+ 1401 1401 1401                       400                           
+ 1907 1911 1916  9246 S13E39 C2.3  Sf 100                           
+B.  Proton Events:  The greater that 10 MeV proton event ended at
+29/0200 UTC (begin 24/1520 UTC and peak of 942 sfu at 26/2030 UTC).
+C.  Geomagnetic Activity Summary:  He geomagnetic field ranged from
+unsettled to severe storm levels. Severe storm conditions were
+observed at many stations during the 29/0300-0600 UTC period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 188  SSN 160  Afr/Ap 043/052   X-ray Background B8.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.9e+07   GT 10 MeV 5.1e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 7 5 4 5 3 3 2 Planetary 5 7 6 5 6 4 2 3 
+F.  Comments:  None
+

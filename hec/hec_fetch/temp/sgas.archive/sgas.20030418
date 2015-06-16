@@ -1,0 +1,48 @@
+From sgas-owner@sec.noaa.gov  Fri Apr 18 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h3I2o5r13225
+	for sgas-sendit; Fri, 18 Apr 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 18 Apr 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200304180250.h3I2o2R13119@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Apr 18 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 108 Issued at 0245Z on 18 Apr 2003
+This report is compiled from data received at SWO on 17 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0836 0838 0839                       190                           
+ 2009 2009 2009                       150                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+unsettled to active during the past 24 hours with a minor  storm
+period from 0300-0900 UTC in the mid latitudes, and a minor storm
+period at high latitudes from both 0300-1200 UTC and 1500-1800 UTC.
+The coronal-hole induced high speed solar wind flow continues. The
+greater than 2 MeV electron fluxes reached high levels today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 101  SSN 037  Afr/Ap 026/030   X-ray Background B1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.3e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.70e+08 e/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 3 5 5 4 4 4 3 2 Planetary 3 5 5 5 4 5 3 3 
+F.  Comments:  None
+

@@ -1,0 +1,48 @@
+From owner-sgas@proton.sel.noaa.gov Wed May 27 22:50:11 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA088583810; Wed, 27 May 1998 22:50:11 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Wed, 27 May 1998 20:50:08 -0600
+From: SESC <sel@proton.sel.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 May 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 148 ISSUED AT 0245Z ON 28 MAY 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 27 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0115 0115 0116                       110                           
+ 0422 0422 0423                       130                           
+ 0816 0831 0839              C1.6     600                           
+ 1106 1118 1130  8224 S23W86 C5.8  SF 1000   30                     
+ 1255 1300 1319  8226 N19W66       SF 170    390                    
+ 1330 1335 1450  8226        C7.5     580                           
+ 1614 1619 1628  8224 S21W82       1F 350                           
+ 1640 1641 1641                       380                           
+ 1705 1705 1706                       110                           
+ 2031 2032 2033                       290                           
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD HAS BEEN
+MOSTLY QUIET FOR THE PAST 24 HOURS.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES:
+10 CM 094  SSN 049  AFR/AP 008/007   X-RAY BACKGROUND B2.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.7E+05   GT 10 MEV 1.6E+04 P/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.80E+06 E/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 2 2 2 2 2 2 PLANETARY 2 2 1 2 2 3 2 2 
+F.  COMMENTS:  NONE
+
+

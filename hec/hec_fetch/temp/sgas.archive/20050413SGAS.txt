@@ -1,0 +1,26 @@
+:Product: 20050413SGAS.txt
+:Issued: 2005 Apr 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 103 Issued at 0245Z on 13 Apr 2005
+This report is compiled from data received at SWO on 12 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0349 0354 0358              B2.3     310                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels during the past 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 085  SSN 032  Afr/Ap 020/030   X-ray Background A6.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.3e+05   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W112 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.00e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 5 4 3 5 2 4 4 Planetary 6 5 3 4 4 3 4 4 
+F.  Comments:  None

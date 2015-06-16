@@ -1,0 +1,45 @@
+From sgas-owner  Mon Jul 23 02:50:26 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA07647
+	for sgas-sendit; Mon, 23 Jul 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 23 Jul 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200107230250.CAA07549@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Jul 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 204 Issued at 0245Z on 23 Jul 2001
+This report is compiled from data received at SWO on 22 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled during the past 24 hours. The greater than 2 MeV electron
+fluxes declined from high levels at 21/2325 UTC and remained below
+this threshold for the remainder of the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 140  SSN 153  Afr/Ap 006/011   X-ray Background B3.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.2e+04   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.60e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 2 2 2 2 3 Planetary 2 3 2 3 3 3 3 3 
+F.  Comments:  None
+

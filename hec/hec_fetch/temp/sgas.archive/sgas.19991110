@@ -1,0 +1,57 @@
+From owner-sgas@proton.sel.noaa.gov Wed Nov 10 21:57:52 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA267429072; Wed, 10 Nov 1999 21:57:52 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 11 Nov 1999 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199911110255.CAA23945@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Nov 11 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 315 ISSUED AT 0245Z ON 11 NOV 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 10 NOV
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0140 0151 0200  8759 N10E50 M1.3  1N                               
+ 0538 0547 0605  8760 N16E06       SF 130                           
+ 0831 0831 0831                       250                           
+ 1402 1403 1403                       390                           
+ 1524 1525 1527  8753 N21W18       SF 530                           
+ 1533 1534 1534                       210                           
+ 1544 1549 1551  8753 N17W21 M1.5  SF 2900   47                     
+ 1631 1634 1638  8763 S16E79 C2.8  1F 2500                          
+ 1659 1659 1700                       110                           
+ 2030 2030 2031                       920                           
+ 2209 2213 2216  8753 N17W25 M1.1  1N 8800   200                    
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+ACTIVE. THE MOST DISTURBED PERIOD WAS FROM 09/2100-10/0000Z. DURING
+THE PERIOD, SOLAR WIND VELOCITY SLOWLY DECREASED TO NEAR 520 KM/S.
+THIS DECREASE WAS NOT OBSERVED  FROM THIS CORONAL HOLE LAST SOLAR
+ROTATION. ENERGETIC ELECTRON FLUXES AT GEOSYNCHRONOUS ORBIT REACHED
+HIGH LEVELS DURING THE PERIOD.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 249  SSN 343  AFR/AP 013/012   X-RAY BACKGROUND C3.6
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 7.0E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.70E+08 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 3 2 3 3 3 2 3 PLANETARY 3 3 2 3 3 3 3 3 
+F.  COMMENTS:  NONE
+
+

@@ -1,0 +1,46 @@
+From sgas-owner@sec.noaa.gov  Mon Oct  7 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g972o6029576
+	for sgas-sendit; Mon, 7 Oct 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 7 Oct 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210070250.g972o3c29438@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Oct 07 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 280 Issued at 0245Z on 07 Oct 2002
+This report is compiled from data received at SWO on 06 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0446 0451 0453  0139 N12E31 M2.4  1n                               
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to minor storm levels.  A six-hour period of southward Bz (02Z to
+08Z) was associated with a sector boundary crossing and resulted in
+active to minor storm conditions (03Z to 09Z).  Greater than 2 MeV
+electron flux at geo-synchronous orbit reached high levels today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 162  SSN 126  Afr/Ap 016/019   X-ray Background B9.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.6e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.60e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 4 5 2 2 3 2 3 Planetary 2 4 5 2 3 3 3 3 
+F.  Comments:  None
+

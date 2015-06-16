@@ -1,0 +1,29 @@
+:Product: 1220SGAS.txt
+:Issued: 2005 Dec 20 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 354 Issued at 0245Z on 20 Dec 2005
+This report is compiled from data received at SWO on 19 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to active.  Solar wind speed showed an increase up to about
+470 km/s after 1700Z, which was accompanied by a southward
+interplanetary magnetic field.  The solar wind speed had declined to
+about 420 km/s at time of issue.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 090  SSN 063  Afr/Ap 004/008   X-ray Background A6.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W109 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 1 1 2 4 3 3 Planetary 2 1 0 0 2 2 4 3 
+F.  Comments:  None

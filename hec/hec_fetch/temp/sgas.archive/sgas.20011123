@@ -1,0 +1,47 @@
+From sgas-owner  Fri Nov 23 03:40:24 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id DAA28058
+	for sgas-sendit; Fri, 23 Nov 2001 03:40:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 23 Nov 2001 03:40:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200111230340.DAA27925@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Nov 23 0340 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 327 Issued at 0245Z on 23 Nov 2001
+This report is compiled from data received at SWO on 22 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1700 1708 1725  9704 S18W33 M1.2  1f                               
+ 1829 1835 1837  9704 S16W32       Sf 450                           
+ 2018 2036 2052  9698 S25W67 M3.8  2b 260    630    II/IV           
+ 2158 2215 2228  9704        C5.9     2700   9700                   
+ 2232 2330 0006              M9.9                   II/IV           
+B.  Proton Events:  A satellite proton event began at 22/2320 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 190  SSN 143  Afr/Ap 008/008   X-ray Background B8.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+07   GT 10 MeV 1.2e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 2 2 3 3 2 3 3 Planetary 1 2 2 3 2 2 3 2 
+F.  Comments:  None
+

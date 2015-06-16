@@ -1,0 +1,53 @@
+From sgas-owner  Wed Jan 16 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA25937
+	for sgas-sendit; Wed, 16 Jan 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 16 Jan 2002 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200201160250.CAA25836@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jan 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 016 Issued at 0245Z on 16 Jan 2002
+This report is compiled from data received at SWO on 15 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  Particle flux for >10MeV protons reached event
+level of 10 pfu at 15/1435 UTC, and the event remains in progress
+with a current flux of about 12 pfu.  The slow enhancement in proton
+flux is likely from a west limb CME on 14 January, with the delay in
+proton enhancement due to the intervening effects of a coronal hole
+high speed stream.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet. 
+Particle fluxes for >2MeV electrons reached event level during the
+period.  >2MeV electrons briefly exceeded 1000 pfu at geosynchronous
+orbit near local noon, as measured on GOES-8, during 15/1405-1615
+UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 218  SSN 155  Afr/Ap 006/006   X-ray Background C1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+07   GT 10 MeV 8.2e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.20e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 2 2 2 2 2 1 2 Planetary 1 2 2 2 2 2 2 2 
+F.  Comments:  Afr estimated from Boulder A.  The GOES-8 X-ray
+Spectrometer has been offline since 15/0020 UTC.  X-ray Background
+estimated from GOES-10 (135W) data.
+

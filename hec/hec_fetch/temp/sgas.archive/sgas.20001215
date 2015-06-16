@@ -1,0 +1,50 @@
+From sgas-owner  Fri Dec 15 02:50:23 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA03008
+	for sgas-sendit; Fri, 15 Dec 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 15 Dec 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200012150250.CAA02895@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Dec 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 350 Issued at 0245Z on 15 Dec 2000
+This report is compiled from data received at SWO on 14 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 2332 2332 2333                       150                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet
+throughout the day.  Greater-than-2 MeV electron flux at
+geosynchronous orbit was at moderate levels (above 1000 pfu) during
+local dawn and daytime hours.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM THURSDAY
+STRONG STRATOSPHERIC WARMING IN PROGRESS.  THE VORTEX CENTER AND COLD
+AIR ARE LOCATED OVER CANADA WITH THE VORTEX BEING ELONGATED TOWARDS
+THE BARENTS SEA.  THE PACIFIC ANTICYCLONE WEAKENS AND AN ANTICYCLONE
+DEVELOPS OVER THE EASTERN ATLANTIC.  THE WARM AIR IS CENTERED OVER
+CENTRAL ASIA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 182  SSN 157  Afr/Ap 002/004   X-ray Background B6.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.2e+05   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 0 1 2 1 1 1 Planetary 1 0 0 1 2 2 2 2 
+F.  Comments:  None
+

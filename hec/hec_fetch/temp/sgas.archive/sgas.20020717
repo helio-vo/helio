@@ -1,0 +1,51 @@
+From sgas-owner@sec.noaa.gov  Wed Jul 17 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g6H2o6Z19308
+	for sgas-sendit; Wed, 17 Jul 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 17 Jul 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200207170250.g6H2o2n19151@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jul 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 198 Issued at 0245Z on 17 Jul 2002
+This report is compiled from data received at SWO on 16 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0008 0011 0015              C4.6                      IV           
+ 0328 0328 0329                       120                           
+ 1202 1221 1237  0036 S08E71       Sf               II              
+ 1331 1410 1421  0030 N23W07 C8.5  Sf 200    64                     
+ 1912 1915 1917              C1.4     160                           
+ 2122 2138 2148  0030 N19W14 C2.6  Sf 280                           
+B.  Proton Events:  A greater than 10 MeV proton event began at
+geosynchronous orbit at 16/1750 UTC. The 10 MeV flux at the close of
+the period was 32 pfu and gradually increasing.
+C.  Geomagnetic Activity Summary:  Geomagnetic field activity was at
+quiet to active levels. Active levels occurred at some high latitude
+stations during 16/1800-2100 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 172  SSN 182  Afr/Ap 011/011   X-ray Background C2.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.4e+06   GT 10 MeV 7.3e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.90e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 2 3 3 3 3 Planetary 2 3 2 2 2 2 4 4 
+F.  Comments:  Afr estimated based on Boulder USGS magnetometer data.
+

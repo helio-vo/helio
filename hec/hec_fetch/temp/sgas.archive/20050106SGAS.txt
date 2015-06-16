@@ -1,0 +1,28 @@
+:Product: 20050106SGAS.txt
+:Issued: 2005 Jan 06 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 006 Issued at 0245Z on 06 Jan 2005
+This report is compiled from data received at SWO on 05 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to minor storm levels. Solar wind speed began the period
+near 750 km/s, but gradually declined to near 600 km/s.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 088  SSN 015  Afr/Ap 018/021   X-ray Background A5.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.8e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W106 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.20e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 4 4 3 3 2 1 Planetary 5 4 5 4 3 3 1 2 
+F.  Comments:  The greater than 2 Mev electron fluence at
+geosynchronous orbit was at high levels.

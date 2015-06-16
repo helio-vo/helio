@@ -1,0 +1,45 @@
+From owner-sgas@proton.sel.noaa.gov Fri Dec  3 21:56:06 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA217486166; Fri, 3 Dec 1999 21:56:06 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 4 Dec 1999 02:55:09 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199912040255.CAA26338@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Dec 04 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 338 ISSUED AT 0245Z ON 04 DEC 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 03 DEC
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0923 0926 0932  8788 N09E89       SF 550                           
+ 1812 1813 1813                       110                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+ACTIVE. SOLAR WIND DATA INDICATE ELEVATED SOLAR WIND SPEEDS,
+INDICATIVE OF A CORONAL HOLE-RELATED STREAM.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 152  SSN 107  AFR/AP 014/013   X-RAY BACKGROUND B9.6
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.2E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 7.30E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 3 2 3 4 3 3 2 PLANETARY 3 2 2 3 3 4 3 2 
+F.  COMMENTS:  NONE
+
+

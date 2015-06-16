@@ -1,0 +1,70 @@
+HESSI Flare List  (generated 30-Sep-2012 04:41)
+
+Total # flares: 69524  Time range: 12-Feb-2002 21:29:56.000 - 31-Aug-2012 23:58:56.000
+ 
+    Flare     Start time        Peak      End      Dur   Peak     Total      Energy X Pos Y Pos Radial   AR           Flags            
+                                                     s    c/s    Counts         keV  asec  asec   asec                                 
+
+  9110101  1-Nov-2009 01:10:20 01:22:42 01:22:48   748     96    304416        6-12   922   365    992 1029  A0 GE P1 PE Q2              
+  9110112  1-Nov-2009 20:09:08 20:11:54 20:12:00   172     96     41328         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9110407  4-Nov-2009 18:19:56 18:21:54 18:22:00   124     92     28920         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9110609  6-Nov-2009 23:23:04 23:24:10 23:24:16    72     80     14904         3-6     0     0      0    0  A0 GE PE PS Q3 SE           
+  9110904  9-Nov-2009 13:07:32 13:08:58 13:09:04    92     84     18384         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9110906  9-Nov-2009 16:23:32 16:25:46 16:25:52   140     84     33048         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9111101 11-Nov-2009 00:51:56 00:55:50 00:55:52   236    216    146484         3-6     0     0      0    0  a0 a1 A3 DF EE PE PS Q3     
+  9111302 13-Nov-2009 03:36:52 03:37:26 03:38:00    68    120     10392         3-6     0     0      0    0  A0 DF DR PS Q2              
+  9111307 13-Nov-2009 14:30:32 14:32:54 14:33:04   152    100     39144         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9111311 13-Nov-2009 21:21:04 21:22:10 21:22:16    72    100     18384         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9111410 14-Nov-2009 22:59:00 23:02:22 23:03:36   276    224    127824         3-6     0     0      0    0  a0 a1 A3 DF GD GE PE PS Q4  
+  9111512 15-Nov-2009 22:56:08 22:59:54 23:03:56   468     80    121056         3-6     0     0      0    0  A0 DF PE PS Q2              
+  9111705 17-Nov-2009 12:37:48 12:40:02 12:40:08   140    100     35592         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9111805 18-Nov-2009 12:34:08 12:36:50 12:36:56   168     84     36792         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9111810 18-Nov-2009 21:06:00 21:09:10 21:09:20   200    256    131950         3-6     0     0      0    0  a0 a1 A3 DF GE PE PS Q3     
+  9111915 19-Nov-2009 21:03:04 21:07:02 21:12:08   544    168    262684         3-6     0     0      0    0  a0 A1 DF PE PS Q2           
+  9112108 21-Nov-2009 10:45:00 10:47:06 10:47:12   132    100     32376         3-6     0     0      0    0  A0 GE PE PS Q2              
+  9112208 22-Nov-2009 19:12:56 19:15:06 19:15:12   136    168     54668         3-6     0     0      0    0  a0 A1 DF GE PE PS Q3        
+  9112209 22-Nov-2009 19:22:20 19:22:26 19:24:52   152     84     31296         3-6     0     0      0    0  A1 GS PE PS Q2              
+  9112307 23-Nov-2009 19:10:00 19:14:06 19:19:28   568    139    243737         3-6     0     0      0    0  a0 a1 A3 DF PE PS Q2        
+  9112711 27-Nov-2009 17:17:00 17:21:26 17:26:52   592    136    247106         3-6     0     0      0    0  a0 a1 A3 DF PE PS Q2        
+  9112807 28-Nov-2009 17:14:04 17:17:26 17:21:36   452     88    128736    800-7000   580    40    582    0  A0 DF P1 PE Q2              
+  9112901 29-Nov-2009 17:10:56 17:13:46 17:16:28   332     26     30891        6-12   571    16    571    0  A0 DF P1 PE Q2              
+
+Notes: 
+  Note that only events with non-zero position and energy range not equal to 3-6 keV are confirmed as solar sources.
+  Events which have no position and show up mostly in the front detectors, but were not able to be imaged 
+    are flagged as "PS".
+  Events which do not have valid position are only confirmed to be non-solar if the NS flag is set.
+  Peak Rate:  peak counts/second in energy range 6-12 keV, averaged over active collimators, including background.
+  Total Counts:  counts in energy range 6-12 keV integrated over duration of flare summed over all subcollimators,
+    including background.
+  Energy:  the highest energy band in which the flare was observed.
+  Radial Distance:  distance from Sun center
+  Quality Codes: Qn, where n is the total number of data gap, SAA, particle, eclipse or decimation flags set for event.
+    n ranges from 0 to 11.  Use care when analyzing the data when the quality is not zero.
+
+Flare Flag Codes: 
+  a0 - In attenuator state 0 (None) sometime during flare
+  a1 - In attenuator state 1 (Thin) sometime during flare
+  a2 - In attenuator state 2 (Thick) sometime during flare
+  a3 - In attenuator state 3 (Both) sometime during flare
+  An - Attenuator state (0=None, 1=Thin, 2=Thick, 3=Both) at peak of flare
+  DF - Front segment counts were decimated sometime during flare
+  DR - Rear segment counts were decimated sometime during flare
+  ED - Spacecraft eclipse (night) sometime during flare
+  EE - Flare ended in spacecraft eclipse (night)
+  ES - Flare started in spacecraft eclipse (night)
+  FE - Flare ongoing at end of file
+  FR - In Fast Rate Mode
+  FS - Flare ongoing at start of file
+  GD - Data gap during flare
+  GE - Flare ended in data gap
+  GS - Flare started in data gap
+  MR - Spacecraft in high-latitude zone during flare
+  NS - Non-solar event
+  PE - Particle event: Particles are present
+  PS - Possible Solar Flare; in front detectors, but no position
+  Pn - Position Quality: P0 = Position is NOT valid, P1 = Position is valid
+  Qn - Data Quality: Q0 = Highest Quality, Q11 = Lowest Quality
+  SD - Spacecraft was in SAA sometime during flare
+  SE - Flare ended when spacecraft was in SAA
+  SS - Flare started when spacecraft was in SAA

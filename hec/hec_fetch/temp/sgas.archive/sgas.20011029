@@ -1,0 +1,53 @@
+From sgas-owner  Mon Oct 29 02:50:33 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA18982
+	for sgas-sendit; Mon, 29 Oct 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 29 Oct 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200110290250.CAA18892@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Oct 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 302 Issued at 0245Z on 29 Oct 2001
+This report is compiled from data received at SWO on 28 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0436 0450 0458  9682 N12E40 M1.3  1f                               
+ 0858 0858 0858                       1600                          
+ 0901 0901 0905  9678 N06W06       Sf 670                           
+ 0950 1000 1005  9682        M1.5                                   
+ 1240 1240 1241                       200                           
+ 1408 1414 1453  9682 N11E36       Sf 120                           
+ 1601 1601 1601                       100                           
+ 1645 1651 1653  9682 N13E31 M1.4  1n 55                            
+ 1751 1751 1753                       210                           
+ 1906 1906 1906                       140                           
+ 2311 2311 2312                       460                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+major storm conditions.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 227  SSN 229  Afr/Ap 035/041   X-ray Background C2.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+07   GT 10 MeV 5.5e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.80e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 5 6 6 4 4 4 3 Planetary 2 6 6 6 5 4 4 3 
+F.  Comments:  None
+

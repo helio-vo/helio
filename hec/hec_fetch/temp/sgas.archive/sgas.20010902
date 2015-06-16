@@ -1,0 +1,53 @@
+From sgas-owner  Sun Sep  2 02:50:09 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA03089
+	for sgas-sendit; Sun, 2 Sep 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 2 Sep 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200109020250.CAA03001@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Sep 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 245 Issued at 0245Z on 02 Sep 2001
+This report is compiled from data received at SWO on 01 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0314 0314 0314                       120                           
+ 0325 0325 0325                       120                           
+ 0334 0334 0335                       140                           
+ 1102 1103 1103                       140                           
+ 1412 1421 1433                       190                           
+ 1604 1604 1604                       230                           
+ 1924 1925 1926                       230                           
+ 2008 2008 2008                       640                           
+ 2053 2053 2054                       170                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet to unsettled with an isolated active period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 184  SSN 153  Afr/Ap 009/008   X-ray Background B7.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 1 1 2 4 3 1 1 Planetary 2 1 2 2 3 3 3 2 
+F.  Comments:  S.I.D.C. BRUSSELS INTERNATIONAL PROVISIONAL MONTHLY
+MEAN SUNSPOT NUMBER RI FOR 2001 AUGUST IS 106.8 (ONE HUNDRED SIX
+POINT EIGHT).
+

@@ -1,0 +1,27 @@
+:Product: 0726SGAS.txt
+:Issued: 2010 Jul 26 0246 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 207 Issued at 0245Z on 26 Jul 2010
+This report is compiled from data received at SWO on 25 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1805 1807 1807                       100                           
+ 1809 1809 1809                       110                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 085  SSN 039  Afr/Ap 005/006   X-ray Background B1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.5e+05   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 1 1 2 2 2 2 Planetary 3 1 1 1 2 1 1 2 
+F.  Comments:  None

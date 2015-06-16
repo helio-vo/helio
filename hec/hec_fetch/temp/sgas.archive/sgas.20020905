@@ -1,0 +1,49 @@
+From sgas-owner@sec.noaa.gov  Thu Sep  5 02:50:13 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g852o6q03809
+	for sgas-sendit; Thu, 5 Sep 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 5 Sep 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209050250.g852o3T03661@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 05 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 248 Issued at 0245Z on 05 Sep 2002
+This report is compiled from data received at SWO on 04 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0513 0513 0515                       1600                          
+ 0734 0734 0735                       250                           
+ 0828 0828 0829                       320                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to major storming levels.  A magnetic storm gradually
+commenced after 04/0000 UTC, and sustained negative Bz resulted in
+minor and isolated major storm periods through 04/1500 UTC. 
+Conditions abated to active and unsettled levels for the reminder of
+the day.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 171  SSN 215  Afr/Ap 023/042   X-ray Background B9.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.80e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 6 4 5 5 4 3 3 Planetary 4 6 5 6 5 4 4 3 
+F.  Comments:  None
+

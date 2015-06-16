@@ -1,0 +1,38 @@
+:Product: 1102SGAS.txt
+:Issued: 2014 Nov 02 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 306 Issued at 0245Z on 02 Nov 2014
+This report is compiled from data received at SWO on 01 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0018 0018 0018                       120                           
+ 0213 0213 0213                       300                           
+ 1020 1024 1030  2201 S05E47 C4.1  Sn 510                           
+ 1119 1119 1120                       380                           
+ 1124 1124 1124                       130                           
+ 1342 1350 1357  2201 S05E45 C2.6  1f 300                           
+ 1805 1807 1808  2201 S04E40       Sf 160                           
+ 1814 1820 1823  2201 S04E41 C2.3  Sf 330                           
+ 1911 1911 1911                       140                           
+ 1934 1934 1934                       100                           
+ 2008 2008 2009                       190                           
+ 2117 2117 2117                       110                           
+B.  Proton Events:  The greater than 10 MeV proton flux was enhanced
+reaching a peak flux of 5.3 pfu at 01/2025 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 120  SSN 082  Afr/Ap 005/006   X-ray Background B4.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+06   GT 10 MeV 8.5e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 2 2 3 3 1 0 Planetary 1 1 2 2 3 2 1 1 
+F.  Comments:  None

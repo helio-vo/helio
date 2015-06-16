@@ -1,0 +1,49 @@
+From sgas-owner@sec.noaa.gov  Wed Apr 23 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h3N2o4q23668
+	for sgas-sendit; Wed, 23 Apr 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 23 Apr 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200304230250.h3N2o2D23559@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Apr 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 113 Issued at 0245Z on 23 Apr 2003
+This report is compiled from data received at SWO on 22 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0719 0719 0719                       76            II              
+ 1613 1617 1622  0338 N20W17 C2.2  Sf 140    50                     
+ 1941 2011 2037  0338 N20W14 C4.0  Sf 7500             IV           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+unsettled to active. A high speed solar wind stream that began early
+on 21 April continues. Solar wind speeds exceeded 600 km/s early in
+the period, but gradually declined to below 550 km/s by the end of
+the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 132  SSN 147  Afr/Ap 019/022   X-ray Background B4.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+06   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.30e+08 e/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 4 4 4 3 3 3 3 3 Planetary 4 4 4 4 3 3 3 4 
+F.  Comments:  The greater than 2 MeV electrons at geosynchronous
+orbit reached high levels again today.
+

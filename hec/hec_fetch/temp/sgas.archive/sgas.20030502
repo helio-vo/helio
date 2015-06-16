@@ -1,0 +1,50 @@
+From sgas-owner@sec.noaa.gov  Fri May  2 02:50:12 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h422o5Z06650
+	for sgas-sendit; Fri, 2 May 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 2 May 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200305020250.h422o2K06522@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 May 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 122 Issued at 0245Z on 02 May 2003
+This report is compiled from data received at SWO on 01 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0044 0044 0044                       140                           
+ 0101 0101 0102                       100                           
+ 1118 1122 1127  0349 S12E00       Sf 120                           
+ 1550 1550 1550                       140                           
+ 2352 2353 2353                       670                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to major storm levels.  Elevated solar wind speeds
+continue to be over 600 km/s.  Periods of southward Bz combined with
+the elevated wind speed has produce minor storming and one period of
+major storm levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 149  SSN 171  Afr/Ap 034/040   X-ray Background B5.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.7e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.80e+08 e/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 6 5 5 4 3 3 4 3 Planetary 6 5 5 5 4 4 4 3 
+F.  Comments:  None
+

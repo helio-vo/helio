@@ -1,0 +1,48 @@
+From sgas-owner  Mon Mar 25 02:50:18 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA15542
+	for sgas-sendit; Mon, 25 Mar 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 25 Mar 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200203250250.CAA15448@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Mar 25 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 084 Issued at 0245Z on 25 Mar 2002
+This report is compiled from data received at SWO on 24 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1841 1841 1842                       1000                          
+ 1944 1945 1945                       1600                          
+ 2018 2018 2019                       140                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Activity increased to active to
+major storm levels during 24/0200-1200 UTC. Activity decreased to
+active to minor storm levels during 24/1200-1800 UTC, then decreased
+to unsettled levels for the rest of the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 175  SSN 169  Afr/Ap 035/047   X-ray Background B6.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+07   GT 10 MeV 5.7e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 5 6 5 4 4 3 3 Planetary 5 5 6 6 4 5 3 3 
+F.  Comments:  Afr value estimated based upon Boulder USGS
+magnetometer data.
+

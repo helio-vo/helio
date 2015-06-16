@@ -1,0 +1,48 @@
+From sgas-owner  Thu Oct  5 02:50:10 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA27837
+	for sgas-sendit; Thu, 5 Oct 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 5 Oct 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200010050250.CAA27760@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Oct 05 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 279 Issued at 0245Z on 05 Oct 2000
+This report is compiled from data received at SWO on 04 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1335 1336 1337                       180                           
+ 1841 1841 1842                       140                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels with major storm conditions at high
+latitudes.  Storming conditions are the result of the passage of a
+magnetic cloud.  Data from the ACE spacecraft showed a smooth
+rotation of Bz to strong negative values starting at approximately
+04/0000Z.  The Bz remained negative for the rest of the day.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 184  SSN 216  Afr/Ap 025/045   X-ray Background B7.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.6e+05   GT 10 MeV 9.4e+03 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 5 5 5 5 4 4 Planetary 1 3 5 5 6 5 4 5 
+F.  Comments:  None
+

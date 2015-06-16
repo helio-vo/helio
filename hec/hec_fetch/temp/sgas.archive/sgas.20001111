@@ -1,0 +1,56 @@
+From sgas-owner  Sat Nov 11 02:51:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA28591
+	for sgas-sendit; Sat, 11 Nov 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 11 Nov 2000 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200011110250.CAA28456@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Nov 11 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 316 Issued at 0245Z on 11 Nov 2000
+This report is compiled from data received at SWO on 10 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0149 0149 0150                       830                           
+B.  Proton Events:  Event level proton fluxes continued today at the
+greater than 10 MeV and 100 MeV levels.  Flux levels declined
+throughout the period, with 100 MeV currently just above event
+threshold at 1.3 pfu, and the 10 MeV currently (as of 11/0100Z) at
+279 pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels.  The field was initially running at
+unsettled to active, but a strong interplanetary shock passed the
+ACE spacecraft at 10/0604Z and was followed promptly by a sudden
+impulse at 10/0629Z (measuring 67 nT in Boulder), and a period of
+minor to major storm level activity.  This shock most likely is the
+result of the CME associated with the M7 flare of 8 November, and
+the solar wind signatures are consistent with an interpretation that
+the Earth received a glancing, rather than a direct blow from the
+interplanetary disturbance.  The geomagnetic field returned to quiet
+to unsettled conditions at the end of the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 153  SSN 141  Afr/Ap 029/041   X-ray Background C1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.9e+08   GT 10 MeV 9.8e+07 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.70e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 3 5 5 4 3 3 2 Planetary 4 3 6 6 6 4 3 3 
+F.  Comments:  None
+

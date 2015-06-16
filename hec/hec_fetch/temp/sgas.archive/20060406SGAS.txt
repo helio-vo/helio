@@ -1,0 +1,30 @@
+:Product: 0406SGAS.txt
+:Issued: 2006 Apr 06 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 096 Issued at 0245Z on 06 Apr 2006
+This report is compiled from data received at SWO on 05 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0937 0938 0939                       110                           
+ 2341 2342 2342                       2500                          
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to minor storm conditions. Minor storm periods were observed from
+05/0900 to 1200 UTC and 05/1200 to 1500 UTC. Heightened activity was
+due to sustained periods of southward Bz coupled with an increase in
+the total magnetic field.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 099  SSN 088  Afr/Ap 016/029   X-ray Background B1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+05   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W103 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.20e+05 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 3 4 5 5 3 2 2 Planetary 3 4 4 5 5 4 3 2 
+F.  Comments:  None

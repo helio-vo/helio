@@ -1,0 +1,33 @@
+:Product: 20050717SGAS.txt
+:Issued: 2005 Jul 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 198 Issued at 0245Z on 17 Jul 2005
+This report is compiled from data received at SWO on 16 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0327 0338 0345  0790        M1.0                                   
+ 0707 0714 0724  0790        C2.2                   II              
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 14/0245Z, had a peak flux of 134 pfu at 15/0345Z, remains
+in-progress.  The proton flux has been on a gradual decrease and was
+near 10 pfu at the end of the period.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+predominantly quiet to unsettled levels.  An active period occurred
+at the Boulder magnetometer between 16/0600 and 0900Z.  A weak
+transient signature was observed at the ACE spacecraft near 16/0100Z
+with no significant geomagnetic effects resulting.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 076  SSN 016  Afr/Ap 014/009   X-ray Background B1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+07   GT 10 MeV 2.0e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W115 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.90e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 4 1 2 3 3 3 Planetary 2 2 2 1 1 3 3 3 
+F.  Comments:  None

@@ -1,0 +1,49 @@
+From owner-sgas@proton.sel.noaa.gov Sun Sep 27 22:56:54 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA296491413; Sun, 27 Sep 1998 22:56:54 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Mon, 28 Sep 1998 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199809280255.CAA28432@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Sep 28 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 271 ISSUED AT 0245Z ON 28 SEP 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 27 SEP
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0806 0813 0823  8340 N21W48 C2.6  SF 210    410                    
+ 0903 0903 0905                       260                           
+ 1623 1642 1646  8340 N21W52 C5.2  1F 1700   38                     
+ 1745 1745 1746                       140                           
+ 2047 2048 2049                       160                           
+ 2331 2334 2336              B8.9     260                           
+ 2337 2342 2349  8340 N20W58 C6.0  1N 100    37                     
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED WITH ISOLATED ACTIVE PERIODS AT HIGH LATITUDES.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 127  SSN 087  AFR/AP 008/012   X-RAY BACKGROUND B4.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.3E+06   GT 10 MEV 2.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.20E+08 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 2 3 3 2 1 1 PLANETARY 3 2 1 3 4 3 3 2 
+F.  COMMENTS:  NONE.
+
+

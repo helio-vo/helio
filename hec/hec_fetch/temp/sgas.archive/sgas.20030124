@@ -1,0 +1,58 @@
+From sgas-owner@sec.noaa.gov  Fri Jan 24 02:50:09 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h0O2o4m03002
+	for sgas-sendit; Fri, 24 Jan 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 24 Jan 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200301240250.h0O2o2S02912@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jan 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 024 Issued at 0245Z on 24 Jan 2003
+This report is compiled from data received at SWO on 23 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0425 0434 0441  0266 S22E21 C6.0  1n               II              
+ 0442 0448 0456              M1.0                   II              
+ 0826 0826 0828                       110                           
+ 0837 0838 0840                       210                           
+ 0843 0845 0848                       140                           
+ 1228 1243 1249  0266 S22E17 M2.5  1n 3400   76     II              
+ 1442 1442 1524  0263 S10W64       Sf 230                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to minor storm levels.  The onset of coronal hole effects resulted
+in minor storm conditions early in the period.  NASA/ACE instruments
+indicate an increase in solar wind speed with peak values near 700
+km/s.  The Bz component of the interplanetary magnetic field was
+slightly southward early in the period but has since been, on
+average, neutral.  2 MeV electron flux at geo-synchronous orbit
+exceeded event threshold today.
+D.  Stratwarm:  STRATWARM ALERT/THURSDSY/STRATWARM EXISTS
+STILL DISTURBED POLAR VORTEX THROUGHOUT THE STRATOSPHERE.  REVERSED
+TEMPERATURE GRADIENT BETWEEN 60N AND THE POLE FROM 10 TO 3 HPA AND
+AT 1 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 136  SSN 123  Afr/Ap 018/019   X-ray Background B4.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.6e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 4 2 3 3 3 2 3 Planetary 5 4 1 3 3 3 3 3 
+F.  Comments:  None
+

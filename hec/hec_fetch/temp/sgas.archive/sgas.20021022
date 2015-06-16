@@ -1,0 +1,53 @@
+From sgas-owner@sec.noaa.gov  Tue Oct 22 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g9M2o5904104
+	for sgas-sendit; Tue, 22 Oct 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 22 Oct 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210220250.g9M2o2Y03971@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Oct 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 295 Issued at 0245Z on 22 Oct 2002
+This report is compiled from data received at SWO on 21 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0045 0057 0104  0160 S17W30 C3.3  Sf 150                           
+ 0833 0834 0834                       120                           
+ 1346 1347 1350                       250                           
+ 1352 1353 1353                       570                           
+ 1501 1505 1512  0162 N23E28 C1.7  Sf 190                           
+ 1822 1822 1822                       140                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels.  Solar wind speed has continued to gradually
+decrease, ending the period near 525 km/s. The greater than 2 MeV
+electron flux at geo-synchronous orbit reached high levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 183  SSN 139  Afr/Ap 010/011   X-ray Background C1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.6e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.20e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 2 2 3 2 2 Planetary 2 3 3 2 3 3 3 3 
+F.  Comments:  Daily X-Ray Background Flux value is estimated from
+plotted data, pending repair of the automated algorithm.  Repair is
+ in progress.
+SSN is estimated based on SRS data.
+

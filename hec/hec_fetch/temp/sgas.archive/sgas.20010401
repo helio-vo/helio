@@ -1,0 +1,54 @@
+From sgas-owner  Sun Apr  1 02:50:14 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16660
+	for sgas-sendit; Sun, 1 Apr 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 1 Apr 2001 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104010250.CAA16505@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 01 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 091 Issued at 0245Z on 01 Apr 2001
+This report is compiled from data received at SWO on 31 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0002 0005 0013  9393 N19W20       Sf 300                           
+ 0845 0845 0846                       3100                          
+ 1100 1112 1131  9393 N16W34 M2.1  Sf        100                    
+ 1654 1654 1654                       200                           
+ 2048 2049 2051                       540                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+severe storm levels.  A shock passed the ACE spacecraft at 31/0023
+UT and subsequently reached Earth's magnetic field at 31/0051.   The
+storm developed after that time and reached maximum intensity after
+31/0900 UT.  It has continued into the later hours of the UT days.  
+Dynamic auroral displays were reported across the United States with
+especially dynamic displays reported in Arizona, west Texas and
+California.  The solar proton event that began at 29/1000 UT was
+declared over at 01/0600 UT.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 246  SSN 326  Afr/Ap 131/155   X-ray Background C2.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.8e+07   GT 10 MeV 6.9e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 6 7 9 6 6 6 7 5 Planetary 6 8 9 6 7 7 8 6 
+F.  Comments:  None
+

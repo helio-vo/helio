@@ -1,0 +1,70 @@
+ngdc_halpha_flare	NGDC H-alpha Flare List	event	static	1980-01-01	2010-01-31
+gevloc_sxr_flare	GOES SXR flares from SSW Latest Events (gevloc)	event	active	2002-09-26	2014-10-11
+noaa_energetic_event	NOAA Solar Energetic Event List	event	active	1996-01-04	2014-10-12
+goes_sxr_flare	GOES Soft X-ray Flare List	event	active	1975-09-01	2014-10-11
+soho_lasco_cme	SOHO/LASCO CME Event List	event	static	1996-01-11	2013-12-31
+stereo_hi_cme	STEREO/HI CME Event List [R. Harrison]	event	closed	2007-03-31	2008-12-27
+ngdc_ssc	NGDC Storm Sudden Commencement List	event	static	1968-01-02	2011-01-31
+aad_gle	AAD Ground Level Enhancement (GLE) List	event	inactive	1942-02-28	2006-12-13
+goes_proton_event	NOAA GOES Solar Proton Event (SEP) List	event	active	1976-04-30	2014-09-11
+cme_forbush_event	CME-related Forbush Decrease Event List [E. Eroshenko]	event	inactive	1957-08-29	2006-12-14
+ngdc_apstar_storm	NGDC Ap* Major Magnetic Storm	event	static	1932-03-10	2010-08-03
+ngdc_aastar_storm	NGDC AA* Major Magnetic Storm	event	static	1868-03-20	2010-08-03
+cactus_stereoa_cme	CACTus CME Catalogue for STEREO-A/COR2	event	active	2007-03-03	2014-08-17
+cactus_stereoa_flow	CACTus Flow Catalogue for STEREO-A/COR2	event	active	2007-03-07	2014-08-16
+cactus_stereob_flow	CACTus Flow Catalogue for STEREO-B/COR2	event	active	2007-03-01	2014-09-27
+soho_pm_ip_shock	Interplanetary Shock List from SOHO/CELIAS-PM	event	active	1996-09-26	2014-09-12
+stereob_impactplastic_shock	Interplanetary Shocks from STEREO-B/IMPACT-PLASTIC	event	static	2007-01-14	2013-12-30
+hfc_wind_waves	Type III Radio Bursts for WIND/Waves [HELIO HFC]	event	static	1994-11-10	2011-06-08
+wind_typeii_soho_cme	Type II Radio Burst (WIND) and Associated CME (SOHO) List	event	static	1997-04-01	2008-04-26
+cactus_soho_flow	CACTus Flow Catalogue for SOHO/LASCO	event	active	1997-05-06	2014-10-07
+seeds_all	SEEDS (All) CME Catalogues for SOHO and STEREO	event	active	1996-01-31	2014-10-10
+stereoa_impactplastic_sir	Stream Interaction Regions (SIR) from STEREO-A/IMPACT-PLASTIC	event	static	2007-03-04	2013-06-10
+ulysses_swoops_icme	Ulysses/SWOOPS Interplanetary CME (ICME) List [Ebert et al., 2009]	event	closed	1992-03-10	2007-07-04
+stereo_euvi_event	STEREO/EUVI Event List	event	inactive	2006-12-04	2009-07-08
+ulysses_grb_xray_flare	Ulysses/GRB X-ray Flare List [Tranquille et al., 2009]	event	closed	1990-11-11	2003-11-03
+halo_cme_flare_magnetic_storm	SOHO/LASCO Halo CME with Associated Flare and Magnetic Storm List [Gopalswamy et al., 2009]	list	closed	1996-04-29	2005-12-07
+mars_earth_icme	Mars-Earth Interplanetary CME (ICME) List [Falkenberg et al., 2011]	event	closed	2001-04-04	2003-11-20
+wind_ace_sir	Stream Interaction Regions (SIR) from Wind and ACE data [Jian et al., 2011]	event	closed	1995-01-01	2009-12-25
+goes_flare_sep_event	GOES strong flare and SEP list [Klein et al., 2011]	event	closed	1996-07-09	2006-12-14
+timed_see_flare	TIMED/SEE EUV Flare Catalog	event	closed	2002-03-09	2007-06-03
+ulysses_hxr_flare	Ulysses/GRB List of Solar Hard X-Ray Flares [Tranquille et al., 2009]	event	closed	1990-12-23	2003-11-04
+ulysses_hxr_flare_farside	Ulysses/GRB List of Solar Hard X-Ray Flares on the Far-side of the Sun [Tranquille et al., 2009]	event	closed	1991-03-03	2003-11-16
+goes_flare_no_sep_radio_cme	GOES strong flare with radio and CME associations, no SEP [Klein et al., 2011]	event	closed	1996-07-09	2004-10-30
+icme_earth_cycle23	Near-Earth Interplanetary CMEs (ICME) During Solar Cycle 23 [Richardson and Cane, 2010]	event	closed	1996-05-27	2009-12-19
+cme_inner_heliosphere	CMEs in the Inner Heliosphere [Manoharen, 2006]	event	closed	1998-10-15	2004-07-25
+solar_sep_event	Study of SEP Events of 1997-2006 [Cane et al., 2010]	event	closed	1997-04-01	2006-12-14
+gradual_sep	Gradual SEP events [Barnard and Lockwood, 2011]	event	closed	1968-11-18	2006-12-14
+msl_rad_sep	MSL/RAD SEP events during cruise to Mars [Wimmer-Schweingruber et al., 2013]	event	closed	2012-01-23	2012-05-17
+cactus_soho_cme	CACTus CME Catalogue for SOHO/LASCO	event	active	1997-05-17	2014-10-09
+stereoa_impactplastic_shock	Interplanetary Shocks from STEREO-A/IMPACT-PLASTIC	event	static	2007-01-14	2013-06-27
+stereob_impactplastic_icme	Interplanetary CME (ICME) from STEREO-B/IMPACT-PLASTIC	event	static	2006-12-14	2013-12-31
+mgs_er_sep	MGS/ER SEP events at Mars, 1999-2006 [Delory et al., 2012]	event	closed	2000-05-05	2005-08-23
+wind_wave_typeii	Type II shock from WIND/WAVES [Cremades et al., 2007]	event	closed	1997-09-21	2004-12-05
+stereoa_impactplastic_icme	Interplanetary CME (ICME) from STEREO-A/IMPACT-PLASTIC	event	static	2006-12-14	2013-06-27
+wind_stereo_ii_iv_radioburst	Type II and IV Radio Burst Candidate List for WIND and STEREO	event	static	1994-12-23	2009-05-05
+seeds_sta	SEEDS CME Catalogue for STEREO-A/COR2	event	active	2007-03-05	2014-09-26
+nmdb_gle_list	NMDB Ground Level Enhancement (GLE) List	event	inactive	1942-02-28	2006-12-13
+stereob_let_sir	Stream Interaction Regions (SIR) from STEREO-B/LET	event	static	2007-01-05	2011-05-20
+stereoa_let_sep	SEP Events from STEREO-A/LET	event	static	2007-01-11	2011-06-08
+stereoa_let_sir	Stream Interaction Regions (SIR) from STEREO-A/LET	event	static	2007-01-05	2011-05-22
+rhessi_hxr_flare	RHESSI Hard X-ray Flare List	event	active	2002-02-12	2014-09-30
+seeds_soho	SEEDS CME Catalogue for SOHO/LASCO	event	active	1996-01-31	2014-10-10
+stereob_let_sep	SEP Events from STEREO-B/LET	event	static	2007-01-11	2011-06-17
+kso_halpha_flare	Kanzelhoehe Solar Observatory H-alpha Flare List	event	active	1984-01-02	2014-10-09
+stereo_hi_sw_transient	Solar Wind Transients (SIR, ICME) from STEREO/HI, derived from J-Plots	event	static	2007-03-25	2012-08-10
+seeds_stb	SEEDS CME Catalogue for STEREO-B/COR2	event	active	2007-03-05	2014-09-26
+stereob_impactplastic_sir	Stream Interaction Regions (SIR) from STEREO-B/IMPACT-PLASTIC	event	static	2007-03-04	2013-12-22
+cactus_all	CACTus (All) CME and Flow Catalogues for SOHO and STEREO	event	active	1997-05-06	2014-10-09
+yohkoh_hxr_flare	Yohkoh/HXT Hard X-ray Flare List [Sato et al., 2006; supplemental]	event	closed	1991-10-01	2001-12-14
+soho_eit_wave_transient	SOHO/EIT Wave Transient List [B. J. Thompson and D. C. Myers, 2009]	list	closed	1997-03-25	1998-06-16
+wind_mfi_mag_cloud	WIND/MFI Magnetic Cloud List	event	inactive	1995-02-08	2007-11-19
+istp_sw_event	ISTP Solar Wind Candidate Event List	event	closed	1986-07-01	2001-03-05
+wind_mfi_ip_shock	Interplanetary Shock List from WIND/MFI	event	inactive	1994-12-05	1998-06-25
+tsrs_solar_radio_event	Trieste Solar Radio System (TSRS) Solar Radio Event List	event	closed	2000-07-12	2006-12-05
+stereoa_het_sep	SEP Events from STEREO-A/HET	event	static	2006-12-06	2014-03-12
+stereob_het_sep	SEP Events from STEREO-B/HET	event	static	2006-12-06	2014-02-25
+cactus_stereob_cme	CACTus CME Catalogue for STEREO-B/COR2	event	active	2007-03-18	2014-09-27
+hfc_level3_wind_waves	Type III Radio Bursts for WIND/Waves [HELIO HFC, Lev. 3]	event	static	1996-01-11	2011-12-31
+noaa_daily_solar_data	NOAA Daily Solar Data List	index	active	1994-01-01	2014-10-12
+noaa_active_region_summary	NOAA/USAF Solar Active Region Summary List	index	active	1996-01-02	2014-10-13

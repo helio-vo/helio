@@ -1,0 +1,58 @@
+From sgas-owner@sec.noaa.gov  Sat May 17 02:50:12 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h4H2o4S04313
+	for sgas-sendit; Sat, 17 May 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 17 May 2003 02:50:01 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200305170250.h4H2o1904204@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 May 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 137 Issued at 0245Z on 17 May 2003
+This report is compiled from data received at SWO on 16 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled level.  Solar wind velocity continues to decrease as the
+previous coronal hole rotates across the west limb.  The greater
+than 2 MeV electron flux was at high levels today.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 103  SSN 097  Afr/Ap 009/009   X-ray Background B1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.7e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W92 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.50e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 2 2 2 3 2 2 Planetary 3 2 2 2 2 2 3 3 
+F.  Comments:  The GOES 10 energetic proton detectors are showing
+intermittent, high noise levels in the higher energy proton channels
+(greater than about 80 MeV). This problem was first noticed in data
+taken April 26, 2003. To ensure continued operational monitoring of
+important energetic particle data, it is necessary to reassign
+primary/secondary designations for the GOES Space Environment
+Monitor (SEM) detectors. As of 1500 UT on May 15, GOES-8 became the
+primary satellite for protons. GOES 12 will be the primary satellite
+for magnetometer, X-ray, and electron measurements. GOES 10 will be
+the secondary satellite for all SEM sensors - magnetometer, X-ray
+sensor, and energetic particle sensor. This short-term solution
+(approximately 2 - 3 months) will be in place until we define and
+implement a permanent fix. A more detailed explanation can be found
+at: http://www.sec.noaa.gov/GOES.html.
+

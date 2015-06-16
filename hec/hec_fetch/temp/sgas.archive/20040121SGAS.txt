@@ -1,0 +1,33 @@
+:Product: 20040121SGAS.txt
+:Issued: 2004 Jan 21 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 021 Issued at 0245Z on 21 Jan 2004
+This report is compiled from data received at SWO on 20 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0042 0042 0044                       280                           
+ 0057 0102 0108                       190                           
+ 0708 0708 0708                       210                           
+ 0729 0743 0747  0540 S16W12 M6.1  2n 4500   150    II              
+ 1954 2002 2008  0540 S15W03 C8.2  Sf 630    77     II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. Solar wind speed is in gradual decline as a large
+transequatorial coronal hole rotates out of a geoeffective position.
+Solar wind speed decreased to near 500 km/s, but periods of
+southward Bz generated occasional active levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 129  SSN 094  Afr/Ap 017/016   X-ray Background B3.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+06   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W102 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 3 4 4 2 3 Planetary 3 3 3 2 4 4 3 3 
+F.  Comments:  None

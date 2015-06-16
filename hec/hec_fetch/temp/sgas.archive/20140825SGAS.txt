@@ -1,0 +1,32 @@
+:Product: 0825SGAS.txt
+:Issued: 2014 Aug 25 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 237 Issued at 0245Z on 25 Aug 2014
+This report is compiled from data received at SWO on 24 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0008 0016 0027  2146 N08W20 C1.6  Sf 140           II              
+ 0049 0052 0058  2150 S16E60 B7.4  Sf 140                           
+ 0121      0350                                        IV           
+ 0137 0137 0138                       120                           
+ 0146 0146 0146                       100                           
+ 0453 0502 0511  2149 N12E45 C5.5  1n 180                           
+ 0730 0736 0756  2146 N16W22       Sf 100                           
+ 1200 1217 1225  2151 S07E75 M5.9  2b 28     410    II              
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 141  SSN 128  Afr/Ap 005/005   X-ray Background B5.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.9e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 1 1 2 1 1 1 1 Planetary 1 0 1 1 1 2 1 2 
+F.  Comments:  None.

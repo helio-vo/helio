@@ -1,0 +1,135 @@
+id,flag,spacecraft,time_start,time_mag_obstacle_start,time_end,pt_max,pt_max_sheath,b_max,b_max_sheath,v_max,v_max_sheath,delta_v,groups,comment
+2||STEREO-B|2006-12-14 14:12:00|2006-12-14 23:04:00|2006-12-15 14:08:00|||18|20|||||plasma data data gap, like Group 3 event
+2||STEREO-B|2007-01-14 12:24:00|2007-01-14 13:59:00|2007-01-15 07:37:00|||14.8||||||plasma data data gap, like Group 1 event
+4||STEREO-B|2007-05-22 04:20:00|2007-05-22 04:20:00|2007-05-22 22:00:00|135||17.5||480||-60|1|STEREO B: higher Ptmax, shorter. At both A & B, followed by fast stream
+7||STEREO-B|2007-10-23 10:35:00|2007-10-23 16:50:00|2007-10-24 00:07:00|50|125|10.3|10.6|395|420|-35|2|not nice B rotations, slow, low beta, followed by a stream interaction region (SIR)
+8|*|STEREO-B|2007-11-19 22:50:00|2007-11-19 22:50:00|2007-11-20 06:56:00|225||15.2||485||-80|-1|low beta, some B rotations, but not coherent, embedded within an SIR, near a HCS, no prominent BDE, the forward shock occurred 9 hours earlier may be attributed by the combined force of the ICME and SIR
+9||STEREO-B|2007-12-30 02:00:00|2007-12-30 07:00:00|2008-01-01 05:50:00|120||12||365|378|-85|1|fuzzy plasma data, slow, nice field rotations, left-handed flux rope
+7||STEREO-B|2008-02-05 20:37:00|2008-02-05 20:37:00|2008-02-07 10:50:00|100||13||385||-75|-1|Pt irregular, B not quiet, but there are BDE and field rotations, has candidate CME, near HCS
+8||STEREO-B|2008-03-06 12:35:00|2008-03-06 12:35:00|2008-03-06 17:03:00|233||17||400||0|2|Vp almost constant, beta ~ 0.6, no BDE, followed by a fast stream
+9||STEREO-B|2008-04-29 14:10:00|2008-04-29 15:34:00|2008-04-30 07:00:00|220||13|14|490||90|1|BDE for the later part, strong forward shock, Vp almost remains constant, HCS at the leading edge
+10||STEREO-B|2008-05-15 23:00:00|2008-05-15 23:00:00|2008-05-16 18:00:00|13||3.7||500||-110|-1|no Pt increase, extremely low Pt, nice field rotation, with BDE
+11||STEREO-B|2008-06-06 15:36:00|2008-06-06 22:15:00|2008-06-07 12:32:00|120|200|14.8||430||-52|2|followed by a faster speed stream, Pt profile irregular, has a concave, very low beta
+12||STEREO-B|2008-08-15 12:00:00|2008-08-15 12:00:00|2008-08-15 22:00:00|60||9.2||365||0|2|nice flux rope, very slow solar wind, followed by a fast stream, near HCS
+13||STEREO-B|2008-10-19 01:02:00|2008-10-19 01:02:00|2008-10-20 11:32:00|73||9||372||-87|2|very slow, 8-hr plasma data gap at the leading part, nice field rotation, BDE, no good CME candidate
+14||STEREO-B|2008-12-31 02:00:00|2008-12-31 02:00:00|2009-01-01 07:20:00|60||9||460||-90|-1|nice MC, clear BDE, big data gap of Np, Tp, and Pt
+10||STEREO-B|2009-01-13 05:22:00|2009-01-13 05:22:00|2009-01-13 22:00:00|70||11.5||400||-40|-1|good CME candidate from STA SCCHI, big data gap of Np, Tp, and Pt
+11||STEREO-B|2009-06-19 00:24:00|2009-06-19 07:40:00|2009-06-20 10:00:00|60|120|11.3||380||-115|2|relatively large-scale rotation of B in the sheath region. The region of 170 07:40 - 11:30 has a stronger B, possibly due to another CME. 2 CME candidates seen by STA on 6/13 and 6/14
+12||STEREO-B|2009-07-16 17:08:00|2009-07-16 17:08:00|2009-07-17 17:00:00|120||9.4||330||-50|2|BDE for part of 07/16, Pt is higher at the trailing part due to the compression of the upcoming faster solar wind. STA SECCHI detected CME candidate on 07/13, which is unlikely because the solar wind is slow
+13||STEREO-B|2009-07-31 02:16:00|2009-07-31 02:16:00|2009-07-31 10:54:00|58||10.2||460||-80|2|short, no clear CME candidate, low Tp and beta, the direction of suprathermal electrons is different from ambient
+14||STEREO-B|2009-08-05 22:35:00|2009-08-06 04:39:00|2009-08-07 05:24:00|100|130|13.8||350||125|2|ambiguous, bounded by a pair of f-r shocks, like hybrid of SIR and ICME. large-scale field rotations and low beta, but the rotations are not smooth, no BDE, no CME candidate seen by STA
+15||STEREO-B|2009-08-25 09:40:00|2009-08-25 09:40:00|2009-08-26 13:27:00|75||11||360||-50|1|BDE for a part of the ICME, no CME candidate from STA
+16|*|STEREO-B|2009-08-30 02:50:00|2009-08-30 16:20:00|2009-08-31 05:40:00|75||12||395||95|-1|BDE, 2 CME candidates seen by STA COR2 on 8/25 10:39 and 8/26 6:54, a shock within the magnetic obstacle, likely due to the following faster wind
+17||STEREO-B|2009-09-09 17:17:00|2009-09-09 17:17:00|2009-09-11 04:13:00|80||8.5||340||-50|2|BDE, CME candidate seen by STA COR2 on 9/5 at 10:54, not very low Tp, solar wind speed gradually decreases, field rotations are not very smooth and a little noisy
+18||STEREO-B|2009-09-28 03:10:00|2009-09-28 03:10:00|2009-09-28 12:15:00|26||6.6||330||0|1|near HCS, low Tp and Np, short, probably due to small ejection or bubble near the streamer belt, possible candidate seen at STA
+19||STEREO-B|2009-10-02 15:42:00|2009-10-03 05:48:00|2009-10-04 04:32:00|106|140|13.2||360||-80|1|nice field rotations, no BDE, possible CME candidate - 09/27 3:54 seen by STA
+20||STEREO-B|2009-11-10 18:48:00|2009-11-10 18:48:00|2009-11-11 11:00:00|60||11.5||370||-45|1|low beta, there are CME candidates, plasma parameters do not vary smoothly, and it is followed by an about 7-hour field rotation region
+21||STEREO-B|2009-11-27 12:36:00|2009-11-27 12:36:00|2009-11-27 20:44:00|100||10.5||345||0|2|beta < 1, there are CME candidates on Nov. 21 and 22. Field rotations are not nice, solar wind speed is about constant, and no BDE. ICME boundary layer at the two sides
+22||STEREO-B|2009-12-29 17:15:00|2009-12-30 01:50:00|2009-12-30 09:20:00|75||12||355|370|-55|1|slow, well-defined flux rope, but no BDE until about 364 12/30 08:00
+14||STEREO-B|2010-01-20 20:20:00|2010-01-20 20:20:00|2010-01-21 22:48:00|36||7||350||-50|2|not smooth field rotation, the boundary layer ahead of the ICME has mag. reconnection features, the plasma parameters and field are very different during the first 6 hours from other time. BDE in the first 4 hours. Webb et al. (2014) concludes the CME on 14-15 Jan. is the candidate
+15||STEREO-B|2010-02-14 07:50:00|2010-02-14 07:50:00|2010-02-15 09:34:00|20||6.6||475||-145|2|very weak, very low Np ~ 0.1/cc possibly partly due to rarefraction, low Tp and beta, quiet B, BDE, SOHO observed CME candidate
+16||STEREO-B|2010-04-13 22:11:00|2010-04-13 22:11:00|2010-04-14 09:46:00|100||14||440||0|1|low Tp and beta, nice Bt and Bn rotations, no BDE
+17||STEREO-B|2010-06-07 04:08:00|2010-06-07 22:21:00|2010-06-08 12:30:00|87|120|11.5||390||-45|3|Vp varies irregularly; the sheath region is long; there are ICME boundary layers
+18||STEREO-B|2010-06-15 04:04:00|2010-06-15 04:04:00|2010-06-16 14:00:00|27||5.8||470||-138|1|BDE for most of the duration, very weak
+19||STEREO-B|2010-06-23 08:00:00|2010-06-23 08:00:00|2010-06-25 03:30:00|60||7.6||550||-160|-1|BDE, Pt is weak and irregular, field rotations, B is noisy so it is an ambiguous event, followed by a fast stream, possible CME candidates
+20||STEREO-B|2010-08-03 05:00:00|2010-08-03 05:00:00|2010-08-03 09:50:00|460||33.5||760||-180|2|low beta but high Tp, B rotations, BDE, takes the place of SIR
+21||STEREO-B|2010-08-03 14:20:00|2010-08-03 14:20:00|2010-08-04 07:09:00|320||13||740||-240|3|low beta, Vp does not decrease monotonically, high suprathermal electron flux, BDE after the ICME, the two ICMEs are separated by about 4 hours, possible CME candidates seen by SOHO
+22|*|STEREO-B|2010-09-16 10:50:00|2010-09-16 10:50:00|2010-09-17 07:12:00|75||12.6||550||210|2|embedded within a SIR, BDE before the ICME, high flux of suprathermal electrons within the ICME, not nice field rotations, but clear low beta and higher B than ambient, possible CME candidates seen by SOHO
+23||STEREO-B|2010-09-19 23:22:00|2010-09-19 23:22:00|2010-09-20 06:45:00|16||5.4||520||-50|-1|low Np and beta, quiet B, BDE, very weak Pt though
+24||STEREO-B|2010-10-30 17:30:00|2010-10-30 17:30:00|2010-10-31 07:20:00|60||10.2||410||-45|2|slow and weak, low beta, B is a little noisy
+25||STEREO-B|2010-11-08 02:46:00|2010-11-08 02:46:00|2010-11-09 09:06:00|140||17.5||430||65|2|embedded within a SIR, nice field rotations, DG before it, partial BDE
+26||STEREO-B|2010-11-19 20:26:00|2010-11-20 06:34:00|2010-11-21 09:10:00|60||12||490|500|-135|1|low beta, nice B rotations, BDE, followed by a fast stream
+27||STEREO-B|2010-12-02 02:40:00|2010-12-02 09:55:00|2010-12-03 11:11:00|44|48|7.5|7.8|320||-55|2|weak and leading a SIR, BDE
+28||STEREO-B|2010-12-16 20:00:00|2010-12-17 01:50:00|2010-12-18 10:45:00|52|61|10||315||-105|2|weak BDE, at HCS
+29||STEREO-B|2010-12-25 20:20:00|2010-12-25 20:20:00|2010-12-27 06:00:00|65||11.7||280||0|2|ahead of a HCS and SIR
+1||STEREO-B|2011-01-17 15:46:00|2011-01-18 00:00:00|2011-01-18 09:38:00|53|100|9.5|10|375|430|-65|3|B field has somewhat rotations, but not smooth. beta is not very low, CME candidate: 1/13 detected by SOHO
+2||STEREO-B|2011-01-18 12:50:00|2011-01-18 12:50:00|2011-01-18 22:00:00|32||7.6||340||0|2|low beta, B field has some rotations but not complete, close to the previous ICME, CME candidate seen by SOHO not STA: 1/13 two (one for the previous ICME), or 1/14
+3||STEREO-B|2011-02-26 08:28:00|2011-02-26 16:00:00|2011-02-27 23:00:00|90|220|14.6|15.5|760||-240|3|BDE, very low beta, low Tp, fast, V declining, B is high at the beginning of the flux rope part, a low B region in the sheath, CME candidate: 2/24 detected by SOHO, very fast
+4||STEREO-B|2011-03-07 08:31:00|2011-03-07 19:10:00|2011-03-08 17:21:00|190|215|17.6|18.5|455||-65|3|BDE, not smooth B rotations, two f.s., B is high in the beginning part of the flux rope, CME candidate on 3/3 seen by SOHO
+5||STEREO-B|2011-03-11 05:23:00|2011-03-11 15:18:00|2011-03-12 12:00:00|105|170|13.5||490||-125|2|BDE, CME candidate on 3/7 seen by SOHO and STA COR2, B is low in the trailing part of the sheath region
+6|*|STEREO-B|2011-03-20 15:46:00|2011-03-21 10:00:00|2011-03-22 03:00:00|70|110|12.7||490||0|-1|likely a combination of SIR+ICME, because there was SIR in previous CRs. BDE and low beta last much longer than the event. The CME candidate on 3/17 seen by SOHO. A sharp field increase at the center of the flux rope part
+7||STEREO-B|2011-03-28 08:53:00|2011-03-28 17:48:00|2011-03-29 18:48:00|100|380|13.6|19.2|690||-190|3|low beta, BDE, front edge is not a shock because the B decreased in a few min. CME candidate on 3/25-26 seen by SOHO
+8||STEREO-B|2011-03-31 23:38:00|2011-04-01 04:00:00|2011-04-01 13:50:00|250|420|22|24|580|695|-95|2|BDE, CME candidate on 3/29 seen by SOHO and STB, Tp is high though. Field disturbance between this one and the next ICME
+9||STEREO-B|2011-04-01 21:00:00|2011-04-01 21:00:00|2011-04-02 10:00:00|80||13||540||-110|2|no coherent rotation in Br, very low Tp and beta, BDE, CME candidate on 3/30 seen by SOHO
+10||STEREO-B|2011-04-04 17:00:00|2011-04-04 17:00:00|2011-04-05 15:07:00|64||8.2||420||-88|1|nice B rotations, a bump in Np and Pt, beta ~1, BDE, no good CME candidate
+11||STEREO-B|2011-04-12 03:09:00|2011-04-12 03:09:00|2011-04-12 23:18:00|43||9.1||430||-93|2|between two SIRs, beta 0.1-1, Bn ~ 0 in the most part, CME candidate on 4/7 seen by SOHO
+12||STEREO-B|2011-05-04 19:06:00|2011-05-04 19:06:00|2011-05-05 08:25:00|190||16||440||0|-1|low beta, not BDE, short, CME candidate on 4/30 or 5/1 seen by SOHO, Vp irregualr variation
+13||STEREO-B|2011-06-01 07:25:00|2011-06-01 17:35:00|2011-06-02 18:00:00|320|540|27.5||510|525|-130|3|low beta, BDE, B rotations are not coherent, CME candidate on 5/29 seen by SOHO C2
+14||STEREO-B|2011-06-17 07:40:00|2011-06-17 07:40:00|2011-06-18 04:00:00|235||19.2||600||0|2|low beta, partial BDE, closely following a SIR, CME candidate on 6/14 seen by SOHO
+15|* ?|STEREO-B|2011-06-26 18:10:00|2011-06-26 18:10:00|2011-06-26 23:15:00|110||14.3||420||40|2|embedded within a SIR, no BDE, Tp low for the first half, no clear CME candidate
+16||STEREO-B|2011-06-30 13:18:00|2011-06-30 13:18:00|2011-07-01 00:25:00|65||9.5||340||0|2|short, low beta, BDE, no clear CME candidate (Nariaki Nitta suggested it might be related to a very slow CME on 6/23)
+17||STEREO-B|2011-07-23 07:05:00|2011-07-23 07:05:00|2011-07-23 12:00:00|37||8.4||290||0|1|short, low beta, no BDE, possible CME candidate on 7/18 seen by SOHO
+18||STEREO-B|2011-08-20 21:51:00|2011-08-20 21:51:00|2011-08-21 21:20:00|90||12.8||410||-83|2|low beta, some BDE, suprathermal electron flux is enhanced, B rotations are not smooth, CME candidate on 8/16 by SOHO COR2 difference movie in SEEDS
+19||STEREO-B|2011-09-21 06:14:00|2011-09-21 06:14:00|2011-09-21 11:40:00|70||12.5||450||0|3|beta ~ 0.1, high B, embedded within a SIR, CME candidate on 9/16 by SOHO C2
+20||STEREO-B|2011-09-24 03:58:00|2011-09-24 05:00:00|2011-09-24 09:06:00|340||23.3||700|800|-170|2|beta is relatively low, Tp is not low, B has multiple depletions, suprathermal electron flux is high, BDE, possible CME candidate on 9/20 seen by SOHO C2
+21||STEREO-B|2011-09-24 09:06:00|2011-09-24 12:36:00|2011-09-24 19:28:00|420|520|28|33|820||0|3|low beta, 267 3:58 is not a f.s., suprathermal electron flux is high, BDE, CME candidate on 9/22 seen by SOHO C2 - a very fast CME
+22||STEREO-B|2011-10-03 22:23:00|2011-10-04 02:00:00|2011-10-04 12:40:00|350|815|26|33|720||-80|1|nice MC, BDE, CME candidate on late 10/1, a much weaker shock at 10/3 11:48.25
+23||STEREO-B|2011-10-07 11:26:00|2011-10-07 11:26:00|2011-10-08 06:28:00|85||11||525||-125|3|BDE, Tp is not low, possible CME candidate on early 10/2
+24||STEREO-B|2011-10-18 19:20:00|2011-10-18 19:20:00|2011-10-19 08:00:00|185||18||430||-73|1|short, BDE, CME candidate on 10/14, followed by some field rotations
+25||STEREO-B|2011-10-29 10:00:00|2011-10-29 17:00:00|2011-10-31 13:23:00|80|170|12.5||500||-160|1|BDE, CME candidate on 10/25 (very nice SOHO movie), a r.s. occurred half a day after the trailing edge, on 11/1 2:19:55 because of a faster solar wind
+26||STEREO-B|2011-11-06 05:10:00|2011-11-06 22:50:00|2011-11-09 04:00:00|50|140|10|17|635|720|-235|1|low Tp and beta, B and Pt maxima are weak, nice BDE, CME candidate on early 11/4, which is a very fast one
+27||STEREO-B|2011-11-20 13:38:00|2011-11-20 22:40:00|2011-11-22 01:10:00|190|200|16.5||600||-105|1|BDE, CME candidate on 11/17. Np, Tp, and B are variable in the obstacle, a current sheet is embedded, delta V is the speed difference between the max speed in the front part and the minimum speed in the trailing part
+28||STEREO-B|2011-12-02 16:03:00|2011-12-02 16:03:00|2011-12-03 11:00:00|45||8.4||580||-148|3|BDE, CME candidate on 11/28
+29|*|STEREO-B|2011-12-26 23:50:00|2011-12-27 07:00:00|2011-12-28 11:00:00|170||16.7||410||95|1|partial BDE, low beta, a current sheet and a big B dip between two flux ropes, combined with a SIR, V increases, CME candidate on 12/23
+1||STEREO-B|2012-01-10 12:22:00|2012-01-11 17:43:00|2012-01-12 13:42:00|100||6.5|11.5|490||-125|3|BDE, V decreases and B is relatively quiet in the trailing part which is not a nice obstacle. Two pile-ups of Pt in the sheath part. Beta is not low. The start time of the magnetic obstacle coincides with a HCS. Boundaries are picked based on plasma data. CME candidate is seen by STB COR2 on 1/7
+2||STEREO-B|2012-01-16 09:49:00|2012-01-17 07:30:00|2012-01-18 09:00:00|60|160|11||400|425|-85|2|long sheath, B rotation, low beta and BDE in the obstacle, slow, CME candidate is seen by STB COR2 on 1/12
+3||STEREO-B|2012-01-19 01:46:00|2012-01-19 01:46:00|2012-01-19 16:43:00|170||17||530||-145|3|BDE, beta is ~1, B rotations are not nice, No appropriate CME candidate
+4||STEREO-B|2012-01-30 11:07:00|2012-01-30 11:07:00|2012-01-31 04:51:00|85||7.5||480||-120|2|no nice flux rope, beta is not low, BDE, CME candidate on 1/27
+5|*|STEREO-B|2012-03-08 13:36:00|2012-03-09 01:00:00|2012-03-09 11:30:00|20|700|5.8|35|760|820|-80|3|hybrid of ICME and fast stream, strong shock, low beta, BDE, coherent magnetic field rotations, CME candidate seen by STB COR2 and SOHO on 3/5
+6||STEREO-B|2012-03-10 21:17:00|2012-03-11 01:34:00|2012-03-12 21:51:00|60||8.6||720||-290|2|low beta, BDE extends beyond the ICME, B and Pt are higher in the trailing part, Np and Tp vary within the ICME, CME candidate seen by STB COR1 and COR2 on 3/7
+7||STEREO-B|2012-03-26 16:30:00|2012-03-26 17:45:00|2012-03-28 03:52:00|290||16.5||550||-145|3|BDE, not nice B rotations, CME candidate on 3/24
+8||STEREO-B|2012-03-28 21:37:00|2012-03-28 23:10:00|2012-03-29 19:40:00|600||36||690||-215|3|BDE, B enhancement in the leading part, quiet B and B rotations, Tp and beta are not low, CME candidate on 3/25
+9||STEREO-B|2012-03-29 23:25:00|2012-03-30 01:37:00|2012-03-30 08:30:00|100||14.6||750||270|1|BDE lasts beyond the ICME, CME candidate on late 3/26
+10||STEREO-B|2012-04-17 03:36:00|2012-04-17 09:40:00|2012-04-18 09:05:00|45|90|8.5|12|700||-180|3|BDE, low beta, B rotations are not nice, no clear CME candidate
+11|*|STEREO-B|2012-05-08 14:55:00|2012-05-08 18:35:00|2012-05-09 10:16:00|320|470|28||510||-150|3|BDE, low Np and beta, Tp is high, relatively nice B rotations, Vp declining is not gradual, probably a combination of SIR and ICME
+12||STEREO-B|2012-05-09 13:30:00|2012-05-09 13:30:00|2012-05-10 10:40:00|60||8||510||-164|2|BDE, low Tp and beta, closely following the preceeding ICME by 3 hrs apart
+13|*|STEREO-B|2012-05-12 23:08:00|2012-05-13 03:00:00|2012-05-14 04:30:00|110||13.8||480||0|3|BDE, low beta, B is not quiet, B rotates over large scale, a HCS nearby, a combination of SIR and ICME
+14||STEREO-B|2012-06-11 21:06:00|2012-06-12 03:00:00|2012-06-12 19:21:00|180||15||465||0|3|strong leading shock, BDE, Tp and beta are not low
+15||STEREO-B|2012-06-18 08:00:00|2012-06-18 23:47:00|2012-06-20 10:00:00|105|150|11.3||525||-135|2|BDE, low Tp and beta, a HCS and SIR follow this ICME
+16||STEREO-B|2012-06-28 08:38:00|2012-06-28 08:38:00|2012-06-30 02:20:00|36||6||605||-215|2|B rotates over large scale, low beta, BDE, B and Pt are weak, HCS after the ICME
+17||STEREO-B|2012-07-04 06:56:00|2012-07-04 11:40:00|2012-07-05 12:50:00|450|740|33|36|720|730|-200|1|nice ICME
+18||STEREO-B|2012-07-23 21:21:00|2012-07-24 20:00:00|2012-07-25 12:00:00|80|150|12.5||350|400|0|2|BDE, low Tp and beta, halo CME candidate seen on 7/19 by STB, a HCS after that
+19||STEREO-B|2012-07-28 14:59:00|2012-07-28 17:08:00|2012-07-29 01:00:00|82|93|11.1||460||0|-1|Pt is low in the flux-rope-like structure, BDE, low beta
+20||STEREO-B|2012-08-24 22:23:00|2012-08-24 22:23:00|2012-08-25 02:24:00|150||17.3||400||-85|2|Vp declining, low Tp and beta, enhanced suprathermal electron flux, embedded within a transient structure
+21||STEREO-B|2012-08-29 06:35:00|2012-08-29 06:35:00|2012-08-30 06:36:00|85||10||430||-105|3|BDE, Tp and beta are not low
+22|*|STEREO-B|2012-09-03 07:11:00|2012-09-04 05:30:00|2012-09-05 20:58:00|65|750|8|20|600||0|3|ICME+SIR, BDE, Tp and beta are not low, HCS on 9/2
+23||STEREO-B|2012-09-23 08:44:00|2012-09-23 23:38:00|2012-09-24 09:46:00|120|600|15|30|400|500|0|3|high B and Pt in the sheath, low beta and partial BDE in the obstacle part, CME candidate seen by ST A/B and SOHO on 9/20
+24||STEREO-B|2012-09-25 16:26:00|2012-09-26 03:21:00|2012-09-28 16:55:00|70|240|13.2|21|710|740|-360|2|nice event, BDE, low beta, 2 rotations in Bn, before HCS
+25||STEREO-B|2012-10-12 00:13:00|2012-10-12 00:13:00|2012-10-13 12:27:00|130||10.7||465||-125|3|short-duration B rotations after B compression, beta is not low, suprathermal electron flux is high in the leading part and then BDE, partial BDE on 10/14-15 too
+26||STEREO-B|2012-10-17 06:57:00|2012-10-17 11:20:00|2012-10-18 21:15:00|112|122|14.4|16|365||-85|1|very slow, low Tp and beta, B is high in the first half part, BDE, large-scale B rotations which are not very smooth
+27||STEREO-B|2012-10-25 19:10:00|2012-10-26 04:00:00|2012-10-27 10:00:00|160|400|13|19.5|390|435|0|2|12-hr DG after the ICME and then a fast stream, low beta, nice B rotations and BDE
+28||STEREO-B|2012-11-04 01:22:00|2012-11-04 01:22:00|2012-11-05 18:00:00|28.5||6.8||355||-70|1|BDE, slow, beta~1, very weak
+29||STEREO-B|2012-11-11 13:36:00|2012-11-11 13:36:00|2012-11-12 16:10:00|210||16||512||-112|3|BDE lasted 1 day beyond the ICME, prominent plasma siangures of shock but clear current sheet in the leading edge
+30||STEREO-B|2012-11-19 09:50:00|2012-11-19 12:30:00|2012-11-20 00:26:00|300|650|22||465|505|-72|1|flux of suprathermal electron increased in the leading part, then no clear BDE; field depletion in the sheath region, odd field foldings in the flux rope
+31||STEREO-B|2012-11-20 02:00:00|2012-11-20 02:00:00|2012-11-20 12:40:00|180||18||440||-120|2|BDE, closely following an ICME, low beta, Bt and Bn dominate
+32||STEREO-B|2012-11-28 03:36:00|2012-11-28 07:37:00|2012-11-29 07:00:00|35||8||347||-57|2|very slow, low beta, BDE, B rotations are not smooth, a current sheet at 333 13:30
+33|*|STEREO-B|2012-12-25 00:37:00|2012-12-25 06:33:00|2012-12-25 22:12:00|150||13.7||402||-52|2|not nice flux rope, a current sheet in the center. The event is followed by a faster wind, compression of B and Pt; CME candidate on 12/20 seen by ST A and B, SOHO, partial BDE, suprathermal electron flux increases significantly in the leading part
+1||STEREO-B|2013-02-08 08:20:00||2013-02-08 15:28:00|64||10.7||320||35|-1|diffusive PAD, B rotation and increase, 2 days ahead of HCS, maybe a part of CME, candidate on 2/3 observed by SOHO, ST A and B, low beta lasted about 1 day beyond the event
+2||STEREO-B|2013-02-18 03:06:00|2013-02-18 08:24:00|2013-02-19 18:00:00|350||20|22|470||145|3|diffusive PAD and then BDE, V increases and then remained at about 450 km/s, fall where the SIR should be, CME candidate on 2/15 seen by STA, not very low Tp
+3||STEREO-B|2013-03-07 12:23:00|2013-03-08 08:00:00|2013-03-10 08:45:00|80|850|11|17.3|620|610|0|3|following a SIR, BDE, V first declines then increases, very low beta, fuzzy plasma data in the seond half of the event
+4||STEREO-B|2013-03-24 05:20:00||2013-03-24 22:00:00|160||18||460||0|-1|low beta, enhanced B, no montonic V change, no BDE, possible CME candidate seen by STA and SOHO on 3/21, but clearly by STB, front edge is not f.s., current sheet at the rear edge
+5|*|STEREO-B|2013-04-09 23:40:00||2013-04-10 14:00:00|54||10.5||355||0|2|BDE, low Tp and beta, no nice B rotations, embedded within a SIR
+6||STEREO-B|2013-04-27 01:09:00|2013-04-27 05:00:00|2013-04-27 20:13:00|70|85|9.5|10.2|473||-53|3|low beta, no nice B rotations, BDE, possible CME candidate on 4/23 seen by STA and STB
+7||STEREO-B|2013-04-28 19:38:00||2013-04-29 16:50:00|70||8||430||-93|3|slow, beta is slightly below 1, weak BDE, no nice B rotations, possible CME candidate on 4/24 seen by STA and STB
+8||STEREO-B|2013-05-04 04:52:00|2013-05-04 15:00:00|2013-05-06 09:40:00|170|180|19.5||440|453|-104|1|low beta, BDE, Pt max at the leading part of the obstacle, CME candidate on 5/1 seen by STA and STB
+9||STEREO-B|2013-05-07 04:37:00||2013-05-07 19:22:00|98||13||390||0|1|slow, relatively low beta, large-scale B rotations, partial BDE, no clear CME candidate, at sector boundary
+10||STEREO-B|2013-05-15 13:34:00|2013-05-16 01:16:00|2013-05-16 16:00:00|140|280|17.5|21|640|660|-80|3|BDE, B declines fast, CME candidate on 5/13 seen by STB
+11||STEREO-B|2013-05-17 02:54:00||2013-05-18 00:00:00|80||10.7||650||-150|2|relatively low beta, partial BDE, not low Tp, no nice B rotations, CME candidate on 5/13 seen by STA and STB
+12||STEREO-B|2013-06-02 06:09:00|2013-06-02 12:15:00|2013-06-06 08:52:00|103||12||505||-205|3|low beta, BDE, multiple flux ropes, CME candidates on 5/30-31 seen by STA and STB COR1
+13|*|STEREO-B|2013-06-19 15:08:00||2013-06-20 22:00:00|150||11.3||700||0|-1|embedded in fast wind, beta ~ 0.01, partial BDE and flux rope, CME candidate on 6/18 seen by STA and STB COR1
+14||STEREO-B|2013-07-05 07:04:00||2013-07-07 01:47:00|90||12.5||416||-126|3|partial low beta and BDE, multiple flux ropes, CME candidate on 7/2 seen by STA COR2
+15||STEREO-B|2013-08-22 02:10:00|2013-08-22 13:00:00|2013-08-23 07:00:00|60|100|9.4|11|640|710|-150|3|in the trailing part of fast wind, BDE, B rotations, CME candidate on early 8/20
+16|*|STEREO-B|2013-09-03 15:50:00|2013-09-03 22:30:00|2013-09-04 22:47:00|290|380|14.8|18|600||-160|3|BDE, replacing the SIR in previous CR, beta ~ 1
+17||STEREO-B|2013-09-09 14:32:00|2013-09-10 06:52:00|2013-09-10 22:53:00|60|250|12|13|480|550|0|3|very low beta for 6 hrs, no BDE, seems to be 2 flux ropes, replacing SIR in previous CR, CME candidate on 9/6 seen by STA and STB COR2, HCS at the leading part of the ICME
+18||STEREO-B|2013-09-15 16:20:00|2013-09-16 04:20:00|2013-09-17 00:25:00|28|65|6.2|9|320|340|-20|2|very slow, probably decreased a lot by slow wind, relatively low beta and low Tp, BDE, nice B rotations although not much increase, nice CME candidate on 9/10 or 9/11 seen by STA and STB
+19||STEREO-B|2013-10-08 04:54:00|2013-10-08 17:25:00|2013-10-09 23:35:00|60|125|8.8|10.7|478|480|-133|3|low beta, BDE, 2 flux ropes, CME candidates on late 10/4 and early 10/5 seen by STA and STB
+20||STEREO-B|2013-10-21 18:23:00||2013-10-23 05:30:00|39||9.3||310||0|2|low beta, very slow, major rotation in Bt, CME candidate on 10/15 seen by STA and STB, BDE in first half a day, the dominant field polarity of the ICME is opposite to the background
+21||STEREO-B|2013-11-05 02:43:00||2013-11-05 23:47:00|205||15.2||420||-92|3|BDE, beta ~ 1, not decreased Tp, CME candidate on 11/2 seen by STA and STB COR2
+22||STEREO-B|2013-11-06 02:00:00|2013-11-06 13:38:00|2013-11-07 14:00:00|54|800|9|30|740|700|-200|3|low beta and Tp, BDE, very quiet and weak B in magnetic obstacle
+23||STEREO-B|2013-11-08 13:28:00|2013-11-08 18:44:00|2013-11-11 07:15:00|250||25.5||860||-280|1|18-hour plasma DG, low beta, BDE throughout the ICME and 2.5 days beyond it, CME candidate on 11/7 seen by STA and STB
+24||STEREO-B|2013-11-24 03:22:00||2013-11-24 22:12:00|40||8||410||-50|2|low beta, BDE, somewhat B rotations
+25||STEREO-B|2013-12-08 18:22:00|2013-12-09 02:25:00|2013-12-10 18:40:00|36|62|6.4|8.6|470||-125|2|partial BDE, beta ~ 1, not smooth B rotations
+26||STEREO-B|2013-12-17 13:29:00|2013-12-18 02:05:00|2013-12-20 15:00:00|70||7.3|9.5|430|465|-110|3|BDE throughout the ICME and 1 day afterward, beta ~ 1, multiple CME candidates on 12/12-12/17 seen by COR2
+27||STEREO-B|2013-12-21 08:25:00||2013-12-22 00:00:00|42||8.6||425||-125|2|low beta and BDE, Np is very low for 6-hr and plasma data are fuzzy during the period, closely followed by a SIR embedding a flux-rope-like structure
+28||STEREO-B|2013-12-28 17:06:00|2013-12-29 04:12:00|2013-12-30 14:00:00|270|420|20|24|550||-200|3|low beta and BDE, a lot of changes in plasma data, B rotations are relatively smooth
+29||STEREO-B|2013-12-31 21:47:00||2014-01-01 05:51:00||||||||1|short and weak, low beta and BDE, B rotations, CME candidate on 12/27 seen by STA and STB COR2

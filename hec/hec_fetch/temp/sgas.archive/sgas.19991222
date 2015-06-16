@@ -1,0 +1,49 @@
+From owner-sgas@proton.sel.noaa.gov Wed Dec 22 21:57:15 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA285267835; Wed, 22 Dec 1999 21:57:15 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 23 Dec 1999 02:55:08 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199912230255.CAA17437@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Dec 23 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 357 ISSUED AT 0245Z ON 23 DEC 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 22 DEC
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0150 0216 0232  8807 N10E30 M1.8  2B 57            II              
+ 0348 0350 0351                       290                           
+ 0402 0402 0402                       170                           
+ 0428 0439 0533  8806 N19E18       SF 400                           
+ 0642 0643 0659  8806 N15E18       SF 100                           
+ 1852 1904 1908  8806 N24E19 M5.3  1B 210    280                    
+ 1959 2000 2000                       100                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 202  SSN 130  AFR/AP 001/002   X-RAY BACKGROUND C1.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.8E+04   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.10E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 0 0 0 0 0 1 0 0 PLANETARY 0 0 0 0 1 1 1 1 
+F.  COMMENTS:  A 245 MHZ NOISE STORM WAS IN PROGRESS FOR PART OF THE
+PERIOD.
+
+

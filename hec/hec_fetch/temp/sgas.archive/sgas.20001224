@@ -1,0 +1,52 @@
+From sgas-owner  Sun Dec 24 02:50:24 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA26222
+	for sgas-sendit; Sun, 24 Dec 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 24 Dec 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200012240250.CAA26078@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Dec 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 359 Issued at 0245Z on 24 Dec 2000
+This report is compiled from data received at SWO on 23 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0226 0227 0242  9283 S12E78       Sf 110                           
+ 1242 1247 1250                       180                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels
+D.  Stratwarm:  STRATWARM ALERT EXISTS SATURDAY
+STRONG ANTICYCLONE, TILTING FROM ICELAND IN THE LOWER
+STRATOSPHERE TOWARDS THE URAL MOUNTIAINS IN THE UPPER
+STRATOSPHERE, CONTINUES TO DOMINATE THE CIRCULATION
+OVER EUROPE AND ASIA BUT WILL DISAPPEAR WITHIN THE NEXT 
+5 DAYS.  PROGNOSIS SHOW THE RETURN TO NORMAL WINTER
+CONDITIONS WITH THE CENTER OF THE COLD POLAR VORTEX MOVING
+TOWARDS THE EUROPEAN SECTOR OF THE ACTIC.  END OF THIS
+GEOALERT PERIOD.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 191  SSN 130  Afr/Ap 017/020   X-ray Background C1.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.4e+05   GT 10 MeV 9.3e+03 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.50e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 5 3 3 2 3 1 1 Planetary 4 5 4 4 4 3 2 2 
+F.  Comments:  None.
+

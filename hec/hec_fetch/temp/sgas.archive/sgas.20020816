@@ -1,0 +1,53 @@
+From sgas-owner@sec.noaa.gov  Fri Aug 16 02:50:14 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g7G2o5417091
+	for sgas-sendit; Fri, 16 Aug 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 16 Aug 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200208160250.g7G2o2L16901@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Aug 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 228 Issued at 0245Z on 16 Aug 2002
+This report is compiled from data received at SWO on 15 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0601 0605 0609  0066 N13E01 M1.0  Sf        140                    
+ 0750 0754 0758  0069 S06E27 C2.4  Sf 240                           
+ 0834 0834 0835                       260                           
+ 0846 0847 0847                       170                           
+ 1012 1012 1012                       120                           
+ 1322 1335 1345  0069 S04E25 C3.9  Sf 440                           
+ 1346 1346 1346                       340                           
+ 2024 2024 2029                       190                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Unsettled to active with brief
+minor storm conditions at high latitudes.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 210  SSN 281  Afr/Ap 021/019   X-ray Background C1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+07   GT 10 MeV 1.7e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.00e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 3 4 4 4 4 4 Planetary 3 3 3 4 3 4 5 5 
+F.  Comments:  Afr estimated based on Boulder USGS magnetometer data.
+The greater than 10 MeV proton event that began at 14/0900 UTC ended
+at 14/1950 UTC. The maximum for this event was 26 pfu at 14/1620
+UTC.
+

@@ -1,0 +1,35 @@
+:Product: 0311SGAS.txt
+:Issued: 2012 Mar 11 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 071 Issued at 0245Z on 11 Mar 2012
+This report is compiled from data received at SWO on 10 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1553 1556 1559                       240                           
+ 1604 1605 1606                       300                           
+ 1715 1744 1830  1429        M8.4     1500   460       IV           
+ 1834 1842 1906                       1000                          
+ 1910 1910 1910                       250                           
+B.  Proton Events:  The greater than 100 MeV proton event at
+geosynchronous orbit that began at 07/0405Z, reached a maximum of 69
+pfu at 07/1525Z, and ended at 10/1650Z.  The greater than 10 MeV
+proton event at geosynchronous orbit that began at 07/0510Z, reached
+a maximum of 6530 pfu at 08/1115Z, was still ongoing at the close of
+the period.
+C.  Geomagnetic Activity Summary:  Field activity ranged from quiet
+to major storm levels due to continued effects from a CME passage.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 149  SSN 089  Afr/Ap 017/018   X-ray Background B7.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.6e+07   GT 10 MeV 1.4e+07 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.50e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 5 3 3 3 3 3 2 Planetary 4 4 3 3 2 3 4 2 
+F.  Comments:  None

@@ -1,0 +1,56 @@
+From sgas-owner  Thu Apr  5 02:50:13 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA28476
+	for sgas-sendit; Thu, 5 Apr 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 5 Apr 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104050250.CAA28302@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 05 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 095 Issued at 0245Z on 05 Apr 2001
+This report is compiled from data received at SWO on 04 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0327 0330 0333              C3.2     160                           
+ 0345 0349 0353              C6.4     500                           
+ 0700 0700 0701                       150                           
+ 0925 0927 0938  9415 S20E67       Sf 130    180                    
+ 0941 1027 1111  9415 S21E68 M1.6  Sf        360                    
+ 1152 1159 1203  9401 N28W67 M1.1  Sf                               
+ 1212 1222 1230              M2.0                                   
+ 2317 2351 0004              M1.1                                   
+B.  Proton Events:  The greater than 10 MeV proton event continues in
+progress.  The shock passage produced a very slight enhancement of
+the particle flux levels.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+minor storm.  A shock in the solar wind was observed on ACE data at
+04/1422Z.  After the shock, the solar wind displayed high speeds. 
+The shock and subsequent enhanced solar wind flow are most likely to
+have been produced by the combined drivers from CME's out of Region
+9393 on 2 April.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 205  SSN 217  Afr/Ap 012/015   X-ray Background C2.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+08   GT 10 MeV 1.3e+07 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 1 1 4 5 5 2 Planetary 2 2 2 2 3 4 5 2 
+F.  Comments:  None
+

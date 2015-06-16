@@ -1,0 +1,65 @@
+#
+# EGSO 2003-2005 SEC Readme - by Andrej Santin
+# INAF - Trieste Astronomical Observatory
+#
+# last rev. 2-may-2005 Andrej Santin
+#
+---------------------------------------------------------------------------------------------
+
+Untar secddmmm20yy.tgz (default is /var/www/html/sec).
+
+Create postgres database "sec" (with createdb sec command).
+
+Yohkoh is closed, please uncomment in sec_loader.sh when run first time
+to generate YFC.postgres.converted:
+#php -f $SECROOT/sec_load_yfc.php #closed
+(if you experinced link problems set DEBUG to "1" and parse local
+file)
+
+BAS magnetic storms need manually copied file temp/stormtimes.txt
+(uncomment in sec_loader.sh when run first time to generate
+BMS.postgres.converted):
+#php -f $SECROOT/sec_load_bms.php #partial?
+
+When run first time download and unpack manually:
+-reset counter.txt (and change in sec_ui.php "counter since date")
+(old:
+-sgas.archive.tar.gz in temp/sgas.archive
+-srs.archive.tar.gz in temp/srs.archive)
+-(new:) from http://www.sec.noaa.gov/ftpdir/warehouse/ download
+all years yyyy_SGAS.tar.gz in temp/sgas.archive
+all years yyyy_SRS.tar.gz in temp/srs.archive
+-if need create sec.png manually and change permissions to write
+
+If you need change path for SEC (default is /var/www/html/sec)
+you must correct this files:
+
+sec_global.php ($secdir = "/var/www/html/sec";)
+sec_insert.sql (all COPY lines)
+sec_loader.sh  (SECROOT=/var/www/html/sec)
+sec_server.php ($secdir = "/var/www/html/sec";)
+000sec         (/var/www/html/sec/sec_loader.sh and copy to /etc/cron.daily)
+
+To run manually a parse on a single list: php -f sec_load_bms.php (not inserted into DB)
+To run manually an update: ./sec_loader.sh
+
+Sometimes empty manually xml directory and sec.log file (or add it in crontab).
+
+---------------------------------------------------------------------------------------------
+#SEC server 21-feb-2005
+
+#Fedora Core 2
+Linux imhotep.oat.ts.astro.it 2.6.5-1.358smp #1 SMP Sat May 8 09:25:36 EDT 2004 i686 i686 i386 GNU/Linux
+
+#httpd
+Server version: Apache/2.0.49
+Server built:   May  6 2004 07:15:13
+
+#PHP
+PHP 4.3.4 (cgi) (built: Apr  7 2004 09:43:47)
+Copyright (c) 1997-2003 The PHP Group
+Zend Engine v1.3.0, Copyright (c) 1998-2003 Zend Technologies
+
+#postgreSQL
+postgres (PostgreSQL) 7.4.2
+---------------------------------------------------------------------------------------------

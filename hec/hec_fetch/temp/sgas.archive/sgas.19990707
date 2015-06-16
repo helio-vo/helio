@@ -1,0 +1,52 @@
+From owner-sgas@proton.sel.noaa.gov Wed Jul  7 22:57:12 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA109322632; Wed, 7 Jul 1999 22:57:12 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 8 Jul 1999 02:55:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199907080255.CAA29813@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Jul 08 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 189 ISSUED AT 0245Z ON 08 JUL 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 07 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0150 0159 0200                       340                           
+ 0227 0227 0227                       380                           
+ 0228 0230 0232                       160                           
+ 0341 0345 0347  8611 S25W73 C1.8  SF 170                           
+ 0617 0620 0622  8611 S26W76 C1.2  SF 240                           
+ 0848 0848 0855  8615 S29E05       SF 640                           
+ 1258 1258 1300                       220                           
+ 1446 1450 1453  8626 S22W11 C1.2  SF 450                           
+ 1447 1448 1449                       370                           
+ 1713 1714 1720                       220                           
+ 1718 1720 1730  8615 S29W01       SF 100                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 158  SSN 158  AFR/AP 005/005   X-RAY BACKGROUND B7.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.8E+05   GT 10 MEV 1.7E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.80E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 1 0 0 1 2 2 PLANETARY 2 1 1 0 1 2 2 3 
+F.  COMMENTS:  NONE
+
+

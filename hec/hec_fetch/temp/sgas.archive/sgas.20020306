@@ -1,0 +1,48 @@
+From sgas-owner  Wed Mar  6 02:50:16 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA11258
+	for sgas-sendit; Wed, 6 Mar 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 6 Mar 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200203060250.CAA11170@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Mar 06 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 065 Issued at 0245Z on 06 Mar 2002
+This report is compiled from data received at SWO on 05 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0320 0320 0322                       160                           
+ 2314 2314 2315                       410                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field activity was
+at quiet to active levels.  High speed stream effects of a large,
+recurrent coronal hole remains geoeffective.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM TUESDAY
+THROUGHOUT THE STRATOSPHERE STILL DISTURBED CONDITIONS AFTER THE
+WARMING. THE TEMPERATURE GRADIENT BETWEEN THE POLE AND 60 N IS STILL
+REVERSED IN THE LOWER AND MIDDLE STRATOSPHERE.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 172  SSN 168  Afr/Ap 014/015   X-ray Background B6.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.9e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.20e+04 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 2 3 4 2 3 Planetary 3 4 2 3 3 4 3 3 
+F.  Comments:  None
+

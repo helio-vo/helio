@@ -1,0 +1,41 @@
+:Product: 1206SGAS.txt
+:Issued: 2014 Dec 06 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 340 Issued at 0245Z on 06 Dec 2014
+This report is compiled from data received at SWO on 05 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0200 0200 0200                       130                           
+ 0322 0322 0322                       120                           
+ 0350 0350 0353  2225 S13E08       Sf 170                           
+ 0428 0428 0428                       150                           
+ 0557 0607 0617  2226 S21W69 C1.8  Sf               II/IV           
+ 0810 0810 0811                       190                           
+ 0816 0817 0817                       260                           
+ 1133 1225 1247  2222        M1.5                                   
+ 1329 1329 1329                       110                           
+ 1441 1444 1446                       310                           
+ 1449 1451 1451                       350                           
+ 1742 1742 1742                       100                           
+ 1750 1750 1751                       100                           
+ 1821 1821 1821                       130                           
+ 1952 1952 1952                       100                           
+ 1957 1957 1957                       100                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 137  SSN 097  Afr/Ap 008/008   X-ray Background B5.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.0e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.60e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 3 3 2 2 1 Planetary 2 3 2 3 3 2 1 2 
+F.  Comments:  None.

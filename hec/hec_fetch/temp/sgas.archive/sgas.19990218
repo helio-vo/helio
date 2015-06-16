@@ -1,0 +1,73 @@
+From owner-sgas@proton.sel.noaa.gov Thu Feb 18 21:55:06 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA054422906; Thu, 18 Feb 1999 21:55:06 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Fri, 19 Feb 1999 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199902190255.CAA11232@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Feb 19 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 050 ISSUED AT 0245Z ON 19 FEB 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 18 FEB
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0110 0110 0111                       1400                          
+ 0316 0329 0336              C5.1     820                           
+ 0514 0514 0515                       1600                          
+ 0543 0544 0544                       1200                          
+ 0549 0549 0551                       1600                          
+ 0603 0603 0604                       1300                          
+ 0618 0618 0618                       650                           
+ 1215 1215 1217                       930                           
+ 1219 1236 1241  8462 N20W34 C2.0  SF 530                           
+ 1244 1244 1246                       430                           
+ 1312 1312 1313                       640                           
+ 1324 1325 1329  8458 S21W47       SF 660                           
+ 1351 1351 1352                       8100                          
+ 1402 1404 1405                       190                           
+ 1408 1409 1410                       1700                          
+ 1434 1434 1434                       14000                         
+ 1514 1514 1514                       720                           
+ 1522 1522 1523                       680                           
+ 1659 1700 1702                       830                           
+ 2353 0005 0007  8464 N20W11 C1.1  SF 420                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS AT
+ACTIVE TO SEVERE STORM LEVELS THROUGHOUT THE PERIOD. A SUDDEN STORM
+COMMENCEMENT MEASURING 43 NANOTESLAS AT BOULDER, OCCURRED AT
+18/0250Z. THE ACE SPACECRAFT MEASURED SOLAR WIND VELOCITIES NEAR 700
+KM/S, AND SOUTHWARD IMF OF APPROXIMATELY 20 NT, FOR HOURS FOLLOWING
+THE PASSAGE OF THE SHOCK. THE SOLAR ORIGIN OF THIS ACTIVITY IS
+THOUGHT TO BE THE LONG-DURATION M-CLASS EVENT FROM NEAR CENTER DISK,
+EARLY ON FEBRUARY 16. A FORBUSH DECREASE BEGAN EARLY IN THE DAY, AS
+MEASURED BY NEUTRON MONITOR DATA.
+D.  STRATWARM:  STRATWARM ALERT/THURSDAY/STRATWARM EXISTS.
+INTENSIFYING WARMING OVER NORTHEASTERN / EASTERN SIBERIA AND
+ALEUTIAN AREA CONTINUES. THE WARM AIR SPREADING NORTHWARDS.
+A SECOND INTENSIFYING WARMING EXISTS OVER BLACK SEA, INFLU-
+ENCING THE EUROPEAN PART OF RUSSIA.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 168  SSN 135  AFR/AP 063/054   X-RAY BACKGROUND B8.9
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.5E+06   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 8.70E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 5 6 7 7 4 3 4 PLANETARY 4 6 5 6 7 5 4 4 
+F.  COMMENTS:  NONE
+
+

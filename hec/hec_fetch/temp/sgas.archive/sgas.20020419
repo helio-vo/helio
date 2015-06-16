@@ -1,0 +1,51 @@
+From sgas-owner  Fri Apr 19 02:50:15 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_24419)/8.8.6) id CAA09845
+	for sgas-sendit; Fri, 19 Apr 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 19 Apr 2002 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200204190250.CAA09688@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Apr 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 109 Issued at 0245Z on 19 Apr 2002
+This report is compiled from data received at SWO on 18 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0145 0145 0145                       160                           
+ 0527 0530 0533              C1.8     200                           
+ 1430 1433 1435  9907 S04W16 C1.5  Sf 120                           
+ 1734 1734 1734                       150                           
+B.  Proton Events:  Yesterday's greater than 10 MeV proton event has
+ended: start 17/1530 UTC, maximum flux (24 pfu) 17/1540 UTC, and end
+18/0035 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to severe storm levels in response to the CME that impacted
+the Earth early on 17 April. ACE solar wind information suggests
+that this CME has passed.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 188  SSN 160  Afr/Ap 045/054   X-ray Background C1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.4e+07   GT 10 MeV 3.1e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.40e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 7 5 5 4 4 2 3 Planetary 6 7 6 5 4 4 4 3 
+F.  Comments:  The 18 April Afr reported in Part E is estimated from
+Boulder observations.
+

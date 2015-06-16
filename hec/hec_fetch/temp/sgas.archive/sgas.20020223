@@ -1,0 +1,47 @@
+From sgas-owner  Sat Feb 23 02:50:28 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA07961
+	for sgas-sendit; Sat, 23 Feb 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 23 Feb 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200202230250.CAA07857@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Feb 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 054 Issued at 0245Z on 23 Feb 2002
+This report is compiled from data received at SWO on 22 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 2349 0010 0027  9830 S20W20 M4.4  2n        89                     
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+quiet with isolated unsettled periods.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM FRIDAY
+THROUGHOUT THE STRATOSPHERE, STILL DISTURBED CIRCULATION PATTERN
+AFTER THE MAJOR WARMING WITH A REVERSED TEMPERATURE GRADIENT BETWEEN
+60N AND THE POLE FROM 50HPA UP TO 2HPA AND MEAN ZONAL EASTERLY WINDS
+AT 60N FROM 5HPA TO 1HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 192  SSN 161  Afr/Ap 005/005   X-ray Background C5.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.2e+05   GT 10 MeV 1.8e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.30e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 2 1 1 2 3 3 3 Planetary 2 2 0 1 1 2 3 2 
+F.  Comments:  None
+

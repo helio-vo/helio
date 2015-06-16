@@ -1,0 +1,48 @@
+From sgas-owner@sec.noaa.gov  Sat Jun 14 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h5E2o4w21747
+	for sgas-sendit; Sat, 14 Jun 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 14 Jun 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200306140250.h5E2o2421624@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jun 14 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 165 Issued at 0245Z on 14 Jun 2003
+This report is compiled from data received at SWO on 13 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0154 0204 0213              M3.1                                   
+ 0431 0437 0443  0375 N15W78 M1.7  Sf        130                    
+ 0628 0645 0719  0375 N14W81 M1.8  Sf 100                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+quiet to minor storm levels.  Solar wind speed decreased to about
+400 km/s.  After 13/1700Z, solar wind speeds increased to about 450
+km/s and total interplanetary magnetic field at L1 showed steady
+increase.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 151  SSN 149  Afr/Ap 008/011   X-ray Background C2.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W123 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.10e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 2 3 3 5 5 Planetary 3 2 1 2 2 3 4 4 
+F.  Comments:  None
+

@@ -1,0 +1,104 @@
+HESSI Flare List  (generated 14-Sep-2012 21:48)
+
+Total # flares: 66943  Time range: 12-Feb-2002 21:29:56.000 - 31-Jul-2012 14:38:28.000
+ 
+    Flare     Start time        Peak      End      Dur   Peak     Total      Energy X Pos Y Pos Radial   AR          Flags          
+                                                     s    c/s    Counts         keV  asec  asec   asec                              
+
+  8120203  2-Dec-2008 04:11:20 04:11:50 04:14:12   172    240     20616         3-6     0     0      0    0  A0 DF PS Q1              
+  8120228  2-Dec-2008 13:14:48 13:17:54 13:18:08   200    272    148650         3-6     0     0      0    0  a0 a1 A3 DF GE PE PS Q3  
+  8120236  2-Dec-2008 13:23:56 13:24:02 13:26:04   128     92     32064         3-6     0     0      0    0  A3 GS PE PS Q2           
+  8120333  3-Dec-2008 13:12:04 13:16:10 13:21:20   556    200    338744         3-6     0     0      0    0  a0 a1 A3 DF PE PS Q2     
+  8120626  6-Dec-2008 11:22:56 11:25:02 11:25:08   132    168     54324         3-6     0     0      0    0  a0 A1 DF GE PE PS Q3     
+  8120627  6-Dec-2008 11:32:16 11:32:22 11:34:36   140     92     35808         3-6     0     0      0    0  A1 GS PE PS Q2           
+  8120722  7-Dec-2008 11:20:04 11:23:58 11:29:36   572    208    372067         3-6     0     0      0    0  a0 a1 A3 PE PS Q1        
+  8120725  7-Dec-2008 23:28:36 23:29:50 23:29:52    76     88     15984         3-6     0     0      0    0  A0 PE PS Q1              
+  8120826  8-Dec-2008 11:17:20 11:21:06 11:24:28   428     92    130488         3-6     0     0      0    0  A0 PE PS Q1              
+  8120811  8-Dec-2008 21:47:16 21:48:46 21:48:48    92     92     20664         3-6     0     0      0    0  A0 PE PS Q1              
+  8120915  9-Dec-2008 01:03:08 01:04:54 01:04:56   108     80     23568         3-6     0     0      0    0  A0 PE PS Q1              
+  8120914  9-Dec-2008 21:43:40 21:45:10 21:45:16    96     92     21984         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8121010 10-Dec-2008 00:59:52 01:01:58 01:02:00   128     80     28992         3-6     0     0      0    0  A0 PE PS Q1              
+  8121002 10-Dec-2008 08:26:28 08:28:26 08:30:48   260     32     39984        6-12  -763  -220    794    0  A0 P1                    
+  8121101 11-Dec-2008 05:22:16 05:28:46 05:47:16  1500    184    827376        6-12   790  -448    908 1009  A0 P1                    
+  8121107 11-Dec-2008 08:27:04 08:30:02 08:34:24   440    256    206496        6-12   885  -399    971 1009  A0 P1                    
+  8121108 11-Dec-2008 09:27:52 09:32:06 09:37:52   600    232    444408        6-12   885  -404    973    0  a0 a1 A3 P1 PE Q1        
+  8121109 11-Dec-2008 11:34:56 11:36:54 11:40:40   344     76    100032        6-12   885  -402    972 1009  A0 P1                    
+  8121128 11-Dec-2008 11:40:40 11:43:54 11:51:20   640   2160   1747824       12-25   889  -397    974 1009  A0 P1                    
+  8121129 11-Dec-2008 13:21:40 13:22:26 13:24:20   160     24     19632        6-12   817  -433    925 1009  A0 P1                    
+  8121113 11-Dec-2008 13:26:16 13:27:26 13:28:40   144     32     20064        6-12   882  -409    972    0  A0 P1                    
+  8121111 11-Dec-2008 14:15:48 14:16:34 14:20:40   292    176     55968        6-12   886  -403    974 1009  A0 P1                    
+  8121115 11-Dec-2008 18:20:44 18:21:18 18:23:48   184     18     16296        6-12   845  -402    936 1009  A0 P1                    
+  8121127 11-Dec-2008 19:53:16 19:53:46 19:54:20    64     32      7968        6-12   887  -418    981    0  A0 P1                    
+  8121213 12-Dec-2008 02:06:00 02:06:18 02:07:56   116     24     14400        6-12   858  -423    956 1009  A0 P1                    
+  8121204 12-Dec-2008 02:36:32 02:37:38 02:39:40   188     36     28272        6-12   861  -423    959 1009  A0 P1                    
+  8121205 12-Dec-2008 03:13:56 03:15:14 03:18:16   260     34     35952        6-12   905  -403    991 1009  A0 P1                    
+  8121206 12-Dec-2008 06:31:08 06:31:42 06:33:24   136     38     26304        6-12   880  -420    976 1009  A0 P1                    
+  8121208 12-Dec-2008 09:27:40 09:28:42 09:30:36   176    100     90624         3-6     0     0      0    0  A0 ES PE PS Q2           
+  8121305 13-Dec-2008 19:51:52 19:53:14 19:53:24    92     96     22920         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8121308 13-Dec-2008 23:07:56 23:09:58 23:10:00   124     88     30072         3-6     0     0      0    0  A0 PE PS Q1              
+  8121417 14-Dec-2008 19:48:16 19:49:34 19:49:36    80     88     17352         3-6     0     0      0    0  A0 PE PS Q1              
+  8121418 14-Dec-2008 21:26:12 21:27:42 21:27:44    92    108     23064         3-6     0     0      0    0  A0 PE PS Q1              
+  8121505 15-Dec-2008 19:44:40 19:45:58 19:46:00    80     80     16008         3-6     0     0      0    0  A0 PE PS Q1              
+  8121613 16-Dec-2008 19:41:16 19:42:26 19:42:36    80     80     16944         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8121614 16-Dec-2008 21:19:12 21:20:58 21:21:08   116     92     28416         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8121615 16-Dec-2008 23:02:00 23:03:58 23:04:00   120     80     28320         3-6     0     0      0    0  A0 PE PS Q1              
+  8121704 17-Dec-2008 17:59:56 18:01:10 18:01:12    76     84     15144         3-6     0     0      0    0  A0 PE PS Q1              
+  8121705 17-Dec-2008 19:37:52 19:39:02 19:39:04    72     88     16368         3-6     0     0      0    0  A0 PE PS Q1              
+  8121706 17-Dec-2008 21:15:48 21:17:58 21:18:00   132     96     33504         3-6     0     0      0    0  A0 PE PS Q1              
+  8121803 18-Dec-2008 17:56:20 17:57:38 17:57:48    88     88     19920         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8121914 19-Dec-2008 21:10:28 21:13:10 21:13:12   164     80     39408         3-6     0     0      0    0  A0 PE PS Q1              
+  8122114 21-Dec-2008 17:45:48 17:47:06 17:47:16    88     92     20664         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8122115 21-Dec-2008 19:23:52 19:26:02 19:26:12   140    108     40032         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8122204 22-Dec-2008 19:20:32 19:22:54 19:22:56   144     84     33936         3-6     0     0      0    0  A0 PE PS Q1              
+  8122306 23-Dec-2008 19:18:00 19:20:50 19:21:00   180     84     44688       25-50   377  -253    454    0  A0 GE P1 PE Q2           
+  8122516 25-Dec-2008 17:31:52 17:33:58 17:34:00   128    100     34200         3-6     0     0      0    0  A0 PE PS Q1              
+  8122515 25-Dec-2008 22:41:16 22:42:22 22:42:24    68     88     15384         3-6     0     0      0    0  A0 PE PS Q1              
+  8122602 26-Dec-2008 02:03:00 02:04:14 02:04:16    76     84     17760         3-6     0     0      0    0  A0 PE PS Q1              
+  8122608 26-Dec-2008 17:28:20 17:30:50 17:31:00   160     88     38400       12-25   413  -274    496    0  A0 GE P1 PE Q2           
+  8122701 27-Dec-2008 02:00:12 02:02:10 02:02:12   120    138     42518         3-6     0     0      0    0  A0 EE PE PS Q2           
+  8122803 28-Dec-2008 01:57:28 01:59:34 01:59:36   128    108     38544         3-6     0     0      0    0  A0 EE PE PS Q2           
+  8122804 28-Dec-2008 14:05:24 14:06:30 14:06:32    68     60     10944        6-12   518  -243    572    0  A0 P1 PE Q1              
+  8122911 29-Dec-2008 15:39:52 15:41:46 15:41:56   124     92     29904         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8122913 29-Dec-2008 20:38:16 20:38:46 20:41:00   164    108     20832         3-6     0     0      0    0  A0 PS                    
+  8123009 30-Dec-2008 15:36:32 15:38:50 15:39:00   148     88     37896         3-6     0     0      0    0  A0 GE PE PS Q2           
+  8123011 30-Dec-2008 22:27:00 22:28:14 22:28:16    76    120     21264         3-6     0     0      0    0  A0 PE PS Q1              
+
+Notes: 
+  Note that only events with non-zero position and energy range not equal to 3-6 keV are confirmed as solar sources.
+  Events which have no position and show up mostly in the front detectors, but were not able to be imaged 
+    are flagged as "PS".
+  Events which do not have valid position are only confirmed to be non-solar if the NS flag is set.
+  Peak Rate:  peak counts/second in energy range 6-12 keV, averaged over active collimators, including background.
+  Total Counts:  counts in energy range 6-12 keV integrated over duration of flare summed over all subcollimators,
+    including background.
+  Energy:  the highest energy band in which the flare was observed.
+  Radial Distance:  distance from Sun center
+  Quality Codes: Qn, where n is the total number of data gap, SAA, particle, eclipse or decimation flags set for event.
+    n ranges from 0 to 11.  Use care when analyzing the data when the quality is not zero.
+
+Flare Flag Codes: 
+  a0 - In attenuator state 0 (None) sometime during flare
+  a1 - In attenuator state 1 (Thin) sometime during flare
+  a2 - In attenuator state 2 (Thick) sometime during flare
+  a3 - In attenuator state 3 (Both) sometime during flare
+  An - Attenuator state (0=None, 1=Thin, 2=Thick, 3=Both) at peak of flare
+  DF - Front segment counts were decimated sometime during flare
+  DR - Rear segment counts were decimated sometime during flare
+  ED - Spacecraft eclipse (night) sometime during flare
+  EE - Flare ended in spacecraft eclipse (night)
+  ES - Flare started in spacecraft eclipse (night)
+  FE - Flare ongoing at end of file
+  FR - In Fast Rate Mode
+  FS - Flare ongoing at start of file
+  GD - Data gap during flare
+  GE - Flare ended in data gap
+  GS - Flare started in data gap
+  MR - Spacecraft in high-latitude zone during flare
+  NS - Non-solar event
+  PE - Particle event: Particles are present
+  PS - Possible Solar Flare; in front detectors, but no position
+  Pn - Position Quality: P0 = Position is NOT valid, P1 = Position is valid
+  Qn - Data Quality: Q0 = Highest Quality, Q11 = Lowest Quality
+  SD - Spacecraft was in SAA sometime during flare
+  SE - Flare ended when spacecraft was in SAA
+  SS - Flare started when spacecraft was in SAA

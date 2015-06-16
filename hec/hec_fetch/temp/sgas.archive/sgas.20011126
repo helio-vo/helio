@@ -1,0 +1,51 @@
+From sgas-owner  Mon Nov 26 02:50:27 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16701
+	for sgas-sendit; Mon, 26 Nov 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 26 Nov 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200111260250.CAA16585@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Nov 26 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 330 Issued at 0245Z on 26 Nov 2001
+This report is compiled from data received at SWO on 25 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0100 0114 0123  9704 S19W60 C4.5  Sf 68000  25                     
+ 0945 0951 0954  9704        X1.1            12                     
+ 2245 2317 2358              C9.0     56            II              
+B.  Proton Events:  The greater than 10 MeV proton event and
+associated polar cap absorption remained in progress at the end of
+the period (proton flux peaked to 18900 pfu at 24/0555 UTC).
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels with an isolated period of active
+(24/2100-25/0000 UTC).    A moderate (10.2 percent based on the
+Thule neutron monitor) Forbush decrease began shortly after the
+beginning of forecast period and peaked near 25/0040 UTC, ended near
+25/0300 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 170  SSN 102  Afr/Ap 006/008   X-ray Background B9.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.5e+07   GT 10 MeV 8.7e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.70e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 2 2 2 1 1 Planetary 3 2 2 3 2 3 2 2 
+F.  Comments:  Afr based on Boulder A-indices
+

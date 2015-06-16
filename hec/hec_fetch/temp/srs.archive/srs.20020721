@@ -1,0 +1,39 @@
+From srs-owner@sec.noaa.gov  Sun Jul 21 00:40:09 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g6L0e5N29630
+	for srs-sendit; Sun, 21 Jul 2002 00:40:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Sun, 21 Jul 2002 00:40:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200207210040.g6L0e3r29521@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2002 Jul 21 0040 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar Region Summary
+SRS Number 202 Issued at 0030Z on 21 Jul 2002
+Report compiled from data received at SWO on 20 Jul
+I.  Regions with Sunspots.  Locations Valid at 20/2400Z 
+Nmbr Location  Lo  Area  Z   LL   NN Mag Type
+0030 N18W63   009  0460 Fki  16   30 Beta-Gamma-Delta
+0035 S08W06   312  0040 Dso  09   17 Beta
+0036 S07E11   295  0980 Ekc  13   47 Beta-Gamma-Delta
+0037 N15E21   285  0170 Hax  03   02 Alpha
+IA. H-alpha Plages without Spots.  Locations Valid at 20/2400Z Jul
+Nmbr  Location  Lo
+0031  N12W52   359
+0034  S20W74   021
+II. Regions Due to Return 21 Jul to 23 Jul
+Nmbr Lat    Lo
+0016 S17    207
+0026 N24    202
+

@@ -1,0 +1,49 @@
+From sgas-owner  Fri Feb  2 02:50:28 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA02835
+	for sgas-sendit; Fri, 2 Feb 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 2 Feb 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200102020250.CAA02697@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Feb 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 033 Issued at 0245Z on 02 Feb 2001
+This report is compiled from data received at SWO on 01 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet to unsettled.
+D.  Stratwarm:  Stratwarm alert exists Thursday. Weak easterly winds
+at 1 HPA. Temperature gradient reversed at 10 HPA and above.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 161  SSN 141  Afr/Ap 008/007   X-ray Background B7.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.8e+05   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.20e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 3 3 1 2 2 2 2 Planetary 1 3 3 2 2 1 1 2 
+F.  Comments:  AUTODIN transmission of the following bulletins will
+cease on 15 Feb 01: FXXX01 KBOU, AXXX01 KBOU, AXXX02 KBOU, and AXXX03 KBOU. 
+The bulletins will still be available via the Internet at 
+www.afwin.afwa.af.mil for military users and www.sec.noaa.gov for 
+non-military users.  If web access is not acceptable or you have 
+any questions, please contact Mr. Jerry Sanders at DSN 271-1399 
+(COMM 402-294-1399), e-mail jerry.sanders@afwa.af.mil.
+

@@ -1,0 +1,41 @@
+:Product: 0309SGAS.txt
+:Issued: 2011 Mar 09 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 068 Issued at 0245Z on 09 Mar 2011
+This report is compiled from data received at SWO on 08 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0224 0229 0232  1165 S18W79 M1.3  1n                               
+ 0337 0358 0420  1171        M1.5            130    II/IV           
+ 0504 0508 0512  1165        C5.5                                   
+ 0638 0638 0638                       100                           
+ 0811 0811 0811                       140                           
+ 0949 0949 0949                       250                           
+ 0951 0951 0951                       190                           
+ 1035 1044 1055  1165 S17W86 M5.3  1f                               
+ 1149 1149 1149                       230                           
+ 1350 1350 1350                       670                           
+ 1431 1431 1431                       180                           
+ 1605 1605 1605                       100                           
+ 1808 1828 1841  1165        M4.4                                   
+ 1946 2016 2119  1165        M1.4                                   
+B.  Proton Events:  The > 2 MeV Proton Flux exceeded the 10 pfu
+threshold at 08/0120Z and has remained above threshold during the
+past 24 hours.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 155  SSN 137  Afr/Ap 004/005   X-ray Background C1.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.5e+07   GT 10 MeV 3.0e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.80e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 2 1 1 2 1 1 Planetary 2 1 1 1 2 1 1 2 
+F.  Comments:  The 10.7 cm radio flux is estimated due to flare
+enhanced readings.

@@ -1,0 +1,45 @@
+From srs-owner@sec.noaa.gov  Sun Nov 30 00:40:19 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id hAU0e4o05410
+	for srs-sendit; Sun, 30 Nov 2003 00:40:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Sun, 30 Nov 2003 00:40:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200311300040.hAU0e2o05336@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2003 Nov 30 0040 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar Region Summary
+SRS Number 334 Issued at 0030Z on 30 Nov 2003
+Report compiled from data received at SWO on 29 Nov
+I.  Regions with Sunspots.  Locations Valid at 29/2400Z 
+Nmbr Location  Lo  Area  Z   LL   NN Mag Type
+0507 N07W69   295  0460 Dko  08   11 Beta-Gamma-Delta
+0508 S19W57   283  0260 Eac  11   22 Beta-Gamma
+0509 S11W11   237  0070 Dso  06   04 Beta
+0510 S23W02   228  0100 Eai  11   28 Beta
+0511 S15W30   256  0030 Cso  06   07 Beta
+0512 N06W22   248  0010 Axx  01   02 Alpha
+0513 N13E32   194  0080 Hsx  02   01 Alpha
+0515 S02E55   171  0080 Dso  05   07 Beta
+0516 S17E57   169  0070 Cso  03   05 Beta
+IA. H-alpha Plages without Spots.  Locations Valid at 29/2400Z Nov
+Nmbr  Location  Lo
+0506  S23W69   295
+0514  S15W72   298
+II. Regions Due to Return 30 Nov to 02 Dec
+Nmbr Lat    Lo
+Comments:
+Yesterday's report on Region 512 should have read
+30 Millionths (instead of 300).
+

@@ -1,0 +1,69 @@
+From sgas-owner@sec.noaa.gov  Sat Nov  1 02:50:23 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1 - (Revision 1.4+JAGae91741+JAGae92668)/8.9.3) id hA12o5r05313
+	for sgas-sendit; Sat, 1 Nov 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 1 Nov 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200311010250.hA12o2e05205@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Nov 01 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 305 Issued at 0245Z on 01 Nov 2003
+This report is compiled from data received at SWO on 31 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0353 0353 0353                       300                           
+ 0426 0433 0437              M2.0            67                     
+ 0552 0553 0553                       590                           
+ 0608 0616 0628  0488 N08W28 M1.1  Sf                               
+ 1121 1122 1125                       200    140                    
+ 1141 1142 1142                       240                           
+ 1507 1507 1508                       120                           
+ 1644 1706 1748  0486 S20W28 C5.3  Sf 220    37                     
+ 1844 1844 1845                       730                           
+ 2006 2006 2007                       1000                          
+B.  Proton Events:  The greater than 100 MeV proton event in progress
+since 28/1145Z, ended at 31/0145Z. This prolonged high energy proton
+event was actually two distinct events associated with the X17 and
+X10 flares on the 28th and 29th respectively. The peak measurements
+for both events were 186 pfu at 29/0015Z and 110 pfu at 29/2310Z.
+The greater than 10 MeV proton event remains in progress, but is
+quickly declining to the 10 pfu alert threshold. The two peak
+measurements at 10 MeV were 29,000 pfu at 29/0615Z and 3300 pfu at
+30/1935Z. The PCA event has ended.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+active to severe storm levels. The intense geomagnetic storm that
+began at around 30/1600Z, continued into the early stages of this
+period. Severe storm levels persisted from 31/0000Z through
+31/0900Z. Mostly active to major storm periods occurred through the
+latter half of the period. Solar radiation contamination on the ACE
+SWEPAM instrument finally ended at 31/0052Z. Solar wind speed was at
+an exceptionally high 1200 km/s, but has been in a gradual decline,
+ending the period at over 800 km/s. The prolonged periods of
+southward IMF Bz that occurred early in the period have ended. Bz
+has been mostly northward since 31/0200Z.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 249  SSN 266  Afr/Ap 065/093   X-ray Background C1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.8e+07   GT 10 MeV 7.0e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.40e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 7 6 7 5 5 4 3 4 Planetary 8 7 7 6 6 5 4 4 
+F.  Comments:  None
+

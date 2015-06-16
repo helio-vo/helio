@@ -1,0 +1,33 @@
+:Product: 20050121SGAS.txt
+:Issued: 2005 Jan 21 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 021 Issued at 0245Z on 21 Jan 2005
+This report is compiled from data received at SWO on 20 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0636 0701 0726  0720 N12W58 X7.1  2b        8400   II/IV           
+ 1939 1939 1939                       200                           
+B.  Proton Events:  The greater than 10 MeV proton event that started
+at 16/0210 UTC and reached maximum of 5040 PFU at 17/1750 UTC
+continues in progress: there was a new injection of particles which
+elevated flux levels to a secondary maximum of 1860 PFU at 20/0810 
+UTC. A greater than 100 MeV proton event began at 20/0650 UTC, 
+reached a maximum of 652 PFU at 0710 UTC, and continues in 
+progress.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to active levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 123  SSN 061  Afr/Ap 012/012   X-ray Background B8.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+08   GT 10 MeV 5.2e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+09 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 1 2 3 4 3 3 Planetary 2 1 1 2 4 4 3 3 
+F.  Comments:  None

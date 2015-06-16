@@ -1,0 +1,50 @@
+From sgas-owner  Fri Jul  7 02:51:31 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA01770
+	for sgas-sendit; Fri, 7 Jul 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 7 Jul 2000 02:50:04 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007070250.CAA01710@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 07 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 189 ISSUED AT 0245Z ON 07 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 06 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0240 0241 0242                       200                           
+ 0256 0257 0300  9062 S17W64       SF 580                           
+ 0518 0519 0519                       140                           
+ 0746 0752 0756                       110                           
+ 1035 1035 1035                       170                           
+ 1223 1236 1249  9070 N18E25 C4.3  SF               II              
+ 1549 1549 1550                       140                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS MOSTLY
+QUIET WITH ISOLATED UNSETTLED PERIODS OBSERVED AT HIGH LATITUDES
+LATE IN THE PERIOD.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 174  SSN 210  AFR/AP 006/007   X-RAY BACKGROUND B6.2
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.0E+04   GT 10 MEV 1.1E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 8.30E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 2 2 2 2 2 2 1 PLANETARY 2 2 2 2 2 2 3 2 
+F.  COMMENTS:  NONE
+

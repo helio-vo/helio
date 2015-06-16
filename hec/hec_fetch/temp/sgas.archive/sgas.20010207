@@ -1,0 +1,56 @@
+From sgas-owner  Wed Feb  7 02:50:09 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA08619
+	for sgas-sendit; Wed, 7 Feb 2001 02:50:02 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 7 Feb 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200102070250.CAA08576@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Feb 07 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 038 Issued at 0245Z on 07 Feb 2001
+This report is compiled from data received at SWO on 06 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  Available solar wind data suggest that active and unsettled
+periods observed today resulted from evolving conditions related to
+onset of coronal hole high speed stream effects.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM TUESDAY
+CRITERIA FOR A MAJOR WARMING WILL BE FULLFILLED WITHIN THE NEXT 5
+DAYS. POLAR VORTEX WILL SPLIT WITH CENTERS SOUTH OF ICELAND AND WEST
+SIBERIA, RESPECTIVELY. STRONG ALEUTIAN HIGH STAYS POLEWARDS OF
+ALASKA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 170  SSN 161  Afr/Ap 011/011   X-ray Background C1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.90e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 4 3 2 3 3 2 Planetary 2 1 4 3 2 3 2 3 
+F.  Comments:  AUTODIN transmission of the following bulletins will
+ cease on 
+15 Feb 01: FXXX01 KBOU, AXXX01 KBOU, AXXX02 KBOU, and AXXX03 KBOU. 
+The bulletins will still be available via the Internet at 
+www.afwin.afwa.af.mil for military users and www.sec.noaa.gov for 
+non-military users.  If web access is not acceptable or you have 
+any questions, please contact Mr. Jerry Sanders at DSN 271-1399 
+(COMM 402-294-1399), e-mail jerry.sanders@afwa.af.mil.
+

@@ -1,0 +1,61 @@
+From owner-sgas@proton.sel.noaa.gov Fri Oct 22 22:57:46 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA192717466; Fri, 22 Oct 1999 22:57:46 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 23 Oct 1999 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199910230255.CAA23368@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Oct 23 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 296 ISSUED AT 0245Z ON 23 OCT 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 22 OCT
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0825 0825 0826                       140                           
+ 0853 0000 0858                                     II              
+ 1147 1147 1147                       650                           
+ 1209 1209 1210                       2100                          
+ 1238 1240 1244                       680                           
+ 1300 0000 1319                                     II              
+ 1615 1616 1616                       160                           
+ 1640 1640 1640                       150                           
+ 1753 1754 1754                       410                           
+ 1836 1836 1837                       150                           
+ 1908 1908 1909                       430                           
+ 1924 1929 1935  8739 S11E47 C2.7  1F 680                           
+ 2140 2140 2140                       540                           
+ 2148 2148 2149                       130                           
+ 2329 2330 2330                       100                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  FIELD ACTIVITY VARIED FROM
+UNSETTLED TO SEVERE STORM LEVELS DUE TO CORONAL MASS EJECTION
+EFFECTS. THE MOST INTENSE ACTIVITY OCCURRED DURING 22/0500 - 0900Z
+WITH MAJOR TO SEVERE STORM LEVELS DETECTED AT MIDDLE AND HIGH
+LATITUDES. FIELD ACTIVITY GRADUALLY DECREASED TO UNSETTLED TO MINOR
+STORM LEVELS DURING THE SECOND HALF OF THE PERIOD.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 160  SSN 153  AFR/AP 054/087   X-RAY BACKGROUND C1.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.1E+06   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.70E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 6 6 7 5 4 4 3 3 PLANETARY 7 8 8 6 4 4 4 3 
+F.  COMMENTS:  NONE
+
+

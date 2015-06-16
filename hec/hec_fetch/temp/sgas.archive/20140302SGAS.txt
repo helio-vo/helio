@@ -1,0 +1,33 @@
+:Product: 0302SGAS.txt
+:Issued: 2014 Mar 02 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 061 Issued at 0245Z on 02 Mar 2014
+This report is compiled from data received at SWO on 01 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1318 1333 1340  1982        M1.1                                   
+ 1614 1614 1614                       200                           
+B.  Proton Events:  The greater than 10 MeV proton event which began
+at
+25/1355 UTC from the X4/2b flare was above S1 (Minor) solar
+radiation
+storm levels throughout the period, reaching a maximum
+daily value of 82
+pfu at 01/0005 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to unsettled levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 165  SSN 177  Afr/Ap 006/005   X-ray Background B9.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.0e+07   GT 10 MeV 4.1e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 2 2 2 2 2 2 Planetary 2 1 2 1 1 1 2 2 
+F.  Comments:  None

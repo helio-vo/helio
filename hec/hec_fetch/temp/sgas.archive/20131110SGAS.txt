@@ -1,0 +1,32 @@
+:Product: 1110SGAS.txt
+:Issued: 2013 Nov 10 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 314 Issued at 0245Z on 10 Nov 2013
+This report is compiled from data received at SWO on 09 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0420 0426 0429  1890 S14E15 X1.1  2b 65000  1000   II/IV           
+ 1046 1046 1047                       130                           
+ 1618 1618 1618                       190                           
+B.  Proton Events:  A slight enhancement continued in the greater
+than 10 MeV protons in association with the X1/2b flare on 08
+November, however it remained below the 10 pfu threshold.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to minor storm levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 148  SSN 095  Afr/Ap 014/022   X-ray Background B6.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+06   GT 10 MeV 7.0e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.20e+05 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 4 4 4 5 3 2 1 Planetary 3 5 4 5 5 3 2 1 
+F.  Comments:  Type IV radio sweep that began on 08 November
+associated with the X1/2b flare continued through 09 November which
+is the reason for the X-flare showing up on energetic events.

@@ -1,0 +1,31 @@
+:Product: 0303SGAS.txt
+:Issued: 2011 Mar 03 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 062 Issued at 0245Z on 03 Mar 2011
+This report is compiled from data received at SWO on 02 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0322 0322 0322                       180                           
+ 1118 1119 1119                       200                           
+ 1553 1553 1553                       110                           
+ 1958 1958 1958                       110                           
+ 2040 2040 2041                       140                           
+ 2344 2344 2344                       180                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet to active.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 113  SSN 083  Afr/Ap 012/017   X-ray Background B4.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+06   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.20e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 2 2 3 2 3 Planetary 4 4 3 2 3 3 3 3 
+F.  Comments:  None

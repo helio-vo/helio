@@ -1,0 +1,56 @@
+From sgas-owner  Tue Oct  3 02:50:16 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA19242
+	for sgas-sendit; Tue, 3 Oct 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 3 Oct 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200010030250.CAA19166@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Oct 03 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 277 Issued at 0245Z on 03 Oct 2000
+This report is compiled from data received at SWO on 02 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0001 0013 0028              M1.0                                   
+ 0248 0257 0313  9176 S09E07 C4.1  SF 400    23                     
+ 0317 0320 0321                       370                           
+ 1753 1801 1808  9177 N27W51 M1.4  1N                               
+ 1820 1820 1820                       210                           
+ 1959 2003 2024  9176 S09E00       1F 790    50                     
+ 2050 2050 2050                       120                           
+ 2233 2234 2236                       120                           
+ 2330 2330 2330                       220                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 203  SSN 190  Afr/Ap 011/011   X-ray Background C1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0E+05   GT 10 MeV 1.0E+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50E+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 2 2 3 4 3 3 Planetary 1 2 2 2 3 4 4 3 
+F.  Comments:  Effective 2 Oct 2000, SEC will issue its text products
+in mixed case vs. all upper case.  This change will be visible on all
+SEC product delivery systems except for teletype circuits.  Only the 
+case of the text in each product will change, not the format or 
+spacing within the product.  For details see our website at 
+SEC.NOAA.GOV/MIXEDCASE.HTML
+

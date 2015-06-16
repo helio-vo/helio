@@ -1,0 +1,61 @@
+From owner-srs@proton.sel.noaa.gov Wed Jul 30 11:03:00 1997
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA115744980; Wed, 30 Jul 1997 11:03:00 -0400
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Wed, 30 Jul 1997 15:02:57 GMT
+From: SESC <sel@proton.sel.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: srs
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1997 Jul 30 0035 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 211 ISSUED AT 0030Z ON 30 JUL 1997
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 29 JUL
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 29/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8064 N23W21   189  0000 BXO  06   03 BETA
+8066 N27E22   146  0000 AXX  00   01 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 29/2400Z JUL
+NMBR  LOCATION  LO
+8062  N28W91   260
+II. REGIONS DUE TO RETURN 30 JUL TO 01 AUG
+NMBR LAT    LO
+NONE
+
+
+From owner-srs@proton.sel.noaa.gov Wed Jul 30 20:35:17 1997
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA112659317; Wed, 30 Jul 1997 20:35:17 -0400
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Wed, 30 Jul 1997 18:35:11 -0600
+From: SESC <sel@proton.sel.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1997 Jul 31 0035 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 212 ISSUED AT 0030Z ON 31 JUL 1997
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 30 JUL
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 30/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8066 N24E09   146  0000 AXX  01   02 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 30/2400Z JUL
+NMBR  LOCATION  LO
+8064  N23W34   189
+II. REGIONS DUE TO RETURN 31 JUL TO 02 AUG
+NMBR LAT    LO
+NONE
+
+

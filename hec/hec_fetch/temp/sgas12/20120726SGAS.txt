@@ -1,0 +1,27 @@
+:Product: 0726SGAS.txt
+:Issued: 2012 Jul 26 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 208 Issued at 0245Z on 26 Jul 2012
+This report is compiled from data received at SWO on 25 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  The greater than 10 MeV proton flux at
+geosynchronous was below event threshold, but was enhanced
+through the period.
+C.  Geomagnetic Activity Summary:  Quiet to unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 105  SSN 066  Afr/Ap 006/007   X-ray Background B3.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.7e+06   GT 10 MeV 6.5e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W76 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.20e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 3 1 2 2 2 2 1 1 Planetary 3 1 2 2 2 2 1 1 
+F.  Comments:  None

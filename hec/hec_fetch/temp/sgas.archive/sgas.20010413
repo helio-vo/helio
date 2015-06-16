@@ -1,0 +1,53 @@
+From sgas-owner  Fri Apr 13 02:50:09 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA10850
+	for sgas-sendit; Fri, 13 Apr 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 13 Apr 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104130250.CAA10745@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 13 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 103 Issued at 0245Z on 13 Apr 2001
+This report is compiled from data received at SWO on 12 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0256 0304 0329  9415 S22W38 M1.3  1n                               
+ 0840 0841 0841                       120                           
+ 0939 1028 1049  9415 S19W43 X2.0  Sf 8200   1200   II/IV           
+ 1145 1146 1159                       130                           
+ 1210 1216 1232                       100                           
+ 1956 1956 1957                       160                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 0850 UTC on 10 April continues in progress. The maximum was 355
+PFU at 11/2055 UTC and the flux at the end of the day on 12 April
+was 31 PFU. A greater than 100 MeV proton event began at 12/1305
+UTC, attained maximum of 1.5 PFU at 12/1725 UTC, and ended at
+12/2010 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to severe storm levels.
+D.  Stratwarm:  none
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 149  SSN 159  Afr/Ap 045/038   X-ray Background B8.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+08   GT 10 MeV 4.3e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.60e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 7 5 5 3 3 3 2 1 Planetary 7 6 5 5 3 3 1 2 
+F.  Comments:  None
+

@@ -1,0 +1,66 @@
+From sgas-owner  Thu Dec 27 02:50:14 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA04585
+	for sgas-sendit; Thu, 27 Dec 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 27 Dec 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112270250.CAA04466@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Dec 27 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 361 Issued at 0245Z on 27 Dec 2001
+This report is compiled from data received at SWO on 26 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0432 0540 0647  9742 N08W54 M7.14 1b        2600   II/IV           
+ 1025 1025 1025                       170                           
+ 1222 1226 1229  9742 N10W68 M1.8  1f        71                     
+ 1402 1402 1402                       320                           
+ 1409 1412 1415  9742 N12W70 C7.4  Sf 430                           
+ 1458 1458 1458                       300                           
+ 1606 1606 1606                       140                           
+ 1713 1718 1731  9742 N10W72 M1.3  Sf                               
+ 2111 2115 2119  9748 S10W56 M1.2  Sf                               
+B.  Proton Events:  Greater than 100 MeV and 10 MeV proton events
+occurred in association with today's major flare. The greater than
+100 MeV event started at 26/0555 UTC, reached a peak of 50 pfu at
+26/0720 UTC, and ended at 26/1935 UTC. The greater than 10 MeV event
+started at 26/0605 UTC, reached a peak of 779 pfu at 26/1115 UTC,
+and continues in progress.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM WEDNESDAY
+STRONG STRATOSPHERIC WARMING IN THE MIDDLE AND UPPER STRATOSPHERE,
+INTENSIFYING.  TEMPERATURE GRADIENT REVERSED BETWEEN 60N AND THE
+POLE FROM 10 TO 1 HPA, WITHIN 5 DAYS EXPECTED TO BE REVERSED BETWEEN
+50 TO 5 HPA.  EASTERLY ZONAL REAN WINDS AT 60N FROM 3 TO 1 HPA,
+WITHIN 3 DAYS EXPECTED TO PROPAGATE DOWN TO 5 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 268  SSN 290  Afr/Ap 008/007   X-ray Background C2.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.8e+07   GT 10 MeV 2.4e+07 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.50e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 1 1 2 4 3 2 Planetary 2 0 0 1 2 3 3 2 
+F.  Comments:  The particle event discussed in part B. was associated
+with a GLE starting at about 26/0600 UTC and reaching a maximum at
+about 26/0620 UTC (8% at Apatity, Oulu, and McMurdo, and 2% at
+Moscow). A Polar Cap Absorption event (PCA) also occurred, reaching
+a peak absorption of about 9 dB at 26/1115 UTC and continuing in
+progress at this writing.
+

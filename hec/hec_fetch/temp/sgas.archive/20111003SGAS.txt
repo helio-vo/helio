@@ -1,0 +1,41 @@
+:Product: 1003SGAS.txt
+:Issued: 2011 Oct 03 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 276 Issued at 0245Z on 03 Oct 2011
+This report is compiled from data received at SWO on 02 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+       
+ 0037 0050 0059  1305 N09W12 M3.9  1n 270                           
+ 0045 0045 0045                       1800   100                    
+ 0100 0100 0100                       130                           
+ 0104 0105 0105                       330                           
+ 0420 0421 0421                       540                           
+ 0852 0852 0852                       190                           
+ 0852 0852 0852                       170                           
+ 1133 1133 1133                       110                           
+ 1719 1723 1726  1302 N09W56 M1.3  Sf                               
+ 1912 1912 1912                       140                           
+ 2210 2210 2210                       110                           
+ 2241 2317 2240  1302 N15W59       1f                  IV           
+ 2327 2327 2328                       120                           
+ 2329 2329 2330                       280                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged
+between quiet and active conditions due to intermittent periods of
+Bz south from coronal hole HSS effects.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 131  SSN 092  Afr/Ap 007/011   X-ray Background B4.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.7e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.70e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 3 3 4 2 3 1 2 Planetary 1 2 3 3 3 3 2 3 
+F.  Comments:  None

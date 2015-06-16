@@ -1,0 +1,51 @@
+From sgas-owner  Sat Jan 27 02:50:14 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA21183
+	for sgas-sendit; Sat, 27 Jan 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 27 Jan 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200101270250.CAA21070@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Jan 27 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 027 Issued at 0245Z on 27 Jan 2001
+This report is compiled from data received at SWO on 26 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0553 0607 0613  9325 N10E63 M1.0  1b 350    79     II              
+ 0850 0856 0904  9313 S07W28 C1.3  Sf 130    30                     
+ 1024 1024 1025                       210                           
+ 1150 1206 1220  9320 S23W57 C1.6  Sf               II              
+ 2006 2012 2016  9313 S05W35 C2.4  Sf 130                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet
+except for a short period of active conditions around 0900UTC.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM FRIDAY
+MINOR WARMING CONTINUES WITH THE HIGHEST TEMPERATURE AT
+10 HPA OVER EASTERN SIBERIA SLOPING WESTWARDS WITH HEIGHT
+TO SOUTHERN GREENLAND (PLUS 37C AT 1 HPA) WITHIN THE NEXT
+5 DAYS.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 166  SSN 157  Afr/Ap 009/010   X-ray Background B5.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.6e+06   GT 10 MeV 2.6e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.60e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 2 4 2 2 2 2 2 Planetary 2 2 4 3 2 2 2 3 
+F.  Comments:  None
+

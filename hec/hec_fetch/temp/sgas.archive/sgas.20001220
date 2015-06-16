@@ -1,0 +1,54 @@
+From sgas-owner  Wed Dec 20 02:50:12 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA14551
+	for sgas-sendit; Wed, 20 Dec 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 20 Dec 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200012200250.CAA14417@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Dec 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 355 Issued at 0245Z on 20 Dec 2000
+This report is compiled from data received at SWO on 19 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1257 1257 1258                       240                           
+ 1411 1415 1419  9269 N15W12 C3.0  Sf 190                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+quiet at mid latitudes, and quiet to unsettled at high latitudes for
+the past 24 hours.
+D.  Stratwarm:  STRATWARM ALERT/TUESDAY/STRATWARM EXISTS.
+STRONG STRATOSPHERIC MINOR WARMING CONTINUES.
+SPLITTED VORTEX IN THE MIDDLE STRATOSPHERE WITH A
+MAJOR CENTER OVER CANADA AND A MINOR CENTER OVER
+WESTERN SIBERIA, WEAKENING AT 10HPA. THE ANTICYCLONE OVER 
+THE NORTH ATLANTIC, MOVING EASTWARD, INTENSIFYING.  
+THE MINOR WARMING OVER GREENLAND, MOVING NORTHEASTWARD.  
+THE WARM REGION OVER ASIA, WEAKENING IN THE UPPER STRATOSPHERE 
+REVERSED TEMPERATURE GRADIENT BETWEEN 60N AND THE POLE.  
+A WARM REGION OVER THE MEDITERRANEAN SEA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 199  SSN 163  Afr/Ap 005/005   X-ray Background C1.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.4e+04   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.00e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 1 2 2 2 2 1 Planetary 2 1 1 2 2 3 3 1 
+F.  Comments:  None
+

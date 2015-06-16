@@ -1,0 +1,5 @@
+BEGIN;
+DELETE FROM stereoa_impactplastic_sir;
+SELECT setval('stereoa_impactplastic_sir_hec_id_seq',1); 
+COPY stereoa_impactplastic_sir (comp_id,id,flag,spacecraft,time_start,time_end,time_pt_max,pt_max,b_max,np_max,v_min,v_max) FROM '/var/www/hec/manLoaded/stereoa_impactplastic_sir.txt' with delimiter '|' null as ' ' csv header;
+COMMIT;

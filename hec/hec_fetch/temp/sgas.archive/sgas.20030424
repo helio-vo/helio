@@ -1,0 +1,51 @@
+From sgas-owner@sec.noaa.gov  Thu Apr 24 02:50:12 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h3O2o5N11301
+	for sgas-sendit; Thu, 24 Apr 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 24 Apr 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200304240250.h3O2o2111145@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Apr 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 114 Issued at 0245Z on 24 Apr 2003
+This report is compiled from data received at SWO on 23 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0039 0106 0115  0338 N22W25 M5.1  1n 12000  380    II              
+ 0128 0130 0131                       260                           
+ 0156 0201 0207                       140              IV           
+ 0313 0322 0335  0339        C2.2     470                           
+ 1329 1329 1330                       230                           
+ 1536 1556 1611  0338 N20W22 M2.0  1f        66                     
+ 1750 1750 1750                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. High speed solar wind stream continues, with speed declining
+to below 500 km/s by the end of the period.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 133  SSN 152  Afr/Ap 016/018   X-ray Background B4.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+06   GT 10 MeV 2.5e+04 p/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.90e+08 e/(cm2-ster-day)
+(GOES-10 satellite synchronous orbit W135 degrees)
+3 Hour K-indices:
+Boulder 1 4 4 3 3 3 3 3 Planetary 2 4 5 4 3 3 3 3 
+F.  Comments:  The greater than 2 MeV electrons at geosynchronous
+orbit reached high levels again today.
+

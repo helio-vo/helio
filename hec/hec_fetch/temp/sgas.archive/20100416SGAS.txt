@@ -1,0 +1,25 @@
+:Product: 0416SGAS.txt
+:Issued: 2010 Apr 16 0306 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 106 Issued at 0245Z on 16 Apr 2010
+This report is compiled from data received at SWO on 15 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  ???
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 075  SSN 000  Afr/Ap 005/008   X-ray Background A2.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+05   GT 10 MeV 1.8e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W80 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.00e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W80 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 1 1 2 1 1 Planetary 4 3 1 1 1 1 0 1 
+F.  Comments:  None

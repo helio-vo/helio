@@ -1,0 +1,87 @@
+HESSI Flare List  (generated 25-Sep-2012 01:16)
+
+Total # flares: 69136  Time range: 12-Feb-2002 21:29:56.000 - 31-Aug-2012 23:58:56.000
+ 
+    Flare     Start time        Peak      End      Dur   Peak     Total      Energy X Pos Y Pos Radial   AR          Flags          
+                                                     s    c/s    Counts         keV  asec  asec   asec                              
+
+  9090314  3-Sep-2009 22:40:08 22:42:10 22:42:16   128     84     28464         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9090417  4-Sep-2009 19:20:36 19:22:02 19:22:12    96     88     19968         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9090418  4-Sep-2009 20:58:28 20:59:54 21:00:00    92     88     19920         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9090605  6-Sep-2009 20:51:12 20:52:46 20:52:56   104     80     22272         3-6     0     0      0    0  A0 PE PS Q1              
+  9090706  7-Sep-2009 19:09:36 19:10:58 19:11:04    88     88     18552         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9090707  7-Sep-2009 20:47:36 20:49:38 20:49:48   132     84     29352         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9090805  8-Sep-2009 17:01:40 17:04:06 17:12:40   660     96    179280        6-12   879   249    914 1025  A0 P1                    
+  9090808  8-Sep-2009 20:44:08 20:46:34 20:46:40   152     80     32616         3-6     0     0      0    0  A0 PE PS Q1              
+  9091107 11-Sep-2009 12:01:04 12:01:34 12:06:00   296    128     48144         3-6     0     0      0    0  A0 PS                    
+  9091320 13-Sep-2009 15:31:56 15:33:14 15:33:20    84     84     17664         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9091605 16-Sep-2009 16:58:52 17:01:06 17:01:12   140     80     30360         3-6     0     0      0    0  A0 PE PS Q1              
+  9091802 18-Sep-2009 10:05:04 10:05:34 10:06:04    60    168     11664         3-6     0     0      0    0  A0 NS                    
+  9092005 20-Sep-2009 15:06:12 15:08:26 15:08:32   140     88     32736         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092010 20-Sep-2009 21:56:32 21:57:38 21:57:44    72     92     16728         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092009 20-Sep-2009 23:37:28 23:38:50 23:38:56    88     84     20064         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092105 21-Sep-2009 13:24:36 13:26:02 13:26:08    92     88     19848         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092108 21-Sep-2009 21:53:32 21:54:42 21:54:48    76     88     16920         3-6     0     0      0    0  A0 GE PE PS Q3 SE        
+  9092109 21-Sep-2009 23:34:32 23:37:50 23:39:04   272    224    126326         3-6     0     0      0    0  a0 a1 A3 GD GE PE PS Q3  
+  9092211 22-Sep-2009 21:50:36 21:51:46 21:51:52    76     80     16296         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092212 22-Sep-2009 23:31:44 23:35:18 23:39:28   464    128    193512        6-12   422  -192    464    0  A0 P1 PE Q1              
+  9092311 23-Sep-2009 00:59:00 00:59:22 01:01:52   172     24     20808        6-12  -719  -528    892 1026  A0 P1                    
+  9092301 23-Sep-2009 04:02:04 04:04:58 04:11:44   580    272    458880       12-25  -701  -538    884 1026  A0 DR P1 Q1              
+  9092310 23-Sep-2009 21:47:40 21:48:58 21:49:04    84     88     19536         3-6     0     0      0    0  A0 PE PS Q1              
+  9092401 24-Sep-2009 00:16:04 00:17:54 00:22:28   384     38     57096        6-12  -553  -599    816 1026  A0 P1                    
+  9092406 24-Sep-2009 13:13:36 13:15:46 13:15:52   136     92     33240         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092409 24-Sep-2009 21:44:40 21:46:10 21:46:16    96     92     22632         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092501 25-Sep-2009 00:49:28 00:54:58 01:05:24   956    912   2766048       12-25  -434  -595    737 1026  A0 DR P1 Q1              
+  9092514 25-Sep-2009 01:05:24 01:06:06 01:13:00   456    352    525072        6-12  -424  -603    737 1026  A0 P1                    
+  9092515 25-Sep-2009 08:55:00 08:55:58 08:58:40   220     42     47520        6-12  -364  -600    702 1026  A0 DR P1 Q1              
+  9092513 25-Sep-2009 21:41:48 21:44:50 21:44:56   188    224    108499         3-6     0     0      0    0  a0 a1 A3 GE PE PS Q2     
+  9092607 26-Sep-2009 13:07:24 13:10:26 13:10:32   188     88     46392         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092614 26-Sep-2009 21:38:52 21:42:26 21:47:32   520    152    254760         3-6     0     0      0    0  a0 A1 PE PS Q1           
+  9092714 27-Sep-2009 00:43:28 00:44:26 00:45:36   128     26     16224        6-12   -74  -605    609    0  A0 DR P1 Q1              
+  9092713 27-Sep-2009 21:36:04 21:38:34 21:42:12   368     60     82248        6-12   419  -203    466    0  A0 P1 PE Q1              
+  9092806 28-Sep-2009 09:43:00 09:44:18 09:44:24    84     84     16560         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092820 28-Sep-2009 11:20:52 11:23:06 11:23:12   140    108     34656         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9092909 29-Sep-2009 11:17:32 11:19:46 11:19:52   140     84     31584         3-6     0     0      0    0  A0 GE PE PS Q2           
+  9093011 30-Sep-2009 19:46:08 19:50:18 19:55:32   564    192    321269        6-12   466  -262    535    0  a0 a1 A3 P1 PE Q1        
+  9093012 30-Sep-2009 20:51:48 20:54:22 20:58:52   424     26     53928        6-12   864   345    930 1027  A0 DR P1 Q1              
+  9093013 30-Sep-2009 21:01:56 21:02:26 21:07:48   352     26     48768        6-12   871   340    935 1027  A0 DR P1 Q1              
+
+Notes: 
+  Note that only events with non-zero position and energy range not equal to 3-6 keV are confirmed as solar sources.
+  Events which have no position and show up mostly in the front detectors, but were not able to be imaged 
+    are flagged as "PS".
+  Events which do not have valid position are only confirmed to be non-solar if the NS flag is set.
+  Peak Rate:  peak counts/second in energy range 6-12 keV, averaged over active collimators, including background.
+  Total Counts:  counts in energy range 6-12 keV integrated over duration of flare summed over all subcollimators,
+    including background.
+  Energy:  the highest energy band in which the flare was observed.
+  Radial Distance:  distance from Sun center
+  Quality Codes: Qn, where n is the total number of data gap, SAA, particle, eclipse or decimation flags set for event.
+    n ranges from 0 to 11.  Use care when analyzing the data when the quality is not zero.
+
+Flare Flag Codes: 
+  a0 - In attenuator state 0 (None) sometime during flare
+  a1 - In attenuator state 1 (Thin) sometime during flare
+  a2 - In attenuator state 2 (Thick) sometime during flare
+  a3 - In attenuator state 3 (Both) sometime during flare
+  An - Attenuator state (0=None, 1=Thin, 2=Thick, 3=Both) at peak of flare
+  DF - Front segment counts were decimated sometime during flare
+  DR - Rear segment counts were decimated sometime during flare
+  ED - Spacecraft eclipse (night) sometime during flare
+  EE - Flare ended in spacecraft eclipse (night)
+  ES - Flare started in spacecraft eclipse (night)
+  FE - Flare ongoing at end of file
+  FR - In Fast Rate Mode
+  FS - Flare ongoing at start of file
+  GD - Data gap during flare
+  GE - Flare ended in data gap
+  GS - Flare started in data gap
+  MR - Spacecraft in high-latitude zone during flare
+  NS - Non-solar event
+  PE - Particle event: Particles are present
+  PS - Possible Solar Flare; in front detectors, but no position
+  Pn - Position Quality: P0 = Position is NOT valid, P1 = Position is valid
+  Qn - Data Quality: Q0 = Highest Quality, Q11 = Lowest Quality
+  SD - Spacecraft was in SAA sometime during flare
+  SE - Flare ended when spacecraft was in SAA
+  SS - Flare started when spacecraft was in SAA

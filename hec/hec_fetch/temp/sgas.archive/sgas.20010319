@@ -1,0 +1,50 @@
+From sgas-owner  Mon Mar 19 02:50:10 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA17049
+	for sgas-sendit; Mon, 19 Mar 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 19 Mar 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200103190250.CAA16883@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Mar 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 078 Issued at 0245Z on 19 Mar 2001
+This report is compiled from data received at SWO on 18 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0516 0524 0531  9373 S04W28 C1.9  Sf 110                           
+ 0845 0850 0853  9373 S05W27 C3.1  Sf 39            II              
+ 2341 2342 2342                       160                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Stratwarm alert exists stratwarm Sunday
+Lower stratosphere circulation remains disturbed as
+a result of the major warming.  Reversed temperature
+gradient up to 20 hpa.  The vortex is weakening and
+becoming less disturbed.  Slow transition to summer
+conditions most probable.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 140  SSN 091  Afr/Ap 007/007   X-ray Background B2.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.5e+05   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.50e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 1 1 1 1 2 Planetary 3 3 2 2 1 2 2 2 
+F.  Comments:  None
+

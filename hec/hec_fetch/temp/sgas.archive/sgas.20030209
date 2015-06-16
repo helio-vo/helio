@@ -1,0 +1,48 @@
+From sgas-owner@sec.noaa.gov  Sun Feb  9 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h192o5M23158
+	for sgas-sendit; Sun, 9 Feb 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 9 Feb 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200302090250.h192o3923011@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Feb 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 040 Issued at 0245Z on 09 Feb 2003
+This report is compiled from data received at SWO on 08 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+quiet to unsettled with an isolated active period between 08/1200 -
+1500Z.
+D.  Stratwarm:  STRATWARM ALERT / SATURDAY / STRATWARM EXISTS.
+IN THE MIDDLE AND UPPER STRATOSPHERE, STILL DISTURBED TEMPERATURE
+DISTRIBUTION WITH A DECAYING WARM REGION OVER NORTHERN SIBERIA. 
+THIS STILL LEADS TO A REVERSED TEMPERATURE GRADIENT BETWEEN 60N AND
+THE POLE FROM 3 TO 1 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 139  SSN 162  Afr/Ap 012/013   X-ray Background B3.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.8e+05   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.30e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 2 3 2 3 3 2 3 Planetary 3 2 3 3 4 3 3 3 
+F.  Comments:  None
+

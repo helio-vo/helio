@@ -1,0 +1,66 @@
+From sgas-owner@sec.noaa.gov  Wed Jun 11 02:50:12 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h5B2o5s02745
+	for sgas-sendit; Wed, 11 Jun 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 11 Jun 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200306110250.h5B2o2e02631@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jun 11 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 162 Issued at 0245Z on 11 Jun 2003
+This report is compiled from data received at SWO on 10 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000 0000 0014                                        IV           
+ 0024 0032 0043  0375 N14W45       Sf 2200                          
+ 0029 0030 0031                       110                           
+ 0033 0033 0033                       350                           
+ 0210 0214 0217  0375 N14W45 C3.0  Sf 200                           
+ 0248 0254 0301  0375 N13W41 M2.0  1n                               
+ 0449 0449 0449                       110                           
+ 0552 0552 0552                       1800                          
+ 0653 0700 0702  0375 N13W30       Sf 260                           
+ 0834 0837 0840  0375 N12W44 M2.7  1n 370    110                    
+ 0916 0916 0918                       130                           
+ 0931 0934 0934                       200                           
+ 0942 0944 0946                       120                           
+ 0949 0950 0950                       300                           
+ 1055 1112 1115  0375 N11W45 M5.1  2n 970    50                     
+ 1244 1300 1317  0375        M2.2     61                            
+ 1408 1436 1442  0375 N10W45 M2.2  Sf                               
+ 1620 1624 1627  0375 N13W36 M1.0  Sf 590    55                     
+ 1628 1630 1632  0375        M3.9     8300   37                     
+ 1808 1815 1826  0375        M5.6                                   
+ 2112 2112 2112                       150                           
+ 2118 2118 2121                       470                           
+ 2319 0002 0012  0375        X1.3     63     68                     
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+unsettled to minor storm levels. This activity is due to continued
+coronal hole high speed stream effects.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 177  SSN 207  Afr/Ap 029/027   X-ray Background C2.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W119 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 5 5 4 4 4 4 Planetary 4 3 6 4 4 4 4 3 
+F.  Comments:  None.
+

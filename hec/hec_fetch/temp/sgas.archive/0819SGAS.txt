@@ -1,0 +1,30 @@
+:Product: 0819SGAS.txt
+:Issued: 2006 Aug 19 0247 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 231 Issued at 0245Z on 19 Aug 2006
+This report is compiled from data received at SWO on 18 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1056 1056 1057                       180                           
+ 1401 1401 1402                       100                           
+ 1518 1518 1518                       130                           
+ 1757 1757 1757                       100                           
+ 1800 1800 1800                       460                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 089  SSN 029  Afr/Ap 010/012   X-ray Background A7.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+06   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.90e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 4 3 2 1 3 2 3 Planetary 2 4 2 2 2 3 2 3 
+F.  Comments:  None

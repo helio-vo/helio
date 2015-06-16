@@ -1,0 +1,54 @@
+From sgas-owner  Fri Mar 24 02:50:24 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA18009
+	for sgas-sendit; Fri, 24 Mar 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 24 Mar 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200003240250.CAA17872@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 084 ISSUED AT 0245Z ON 24 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 23 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0027 0030 0033              M1.3                                   
+ 0509 0509 0509                       2200                          
+ 0654 0654 0655                       180                           
+ 1045 1046 1046                       200                           
+ 1132 1214 1230  8910 N15W69 M2.0  SF                               
+ 1250 1252 1252                       680                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+ACTIVE.
+D.  STRATWARM:  STRATWARM ALERT EXISTS STRATWARM THURSDAY
+MINOR WARMING OVER EUROPE/SIBERIA AND THE WHOLE
+ARCTIC AT 10 HPA CONTINUES, WEAKENING. TEMPERATURE
+GRADIENT REVERSED BETWEEN 60N AND THE POLE IN
+THE WHOLE STRATOSPHERE ABOVE 50 HPA.  MEAN ZONAL
+WIND AT 60N SLOWLY INCREASING AGAIN AND IS FROM
+EAST AT 1 HPA, BUT WEAKENING.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 224  SSN 236  AFR/AP 012/011   X-RAY BACKGROUND C1.6
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.9E+06   GT 10 MEV 5.0E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.00E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 2 3 3 4 2 2 PLANETARY 2 2 2 3 3 3 3 2 
+F.  COMMENTS:  NONE
+

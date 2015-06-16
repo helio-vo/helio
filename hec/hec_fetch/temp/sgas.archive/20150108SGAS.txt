@@ -1,0 +1,26 @@
+:Product: 0108SGAS.txt
+:Issued: 2015 Jan 08 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 008 Issued at 0245Z on 08 Jan 2015
+This report is compiled from data received at SWO on 07 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0509 0509 0509                       270                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+quiet to severe storm levels for the past 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 147  SSN 106  Afr/Ap 023/033   X-ray Background B7.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.9e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.40e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 1 1 5 6 4 2 2 3 Planetary 2 1 6 7 4 3 2 4 
+F.  Comments:  None

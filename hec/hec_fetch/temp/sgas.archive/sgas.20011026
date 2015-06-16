@@ -1,0 +1,61 @@
+From sgas-owner  Fri Oct 26 02:50:13 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA15945
+	for sgas-sendit; Fri, 26 Oct 2001 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 26 Oct 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200110260250.CAA15824@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Oct 26 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 299 Issued at 0245Z on 26 Oct 2001
+This report is compiled from data received at SWO on 25 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0400 0400 0400                       100                           
+ 0404 0404 0404                       130                           
+ 1147 1148 1148                       120                           
+ 1247 1247 1248                       210                           
+ 1442 1502 1528  9672 S16W21 X1.3  2b 11000  540    II/IV           
+ 1615 1626 1738                       3400                          
+ 1649 1703 1750                       1800                          
+ 1740 1742 1746                       120                           
+ 1857 1857 1901                       1600                          
+ 1919 1923 1931  9678 N07E20 C7.5  Sf 1000                          
+ 1959 2004 2008                       1000                          
+ 2223 2224 2224                       310                           
+ 2250 2254 2258              C6.1     110                           
+ 2342 2348 2354  9678 N08E18 C3.8  Sf 550                           
+B.  Proton Events:  Greater than 10 MeV protons are slightly elevated
+above background.
+C.  Geomagnetic Activity Summary:  Geomagnetic activity was at quiet
+to unsettled levels.  Shock arrival from the two CMEs (M6/2N on
+22/1502 UTC and X1/2B on 22/1759 UTC) occurred at 25/0850 UTC with a
+sudden impulse of 22 nT recorded on the Boulder magnetometer.  A
+north directed Bz component to the interplanetary magnetic field
+resulted in only unsettled conditions.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 239  SSN 225  Afr/Ap 006/007   X-ray Background C1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+07   GT 10 MeV 1.3e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 0 3 2 3 2 2 1 Planetary 0 0 2 2 2 3 3 2 
+F.  Comments:  None
+

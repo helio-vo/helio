@@ -1,0 +1,48 @@
+From owner-sgas@proton.sel.noaa.gov Sat Dec 26 21:56:06 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA169977366; Sat, 26 Dec 1998 21:56:06 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sun, 27 Dec 1998 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199812270255.CAA22247@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Dec 27 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 361 ISSUED AT 0245Z ON 27 DEC 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 26 DEC
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0019 0019 0019                       120                           
+ 0044 0047 0049              C1.3     1000   36                     
+ 0554 0554 0554                       300                           
+ 0555 0559 0601  8422 S21E64 C7.8  SF 6900                          
+ 1936 1940 1948  8421 N28E46       SF 120                           
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+QUIET TO MINOR STORM LEVELS. THE MOST DISTURBED PERIOD WAS FROM
+26/0300-1500Z.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 145  SSN 100  AFR/AP 016/016   X-RAY BACKGROUND B8.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 8.3E+05   GT 10 MEV 1.6E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.80E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 4 3 5 2 1 2 PLANETARY 1 4 4 3 4 2 2 3 
+F.  COMMENTS:  NONE.
+
+

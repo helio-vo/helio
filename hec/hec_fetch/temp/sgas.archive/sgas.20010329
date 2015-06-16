@@ -1,0 +1,55 @@
+From sgas-owner  Thu Mar 29 02:50:15 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA19520
+	for sgas-sendit; Thu, 29 Mar 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 29 Mar 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200103290250.CAA19419@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Mar 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 088 Issued at 0245Z on 29 Mar 2001
+This report is compiled from data received at SWO on 28 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0155 0158 0206  9393 N14E05 M1.1  Sf 1000                          
+ 0356 0356 0357                       1200                          
+ 0809 0809 0810                       750                           
+ 0942 0947 0953  9393 N17E05 M1.3  Sn 190                           
+ 1121 1240 1306  9393 N18E02 M4.3  Sf 1200   78                     
+ 1149 1150 1201  9402 N14W04       Sf 5300   250                    
+ 1357 0000 0114                                     II              
+ 1817 1817 1817                       690                           
+ 1858 1909 1924  9393 N14W05 M1.5  1f                               
+ 2218 2247 2255  9393 N17W01 M1.6  1n 330    130                    
+ 2235 2237 2238                       980                           
+ 2325 2330 2334  9393 N15W07 M2.2  Sn 990    70                     
+ 2349 2350 2350                       840    100                    
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quit to
+major storm conditions.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 274  SSN 352  Afr/Ap 024/031   X-ray Background C2.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.3e+06   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 5 5 5 4 2 3 Planetary 2 2 4 6 6 4 3 4 
+F.  Comments:  None
+

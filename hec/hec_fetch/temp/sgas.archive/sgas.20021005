@@ -1,0 +1,54 @@
+From sgas-owner@sec.noaa.gov  Sat Oct  5 02:50:12 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g952o6H16765
+	for sgas-sendit; Sat, 5 Oct 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 5 Oct 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210050250.g952o2H16582@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Oct 05 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 278 Issued at 0245Z on 05 Oct 2002
+This report is compiled from data received at SWO on 04 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0039 0043 0053  0137 S19W07 M1.0  Sf                               
+ 0133 0133 0133                       340                           
+ 0534 0538 0541  0137 S19W09 M4.0  1n        90                     
+ 1054 1105 1109  0137 S20W10 M3.5  1n                               
+ 1243 1255 1307  0139 N08E49 M1.2  1f 52     38     II              
+ 1332 1332 1332                       130                           
+ 1704 1711 1715  0137 S21W16 M1.2  Sf                               
+ 2232 2243 2251  0139 N13E43 M2.7  Sf 5300   140    II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+predominantly active to major storm levels with an isolated severe
+storm period between 04/00 - 03Z.  Though solar wind speed remains
+below 450 km/s, the Bz component of the interplanetary magnetic
+field was sustained southward for the entire period, ranging -2 to
+-12nT. The storm was gradually subsiding by the end of the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 158  SSN 098  Afr/Ap 035/048   X-ray Background C1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.0e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.00e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 7 4 5 4 4 4 3 3 Planetary 7 5 6 5 4 3 4 4 
+F.  Comments:  None
+

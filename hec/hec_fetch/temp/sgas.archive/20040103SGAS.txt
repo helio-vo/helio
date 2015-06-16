@@ -1,0 +1,33 @@
+:Product: 20040103SGAS.txt
+:Issued: 2004 Jan 03 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 003 Issued at 0245Z on 03 Jan 2004
+This report is compiled from data received at SWO on 02 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0116 0116 0118                       590                           
+ 0309 0309 0309                       1100                          
+ 0432 0432 0432                       500                           
+ 0540 0540 0540                       510                           
+ 0640 0640 0640                       540                           
+ 2156 2157 2158                       1000                          
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.
+D.  Stratwarm:  STRATWARM ALERT/FRIDAY/STRATWARM EXISTS.
+A STRONG WARMING OVER ASIA/ EASTERN EUROPW FUTHER INTENSIFIES AND IS
+FORECAST TO DEVELOPE INTO A MAJOR WARMING.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 117  SSN 051  Afr/Ap 010/013   X-ray Background B3.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.9e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W104 degrees)
+Daily Electron Fluence
+GT 2 MeV 8.80e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 2 3 3 2 2 Planetary 3 2 2 2 3 4 3 3 
+F.  Comments:  None

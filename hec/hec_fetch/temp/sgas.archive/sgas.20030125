@@ -1,0 +1,50 @@
+From sgas-owner@sec.noaa.gov  Sat Jan 25 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h0P2o5e05086
+	for sgas-sendit; Sat, 25 Jan 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 25 Jan 2003 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200301250250.h0P2o3S04970@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Jan 25 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 025 Issued at 0245Z on 25 Jan 2003
+This report is compiled from data received at SWO on 24 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0312 0327 0340  0266 S22E10 M1.9  1n 7200   97     II/IV           
+ 0342 0343 0348                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  The effects from a geo-effective coronal hole
+continued today and produced an isolated active condition early in
+the period.  Solar wind velocity increased to near 800 km/s around
+24/1400 UTC.  The greater than 2 MeV electron flux at
+geo-synchronous orbit exceeded event threshold today.
+D.  Stratwarm:  STRATWARM ALERT/FRIDAY/STRATWARM EXISTS
+STILL DISTURBED STRATOSPHERE.  REVERSED TEMPERATURE GRADIENT BETWEEN
+60N AND THE POLE AT 5 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 130  SSN 129  Afr/Ap 015/015   X-ray Background B4.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+06   GT 10 MeV 1.2e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 2 3 3 3 3 3 3 Planetary 4 2 2 3 3 4 3 3 
+F.  Comments:  None
+

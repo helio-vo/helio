@@ -1,0 +1,49 @@
+:Product: 20040331SGAS.txt
+:Issued: 2004 Mar 31 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 091 Issued at 0245Z on 31 Mar 2004
+This report is compiled from data received at SWO on 30 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0126 0126 0126                       110                           
+ 0138 0138 0138                       170                           
+ 0151 0156 0158  0582 N14E12 C5.7  Sf 2800   53                     
+ 0345 0345 0350  0582 N15E12       Sf 100                           
+ 0350 0352 0352                       230                           
+ 0411 0413 0413                       130                           
+ 0419 0419 0420                       140                           
+ 0520 0525 0528              C3.3     1700   32                     
+ 0734 0734 0734                       100                           
+ 0745 0749 0752                       320                           
+ 0754 0754 0754                       270                           
+ 0759 0759 0759                       180                           
+ 0812 0812 0812                       160                           
+ 0822 0822 0822                       250                           
+ 0830 0830 0830                       190                           
+ 0840 0840 0840                       270                           
+ 0941 0951 0954              C5.9     8300   65                     
+ 1159 1159 1159                       100                           
+ 1254 1300 1303              C4.7     2200   52                     
+ 1754 1759 1801  0582 N16E02 C1.4  Sf 680                           
+ 1813 1813 1813                       230                           
+ 2129 2137 2141  0582 N16E00 C1.1  Sf 180                           
+ 2249 2249 2249                       230                           
+ 2253 2308 2345  0581        C2.0     110                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to active levels
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 127  SSN 121  Afr/Ap 010/012   X-ray Background B3.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.5e+06   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W98 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.10e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 4 3 3 3 2 2 Planetary 1 2 4 4 4 3 2 1 
+F.  Comments:  None

@@ -1,0 +1,33 @@
+:Product: 0926SGAS.txt
+:Issued: 2014 Sep 26 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 269 Issued at 0245Z on 26 Sep 2014
+This report is compiled from data received at SWO on 25 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0347 0347 0347                       230                           
+ 1119 1119 1119                       1400                          
+ 1916 1916 1916                       130                           
+ 1936 1938 1941  2172 S13E17       Sf 110                           
+ 1945 2031 2057  2172 S15E19       Sf 180                           
+ 2051 2052 2101  2175 N14W07       Sf 180                           
+ 2149 2209 2231  2175 N13W10 C5.6  Sf 160                           
+ 2318 2318 2318                       570                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active due to coronal hole high speed stream effects.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 158  SSN 139  Afr/Ap 013/012   X-ray Background C1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+05   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.30e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 3 4 3 3 3 2 4 Planetary 4 2 3 2 3 2 2 3 
+F.  Comments:  None

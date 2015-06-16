@@ -1,0 +1,45 @@
+:Product: 0910SGAS.txt
+:Issued: 2005 Sep 10 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 253 Issued at 0245Z on 10 Sep 2005
+This report is compiled from data received at SWO on 09 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000 0000 0044                                        IV           
+ 0233 0236 0239  0808 S13E66 M1.1  2f                               
+ 0243 0300 0307  0808        X1.1                                   
+ 0446 0503 0512  0808 S10E67 M1.8  Sf                               
+ 0532 0548 0600  0808 S10E66 M6.2  1f        200                    
+ 0942 0959 1008  0808 S10E64 X3.6  Sf 280    270                    
+ 1031 1031 1032                       120                           
+ 1732 1751 1810  0808 S10E62 M1.9  Sf 57                            
+ 1851 1852 1852                       180                           
+ 1913 2004 2036  0808 S10E58 X6.2  2b 690    4200   II/IV           
+ 2122 2134 2203                       210              IV           
+ 2223 2226 2230                       58     170                    
+ 2244 0000 0344                                        IV           
+BB.  Proton Events:  The geomagnetic field ranged from quiet to minor
+storm levels today.  The CME associated with the X17 event on 07
+September was observed at the ACE spacecraft at approximately
+09/1315Z.  This was followed by a 30 nT sudden impulse at the
+Boulder magnetometer at 09/1359Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels today.  The CME associated with the X17
+event on 07 September was observed at the ACE spacecraft at
+approximately 09/1315Z.  This was followed by a 30 nT sudden impulse
+at the Boulder magnetometer at 09/1359Z.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 099  SSN 059  Afr/Ap 021/017   X-ray Background B8.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.6e+08   GT 10 MeV 1.8e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.60e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 2 2 1 2 4 5 5 4 Planetary 1 2 0 1 4 4 4 4 
+F.  Comments:  None

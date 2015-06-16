@@ -1,0 +1,32 @@
+:Product: 1027SGAS.txt
+:Issued: 2014 Oct 27 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 300 Issued at 0245Z on 27 Oct 2014
+This report is compiled from data received at SWO on 26 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1004 1056 1118  2192 S18W40 X2.0  2b        200                    
+ 1655 1708 1811  2192 S16W31 X1.0  3b        160                    
+ 1807 1815 1820  2192        M4.2                                   
+ 1843 1849 1856  2192        M1.9                                   
+ 1914 1914 1914                       240                           
+ 1959 2021 2045  2192        M2.4     400                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 217  SSN 138  Afr/Ap 011/010   X-ray Background C1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.2e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.40e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 3 2 2 2 1 Planetary 3 2 2 3 3 2 2 2 
+F.  Comments:  X1/3b flare was on 25 October, however optical data
+continued into 26 October.

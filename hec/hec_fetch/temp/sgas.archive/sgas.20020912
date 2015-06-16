@@ -1,0 +1,56 @@
+From sgas-owner@sec.noaa.gov  Thu Sep 12 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g8C2o6r17943
+	for sgas-sendit; Thu, 12 Sep 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 12 Sep 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209120250.g8C2o2X17769@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 12 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 255 Issued at 0245Z on 12 Sep 2002
+This report is compiled from data received at SWO on 11 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0137 0143 0148              C2.2     290                           
+ 0156 0156 0200  0100 S17W51       Sf 140                           
+ 0726 0735 0742  0105 S10E30 M2.2  2b 68     230                    
+ 0802 0805 0809                       110                           
+ 0853 0905 0906                       190                           
+ 0929 0929 0929                       250                           
+ 1016 1017 1019                       800                           
+ 1329 1329 1330                       260                           
+ 1621 1621 1621                       160                           
+ 1631 1631 1631                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Geomagnetic field conditions
+ranged from quiet to major storm levels.  Onset of coronal hole high
+speed stream effects were evident since about 11/0900 UTC, and the
+single period of major storm conditions observed at higher latitudes
+occurred shortly thereafter.  The remainder of the day had
+conditions in the unsettled to minor storm range.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 216  SSN 213  Afr/Ap 016/028   X-ray Background B8.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+06   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.40e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 4 5 3 5 3 4 Planetary 2 3 5 6 4 4 4 4 
+F.  Comments:  None
+

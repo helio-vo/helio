@@ -1,0 +1,49 @@
+From sgas-owner@sec.noaa.gov  Sun Feb 23 02:50:11 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h1N2o5u02428
+	for sgas-sendit; Sun, 23 Feb 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 23 Feb 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200302230250.h1N2o2Z02300@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Feb 23 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 054 Issued at 0245Z on 23 Feb 2003
+This report is compiled from data received at SWO on 22 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0155 0203 0207  0290 N11E02 C4.3  Sf 1300                          
+ 0215 0215 0215                       2400                          
+ 1634 1634 1634                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Quiet to active.
+D.  Stratwarm:  STRATWARM ALERT / SATURDAY / STRATWARM EXISTS.
+THE WAVE TWO FORMATION IS STILL EVIDENT BUT WEAKENING.  THERE IS A
+REVERSED TEMPERATURE GRADIENT BETWEEN 50 AND 10 HPA AS WELL AS AT 1
+HPA.  THE WINDS AT 60N HAVE RETURNED TO WESTERLY AT ALL LEVELS.  THE
+TEMPERATURE GRADIENT IS FORECAST TO GRADUALLY RETURN TO NORMAL.  END
+OF THIS ALERT PERIOD.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 107  SSN 053  Afr/Ap 010/011   X-ray Background B2.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+05   GT 10 MeV 1.0e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.20e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 2 3 3 4 1 2 Planetary 2 3 2 3 3 4 2 1 
+F.  Comments:  None
+

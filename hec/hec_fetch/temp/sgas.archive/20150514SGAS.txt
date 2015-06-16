@@ -1,0 +1,40 @@
+:Product: 0514SGAS.txt
+:Issued: 2015 May 14 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 134 Issued at 0245Z on 14 May 2015
+This report is compiled from data received at SWO on 13 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0645 0645 0646                       140                           
+ 0650 0651 0654  2339 N09W34       Sf 320                           
+ 0800 0800 0800                       440                           
+ 1050 1054 1103  2342 N18E17       Sf 360                           
+ 1104 1111 1114  2339 N07W35 C3.2  1f 330                           
+ 1241 1241 1241                       270                           
+ 1258 1258 1258                       220                           
+ 1323 1323 1323                       350                           
+ 1628 1630 1632  2341 S24E03       Sf 110           II/IV           
+ 1756 1757 1758                       410                           
+ 1809 1818 1838  2345 N13W16 C9.2  1n 190    65     II              
+ 1956 1956 1956                       100                           
+ 2156 2156 2156                       130                           
+ 2327 2328 2335  2339 N10W39       Sf 1200                          
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+active to major storm levels in response to a negative polarity
+coronal hole high speed stream.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 157  SSN 135  Afr/Ap 025/041   X-ray Background B7.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.5e+06   GT 10 MeV 1.9e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 4.20e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 6 5 4 4 4 3 3 Planetary 6 6 5 4 4 4 4 4 
+F.  Comments:  None

@@ -1,0 +1,44 @@
+From owner-sgas@proton.sel.noaa.gov Sat Dec 14 21:50:11 1996
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA059478211; Sat, 14 Dec 1996 21:50:11 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 14 Dec 1996 19:50:06 -0700
+From: SESC <sel@proton.sel.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1996 Dec 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 350 ISSUED AT 0245Z ON 15 DEC 1996
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SESC ON 14 DEC
+
+A.  ENERGETIC EVENTS:
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+NONE
+
+B.  PROTON EVENTS:  NONE
+
+C.  GEOMAGNETIC ACTIVITY SUMMARY: QUIET TO UNSETTLED.
+
+D.  STRATWARM: NONE
+
+E.  DAILY INDICES:
+10 CM 083  SSN 030  AFR/AP 003/005  X-RAY BACKGROUND  A8.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.3E+06  GT 10 MEV 1.7E+04 P/(CM2-STER-DAY)
+(GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 5.2E+07 E/(CM2-STER-DAY)
+(GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 0 0 2 3 2 1 1 1 PLANETARY 0 0 1 2 2 2 3 2
+
+F.  COMMENTS: NONE
+
+

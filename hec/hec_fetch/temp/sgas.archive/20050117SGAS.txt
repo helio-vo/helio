@@ -1,0 +1,32 @@
+:Product: 20050117SGAS.txt
+:Issued: 2005 Jan 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 017 Issued at 0245Z on 17 Jan 2005
+This report is compiled from data received at SWO on 16 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0505 0505 0505                       2800                          
+ 0754 0758 0802  0720        C4.4                      IV           
+ 2155 2203 2222  0720 N13W16 M2.4  1n        54                     
+B.  Proton Events:  A proton event at greater than 10 MeV began at
+16/0210 UTC in response to an X2 flare which occurred at 15/2302
+UTC. Peak flux observed so far was 365 pfu at 16/1840 UTC. The event
+remains in progress.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to active levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 145  SSN 099  Afr/Ap 012/012   X-ray Background C1.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+08   GT 10 MeV 1.3e+07 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W107 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 2 3 4 2 3 Planetary 2 2 2 2 3 3 2 3 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.

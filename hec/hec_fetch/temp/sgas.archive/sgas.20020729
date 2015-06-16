@@ -1,0 +1,48 @@
+From sgas-owner@sec.noaa.gov  Mon Jul 29 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g6T2o5h13399
+	for sgas-sendit; Mon, 29 Jul 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 29 Jul 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200207290250.g6T2o3a13299@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jul 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 210 Issued at 0245Z on 29 Jul 2002
+This report is compiled from data received at SWO on 28 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0018 0035 0044  0039 S11E03 M2.3  Sf 100                           
+ 0112 0116 0118              C5.3     100                           
+ 1101 1106 1110  0039 S14E00 C7.6  Sf 1900                          
+ 1725 1725 1725                       1800                          
+ 2258 2312 2324              M2.2                                   
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  Geomagnetic field activity was at
+unsettled to active levels until 28/0300 UTC, then decreased to
+quiet to unsettled levels for the rest of the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 239  SSN 300  Afr/Ap 010/012   X-ray Background C1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.8e+06   GT 10 MeV 3.0e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.70e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 2 2 2 3 2 2 Planetary 4 3 2 3 3 3 3 2 
+F.  Comments:  Afr estimated based on Boulder USGS magnetometer data.
+

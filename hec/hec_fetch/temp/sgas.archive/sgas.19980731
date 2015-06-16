@@ -1,0 +1,49 @@
+From owner-sgas@proton.sel.noaa.gov Fri Jul 31 22:55:35 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA227400134; Fri, 31 Jul 1998 22:55:35 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 1 Aug 1998 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199808010255.CAA27229@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Aug 01 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 213 ISSUED AT 0245Z ON 01 AUG 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 31 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0331 0345 0413              C1.2     210           II IV           
+ 0525 0538 0615  8283 N28E31 C2.9  2F 88            II              
+ 0629 0632 0634                       170                           
+ 0641 0641 0649                       250                           
+ 0834 0841 0841                       220                           
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE MIDDLE LATITUDE GEOMAGNETIC
+FIELD WAS AT UNSETTLED TO ACTIVE LEVELS WITH ISOLATED MINOR STORM
+PERIODS. HIGH LATITUDE FIELD ACTIVITY RANGED FROM ACTIVE TO MINOR
+STORM LEVELS WITH BRIEF MAJOR STORM PERIODS.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 114  SSN 107  AFR/AP 021/033   X-RAY BACKGROUND B1.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.1E+05   GT 10 MEV 1.6E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.10E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 4 4 4 4 3 4 3 3 PLANETARY 4 4 6 5 4 4 4 4 
+F.  COMMENTS:  NONE.
+
+

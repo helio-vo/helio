@@ -1,0 +1,57 @@
+From sgas-owner  Sat Dec 29 02:50:24 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA10972
+	for sgas-sendit; Sat, 29 Dec 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 29 Dec 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112290250.CAA10895@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Dec 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 363 Issued at 0245Z on 29 Dec 2001
+This report is compiled from data received at SWO on 28 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0342 0351 0356  9742 N04W90 M4.7  Sf        270                    
+ 1210 1230 1259  9748 S12W77 M1.3  Sf                               
+ 1653 1653 1654                       110                           
+ 1937 1938 1941                       480                           
+ 2002 2045 2132              X3.4     700    1600   II              
+ 2048 2052 2056  9754 S11E01       Sf 820                           
+B.  Proton Events:  The greater than 10 MeV proton event which had
+been in progress since 26 December ended today.  The event began at
+26/0605 UTC, reached a maximum flux of 779 pfu at 26/1115 UTC, and
+ended at 28/1040 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  STRATWARM ALERT/FRIDAY/STRATWARM EXISTS.
+STRONG STRATOSPHERIC WARMING, INTENSIFYING IN THE LOWER
+STRATOSPHERE, WEAKENING IN THE UPPER STRATOSPHERE.
+5-DAY FORECASTS INDICATE A SPLIT OF THE POLAR VORTEX
+IN THE LOWER STRATOSPHERE, A REVERSED TEMPERATURE GRA-
+DIENT BETWEEN 60N AND THE NORTH POLE FROM 50 TO 10 HPA,
+NET EASTERLY WINDS AT 60N FROM 5 TO 2 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 263  SSN 263  Afr/Ap 009/005   X-ray Background C2.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.0e+07   GT 10 MeV 7.7e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 0 2 2 3 3 3 3 Planetary 1 0 1 2 2 2 2 2 
+F.  Comments:  Afr estimated from Boulder A.
+

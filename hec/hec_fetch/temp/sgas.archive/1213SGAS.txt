@@ -1,0 +1,31 @@
+:Product: 1213SGAS.txt
+:Issued: 2006 Dec 13 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 347 Issued at 0245Z on 13 Dec 2006
+This report is compiled from data received at SWO on 12 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1310 1310 1310                       200                           
+ 1645 1708 1747              B7.7     100    38                     
+ 1716 1717 1717                       120                           
+B.  Proton Events:  The greater than 10 MeV proton event ended at
+12/1040 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+unsettled to active with isolated minor storm periods. Activity was
+due to enhanced solar wind speeds coupled with prolonged periods of
+southward Bz.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 102  SSN 027  Afr/Ap 012/026   X-ray Background A9.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.1e+07   GT 10 MeV 8.9e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W136 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.00e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 5 3 3 4 3 4 4 Planetary 3 5 3 3 4 3 5 4 
+F.  Comments:  None

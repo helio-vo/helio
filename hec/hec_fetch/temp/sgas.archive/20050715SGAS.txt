@@ -1,0 +1,40 @@
+:Product: 20050715SGAS.txt
+:Issued: 2005 Jul 15 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 196 Issued at 0245Z on 15 Jul 2005
+This report is compiled from data received at SWO on 14 Jul
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0137 0137 0138                       150                           
+ 0221 0221 0221                       120                           
+ 0557 0725 0743  0786        M9.1     59     81                     
+ 0723 0724 0732  0786 N11W73       1n 130    220                    
+ 1016 1055 1129  0786        X1.2     5400   3400      IV           
+ 1716 1725 1728  0786        M1.3     820                           
+ 1732 1733 1733                       110                           
+ 2250 2257 2302  0786        M1.1     94     100                    
+B.  Proton Events:  A slow, gradual rise in the greater than 10 MeV
+protons began soon after yesterday's M5 event. The 10 pfu alert
+threshold was finally reached at 14/0245Z. A second, larger influx
+of high energy protons followed today's X1 flare. The greater than
+10 MeV proton flux were still slowly increasing at issue time, and
+the peak flux so far is 102 pfu at 14/2355Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. Solar wind speed remains elevated near 500 km/s, but is
+declining. The most disturbed geomagnetic periods occurred between
+14/0100 - 1300Z when the IMF Bz was predominantly southward.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 090  SSN 061  Afr/Ap 010/011   X-ray Background C1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.4e+07   GT 10 MeV 2.0e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W115 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.40e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 4 3 2 2 2 2 1 Planetary 2 4 3 3 2 2 1 1 
+F.  Comments:  None

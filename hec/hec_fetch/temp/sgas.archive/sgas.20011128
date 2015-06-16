@@ -1,0 +1,47 @@
+From sgas-owner  Wed Nov 28 02:50:26 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA23945
+	for sgas-sendit; Wed, 28 Nov 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 28 Nov 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200111280250.CAA23880@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Nov 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 332 Issued at 0245Z on 28 Nov 2001
+This report is compiled from data received at SWO on 27 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1435 1435 1436                       330                           
+ 2109 2121 2132  9715 N03E26 M2.2  1f                               
+B.  Proton Events:  The greater than 10 MeV proton event (began
+22/2320 UTC, max 18900 pfu at 24/0555 UTC) remains in progress
+although flux values have been oscillating across event threshold
+levels throughout the past ten hours of the period.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+quiet levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 190  SSN 139  Afr/Ap ???/002   X-ray Background B8.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.0e+06   GT 10 MeV 9.6e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.00e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 0 0 0 1 2 2 1 Planetary 1 0 0 0 0 2 1 1 
+F.  Comments:  Afr is based on Boulder A-indices
+

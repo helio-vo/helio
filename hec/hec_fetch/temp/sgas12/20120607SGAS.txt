@@ -1,0 +1,33 @@
+:Product: 0607SGAS.txt
+:Issued: 2012 Jun 07 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 159 Issued at 0245Z on 07 Jun 2012
+This report is compiled from data received at SWO on 06 Jun
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0422 0422 0422                       600                           
+ 1203 1204 1204                       140                           
+ 1217 1217 1217                       100                           
+ 1339 1339 1339                       170                           
+ 1954 2006 2013  1494 S19W05 M2.1  1b 1200          II/IV           
+ 2347 2347 2347                       120                           
+ 2356 0000 0005  1494 S19W06 C1.0  Sf 120                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 140  SSN 131  Afr/Ap 017/017   X-ray Background B4.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.5e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 2 3 3 4 4 3 Planetary 4 4 2 3 3 3 4 3 
+F.  Comments:  The Penticton 10 cm flux was estimated due to flare
+enhancement.

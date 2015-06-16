@@ -1,0 +1,34 @@
+:Product: 0403SGAS.txt
+:Issued: 2015 Apr 03 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 093 Issued at 0245Z on 03 Apr 2015
+This report is compiled from data received at SWO on 02 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0448 0449 0455                       150                           
+ 1708 1708 1708                       140                           
+ 1745 1745 1745                       100                           
+ 2237 2237 2237                       110                           
+ 2243 2243 2243                       120                           
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field began the
+period at quiet to unsettled levels,
+with in isolated active period
+at the end of the UT day. Minor storm
+conditions were also
+periodically observed at high latitudes.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 121  SSN 031  Afr/Ap 022/012   X-ray Background B4.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.4e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.30e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 2 3 4 3 4 Planetary 1 1 2 2 3 3 3 4 
+F.  Comments:  None

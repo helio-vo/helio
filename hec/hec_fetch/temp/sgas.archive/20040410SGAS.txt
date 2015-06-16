@@ -1,0 +1,31 @@
+:Product: 20040410SGAS.txt
+:Issued: 2004 Apr 10 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 101 Issued at 0245Z on 10 Apr 2004
+This report is compiled from data received at SWO on 09 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storming. The interplanetary shock associated with
+the 6 April CME impacted the ACE spacecraft at 09/0147Z. Solar wind
+speed increased from 450 km/s to near 570 km/s, and the IMF Bz
+component turned southward for some short periods following the
+shock arrival. The storm was short-lived with active to minor storm
+levels ending by 09/0900Z.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 090  SSN 018  Afr/Ap 017/016   X-ray Background A6.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.8e+06   GT 10 MeV 1.4e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W98 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 4 3 2 2 3 2 Planetary 3 5 4 3 2 2 2 2 
+F.  Comments:  None

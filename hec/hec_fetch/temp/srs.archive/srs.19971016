@@ -1,0 +1,37 @@
+From owner-srs@proton.sel.noaa.gov Thu Oct 16 20:43:09 1997
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA244838989; Thu, 16 Oct 1997 20:43:09 -0400
+Return-Path: <owner-srs@proton.sel.noaa.gov>
+Date: Fri, 17 Oct 1997 00:40:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199710170040.AAA07196@solar.sec.noaa.gov>
+To: srs-send@proton.sel.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=X-roman8
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 1997 Oct 17 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 290 ISSUED AT 0030Z ON 17 OCT 1997
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 16 OCT
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 16/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+8093 N30W50   255  0080 CSO  10   08 BETA
+8096 N14E34   171  0030 BXO  06   05 BETA
+8097 N16E69   136  0060 CSO  08   02 BETA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 16/2400Z OCT
+NMBR  LOCATION  LO
+8092  N27W60   265
+8095  N33W07   212
+II. REGIONS DUE TO RETURN 17 OCT TO 19 OCT
+NMBR LAT    LO
+NONE
+
+

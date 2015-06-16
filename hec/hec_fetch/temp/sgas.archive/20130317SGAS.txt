@@ -1,0 +1,50 @@
+:Product: 0317SGAS.txt
+:Issued: 2013 Mar 17 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 076 Issued at 0245Z on 17 Mar 2013
+This report is compiled from data received at SWO on 16 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000      1022                                        IV           
+ 0046 0046 0046                       100                           
+ 0229 0229 0229                       110                           
+ 0452 0539 0625  1698        C2.8                      IV           
+ 0551 0552 0552                       120                           
+ 0556 0556 0556                       150                           
+ 0612 0614 0621  1698 S19W50       Sf 330                           
+ 0854 0854 0855                       740                           
+ 0947 0947 0948                       180                           
+ 1027 1027 1027                       320                           
+ 1333 1334 1334                       120                           
+ 1509 1510 1510                       210                           
+ 1531 1531 1531                       180                           
+ 1541 1541 1541                       150                           
+ 1552 1552 1552                       110                           
+ 1558 1558 1558                       110                           
+ 1648 1648 1649                       140                           
+ 1806 1806 1806                       180                           
+ 2054 2054 2054                       180                           
+ 2114 2114 2114                       160                           
+ 2138 2138 2138                       120                           
+ 2201 2201 2201                       130                           
+ 2327 2327 2327                       120                           
+B.  Proton Events:  The greater than 10 MeV protons at geosynchronous
+orbit crossed the 10 pfu threshold at 16/1940 UTC, reached a peak of
+14 pfu at 2140 UTC, and is still in progress.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled levels for the past 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 126  SSN 090  Afr/Ap 008/010   X-ray Background B4.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.2e+07   GT 10 MeV 5.4e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W76 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.60e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 3 4 3 2 2 3 1 2 Planetary 3 4 3 2 1 2 1 2 
+F.  Comments:  None.

@@ -1,0 +1,53 @@
+From sgas-owner  Thu Mar  2 02:55:19 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA08798
+	for sgas-sendit; Thu, 2 Mar 2000 02:55:11 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 2 Mar 2000 02:55:08 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200003020255.CAA18673@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 02 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 062 ISSUED AT 0245Z ON 02 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 01 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0601 0604 0606              C1.3     1200                          
+ 1014 1015 1020              C1.5     440    27                     
+ 1553 1553 1553                       470                           
+ 2027 2027 2028                       190                           
+ 2346 0021 0047  8886 S11W63 C2.6  SF 1500                          
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD HAS BEEN
+ACTIVE.  SOLAR WIND OBSERVATIONS FROM THE ACE SATELLITE INDICATE A
+TRANSITION OUT OF CORONAL HOLE-DRIVEN CONDITIONS IN THE PAST 24
+HOURS.  A RAPID CHANGE IN PARAMETERS AROUND 01/2000Z MAY BE
+ASSOCIATED WITH A SHOCK PASSAGE.  ENERGETIC ELECTRON FLUX GREATER
+THAN 2 MEV AT GEOSYNCHRONOUS ORBIT REMAINED BELOW ALERT THRESHOLDS
+TODAY.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 233  SSN 247  AFR/AP 016/019   X-RAY BACKGROUND B9.2
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.6E+05   GT 10 MEV 1.1E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.80E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 4 3 4 4 3 3 3 PLANETARY 2 3 4 4 4 4 3 3 
+F.  COMMENTS:  NONE
+
+

@@ -1,0 +1,48 @@
+From sgas-owner  Sat Apr 28 02:50:20 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA10401
+	for sgas-sendit; Sat, 28 Apr 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 28 Apr 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104280250.CAA10306@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 118 Issued at 0245Z on 28 Apr 2001
+This report is compiled from data received at SWO on 27 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0654 0659 0706  9433 N15W42 C2.1  Sf 3000                          
+ 1341 0000 0133                                        IV           
+ 1857 1857 1857                       140                           
+ 1906 1915 1935  9433 N18W37 M1.2  1f                               
+ 1959 2002 2007  9433 N17W23       Sf 1300                          
+ 2126 2127 2127                       200                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 191  SSN 181  Afr/Ap 005/006   X-ray Background C1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.0e+06   GT 10 MeV 1.3e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 1 1 1 2 1 0 Planetary 2 1 0 2 3 3 2 1 
+F.  Comments:  None
+

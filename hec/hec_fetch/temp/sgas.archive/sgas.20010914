@@ -1,0 +1,57 @@
+From sgas-owner  Fri Sep 14 02:51:46 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16876
+	for sgas-sendit; Fri, 14 Sep 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 14 Sep 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200109140250.CAA16734@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Sep 14 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 257 Issued at 0245Z on 14 Sep 2001
+This report is compiled from data received at SWO on 13 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0046 0047 0047                       320                           
+ 0710 0710 0724  9608 S31W22       Sf 360    23                     
+ 0839 0839 0840                       1900                          
+ 0939 0940 0945                       200                           
+ 1303 1306 1307  9610 S15W10 C2.4  Sf 630                           
+ 1310 1312 1314  9610 S14W10 C2.4  Sf 120                           
+ 1457 1458 1458                       2600                          
+ 1557 1602 1604  9610 S15W11 C7.0  Sn 290    56     II              
+ 1948 1951 1954              C5.8     160    53     II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active.  There were some indications in the ACE satellite data of a
+weak interplanetary shock passage at about 13/0100 UTC.  Active
+geomagnetic conditions and an isolated period of minor storming at
+higher latitudes followed, and persisted for several hours until
+mainly unsettled conditions developed from about 13/1200 UTC onward.
+This disturbance is presumed to have originated from the CME
+activity of 9 September.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 240  SSN 223  Afr/Ap 016/018   X-ray Background C1.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 9.6e+05   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 4 3 3 2 3 2 Planetary 3 4 5 4 3 3 3 1 
+F.  Comments:  Afr estimated from Boulder A.
+

@@ -1,0 +1,49 @@
+From srs-owner  Sat Sep 23 00:40:22 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id AAA14114
+	for srs-sendit; Sat, 23 Sep 2000 00:40:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-srs@dawn.sec.noaa.gov using -f
+Date: Sat, 23 Sep 2000 00:40:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200009230040.AAA13982@dawn.sec.noaa.gov>
+To: srs-send@dawn.sec.noaa.gov
+Subject: SRS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-srs@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar Region Summary
+:Issued: 2000 Sep 23 0040 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR REGION SUMMARY
+SRS NUMBER 267 ISSUED AT 0030Z ON 23 SEP 2000
+REPORT COMPILED FROM DATA RECEIVED AT SWO ON 22 SEP
+I.  REGIONS WITH SUNSPOTS.  LOCATIONS VALID AT 22/2400Z 
+NMBR LOCATION  LO  AREA  Z   LL   NN MAG TYPE
+9165 N15W93   188  0000 AXX  00   01 ALPHA
+9166 S12W30   125  0610 EKI  11   48 BETA
+9167 N13E03   092  0170 CSO  14   18 BETA
+9169 N10E19   076  1880 FKC  18   102 BETA-GAMMA-DELTA
+9170 S07E15   080  0070 DSO  07   18 BETA
+9171 S15E70   025  0040 HRX  01   01 ALPHA
+IA. H-ALPHA PLAGES WITHOUT SPOTS.  LOCATIONS VALID AT 22/2400Z SEP
+NMBR  LOCATION  LO
+9168  N09W59   155
+II. REGIONS DUE TO RETURN 23 SEP TO 25 SEP
+NMBR LAT    LO
+9147 N07    360
+9149 N15    355
+9151 N13    341
+9154 S17    328
+III. COMMENTS
+EFFECTIVE 2 OCT 2000, SEC WILL ISSUE ITS TEXT PRODUCTS IN MIXED 
+CASE VS. ALL UPPER CASE.  THIS CHANGE WILL BE VISIBLE ON ALL SEC 
+PRODUCT DELIVERY SYSTEMS EXCEPT FOR TELETYPE CIRCUITS.  ONLY THE 
+CASE OF THE TEXT IN EACH PRODUCT WILL CHANGE, NOT THE FORMAT OR 
+SPACING WITHIN THE PRODUCT.  FOR DETAILS SEE OUR WEBSITE AT 
+SEC.NOAA.GOV/MIXEDCASE.HTML
+

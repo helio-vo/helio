@@ -1,0 +1,54 @@
+From sgas-owner  Fri Mar 31 02:50:13 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA02673
+	for sgas-sendit; Fri, 31 Mar 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 31 Mar 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200003310250.CAA02524@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 31 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 091 ISSUED AT 0245Z ON 31 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 30 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0044 0044 0044                       450                           
+ 0659 0714 0743       N12E76 M1.2  SF 37     87                     
+ 1002 1003 1003                       280                           
+ 1239 1245 1250  8936 S16E64 M1.3  SF                               
+ 1251 1251 1252                       440                           
+ 1257 1258 1304  8925 S17W13       SF 170                           
+ 1558 1607 1612  8936 S17E63 M3.4  1N                               
+ 2317 2324 2327  8935 S08E20 M2.0  SF                               
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+ACTIVE.
+D.  STRATWARM:  STRATWARM ALERT EXISTS STRATWARM THURSDAY
+MINOR WARMING OVER EUROPE/SIBERIA AND THE AD-
+JACENT ARCTIC AT 10 HPA CONTINUES.TEMPERATURE
+GRADIENT REVERSED BETWEEN 60N AND THE POLE IN
+THE MIDDLE AND UPPER STRATOSPHERE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 206  SSN 225  AFR/AP 011/010   X-RAY BACKGROUND C1.2
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 8.0E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.80E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 2 1 3 4 2 3 PLANETARY 2 2 2 2 3 3 3 3 
+F.  COMMENTS:  NONE
+

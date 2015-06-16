@@ -1,0 +1,52 @@
+From sgas-owner  Fri May 19 15:35:06 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id PAA07248
+	for sgas-sendit; Fri, 19 May 2000 15:34:52 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 19 May 2000 15:34:51 GMT
+From: Space Environment Center <sec>
+Message-Id: <200005191534.PAA07238@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 May 19 1534 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 140 ISSUED AT 0245Z ON 19 MAY 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 18 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0124 0150 0156  8996 S17W05 C4.6  SF 270                           
+ 0147 0148 0149                       290                           
+ 0217 0221 0224              C2.9     780                           
+ 0517 0529 0534  9002 N21E41 C2.6  SF 630                           
+ 0727 0727 0727                       1400                          
+ 1517 1518 1524  8996 S19W12       SF 1800                          
+ 1552 1557 1559  9002 N23E30 M2.7  1B 910    60                     
+ 1752 1752 1753                       190                           
+ 2259 2259 2300                       1700   83                     
+B.  PROTON EVENTS:  GT 10 MEV PROTONS WERE WEAKLY ENHANCED BUT BELOW
+THRESHOLD LEVELS.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED WITH ISOLATED ACTIVE PERIODS AT HIGH LATITUDES.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 253  SSN 297  AFR/AP 008/010   X-RAY BACKGROUND C2.0
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.9E+06   GT 10 MEV 3.7E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.10E+05 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 3 2 3 2 2 2 2 PLANETARY 3 3 3 2 2 2 3 2 
+F.  COMMENTS:  NONE
+

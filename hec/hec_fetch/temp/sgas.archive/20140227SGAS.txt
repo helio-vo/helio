@@ -1,0 +1,35 @@
+:Product: 0227SGAS.txt
+:Issued: 2014 Feb 27 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 058 Issued at 0245Z on 27 Feb 2014
+This report is compiled from data received at SWO on 26 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0253 0253 0253                       100                           
+ 1343 1343 1343                       270                           
+ 1452 1501 1510  1982 S13W44 M1.1  1n                               
+ 2339 2340 2340                       820                           
+B.  Proton Events:  The greater than 10 MeV event at geosynchronous
+orbit that began at 25/1355Z in the wake of the Feb 25 X4/2b flare
+continued, with a peak flux of 23 pfu (S1 - Minor) observed at
+26/0010Z. Greater than 10 MeV flux levels leveled off in the high
+teens during the period with no significant decay evident. The X4
+flare-associated greater than 100 MeV flux enhancement at
+geosynchronous orbit (peak 0.9 pfu at 25/1945Z) also continued and
+gradually decayed toward background levels.
+C.  Geomagnetic Activity Summary:  Quiet
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 178  SSN 197  Afr/Ap 003/003   X-ray Background B9.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.7e+06   GT 10 MeV 1.7e+06 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 0 0 0 2 2 1 1 Planetary 2 0 0 0 0 1 1 1 
+F.  Comments:  None

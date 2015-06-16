@@ -1,0 +1,59 @@
+From owner-sgas@proton.sel.noaa.gov Sun Aug 30 22:56:50 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA138362209; Sun, 30 Aug 1998 22:56:50 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Mon, 31 Aug 1998 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199808310255.CAA24452@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Aug 31 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 243 ISSUED AT 0245Z ON 31 AUG 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 30 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0031 0032 0032                       130                           
+ 0050 0051 0051                       720                           
+ 0257 0258 0258                       140                           
+ 0324 0324 0324                       120                           
+ 0512 0541 0551  8319 N21W33 M1.0  1N                               
+ 0638 0640 0656  8322 N20W17       SF 1200                          
+ 0645 0645 0646                       660                           
+ 0649 0649 0650                       220                           
+ 0705 0713 0718  8307                 560                           
+ 0929 0937 0943  8319 N21W35 M1.0  1N                               
+ 1637 1637 1638                       210                           
+ 1800 1805 1809  8307 N29W60 M1.3  SN 1700   77     II              
+ 1927 1927 1928                       1900                          
+B.  PROTON EVENTS:  THE GREATER THAN 10 MEV PROTON FLUX REMAINED
+BELOW EVENT THRESHOLD. FLUXES AT THE BEGINNING OF THE PERIOD WERE
+NEAR 5 PFU AND DECLINED SLOWLY TO NEAR 1 PFU AT THE END OF THE DAY.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS
+PREDOMINANTLY QUIET TO UNSETTLED. BRIEF ACTIVE CONDITIONS WERE
+OBSERVED BETWEEN 30/0300-0600Z.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 163  SSN 136  AFR/AP 014/015   X-RAY BACKGROUND B7.3
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.9E+06   GT 10 MEV 2.6E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.90E+08 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 4 3 3 3 3 2 2 PLANETARY 3 4 3 3 3 3 3 3 
+F.  COMMENTS:  ENERGETIC ELECTRON FLUXES AT GEOSYNCHRONOUS ORBIT
+REACHED HIGH LEVELS DURING THE PERIOD.
+
+

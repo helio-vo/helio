@@ -1,0 +1,55 @@
+From sgas-owner@sec.noaa.gov  Thu May 29 02:50:10 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h4T2o4311968
+	for sgas-sendit; Thu, 29 May 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 29 May 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200305290250.h4T2o2L11894@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 May 29 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 149 Issued at 0245Z on 29 May 2003
+This report is compiled from data received at SWO on 28 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0017 0027 0039              X3.6     490000 1600   II/IV           
+ 0146 0150 0207                       21000                         
+ 0221 0222 0223                       38000  80                     
+ 0324 0325 0325                       350                           
+ 0756 0757 0757                       120                           
+ 1706 2026 2038                       2100                          
+ 2030 2030 2036  0368 S28E00       Sf 180                           
+ 2256 2307 2313  0365 S07W17 X1.3  2b 2800   910    II/IV           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+active to major storm level.  A recurrent high speed stream coronal
+hole is responsible for the elevated levels.  The greater than 10
+MeV proton fluxes have been just under event threshold levels for
+the past several hours of this period.  The greater than 2 MeV
+electron fluxes at geosynchronous orbit reached moderate levels
+today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 130  SSN 116  Afr/Ap 034/036   X-ray Background B5.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.7e+07   GT 10 MeV 2.6e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W106 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.10e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 6 5 4 4 4 4 4 3 Planetary 6 5 5 5 4 4 4 4 
+F.  Comments:  None
+

@@ -1,0 +1,30 @@
+:Product: 0823SGAS.txt
+:Issued: 2005 Aug 23 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 235 Issued at 0245Z on 23 Aug 2005
+This report is compiled from data received at SWO on 22 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+B.  Proton Events:  The greater than 10 MeV proton flux passed the 10
+pfu event threshold at 22/2040 UTC. The flux at 23/0000 UTC was
+about 88 pfu.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled with isolated active periods. This activity is believed to
+be the result of a high-speed coronal hole stream.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 105  SSN 085  Afr/Ap 010/012   X-ray Background B1.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+07   GT 10 MeV 7.2e+05 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.90e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 2 2 3 3 2 3 Planetary 3 4 1 2 2 3 3 3 
+F.  Comments:  Today's observed Penticton 10.7 flux was flare
+enhanced. The daily background value reported in Part E was
+estimated to be 105 sfu.

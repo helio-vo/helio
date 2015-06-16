@@ -1,0 +1,56 @@
+From sgas-owner@sec.noaa.gov  Sun Feb  2 02:50:10 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h122o4928853
+	for sgas-sendit; Sun, 2 Feb 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 2 Feb 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200302020250.h122o2w28751@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Feb 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 033 Issued at 0245Z on 02 Feb 2003
+This report is compiled from data received at SWO on 01 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0848 0905 0938  0276        M1.2                                   
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to active levels during the past 24 hours. Quiet conditions
+prevailed for most of the day, but an increase to unsettled to
+active began at 1500 UTC. A marked increase in solar wind velocity
+and total magnetic field strength was observed beginning at 1300
+UTC, but a predominantly positive value for Bz suppressed activity
+until 1900 UTC, when Bz turned weakly southwards. The interpretation
+of the enhanced solar wind flow is not obvious, but seems most
+consistent with the passage of transient flow due to the halo CME
+that occurred on 30 January. The great than 2 MeV electron fluxes
+reached high levels during the past 24 hours.
+D.  Stratwarm:  STRATWARM ALERT/SATURDAY/STRATWARM EXISTS
+STILL DISTURBED TEMPERATURE DISTRIBUTION IN THE MIDDLE AND UPPER
+STRATOSPHERE WITH A WARM REGION OVER NORTHEASTERN EUROPE/NORTHERN
+SIBERIA, LEADING TO A REVERSED TEMPERATURE GRADIENT BETWEEN 60N AND
+THE POLE AT 2 TO 1 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 126  SSN 075  Afr/Ap 011/013   X-ray Background B4.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.9e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.80e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 2 2 3 4 3 Planetary 3 2 1 2 2 2 5 4 
+F.  Comments:  None
+

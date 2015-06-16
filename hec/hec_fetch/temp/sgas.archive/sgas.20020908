@@ -1,0 +1,63 @@
+From sgas-owner@sec.noaa.gov  Sun Sep  8 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g882o6c07796
+	for sgas-sendit; Sun, 8 Sep 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 8 Sep 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209080250.g882o2q07622@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 08 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 251 Issued at 0245Z on 08 Sep 2002
+This report is compiled from data received at SWO on 07 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0439 0450 0456              C1.6     150                           
+ 0512 0513 0513                       110                           
+ 0539 0539 0540                       140                           
+ 0721 0722 0722                       130                           
+ 0824 0824 0824                       190                           
+ 0838 0838 0838                       110                           
+ 1414 1415 1415                       120                           
+ 1519 1520 1520                       100                           
+ 1719 1719 1719                       4700                          
+ 1724 1724 1724                       200                           
+ 1735 1747 1754              C5.4     170                           
+ 1819 1819 1819                       220                           
+ 1829 1829 1829                       100                           
+ 1830 1830 1830                       130                           
+ 2053 2054 2054                       150                           
+B.  Proton Events:  The greater than 10 MeV proton flux crossed the
+10 pfu event threshold at 07/0440 UTC after a slow rise over the
+previous 28 hours. Peak event flux so far was 208 pfu at 07/1650
+UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to severe storm levels. A shock in the solar wind was observed
+by the NASA ACE spacecraft at 07/1609 UTC and was followed by a 7 nT
+sudden impulse on the Boulder magnetometer at 07/1638 UTC.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 183  SSN 180  Afr/Ap 030/045   X-ray Background B9.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+08   GT 10 MeV 2.1e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.00e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 3 3 3 4 6 6 5 Planetary 3 3 3 3 3 7 7 6 
+F.  Comments:  The Afr index reported in Part E is estimated from
+Boulder observations.
+

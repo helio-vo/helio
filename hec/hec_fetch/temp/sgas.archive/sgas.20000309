@@ -1,0 +1,56 @@
+From sgas-owner  Thu Mar  9 02:48:04 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16937
+	for sgas-sendit; Thu, 9 Mar 2000 02:48:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 9 Mar 2000 02:48:01 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200003090248.CAA04623@solar.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 09 0248 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 069 ISSUED AT 0245Z ON 09 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 08 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0153 0200 0205              M1.4                                   
+ 0242 0245 0248              C2.4     280                           
+ 0738 0739 0739                       190                           
+ 1605 1609 1611              C1.9     190                           
+ 1754 1757 1801  8899 S13W30 C2.8  SF 390                           
+ 2023 2026 2027                       180                           
+ 2128 2128 2130                       2200                          
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS AT
+UNSETTLED LEVELS DURING MOST OF THE PERIOD WITH BRIEF ACTIVE
+INTERVALS DETECTED AT HIGH LATITUDES.
+D.  STRATWARM:  STRATWARM ALERT/WEDNESDAY/STRATWARM EXISTS.
+AN INTENSE WARMING EXISTS FROM SOUTHEASTERN AND
+EASTERN EUROPE TO CENTRAL ASIA WITH A TEMPERATURE
+INCREASE OF 30-35 DGS C DURING THE LAST WEAK
+OVER KAZAKH REPUBLIC AND EASTERN SIBERIA AT 10HPA.
+THE VORTEX IS CENTRED OVER THE BARENTS SEA AND THE
+COLD AIR IS DISPLACED TO THE NORTH ATLANTIC.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 215  SSN 212  AFR/AP 013/013   X-RAY BACKGROUND C1.6
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.4E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.10E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 3 3 3 3 3 2 PLANETARY 3 3 2 3 3 3 3 3 
+F.  COMMENTS:  NONE
+

@@ -1,0 +1,55 @@
+From sgas-owner@sec.noaa.gov  Sat Sep 21 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g8L2o6D00512
+	for sgas-sendit; Sat, 21 Sep 2002 02:50:06 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 21 Sep 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200209210250.g8L2o3J00312@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Sep 21 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 264 Issued at 0245Z on 21 Sep 2002
+This report is compiled from data received at SWO on 20 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0233 0234 0234                       130                           
+ 0508 0512 0517  0126 S24E75 M1.5  Sf                               
+ 0656 0656 0656                       330                           
+ 0756 0758 0759                       800                           
+ 0808 0811 0812                       720                           
+ 0816 0816 0817                       310                           
+ 0921 0928 0933  0126 S24E73 M1.8  Sf        53        IV           
+ 1057 1058 1058                       170                           
+ 1204 1204 1204                       990                           
+ 1237 1239 1240                       340                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled. Solar wind speed began the period near 700 km/s following
+the arrival of a CME earlier yesterday. However, a weak IMF with
+sustained northward Bz offset any significant impact on the
+geomagnetic field.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 164  SSN 237  Afr/Ap 005/006   X-ray Background B8.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.2e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.60e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 1 1 1 1 1 2 Planetary 3 2 1 1 2 2 3 2 
+F.  Comments:  None
+

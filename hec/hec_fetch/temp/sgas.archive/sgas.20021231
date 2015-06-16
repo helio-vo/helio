@@ -1,0 +1,51 @@
+From sgas-owner@sec.noaa.gov  Tue Dec 31 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id gBV2o5m27475
+	for sgas-sendit; Tue, 31 Dec 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Tue, 31 Dec 2002 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200212310250.gBV2o2W27338@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Dec 31 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 365 Issued at 0245Z on 31 Dec 2002
+This report is compiled from data received at SWO on 30 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  Active conditions were the result of a favorably
+positioned coronal hole that is in it's waning stage.  The greater
+than 2 MeV electron flux at geosynchronous orbit reached high levels
+today.
+D.  Stratwarm:  STRATWARM ALERT/MONDAY/STRATWARM EXISTS.
+VERY STRONG WARMING CONTINUES IN THE UPPER AND MIDDLE STRATOSPHERRE,
+ EXTENDING FROM NORTHWESTERN
+ASIA TO NORTHERN EUROPE AND GREENLAND. TEMPERATURE GRADIENT BETWEEN
+60N AND THE POLE REVERSED DOWN TO 10 HPA AND NET EASTERLY WINDS AT
+60N AT 1 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 114  SSN 044  Afr/Ap 014/015   X-ray Background B1.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 8.0e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+08 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 2 4 3 2 2 3 2 Planetary 4 3 3 3 3 4 3 3 
+F.  Comments:  Afr estimated from Boulder A.
+

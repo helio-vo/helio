@@ -1,0 +1,28 @@
+:Product: 20041226SGAS.txt
+:Issued: 2004 Dec 26 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 361 Issued at 0245Z on 26 Dec 2004
+This report is compiled from data received at SWO on 25 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active with an isolated period of minor storming from 0300Z to 0600Z
+on 25 December.  Active conditions due to the onset of a
+geoeffective coronal hole high speed stream.
+D.  Stratwarm:  None.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 093  SSN 026  Afr/Ap 010/012   X-ray Background B1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.0e+06   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W106 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 5 4 1 1 2 2 2 Planetary 3 4 4 2 1 1 2 2 
+F.  Comments:  None.

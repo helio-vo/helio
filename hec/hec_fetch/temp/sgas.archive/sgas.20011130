@@ -1,0 +1,62 @@
+From sgas-owner  Fri Nov 30 02:50:16 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA00653
+	for sgas-sendit; Fri, 30 Nov 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 30 Nov 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200111300250.CAA00519@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Nov 30 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 334 Issued at 0245Z on 30 Nov 2001
+This report is compiled from data received at SWO on 29 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0110 0110 0111                       380                           
+ 0142 0149 0151  9715 N04E12 M1.1  Sf 1200   25     II              
+ 0520 0523 0526  9715 N05E09 C8.8  Sf 440                           
+ 1012 1036 1043  9715 N04E10 M5.5  1n        58                     
+ 1141 1142 1142                       130                           
+ 1300 1300 1300                       410                           
+ 1325 1325 1325                       760                           
+ 1359 1405 1408  9715 N05E03 C7.6  Sf 660    46     II              
+ 1409 0000 1414                                     II              
+ 1508 1519 1521  9715 N04E05 C2.4  Sf 2100                          
+ 1610 1611 1611                       10000                         
+ 1701 1705 1707  9715 N05E05 C3.5  Sf 180                           
+ 1722 1725 1729              C1.8     1600                          
+ 1803 1806 1813  9715 N06E08 C5.6  1f 300                           
+ 1830 1830 1830                       470                           
+ 1903 1903 1903                       760                           
+ 1904 1904 1904                       760                           
+ 1946 1950 1956  9718 S06E58 C3.7  Sf 270                           
+ 2045 2051 2053  9715 N06E02 C2.7  Sf 130                           
+ 2120 2126 2130              C3.0     130                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 216  SSN 204  Afr/Ap 002/003   X-ray Background C1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.1e+06   GT 10 MeV 1.9e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.60e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 1 1 1 1 0 Planetary 2 1 1 1 1 1 1 0 
+F.  Comments:  None
+

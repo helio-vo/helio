@@ -1,0 +1,49 @@
+From sgas-owner  Fri Jan  4 02:50:18 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA19712
+	for sgas-sendit; Fri, 4 Jan 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 4 Jan 2002 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200201040250.CAA19572@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Jan 04 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 004 Issued at 0245Z on 04 Jan 2002
+This report is compiled from data received at SWO on 03 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0214 0220 0228  9767 S11E12 C5.9  1f 33            II              
+ 1021 1021 1021                       230                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+on 30/0245 UTC remains in progress, maximum flux was 108 pfu at
+31/1620 UTC.
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+quiet levels.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM THURSDAY
+MAJOR WARMING CONTINUES.  THE WARMING OVER THE POLAR REGION IS
+LEADING TO A REVERSED TEMPERATURE GRADIENT BETWEEN 50 AND 3 HPA,
+WITH EASTERLY ZONAL MEAN WINDS FROM 10 TO 2HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 220  SSN 229  Afr/Ap 001/003   X-ray Background C2.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+07   GT 10 MeV 2.3e+06 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.30e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 0 1 1 1 1 0 0 Planetary 1 1 1 1 1 1 2 1 
+F.  Comments:  Afr based on Boulder magnetometer.
+

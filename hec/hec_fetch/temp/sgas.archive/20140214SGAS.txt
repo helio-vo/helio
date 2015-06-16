@@ -1,0 +1,37 @@
+:Product: 0214SGAS.txt
+:Issued: 2014 Feb 14 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 045 Issued at 0245Z on 14 Feb 2014
+This report is compiled from data received at SWO on 13 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0016 0139 0313  1974 S12W09       1n                  IV           
+ 0132 0140 0150  1974 S12W09 M1.8  2f                               
+ 0549 0607 0613  1974        M1.7                                   
+ 1545 1557 1606  1974 S13W24 M1.4  Sf                               
+ 1820 1821 1821                       120                           
+ 1825 1825 1825                       120                           
+ 1833 2009 2050  1974 S13W21       1f 110                           
+ 1858 1858 1858                       120                           
+ 1901 1901 1901                       170                           
+ 2056 2056 2056                       120                           
+ 2154 2154 2154                       180                           
+ 2156 2158 2215  1974 S13W22       Sf 810                           
+ 2246 2246 2246                       1100                          
+B.  Proton Events:  None.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 167  SSN 157  Afr/Ap 002/002   X-ray Background C1.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 7.60e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 0 0 0 1 1 2 1 1 Planetary 1 0 0 0 1 0 1 1 
+F.  Comments:  None.

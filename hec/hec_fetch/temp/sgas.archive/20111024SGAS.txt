@@ -1,0 +1,34 @@
+:Product: 1024SGAS.txt
+:Issued: 2011 Oct 24 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 297 Issued at 0245Z on 24 Oct 2011
+This report is compiled from data received at SWO on 23 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0908 0908 0908                       140                           
+ 0908 0908 0908                       130                           
+ 0916 0916 0916                       140                           
+ 0917 0917 0917                       150                           
+ 0954 0954 0954                       150                           
+ 0954 0954 0954                       220                           
+ 1130 1130 1130                       450                           
+B.  Proton Events:  A greater than 10 MeV proton event above the 10
+PFUs threshold occurred at 23/1500Z.  The current maximum of 13 PFUs
+occurred at 23/1535Z.  The greater than 10 MeV protons are currently
+enhanced, but below threshold.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 156  SSN 102  Afr/Ap 002/003   X-ray Background B7.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+07   GT 10 MeV 4.0e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 3.80e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 1 1 1 1 2 1 1 Planetary 0 0 0 1 1 1 2 1 
+F.  Comments:  None.

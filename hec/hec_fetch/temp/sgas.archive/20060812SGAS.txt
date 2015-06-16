@@ -1,0 +1,31 @@
+:Product: 0812SGAS.txt
+:Issued: 2006 Aug 12 0247 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 224 Issued at 0245Z on 12 Aug 2006
+This report is compiled from data received at SWO on 11 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0358 0359 0359                       200                           
+ 0401 0401 0402                       110                           
+ 0800 0804 0806  0904 S14E58 C2.1  Sf 110                           
+ 0814 0814 0814                       110                           
+ 1808 1808 1808                       170                           
+ 2101 2101 2101                       100                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 084  SSN 039  Afr/Ap 005/006   X-ray Background B2.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.1e+05   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W135 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.80e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 2 2 2 2 1 2 Planetary 2 1 2 1 2 2 2 2 
+F.  Comments:  The greater then 2 MeV electron flux at geosynchronous
+orbit reached moderate levels today.

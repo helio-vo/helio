@@ -1,0 +1,29 @@
+:Product: 20050202SGAS.txt
+:Issued: 2005 Feb 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 033 Issued at 0245Z on 02 Feb 2005
+This report is compiled from data received at SWO on 01 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1031 1032 1032                       9800          II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled. Solar wind speed remains elevated, but gradually declined
+from near 620 km/s to 500 km/s to end the period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 084  SSN 027  Afr/Ap 006/006   X-ray Background A4.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+06   GT 10 MeV 1.9e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W108 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.50e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 0 1 1 2 3 2 1 Planetary 3 0 1 2 1 2 2 2 
+F.  Comments:  The energetic event in section A was likely associated
+with a large backsided halo CME from old Region 720 (N13, L=178),
+which is due to return to the visible disk on 05 February.

@@ -1,0 +1,56 @@
+From owner-sgas@proton.sel.noaa.gov Sat Dec  5 21:56:37 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA070712997; Sat, 5 Dec 1998 21:56:37 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sun, 6 Dec 1998 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199812060255.CAA07603@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Dec 06 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 340 ISSUED AT 0245Z ON 06 DEC 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 05 DEC
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0244 0245 0246                       160                           
+ 0251 0251 0251                       160                           
+ 0308 0309 0310                       250                           
+ 0433 0437 0439              C1.0     190                           
+ 0758 0759 0800                       1800                          
+ 0840 0842 0844                       120                           
+ 1028 1028 1029                       740                           
+ 1348 1348 1348                       130                           
+ 1419 1420 1421                       160                           
+ 1707 1707 1707                       1600                          
+ 1712 1712 1712                       620                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD HAS BEEN
+MOSTLY QUIET TO UNSETTLED FOR THE PAST 24 HOURS, WITH A SINGLE
+INTERVAL OF ACTIVE CONDITIONS RECORDED AT ALL LATITUDES DURING THE
+PERIOD 05/1200-1500Z. THE GREATER THAN 2 MEV ELECTRON FLUX HAS BEEN
+IN THE MODERATE TO HIGH RANGE.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 142  SSN 091  AFR/AP 013/012   X-RAY BACKGROUND B4.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.6E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 5.80E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 3 3 4 2 3 2 PLANETARY 2 3 3 3 4 3 3 1 
+F.  COMMENTS:  NONE
+
+

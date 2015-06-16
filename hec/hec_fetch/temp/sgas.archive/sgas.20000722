@@ -1,0 +1,58 @@
+From sgas-owner  Sat Jul 22 02:50:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA08855
+	for sgas-sendit; Sat, 22 Jul 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 22 Jul 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007220250.CAA08724@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 204 ISSUED AT 0245Z ON 22 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 21 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0057 0058 0059                       390                           
+ 0101 0102 0103                       3400                          
+ 0354 0402 0408              C9.7     540    240                    
+ 0417 0417 0418                       110                           
+ 0514 0515 0526  9087 S13W14       SF 790                           
+ 0517 0524 0529  9090 N12E10 M1.7  1N 7500   93                     
+ 0552 0552 0552                       140                           
+ 1005 1015 1022  9090 N12E13 M1.9  1N        14                     
+ 1033 1050 1056  9087 S13W18 M1.9  SF        18                     
+ 1120 1120 1121                       260                           
+ 1217 1219 1225  9087 S09W17       SF 3900                          
+ 1430 1437 1443  9090 N10E12 M5.5  2B 54     49     II              
+ 1448 0000 1457                                     II              
+ 1643 1644 1645                       110                           
+ 2331 0001 0006  9088 N21W61 M3.3  SF 140                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED.  EFFECTS OF THE SOLAR ACTIVITY THAT OCCURRED ON 19 JULY
+AND 20 JULY HAVE NOT MATERIALIZED.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 251  SSN 314  AFR/AP 006/009   X-RAY BACKGROUND C2.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.7E+06   GT 10 MEV 2.3E+05 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 4.00E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 3 2 3 2 2 2 2 PLANETARY 3 2 1 2 3 3 2 3 
+F.  COMMENTS:  NONE
+

@@ -1,0 +1,48 @@
+From sgas-owner  Sun Apr  9 02:50:08 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA17442
+	for sgas-sendit; Sun, 9 Apr 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 9 Apr 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200004090250.CAA17319@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Apr 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 100 ISSUED AT 0245Z ON 09 APR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 08 APR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0229 0229 0230                       110                           
+ 0234 0240 0250  8948 S15E26 M2.0  1B 1200   160                    
+ 1411 1420 1432  8948 S14E18 C2.6  SF 150                           
+ 2040 2046 2049  8948 S14E19 M1.8  1N                               
+ 2258 2301 2303              C2.1     110                           
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET
+FROM 08/0000-0600Z AND UNSETTLED TO SLIGHTLY ACTIVE FOR THE
+REMAINDER OF THE PERIOD.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 182  SSN 167  AFR/AP 008/014   X-RAY BACKGROUND B7.6
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 6.7E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.10E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 3 3 3 3 3 3 PLANETARY 2 2 4 4 3 3 3 3 
+F.  COMMENTS:  NONE.
+

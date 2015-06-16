@@ -1,0 +1,355 @@
+Attempting to Remove = commands_20131018.sh expect common remove error if file does not exist
+Attempting to Remove = commands_20131018.sh.gz expect common remove error if file does not exist
+Attempting to Remove = commands_20131122.sh.gz expect common remove error if file does not exist
+Attempting to Remove = commands_20131122.sh expect common remove error if file does not exist
+It will be common to see the cp and rm command say 'No File or directory'.  This is because the commands have already been processed on some earlier date with no need to run them again and yet it tries to copy any files that were processed into the appropriate directory.  This could be fixed by redirecting to /dev/null, but for now will let the error message stay
+data_cache/
+data_cache/NPE.postgres.converted
+data_cache/SGS2.postgres.converted
+data_cache/sta-2013_cme.txt
+data_cache/LCC.postgres.converted
+data_cache/stb-2013_cme.txt
+data_cache/soho-2013_flow.txt
+data_cache/hfc_l3_t3_wind_waves.txt
+data_cache/STEREO-B_shock.csv
+data_cache/STEREO-A_icme.csv
+data_cache/gevloc1_list_201406z.csv
+data_cache/KSO.postgres.converted
+data_cache/HEF.postgres.converted
+data_cache/soho-2013_cme.txt
+data_cache/STEREO-B_icme.csv
+data_cache/STEREO-B_sir.csv
+data_cache/DSD.postgres.converted
+data_cache/latest_gev_full.txt
+data_cache/stb-2013_flow.txt
+data_cache/SSN.postgres.converted
+data_cache/SRS2.postgres.converted
+data_cache/STEREO-A_shock.csv
+data_cache/soho_pm_shock.csv
+data_cache/seeds_sta_2013.txt
+data_cache/GEVLOC_FLARES.postgres.converted
+data_cache/sta-2013_flow.txt
+data_cache/seeds_soho_2013.txt
+data_cache/STEREO-A_sir.csv
+data_cache/seeds_stb_2013.txt
+data_cache/LATEST_GEV_FLARE.postgres.converted
+BEGIN
+DELETE 6930
+ setval 
+--------
+  81078
+(1 row)
+
+COPY 6930
+COMMIT
+BEGIN
+DELETE 0
+ setval 
+--------
+   7639
+(1 row)
+
+COPY 12
+COMMIT
+BEGIN
+DELETE 247
+ setval 
+--------
+  59497
+(1 row)
+
+COPY 247
+COMMIT
+BEGIN
+DELETE 2629
+ setval 
+--------
+  44361
+(1 row)
+
+COPY 2629
+COMMIT
+BEGIN
+DELETE 1089
+ setval 
+--------
+  13180
+(1 row)
+
+COPY 1099
+COMMIT
+BEGIN
+DELETE 523
+ setval 
+--------
+ 143183
+(1 row)
+
+COPY 524
+DELETE 1
+COMMIT
+BEGIN
+DELETE 257
+ setval 
+--------
+      1
+(1 row)
+
+COPY 257
+COMMIT
+BEGIN
+DELETE 2968
+ setval 
+--------
+  14411
+(1 row)
+
+COPY 2968
+COMMIT
+BEGIN
+DELETE 1376
+ setval 
+--------
+   5792
+(1 row)
+
+COPY 1376
+COMMIT
+BEGIN
+DELETE 2047
+ setval 
+--------
+   5780
+(1 row)
+
+COPY 2052
+COMMIT
+BEGIN
+DELETE 487
+ setval 
+--------
+    791
+(1 row)
+
+COPY 485
+COMMIT
+BEGIN
+DELETE 1996
+ setval 
+--------
+   5036
+(1 row)
+
+COPY 1999
+COMMIT
+BEGIN
+DELETE 755
+ setval 
+--------
+   1475
+(1 row)
+
+COPY 755
+COMMIT
+BEGIN
+DELETE 7310
+ setval 
+--------
+  80205
+(1 row)
+
+COPY 7310
+UPDATE 45210
+UPDATE 2388
+COMMIT
+BEGIN
+DELETE 3249
+ setval 
+--------
+ 200440
+(1 row)
+
+COPY 3250
+UPDATE 8328
+COMMIT
+BEGIN
+DELETE 3025
+ setval 
+--------
+  11516
+(1 row)
+
+COPY 3025
+UPDATE 14537
+COMMIT
+BEGIN
+DELETE 45
+ setval 
+--------
+     83
+(1 row)
+
+COPY 45
+COMMIT
+BEGIN
+DELETE 22375
+ setval 
+--------
+      1
+(1 row)
+
+COPY 22375
+COMMIT
+BEGIN
+DELETE 10117
+ setval 
+--------
+    591
+(1 row)
+
+ROLLBACK
+BEGIN
+DELETE 595
+COPY 595
+COMMIT
+BEGIN
+DELETE 391
+COPY 391
+COMMIT
+BEGIN
+DELETE 207
+COPY 207
+COMMIT
+BEGIN
+DELETE 160
+COPY 160
+COMMIT
+BEGIN
+DELETE 2734
+COPY 2734
+COMMIT
+BEGIN
+DELETE 120
+COPY 120
+COMMIT
+BEGIN
+DELETE 105
+COPY 105
+COMMIT
+BEGIN
+DELETE 217
+COPY 217
+COMMIT
+BEGIN
+DELETE 199
+COPY 199
+COMMIT
+BEGIN
+DELETE 69117
+COPY 69117
+COMMIT
+BEGIN
+UPDATE 17673
+COMMIT
+BEGIN
+UPDATE 73217
+COMMIT
+File DBCompare/aastar_list_prev.dump.new and DBCompare/aastar_list_prev.dump are same size
+File DBCompare/apstar_list_prev.dump.new and DBCompare/apstar_list_prev.dump are same size
+File DBCompare/bas_magnetic_storms_prev.dump.new and DBCompare/bas_magnetic_storms_prev.dump are same size
+File DBCompare/cactus_cme_list_prev.dump.new and DBCompare/cactus_cme_list_prev.dump are same size
+File DBCompare/cactus_soho_cme_list_prev.dump.new and DBCompare/cactus_soho_cme_list_prev.dump are same size
+File DBCompare/cactus_soho_cme_prev.dump.new and DBCompare/cactus_soho_cme_prev.dump are same size
+File DBCompare/cactus_soho_flow_list_prev.dump.new and DBCompare/cactus_soho_flow_list_prev.dump are same size
+File DBCompare/cactus_soho_flow_prev.dump.new and DBCompare/cactus_soho_flow_prev.dump are same size
+File DBCompare/cactus_sta_cme_list_prev.dump.new and DBCompare/cactus_sta_cme_list_prev.dump are same size
+File DBCompare/cactus_sta_flow_list_prev.dump.new and DBCompare/cactus_sta_flow_list_prev.dump are same size
+File DBCompare/cactus_stb_cme_list_prev.dump.new and DBCompare/cactus_stb_cme_list_prev.dump are same size
+File DBCompare/cactus_stb_flow_list_prev.dump.new and DBCompare/cactus_stb_flow_list_prev.dump are same size
+Possibly New Data: File DBCompare/cactus_stereoa_cme_prev.dump.new is bigger than DBCompare/cactus_stereoa_cme_prev.dump, possibly new data
+Problem: Previous Dump DBCompare/cactus_stereoa_flow_prev.dump is bigger than new DBCompare/cactus_stereoa_flow_prev.dump.new, rolling back
+DBCompare/cactus_stereoa_flow_prev.dump
+TRUNCATE TABLE
+SET
+SET
+SET
+SET
+SET
+SET
+ setval 
+--------
+   1278
+(1 row)
+
+Possibly New Data: File DBCompare/cactus_stereob_cme_prev.dump.new is bigger than DBCompare/cactus_stereob_cme_prev.dump, possibly new data
+File DBCompare/cactus_stereob_flow_prev.dump.new and DBCompare/cactus_stereob_flow_prev.dump are same size
+File DBCompare/catalogues_prev.dump.new and DBCompare/catalogues_prev.dump are same size
+File DBCompare/cme_inner_heliosphere_prev.dump.new and DBCompare/cme_inner_heliosphere_prev.dump are same size
+File DBCompare/drao_10cm_flux_prev.dump.new and DBCompare/drao_10cm_flux_prev.dump are same size
+File DBCompare/dsd_list_prev.dump.new and DBCompare/dsd_list_prev.dump are same size
+File DBCompare/eit_list_prev.dump.new and DBCompare/eit_list_prev.dump are same size
+File DBCompare/forbush_list_prev.dump.new and DBCompare/forbush_list_prev.dump are same size
+File DBCompare/gevloc_flares_prev.dump.new and DBCompare/gevloc_flares_prev.dump are same size
+File DBCompare/gevloc_sxr_flare_prev.dump.new and DBCompare/gevloc_sxr_flare_prev.dump are same size
+File DBCompare/gle_list_prev.dump.new and DBCompare/gle_list_prev.dump are same size
+File DBCompare/goes_flare_no_sep_radio_cme_prev.dump.new and DBCompare/goes_flare_no_sep_radio_cme_prev.dump are same size
+File DBCompare/goes_flare_sep_event_prev.dump.new and DBCompare/goes_flare_sep_event_prev.dump are same size
+File DBCompare/goes_xray_flare_prev.dump.new and DBCompare/goes_xray_flare_prev.dump are same size
+File DBCompare/halo_cme_flare_magnetic_storm_prev.dump.new and DBCompare/halo_cme_flare_magnetic_storm_prev.dump are same size
+File DBCompare/halpha_flares_event_prev.dump.new and DBCompare/halpha_flares_event_prev.dump are same size
+File DBCompare/hec_catalogue_prev.dump.new and DBCompare/hec_catalogue_prev.dump are same size
+File DBCompare/hec_groups_prev.dump.new and DBCompare/hec_groups_prev.dump are same size
+File DBCompare/hessi_flare_prev.dump.new and DBCompare/hessi_flare_prev.dump are same size
+File DBCompare/hfc_wind_waves_prev.dump.new and DBCompare/hfc_wind_waves_prev.dump are same size
+File DBCompare/hi_cme_list_prev.dump.new and DBCompare/hi_cme_list_prev.dump are same size
+File DBCompare/hi_event_prev.dump.new and DBCompare/hi_event_prev.dump are same size
+File DBCompare/icme_earth_cycle23_prev.dump.new and DBCompare/icme_earth_cycle23_prev.dump are same size
+File DBCompare/imp8_solar_wind_times_prev.dump.new and DBCompare/imp8_solar_wind_times_prev.dump are same size
+File DBCompare/istp_solar_wind_cat_prev.dump.new and DBCompare/istp_solar_wind_cat_prev.dump are same size
+File DBCompare/kso_flare_prev.dump.new and DBCompare/kso_flare_prev.dump are same size
+File DBCompare/lasco_cme_cat_prev.dump.new and DBCompare/lasco_cme_cat_prev.dump are same size
+File DBCompare/lasco_cme_list_prev.dump.new and DBCompare/lasco_cme_list_prev.dump are same size
+File DBCompare/latest_gev_flare_prev.dump.new and DBCompare/latest_gev_flare_prev.dump are same size
+File DBCompare/mars_earth_icme_prev.dump.new and DBCompare/mars_earth_icme_prev.dump are same size
+File DBCompare/nmdb_gle_list_prev.dump.new and DBCompare/nmdb_gle_list_prev.dump are same size
+File DBCompare/noaa_proton_event_prev.dump.new and DBCompare/noaa_proton_event_prev.dump are same size
+File DBCompare/pippo_prev.dump.new and DBCompare/pippo_prev.dump are same size
+File DBCompare/sec_attribute_prev.dump.new and DBCompare/sec_attribute_prev.dump are same size
+File DBCompare/sec_cat_attr_prev.dump.new and DBCompare/sec_cat_attr_prev.dump are same size
+File DBCompare/sec_catalogue_prev.dump.new and DBCompare/sec_catalogue_prev.dump are same size
+File DBCompare/seeds_cme_prev.dump.new and DBCompare/seeds_cme_prev.dump are same size
+File DBCompare/seeds_soho_prev.dump.new and DBCompare/seeds_soho_prev.dump are same size
+Possibly New Data: File DBCompare/seeds_sta_prev.dump.new is bigger than DBCompare/seeds_sta_prev.dump, possibly new data
+File DBCompare/seeds_stb_prev.dump.new and DBCompare/seeds_stb_prev.dump are same size
+Possibly New Data: File DBCompare/sgas_event_prev.dump.new is bigger than DBCompare/sgas_event_prev.dump, possibly new data
+Possibly New Data: File DBCompare/sidc_sunspot_number_prev.dump.new is bigger than DBCompare/sidc_sunspot_number_prev.dump, possibly new data
+File DBCompare/soho_camp_prev.dump.new and DBCompare/soho_camp_prev.dump are same size
+File DBCompare/soho_pm_ips_prev.dump.new and DBCompare/soho_pm_ips_prev.dump are same size
+File DBCompare/solar_sep_event_prev.dump.new and DBCompare/solar_sep_event_prev.dump are same size
+File DBCompare/solar_wind_event_prev.dump.new and DBCompare/solar_wind_event_prev.dump are same size
+File DBCompare/srs_list_prev.dump.new and DBCompare/srs_list_prev.dump are same size
+File DBCompare/ssc_list_prev.dump.new and DBCompare/ssc_list_prev.dump are same size
+File DBCompare/stereo_euvi_catalog_prev.dump.new and DBCompare/stereo_euvi_catalog_prev.dump are same size
+File DBCompare/stereo_euvi_event_prev.dump.new and DBCompare/stereo_euvi_event_prev.dump are same size
+File DBCompare/stereo_impactplastic_icme_prev.dump.new and DBCompare/stereo_impactplastic_icme_prev.dump are same size
+File DBCompare/stereoa_impactplastic_shock_prev.dump.new and DBCompare/stereoa_impactplastic_shock_prev.dump are same size
+File DBCompare/stereoa_impactplastic_sir_prev.dump.new and DBCompare/stereoa_impactplastic_sir_prev.dump are same size
+File DBCompare/stereob_impactplastic_shock_prev.dump.new and DBCompare/stereob_impactplastic_shock_prev.dump are same size
+File DBCompare/stereob_impactplastic_sir_prev.dump.new and DBCompare/stereob_impactplastic_sir_prev.dump are same size
+File DBCompare/timed_see_flare_prev.dump.new and DBCompare/timed_see_flare_prev.dump are same size
+File DBCompare/tsrs_event_list_prev.dump.new and DBCompare/tsrs_event_list_prev.dump are same size
+File DBCompare/ulysses_grb_xray_flare_prev.dump.new and DBCompare/ulysses_grb_xray_flare_prev.dump are same size
+File DBCompare/ulysses_hxr_flare_farside_prev.dump.new and DBCompare/ulysses_hxr_flare_farside_prev.dump are same size
+File DBCompare/ulysses_hxr_flare_prev.dump.new and DBCompare/ulysses_hxr_flare_prev.dump are same size
+File DBCompare/ulysses_swoops_icme_prev.dump.new and DBCompare/ulysses_swoops_icme_prev.dump are same size
+File DBCompare/waves_exp_wind_stereo_prev.dump.new and DBCompare/waves_exp_wind_stereo_prev.dump are same size
+File DBCompare/wind_ace_sir_prev.dump.new and DBCompare/wind_ace_sir_prev.dump are same size
+File DBCompare/wind_imf_bow_shock_prev.dump.new and DBCompare/wind_imf_bow_shock_prev.dump are same size
+File DBCompare/wind_imf_ips_prev.dump.new and DBCompare/wind_imf_ips_prev.dump are same size
+File DBCompare/wind_imf_mag_cloud_prev.dump.new and DBCompare/wind_imf_mag_cloud_prev.dump are same size
+File DBCompare/wind_solar_wind_times_prev.dump.new and DBCompare/wind_solar_wind_times_prev.dump are same size
+File DBCompare/wind_typeii_soho_cme_prev.dump.new and DBCompare/wind_typeii_soho_cme_prev.dump are same size
+File DBCompare/wind_waves_type_ii_burst_prev.dump.new and DBCompare/wind_waves_type_ii_burst_prev.dump are same size
+File DBCompare/yohkoh_flare_list_prev.dump.new and DBCompare/yohkoh_flare_list_prev.dump are same size
+File DBCompare/yohkoh_hxr_flare_prev.dump.new and DBCompare/yohkoh_hxr_flare_prev.dump are same size
+File DBCompare/yohkoh_sxt_trace_list_prev.dump.new and DBCompare/yohkoh_sxt_trace_list_prev.dump are same size

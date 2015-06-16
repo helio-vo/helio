@@ -1,0 +1,47 @@
+From sgas-owner  Sat Apr 20 02:50:27 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.9.3 (PHNE_24419)/8.8.6) id CAA12125
+	for sgas-sendit; Sat, 20 Apr 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 20 Apr 2002 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200204200250.CAA12017@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Apr 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 110 Issued at 0245Z on 20 Apr 2002
+This report is compiled from data received at SWO on 19 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+unsettled to major storm. A shock was observed at ACE at 19/0804 UTC
+and was followed by an SI at ground magnetometers (36 nT at Boulder)
+at 19/0836 UTC. This shock is believed to be associated with the LDE
+M2/CME that occurred on 17 April.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 180  SSN 182  Afr/Ap 035/044   X-ray Background B8.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.4e+07   GT 10 MeV 1.9e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.80e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 4 3 5 5 5 5 5 Planetary 4 4 4 6 6 5 5 5 
+F.  Comments:  The 19 April Afre reported in Part E is estimated from
+Boulder observations.
+

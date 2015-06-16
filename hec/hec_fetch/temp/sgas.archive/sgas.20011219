@@ -1,0 +1,48 @@
+From sgas-owner  Wed Dec 19 02:50:17 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA15452
+	for sgas-sendit; Wed, 19 Dec 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 19 Dec 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112190250.CAA15373@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Dec 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 353 Issued at 0245Z on 19 Dec 2001
+This report is compiled from data received at SWO on 18 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1959 2003 2007  9742 N10E37 C3.7  Sf 250                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to unsettled conditions.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM TUESDAY
+IN THE MIDDLE AND UPPER STRATOSPHERE A STRONG TEMPERATURE INCREASING
+DURING ONE WEEK IS OBSERVED OVER SIBERIA/ NORTH EASTERN ASIA AND A
+REVERSED TEMPERATURE GRADIENT BETWEEN 60N AND THE NORTH POLE IS
+EXPECTED WITHIN THE NEXT 5 DAYS. STRATOSPHERIC WARMING IN THE UPPER
+STRATOSPHERE IN PROGRESS.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 212  SSN 210  Afr/Ap 008/008   X-ray Background C1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 6.8e+05   GT 10 MeV 1.5e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 3 1 2 3 2 3 2 2 Planetary 3 1 2 3 3 2 2 2 
+F.  Comments:  None
+

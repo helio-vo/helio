@@ -1,0 +1,28 @@
+:Product: 0906SGAS.txt
+:Issued: 2005 Sep 06 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 249 Issued at 0245Z on 06 Sep 2005
+This report is compiled from data received at SWO on 05 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0853 1041 1220              C2.7     600              IV           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+active. Solar wind was elevated, but declined from near 600 km/s to
+approximately 450 km/s by the end of the period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 075  SSN 012  Afr/Ap 012/014   X-ray Background A7.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.8e+06   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.80e+09 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 2 3 4 2 3 3 2 Planetary 4 2 3 4 2 3 3 2 
+F.  Comments:  The greater than 2 MeV electron fluence at
+geosynchronous orbit was at very high levels today.

@@ -1,0 +1,31 @@
+:Product: 0903SGAS.txt
+:Issued: 2014 Sep 03 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 246 Issued at 0245Z on 03 Sep 2014
+This report is compiled from data received at SWO on 02 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0009 0016 0024              C2.3                      IV           
+ 0429      1708                                        IV           
+ 1031      1920                                        IV           
+ 2249      2359                                        IV           
+B.  Proton Events:  The greater than 10 MeV and 100 MeV proton flux
+levels were enhanced due to flare activity around the east limb on
+01 Sep but stayed below alert threshold.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 136  SSN 105  Afr/Ap 010/010   X-ray Background C1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.8e+05   GT 10 MeV 8.3e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+08 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 3 3 2 3 4 2 3 Planetary 2 3 3 2 3 2 2 3 
+F.  Comments:  None

@@ -1,0 +1,51 @@
+From owner-sgas@proton.sel.noaa.gov Sat Sep 26 22:56:48 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA096745008; Sat, 26 Sep 1998 22:56:48 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sun, 27 Sep 1998 02:55:05 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199809270255.CAA11769@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 Sep 27 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 270 ISSUED AT 0245Z ON 27 SEP 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 26 SEP
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0550 0551 0551                       490                           
+ 0645 0651 0654  8340 N24W31 C1.6  SF 130    20                     
+ 0900 0900 0900                       400                           
+ 1059 1059 1059                       170                           
+ 1348 1349 1354  8340 N19W39       SF 370                           
+ 1623 1624 1631  8340 N22W39       SF 1000   83                     
+ 2316 2316 2324  8340 N20W44       SF 1300                          
+B.  PROTON EVENTS:  NONE.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED WITH ISOLATED ACTIVE CONDITIONS MOSTLY AT HIGH LATITUDES.
+THE GREATER THAN 2 MEV ENERGETIC ELECTRON FLUX WAS NEAR OR JUST
+ABOVE HIGH LEVELS DURING THE LATTER HALF OF THE PERIOD.
+D.  STRATWARM:  NONE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 136  SSN 115  AFR/AP 012/012   X-RAY BACKGROUND B5.3
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.3E+06   GT 10 MEV 2.1E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 6.20E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 2 2 3 4 3 3 PLANETARY 2 1 2 2 4 4 3 3 
+F.  COMMENTS:  NONE
+
+

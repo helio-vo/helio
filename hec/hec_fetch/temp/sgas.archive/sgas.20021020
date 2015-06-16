@@ -1,0 +1,54 @@
+From sgas-owner@sec.noaa.gov  Sun Oct 20 02:50:11 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id g9K2o5m03000
+	for sgas-sendit; Sun, 20 Oct 2002 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 20 Oct 2002 02:50:03 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200210200250.g9K2o3802876@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Oct 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 293 Issued at 0245Z on 20 Oct 2002
+This report is compiled from data received at SWO on 19 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0524 0524 0525                       130                           
+ 1009 1013 1018              C1.7     310                           
+ 1028 1055 1103              C2.7     150                           
+ 1341 1349 1352  0160 S18W10 C1.7  Sf 880                           
+ 1629 1629 1629                       100                           
+ 1652 1652 1652                       430                           
+ 1754 1758 1806  0160 S18W13 C1.5  Sf 360                           
+ 1810 1810 1810                       930                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic filed was at quiet
+to unsettled levels.  Solar wind velocities gradually increased to
+an average of 675 km/s.  Bz has been predominantly northward
+resulting in only unsettled conditions.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 180  SSN 156  Afr/Ap ???/011   X-ray Background B7.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+06   GT 10 MeV 1.7e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.60e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 2 3 3 3 3 Planetary 3 3 2 2 2 3 3 3 
+F.  Comments:  Daily X-ray Background Flux value estimated from
+plotted  data, pending a repair of the automated algorithm.  Repair
+in progress.
+

@@ -1,0 +1,38 @@
+:Product: 20041112SGAS.txt
+:Issued: 2004 Nov 12 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 317 Issued at 0245Z on 12 Nov 2004
+This report is compiled from data received at SWO on 11 Nov
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0441 0441 0441                       87               IV           
+ 1029 1029 1033                              100                    
+ 1508 1523 1532  0696        B9.0     130                           
+ 1543 1544 1545                       410                           
+ 1548 1548 1548                       130                           
+B.  Proton Events:  The greater than 10 MeV proton event that began
+at 07/1910Z remains in progress (currently ranging from 50 - 100
+pfu). The maximum so far was 495 pfu at 08/0115Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to minor storm levels. The most disturbed levels followed a
+prolonged period of southward Bz between 11/03 - 07Z. Solar wind
+speed was elevated between 550 and 650 km/s. A 12 nT sudden impulse
+was observed at the geomagnetic field at 11/1714Z. Solar wind plasma
+and magnetic field measurements at ACE indicate weak transient flow,
+likely from the CME activity on 09 - 10 November.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 095  SSN 070  Afr/Ap 022/023   X-ray Background B2.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.1e+08   GT 10 MeV 6.9e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W102 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.40e+09 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 5 3 4 2 3 3 4 Planetary 4 5 4 4 2 3 2 4 
+F.  Comments:  The greater than 2 MeV electron fluence at
+geosynchronous orbit was at very high levels.

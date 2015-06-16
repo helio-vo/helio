@@ -1,0 +1,48 @@
+From owner-sgas@proton.sel.noaa.gov Mon Feb 15 21:57:50 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA056743870; Mon, 15 Feb 1999 21:57:50 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Tue, 16 Feb 1999 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199902160255.CAA27166@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Feb 16 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 047 ISSUED AT 0245Z ON 16 FEB 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 15 FEB
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1252 1255 1255                       95            II/IV           
+ 1518 1518 1518                       110                           
+ 1618 1638 1655  8457 N14W13 C4.0  SF 15000                         
+ 1942 1943 1943                       170                           
+ 2023 2023 2024                       150                           
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS AT QUIET
+TO UNSETTLED LEVELS DURING MOST OF THE DAY. BRIEF ACTIVE TO MINOR
+STORM PERIODS WERE DETECTED AT SOME HIGH LATITUDE STATIONS.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 190  SSN 167  AFR/AP 013/013   X-RAY BACKGROUND C1.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.3E+05   GT 10 MEV 1.4E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 3.40E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 3 3 3 3 3 1 1 PLANETARY 3 3 3 3 3 3 3 2 
+F.  COMMENTS:  NONE
+
+

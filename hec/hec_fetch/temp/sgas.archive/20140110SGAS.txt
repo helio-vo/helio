@@ -1,0 +1,38 @@
+:Product: 0110SGAS.txt
+:Issued: 2014 Jan 10 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 010 Issued at 0245Z on 10 Jan 2014
+This report is compiled from data received at SWO on 09 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0000      1055                                        IV           
+ 0625      1528                                        IV           
+ 1227      1940                                        IV           
+ 1907 1907 1907                       140                           
+ 2120 2120 2120                       120                           
+ 2217 2217 2217                       130                           
+ 2237 2237 2237                       120                           
+ 2300 2300 2301                       330                           
+ 2318 2318 2319                       130                           
+B.  Proton Events:  The greater than 10 MeV proton flux was reached
+S3 (Strong) levels at 08/2320 UTC, peaked at 1033 pfu at 09/0340 UTC
+and fell into the S2 (Moderate) range at 09/0350 UTC. Flux remained
+at S2 levels for the rest of the day.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 184  SSN 106  Afr/Ap 007/007   X-ray Background B7.8
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.7e+08   GT 10 MeV 4.0e+07 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.90e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 2 2 2 3 2 Planetary 3 1 1 2 2 1 3 2 
+F.  Comments:  The greater than 2 MeV electron fluence data is
+contaminated due to the ongoing solar radiation storm.

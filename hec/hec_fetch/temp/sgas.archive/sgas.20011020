@@ -1,0 +1,56 @@
+From sgas-owner  Sat Oct 20 02:50:14 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA20547
+	for sgas-sendit; Sat, 20 Oct 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sat, 20 Oct 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200110200250.CAA20453@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Oct 20 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 293 Issued at 0245Z on 20 Oct 2001
+This report is compiled from data received at SWO on 19 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0047 0105 0113  9661 N16W18 X1.6  2b 9300   1400   II/IV           
+ 0220 0232 0246              M1.2                                   
+ 0252 0258 0303  9671 N16E17 M1.4  Sf        21                     
+ 0635 0645 0653  9658 S16W44 M1.3  Sf                               
+ 0858 0859 0902  9658 S14W47       Sf 190                           
+ 0935 0943 0955  9658 S14W47 M5.7  1b 100    370                    
+ 1025 1025 1042  9671 N17E13       Sf 200                           
+ 1613 1630 1643  9661 N15W29 X1.6  2b        720    II/IV           
+ 1710 1718 1725                       140                           
+ 1722 1724 1728  9661 S14W50       Sf 100                           
+ 2314 2325 2333  9658 S17W57 M3.3  1f        170                    
+B.  Proton Events:  Greater than 10 MeV proton levels reached event
+threshold at 19/2225 UTC.
+C.  Geomagnetic Activity Summary:  Geomagnetic activity was quiet to
+unsettled.  Greater than 10 MeV proton levels were enhanced due to
+the two CMEs from Region 9661, but remained just below event
+threshold.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 248  SSN 219  Afr/Ap 008/008   X-ray Background C2.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.4e+06   GT 10 MeV 4.2e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.80e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 0 1 2 2 3 3 2 3 Planetary 0 1 2 2 3 3 2 3 
+F.  Comments:  None
+

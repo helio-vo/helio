@@ -1,0 +1,1401 @@
+1993-01-10T03:00:00Z	1993-01-10T14:00:00Z	PC/BzS/BzN	8	B fied rising bw 3 and 6hs, Bz South from ~5hs till 11hs, then North.
+1993-01-30T23:00:00Z	1993-01-31T09:00:00Z	IR/BzS	8	Simultaneous to mple. bow shock crossings
+1993-03-08T21:30:00Z	1993-03-09T06:00:00Z	IS/BzS	8	Magnetopause seen at geosync, ~5 hrs of Bz ~-15 nT on Day 68
+1993-03-29T09:00:00Z	1993-03-29T21:00:00Z	BzN	8	\N
+1993-05-06T06:30:00Z	1993-05-07T08:00:00Z	SBC	8	With flucts. in B field and plasma dens., bulk V increasing f. 350 to 400Km/s
+1993-05-06T12:00:00Z	1993-05-06T13:00:00Z	PC	8	B dips and plasma density increases
+1993-05-06T13:00:00Z	1993-05-06T13:00:00Z	EyC	8	\N
+1993-05-06T13:00:00Z	1993-05-06T21:00:00Z	BzS	8	With	B	in the 7-8 nT range
+1993-06-02T21:10:00Z	1993-06-02T21:10:00Z	MISC	8	Tangential discontinuity
+1993-06-02T20:00:00Z	1993-06-04T03:00:00Z	IR	8	Corrotating IR after a LSS (~330Km/s), followed by a HSS (~800Km/s)
+1993-06-23T10:00:00Z	1993-06-23T11:30:00Z	PC	8	B changes from ~8 to 23nT, density, temperature, bulk velocity increase from 300 to 350Km/s
+1993-06-23T14:00:00Z	1993-06-23T20:00:00Z	BzN	8	With high B (~23nT), bulk velocity (V) reaches 500Km/s to the end of the period
+1993-07-17T06:00:00Z	1993-07-17T06:00:00Z	MISC	8	Rotational discont. (Bphi from 0 to 90 Degrees)
+1993-07-17T22:50:00Z	1993-07-19T19:00:00Z	LSS	8	\N
+1993-07-19T01:00:00Z	1993-07-19T01:00:00Z	MISC	8	Tangential discont. (Bphi from 90 to 0 Degree) and	B	from 3 to 5nT, dips below 2nT at 1hr.
+1993-08-16T15:00:00Z	1993-08-16T23:59:00Z	HSS	8	\N
+1994-02-21T09:00:00Z	1994-02-21T09:00:00Z	IS	8	Very strong forward shock, followed by other SW events, Cl reached -3000 nT
+1994-03-03T08:30:00Z	1994-03-03T19:00:00Z	IMC	8	Likely start earlier during data gap
+1994-03-03T19:00:00Z	1994-03-06T17:30:00Z	BzN	8	KPs show a quiet magnetosphere from start of Bz North,click here for added comments
+1994-03-06T23:00:00Z	1994-03-07T00:30:00Z	MISC	8	Flux Rope?, more on this interesting event
+1994-03-07T00:30:00Z	1994-03-07T10:00:00Z	SBC	8	With strong	B	fluctuation, touching the plasma sheet?
+1994-03-07T10:00:00Z	1994-03-07T10:00:00Z	PC	8	press here for more on this strong PC
+1994-05-28T08:00:00Z	1994-05-28T16:30:00Z	BzS	8	\N
+1994-05-28T14:00:00Z	1994-05-28T14:00:00Z	IS	8	During a BzS period, Np up to ~100/cc"
+1994-05-28T14:00:00Z	1994-05-29T06:00:00Z	IR	8	Stream-stream interactive region, press here for more on other events during this period
+1994-05-29T06:00:00Z	1994-06-03T19:30:00Z	HSS	8	With	B	> 8nT until 5/31/94, Alfvenic SW
+1994-06-10T06:00:00Z	1994-06-10T08:00:00Z	SBC	8	Accompanied by travelling structure with complex fields and plasma characteristics.
+1994-06-11T08:00:00Z	1994-06-14T00:00:00Z	HSS	8	\N
+1994-06-13T06:00:00Z	1994-06-15T17:00:00Z	SBC	8	From 0 to 180 Degree, interrupted by mple. bow shock (BS) crossings
+1994-06-20T00:00:00Z	1994-06-22T00:00:00Z	HSS	8	Exiting of BS into SW HSS
+1994-06-24T07:30:00Z	1994-06-24T11:30:00Z	SBC	8	\N
+1994-08-13T06:30:00Z	1994-08-13T09:30:00Z	BzN	8	\N
+1994-08-24T00:00:00Z	1994-08-24T19:00:00Z	BzN	8	~19 hrs of Bz north
+1994-10-02T10:20:00Z	1994-10-02T10:20:00Z	SBC	8	Followed by N~100
+1994-10-12T10:05:00Z	1994-10-12T10:05:00Z	SBC	8	\N
+1994-10-12T23:30:00Z	1994-10-13T05:30:00Z	SBC/PC	8	Multiple SBC and N~60, B~10-15
+1994-11-26T01:00:00Z	1994-11-27T12:00:00Z	IR	W	From LSS to HSS, it includes periods of sharp magnetic and ram PCs, EyCs, BzS
+1994-12-01T14:55:00Z	1994-12-01T15:35:00Z	MISC	W	Moon eclipse of WIND spacecraft (at 140 Moon radii)
+1994-12-05T21:00:00Z	1994-12-05T21:00:00Z	IS	W	\N
+1994-12-05T21:00:00Z	1994-12-06T06:40:00Z	IR	W/8	From LSS to HSS, it includes SBCs, periods of strong BzN aligned B field, and sharp ram PCs, EyC when B turns South before the HSS
+1994-12-06T06:40:00Z	1994-12-09T10:00:00Z	HSS	W/8	\N
+1994-12-06T06:40:00Z	1994-12-15T12:00:00Z	MISC	W	Bulk velocity above 500 Km/s for the whole period
+1994-12-27T14:42:00Z	1994-12-27T15:18:00Z	MISC	W	Moon eclipse of WIND spacecraft (at 4 Moon radii during a Lunar swingby)
+1995-01-01T19:40:00Z	1995-01-01T19:40:00Z	IS	W	1995-01-01 IPS
+1995-01-01T19:40:00Z	1995-01-03T19:30:00Z	IR	W	From LSS to HSS, starts at a forward IS, with BzN, it includes SBC, periods of sharp ram and magnetic PCs, EyCs, and BzS
+1995-01-10T19:50:00Z	1995-01-10T21:00:00Z	PC/SBC	W/8	Strong density/PCs, also strong EyC (B changing to N
+1995-01-14T00:00:00Z	1995-01-16T01:10:00Z	LSS	W/8	\N
+1995-01-16T01:10:00Z	1995-01-18T06:00:00Z	BzS/IR/PC/SBC	W	Pressure increases to 18nPa and 20nT near DOY 18
+1995-01-28T12:00:00Z	1995-01-28T12:00:00Z	PC	W	\N
+1995-01-28T18:00:00Z	1995-01-30T10:00:00Z	IR	W	From LSS to HSS with ram and magnetic PCs, SBCs. Period starts with BzN, followed by EyC and B strongly oscillating bw N and S
+1995-01-30T00:00:00Z	1995-02-04T00:00:00Z	HSS	W/8	Bulk velocity above 600 Km/s
+1995-02-08T06:00:00Z	1995-02-08T22:00:00Z	IMC/BzS/BzN	W/8	\N	B	peaks at 15nT near noon, (axis in ecliptic)
+1995-02-08T14:00:00Z	1995-02-10T20:00:00Z	BzN	W/8	\N
+1995-02-10T20:00:00Z	1995-02-11T03:00:00Z	BzS	W	\N
+1995-02-10T23:00:00Z	1995-02-13T13:00:00Z	IR	W	From LSS to HSS with ram and B field PCs
+1995-02-13T13:00:00Z	1995-02-14T17:00:00Z	HSS	W	\N
+1995-02-16T16:40:00Z	1995-02-18T06:10:00Z	PC/SBC	W/8	Periods with sharp increases/decreases in ram pressure
+1995-02-22T12:00:00Z	1995-02-26T08:00:00Z	LSS	W	Bulk velocity below the 320 Km/s
+1995-02-25T14:40:00Z	1995-03-01T07:20:00Z	IR	W	From LSS to HSS, starting with BzS, and strong EyCs, ram and magnetic PCs, and a SBC on DOY 57 620hs
+1995-02-25T14:40:00Z	1995-02-26T20:00:00Z	BzS	W	\N
+1995-03-01T07:20:00Z	1995-03-02T19:00:00Z	HSS	W/8	\N
+1995-03-04T10:00:00Z	1995-03-04T11:20:00Z	PC	W/8	Ram pressure reaches 10nPa
+1995-03-04T11:20:00Z	1995-03-05T00:00:00Z	IMC/BzS	W	Bphi changing from 230 to 120 degrees, with B field oriented South
+1995-03-05T15:00:00Z	1995-03-06T00:00:00Z	PC	W	Smooth change in ram pressure reaching 9nPa near 2100
+1995-03-05T23:00:00Z	1995-03-08T20:00:00Z	BzN	W	Extended periods of B aligned with the N(GSM) direction
+1995-03-09T01:00:00Z	1995-03-12T02:20:00Z	IR	W	From 400 Km/s SW to HSS, including SBCs, BzS, BzN periods, EyCs, ram and B field PCs, period ending with a reverse IS
+1995-03-12T02:20:00Z	1995-03-12T02:20:00Z	IS	W	Reverse IS while BzS, strong mag. substorm activity observed 1995-03-12 IPS
+1995-03-12T02:20:00Z	1995-03-15T12:00:00Z	HSS	W/8	\N
+1995-03-23T09:40:00Z	1995-03-23T09:40:00Z	IS	W	Forward shock, start of the IR, 1995-03-23 IPS
+1995-03-23T09:40:00Z	1995-03-27T19:20:00Z	IR	W	From LSS to 500 Km/s SW, with BzN in DOY 83, strong ram and magnetic PCs, and BzS in DOY 85
+1995-03-26T04:00:00Z	1995-03-26T23:30:00Z	BzS	W/8	Bz/	B	~ -0.9 from 5-12:30,	B	7->18nT, N~30-70/cc
+1995-03-26T05:00:00Z	1995-03-26T12:00:00Z	SBC	W/8	With high B fields and plasma densities, click here for more on this event
+1995-03-27T20:00:00Z	1995-03-31T21:30:00Z	SBC	W/8	Multiple SBC througout period (GEOTAIL in SW)
+1995-04-01T16:30:00Z	1995-04-02T14:30:00Z	BzS/N/S	W/8	Periods of B approximately aligned with the Z-axis (GSM) click here for more on this event
+1995-04-02T17:30:00Z	1995-04-04T03:30:00Z	BzN	W	Bz/	B	~ 1 in part of day 93,	B	~ 9-10nT,	V	decreasing smoothly from ~350to 280Km/
+1995-04-04T12:30:00Z	1995-04-04T15:20:00Z	PC/MISC	W	Sharp field/plasma PC, click here for more
+1995-04-06T00:00:00Z	1995-04-07T20:20:00Z	IR	W/8	Complex stream-stream interaction region, see entries below
+1995-04-06T00:00:00Z	1995-04-06T23:59:00Z	IMC	W/8	B with axis approx. in the ecliptic
+1995-04-06T03:30:00Z	1995-04-06T17:00:00Z	BzN	W/8	Accompanied with increases in Mag. and Ram pressures,	V	340Kms-1, steady
+1995-04-06T20:00:00Z	1995-04-07T07:00:00Z	BzS	W/8	With	B	increasing from 7to16nT and then fluctuating,	V	340Kms-1, steady
+1995-04-07T10:00:00Z	1995-04-07T20:20:00Z	PC	W/8	Period with strong Ram pressure changes,
+1995-04-07T20:20:00Z	1995-04-07T20:20:00Z	IS	W/8	1995-04-07 Reverse IPS
+1995-04-07T20:20:00Z	1995-04-12T12:00:00Z	HSS	W/8	Onset of Alfvenic (Bz oscillating) high speed SW stream
+1995-04-15T05:00:00Z	1995-04-18T16:20:00Z	SBC/BzN	W	With recurrent periods of moderate PCs
+1995-04-22T06:00:00Z	1995-04-27T08:00:00Z	IR/SBC	W	From LSS to HSS, with multiple SBC, and strong B field and ram PCs at both ends of the period. Also observed EyCs,with mainly BzS from DOY 112, 1000 to end of DOY 114
+1995-04-27T08:00:00Z	1995-04-28T00:00:00Z	HSS	W	\N
+1995-04-29T18:00:00Z	1995-05-02T01:00:00Z	BzN	W	\N
+1995-05-01T03:00:00Z	1995-05-02T16:00:00Z	SBC	W	Multiple SBCs
+1995-05-01T21:00:00Z	1995-05-03T00:00:00Z	IR	W	From 400 Km/s SW to HSS, with strong B field and ram PCs, EyCs, and BzS most of DOY 122, ending with a reverse IS
+1995-05-03T00:00:00Z	1995-05-03T00:00:00Z	IS	W	IP Reverse shock
+1995-05-03T00:00:00Z	1995-05-07T10:00:00Z	HSS	W	\N
+1995-05-12T11:00:00Z	1995-05-14T10:30:00Z	PC	W	Periods of recurrent sharp PCs Strong ram pressure in DOY 133 with 350Km/s SW speed, from 0300 to 1030hs, its sharp decrease simultaneous to sharp B field increase, with B aligned N, and accompanied by strong EyC.
+1995-05-15T17:20:00Z	1995-05-17T23:50:00Z	IR/BzS/BzN	W	With BzS after strong EyC, see entry below"
+1995-05-16T00:00:00Z	1995-05-16T13:00:00Z	EyC/PC	W	With Ey changing bw -8 and 8 mV from 900 to 1030hs, while B was in the 20nT range and the ram pressure changed bw 10 and 18 nPa
+1995-05-23T03:00:00Z	1995-05-24T04:40:00Z	IR	W	From LSS to HSS, with strong ram PCs, a SBC DOY 143 at 1230, followed by B field increase at 1400, and period ending with strong EyCs before reverse IS
+1995-05-24T04:40:00Z	1995-05-24T04:40:00Z	IS	W	IP reverse shock
+1995-05-24T04:40:00Z	1995-05-25T00:00:00Z	HSS	W	\N
+1995-05-29T04:50:00Z	1995-05-31T04:50:00Z	IR	W	From 400Km/s to HSS, starting with BzN, and B field and ram PCs in DOY 149, with strong EyCs in DOY 150 bw. 200 and 1030hs.
+1995-05-31T04:50:00Z	1995-06-03T18:00:00Z	HSS	W	\N
+1995-06-09T14:30:00Z	1995-06-09T18:30:00Z	PC	W	Ram PC from 3 to 8 nPa and back caused by density increase
+1995-06-18T04:00:00Z	1995-06-19T19:00:00Z	IR	W	From LSS to HSS, starting with 3 to 5 nPa ram PC accompanyied by smooth EyC and BzS to BzN rotation of the B field In DOY 170 the ram pressure reaches 15nPa at 600hs, followed by SBC at 810hs, and then B rises to 25n, followed by rapid and strong EyCs.
+1995-06-19T19:00:00Z	1995-06-21T12:00:00Z	HSS	W	\N
+1995-06-25T09:30:00Z	1995-06-26T03:40:00Z	IR	W	With SBC on DOY 176 1230hs and rapid EyCs and ram PCs, period ending with sharp PC
+1995-06-26T03:40:00Z	1995-06-26T03:40:00Z	IS	W	IP reverse shock (1995-06-26)
+1995-06-30T10:20:00Z	1995-06-30T14:30:00Z	PC	W	From 3 to 8-9 nPa and back at period end
+1995-06-30T14:30:00Z	1995-07-01T06:00:00Z	BzS	W	\N
+1995-07-01T06:00:00Z	1995-07-02T22:30:00Z	BzN	W	\N
+1995-07-03T19:10:00Z	1995-07-04T17:00:00Z	PC/SBC	W	With multiple SBCs and ram PCs
+1995-07-10T00:00:00Z	1995-07-14T14:00:00Z	LSS	W	\N
+1995-07-10T00:00:00Z	1995-07-11T08:00:00Z	MISC	W	Quiet SW (very quiet period!)
+1995-07-24T02:20:00Z	1995-07-25T03:20:00Z	IR	W	Transcient IR?, period with GEOTAIL in the SW
+1995-07-24T02:20:00Z	1995-07-24T02:20:00Z	IS	W	Forward strong IS followed of EyC, and BzS (0300), 1995-07-24 Forward IP shock
+1995-07-24T08:00:00Z	1995-07-24T17:10:00Z	BzN/EyC/PC	W	With a B field value of near 20nT, aligned in the GSM Z direction bw. 1030 and 1240)
+1995-08-20T13:00:00Z	1995-08-20T13:00:00Z	IS	W	\N
+1995-08-22T12:00:00Z	1995-08-25T07:00:00Z	IR	W/8	Transcient IR?, including two forw. IS, one IMC, and periods of strong BzS
+1995-08-22T13:00:00Z	1995-08-22T13:00:00Z	IS	W/8	Foward IS w. V 310->350Km/s,	B	2.5->5nT, Vth 20->35Km/s, and n 2->10cc-1
+1995-08-22T13:30:00Z	1995-08-22T13:30:00Z	EyC	W/8	Ey changes from negative to positive
+1995-08-22T16:20:00Z	1995-08-23T07:00:00Z	BzS	W/8	With extended periods of B-field strongly aligned in the GSM South direction, for more click here.
+1995-08-22T22:00:00Z	1995-08-23T12:00:00Z	IMC/BzS/BzN	W	With Bz South turning North near 7:00 8/23, with Vth20Km/s, n 10cc-1, more under previous entry
+1995-08-24T22:10:00Z	1995-08-24T22:10:00Z	IS	W	Foward IS w.ramP. 4->8-9nPa, B 7->13nT, Vth 20->27Km/s (also GEOTAIL in the SW)
+1995-10-18T10:41:00Z	1995-10-18T10:41:00Z	IS	W/8	Strong foward IS on 1995-10-18
+1995-10-18T22:00:00Z	1995-10-20T00:00:00Z	IMC/BzS/BzN	W/8	B field rotates S->N, reaches above 30nT at period end. A IACG event!.
+1995-10-19T17:50:00Z	1995-10-17T17:50:00Z	IS	W/8	Forward IP shock in ejecta
+1995-10-27T08:22:00Z	1995-10-27T08:22:00Z	IS	W/8	\N
+1995-10-28T03:00:00Z	1995-10-28T20:00:00Z	BzN	W/8	B field peaks near 1200UT above 7nT.
+1995-10-30T12:00:00Z	1995-11-01T06:00:00Z	IR	W/8	From a 320 to a 600Km/s SW
+1995-10-31T15:00:00Z	1995-10-31T16:15:00Z	SBC	W/8	From phiB 0 to 180 Degs., multple SBCs
+1995-11-01T06:00:00Z	1995-11-02T12:00:00Z	HSS	W/8	\N
+1995-11-04T14:10:00Z	1995-11-04T14:10:00Z	IS	W	\N
+1995-11-04T14:10:00Z	1995-11-06T00:00:00Z	IR	W	\N
+1995-11-06T00:00:00Z	1995-11-07T00:00:00Z	HSS	W/8	\N
+1995-11-08T23:30:00Z	1995-11-09T00:00:00Z	PC	W/8	\N
+1995-11-10T18:00:00Z	1995-11-18T00:00:00Z	PC	W & W	Multiple periods of sharp PCs while SW vel. stays bw. 320 and 400Km/s
+1995-11-23T23:00:00Z	1995-11-27T01:00:00Z	BzN	W & W	Very quiet magnetospheric period
+1995-11-24T06:00:00Z	1995-11-27T11:00:00Z	LSS	W & W	Period ending with about 24 hs of a 10 Deg. South in the direction of the plasma flow
+1995-11-27T08:22:00Z	1995-11-27T08:22:00Z	IS	W	Forward IP shock on 1995-11-27
+1995-11-27T04:00:00Z	1995-11-27T11:00:00Z	BzS	W	\N
+1995-11-27T08:20:00Z	1995-11-27T17:00:00Z	EyC/PC	W	Observed mple. very strong EyCs, and PCs with IMF peaking above 30nT around 1130UT
+1995-11-27T08:20:00Z	1995-11-27T08:20:00Z	IS	W/8	Forward IS accompanied by strong B field and ram Pressure change
+1995-11-27T15:00:00Z	1995-11-27T18:50:00Z	BzS/EyC/PC	W	Period of a prevailing South IMF
+1995-11-29T00:30:00Z	1995-11-29T00:30:00Z	IS	8	Reverse shock while IMF was southward
+1995-11-30T00:00:00Z	1995-12-07T15:10:00Z	SBC	W/8	Period with multiple SBCs
+1995-11-30T22:00:00Z	1995-11-30T22:00:00Z	MISC/SBC	W	Tangential Discontinuity at a SBC
+1995-11-30T03:20:00Z	1995-11-30T13:00:00Z	BzS	W	Predominently South IMF
+1995-12-01T09:00:00Z	1995-12-01T20:20:00Z	BzS/PC	W/8	Period ending with sharp EyC
+1995-12-01T23:50:00Z	1995-12-02T05:30:00Z	BzN	W/8	\N
+1995-12-02T12:30:00Z	1995-12-02T19:30:00Z	IMC	W/8	\N	B	~11nT, Bphi~90Deg, Bthet rotating bw. -45 and 45Deg, GSM
+1995-12-03T18:30:00Z	1995-12-04T17:00:00Z	PC	W/8	Period with multiple PCs
+1995-12-03T22:00:00Z	1995-12-04T10:50:00Z	BzS	W/8	Predominently South IMF
+1995-12-04T04:40:00Z	1995-12-04T06:10:00Z	EyC/PC	W/8	Period with sharp changes in Bz, and ram Pressure
+1995-12-04T23:30:00Z	1995-12-07T12:00:00Z	BzN	W/8	Predominently North IMF
+1995-12-09T02:10:00Z	1995-12-09T02:10:00Z	EyC/PC	W	\N
+1995-12-09T02:10:00Z	1995-12-09T14:30:00Z	BzS/SBC	W	\N
+1995-12-10T12:00:00Z	1995-12-12T05:00:00Z	LSS	W & W	Period with mple. SBCs, PCs, extended times of BzS and BzN
+1995-12-13T00:40:00Z	1995-12-13T20:00:00Z	BzN/PC	W/8	Period of approx. steady B field
+1995-12-13T18:30:00Z	1995-12-15T03:40:00Z	LSS/SBC/PC	W/8	Multiple PCs, SBCs
+1995-12-15T04:40:00Z	1995-12-15T04:40:00Z	IS	W/8	IS with large ram PC while BzN Forward IP shock on 1995-12-15
+1995-12-15T03:40:00Z	1995-12-17T01:30:00Z	IR/PC/SBC/EyC	W/8	Period with mple. PCs, SBCs, EYCs, and extended intervals of BzS and BzN
+1995-12-18T00:40:00Z	1995-12-18T09:30:00Z	BzN	W/8	\N
+1995-12-18T09:50:00Z	1995-12-18T16:30:00Z	BzS	W/8	\N
+1995-12-19T14:10:00Z	1995-12-19T14:10:00Z	EyC	W/8	\N
+1995-12-19T20:20:00Z	1995-12-20T03:30:00Z	BzN	W	\N
+1995-12-20T15:20:00Z	1995-12-20T21:40:00Z	BzN	W	At 95354  2140 W leaves the SW, back on 95356 at 1420
+1995-12-22T14:20:00Z	1995-12-23T01:50:00Z	BzS/PC/SBC	W & W	Period of mple. PCs, SBCs
+1995-12-22T15:45:00Z	1995-12-25T06:00:00Z	SBC	W & W	Multiple SBCs
+1995-12-23T01:50:00Z	1995-12-23T01:50:00Z	MISC/PC/EyC	W	Tangential discontinuity
+1995-12-24T06:00:00Z	1995-12-24T06:00:00Z	IS	W/8	B changes from 7 to 15nT, ram Pressure changes from 4 to 13 nPa
+1995-12-24T06:00:00Z	1995-12-25T23:10:00Z	IR/PC/EyC	W/8	Several EyC in the 10mV range bw. 6:30 and 1200
+1995-12-25T23:10:00Z	1995-12-25T23:10:00Z	IS	W/8	Reverse IS
+1995-12-25T23:10:00Z	1995-12-25T06:50:00Z	HSS	W/8	\N
+1995-12-28T00:30:00Z	1995-12-28T04:20:00Z	PC	W/8	Ram Pressure peaks sharply with 7nPa near 0350
+1995-12-31T03:30:00Z	1995-12-31T07:00:00Z	PC	W/8	Mple. sharp ram PCs peaking sharply with 8nPa near 0600
+1995-12-31T18:00:00Z	1996-01-01T09:00:00Z	BzN	W/8	North IMF with extended periods	B	~Bz
+1996-01-01T09:00:00Z	1996-01-04T12:00:00Z	SBC	W	Period with multiple SBCs, from 0 to 180 Degs.
+1996-01-10T07:00:00Z	1996-01-11T21:00:00Z	LSS/SBC/PC	W/8	Period with multiple PCs
+1996-01-10T18:00:00Z	1996-01-10T18:00:00Z	EyC/PC	W/8	Possibly observed tangential discontinuity
+1996-01-14T06:30:00Z	1996-01-14T18:00:00Z	IR/EyC/PC	W	SW	V	rises up to 650Km/s
+1996-01-14T07:40:00Z	1996-01-14T15:00:00Z	BzS	W	phiB changing continuously from 0 to 360 Degs., CANOPUS CL index indicates substorm near 1200hs
+1996-01-14T18:00:00Z	1996-01-15T19:00:00Z	HSS	W	\N
+1996-01-16T10:00:00Z	1996-01-16T14:00:00Z	BzN	W	\N
+1996-01-18T06:00:00Z	1996-01-19T15:00:00Z	SBC	W	Period with multiple SBCs
+1996-01-19T15:00:00Z	1996-01-20T13:00:00Z	PC/Eyc	W	Period with multiple PCs, while	V	>450Km/s
+1996-01-20T12:00:00Z	1996-01-20T12:00:00Z	SBC	W	\N
+1996-01-20T13:00:00Z	1996-01-20T14:00:00Z	MISC	W/8	Flux rope structure
+1996-01-20T15:30:00Z	1996-01-21T17:00:00Z	BzN/SBC	W	Period with multiple SBCs
+1996-01-22T00:30:00Z	1996-01-22T11:00:00Z	BzN	W/8	\N
+1996-01-23T01:00:00Z	1996-01-24T09:00:00Z	BzN	W	Observed only at WIND while IMP-8 in the SW
+1996-01-24T16:00:00Z	1996-01-24T23:30:00Z	BzS	W/8	\N
+1996-01-24T20:10:00Z	1996-01-26T23:30:00Z	SBC	W/8	Period with multiple SBCs from 180 to 0 Degs.
+1996-01-25T04:20:00Z	1996-01-25T05:20:00Z	EyC	W/8	Associated to possible tang. discontinuity
+1996-01-25T18:00:00Z	1996-01-25T23:00:00Z	BzS/PC	W/8	Observed a gradual pressure increase while BzS
+1996-01-28T09:00:00Z	1996-01-28T20:00:00Z	BzN	W	\N
+1996-01-28T19:00:00Z	1996-01-29T15:00:00Z	IR	W	\N
+1996-01-28T19:30:00Z	1996-01-28T23:20:00Z	PC/EyC/MISC	W	Observed a gradual rotation of the IMF associated to a possible IR
+1996-01-29T04:40:00Z	1996-01-29T12:30:00Z	BzS	W	Observed BzS while	V	~530Km/s
+1996-01-30T03:00:00Z	1996-01-30T03:00:00Z	EyC	W	Observation coincides with IMP-8 transition from the lobe to th BS
+1996-01-30T03:00:00Z	1996-01-30T21:30:00Z	BzN	W	\N
+1996-01-31T07:00:00Z	1996-02-02T02:00:00Z	SBC	W/8	\N
+1996-01-31T10:00:00Z	1996-01-31T12:30:00Z	EyC	W/8	Observed multiple EyCs
+1996-02-02T00:20:00Z	1996-02-02T15:00:00Z	EyC	W/8	Observed multiple sharp EyCs
+1996-02-03T15:00:00Z	1996-02-04T01:30:00Z	MISC	W	Observed SW V tilted in the N->S direction
+1996-02-04T01:30:00Z	1996-02-06T18:00:00Z	SBC/PC	W/8	Observed multiple SBCs and PCs
+1996-02-06T20:10:00Z	1996-02-06T20:10:00Z	IS	W/8	Forward IP shock on 1996-02-06
+1996-02-06T20:10:00Z	1996-02-11T09:00:00Z	IR	W/8	From a 350 to a 600 Km/s SW. Period of multiple SBCs, PCs, EyCs, and BzS/BzN
+1996-02-11T09:00:00Z	1996-02-15T10:00:00Z	HSS	W	\N
+1996-02-13T23:00:00Z	1996-02-15T20:00:00Z	SBC/PC	W/8	Multiple SBCs and PCs, while the SW	V	decreased to 400Km/s
+1996-02-16T03:30:00Z	1996-02-16T17:00:00Z	PC	W/8	Observed strong and sharp PCs (up to 10nPa)
+1996-02-17T02:30:00Z	1996-02-17T02:30:00Z	EyC	W/8	Sharp EyC
+1996-02-17T02:30:00Z	1996-02-17T09:30:00Z	BzS	W/8	\N
+1996-02-18T00:50:00Z	1996-02-20T06:30:00Z	SBC/PC/EyC	W/8	Observed multiple SBCs, strong PCs, EyCs
+1996-02-21T22:10:00Z	1996-02-21T22:10:00Z	PC	W	Observed possible forward IS
+1996-02-22T00:30:00Z	1996-02-22T06:30:00Z	BzS/EyC/PC	W	BzS was accompanied by multiple strong EyCs and PCs
+1996-02-22T18:00:00Z	1996-02-24T09:30:00Z	BzS/EyC/PC	W	Observed predominantly South IMF while starting near 054 0310 multiple PCs and EyCs occurred
+1996-02-24T23:00:00Z	1996-02-25T23:30:00Z	BzS	W	Period of a mostly South IMF
+1996-02-26T00:00:00Z	1996-02-27T18:00:00Z	HSS/EyC	W/8	Period with GEOTAIL in the SW SOPA electrons injection and Canopus CL index indicates substorm activity near local midnight
+1996-02-27T18:30:00Z	1996-02-28T00:30:00Z	PC	W/8	Observed multiple Ram PCs
+1996-02-28T16:00:00Z	1996-03-01T04:30:00Z	BzS/SBC	W/8	\N
+1996-03-02T18:30:00Z	1996-03-03T20:30:00Z	BzS	W/8	Flux rope observed toward end of the period, when IMP-8 and GEOTAIL were crossing the BS
+1996-03-03T02:45:00Z	1996-03-03T12:00:00Z	EyC/PC/SBC	W/8	Observed multiple occurrances, while GEOTAIL in the SW
+1996-03-04T00:30:00Z	1996-03-04T06:30:00Z	EyC/PC/BzS	W	\N
+1996-03-04T16:00:00Z	1996-03-05T09:30:00Z	SBC/BzS	W	Observed mostly South IMF
+1996-03-05T15:00:00Z	1996-03-05T20:15:00Z	BzS	W	\N
+1996-03-05T20:15:00Z	1996-03-06T08:00:00Z	BzN	W	Observed a predominantly North IMF
+1996-03-15T15:00:00Z	1996-03-16T09:30:00Z	BzS	W/8	Period with predominantly South IMF
+1996-03-16T08:50:00Z	1996-03-16T08:50:00Z	SBC/MISC	W/8	Crossing with tangential discontinuity
+1996-03-16T12:40:00Z	1996-03-16T18:20:00Z	BzN/PC/EyC	W/8	Period with several sharp and strong EyCs and PCs, while IMF was northward
+1996-03-19T00:00:00Z	1996-03-22T00:00:00Z	IR	W/8	Period with repeated pressure increases, while SW speed changes to a HSS and IMF is predominantly South, on DOY 79 GE in the SW
+1996-03-19T05:30:00Z	1996-03-19T23:30:00Z	BzS	W/8	Also GE in the SW
+1996-03-20T01:00:00Z	1996-03-21T15:30:00Z	BzS/PC/SBC	W/8	Period with IMF predominantly Southward
+1996-03-22T00:00:00Z	1996-03-23T00:00:00Z	HSS	W/8	\N
+1996-03-23T23:30:00Z	1996-03-25T19:00:00Z	EyC/BzS/BzN	W/8	Period with multiple EyCs while GE in the SW
+1996-03-27T03:00:00Z	1996-03-27T06:00:00Z	BzS	8	CANOPUS observes Substorm activity WI in the magnetosphere
+1996-03-29T00:00:00Z	1996-04-05T00:00:00Z	PC	W	Multiple Periods of repeated sharp PCs in plasma and IMF
+1996-03-29T06:00:00Z	1996-03-29T18:00:00Z	BzN	W	GE is also in the SW
+1996-03-30T11:00:00Z	1996-03-31T21:30:00Z	SBC	W	Period of multiple SBCs from 0Deg to 180Deg (GSE)
+1996-03-31T11:00:00Z	1996-04-01T23:45:00Z	BzS/PC	W	Period of predominantly South IMF, while strong PCs occur
+1996-04-02T07:00:00Z	1996-04-02T07:30:00Z	MISC	W/8	Period of IMF values below 0.25nT while Np in the 10cc-1 range
+1996-04-02T07:30:00Z	1996-04-02T07:30:00Z	SBC	W/8	\N
+1996-04-02T10:15:00Z	1996-04-02T10:15:00Z	PC	W/8	Possible forward IS while IMF North
+1996-04-03T06:00:00Z	1996-04-04T21:00:00Z	BzN/BzS/EyC/PC	W/8	Interval of broad structures in IMF and plasma while multiple SBC from 120 to 300Deg.
+1996-04-03T10:00:00Z	1996-04-03T10:00:00Z	IS	W/8	Forward IS while IMF North
+1996-04-06T16:30:00Z	1996-04-06T23:00:00Z	BzN	W/8	\N
+1996-04-06T23:00:00Z	1996-04-08T13:00:00Z	LSS/PC	W/8	\N
+1996-04-07T12:00:00Z	1996-04-08T18:30:00Z	BzN	W/8	\N
+1996-04-08T18:30:00Z	1996-04-09T06:00:00Z	BzS	W/8	\N
+1996-04-08T02:40:00Z	1996-04-08T02:40:00Z	IS	W/8	Forward IS while IMF North
+1996-04-08T23:00:00Z	1996-04-08T23:00:00Z	SBC/EyC	W/8	\N
+1996-04-09T07:40:00Z	1996-04-09T22:00:00Z	EyC	W/8	Period of strong EyCs while plasma pressure and ions thermal velocity varies. Bulk velocity varies between 350 and 500Km/s
+1996-04-11T12:00:00Z	1996-04-15T10:00:00Z	IR/PC	W	Period with IMF predominantly Southward
+1996-04-11T12:40:00Z	1996-04-12T10:00:00Z	EyC	W	Period of multiple EyCs while bulk vel. changes from 440 to 550Km/s
+1996-04-14T11:40:00Z	1996-04-17T22:00:00Z	SBC	W/8	Period with multiple SBCs while either IMP-8 or WIND in the SW
+1996-04-14T20:20:00Z	1996-04-14T21:00:00Z	PC/EyC	W/8	Strong increase in the plasma and IMF observed
+1996-04-14T21:00:00Z	1996-04-15T03:00:00Z	PC/EyC	W/8	Interval of strong PCs and EyCs while the SW vel is approximantely600Km/s and steady
+1996-04-15T10:00:00Z	1996-04-15T22:00:00Z	HSS	W/8	\N
+1996-04-16T21:30:00Z	1996-04-17T10:30:00Z	PC/BzS/EyC	W/8	Period begins with plasma pressure increase followed by BzS while SBCs occur
+1996-04-17T13:00:00Z	1996-04-20T12:00:00Z	HSS	8	Period with WIND in the magnetosphere from noon DOY 108 to noon DOY 109
+1996-04-19T18:30:00Z	1996-04-19T19:00:00Z	SBC	W/8	A phiB short excursion from 0 to 180Deg, while in a HSS SW
+1996-04-21T00:30:00Z	1996-04-23T21:00:00Z	SBC	W/8	Period of time showing multiple SBCs
+1996-04-24T10:00:00Z	1996-04-25T01:00:00Z	BzS,SBC	W	\N
+1996-04-26T00:00:00Z	1996-05-04T00:00:00Z	PC	W	Period of mple plasma and IMF pressure changes while bulk Vel is between 350 and 400Km/s and the IMF mainly northward
+1996-04-26T02:30:00Z	1996-04-27T18:15:00Z	BzN	W	\N
+1996-04-28T05:45:00Z	1996-04-28T15:20:00Z	BzN	W/8	\N
+1996-05-07T13:00:00Z	1996-05-07T18:00:00Z	BzN	W	\N
+1996-05-07T18:00:00Z	1996-05-08T09:00:00Z	BzS	W	\N
+1996-05-11T05:00:00Z	1996-05-12T09:00:00Z	BzN	W/8	\N
+1996-05-12T09:00:00Z	1996-05-12T13:00:00Z	BzS	W/8	\N
+1996-05-12T21:00:00Z	1996-05-13T20:40:00Z	SBC/EyC	W/8	GEOTAIL also in the SW
+1996-05-14T18:00:00Z	1996-05-21T21:00:00Z	EyC	W/8	Period of multiple sharpEyCs
+1996-05-14T19:30:00Z	1996-05-15T07:00:00Z	SBC/BzN/BzS	W/8	\N
+1996-05-17T01:00:00Z	1996-05-17T01:00:00Z	EyC	W/8	Simultaneus to the PC, a strong EyC is observed
+1996-05-17T01:00:00Z	1996-05-18T07:00:00Z	PC/BzN/BzS	W/8	Period starting with BzNfollowed by approx. 24hs of predominantly IMF BzS
+1996-05-17T01:00:00Z	1996-05-17T09:30:00Z	MISC	W	IMC?, start is approx simultaneous at I8 and GEOTAIL
+1996-05-19T00:00:00Z	1996-05-19T09:00:00Z	PC/BzN	W	IMF predominantly North
+1996-05-19T16:00:00Z	1996-05-20T03:00:00Z	EyC,BzS,BzN	W	Period of strong EyCs with IMF predominantly S at start, and N at end
+1996-05-20T03:00:00Z	1996-05-21T06:00:00Z	EyC	W	\N
+1996-05-22T12:00:00Z	1996-05-25T06:00:00Z	PC	W/8	Period of multiple PCs
+1996-05-27T12:00:00Z	1996-05-30T03:00:00Z	IR	W	Period starts with EyC, BzS, and strong enhancement of IMF and plasma ram pressure.
+1996-05-27T08:00:00Z	1996-05-27T23:00:00Z	BzS	W	Sharp PCs near 1200 and 1400 hs, after that the start of a possible IMC is observed
+1996-05-27T14:25:00Z	1996-05-29T02:30:00Z	IMC	W	This strong event started with a nearly South IMF that rotated slowly and became almost completely North at the end. At that point was that POLAR exited into the shocked SW, when it was near its apogee
+1996-05-28T06:10:00Z	1996-05-29T10:30:00Z	BzN	W	Sharp PCs during the period of time in DOY 150
+1996-05-29T09:00:00Z	1996-05-29T13:30:00Z	EyC/PC	W	Strong EyCs and PCs in IMF and plasma observed.
+1996-06-04T03:00:00Z	1996-06-04T09:00:00Z	SBC	W/8	phiB changes from approx270 to 90 Degs.
+1996-06-05T00:00:00Z	1996-06-06T09:00:00Z	IR/EyC	W/8	\N
+1996-06-05T14:00:00Z	1996-06-06T02:00:00Z	BzN	W/8	\N
+1996-06-07T17:30:00Z	1996-06-08T05:30:00Z	BzN	W/8	\N
+1996-06-09T13:00:00Z	1996-06-09T14:00:00Z	EyC	W/8	IMF isolated structure in predominantly North magnetic field
+1996-06-11T02:00:00Z	1996-06-12T14:00:00Z	PC	W	Sharp PCs at the start and end of the interval
+1996-06-11T14:00:00Z	1996-06-12T14:00:00Z	BzS	W	\N
+1996-06-12T00:00:00Z	1996-06-14T21:00:00Z	LSS	W	\N
+1996-06-13T07:00:00Z	1996-06-13T09:00:00Z	SBC	W	\N
+1996-06-13T10:00:00Z	1996-06-14T01:30:00Z	BzN	W	\N
+1996-06-14T01:30:00Z	1996-06-14T18:00:00Z	BzS	W	\N
+1996-06-15T00:00:00Z	1996-06-20T21:00:00Z	IR	W/8	\N
+1996-06-15T00:00:00Z	1996-06-15T15:00:00Z	PC/EyC/BzN	W	\N
+1996-06-15T09:00:00Z	1996-06-15T09:00:00Z	SBC	W	\N
+1996-06-16T02:00:00Z	1996-06-16T09:00:00Z	PC	W/8	\N
+1996-06-16T02:00:00Z	1996-06-17T03:00:00Z	BzS/BzN	W/8	Period starts with IMF Sand ends N, while phiB stays approx constant
+1996-06-18T18:00:00Z	1996-06-19T00:30:00Z	BzS	W/8	\N
+1996-06-18T22:40:00Z	1996-06-18T22:40:00Z	IS	W/8	Observed Forward fast IS, while IMF was southward and GEOTAIL was in the SW.
+1996-06-19T00:00:00Z	1996-06-19T03:40:00Z	PC/EyC	W/8	Period with multiple PCs and EyCs, while the SW flow is about 50Km/s southward.
+1996-06-19T02:00:00Z	1996-06-19T02:00:00Z	SBC	W/8	phiB changes from 300 to120 Degs.
+1996-06-20T01:00:00Z	1996-06-20T12:00:00Z	PC	W/8	\N
+1996-06-21T06:00:00Z	1996-06-21T15:00:00Z	PC	W/8	\N
+1996-06-21T22:00:00Z	1996-06-22T15:00:00Z	BzS	W/8	Period of a predominantly South IMF
+1996-06-22T15:00:00Z	1996-06-23T15:00:00Z	BzN/PC	W/8	Period with multiple PCs
+1996-06-23T20:30:00Z	1996-06-24T05:00:00Z	PC	W	\N
+1996-06-25T01:00:00Z	1996-06-27T21:30:00Z	PC	W	\N
+1996-06-28T12:00:00Z	1996-06-30T21:00:00Z	PC/EyC	W/8	\N
+1996-06-30T00:00:00Z	1996-06-30T12:00:00Z	BzS	W/8	\N
+1996-07-01T12:00:00Z	1996-07-01T21:00:00Z	BzN	W/8	\N
+1996-07-01T12:15:00Z	1996-07-01T12:15:00Z	PC/SBC	W/8	PC ram, SBC occurs whileSW drifts soutward
+1996-07-01T13:00:00Z	1996-07-03T18:00:00Z	IR	W/8	\N
+1996-07-01T13:00:00Z	1996-07-01T13:00:00Z	IS/SBC	W/8	Sharp increase of the IMF, GEOTAIL in the magnetosphere
+1996-07-01T16:30:00Z	1996-07-01T16:30:00Z	EyC	W/8	IMF turns South
+1996-07-01T16:30:00Z	1996-07-01T21:20:00Z	BzS	W/8	\N
+1996-07-01T21:20:00Z	1996-07-01T21:20:00Z	EyC	W/8	IMF turns North
+1996-07-09T15:00:00Z	1996-07-10T00:00:00Z	BzS	W	\N
+1996-07-10T00:00:00Z	1996-07-10T12:30:00Z	BzN	W	\N
+1996-07-11T10:00:00Z	1996-07-16T22:00:00Z	PC/EyC	W/8	Period with large EyCs and PCs
+1996-07-12T01:30:00Z	1996-07-12T17:00:00Z	MISC	W/8	Possibly ejecta
+1996-07-12T21:00:00Z	1996-07-13T09:00:00Z	BzN/EyC	W/8	\N
+1996-07-14T03:00:00Z	1996-07-14T21:00:00Z	BzN/EyC	W/8	\N
+1996-07-16T03:00:00Z	1996-07-16T13:39:00Z	BzN	W/8	\N
+1996-07-16T22:00:00Z	1996-07-16T22:00:00Z	SBC	W/8	\N
+1996-07-17T00:00:00Z	1996-07-23T00:00:00Z	PC	W	Period with multiple PCs
+1996-07-28T11:00:00Z	1996-07-31T10:00:00Z	IR	W/8	\N
+1996-07-28T11:00:00Z	1996-07-29T01:00:00Z	EyC/PC	W/8	\N
+1996-07-30T18:00:00Z	1996-07-31T09:00:00Z	EyC/PC	W/8	\N
+1996-07-31T10:00:00Z	1996-07-31T10:00:00Z	PC	W/8	It seems that reverse IP shock did not form
+1996-07-31T10:00:00Z	1996-08-03T00:00:00Z	HSS	W	\N
+1996-08-06T03:00:00Z	1996-08-06T21:00:00Z	BzS/PC	W/8	\N
+1996-08-06T13:00:00Z	1996-08-06T13:00:00Z	MISC	W/8	IMF seems to show a continuos series of SBCs
+1996-08-07T06:00:00Z	1996-08-08T06:00:00Z	BzS	W/8	\N
+1996-08-08T06:00:00Z	1996-08-09T12:00:00Z	BzN	W/8	\N
+1996-08-12T06:00:00Z	1996-08-12T06:00:00Z	MISC	W/8	Possibly a tangential discontinuity
+1996-08-12T22:15:00Z	1996-08-12T22:15:00Z	PC	W/8	Possibly a weak forward IS
+1996-08-13T01:10:00Z	1996-08-13T06:40:00Z	BzN	W/8	\N
+1996-08-14T03:00:00Z	1996-08-14T09:00:00Z	BzS/PC	W	\N
+1996-08-14T09:00:00Z	1996-08-14T19:00:00Z	EyC	W	Period with multiple PCs, a possible low-high speed SW stream IR
+1996-08-16T07:40:00Z	1996-08-16T07:40:00Z	PC	W	\N
+1996-08-16T07:40:00Z	1996-08-16T21:00:00Z	EyC/PC	W	Interval of multiple EyCs, and strong PCs until 0920 UT
+1996-08-16T14:00:00Z	1996-08-16T19:40:00Z	BzS	W	\N
+1996-08-18T09:00:00Z	1996-08-18T17:30:00Z	MISC	W/8	Interval of a radial IMF, ejecta? (low beta-proton value), seen by GEOTAIL
+1996-08-22T05:30:00Z	1996-08-22T10:00:00Z	BzN	W/8	\N
+1996-08-22T10:30:00Z	1996-08-22T16:40:00Z	BzS	W/8	\N
+1996-08-22T13:10:00Z	1996-08-22T13:10:00Z	PC/MISC	W/8	A possible magnetic tangential discontinuity
+1996-08-22T21:40:00Z	1996-08-24T23:30:00Z	SBC	W/8	Interval of multiple SBCs
+1996-08-23T00:30:00Z	1996-08-23T12:00:00Z	EyC/PC	W/8	Multiple EyCs and PCs with variable IMF
+1996-08-23T02:40:00Z	1996-08-23T05:15:00Z	MISC	W	A flux-rope interval?, ejecta related?
+1996-08-23T19:00:00Z	1996-08-23T20:30:00Z	MISC	W	Interval of a radial IMF
+1996-08-25T06:10:00Z	1996-08-25T12:10:00Z	BzS	W	\N
+1996-08-26T04:00:00Z	1996-08-27T04:00:00Z	BzS	W	Interval of a predominantly soutward IMF
+1996-08-28T01:30:00Z	1996-08-29T16:30:00Z	SBC/EyC	W	Possibly IR, interval with multiple PCs
+1996-08-30T17:00:00Z	1996-09-03T06:00:00Z	SBC/EyC	W/8	\N
+1996-09-03T23:30:00Z	1996-09-04T07:00:00Z	MISC	W/8	Low proton-beta region, radial IMF
+1996-09-04T07:00:00Z	1996-09-04T22:30:00Z	PC/EyC	W/8	\N
+1996-09-04T09:00:00Z	1996-09-04T09:00:00Z	SBC	W/8	\N
+1996-09-05T00:00:00Z	1996-09-08T11:30:00Z	EyC	W/8	Multiple moderate EyCs
+1996-09-09T12:00:00Z	1996-09-10T18:15:00Z	PC/EyC/BzN/BzS	W	\N
+1996-09-09T20:30:00Z	1996-09-09T23:30:00Z	MISC	W	Large smooth rotation of IMF and high Np, low beta-proton
+1996-09-11T01:30:00Z	1996-09-11T08:15:00Z	PC/EyC/BzS/SBC	W	Period before crossing of the Earth's bowshock
+1996-09-12T10:25:00Z	1996-09-12T10:25:00Z	PC	W	Possibly a pressure pulse at a fast stream
+1996-09-12T10:25:00Z	1996-09-13T02:30:00Z	HSS	W	\N
+1996-09-12T10:25:00Z	1996-09-16T16:00:00Z	SBC	W	\N
+1996-09-14T23:30:00Z	1996-09-17T07:30:00Z	EyC	W	\N
+1996-09-18T05:10:00Z	1996-09-18T14:30:00Z	PC/EyC/BzS	W	Extended region of increased IMF and ramPressure
+1996-09-18T23:20:00Z	1996-09-18T23:30:00Z	SBC/MISC	W	Magnetic field dip
+1996-09-19T06:00:00Z	1996-09-20T01:00:00Z	IR	W	\N
+1996-09-20T01:00:00Z	1996-09-23T21:00:00Z	HSS	W	\N
+1996-09-22T04:30:00Z	1996-09-22T17:30:00Z	BzS/EyC	W	\N
+1996-09-24T12:00:00Z	1996-09-24T14:00:00Z	MISC	W	Large angle IMF rotation
+1996-09-26T14:00:00Z	1996-09-26T18:40:00Z	PC/EyC	W/8	Region of sharp IMF fluctuations and ramPressure changes
+1996-09-26T21:32:00Z	1996-09-26T21:32:00Z	IS	W	Reverse IS
+1996-09-28T11:00:00Z	1996-09-28T11:00:00Z	SBC	W/8	\N
+1996-09-28T18:15:00Z	1996-09-28T18:15:00Z	PC/MISC	W	Possibly a tangential discontinuity
+1996-09-29T05:00:00Z	1996-09-29T14:10:00Z	SBC/PC	W	\N
+1996-09-29T05:00:00Z	1996-09-29T06:30:00Z	MISC	W	Large IMF rotation and a strong decrease in magnitude
+1996-10-01T06:15:00Z	1996-10-01T18:25:00Z	EyC/MISC	W	IMC?, low proton-beta region, wide angle azimuthal rotation
+1996-10-01T18:25:00Z	1996-10-02T03:00:00Z	PC	W/8	\N
+1996-10-02T04:30:00Z	1996-10-02T11:15:00Z	EyC/MISC	W	Low proton-beta region, IMP-8 crosses the bowshock
+1996-10-02T11:15:00Z	1996-10-02T17:30:00Z	SBC/EyC/PC	W	\N
+1996-10-07T11:40:00Z	1996-10-07T11:40:00Z	IS	W/8	Possibly a quasi-parallel IP shock
+1996-10-07T11:40:00Z	1996-10-09T09:20:00Z	IR	W	\N
+1996-10-12T16:15:00Z	1996-10-12T16:15:00Z	PC	W	\N
+1996-10-12T18:40:00Z	1996-10-13T00:30:00Z	PC	W	ramPressure changes at approx. constant proton-beta
+1996-10-14T13:30:00Z	1996-10-14T20:40:00Z	MISC	W/8	Interval of mostly radial IMF, GEOTAIL in the SW
+1996-10-16T03:00:00Z	1996-10-16T12:30:00Z	PC	W	\N
+1996-10-16T05:30:00Z	1996-10-16T23:30:00Z	BzS	W	\N
+1996-10-16T23:30:00Z	1996-10-17T08:30:00Z	BzN	W	\N
+1996-10-17T21:30:00Z	1996-10-18T04:00:00Z	EyC	W	\N
+1996-10-18T06:00:00Z	1996-10-20T09:00:00Z	HSS	W	\N
+1996-10-18T22:40:00Z	1996-10-19T04:00:00Z	BzS	W	\N
+1996-10-19T12:30:00Z	1996-10-19T15:50:00Z	BzS	W	\N
+1996-10-19T15:50:00Z	1996-10-19T22:30:00Z	EyC	W	Multiple changes in the Bz IMF direction
+1996-10-22T00:40:00Z	1996-10-22T18:00:00Z	SBC	W/8	Multiple crossings
+1996-10-22T06:40:00Z	1996-10-22T15:20:00Z	BzS	W/8	\N
+1996-10-22T15:00:00Z	1996-10-22T21:00:00Z	EyC	W/8	Multiple changes in the Bz IMF direction
+1996-10-22T21:00:00Z	1996-10-23T04:00:00Z	BzS	W/8	\N
+1996-10-23T04:00:00Z	1996-10-23T04:00:00Z	EyC/SBC	W/8	\N
+1996-10-23T05:00:00Z	1996-10-23T04:00:00Z	HSS	W/8	\N
+1996-10-27T08:00:00Z	1996-10-27T11:50:00Z	PC	W/8	\N
+1996-10-27T08:40:00Z	1996-10-27T16:30:00Z	BzN	W/8	\N
+1996-10-27T21:40:00Z	1996-10-28T08:50:00Z	EyC/PC	W/8	\N
+1996-10-28T08:50:00Z	1996-10-28T14:20:00Z	BzN	W/8	\N
+1996-10-28T09:00:00Z	1996-10-31T00:00:00Z	HSS	W/8	\N
+1996-10-31T21:00:00Z	1996-11-01T00:15:00Z	MISC	W	Interval of a radial IMF
+1996-11-05T07:20:00Z	1996-11-05T18:00:00Z	PC/BzS/BzN	W/8	\N
+1996-11-08T07:45:00Z	1996-11-08T12:10:00Z	MISC	W	Low beta-proton interval, possibly flux-rope (ejecta?)
+1996-11-11T10:30:00Z	1996-11-11T22:30:00Z	MISC	W	Interval with multiple magnetic flux-ropes possible (ejecta?), GEOTAIL in SW
+1996-11-13T12:00:00Z	1996-11-14T02:00:00Z	PC/EyC/MISC	W	Interval contains times of low beta-proton, and possible flux-ropes (ejecta?)
+1996-11-17T21:30:00Z	1996-11-17T21:30:00Z	IS/MISC	W	IMF and plasma data signature of an interplanetary forward slow shock
+1996-11-24T03:00:00Z	1996-11-27T03:00:00Z	IR	W	\N
+1996-11-27T03:00:00Z	1996-11-28T20:00:00Z	HSS	W/8	\N
+1996-12-05T15:00:00Z	1996-12-06T21:00:00Z	MISC	W	Possibly ejecta interval
+1996-12-07T06:00:00Z	1996-12-08T00:00:00Z	PC/BzS/BzN	W	\N
+1996-12-09T15:00:00Z	1996-12-11T01:30:00Z	IR	W	\N
+1996-12-09T15:00:00Z	1996-12-10T22:00:00Z	PC	W/8	\N
+1996-12-10T22:00:00Z	1996-12-11T01:30:00Z	EyC	W/8	\N
+1996-12-11T01:30:00Z	1996-12-12T12:00:00Z	HSS	W/8	Interval is low beta-proton, possibly part of ejecta
+1996-12-13T22:00:00Z	1996-12-14T09:00:00Z	BzN	W/8	\N
+1996-12-14T09:00:00Z	1996-12-15T10:00:00Z	EyC	W/8	\N
+1996-12-15T18:00:00Z	1996-12-15T20:00:00Z	MISC	W/8	Interval of approx radial IMF, GEOTAIL not in the SW
+1996-12-19T02:00:00Z	1996-12-19T21:00:00Z	BzN	W	\N
+1996-12-19T06:00:00Z	1996-12-21T00:00:00Z	PC/EyC	W	\N
+1996-12-21T06:00:00Z	1996-12-21T10:00:00Z	SBC	W	\N
+1996-12-22T12:00:00Z	1996-12-23T07:40:00Z	BzS	W/8	In extended low beta-proton interval
+1996-12-23T10:00:00Z	1996-12-25T05:40:00Z	BzN	W/8	\N
+1996-12-24T02:00:00Z	1996-12-25T11:55:00Z	IMC	W/8	Approximately free expanding IMC starts with IMF BzN, turning toward BzS the next day
+1996-12-25T05:40:00Z	1996-12-25T11:55:00Z	BzS	W/8	\N
+1997-01-10T00:52:00Z	1997-01-10T00:52:00Z	IS	W/8	\N
+1997-01-10T04:40:00Z	1997-01-11T11:30:00Z	IMC	W/8	Strong disturbances to the Earth's Magnetosphere were associated to this IMC
+1997-01-10T04:40:00Z	1997-01-10T16:00:00Z	BzS	W/8	\N
+1997-01-10T16:00:00Z	1997-01-11T06:30:00Z	BzN	W/8	\N
+1997-01-11T01:30:00Z	1997-01-11T03:20:00Z	IR/PC	W/8	Strong SW pressure pulse occurred during the first part of this event causing major magnetospheric disturbances to the Earth
+1997-01-24T10:00:00Z	1997-01-26T00:15:00Z	LSS	W/8	\N
+1997-01-25T18:00:00Z	1997-01-26T14:40:00Z	IR	W	IMF reaches above 15nT near 1000UT
+1997-01-26T16:45:00Z	1997-01-31T23:59:00Z	HSS	W	On Jan. 28, bw 11and 18hs	V	was 700 km/s or larger
+1997-01-28T08:50:00Z	1997-01-28T08:50:00Z	IS	W	Reverse IP shock on 1997-01-28
+1997-02-08T00:10:00Z	1997-02-08T06:50:00Z	BzN	W	\N
+1997-02-08T10:00:00Z	1997-02-08T15:00:00Z	EyC/PC/MISC	W	Period with sharp IMF variations in the GSE-z direction and apparent crossing of a sheet interface
+1997-02-09T12:40:00Z	1997-02-09T12:40:00Z	IS/EyC	W	Forward IS, SW speed changes from 530 to 600km/s I8 near the bow shock
+1997-02-09T16:20:00Z	1997-02-09T20:45:00Z	BzS	W/8	\N
+1997-02-10T02:40:00Z	1997-02-11T01:40:00Z	BzS/MISC	W/8	Period with signature of a tangential crossing of an IMC
+1997-02-11T04:15:00Z	1997-02-11T10:45:00Z	BzS/PC	?	\N
+1997-02-11T16:00:00Z	1997-02-11T22:15:00Z	BzS/PC	W/8	Ram pressure above 12 nPa bw 20 and 21UT
+1997-02-18T09:40:00Z	1997-02-18T14:20:00Z	BzS	W/8	\N
+1997-02-18T14:30:00Z	1997-02-18T21:20:00Z	BzN	W	\N
+1997-02-19T01:30:00Z	1997-02-19T20:00:00Z	BzN	W	IMF predominantly northward
+1997-02-20T09:40:00Z	1997-02-20T14:30:00Z	SBC	W	\N
+1997-02-20T19:15:00Z	1997-02-21T00:30:00Z	BzN/EyC/PC	W	Ram PC due to increase of the SW velocity
+1997-02-21T00:30:00Z	1997-02-21T05:00:00Z	BzS/EyC/PC	W	Pressure pulse, up to 7nPa at period end
+1997-02-23T09:15:00Z	1997-02-23T10:00:00Z	SBC	W/8	\N
+1997-02-27T17:30:00Z	1997-02-28T22:40:00Z	PC/BzS/EyC	W/8	Possibly ejecta interval
+1997-02-28T00:00:00Z	1997-03-01T00:00:00Z	BzS/PC/MISC	W/8	Interval contains low beta-proton intervals, radial IMF (ejecta, flux-rope)
+1997-03-05T13:12:00Z	1997-03-05T13:12:00Z	IS	W	Pressure pulse, up to 9nPa at Forward IS
+1997-03-07T00:00:00Z	1997-03-07T00:00:00Z	MISC	W	SW speed discontinuty, close to Heliogr. sheet?
+1997-03-09T04:50:00Z	1997-03-12T00:00:00Z	LSS	W	\N
+1997-03-12T00:00:00Z	1997-03-12T00:00:00Z	SBC	W/8	\N
+1997-03-12T00:00:00Z	1997-03-12T03:00:00Z	PC	W/8	Pressure pulse reached above 13 nPa
+1997-03-12T00:00:00Z	1997-03-12T15:00:00Z	IR/PC/EyC	W/8	\N
+1997-03-12T15:00:00Z	1997-03-13T18:00:00Z	HSS	W/8	\N
+1997-03-16T00:00:00Z	1997-03-16T05:00:00Z	PC	W/8	Enhancement in Pressure to 5nPa and back to 3 nPa
+1997-03-18T12:00:00Z	1997-03-21T12:00:00Z	LSS	W/8	\N
+1997-03-20T14:00:00Z	1997-03-21T12:00:00Z	PC/BzN/BzS	W/8	\N
+1997-03-20T16:00:00Z	1997-03-21T05:15:00Z	BzN	W/8	\N
+1997-03-20T19:21:00Z	1997-03-20T19:21:00Z	IS	W/8	\N
+1997-03-20T12:00:00Z	1997-03-22T09:00:00Z	IR	W/8	LSS-400km/s stream-stream interaction
+1997-03-22T15:00:00Z	1997-03-23T00:00:00Z	MISC	W/8	interval of an approx. radial IMF
+1997-03-23T08:20:00Z	1997-03-23T08:20:00Z	IS	W/8	\N
+1997-03-25T12:00:00Z	1997-03-26T18:00:00Z	IR	W/8	Stream-stream interaction region
+1997-03-26T21:00:00Z	1997-03-27T15:00:00Z	HSS	W/8	\N
+1997-04-09T00:00:00Z	1997-04-10T13:00:00Z	LSS	W/8	\N
+1997-04-10T01:00:00Z	1997-04-10T15:40:00Z	BzN	W/8	Period of a proton plasma density of about 16 p/cc
+1997-04-10T12:55:00Z	1997-04-10T12:55:00Z	IS	W/8	Spike was observed on 2.1 - 2.5 MeV ions (at WIND)
+1997-04-10T13:00:00Z	1997-04-11T21:10:00Z	IR/BzS/BzN/MIS	C W/8	ISTP Sun-Earth Connection Event
+1997-04-10T16:50:00Z	1997-04-10T20:55:00Z	PC	W/8	Pressure pulse (plasma pressure reached  12 nPa, and IMF 20nT), while IMF Bz direction changed rapidly between N and S
+1997-04-10T20:50:00Z	1997-04-11T05:20:00Z	BzS	W/8	Period of strong geomagnetic activity CANOPUS recorded a cl/cu=-1400/800 nT near midnight
+1997-04-11T05:20:00Z	1997-04-11T15:20:00Z	BzN/MISC	W/8	Sun ejecta hit Earth, the IMF reaches steady values of more than 20nT, alpha to proton ratio peaks at or near three times normal SW values.
+1997-04-11T20:52:00Z	1997-04-11T20:52:00Z	IS	W/8	Shock time at Wind. Reverse IS signature observed
+1997-04-11T23:00:00Z	1997-04-12T03:00:00Z	HSS	W	\N
+1997-05-07T12:00:00Z	1997-05-15T01:15:00Z	LSS	W/8	\N
+1997-05-14T11:40:00Z	1997-05-15T03:15:00Z	BzS	W	\N
+1997-05-15T01:15:00Z	1997-05-15T01:15:00Z	IS	W	\N
+1997-05-15T04:50:00Z	1997-05-15T07:50:00Z	BzS	W	\N
+1997-05-15T08:30:00Z	1997-05-15T18:00:00Z	BzS	W	\N
+1997-05-15T09:35:00Z	1997-05-16T07:10:00Z	IMC	W	Ejecta with IMF above 20 nT, Sun-Earth ISTP connection event, with possible association to the CME observed in the morning of May 12
+1997-05-22T20:00:00Z	1997-05-30T10:30:00Z	LSS	W/8	\N
+1997-05-22T11:30:00Z	1997-05-22T11:30:00Z	SBC	W	\N
+1997-05-24T07:00:00Z	1997-05-25T07:30:00Z	BzS	W	\N
+1997-05-25T10:45:00Z	1997-05-25T19:10:00Z	BzN	W	IMF show structure while mostly North
+1997-05-25T13:45:00Z	1997-05-25T13:45:00Z	IS	W	\N
+1997-05-25T19:30:00Z	1997-05-26T09:40:00Z	BzN	W	IMF show structure while mostly North
+1997-05-26T09:10:00Z	1997-05-26T16:10:00Z	PC/BzS/BzN	W	\N
+1997-05-26T15:50:00Z	1997-05-27T23:40:00Z	BzS/MISC	W	Region with very low proton beta, Ejecta?
+1997-05-30T14:30:00Z	1997-05-30T20:30:00Z	MISC	W	Below average Np and very low proton beta, Ejecta? while GEOTAIL in the SW
+1997-06-08T04:00:00Z	1997-06-09T12:40:00Z	BzS	W/8	Region with very low proton beta, Ejecta?, while GEOTAIL in the SW
+1997-06-11T22:30:00Z	1997-06-12T01:45:00Z	BzS	8	\N
+1997-06-13T13:00:00Z	1997-06-15T19:00:00Z	LSS	W	GEOTAIL in the SW
+1997-06-14T03:00:00Z	1997-06-19T09:00:00Z	SBC	W/8	multiple SBCs while SW speed  changes from ~350 to 450 km/s and back
+1997-06-15T00:30:00Z	1997-06-15T05:00:00Z	BzS	W	\N
+1997-06-15T13:20:00Z	1997-06-16T01:30:00Z	BZN/BzS/BzN/PC	W	Period of an IMF oriented predominantly nortward
+1997-06-19T00:10:00Z	1997-06-19T00:10:00Z	IS	W	\N
+1997-06-19T05:40:00Z	1997-06-19T23:00:00Z	BzS	W/8	Region with very low proton beta, Ejecta?
+1997-06-20T06:00:00Z	1997-06-22T03:00:00Z	LSS	W/8	\N
+1997-06-22T03:00:00Z	1997-06-22T03:00:00Z	PC	W	Possibly an IS
+1997-06-22T03:00:00Z	1997-06-24T00:00:00Z	IR/EyC/PC	W	\N
+1997-06-24T16:00:00Z	1997-06-27T14:00:00Z	SBC	W	\N
+1997-06-27T01:00:00Z	1997-06-27T13:00:00Z	IR/PC/EyC	W	\N
+1997-06-27T13:00:00Z	1997-06-28T03:00:00Z	HSS	W	\N
+1997-06-28T20:30:00Z	1997-06-29T09:30:00Z	BzS	W/8	\N
+1997-07-01T01:20:00Z	1997-07-01T03:10:00Z	SBC	W/8	\N
+1997-07-01T15:20:00Z	1997-07-03T03:00:00Z	LSS	W/8	Region with very low proton beta, GEOTAIL in the SW
+1997-07-03T04:00:00Z	1997-07-03T07:00:00Z	BzN	W	Period of nearly north aligned IMF
+1997-07-03T07:00:00Z	1997-07-03T09:15:00Z	PC/EyC	W/8	\N
+1997-07-03T10:00:00Z	1997-07-03T13:00:00Z	EyC/SBC	8	\N
+1997-07-03T17:20:00Z	1997-07-03T22:30:00Z	BzN	8	\N
+1997-07-06T01:20:00Z	1997-07-06T11:00:00Z	SBC	W	\N
+1997-07-07T04:25:00Z	1997-07-07T04:25:00Z	SBC	W	\N
+1997-07-07T02:00:00Z	1997-07-08T00:00:00Z	IR	W	\N
+1997-07-07T02:00:00Z	1997-07-07T09:00:00Z	BzS/PC	W	\N
+1997-07-09T00:00:00Z	1997-07-09T08:30:00Z	BzS/SBC	W	\N
+1997-07-09T16:00:00Z	1997-07-09T20:30:00Z	BzS	W	Structure with low ions beta
+1997-07-10T06:40:00Z	1997-07-10T16:30:00Z	SBC	W	\N
+1997-07-11T04:30:00Z	1997-07-11T22:30:00Z	SBC	W/8	\N
+1997-07-12T04:40:00Z	1997-07-12T18:00:00Z	MISC	W/8	Interval with IMF approx. radial, and low ion beta
+1997-07-13T01:30:00Z	1997-07-13T07:30:00Z	SBC	W/8	\N
+1997-07-13T17:30:00Z	1997-07-15T02:40:00Z	LSS	W/8	SW conditions are steady, with approx. radial IMF from the Sun
+1997-07-15T02:40:00Z	1997-07-18T20:40:00Z	PC	W	Possibly weak fast quasi parallel IS
+1997-07-15T02:40:00Z	1997-07-15T06:20:00Z	PC/EyC	W/8	Plasma sheath infront of Ejecta candidate?
+1997-07-15T06:20:00Z	1997-07-16T05:15:00Z	BzS/MISC	W/8	Region with very low proton beta, Ejecta?
+1997-07-16T14:45:00Z	1997-07-17T03:40:00Z	BzN	W	\N
+1997-07-17T18:00:00Z	1997-07-17T23:00:00Z	EyC/PC	W/8	\N
+1997-07-18T00:30:00Z	1997-07-18T23:30:00Z	IR/EyC	W	\N
+1997-07-19T03:00:00Z	1997-07-19T03:00:00Z	PC	W	\N
+1997-07-22T07:40:00Z	1997-07-22T08:30:00Z	SBC	W	\N
+1997-07-24T00:00:00Z	1997-07-24T19:00:00Z	IR/PC/EyC/SBC	W/8	\N
+1997-07-25T00:00:00Z	2007-07-25T19:00:00Z	SBC	W/8	Interval with several sharp SBCs
+1997-07-26T19:30:00Z	1997-07-26T20:00:00Z	SBC	8	Interval with GEOTAIL in the SW
+1997-07-27T09:30:00Z	1997-07-28T15:40:00Z	PC	W/8	Multiple traveling PC structures
+1997-07-29T05:30:00Z	1997-07-30T04:30:00Z	SBC/PC	W	Interval with multiple PC and SBC
+1997-07-30T01:30:00Z	1997-07-30T10:10:00Z	BzS/EyC	W	\N
+1997-07-30T16:40:00Z	1997-07-31T13:00:00Z	IR	W	\N
+1997-07-30T22:00:00Z	1997-07-31T03:00:00Z	PC	W/8	Ram pressure reaches above 13 nPa near start July 31, 1997
+1997-07-31T01:30:00Z	1997-07-31T06:40:00Z	BzS/EyC/PC	W	IMF reaches 17 nT while SW speed ramps up
+1997-08-01T01:30:00Z	1997-08-01T22:00:00Z	SBC	W	\N
+1997-08-01T20:00:00Z	1997-08-02T01:00:00Z	PC	W	\N
+1997-08-02T18:00:00Z	1997-08-02T22:30:00Z	SBC	W	\N
+1997-08-03T00:00:00Z	1997-08-03T06:59:00Z	BzN	W	\N
+1997-08-03T09:50:00Z	1997-08-03T13:50:00Z	PC/EyC	W	Ram pressure peaks close to 15 nPa
+1997-08-03T13:50:00Z	1997-08-04T02:00:00Z	IMC	W	Interval with IMF at or above 15 nT Interval of a very low protons beta
+1997-08-03T13:50:00Z	1997-08-03T20:15:00Z	BzS	W	\N
+1997-08-03T20:15:00Z	1997-08-04T03:45:00Z	BzN	W	\N
+1997-08-04T03:45:00Z	1997-08-04T22:00:00Z	PC/BzN	W	IMF predominantly oriented North
+1997-08-05T05:00:00Z	1997-08-05T09:30:00Z	PC/BzN	W/8	Interval of increased ram and IMF pressure
+1997-08-05T22:00:00Z	1997-08-07T06:00:00Z	LSS	W	\N
+1997-08-07T06:15:00Z	1997-08-08T09:00:00Z	SBC/PC	W/8	Interval with predominantly BzN IMF
+1997-08-07T12:40:00Z	1997-08-07T20:40:00Z	BzN	W	\N
+1997-08-08T09:00:00Z	1997-08-09T02:30:00Z	BzS	W/8	\N
+1997-08-09T05:50:00Z	1997-08-09T12:15:00Z	PC	W/8	\N
+1997-08-09T06:10:00Z	1997-08-09T06:10:00Z	PC	W	Possibly IS and/or tangential discontinuity
+1997-08-09T12:15:00Z	1997-08-10T00:00:00Z	EyC	W/8	Period with several moderate EyCs
+1997-08-10T04:30:00Z	1997-08-11T05:40:00Z	BzS	W/8	\N
+1997-08-11T05:40:00Z	1997-08-11T08:40:00Z	BzN	W	low ion beta interval
+1997-08-12T00:00:00Z	1997-08-13T00:00:00Z	SBC	W	\N
+1997-08-12T18:00:00Z	1997-08-13T00:00:00Z	PC/EyC	W/8	Period of multiple changes in PC, E-field
+1997-08-13T00:00:00Z	1997-08-15T00:00:00Z	EyC	W	Period of multiple sharp changes in the orientation of the IMF
+1997-08-14T02:15:00Z	1997-08-14T09:00:00Z	BzS/PC/SBC	W	IMF southward while SW speed was ~ 500 km/s
+1997-08-15T23:15:00Z	1997-08-17T05:00:00Z	SBC	W	\N
+1997-08-17T06:00:00Z	1997-08-18T19:30:00Z	MISC	W	Interval of low ion beta, GEOTAIL in the SW
+1997-08-17T06:00:00Z	1997-08-17T18:00:00Z	BzS	W/8	Possible Ejecta, interval of low ion beta
+1997-08-20T05:05:00Z	1997-08-20T05:05:00Z	PC	W	IMF decreases, no shock
+1997-08-21T02:20:00Z	1997-08-20T20:50:00Z	SBC	W/8	\N
+1997-08-22T00:15:00Z	1997-08-22T08:15:00Z	EyC/SBC/PC	W	\N
+1997-08-24T13:15:00Z	1997-08-24T21:45:00Z	PC	W	Interval of above average ram pressure
+1997-08-25T12:00:00Z	1997-08-28T00:00:00Z	LSS	W	\N
+1997-08-27T13:30:00Z	1997-08-27T19:40:00Z	BzN	W	\N
+1997-08-27T20:00:00Z	1997-08-28T11:00:00Z	IR/EyC/SBC	W	Interval with multiple sharp SBCs
+1997-08-29T01:00:00Z	1997-08-29T19:30:00Z	EyC/SBC	W	Interval with multiple sharp Ey changes
+1997-08-30T02:40:00Z	1997-08-30T16:00:00Z	EyC/SBC	W/8	\N
+1997-08-31T09:00:00Z	1997-08-31T10:00:00Z	PC	W/8	Ram pressure increases
+1997-09-01T02:30:00Z	1997-09-01T16:10:00Z	MISC	W/8	Radial IMF, low ion beta, GEOTAIL in the SW
+1997-09-02T09:00:00Z	1997-09-02T22:40:00Z	LSS	W	\N
+1997-09-02T22:40:00Z	1997-09-02T22:40:00Z	IS	W	\N
+1997-09-02T22:40:00Z	1997-09-04T09:00:00Z	IR/EyC/PC	W	SW low-high speed stream IR
+1997-09-03T07:00:00Z	1997-09-04T01:10:00Z	MISC	W	Complex Ejecta structure with some signature of an IMC, WAVES/MFI detected type II radio bursts, possibly a Sun-Earth connection event associated to the halo type CME on Aug. 29, 97. GEOTAIL enters the Bow Shock
+1997-09-04T09:30:00Z	1997-09-05T04:30:00Z	HSS	W	\N
+1997-09-05T17:30:00Z	1997-09-05T19:30:00Z	PC	W/8	Interval of higher ram pressure
+1997-09-06T12:15:00Z	1997-09-06T14:30:00Z	PC/SBC	W	Pressure structure in the SW with sharp boundaries
+1997-09-07T05:30:00Z	2007-09-07T05:30:00Z	PC	W	\N
+1997-09-10T10:30:00Z	1997-09-11T00:50:00Z	BzS/EyC	W	\N
+1997-09-11T08:00:00Z	1997-09-11T15:00:00Z	BzS	W	\N
+1997-09-11T22:00:00Z	1997-09-13T07:30:00Z	BzS/EyC	W	\N
+1997-09-15T01:15:00Z	1997-09-16T14:30:00Z	BzS	W/8	Long interval with predominantly southward IMF SW speed varies between 350 and 450 km/s, GEOTAIL in the SW.
+1997-09-15T23:30:00Z	1997-09-16T16:00:00Z	MISC/EyC	W	Interval with IMF predominantly oriented south (BzS)
+1997-09-17T12:00:00Z	1997-09-18T09:00:00Z	EyC/BzS/PC	W/8	Interval with periods of strong soutward IMF, and low ion beta
+1997-09-17T18:00:00Z	1997-09-17T18:00:00Z	SBC/PC	W/8	The SBC appears 30 minutes later at IMP-8
+1997-09-18T00:30:00Z	1997-09-18T00:30:00Z	IS	W	Fast forward IS, GEOTAIL in the SW, while BzS
+1997-09-18T00:30:00Z	1997-09-18T03:50:00Z	PC/BzS	W	Ram pressure reaches 8 nPa toward end of interval, IMF above normal, GEOTAIL in the SW. In part a low ion beta PC region
+1997-09-18T03:50:00Z	1997-09-21T14:15:00Z	MISC	W	Period with extended intervals of low ion beta, and above normal IMF strength, possibly multiple low speed traveling SW structures
+1997-09-20T02:00:00Z	1997-09-20T12:00:00Z	BzS	W	\N
+1997-09-21T04:00:00Z	1997-09-21T22:00:00Z	BzS/PC	W	IMF predominantly oriented soutward. Also a sheath region of above normal ram pressure with a peak value of 20 nPa toward the end of this interval.
+1997-09-21T04:10:00Z	1997-09-21T04:10:00Z	IS	W	\N
+1997-09-21T22:00:00Z	1997-09-23T11:50:00Z	BzN	W	\N
+1997-09-22T01:30:00Z	1997-09-22T17:30:00Z	IMC	W	Expanding magnetic flux rope with approx. half the rotation of a typical IMC. Type II radio bursts observed. GEOTAIL in the SW
+1997-09-23T01:40:00Z	1997-09-23T01:40:00Z	PC	W	Pressure balance structure possible, low ion beta
+1997-09-24T00:00:00Z	1997-09-25T09:00:00Z	MISC	W/8	Region of below normal IMF strength
+1997-09-26T04:00:00Z	1997-09-26T11:00:00Z	BzS	W/8	\N
+1997-09-26T09:30:00Z	1997-09-26T16:00:00Z	SBC	W/8	\N
+1997-09-27T00:00:00Z	1997-09-27T18:30:00Z	BzS/EyC/SBC	W/8	\N
+1997-09-28T00:15:00Z	1997-09-28T00:15:00Z	EyC	W	\N
+1997-09-28T00:20:00Z	1997-09-28T15:15:00Z	BzS/SBC	W	GEOTAIL in the SW
+1997-09-30T23:35:00Z	1997-09-30T23:35:00Z	PC	8	Pressure balance structure possible, WIND and GEOTAIL in the magnetosphere
+1997-10-01T01:00:00Z	1997-10-01T01:00:00Z	IS	8	WIND in the Earth's plasma sheath
+1997-10-01T11:40:00Z	1997-10-02T23:10:00Z	MISC	W	extended strong IMF, ejecta/IMC?
+1997-10-01T11:40:00Z	1997-10-01T16:50:00Z	BzS	W/8	\N
+1997-10-01T16:30:00Z	1997-10-01T16:50:00Z	EyC	W/8	Large change in Ey
+1997-10-01T16:50:00Z	1997-10-02T23:10:00Z	BzN	W	Interval ending with IMF aligned almost completely N possibly ejecta, part of IMC, very low ion beta, GEOTAIL in the SW.
+1997-10-03T02:00:00Z	1997-10-03T02:00:00Z	PC/MISC	W	Tangential or rotational discontinuity possible
+1997-10-02T23:10:00Z	1997-10-03T16:30:00Z	PC/SBC	W	Interval with above normal ram pressure
+1997-10-04T01:00:00Z	1997-10-05T00:15:00Z	EyC	W	Interval with multiple sharp changes in the IMF while predominantly northward (BzN)
+1997-10-05T03:30:00Z	1997-10-05T16:15:00Z	BzN	W	\N
+1997-10-06T01:15:00Z	1997-10-06T16:00:00Z	BzN/LSS	W	\N
+1997-10-06T20:30:00Z	1997-10-07T01:30:00Z	PC	W/8	\N
+1997-10-07T01:30:00Z	1997-10-07T21:40:00Z	EyC	W/8	Interval with multiple sharp changes in the IMF while predominantly southward (BzS), GEOTAIL in the SW
+1997-10-07T21:40:00Z	1997-10-08T04:00:00Z	BzN/EyC	W/8	Period with multiple nearly North aligned IMF, GEOTAIL in the SW
+1997-10-08T04:00:00Z	1997-10-10T21:40:00Z	SBC/EyC	W/8	Period with multiple SBC, sharp Ey changes, while IMF was mainly southward (BzS)
+1997-10-10T03:00:00Z	1997-10-10T03:00:00Z	PC	W	Possible IS, (KPs do not show change in the ions thermal velocity)
+1997-10-10T16:00:00Z	1997-10-10T16:00:00Z	IS	W	\N
+1997-10-10T16:00:00Z	1997-10-10T22:00:00Z	PC/EyC/SBC	W/8	Plasma sheath ahead of IMC
+1997-10-10T22:00:00Z	1997-10-12T00:00:00Z	IMC/BzS/BzN	W	Also IMP-8 data toward the end of the IMC
+1997-10-13T00:02:00Z	1997-10-13T21:00:00Z	BzS	W	Period of ion beta much smaller than one.
+1997-10-13T18:00:00Z	1997-10-23T08:10:00Z	LSS	W	Period with intervals with IMP-8 and GEOTAIL in the SW
+1997-10-14T05:20:00Z	1997-10-14T14:40:00Z	BzS	W	\N
+1997-10-14T14:40:00Z	1997-10-14T22:20:00Z	BzN	W/8	\N
+1997-10-14T23:30:00Z	1997-10-15T09:00:00Z	BzN	W	GEOTAIL in the SW
+1997-10-15T09:00:00Z	1997-10-15T17:00:00Z	BzS	W	\N
+1997-10-15T16:40:00Z	1997-10-15T17:00:00Z	MISC	W	A gradual SBC?
+1997-10-15T17:00:00Z	1997-10-16T23:50:00Z	MISC	W	Extended intervals of an IMF aligned along X-GSE
+1997-10-16T00:00:00Z	1997-10-17T00:00:00Z	MISC	W	Interval contains long periods of IMF aligned along X-GSE
+1997-10-16T10:40:00Z	1997-10-18T03:00:00Z	PC	W	Period with intervals of above average ram Pressure
+1997-10-19T09:05:00Z	1997-10-19T09:05:00Z	PC	W	Possible tangential discontinuity or IS
+1997-10-19T22:15:00Z	1997-10-20T02:00:00Z	SBC/EyC	W	Period with multiple SBC/EyCs
+1997-10-21T02:00:00Z	1997-10-21T07:30:00Z	BzS	8	WIND perigee
+1997-10-21T07:30:00Z	1997-10-21T09:10:00Z	EyC	8	WIND perigee
+1997-10-22T18:30:00Z	1997-10-22T18:30:00Z	MISC	W	Possible bow shock crossing (outward), a Quasi// BS?
+1997-10-23T01:15:00Z	1997-10-24T22:00:00Z	SBC/EyC	W	Interval with multiple SBC/EyCs
+1997-10-23T08:10:00Z	1997-10-23T08:10:00Z	IS	W/8	\N
+1997-10-23T23:50:00Z	1997-10-24T13:30:00Z	BzS	W	GEOTAIL in the SW
+1997-10-24T11:15:00Z	1997-10-24T11:15:00Z	IS	W	GEOTAIL in the SW, IS during low ion beta interval
+1997-10-24T12:00:00Z	1997-10-24T12:00:00Z	EyC	W/8	Ey reaches 10 mV/m,     GEOTAIL in the SW
+1997-10-24T23:30:00Z	1997-10-25T03:30:00Z	BzS/SBC/EyC	W/8	\N
+1997-10-25T05:25:00Z	1997-10-25T05:25:00Z	PC	W/8	Possibly a slow reverse IS
+1997-10-25T22:15:00Z	1997-10-26T02:30:00Z	BzS/EyC	W/8	\N
+1997-10-26T23:30:00Z	1997-10-27T06:15:00Z	BzS/EyC/PC/SBC	W/8	Interval of low ion beta (SW speed ~ 500 km/s)
+1997-10-27T06:15:00Z	1997-10-27T16:00:00Z	BzN	W	\N
+1997-10-27T10:30:00Z	1997-10-28T05:00:00Z	MISC	W	Low ion beta region, possibly an Ejecta/IMC
+1997-10-28T05:00:00Z	1997-10-28T22:00:00Z	PC/EyC/SBC	W	GEOTAIL in the SW
+1997-10-30T06:00:00Z	1997-10-30T16:50:00Z	BzS/EyC/SBC	W	Period with an IMF predominantly southward
+1997-10-31T23:00:00Z	1997-10-31T23:00:00Z	PC	W	\N
+1997-11-01T06:10:00Z	1997-11-01T06:10:00Z	IS	W/8	Ram Pressure spike of 12 nPa or more while the IMF is N.
+1997-11-01T07:20:00Z	1997-11-01T22:00:00Z	SBC/PC/EyC/MIS	C W/8	Period of increasing SW speed, with multiple SBC and a large magnetic hole near 0950 UT.
+1997-11-04T00:00:00Z	1997-11-04T02:20:00Z	MISC/PC	W/8	Interval showing possible IMF rotat. discont.
+1997-11-04T02:20:00Z	1997-11-04T22:50:00Z	MISC/PC/BzS/Bz	N W/8	possibly an Ejecta/IMC, GEOTAIL in the SW IMF predominantly South for most of the period.
+1997-11-05T06:30:00Z	1997-11-05T11:55:00Z	BzS	W/8	Low ion beta region
+1997-11-06T01:30:00Z	1997-11-06T22:00:00Z	BzS	W/8	Period with an IMF predominantly southward
+1997-11-06T22:10:00Z	1997-11-06T22:10:00Z	IS/MISC	W/8	Foward IS seen near 2240 by IMP-8. During the shock (at IMP-8) the IMF rotates from S to N!.
+1997-11-06T23:00:00Z	1997-11-07T09:00:00Z	BzS/EyC/PC	W/8	\N
+1997-11-07T05:30:00Z	1997-11-08T14:30:00Z	IMC	W/8	GEOTAIL shows intervals in and out of the SW
+1997-11-09T10:00:00Z	1997-11-09T10:00:00Z	IS	W	GEOTAIL in the SW
+1997-11-09T17:20:00Z	1997-11-10T16:00:00Z	BzS/SBC/PC	W	GEOTAIL in the SW
+1997-11-09T22:30:00Z	1997-11-09T22:30:00Z	IS	W	F IS during extended interval of BzS
+1997-11-10T15:45:00Z	1997-11-11T00:15:00Z	BzN	W	Interval of BzN except from 2015 to 2045 UT
+1997-11-10T20:15:00Z	1997-11-10T20:45:00Z	SBC/MISC/BzS	W	possibly slow crossing of the heliospheric plasma sheet double dip observed in the strength of the IMF.
+1997-11-11T02:00:00Z	1997-11-11T04:30:00Z	SBC/PC/MISC	W	Multiple SBCs and intervals of IMF holes.
+1997-11-12T15:00:00Z	1997-11-12T15:00:00Z	PC/MISC	W	Possible IMF tangential discontinuity
+1997-11-13T04:30:00Z	1997-11-13T22:10:00Z	PC/BzS	W/8	Interval with high density/ram-pressure structures
+1997-11-14T03:30:00Z	1997-11-14T23:40:00Z	SBC/PC/EyC	W/8	Interval with predominantly BzS
+1997-11-14T23:40:00Z	1997-11-16T02:00:00Z	BzS/MISC	W/8	Interval with low to very low ion beta
+1997-11-16T02:00:00Z	1997-11-16T21:20:00Z	SBC/BzS/BzN/PC	W/8	\N
+1997-11-16T21:20:00Z	1997-11-17T02:40:00Z	BzS	W/8	\N
+1997-11-17T02:40:00Z	1997-11-17T08:50:00Z	PC	W/8	ram Pressure increases/decreases at period start/end
+1997-11-18T00:40:00Z	1997-11-18T02:20:00Z	PC	W	ram Pressure spike reaches 9 nPa
+1997-11-19T20:40:00Z	1997-11-19T23:50:00Z	MISC	W/8	Interval of nearly radial IMF. GEOTAIL in the SW
+1997-11-20T07:40:00Z	1997-11-20T07:40:00Z	SBC	W	GEOTAIL out and in the SW
+1997-11-22T00:25:00Z	1997-11-22T06:40:00Z	BzS	W	\N
+1997-11-22T09:10:00Z	1997-11-22T09:10:00Z	IS	W	Very strong F IPS ahead of Ejecta
+1997-11-22T09:10:00Z	1997-11-22T18:50:00Z	EyC/MISC	W	This interval had ramPressure with spikes of at least  20 nPa and IMF of at least 35 nTa, and induced E fields of more than 10 mV/M. This structure was probably driven by a CME. On Nov. 17, 1997, ~ 8:00 UT there was a full halo CME in the East side of the Sun.
+1997-11-22T13:05:00Z	1997-11-23T12:50:00Z	BzS/BzN/BzS	W	Ejecta, possibly IMC. Sustained IMF of 25 nTa or more during the first eight hours of this event.
+1997-11-23T12:50:00Z	1997-11-23T13:05:00Z	SBC/PC/MISC	W	Interval shows the possible signature of a magnetic hole
+1997-11-24T03:30:00Z	1997-11-24T03:30:00Z	PC	W	PC while IMF has BzS and SW speed is ~550 km/s
+1997-11-24T06:30:00Z	1997-11-27T23:45:00Z	SBC	W	Period with multiple SBCs.
+1997-11-28T09:00:00Z	1997-11-29T11:40:00Z	MISC	W/8	Interval of low beta-p, nearly radial SW
+1997-11-29T11:40:00Z	1997-11-29T11:40:00Z	PC	W/8	Pressure balance?, beginning of region of very low IMF
+1997-11-29T11:40:00Z	1997-11-30T07:15:00Z	LSS	W/8	\N
+1997-11-30T07:15:00Z	1997-11-30T07:15:00Z	IS	W/8	Fast foward IS seen at imp-8 approx. at 0800 UT
+1997-11-30T07:15:00Z	1997-11-30T08:15:00Z	PC/MISC	W/8	Pressure pulse, jump of ~4 nPa in ram pressure
+1997-11-30T20:50:00Z	1997-12-01T03:55:00Z	MISC	W/8	Low beta-p region in apparent pressure balance
+1997-12-02T01:30:00Z	1997-12-02T10:00:00Z	BzN	W	\N
+1997-12-02T21:00:00Z	1997-12-07T14:30:00Z	SBC/EyC	W	Period with multiple SBCs
+1997-12-02T21:15:00Z	1997-12-02T22:45:00Z	PC/MISC	W	Period of high ram pressure, beta-p, low IMF
+1997-12-08T05:30:00Z	1997-12-09T01:40:00Z	BzN	W/8	Interval of relative low beta-p, low ram Pressure
+1997-12-08T12:45:00Z	1997-12-10T04:30:00Z	LSS	W/8	\N
+1997-12-10T04:30:00Z	1997-12-10T04:30:00Z	IS	W	\N
+1997-12-10T04:30:00Z	1997-12-10T18:40:00Z	BzS/EyC/PC/SBC	W/8	\N
+1997-12-10T18:40:00Z	1997-12-14T16:10:00Z	BzS/BzN	W/8	Ejecta, extended low beta-p event. IMP-8 made several bowshock crossings at the start of the interval
+1997-12-12T22:15:00Z	1996-12-19T18:00:00Z	LSS	W/8	\N
+1997-12-15T06:00:00Z	1997-12-15T20:30:00Z	BzS	W/8	IMP-8 in the bowshock since 1420 UT
+1997-12-16T08:20:00Z	1997-12-17T08:30:00Z	BzS	W	\N
+1997-12-17T17:00:00Z	1997-12-18T06:40:00Z	BzS/EyC/PC	W	Interval of a rotating IMF (IMC type structure?) Interval with IMF/ramPressure above average
+1997-12-19T05:00:00Z	1997-12-20T04:00:00Z	EyC/BzN	W	\N
+1997-12-20T06:30:00Z	1997-12-25T23:00:00Z	SBC	W/8	Interval with multiple SBCs
+1997-12-24T00:20:00Z	1997-12-24T12:00:00Z	BzS	W/8	\N
+1997-12-25T07:00:00Z	1997-12-30T01:15:00Z	LSS	W	IMP-8 in the SW during part of the interval
+1997-12-26T01:00:00Z	1997-12-26T08:30:00Z	BzN	W/8	\N
+1997-12-30T01:15:00Z	1997-12-30T01:15:00Z	IS	W	\N
+1997-12-30T01:15:00Z	1997-12-30T08:00:00Z	EyC/BzS/BzN	W	\N
+1997-12-30T08:00:00Z	1997-12-31T05:00:00Z	BzS/BzN/MISC	W	Ejecta, possibly an IMC
+1998-01-01T00:45:00Z	1998-01-01T09:00:00Z	EyC	W	Period with multiple EyCs
+1998-01-01T14:15:00Z	1998-01-02T13:00:00Z	MISC	W	Interval of a low beta (protons)
+1998-01-03T05:30:00Z	1998-01-03T14:00:00Z	BzS	W	\N
+1998-01-03T21:40:00Z	1998-01-04T09:00:00Z	BzN	W	\N
+1998-01-04T09:30:00Z	1998-01-04T18:00:00Z	EyC	W	Period with multiple EyCs
+1998-01-05T08:00:00Z	1998-01-06T06:30:00Z	BzS/EyC/PC	W	Period with IMF mostly south, and multiple EyCs/PCs
+1998-01-06T06:00:00Z	1998-01-07T03:00:00Z	BzS/EyC/PC	W/8	Period with IMF mostly south, and multiple EyCs/PCs
+1998-01-06T13:30:00Z	1998-01-06T13:30:00Z	IS	W	IS observed also at IMP-8 approx. at 1420 UT
+1998-01-07T03:00:00Z	1998-01-08T07:30:00Z	IMC/BzN	W/8	\N
+1998-01-08T07:30:00Z	1998-01-08T16:45:00Z	PC/BzS	W/8	Region of above normal ramPressure
+1998-01-08T16:45:00Z	1998-01-08T21:10:00Z	MISC	W/8	Region of low beta (protons), possibly an IMC
+1998-01-08T21:00:00Z	1998-01-08T22:20:00Z	PC	W/8	Region of multiple ramPressure spikes
+1998-01-08T22:20:00Z	1998-01-08T23:50:00Z	EyC	W/8	Multiple strong EyC
+1998-01-08T23:50:00Z	1998-01-09T04:10:00Z	BzN	W/8	Approx. one hour shifted in time in going from WI to I8 (this is the same for other entries before/after)
+1998-01-09T04:10:00Z	1998-01-09T14:20:00Z	BzS/PC	W/8	\N
+1998-01-09T15:40:00Z	1998-01-09T20:40:00Z	BzN	W	\N
+1998-01-09T21:00:00Z	1998-01-10T03:00:00Z	EyC	W	Multiple EyC
+1998-01-10T04:00:00Z	1998-01-10T16:00:00Z	BzS/EyC/SBC	W	Time interval with IMF predominantly South and multiple EyC and SBC
+1998-01-11T00:30:00Z	1998-01-12T18:00:00Z	SBC/EyC	W	Multiple SBC and EyC while the IMF is predominantly South
+1998-01-13T05:20:00Z	1998-01-13T17:30:00Z	SBC/EyC	W	\N
+1998-01-15T15:00:00Z	1998-01-16T13:00:00Z	LSS	W	\N
+1998-01-15T20:30:00Z	1998-01-18T11:40:00Z	BzS/EyC/SBC	W/8	Interval of an IMF predominantly South with multiple EyC and SBC
+1998-01-18T11:40:00Z	1998-01-19T20:50:00Z	BzN/PC/SBC/EyC	W/8	Interval with multiple EyC and SBC with above average IMF intensity
+1998-01-19T20:50:00Z	1998-01-20T16:40:00Z	EyC/PC	W/8	Multiple EyC/PC
+1998-01-20T17:30:00Z	1998-01-20T23:00:00Z	BzS/MISC	W	IMF Southward during low plasma beta (proton) region (Ejecta?)
+1998-01-20T23:00:00Z	1998-01-21T03:30:00Z	BzN/MISC	W	IMF Northward during interval of a mostly low beta region and a ramPressure with spikes of more than 15 nPa
+1998-01-21T03:45:00Z	1998-01-21T03:45:00Z	SBC	W	\N
+1998-01-21T05:00:00Z	1998-01-21T05:00:00Z	SBC	W/8	IMP-8 observes the SBC at 0555 UT
+1998-01-21T05:20:00Z	1998-01-22T11:40:00Z	BzN	W/8	\N
+1998-01-21T05:20:00Z	1998-01-22T01:00:00Z	MISC/PC	W/8	Very low plasma beta (proton) region, Ejecta?, while IMF reaches 20 nTa
+1998-01-22T13:40:00Z	1998-01-22T21:45:00Z	PC/EyC	W	\N
+1998-01-24T04:40:00Z	1998-01-24T04:40:00Z	IS	W	\N
+1998-01-24T05:40:00Z	1998-01-24T15:00:00Z	BzN/PC/MISC	W	Time period contains a 180 Deg. smooth rotation in longitude of the IMF and an interval of low plasma beta (proton)
+1998-01-25T00:40:00Z	1998-01-25T19:00:00Z	SBC/PC	W	Interval with multiple SBC and PC
+1998-01-27T03:45:00Z	1998-01-27T03:45:00Z	SBC/PC	W	\N
+1998-01-27T06:00:00Z	1998-01-27T06:00:00Z	PC/MISC	W	Possibly a tangential discontinuity, two streams contact region
+1998-01-28T04:00:00Z	1998-01-28T11:30:00Z	MISC	W/8	IMF oriented approx. radial from the Sun
+1998-01-28T16:00:00Z	1998-01-28T16:00:00Z	IS	W/8	possible parallel forward IS, approx. one hour later at IMP-8
+1998-01-29T13:45:00Z	1998-01-30T23:10:00Z	MISC	W/8	Time interval of low plasma beta (proton)
+1998-01-29T20:00:00Z	1998-01-30T23:10:00Z	BzS	W/8	\N
+1998-01-31T15:50:00Z	1998-01-31T15:50:00Z	IS	W	\N
+1998-01-31T15:50:00Z	1998-02-01T13:45:00Z	PC	W/8	Interval of above average ramPressure with multiple PC
+1998-02-01T21:40:00Z	1998-02-02T18:45:00Z	BzN	W/8	\N
+1998-02-02T07:40:00Z	1998-02-04T02:15:00Z	MISC	W	Interval of below average ramPressure, and low plasma beta (proton)
+1998-02-03T12:30:00Z	1998-02-04T19:15:00Z	BzS	W	\N
+1998-02-04T04:00:00Z	1998-02-05T22:00:00Z	IMC	W	See a flux rope fit when linking from the Magnetic Cloud Table by the WIND/MFI team
+1998-02-05T00:00:00Z	1998-02-06T23:00:00Z	LSS	W	\N
+1998-02-07T03:00:00Z	1998-02-07T21:15:00Z	SBC	W	Time interval with multiple SBC
+1998-02-08T10:00:00Z	1998-02-09T18:00:00Z	EyC/PC/SBC	W/8	Period with multiple EyC, SBC and PC, a possible stream-stream IR
+1998-02-10T01:40:00Z	1998-02-10T09:30:00Z	SBC	W/8	Time interval with multiple SBC
+1998-02-10T18:00:00Z	1998-02-12T02:00:00Z	EyC/PC	W/8	Time interval with multiple EyC and PC
+1998-02-13T03:35:00Z	1998-02-13T03:35:00Z	SBC/MISC	W/8	Possible stream-stream and IMF rotational discontinuity
+1998-02-13T17:00:00Z	1998-02-14T02:30:00Z	BzS	W/8	A low plasma beta (proton) region
+1998-02-14T13:15:00Z	1998-02-14T16:30:00Z	SBC	W/8	\N
+1998-02-15T20:00:00Z	1998-02-16T04:00:00Z	MISC	W/8	Interval with an IMF approx. radial from the Sun
+1998-02-16T04:00:00Z	1998-02-17T18:10:00Z	BzN	W	\N
+1998-02-16T18:30:00Z	1998-02-20T00:30:00Z	MISC	W	Interval dominated by low plasma beta (proton) regions (multiple Ejecta?)
+1998-02-17T11:20:00Z	1998-02-18T08:45:00Z	BzS/PC	W	Period with strong IMF, most of the time oriented South, and above average ramPressure
+1998-02-17T12:00:00Z	1998-02-17T12:00:00Z	EyC	W	Sharp/strong EyC
+1998-02-18T07:50:00Z	1998-02-18T07:50:00Z	IS	W	Forward IS (in Ejecta?)
+1998-02-18T07:50:00Z	1998-02-18T21:00:00Z	EyC/PC	W	Time interval with multiple EyC and PC
+1998-02-18T20:00:00Z	1998-02-18T21:20:00Z	SBC	W	\N
+1998-02-18T21:10:00Z	1998-02-19T07:15:00Z	BzN	W	Possible interval of observation of an IMC
+1998-02-19T13:40:00Z	1998-02-20T00:30:00Z	BzS	W	Possible interval of observation of an IMC
+1998-02-20T17:25:00Z	1998-02-20T17:25:00Z	SBC	W	\N
+1998-02-21T03:00:00Z	1998-02-21T13:30:00Z	BzN	W	\N
+1998-02-21T16:40:00Z	1998-02-22T05:30:00Z	BzS	W	\N
+1998-02-21T20:10:00Z	1998-02-21T20:10:00Z	SBC	W	\N
+1998-02-22T04:00:00Z	1998-02-22T06:30:00Z	PC	W/8	\N
+1998-02-22T07:10:00Z	1998-02-24T06:30:00Z	SBC/EyC	W/8	Time interval with multiple SBC and EyC
+1998-02-22T19:40:00Z	1998-02-23T00:00:00Z	BzN	W/8	IMF oriented North, at IMP-8 interval starts and ends 40 minutes later
+1998-02-23T15:00:00Z	1998-02-23T19:40:00Z	BzS	W	\N
+1998-02-25T04:00:00Z	1998-02-25T08:30:00Z	BzS	W/8	\N
+1998-02-25T18:00:00Z	1998-02-26T16:00:00Z	BzN	W/8	\N
+1998-02-27T06:00:00Z	1998-02-27T22:30:00Z	SBC/EyC	W/8	Multiple SBC(s)
+1998-02-27T15:00:00Z	1998-02-28T07:00:00Z	BzS	W/8	\N
+1998-03-01T00:20:00Z	1998-03-01T00:20:00Z	EyC	W	EyC at IMF turning South, it coincides at I8 with I8 crossing of the bow shock
+1998-03-01T11:00:00Z	1998-03-02T06:40:00Z	BzS	W/8	I8 (IMP-8) enters definitively the bow shock at ~2100 UT
+1998-03-03T05:50:00Z	1998-03-03T19:00:00Z	MISC	W	Low proton-beta region (Ejecta?)
+1998-03-04T10:10:00Z	1998-03-04T17:00:00Z	BzS	W	\N
+1998-03-04T11:05:00Z	1998-03-04T11:05:00Z	PC	W	Possibly an IS
+1998-03-04T00:14:00Z	1998-03-06T00:06:00Z	IMC	W	A catalogued IMC
+1998-03-05T08:00:00Z	1998-03-06T06:30:00Z	BzN/PC	W	Interval of steady magnitude of IMF with multiple PCs
+1998-03-06T12:00:00Z	1998-03-06T22:00:00Z	BzN	W/8	\N
+1998-03-06T22:20:00Z	1998-03-07T12:00:00Z	BzS/MISC	W/8	Interval of low proton beta (Ejecta?) with extended BzS and IMF rotating between 120 and 330 Deg.
+1998-03-07T09:40:00Z	1998-03-09T05:40:00Z	BzN	W/8	Interval of predominantly north BzN
+1998-03-07T12:40:00Z	1998-03-10T03:00:00Z	LSS	W/8	\N
+1998-03-07T21:30:00Z	1998-03-09T05:30:00Z	SBC	W/8	\N
+1998-03-10T00:30:00Z	1998-03-11T00:00:00Z	IR/EyC/BzS/PC	W/8	Period with SW speed changing from under 300 to 550 km/s and ramPressure peaking to above 15 nPa (~10 UT) and IMF above 20 nT
+1998-03-11T00:00:00Z	1998-03-13T14:00:00Z	MISC	W/8	Large periods (> half hour) IMF fluctuates  (HSS?)
+1998-03-13T23:30:00Z	1998-03-14T08:30:00Z	MISC	W	IMF approx. radial (Sun-Earth direction)
+1998-03-14T13:15:00Z	1998-03-15T14:30:00Z	BzS/SBC	W	Period with multiple SBCs
+1998-03-17T17:50:00Z	1998-03-18T06:15:00Z	MISC	W	Very low beta (protons) region, Ejecta?
+1998-03-17T18:50:00Z	1998-03-17T18:50:00Z	MISC	W	Possible rotational discontinuity
+1998-03-19T01:30:00Z	1998-03-20T08:45:00Z	LSS/PC/MISC	W/8	Interval of multiple PCs and very low beta (protons)
+1998-03-20T05:20:00Z	1998-03-21T01:50:00Z	BzS/EyC/PC/MIS	C W/8	Interval of multiple BzS/EyC/PCs and very low beta (protons)
+1998-03-21T03:00:00Z	1998-03-21T20:45:00Z	IR/EyC/PC/BzS,	N W/8	\N
+1998-03-21T20:40:00Z	1998-03-21T20:40:00Z	PC	W/8	At 2130 observed at I8, possibly a fast reverse IS
+1998-03-22T07:00:00Z	1998-03-22T07:00:00Z	PC	W/8	At 0655 observed at I8, (reverse IS?)
+1998-03-21T20:40:00Z	1998-03-23T03:00:00Z	HSS	W/8	\N
+1998-03-24T10:00:00Z	1998-03-24T10:00:00Z	SBC	W/8	\N
+1998-03-24T11:00:00Z	1998-03-25T00:00:00Z	BzS	W/8	\N
+1998-03-25T07:00:00Z	1998-03-25T15:20:00Z	BzS/PC/EyC	W/8	\N
+1998-03-25T14:00:00Z	1998-03-25T10:00:00Z	MISC	W/8	Interval of very low beta (proton), Ejecta?
+1998-03-25T14:00:00Z	1998-03-25T16:00:00Z	MISC	W/8	Interval of very low beta (proton), Ejecta?, IMF rotates, possible a flux-rope
+1998-03-25T18:30:00Z	1998-03-26T10:00:00Z	BzN	W/8	\N
+1998-03-27T00:15:00Z	1998-03-28T22:30:00Z	SBC	W	Period with multiple SBCs
+1998-03-28T22:30:00Z	1998-03-29T02:15:00Z	BzS/EyC	W	\N
+1998-03-29T12:30:00Z	1998-03-29T15:30:00Z	BzS	W	\N
+1998-03-30T04:00:00Z	1998-03-31T05:45:00Z	BzS	W	\N
+1998-03-30T12:30:00Z	1998-03-30T12:30:00Z	SBC	W	\N
+1998-03-31T16:45:00Z	1998-04-03T01:45:00Z	MISC	W/8	Ejecta material?, Extended intervals of radial IMF (Sun-Earth direction) and very low beta protons
+1998-04-03T01:25:00Z	1998-04-03T22:15:00Z	BzN/EyC	W/8	Period of a predominantly northward IMF
+1998-04-04T00:00:00Z	1998-04-04T07:00:00Z	BzS	W/8	\N
+1998-04-04T07:00:00Z	1998-04-05T02:00:00Z	EyC/PC	W/8	Period of multiple Ey and pressure changes
+1998-04-05T14:30:00Z	1998-04-05T22:30:00Z	BzN	W/8	\N
+1998-04-06T00:30:00Z	1998-04-06T09:00:00Z	BzN	W/8	\N
+1998-04-06T06:00:00Z	1998-04-06T06:00:00Z	PC	W/8	Convected structure observed at 705 UT at IMP-8
+1998-04-07T06:00:00Z	1998-04-07T18:00:00Z	MISC	W/8	Extended intervals of radial IMF, low beta protons
+1998-04-07T16:55:00Z	1998-04-07T16:55:00Z	IS	W/8	Forward IS observed at 18 UT at I8 UT
+1998-04-07T17:15:00Z	1998-04-10T04:15:00Z	MISC/EyC/BzS	W	Ejecta material?, Extended intervals of a BzS IMF and very low beta protons
+1998-04-10T12:30:00Z	1998-04-11T01:30:00Z	BzS/EyC	W	Interval of predominantly BzS IMF
+1998-04-11T15:40:00Z	1998-04-12T09:00:00Z	BzS/EyC/MISC	W	Period of very low beta (protons beta)
+1998-04-12T11:00:00Z	1998-04-13T18:10:00Z	BzN	W	Period with extended interval of almost completely north oriented IMF
+1998-04-13T18:10:00Z	1998-04-13T18:10:00Z	EyC	W	\N
+1998-04-14T03:40:00Z	1998-04-14T12:20:00Z	BzS	W	\N
+1998-04-14T19:40:00Z	1998-04-16T09:40:00Z	SBC/PC	W	Multiple SBCs and PCs
+1998-04-15T13:00:00Z	1998-04-15T23:30:00Z	MISC	W	Ejecta material?, interval of radial IMF and very low beta protons, GEOTAIL in the SW
+1998-04-16T20:20:00Z	1998-04-16T21:20:00Z	PC/EyC	W/8	\N
+1998-04-17T01:00:00Z	1998-04-17T01:00:00Z	MISC/SBC	W	Possible tangential discontinuity
+1998-04-17T01:00:00Z	1998-04-18T15:20:00Z	IR/EyC/PC	W/8	\N
+1998-04-18T13:20:00Z	1998-04-19T14:00:00Z	BzN	W/8	\N
+1998-04-18T15:20:00Z	1998-04-18T15:20:00Z	PC	W/8	Possible reverse fast IS
+1998-04-19T14:00:00Z	1998-04-19T21:00:00Z	BzS	W/8	\N
+1998-04-20T01:40:00Z	1998-04-20T12:40:00Z	BzS	W	Period with some N-S structures in the IMF
+1998-04-20T13:20:00Z	1998-04-20T22:30:00Z	BzN/MISC	W	Ejecta material?, interval of radial IMF
+1998-04-22T13:30:00Z	1998-04-23T04:30:00Z	MISC	W	Ejecta material?, interval of radial IMF
+1998-04-23T17:30:00Z	1998-04-23T17:30:00Z	IS	W	\N
+1998-04-23T18:00:00Z	1998-04-23T21:00:00Z	SBC	W	Interval with multiple SBCs
+1998-04-23T17:30:00Z	1998-04-24T09:50:00Z	EyC/PC	W	Interval with multiple EyC and PC
+1998-04-25T00:00:00Z	1998-04-27T01:30:00Z	EyC/PC/SBC	W	Extended period of predominantly BzS IMF with multiple SBC, EyC and PC
+1998-04-29T16:10:00Z	1998-04-30T00:40:00Z	BzS	W	\N
+1998-04-30T08:40:00Z	1998-04-30T08:40:00Z	IS	W/8	Observed at 0915 UT at IMP-8
+1998-05-01T00:40:00Z	1998-05-01T00:40:00Z	SBC/PC	W	\N
+1998-05-01T00:40:00Z	1998-05-01T18:20:00Z	EyC	W	\N
+1998-05-01T21:20:00Z	1998-05-01T21:20:00Z	IS	W/8	Observed at 2150 UT at IMP-8 The beginning of the observation of multiple strong-fast Sun-Earth connection events
+1998-05-02T09:00:00Z	1998-05-03T13:30:00Z	IMC	W	A catalogued IMC
+1998-05-03T17:00:00Z	1998-05-03T17:00:00Z	IS	W	Shock in Ejecta?, Fast IS while IMF southward
+1998-05-04T02:00:00Z	1998-05-04T02:00:00Z	IS/BzS	W	Fast IS while IMF southward
+1998-05-04T02:00:00Z	1998-05-04T14:20:00Z	EyC	W	Multiple, very large EyCs
+1998-05-04T22:10:00Z	1998-05-05T01:50:00Z	MISC	W	Ejecta?, interval of very low protons beta
+1998-05-04T12:00:00Z	1998-05-07T21:40:00Z	MISC	W	Multiple Ejecta(s)? A very high speed low density ejecta type structure
+1998-05-07T22:30:00Z	1998-05-08T15:30:00Z	EyC	W	Period with multiple EyCs
+1998-05-08T09:20:00Z	1998-05-08T09:20:00Z	PC	W	Possibly fast forward IS during HSS
+1998-05-08T15:30:00Z	1998-05-09T00:00:00Z	BzS	W	\N
+1998-05-08T15:00:00Z	1998-05-13T03:00:00Z	HSS	W/8	\N
+1998-05-13T06:00:00Z	1998-05-13T13:00:00Z	MISC	W/8	Period of approx. radial IMF
+1998-05-14T22:00:00Z	1998-05-15T13:50:00Z	LSS	W/8	\N
+1998-05-15T13:50:00Z	1998-05-15T13:50:00Z	IS	W	\N
+1998-05-15T15:40:00Z	1998-05-15T15:40:00Z	SBC	W	\N
+1998-05-15T16:15:00Z	1998-05-17T04:00:00Z	EyC/PC/MISC	W	Multiple Ey and ramPressure changes
+1998-05-15T21:40:00Z	1998-05-16T23:30:00Z	BzN	W	Period of predominantly BzN IMF
+1998-05-15T23:45:00Z	1998-05-16T11:30:00Z	MISC	W	Region of low beta (protons), Ejecta?
+1998-05-16T12:00:00Z	1998-05-18T00:00:00Z	HSS	W	\N
+1998-05-18T11:00:00Z	1998-05-18T22:15:00Z	BzS	W	Period of predominantly south IMF
+1998-05-19T15:00:00Z	1998-05-20T06:30:00Z	BzN	W	\N
+1998-05-20T06:30:00Z	1998-05-20T19:40:00Z	EyC/PC	W	Period with multiple Ey and ramPressure changes
+1998-05-20T23:35:00Z	1998-05-22T05:30:00Z	BzS/EyC	W	Period of a mostly south IMF and multiple EyCs
+1998-05-22T12:00:00Z	1998-05-23T01:25:00Z	MISC	W/8	Low beta protons interval
+1998-05-22T12:30:00Z	1998-05-22T14:15:00Z	EyC	W/8	\N
+1998-05-22T14:15:00Z	1998-05-22T21:10:00Z	BzN	W/8	\N
+1998-05-22T21:10:00Z	1998-05-24T00:00:00Z	BzS	W/8	Period of predominantly south IMF
+1998-05-24T03:00:00Z	1998-05-24T06:00:00Z	EyC	W/8	\N
+1998-05-24T11:30:00Z	1998-05-24T15:30:00Z	EyC	W/8	\N
+1998-05-24T15:30:00Z	1998-05-24T17:30:00Z	MISC	W	Near radial IMF (IMF along the Sun-Earth direction)
+1998-05-24T20:45:00Z	1998-05-25T01:00:00Z	BzN	W	\N
+1998-05-25T04:20:00Z	1998-05-25T18:20:00Z	EyC	W/8	Period of multiple EyCs while IMF southward
+1998-05-25T21:20:00Z	1998-05-26T19:00:00Z	MISC	W/8	Interval with a predominantly low beta protons SW
+1998-05-27T02:00:00Z	1998-05-27T07:40:00Z	BzN/PC	W/8	\N
+1998-05-27T09:30:00Z	1998-05-27T14:10:00Z	BzS	W	\N
+1998-05-27T17:30:00Z	1998-05-28T02:00:00Z	BzS	W	\N
+1998-05-28T05:00:00Z	1998-05-28T10:30:00Z	BzN	W	\N
+1998-05-28T14:30:00Z	1998-05-29T23:30:00Z	IR/EyC/PC/BSC	W	Interval of time with GEOTAIL in the SW
+1998-05-29T15:10:00Z	1998-05-29T15:10:00Z	IS	W	Strong fast forward IP shock GEOTAIL in the SW
+1998-05-29T15:10:00Z	1998-05-29T23:00:00Z	EyC/PC	W	Interval of strong Ey and ramPressure changes
+1998-05-29T23:45:00Z	1998-05-30T02:50:00Z	HSS/MISC	W	A 700 km/s SW, not a typical Alvenic stream
+1998-05-30T02:50:00Z	1998-05-30T15:10:00Z	PC/SBC	W	\N
+1998-05-30T13:45:00Z	1998-05-30T16:00:00Z	MISC	W	Interval of a low beta (protons)
+1998-06-01T07:25:00Z	1998-06-01T07:25:00Z	SBC/PC	W	\N
+1998-06-01T07:25:00Z	1998-06-02T00:00:00Z	SBC/BzN	W	Interval of multiple SBCs and predominently northward IMF, GEOTAIL in the SW
+1998-06-02T08:45:00Z	1998-06-02T10:30:00Z	PC	W	\N
+1998-06-02T10:30:00Z	1998-06-02T22:15:00Z	BzS/BzN/BzS	W	Interval showing possible multiple Ejecta, GEOTAIL in the SW
+1998-06-02T10:30:00Z	1998-06-02T15:25:00Z	MISC	W	Time interval of very low proton beta (IMC?) A geomagnetic substorm occurs at 1230UT when IMF turns north GEOTAIL also in the SW.
+1998-06-03T03:20:00Z	1998-06-03T15:00:00Z	IR/EyC/SBC/PC	W/8	Interval contains a sharp ramPressure pulse (7 UT at WIND, 740 UT at IMP8)
+1998-06-04T19:00:00Z	1998-06-05T00:10:00Z	BzS	W/8	Interval of predominantly south IMF
+1998-06-05T00:10:00Z	1998-06-05T00:50:00Z	PC/BzN/EyC	W	\N
+1998-06-05T00:50:00Z	1998-06-05T06:20:00Z	BzS	W/8	\N
+1998-06-05T11:00:00Z	1998-06-07T00:45:00Z	IR/EyC/PC	W/8	\N
+1998-06-06T14:20:00Z	1998-06-06T21:10:00Z	BzS/PC/EyC	W/8	Interval of mainly south IMF GEOTAIL in the SW
+1998-06-07T00:45:00Z	1998-06-08T19:10:00Z	HSS	W/8	\N
+1998-06-09T18:00:00Z	1998-06-10T07:00:00Z	BzN/EyC	W	Multiple EyCs with IMF predominantly North
+1998-06-10T07:00:00Z	1998-06-10T13:30:00Z	BzS	W	\N
+1998-06-10T13:00:00Z	1998-06-11T02:30:00Z	PC/EyC/MISC	W	Interval of sharp changes in ramPx and IMF intensities
+1998-06-11T01:30:00Z	1998-06-11T12:30:00Z	SBC/MISC	W	Interval of below average IMF intensities
+1998-06-11T22:00:00Z	1998-06-11T23:40:00Z	MISC	W	Interval of radial IMF along Sun-Earth line GEOTAIL in the SW
+1998-06-12T03:00:00Z	1998-06-12T23:00:00Z	SBC/MISC	W	From 13 to 20 UT below average IMF and approx. radial IMF, GEOTAIL in the SW
+1998-06-13T03:00:00Z	1998-06-13T22:00:00Z	MISC	W	Interval of below average beta-protons
+1998-06-13T19:20:00Z	1998-06-13T19:20:00Z	IS	W	A forward fast IP shock candidate, GEOTAIL in the SW
+1998-06-14T02:35:00Z	1998-06-14T02:35:00Z	EyC	W	\N
+1998-06-14T02:35:00Z	1998-06-14T13:00:00Z	BzS	W/8	GEOTAIL in the SW
+1998-06-15T13:45:00Z	1998-06-15T22:30:00Z	MISC	W/8	Interval of below average beta-protons
+1998-06-15T14:00:00Z	1998-06-15T03:10:00Z	BzN	W/8	\N
+1998-06-15T08:15:00Z	1998-06-16T05:00:00Z	EyC/BzS/BzN	W/8	IMF is first mainly South and then North
+1998-06-16T11:50:00Z	1998-06-16T15:45:00Z	MISC	W/8	BzS at WIND but not at IMP8
+1998-06-17T06:30:00Z	1998-06-17T08:00:00Z	MISC	W/8	Near radial IMF, GEOTAIL in the SW
+1998-06-17T13:30:00Z	1998-06-18T07:00:00Z	MISC/BzS/BzN	W/8	Period showing smooth rotation of the IMF (Ejecta?)
+1998-06-17T21:20:00Z	1998-06-17T21:20:00Z	PC	W/8	possibly weak IS?, GEOTAIL in the SW
+1998-06-18T20:00:00Z	1998-06-20T06:30:00Z	R/BzS/BzN/PC/Ey	C W/8	IR with a possible pressure wave ahead of IR GEOTAIL in the SW
+1998-06-20T13:45:00Z	1998-06-22T20:00:00Z	EyC	W/8	Multiple EyC with IMF mostly southward IMP8 in the SW until 0540 on 98173.
+1998-06-22T15:30:00Z	1998-06-22T15:30:00Z	PC	W	Possibly a weak forward IS, sharper at GEOTAIL at 1550
+1998-06-22T18:50:00Z	1998-06-22T18:50:00Z	EyC	W	\N
+1998-06-22T20:10:00Z	1998-06-22T20:10:00Z	EyC	W	\N
+1998-06-23T07:00:00Z	1998-06-23T16:30:00Z	BzN/PC	W	GEOTAIL in the SW
+1998-06-23T16:30:00Z	1998-06-23T23:00:00Z	BzS/EyC	W	\N
+1998-06-24T12:00:00Z	1998-06-25T17:00:00Z	IMC	W	A catalogued IMC GEOTAIL in the SW
+1998-06-25T16:10:00Z	1998-06-25T16:10:00Z	IS	W	\N
+1998-06-25T16:10:00Z	1998-06-26T17:00:00Z	MISC	W	Region of below average proton beta, Ejecta?
+1998-06-26T19:35:00Z	1998-06-26T19:35:00Z	SBC/MISC	W/8	A possible IMF rotational discontinuity
+1998-06-27T19:30:00Z	1998-06-27T14:15:00Z	SBC	W/8	Possibly multiple SBCs, GEOTAIL in the SW
+1998-06-28T10:30:00Z	1998-06-28T10:30:00Z	SBC	W/8	Possible SBC
+1998-06-27T14:15:00Z	1998-06-27T14:15:00Z	MISC/IS/EyC	W/8	A possible slow reverse IS and rotational discontinuity
+1998-08-10T00:32:00Z	1998-08-10T00:32:00Z	IS	W	\N
+1998-08-19T18:40:00Z	1998-08-19T18:40:00Z	IS	W	IS aprox. 9 hours ahead of IMC
+1998-08-20T06:00:00Z	1998-08-20T09:00:00Z	PC	W	Possible plasma sheath infront of IMC
+1998-08-20T09:00:00Z	1998-08-21T20:20:00Z	IMC/BzS/BzN	W	A catalogued IMC
+1998-08-21T20:20:00Z	1998-08-22T15:00:00Z	LSS/PC/EyC	W	\N
+1998-08-22T02:10:00Z	1998-08-22T02:10:00Z	IS	W	\N
+1998-08-22T02:10:00Z	1998-08-22T19:30:00Z	BzS/PC/EyC	W	Interval with times having Np above 30 particles/cc
+1998-08-26T06:36:00Z	1998-08-26T06:36:00Z	IS	W	The start of a strong-fast Sun-Earth connection event
+1998-08-27T00:00:00Z	1998-08-27T23:00:00Z	MISC	W	A possible IMC
+1998-08-27T23:00:00Z	1998-08-29T01:00:00Z	HSS	W	\N
+1998-09-08T17:00:00Z	1998-09-08T17:00:00Z	IS	W	\N
+1998-09-24T23:20:00Z	1998-09-24T23:20:00Z	IS	W	The beginning of the observation of a strong Sun-Earth connection event
+1998-09-25T06:00:00Z	1998-09-26T19:00:00Z	IMC	W	\N
+1998-10-02T07:00:00Z	1998-10-02T07:00:00Z	IS	W	\N
+1998-10-18T19:28:00Z	1998-10-18T19:28:00Z	IS	W	Ejecta driven fast IP shock
+1998-10-18T21:28:00Z	1998-10-19T04:30:00Z	EyC/PC	W	\N
+1998-10-19T02:45:00Z	1998-10-19T12:00:00Z	BzS	W	\N
+1998-10-19T04:30:00Z	1998-10-20T06:00:00Z	IMC	W	Likely in-situ manifestations of Sun-Earth connection event
+1998-11-07T08:00:00Z	1998-11-07T08:00:00Z	IS	W	IS possibly related to Ejecta (IMC?) related to H-CME from Nov. 5, 6?
+1998-11-08T04:42:00Z	1998-11-08T04:42:00Z	IS	W	IS possibly related to IMC related to H-CME from Nov. 7?
+1998-11-08T19:00:00Z	1998-11-10T01:00:00Z	IMC	W	This is a fitted magnetic cloud
+1998-11-12T16:15:00Z	1998-11-12T16:15:00Z	IS	W	IS possibly related to Ejecta H-CME on 981109
+1998-11-13T01:40:00Z	1998-11-13T01:40:00Z	IS	8/W	\N
+1998-11-13T04:15:00Z	1998-11-13T04:15:00Z	MISC	8	IMC?
+1999-02-18T02:40:00Z	1999-02-18T02:40:00Z	IS	W	Strong IS, possibly Sun-Earth connection event
+1999-02-18T02:40:00Z	1999-02-18T12:20:00Z	PC/EyC/BzS	W	Interval of high ramPressure, intense IMF and BzS
+1999-02-18T12:20:00Z	1999-02-19T08:30:00Z	BzS/MISC	W	IMF mostly southward, high speed Ejecta, possibly IMC
+1999-03-25T04:20:00Z	1999-03-25T04:20:00Z	IS	ACE	shock possibly driven by ejecta
+1999-03-25T16:00:00Z	1999-03-26T02:00:00Z	IMC?	ACE	\N
+1999-04-16T11:10:00Z	1999-04-16T11:10:00Z	IS	W/8	\N
+1999-04-16T17:00:00Z	1999-04-17T17:00:00Z	IMC/BzS/BzN	W/ACE	Highly geoeffective event, IMF was above 20 nT for more than 10 hrs, event with H-CME origin on the Sun, H-CME on 990413
+1999-05-05T12:00:00Z	1999-05-05T17:00:00Z	BzN/PC/EyC	ACE	\N
+1999-05-05T15:00:00Z	1999-05-05T15:00:00Z	IS	ACE	event with SEP and H-CME association, starting at Sun at approx. 15 UT on May 3.
+1999-05-10T23:00:00Z	1999-05-12T10:00:00Z	MISC	W/ACE	SW plasma density below 1/cc. GOES SC key parameter data support interpretation of a very expanded Earth magnetosphere
+1999-05-18T00:33:00Z	1999-05-18T00:33:00Z	IS	W	0015 UT at ACE, a forward IP shock
+1999-05-18T00:15:00Z	1999-05-18T19:10:00Z	IR/EyC/PC	W	Possibly CIR interval
+1999-05-18T19:48:00Z	1999-05-18T19:48:00Z	IS	W	1910 at ACE, a reverse IP shock
+1999-05-18T19:10:00Z	1999-05-20T18:00:00Z	HSS	W/ACE	\N
+1999-06-16T00:00:00Z	1999-06-19T00:00:00Z	EyC	W	Interval with IMF showing multiple sharp variations in Bz
+1999-06-21T03:00:00Z	1999-06-26T02:20:00Z	LSS	W/ACE	\N
+1999-06-26T02:20:00Z	1999-06-26T02:20:00Z	PC/MISC	W	Also a tangential discontinuity at WIND. Possibly a Shock at ACE (related to H-CME observed with LASCO on June 22?)
+1999-06-26T19:25:00Z	1999-06-26T19:25:00Z	IS	W/ACE	Shock possibly related to Ejecta (H-CME observed with LASCO on June 24?)
+1999-06-27T16:30:00Z	1999-06-28T03:00:00Z	BzS/BzN/MISC	W/ACE	Fast Ejecta (>500 km/s)
+1999-06-27T22:31:00Z	1999-06-27T22:31:00Z	PC	W	It appears to be a Forward shock in ACE
+1999-06-28T02:00:00Z	1999-06-28T06:00:00Z	PC/EyC/MISC	W/ACE	Interval with multiple pressure pulses. Possibly associated to multiple Very Fast Ejecta (>800 km/s)
+1999-06-28T09:00:00Z	1999-06-29T03:00:00Z	MISC	W/ACE	A low beta(proton) region, hence Ejecta? High speed SW (800-600 km/s monotonic decrease) with a density below 1 proton per cc
+1999-06-29T15:00:00Z	1999-07-01T02:00:00Z	MISC	W	Another very low density (Np= 740 km/s
+1999-08-20T23:00:00Z	1999-08-22T06:00:00Z	BzS/MISC	ACE	A mass depleted solar wind with extended Np < 1/cc periods
+1999-08-21T12:00:00Z	1999-08-23T16:10:00Z	MISC	W/ACE	Low proton-beta region (Ejecta?)
+1999-08-21T20:00:00Z	1999-08-23T02:00:00Z	BzS	W/ACE	IMF rotates from approx. in ecliptic to south (IMC?)
+1999-08-22T22:40:00Z	1999-08-22T22:40:00Z	PC	ACE	Possibly a fast forward IP shock
+1999-08-23T04:00:00Z	1999-08-23T16:10:00Z	EyC	ACE	Interval with multiple sharp EyCs
+1999-08-23T11:40:00Z	1999-08-23T11:40:00Z	IS	ACE	\N
+1999-08-23T11:40:00Z	1999-08-26T22:00:00Z	IR	W/ACE	\N
+1999-08-26T17:50:00Z	1999-08-26T17:50:00Z	PC	ACE	Plasma kinetic energy decreases (Reverse fast IS?)
+1999-08-26T22:00:00Z	1999-08-30T05:00:00Z	HSS	W/ACE	\N
+1999-08-28T00:00:00Z	1999-08-29T14:00:00Z	MISC	W/ACE	Low Np time interval
+1999-08-30T07:00:00Z	1999-08-31T02:00:00Z	BzS/EyC/PC	W/ACE	Multiple intervals of BzS, EyC and PC
+1999-08-31T13:30:00Z	1999-09-06T06:00:00Z	BzS	W/8/A	Almost uninterrupted BzS
+1999-08-31T13:30:00Z	1999-09-02T22:00:00Z	BzS/HSS	W/ACE	Almost uninterrupted interval of BzS, in mostly HSS
+1999-09-06T06:00:00Z	1999-09-06T06:00:00Z	EyC	ACE	\N
+1999-09-06T06:00:00Z	1999-09-07T02:00:00Z	SBC	ACE	Multiple sector boundary crossings
+1999-09-06T06:00:00Z	1999-09-06T18:00:00Z	BzN	ACE	\N
+1999-09-06T18:00:00Z	1999-09-06T18:00:00Z	EyC	ACE	\N
+1999-09-09T12:00:00Z	1999-09-09T23:00:00Z	BzN/EyC	ACE	A mainly north IMF with multiple south turns
+1999-09-11T08:15:00Z	1999-09-11T23:00:00Z	BzN	ACE	IMF mostly northward (GSM)
+1999-09-12T03:52:00Z	1999-09-13T16:30:00Z	IR/EyC	W/ACE	\N
+1999-09-12T03:52:00Z	1999-09-12T03:52:00Z	IS	W	at ACE at 0320UT, strong spike in ejecta signatures in the solar wind, possibly corresponding to H-CME (image at 0626UT, Oct. 18, 1999) Ring current index Dst reached below -250 nT near 0700 UT on Oct. 22.
+1999-10-22T06:10:00Z	1999-10-25T12:00:00Z	HSS	W/ACE	\N
+1999-10-26T07:40:00Z	1999-10-28T02:00:00Z	BzS	W/ACE	Interval of a predominantly southward IMF (GSM coordinates)
+1999-10-28T11:30:00Z	1999-10-28T11:30:00Z	IS	ACE	\N
+1999-10-28T12:00:00Z	1999-10-29T12:00:00Z	BzS	W/ACE	\N
+1999-11-02T12:30:00Z	1999-11-05T20:30:00Z	BzN	W/ACE	Interval of a predominantly Northward IMF
+1999-11-05T19:15:00Z	1999-11-05T19:15:00Z	EyC/PC/MISC	ACE	PC at Tangential Discontinuity
+1999-11-05T22:30:00Z	1999-11-06T08:40:00Z	BzN/MISC	W/ACE	IMF rotates approx. 180 Deg. in Azimuth (Ejecta/IMC?)
+1999-11-06T08:00:00Z	1999-11-06T08:00:00Z	MISC	ACE	Magnetic hole
+1999-11-06T08:40:00Z	1999-11-07T09:10:00Z	SBC	W/ACE	Multiple SBCs
+1999-11-06T08:40:00Z	1999-11-06T08:40:00Z	SBC/MISC	ACE	SBC at a large magnetic hole
+1999-11-06T12:40:00Z	1999-11-06T12:40:00Z	SBC/MISC	ACE	SBC at magnetic hole
+1999-11-06T15:45:00Z	1999-11-06T15:45:00Z	PC/MISC	ACE	PC (IS?) at/near Tangential or Rotational Discontinuity
+1999-11-06T18:15:00Z	1999-11-06T18:15:00Z	SBC	ACE	\N
+1999-11-06T23:30:00Z	1999-11-08T01:00:00Z	PC/BzS/BzN/SBC	W/ACE	Interval with multiple changes in solar wind conditions (Ejecta?) and well above historical magnetic field strength in the heliosphere, also a possible compound stream region, interval of multiple strong EyCs and PCs
+1999-11-06T23:30:00Z	1999-11-08T01:00:00Z	IR/EyC/PC	W/ACE	Related to previous event
+1999-11-06T23:30:00Z	1999-11-06T23:30:00Z	SBC/PC/EyC	ACE	\N
+1999-11-07T10:00:00Z	1999-11-07T10:00:00Z	PC/MISC	ACE	Possibly stream-stream interface, at magnetic hole, with order magnitude rise in 0.5-2.0 MeV protons flux
+1999-11-09T12:00:00Z	1999-11-11T20:00:00Z	HSS	W/ACE	Interval with mostly IMF Bz southward (GSM)
+1999-11-12T08:00:00Z	1999-11-13T23:59:00Z	BzS/MISC	W/ACE	Low beta-proton region (Ejecta?)
+1999-11-12T08:00:00Z	1999-08-05T18:00:00Z	BzS/MISC	W/ACE	A very low density plasma region (H-CME on Jan 18, 2000
+2000-01-22T17:50:00Z	2000-01-23T02:00:00Z	MISC	W/ACE	Region of smooth and intense IMF, possibly Ejecta related to H-CME on Jan 18, 2000
+2000-01-23T02:00:00Z	2000-01-23T23:59:00Z	BzN	W/ACE	\N
+2000-01-27T13:56:00Z	2000-01-27T23:22:00Z	IR/EyC/PC	W/ACE	Strong corotating compression region between slow and high speed SW streams
+2000-01-27T15:00:00Z	2000-01-27T15:00:00Z	IS	W	1356UT at ACE
+2000-01-27T23:22:00Z	2000-01-27T23:22:00Z	IS	ACE	Fast reverse shock
+2000-01-27T23:22:00Z	2000-02-01T23:59:00Z	HSS	W/ACE	\N
+2000-01-30T18:30:00Z	2000-01-30T18:30:00Z	IS	ACE	\N
+2000-02-05T14:50:00Z	2000-02-06T05:30:00Z	IR/EyC/PC	W/ACE	\N
+2000-02-05T14:50:00Z	2000-02-05T14:50:00Z	IS	ACE	\N
+2000-02-06T05:00:00Z	2000-02-06T05:30:00Z	PC	ACE	\N
+2000-02-06T05:30:00Z	2000-02-09T23:59:00Z	HSS	W/ACE	\N
+2000-02-11T02:33:00Z	2000-02-11T02:33:00Z	IS	W	0220 UT at ACE
+2000-02-11T16:40:00Z	2000-02-11T20:50:00Z	BzN	W/ACE	Possibly part of ejecta and/or IMC
+2000-02-11T23:28:00Z	2000-02-11T23:28:00Z	IS	W	2319 UT at ACE. A very strong shock, possibly related to Halo CME Halo CMEs were observed on Feb. 9 and 10, 2000
+2000-02-13T10:00:00Z	2000-02-14T10:00:00Z	HSS	W/ACE	\N
+2000-02-14T07:18:00Z	2000-02-14T07:18:00Z	IS	W	0655 UT at ACE
+2000-02-14T06:55:00Z	2000-02-14T17:00:00Z	EyC	W/ACE	Multiple EyCs
+2000-02-14T08:00:00Z	2000-02-14T14:00:00Z	SBC	W/ACE	Multiple SBCs
+2000-02-15T07:00:00Z	2000-02-15T23:00:00Z	SBC/EyC	W/ACE	Multiple SBCs and EyCs
+2000-02-16T08:00:00Z	2000-02-18T08:00:00Z	BzS	W/ACE	Time period of a mostly southward orientation of the IMF
+2000-02-20T21:00:00Z	2000-02-20T21:00:00Z	IS	W	At ACE at 2040 UT.  Strong IP shock, possibly related to full halo-CME on Feb 17, 2000
+2000-02-21T02:00:00Z	2000-02-22T14:00:00Z	PC/MISC	W/ACE	Ejecta signatures
+2000-02-21T13:00:00Z	2000-02-22T12:20:00Z	IMC/BzN	W/ACE	\N
+2000-02-23T12:00:00Z	2000-02-24T14:08:00Z	IR/PC/EyC	W/ACE	A near monotonic rise of the solar wind speed from 400 to 800 km/s
+2000-02-23T14:00:00Z	2000-02-23T14:00:00Z	SBC	ACE	\N
+2000-02-24T14:08:00Z	2000-02-24T14:08:00Z	IS	ACE	IR related Reverse fast shock, spike in keV shock energized particles
+2000-02-24T14:08:00Z	2000-02-29T19:40:00Z	HSS	W/ACE	Is this the fifth time does it recur with a 27 days period?
+2000-02-29T19:40:00Z	2000-02-29T19:40:00Z	SBC	ACE	SBC at tangential discontinuity
+2000-03-01T03:00:00Z	2000-03-02T03:00:00Z	BzS	W/ACE	Average/low density interval with start solar wind speed >500 km/s. Ejecta?
+2000-03-02T02:45:00Z	2000-03-02T03:00:00Z	SBC	ACE	\N
+2000-03-06T00:00:00Z	2000-03-08T12:00:00Z	MISC	W/ACE	Approx 450 km/s solar wind with signatures/features of a HSS
+2000-03-08T12:00:00Z	2000-03-10T04:30:00Z	MISC	W/ACE	low proton beta region, monotonic decrease of the solar wind speed
+2000-03-10T10:00:00Z	2000-03-12T02:00:00Z	BzS/MISC	W/ACE	Interval of low to extremely-low solar wind mass flow at Earth
+2000-03-12T02:00:00Z	2000-03-12T15:00:00Z	PC/EyC/SBC	W/ACE	Possible slow-fast stream-stream IR Interval contains multiple large PCs, solar wind velocity changes, and above average magnetic field. Complex, long lasting, IP Type II radio burst maybe associated to this event
+2000-03-13T05:30:00Z	2000-03-13T21:00:00Z	BzN/MISC	W/ACE	Interval overlaps with extended period of low proton density
+2000-03-15T02:00:00Z	2000-03-17T12:00:00Z	LSS	W/ACE	The initial part of the interval has a very low momentum flow solar wind
+2000-03-16T20:50:00Z	2000-03-16T20:50:00Z	SBC	ACE	\N
+2000-03-16T23:50:00Z	2000-03-16T23:50:00Z	SBC	ACE	back to previous polarity
+2000-03-17T02:00:00Z	2000-03-17T02:00:00Z	SBC	W/ACE	Multiple SBCs
+2000-03-17T14:00:00Z	2000-03-18T12:00:00Z	MISC	W/ACE	Interval of below average solar wind plasma flux intensities
+2000-03-18T00:00:00Z	2000-03-18T14:00:00Z	LSS	W/ACE	Solar wind velocity reaches below 280 km/s
+2000-03-18T22:00:00Z	2000-03-19T18:00:00Z	BzS	W/WAV	\N
+2000-03-19T02:00:00Z	2000-03-19T13:00:00Z	MISC	W/ACE	Possibly Ejecta interval
+2000-03-19T18:00:00Z	2000-03-20T08:00:00Z	BzN	W/ACE	Interval of mostly northward IMF
+2000-03-22T06:00:00Z	2000-03-23T02:00:00Z	EyC/PC	W/ACE	\N
+2000-03-22T11:00:00Z	2000-03-22T18:00:00Z	CIR	W/ACE	\N
+2000-03-22T17:54:00Z	2000-03-22T17:54:00Z	IS	ACE	Reverse (R) IP shock
+2000-03-22T18:00:00Z	2000-03-26T23:59:00Z	HSS	W/ACE	On DOY 84 the SW speed reaches steady values of above 700 km/s
+2000-03-24T05:00:00Z	2000-03-27T14:00:00Z	MISC	W/ACE	Start of longlasting low Np region
+2000-03-28T15:50:00Z	2000-03-28T15:50:00Z	PC	ACE	A (weak) compression of the day-side magnetosphere follows ~40 minuntes later
+2000-03-28T12:00:00Z	2000-03-29T12:00:00Z	MISC/PC	W/ACE	Possibly ejecta, interval contains times of extremly low SW density
+2000-03-29T19:00:00Z	2000-03-30T00:30:00Z	SBC/EyC/PC	W/ACE	\N
+2000-03-30T15:00:00Z	2000-03-31T23:59:00Z	BzS	W/ACE	Period of predominantly BzS
+2000-03-31T03:00:00Z	2000-03-31T03:00:00Z	SBC	ACE	\N
+2000-04-02T19:00:00Z	2000-04-03T15:00:00Z	BzS	W/ACE	\N
+2000-04-03T21:00:00Z	2000-04-05T10:00:00Z	BzS/BzN/EyC	W/ACE	Extended alternating interval of predominantly out of the ecliptic IMF
+2000-04-06T16:27:00Z	2000-04-05T16:27:00Z	IS	W	Possibly a shock related to a  Halo CME on April 4, at ACE at 1605; This event (Strong IP shock) driven by ejecta is also possibly related to a C9.4 flare, 1745UT April 4, 2000)
+2000-04-06T17:00:00Z	2000-04-07T07:00:00Z	BzS/BzN/EyC/PC	W/ACE	Strongly geoeffective sheath region, ejecta related, preliminary Kp > 7 for 9 consecutive hours
+2000-04-07T07:00:00Z	2000-04-08T06:00:00Z	MISC	W/ACE	Interval shows ejecta signatures, and an initial SW speed > 600 km/s
+2000-04-07T09:16:00Z	2000-04-07T09:16:00Z	IS	W	0825 at ACE; Reverse fast IP shock, with spike in MeV shock energized particles
+2000-04-08T18:00:00Z	2000-04-10T11:00:00Z	HSS	W/ACE	\N
+2000-04-09T09:00:00Z	2000-04-10T06:00:00Z	BzS	ACE	\N
+2000-04-11T22:00:00Z	2000-04-12T12:00:00Z	BzS	ACE	\N
+2000-04-13T04:00:00Z	2000-04-15T07:00:00Z	BzS/BzN/MISC	ACE	Mostly smooth variation of above average Sun-Earth oriented IMF (Ejecta?)
+2000-04-14T00:00:00Z	2000-04-15T20:00:00Z	LSS	W/ACE	Interval with solar wind speed reaching below 280 km/s in April 15 after a possible SBC
+2000-04-15T07:00:00Z	2000-04-15T07:00:00Z	SBC	ACE	\N
+2000-04-17T04:00:00Z	2000-04-17T09:40:00Z	IR/EyC/PC	W/ACE	\N
+2000-04-17T09:40:00Z	2000-04-17T09:40:00Z	IS	ACE	R fast IP shock low-fast stream-stream interaction region
+2000-04-17T09:40:00Z	2000-04-21T23:59:00Z	HSS	W/ACE	A weakened recurrent HSS, top velocities below 650 km/s
+2000-04-20T20:00:00Z	2000-04-21T04:00:00Z	MISC	W/ACE	Interval of a mostly radial oriented IMF
+2000-04-24T04:00:00Z	2000-04-24T23:59:00Z	IR	W/ACE	\N
+2000-04-24T04:00:00Z	2000-04-24T13:00:00Z	EyC/BzS	W/ACE	Possibly ejecta interval
+2000-04-24T08:50:00Z	2000-04-24T08:50:00Z	IS	ACE	Shock may be related to 2113 UT AR 8966 (S23W45) m type II radio bursts
+2000-04-25T16:00:00Z	2000-04-25T22:00:00Z	MISC	W/ACE	Interval of a mostly radial oriented IMF
+2000-04-27T09:30:00Z	2000-04-27T09:30:00Z	SBC	ACE	\N
+2000-04-28T00:00:00Z	2000-04-30T23:59:00Z	MISC	W/ACE	Possibly Alvenic solar wind interval with a speed of ~400 km/s
+2000-04-30T05:00:00Z	2000-04-30T11:00:00Z	BzN	W/ACE	\N
+2000-04-30T17:00:00Z	2000-04-30T22:40:00Z	BzN	W/ACE	\N
+2000-04-30T21:45:00Z	2000-04-30T21:45:00Z	PC/EyC	ACE	Possibly magnetic tangential discontinuity
+2000-05-01T13:46:00Z	2000-05-01T13:46:00Z	PC	ACE	Possibly weak fast forward IS
+2000-05-01T14:00:00Z	2000-05-02T23:00:00Z	MISC	W/ACE	Unusually low density region
+2000-05-02T09:00:00Z	2000-05-02T13:00:00Z	IR/SBC/EyC	W/ACE	Low density interval, and in part very fast (solar wind V>900km/s) Ejecta?
+2000-05-02T10:45:00Z	2000-05-02T10:45:00Z	PC/MISC	ACE	UNUSUAL MAGNETIC TANGENTIAL OR ROTATIONAL DISCONTINUITY WITH solar wind velocity change from approx 600 to 800 km/s
+2000-05-02T11:00:00Z	2000-05-02T22:00:00Z	BzN	W/ACE	\N
+2000-05-02T22:30:00Z	2000-05-02T22:30:00Z	SBC	ACE	Possible magnetic tangential discontinuity at SBC (solar wind V~600km/s)
+2000-05-07T13:00:00Z	2000-05-07T19:00:00Z	MISC	W/ACE	A possible ejecta interval (during interval there is hindrance to the flux of energetic particles)
+2000-05-07T18:00:00Z	2000-05-08T16:00:00Z	BzN	W/ACE	Interval contains extended times of almost completely northward IMF
+2000-05-08T15:00:00Z	2000-05-09T05:00:00Z	BzS	W/ACE	\N
+2000-05-09T00:00:00Z	2000-05-12T14:00:00Z	LSS	W/ACE	\N
+2000-05-12T00:00:00Z	2000-05-12T14:00:00Z	BzS	W/ACE	\N
+2000-05-12T14:30:00Z	2000-05-12T14:30:00Z	SBC	ACE	\N
+2000-05-12T14:00:00Z	2000-05-13T08:00:00Z	IR/PC/EyC	W/ACE	\N
+2000-05-13T04:25:00Z	2000-05-13T04:25:00Z	PC	ACE	possibly slow forward IS
+2000-05-13T08:00:00Z	2000-05-13T16:00:00Z	HSS	W/ACE	8th appearance of weakened HSS
+2000-05-13T16:00:00Z	2000-05-14T01:30:00Z	MISC	W/ACE	Interval may contain ejecta
+2000-05-14T20:00:00Z	2000-05-14T20:00:00Z	SBC	ACE	\N
+2000-05-15T12:00:00Z	2000-05-17T04:00:00Z	BzS/EyC/PC	W/ACE	Interval contains mostly: BzS, above average IMF and solar wind speed
+2000-05-16T04:10:00Z	2000-05-16T09:00:00Z	SBC	W/ACE	Two SBCs
+2000-05-16T20:00:00Z	2000-05-17T04:00:00Z	SBC	W/ACE	\N
+2000-05-18T01:40:00Z	2000-05-18T01:40:00Z	PC	ACE	possibly slow forward IS
+2000-05-18T05:00:00Z	2000-05-18T12:00:00Z	MISC	W/ACE	Interval of an above average intensity IMF, mostly along the Sun-Earth line
+2000-05-18T08:10:00Z	2000-05-18T08:10:00Z	PC	ACE	possibly slow reverse IS
+2000-05-29T06:00:00Z	2000-05-30T01:40:00Z	IR	W/ACE	\N
+2000-05-30T01:40:00Z	2000-05-30T01:40:00Z	IS	ACE	Fast reverse IP shock at HSS
+2000-05-30T01:40:00Z	2000-06-01T13:00:00Z	HSS	W/ACE	Associated IMF appears to be of negative polarity
+2000-06-04T14:25:00Z	2000-06-04T14:25:00Z	IS	ACE	Moderately strong fast forward shock with magnetic field north
+2000-06-04T22:00:00Z	2000-06-05T21:00:00Z	SBC	ACE/W	Multiple SBCs
+2000-06-04T04:00:00Z	2000-06-04T19:20:00Z	BzN/MISC	W/ACE	Also a low density interval
+2000-06-05T00:00:00Z	2000-06-05T20:00:00Z	PC/BzS/BzN/EyC	W/ACE	A mainly low proton beta interval (it may contain ejecta)
+2000-06-05T20:00:00Z	2000-06-05T20:00:00Z	PC/MISC	ACE	It could be a forward fast IS (if true, probably a very lateral impact!)
+2000-06-05T11:30:00Z	2000-06-06T07:00:00Z	BzN/PC	W/ACE	Interval with multiple PCs and a predominantly northward IMF
+2000-06-07T00:00:00Z	2000-06-08T09:00:00Z	IR/MISC	W/ACE	IR possibly associated to more than one polarity HSS interval
+2000-06-08T09:04:00Z	2000-06-08T09:04:00Z	IS	W	0845 UT at ACE, related to H-CME, Type II sources may have been observed locally
+2000-06-08T09:04:00Z	2000-06-08T11:00:00Z	PC/EyC/IR	W/ACE	\N
+2000-06-08T11:00:00Z	2000-06-11T17:00:00Z	PC/MISC	W/ACE	Ejecta, possibly IMC, possibly more than one flux-rope
+2000-06-09T00:00:00Z	2000-06-09T20:00:00Z	MISC	W/ACE	Strong IMF and mostly radial along Sun-Earth line
+2000-06-09T14:00:00Z	2000-06-10T20:00:00Z	MISC	ACE	Low to very low solar wind density interval
+2000-06-10T20:00:00Z	2000-06-11T17:00:00Z	BzS	ACE	Very extended interval of a southward IMF
+2000-06-11T07:20:00Z	2000-06-11T07:20:00Z	IS	ACE	** Wind perigee pass **
+2000-06-11T12:42:00Z	2000-06-11T12:42:00Z	IS	ACE	\N
+2000-06-11T12:42:00Z	2000-06-11T21:00:00Z	PC/EyC/BzS/BzN	ACE	Possibly IR
+2000-06-11T17:00:00Z	2000-06-11T23:00:00Z	BzN	W/ACE	\N
+2000-06-14T02:00:00Z	2000-06-14T23:00:00Z	SBC/PC/EyC	W/ACE	\N
+2000-06-15T01:00:00Z	2000-06-15T12:20:00Z	IR	W/ACE	\N
+2000-06-15T12:20:00Z	2000-06-15T12:20:00Z	PC	W	A weak reverse fast IS?
+2000-06-15T12:20:00Z	2000-06-16T20:00:00Z	HSS	W/ACE	\N
+2000-06-18T04:00:00Z	2000-06-19T04:00:00Z	BzS	W/ACE	Interval may contain ejecta
+2000-06-18T12:00:00Z	2000-06-18T12:00:00Z	SBC	W/ACE	Interval with possible multiple SBCs
+2000-06-20T04:00:00Z	2000-06-20T12:00:00Z	BzS	W/ACE	\N
+2000-06-23T12:27:00Z	2000-06-23T12:27:00Z	IS	ACE	Moderately strong fast forward IS
+2000-06-23T12:27:00Z	2000-06-24T07:20:00Z	EyC/PC/IR	W/ACE	\N
+2000-06-24T07:20:00Z	2000-06-24T07:20:00Z	PC	ACE	Possibly reverse fast IS
+2000-06-24T06:30:00Z	2000-06-25T18:00:00Z	BzN/MISC	W/ACE	Possibly ejecta (low Tp interval)
+2000-06-26T10:00:00Z	2000-06-27T00:00:00Z	MISC	W/ACE	Interval shows low Tp, it may contain a IMC
+2000-06-27T09:00:00Z	2000-06-27T09:00:00Z	SBC/PC	W/ACE	Interval with multiple SBCs and sharp changes in the solar wind speed
+2000-06-27T11:00:00Z	2000-06-27T12:20:00Z	MISC	ACE	Interval of a radial interplanetary magnetic field
+2000-06-29T07:30:00Z	2000-06-30T01:30:00Z	MISC	W/ACE	Ejecta, possibly IMC
+2000-06-29T10:00:00Z	2000-07-04T12:00:00Z	BzN	W/ACE	Interval of a predominantly northward IMF
+2000-07-04T12:00:00Z	2000-07-04T12:00:00Z	SBC	ACE	\N
+2000-07-04T12:00:00Z	2000-07-07T04:00:00Z	BzS	W/ACE	IMF fluctuating but mainly southward (HSS related?)
+2000-07-04T12:00:00Z	2000-07-04T20:00:00Z	BzS	W/ACE	\N
+2000-07-08T13:00:00Z	2000-07-09T00:00:00Z	BzS	W/ACE	\N
+2000-07-09T18:30:00Z	2000-07-10T00:00:00Z	BzS	W/ACE	\N
+2000-07-10T03:20:00Z	2000-07-10T07:20:00Z	BzS	W/ACE	Interval of an almost completely southward IMF
+2000-07-10T06:00:00Z	2000-07-10T06:00:00Z	IS	ACE	A moderately strong fast forward IS
+2000-07-10T18:00:00Z	2000-07-11T00:30:00Z	BzN	ACE	\N
+2000-07-10T14:30:00Z	2000-07-10T14:30:00Z	SBC	W/ACE	Interval appears to contain multiple SBCs
+2000-07-11T01:30:00Z	2000-07-11T14:30:00Z	BzS/MISC	W/ACE	Interval of a mostly southward IMF, it contains a low proton beta region
+2000-07-11T11:24:00Z	2000-07-11T11:24:00Z	IS	ACE	\N
+2000-07-11T11:24:00Z	2000-07-11T23:00:00Z	IR/EyC/PC	W/ACE	\N
+2000-07-11T23:00:00Z	2000-07-13T03:00:00Z	IMC	W/ACE	For the most part interval of an IMF oriented mainly along Sun-Earth direction
+2000-07-13T08:50:00Z	2000-07-13T14:30:00Z	BzS	W/ACE	During this time interval IP B-field reaches above 25 nT, and SW speed to 700 km/s
+2000-07-13T09:49:00Z	2000-07-13T09:49:00Z	IS	W	0900 at ACE, fast forward IS
+2000-07-13T10:05:00Z	2000-07-13T10:05:00Z	IS	W	0910 at ACE, strong fast forward IS while BzS, possibly driven by ejecta
+2000-07-14T15:39:00Z	2000-07-14T15:39:00Z	IS	W	Strong fast forward IS, while BzS, possibly driven by ejecta
+2000-07-15T14:18:00Z	2000-07-15T14:18:00Z	IS	ACE	Very strong fast forward IS, approx 28 hours from Sun to Earth
+2000-07-15T19:00:00Z	2000-07-16T20:00:00Z	IMC	W/ACE	Biggest ejecta, at leading edge IMF, the BzS reaches less than -40 nT!, and solar wind speed of more than 900 km/s
+2000-07-16T07:00:00Z	2000-07-19T20:00:00Z	BzN/MISC	W/ACE	The observed interval of mostly BzN oriented IMF appears to be like a HSS
+2000-07-19T14:50:00Z	2000-07-19T14:50:00Z	IS	ACE	\N
+2000-07-20T00:00:00Z	2000-07-21T04:00:00Z	BzS/BzN	W/ACE	Interval of more than 10 hrs of BzS followed by similar extension of BzN ending in extended interval of BzS
+2000-07-20T00:00:00Z	2000-07-20T12:00:00Z	BzS	W/ACE	\N
+2000-07-20T12:00:00Z	2000-07-20T20:00:00Z	BzN	W/ACE	\N
+2000-07-20T20:00:00Z	2000-07-21T07:00:00Z	BzS	W/ACE	\N
+2000-07-21T20:00:00Z	2000-07-21T20:00:00Z	SBC	ACE	\N
+2000-07-21T20:00:00Z	2000-07-22T18:00:00Z	BzS	W/ACE	\N
+2000-07-23T00:00:00Z	2000-07-23T08:00:00Z	SBC	W/ACE	Interval with mple SBCs
+2000-07-23T03:00:00Z	2000-07-23T10:00:00Z	BzN	W/ACE	\N
+2000-07-23T10:00:00Z	2000-07-23T21:00:00Z	EyC	W/ACE	Interval with mple EyCs
+2000-07-23T20:00:00Z	2000-07-25T12:00:00Z	BzN	W/ACE	Interval contains extended periods of almost totally northward IMF
+2000-07-26T18:00:00Z	2000-07-26T18:00:00Z	IS	ACE	\N
+2000-07-26T20:00:00Z	2000-07-27T00:00:00Z	BzS	W/ACE	\N
+2000-07-27T00:00:00Z	2000-07-28T14:00:00Z	SBC	W/ACE	Interval with mple SBCs
+2000-07-27T04:00:00Z	2000-07-27T19:00:00Z	BzN/MISC	W/ACE	Interval of a low proton beta, possibly Ejecta
+2000-07-27T19:00:00Z	2000-07-28T17:30:00Z	BzS/EyC/PC/MIS	C W/ACE	Interval may contain ejecta material
+2000-07-28T06:39:00Z	2000-07-28T06:39:00Z	IS	W	at 0540 UT at ACE, possibly in ejecta
+2000-07-28T09:10:00Z	2000-07-28T09:10:00Z	IS	ACE	\N
+2000-07-28T14:15:00Z	2000-07-29T09:00:00Z	MISC	W/ACE	Possibly IMC or ejecta interval, mple flux-ropes?
+2000-07-28T17:00:00Z	2000-07-29T07:00:00Z	BzN	W/ACE	\N
+2000-07-29T17:50:00Z	2000-07-29T17:50:00Z	SBC	ACE	\N
+2000-07-30T00:00:00Z	2000-07-31T00:00:00Z	MISC	W/ACE	Interval with possibly large amplitude low freq Afvenic waves
+2000-07-31T17:50:00Z	2000-07-31T18:10:00Z	PC	ACE	Possible pressure pulse
+2000-07-31T21:00:00Z	2000-08-02T13:00:00Z	BzS	W/ACE	BzS most of this time interval, with SW speed above average
+2000-07-31T22:00:00Z	2000-08-01T18:00:00Z	MISC	W/ACE	A possible flux-rope (IMC?)
+2000-08-01T18:00:00Z	2000-08-09T23:59:00Z	BzS/EyC	W/ACE	Period of a fluctuating IMF with mostly southward orientation
+2000-08-05T00:00:00Z	2000-08-05T08:00:00Z	PC/EyC/BzS	ACE	Possible an IR bw slow and fast SW streams, also IS possible  at ~0400UT
+2000-08-10T04:00:00Z	2000-08-10T22:00:00Z	BzS	ACE	Interval may contain flux-rope, ejecta (IMC?)
+2000-08-10T05:10:00Z	2000-08-10T05:10:00Z	IS	W	Ahead of ejecta?
+2000-08-11T18:51:00Z	2000-08-11T18:51:00Z	IS	W	Approx at 1800 UT at ACE (inside ejecta?)
+2000-08-12T04:00:00Z	2000-08-13T22:00:00Z	MISC/IMC/BzS/Bz	N W/ACE	Interval appears to be ejecta and contains an IMC
+2000-08-14T22:00:00Z	2000-08-14T22:00:00Z	PC	ACE	Possibly fast forward IS
+2000-08-19T18:00:00Z	2000-08-24T23:59:00Z	LSS	W/ACE	\N
+2000-08-23T00:00:00Z	2000-08-24T00:00:00Z	MISC	W/ACE	Possibly ejecta (multiple flux-rope(s))
+2000-08-23T06:00:00Z	2000-08-23T20:00:00Z	BzS	W/ACE	\N
+2000-08-23T07:00:00Z	2000-08-23T07:00:00Z	PC	ACE	Possibly IS
+2000-08-23T20:00:00Z	2000-08-24T01:00:00Z	BzN	ACE	IMF mostly oriented North
+2000-08-24T01:00:00Z	2000-08-24T07:00:00Z	EyC	ACE	\N
+2000-08-24T07:00:00Z	2000-08-26T06:00:00Z	BzN	W/ACE	\N
+2000-08-27T17:00:00Z	2000-08-29T09:00:00Z	IR	W/ACE	\N
+2000-08-29T09:00:00Z	2000-09-01T22:10:00Z	HSS	W/ACE	\N
+2000-09-01T22:10:00Z	2000-09-01T22:10:00Z	PC/EyC	ACE	Possibly a weak fast forward IS
+2000-09-02T12:00:00Z	2000-09-02T19:00:00Z	BzS	W/ACE	Time interval may contain part of a magnetic flux-rope structure
+2000-09-04T13:00:00Z	2000-09-04T13:00:00Z	IS	ACE	\N
+2000-09-04T16:00:00Z	2000-09-04T22:00:00Z	SBC	ACE	Interval of multiple SBCs
+2000-09-04T22:00:00Z	2000-09-05T17:00:00Z	MISC	ACE	Interval with a IMF mostly along a Sun-Earth direction (ejecta-related?)
+2000-09-06T16:10:00Z	2000-09-06T16:10:00Z	IS	ACE	\N
+2000-09-07T00:00:00Z	2000-09-08T12:00:00Z	BzS	ACE	\N
+2000-09-07T04:00:00Z	2000-09-07T16:00:00Z	PC/MISC	ACE	A mostly low proton plasma density (<= 1 part/cc) time interval
+2000-09-08T12:00:00Z	2000-09-09T16:00:00Z	SBC	ACE	Interval of multiple SBCs
+2000-09-08T20:00:00Z	2000-09-09T02:00:00Z	BzN	ACE	\N
+2000-09-13T18:30:00Z	2000-09-13T18:30:00Z	SBC	ACE	\N
+2000-09-14T11:00:00Z	2000-09-14T03:30:00Z	BzS	ACE	\N
+2000-09-15T03:00:00Z	2000-09-15T16:30:00Z	BzN	ACE	\N
+2000-09-15T04:00:00Z	2000-09-15T04:00:00Z	IS	ACE	ACE at L1, same IS is seen later by W (possibly related to H-CME on 9/12/00)
+2000-09-15T04:28:00Z	2000-09-15T04:28:00Z	IS	W	W at Y_GSE = -230 RE. It seems to be the same IS seen by ACE at 0400 UT
+2000-09-15T16:30:00Z	2000-09-16T18:00:00Z	MISC/BzS	ACE	IMF lines appear drapped. Sheath region field lines surrounding ejecta?
+2000-09-16T18:00:00Z	2000-09-17T00:00:00Z	EyC/BzS/BzN/Bz	S ACE	\N
+2000-09-17T00:00:00Z	2000-09-17T11:00:00Z	BzN	ACE	Interval of a mostly northward IMF
+2000-09-17T15:40:00Z	2000-09-17T19:00:00Z	BzN	ACE	Interval with periods of intense IMF
+2000-09-17T17:00:00Z	2000-09-17T17:00:00Z	IS	W	1700 at ACE?, strong field compression while BzN
+2000-09-17T18:50:00Z	2000-09-17T19:10:00Z	MISC/EyC	ACE	EyC at magnetic hole
+2000-09-17T23:20:00Z	2000-09-17T23:20:00Z	SBC	ACE	\N
+2000-09-17T23:20:00Z	2000-09-20T23:59:00Z	MISC	W/ACE	Possibly fast ejecta (Earth disturbances from mple. H-CMEs on Sept. 15-16?)
+2000-09-17T23:20:00Z	2000-09-18T03:00:00Z	MISC	ACE	Flux-rope in very fast solar wind (speed>=800 km/s, possible IMC in ejecta)
+2000-09-18T01:00:00Z	2000-09-19T12:00:00Z	BzN/MISC	W/ACE	Interval contains periods of a B-field almost totally northward
+2000-09-19T16:00:00Z	2000-09-19T22:00:00Z	MISC	ACE	Interval of a magnetic field mostly aligned with the Sun-Earth direction.
+2000-09-23T13:45:00Z	2000-09-23T13:45:00Z	SBC	ACE	\N
+2000-09-23T13:45:00Z	2000-09-24T02:10:00Z	IR/EyC/PC	W/ACE	Interval contains multiple EyCs and PCs (Y-GSE(WI) = -250 RE)
+2000-09-23T13:45:00Z	2000-09-24T02:10:00Z	BzS	ACE	A mostly southward IMF (during extended slow-fast stream-stream IR)
+2000-09-24T02:10:00Z	2000-09-24T02:10:00Z	PC	ACE	Possibly a (weak?) fast reverse IS
+2000-09-24T02:10:00Z	2000-09-28T23:59:00Z	HSS	W/ACE	(Wind location: approximately Y-GSE = -250 RE)
+2000-09-27T18:00:00Z	2000-09-29T03:00:00Z	BzS	ACE	A mostly southward IMF (in part during HSS)
+2000-09-29T12:00:00Z	2000-10-01T16:30:00Z	BzS/EyC/PC	ACE	Interval contains periods associated to moderate geomagnetic disturbances
+2000-10-01T19:00:00Z	2000-10-02T04:30:00Z	BzN	ACE	\N
+2000-10-02T05:30:00Z	2000-10-03T15:00:00Z	BzS	ACE	Possibly ejecta after 10UT on Oct 3
+2000-10-03T00:10:00Z	2000-10-03T00:10:00Z	IS	ACE	\N
+2000-10-03T15:00:00Z	2000-10-03T15:00:00Z	EyC/PC	ACE	Possibly large tangential discontinuity
+2000-10-03T15:00:00Z	2000-10-04T10:00:00Z	BzN/BzS	ACE	Possibly IMC
+2000-10-04T00:00:00Z	2000-10-05T06:00:00Z	MISC/BzS	ACE	Interval may be part of ejecta
+2000-10-04T10:00:00Z	2000-10-04T10:00:00Z	SBC	ACE	\N
+2000-10-05T03:23:00Z	2000-10-05T03:23:00Z	IS	W	0240 UT at ACE, geomagnetically effective IP shock
+2000-10-05T02:40:00Z	2000-10-05T12:00:00Z	EyC/PC	ACE	\N
+2000-10-05T16:00:00Z	2000-10-06T10:00:00Z	MISC/BzS/BzN	ACE	Possibly flux-rope
+2000-10-06T00:00:00Z	2000-10-08T10:00:00Z	BzN	ACE	\N
+2000-10-07T09:30:00Z	2000-10-07T20:00:00Z	SBC	ACE	Multiple SBCs
+2000-10-08T11:00:00Z	2000-10-08T16:00:00Z	SBC	ACE	Multiple SBCs
+2000-10-08T16:00:00Z	2000-10-09T16:00:00Z	BzN	ACE	\N
+2000-10-09T14:40:00Z	2000-10-09T15:00:00Z	SBC	ACE	\N
+2000-10-10T00:00:00Z	2000-10-11T12:00:00Z	SBC	ACE	Interval with mple SBCs
+2000-10-12T21:40:00Z	2000-10-12T21:40:00Z	IS	ACE	strong IP shock
+2000-10-12T21:40:00Z	2000-10-13T12:00:00Z	EyC/PC/BzS/BzN	W/ACE	Sheath region behind IP shock, ahead of ejecta
+2000-10-13T12:00:00Z	2000-10-14T13:00:00Z	BzS	W/ACE	Possibly ejecta (IMC?)
+2000-10-14T13:00:00Z	2000-10-14T13:00:00Z	SBC	ACE	\N
+2000-10-14T13:00:00Z	2000-10-15T08:00:00Z	IR	W/ACE	\N
+2000-10-15T08:00:00Z	2000-10-17T12:00:00Z	HSS/MISC	W/ACE	HSS of a mostly northward Bz field
+2000-10-18T08:00:00Z	2000-10-19T12:00:00Z	SBC	W/ACE	multiple SBCs
+2000-10-18T21:00:00Z	2000-10-21T13:00:00Z	BzN	ACE	IMF is mostly northward (structure seen also at Y_GSE(WIND) = -220?)
+2000-10-22T07:40:00Z	2000-10-22T07:40:00Z	PC/SBC/MISC	ACE	SBC and PC at magnetic hole, near strong, gradual increase in solar wind speed
+2000-10-28T05:45:00Z	2000-10-28T05:45:00Z	IS	ACE	\N
+2000-10-28T09:10:00Z	2000-10-28T09:10:00Z	IS	ACE	Possibly related to Type II radio bursts on Oct 25-26, 2000)
+2000-10-28T21:30:00Z	2000-10-29T22:20:00Z	BzS/MISC	ACE	Ejecta interval (possibly IMC, related to H-CME on Oct 25 [LASCO/SOHO])
+2000-11-03T12:00:00Z	2000-11-04T00:00:00Z	LSS	ACE	\N
+2000-11-04T02:21:00Z	2000-11-04T02:21:00Z	IS	W	0150UT at ACE, Fast forward IS, moderately strong
+2000-11-04T01:50:00Z	2000-11-05T08:00:00Z	IR/PC/SBC/EyC	W/ACE	Possibly LSS-HSS interaction (HSS related to coronal hole)
+2000-11-06T09:20:00Z	2000-11-06T09:34:00Z	IS	W	0920UT AT ACE, Fast forward IS, possibly related to ejecta
+2000-11-06T23:00:00Z	2000-11-07T18:00:00Z	IMC/BzS/BzN	W/ACE	\N
+2000-11-07T12:00:00Z	2000-11-08T09:00:00Z	BzN	W	\N
+2000-11-10T06:20:00Z	2000-11-10T06:20:00Z	IS	W	0604UT at ACE location (strong shock, SEP associated, Sun-Earth connect?)
+2000-11-10T11:08:00Z	2000-11-10T11:08:00Z	PC/MISC	W	possibly slow reverse IS + tangential discontinuity
+2000-11-11T03:00:00Z	2000-11-11T13:00:00Z	BzN	W/ACE	Interval is dominated by HSS and contains a fast forward IS
+2000-11-11T04:13:00Z	2000-11-11T04:13:00Z	IS	W	0400UT at ACE, possible related to Sun-Earth connection, flare at 16UT, Nov 9, 2000
+2000-11-11T10:00:00Z	2000-11-12T07:00:00Z	BzS	W	Interval has a mostly soutward IMF
+2000-11-14T00:00:00Z	2000-11-16T12:00:00Z	BzN	W/ACE	The IMF appears to be predominantly northward
+2000-11-16T12:00:00Z	2000-11-18T14:00:00Z	LSS/BzN	W/ACE	The 1 minute average IMF appears to be mostly northward
+2000-11-18T14:00:00Z	2000-11-20T20:00:00Z	BzS	W/ACE	The 1 minute average IMF appears to be mostly southward
+2000-11-22T02:00:00Z	2000-11-23T22:00:00Z	BzS	ACE	The Bz_GSM component of the IMF is mostly southward
+2000-11-23T03:00:00Z	2000-11-24T04:00:00Z	LSS	W/ACE	\N
+2000-11-23T17:00:00Z	2000-11-24T12:00:00Z	SBC	ACE/W	Interval with multiple SBCs
+2000-11-24T14:00:00Z	2000-11-24T14:00:00Z	PC	ACE	\N
+2000-11-24T14:00:00Z	2000-11-25T06:00:00Z	MISC	ACE	Possibly a HSS (BzN during the first seven hours)
+2000-11-25T02:00:00Z	2000-11-26T07:00:00Z	BzN	ACE/W	Most of the time interval shows a northward IMF orientation
+2000-11-26T05:30:00Z	2000-11-26T05:30:00Z	IS	W	Fast forward shock seen at 5UT by ACE
+2000-11-26T07:00:00Z	2000-11-27T09:00:00Z	SBC/EyC/PC	W/ACE	Interval with multiple SBCs, PCs, EyC"
+2000-11-26T11:15:00Z	2000-11-26T11:15:00Z	IS	ACE	Fast forward shock, possibly Sun-Earth connection related
+2000-11-26T19:00:00Z	2000-11-27T11:30:00Z	MISC	ACE/W	Multiple intervals of intense IMF [>20nT], solar wind speed above 600km/s, possibly related to multiple halo-CMEs observed on Nov 23 and 24, 2000
+2000-11-27T08:00:00Z	2000-11-28T02:40:00Z	MISC	W/ACE	Low proton temperature region, above average solar wind speed, ejecta?
+2000-11-27T20:00:00Z	2000-11-27T20:10:00Z	SBC	ACE	\N
+2000-11-27T20:10:00Z	2000-11-28T08:10:00Z	BzS/MISC	ACE/W	\N
+2000-11-28T02:40:00Z	2000-11-28T02:40:00Z	SBC	ACE	\N
+2000-11-28T04:50:00Z	2000-11-28T04:50:00Z	PC	ACE	Possibly weak fast forward IS during BzS (Geomagnetically effective)
+2000-11-28T04:50:00Z	2000-11-28T11:30:00Z	EyC/PC	W/ACE	Multiple EyCs due in part to sharp changes on the magnitude of the IMF
+2000-11-28T10:10:00Z	2000-11-28T11:30:00Z	SBC	ACE	Multiple SBCs
+2000-11-28T11:30:00Z	2000-11-28T11:30:00Z	MISC	ACE	Tangential discontinuity (IMF)
+2000-11-28T11:30:00Z	2000-11-28T14:00:00Z	BzS	W/ACE	\N
+2000-11-28T18:00:00Z	2000-11-29T18:00:00Z	MISC/BzS/PC	W/ACE	Interval appears to have low beta-proton value, IMF is mostly southward
+2000-11-29T03:10:00Z	2000-11-29T03:10:00Z	PC/MISC	ACE	Possibly fast forward IS
+2000-11-29T05:25:00Z	2000-11-29T05:25:00Z	PC/MISC	ACE	Possibly fast forward IS
+2000-11-29T21:00:00Z	2000-11-30T00:00:00Z	SBC	W/ACE	SBC occurs sometime within the interval (may be multiple SBCs)
+2000-11-29T22:00:00Z	2000-11-30T02:00:00Z	BzN	ACE	A mostly northward IMF interval
+2000-11-30T02:00:00Z	2000-11-30T02:00:00Z	SBC	ACE	\N
+2000-12-01T16:00:00Z	2000-12-02T05:00:00Z	MISC	W/ACE	A very low plasma density interval with IMF mainly in Earth-Sun direction
+2000-12-03T04:00:00Z	2000-12-03T04:00:00Z	IS	W	At ACE at approximately 0320UT (WI at Y_GSE = 153 RE)
+2000-12-04T06:00:00Z	2000-12-05T10:40:00Z	BzS	ACE	Interval possibly includes ejecta
+2000-12-05T11:00:00Z	2000-12-05T23:00:00Z	MISC	ACE	Interval of a nearly radial solar IMF (negative polarity; toward Sun)
+2000-12-08T00:10:00Z	2000-12-08T00:10:00Z	IS	W	\N
+2000-12-08T01:00:00Z	2000-12-08T12:05:00Z	IR/MISC	ACE	At WI Bz fluctuates after IS (Y_GSE(WI)= 180 RE) later northward IMF in IR
+2000-12-08T12:18:00Z	2000-12-08T12:18:00Z	IS	W	1205 UT at ACE, possibly quasi-parallel fast reverse interplanetary shock
+2000-12-08T12:05:00Z	2000-12-11T12:00:00Z	HSS	W/ACE	At WI Bz fluctuates S-N (Y_GSE= 180 RE), predominantly northward IMF at ACE
+2000-12-16T03:00:00Z	2000-12-16T13:00:00Z	LSS/MISC	ACE	Also a low density interval
+2000-12-16T12:30:00Z	2000-12-18T23:59:00Z	BzS	ACE	Almost uninterrupted interval of BzS, average plasma density, and below average SW speed
+2000-12-16T20:00:00Z	2000-12-16T20:00:00Z	SBC	ACE	\N
+2000-12-20T12:00:00Z	2000-12-21T11:30:00Z	LSS	W/ACE	Y_GSE(WI) = 230 RE; Interval, in part with average or below average dense solar wind
+2000-12-21T13:02:00Z	2000-12-21T13:02:00Z	PC	W	1057UT at ACE, possibly weak quasi-parallel fast forward IS
+2000-12-21T14:00:00Z	2000-12-22T22:00:00Z	SBC	ACE	Possibly multiple SBCs
+2000-12-21T16:00:00Z	2000-12-22T18:00:00Z	BzS	W/ACE	IMF shows a southward orientation for most of the interval
+2000-12-22T01:40:00Z	2000-12-24T18:00:00Z	LSS	W/ACE	Y_GSE(Wind) = 235-242 RE
+2000-12-22T19:50:00Z	2000-12-22T19:50:00Z	PC	W	1815UT at ACE, in LSS, possibly weak fast forward IP shock or fast magnetosonic wave
+2000-12-22T22:00:00Z	2000-12-23T12:00:00Z	BzS/PC/MISC	W/ACE	Ragged magnetic field and SW structure (3 times average IMF) in LSS, ejecta?
+2000-12-23T16:30:00Z	2000-12-23T20:30:00Z	BzN	ACE	At Wind IMF nortward only from approx 1830 to 2230
+2000-12-23T20:30:00Z	2000-12-24T07:00:00Z	BzS	W/ACE	\N
+2000-12-23T21:20:00Z	2000-12-23T22:30:00Z	SBC	ACE	Interval with possible, multiple SBCs
+2000-12-23T22:45:00Z	2000-12-23T22:45:00Z	MISC	W	Magnetic hole
+2000-12-23T22:45:00Z	2000-12-24T09:30:00Z	MISC	W	Possibly small IMC (ejecta?)
+2000-12-24T09:30:00Z	2000-12-25T09:30:00Z	BzN	W	At ACE from 17UT on Dec 24 to 1330 UT on Dec 25
+2000-12-25T00:00:00Z	2000-12-25T07:00:00Z	BzN	W/ACE	Interval of intense IMF (up to approx. 17 nT)
+2000-12-25T01:00:00Z	2000-12-25T15:00:00Z	SBC	W	Possible multiple SBCs
+2000-12-25T12:00:00Z	2000-12-25T14:00:00Z	SBC	ACE	\N
+2000-12-25T15:00:00Z	2000-12-26T00:00:00Z	BzN	W	Y_GSE(Wind) = 242 RE, interval starts at 13UT at ACE
+2000-12-26T04:00:00Z	2000-12-26T16:00:00Z	BzN	W/ACE	For the interval Y_GSE(Wind) = 240 RE
+2000-12-26T18:30:00Z	2000-12-27T11:00:00Z	BzN	ACE	\N
+2000-12-27T11:00:00Z	2000-12-28T01:00:00Z	EyC/BzS	ACE	\N
+2000-12-28T00:00:00Z	2000-12-29T13:00:00Z	SBC/MISC	W/ACE	Interval with low density and possible multiple SBCs
+2000-12-31T14:00:00Z	2000-12-31T18:00:00Z	MISC	ACE	IMF orientation is mostly along the Sun-Earth direction
+2000-12-31T18:00:00Z	2001-01-01T10:00:00Z	BzS	ACE	\N
+2000-12-31T21:00:00Z	2001-01-02T21:00:00Z	LSS	W/ACE	Y_GSE(Wind) = 250 RE
+2000-12-31T23:30:00Z	2001-01-01T13:00:00Z	BzS	W	Y_GSE(Wind) = 250 RE
+2001-01-01T15:00:00Z	2001-01-01T21:00:00Z	MISC/EyC/PC	W	Y_GSE(Wind) = 250 RE, interval with multiple magnetic holes, PCs, EyCs
+2001-01-01T20:00:00Z	2001-01-02T08:00:00Z	BzS	ACE	\N
+2001-01-02T13:08:00Z	2001-01-02T13:08:00Z	IS	W	1245 UT at ACE,  in LSS interval, Y_GSE(W) = 250 RE, possible fast mode MHD wave (or weak fast forward IS)
+2001-01-02T13:00:00Z	2001-01-02T13:00:00Z	MISC	ACE	Possible magnetic tangential discontinuity (TD)
+2001-01-02T21:00:00Z	2001-01-02T21:00:00Z	PC/EyC/MISC	W	Y_GSE(Wind) = 250 RE, possibly reconnection near, at magnetic hole
+2001-01-03T00:00:00Z	2001-01-03T06:00:00Z	BzS	W/ACE	Y_GSE(Wind) = 250 RE
+2001-01-03T06:00:00Z	2001-01-04T15:00:00Z	SBC/PC/EyC	W/ACE	Y_GSE(Wind) = 250 RE, multiple SBCs, PCs, and EyCs
+2001-01-03T12:30:00Z	2001-01-03T13:00:00Z	EyC/SBC	W	Y_GSE(Wind) = 250 RE
+2001-01-03T13:00:00Z	2001-01-03T22:00:00Z	BzN	W	Y_GSE(Wind) = 250 RE
+2001-01-03T22:00:00Z	2001-01-04T03:00:00Z	BzS	W/ACE	Y_GSE(Wind) = 250 RE
+2001-01-04T08:00:00Z	2001-01-04T23:00:00Z	MISC	W	Y_GSE(Wind) = 250 RE, interval with possible multiple low freq MHD waves
+2001-01-04T12:00:00Z	2001-01-07T12:00:00Z	BzN	ACE/W	Y_GSE(Wind) = 250 RE, extended interval of mostly nortward oriented IMF
+2001-01-08T06:00:00Z	2001-01-08T16:00:00Z	BzN	ACE	\N
+2001-01-08T18:00:00Z	2001-01-08T22:00:00Z	BzS/PC	ACE	\N
+2001-01-08T21:00:00Z	2001-01-08T23:00:00Z	EyC/PC	ACE	\N
+2001-01-09T05:50:00Z	2001-01-09T06:10:00Z	SBC	ACE	Possibly multiple SBCs
+2001-01-09T06:10:00Z	2001-01-09T21:00:00Z	BzS	W/ACE	Y_GSE(Wind) = 250 RE, Mostly BzS with fluctuating IMF
+2001-01-09T22:00:00Z	2001-01-09T22:30:00Z	SBC	W/ACE	Y_GSE(Wind) = 250 RE, possibly multiple SBCs
+2001-01-10T05:00:00Z	2001-01-10T13:00:00Z	BzN/BzS	ACE/W	Y_GSE(Wind) = 250 RE, smooth rot of the IMF from S to N and from Sun to away
+2001-01-10T13:00:00Z	2001-01-10T16:30:00Z	BzS	ACE	\N
+2001-01-10T16:10:00Z	2001-01-10T16:10:00Z	IS	W	1520 UT at ACE, Y_GSE(Wind) = 250 RE
+2001-01-10T17:50:00Z	2001-01-10T20:00:00Z	SBC	ACE	Multiple SBCs
+2001-01-10T20:00:00Z	2001-01-10T20:00:00Z	PC/MISC	ACE	PC at sharp magnetic tangential discontinuity
+2001-01-11T08:30:00Z	2001-01-11T08:30:00Z	SBC	ACE	\N
+2001-01-11T05:00:00Z	2001-01-11T05:00:00Z	PC	W	Y_GSE(Wind) = 244 RE, possibly a reverse fast mode MHD structure (IS?)
+2001-01-11T12:00:00Z	2001-01-12T21:30:00Z	BzS	ACE	\N
+2001-01-11T15:00:00Z	2001-01-11T23:00:00Z	BzN	W	Y_GSE(Wind) = 244 RE
+2001-01-11T23:00:00Z	2001-01-12T15:00:00Z	BzS	W	\N
+2001-01-12T09:00:00Z	2001-01-13T01:40:00Z	MISC	W/ACE	Possibly flux-rope interval (IMC, Ejecta?), with extreme low density (Np<< 1part/cc)
+2001-01-13T02:31:00Z	2001-01-13T02:31:00Z	IS	W	0140 UT at ACE, Fast forward IS ends > 12 hours of very low proton density (Np)

@@ -1,0 +1,50 @@
+From sgas-owner@sec.noaa.gov  Sun Mar  9 02:50:12 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h292o5K04195
+	for sgas-sendit; Sun, 9 Mar 2003 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 9 Mar 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200303090250.h292o2404026@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 Mar 09 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 068 Issued at 0245Z on 09 Mar 2003
+This report is compiled from data received at SWO on 08 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0925 0957 1014  0306 N06E69 C2.6  Sf 190    54                     
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been at
+quiet to unsettled levels.  There was an isolated active period at
+mid latitudes in response to a southward oscillation in the Bz
+component of the interplanetary magnetic field between 08/1500 and
+1800Z.  The coronal hole high speed stream that has been
+geoeffective for the past several days appears to have rotated out
+of its favorable position early in the period.  The greater than 2
+MeV electron fluxes at geosynchronous orbit reached high levels
+again today.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 148  SSN 203  Afr/Ap 011/009   X-ray Background B3.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.90e+07 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 2 1 3 4 3 2 Planetary 1 1 2 1 3 3 3 2 
+F.  Comments:  None
+

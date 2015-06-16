@@ -1,0 +1,55 @@
+From sgas-owner  Sun Mar 19 02:50:26 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA27970
+	for sgas-sendit; Sun, 19 Mar 2000 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 19 Mar 2000 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200003190250.CAA27827@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 079 ISSUED AT 0245Z ON 19 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 18 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0224 0225 0225                       1400   30                     
+ 1510 1510 1510                       120                           
+ 1530 1530 1530                       130                           
+ 2047 2102 2116  8906        M2.1                   II              
+ 2052 2057 2130  8906 S16W64       1N 730    41                     
+ 2150 2154 2221  8909 S31W14 C4.5  1F 290    63     II              
+ 2313 2333 2353  8910 N11W09 M2.6  2N        83                     
+ 2353 2357 0019  8906 S16W61 M3.9  1N        380                    
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+UNSETTLED.
+D.  STRATWARM:  STRATWARM ALERT EXISTS STRATWARM SATURDAY 
+THE INTENSE WARMING OVER EASTERN EUROPE/SIBERIA AND THE WHOLE ARCTIC
+ AT 10 HPA CONTINUES.WARM AIR EXTENDS TO NORTHERN CANADA.
+TEMPERATURE GRADIENT REVERSED BETWEEN 60N AND THE POLE IN THE MIDDLE
+ AND UPPER STRATOSPHERE.MEAN ZONAL WIND AT 60N CONTINUOUSLY
+DECREASING AND IS FROM EAST AT 1 HPA.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 195  SSN 142  AFR/AP 006/007   X-RAY BACKGROUND C3.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 4.8E+05   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 5.80E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 0 1 1 2 3 2 2 PLANETARY 1 0 1 2 2 3 3 2 
+F.  COMMENTS:  NONE
+

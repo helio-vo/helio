@@ -1,0 +1,40 @@
+:Product: 0311SGAS.txt
+:Issued: 2011 Mar 11 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 070 Issued at 0245Z on 11 Mar 2011
+This report is compiled from data received at SWO on 10 Mar
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0110 0110 0110                       190                           
+ 0150 0150 0150                       180                           
+ 0350 0358 0417  1166        C2.9     530                           
+ 0641 0641 0643                       740                           
+ 0754 0754 0754                       140                           
+ 0942 0942 0942                       170                           
+ 0944 0944 0944                       160                           
+ 1211 1211 1211                       100                           
+ 1403 1403 1403                       180                           
+ 1421 1424 1428  1166 N08W20 C2.0  Sf                               
+ 1520 1526 1535  1166 N08W20       Sf 150                           
+ 1634 1634 1634                       120                           
+ 1900 1907 1917              C4.0                                   
+ 2234 2241 2249              M1.1                                   
+B.  Proton Events:  The > 10 MeV proton Flux went below threshold at
+10/1205Z.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was
+unsettled to active during the past 24 hours.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 131  SSN 088  Afr/Ap 014/020   X-ray Background B9.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.5e+07   GT 10 MeV 7.9e+05 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.00e+07 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 4 3 3 2 3 3 Planetary 2 2 4 4 3 2 4 5 
+F.  Comments:  None

@@ -1,0 +1,55 @@
+From owner-sgas@proton.sel.noaa.gov Wed Nov 24 21:55:24 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA104608524; Wed, 24 Nov 1999 21:55:24 -0500
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Thu, 25 Nov 1999 02:55:07 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199911250255.CAA15792@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Nov 25 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 329 ISSUED AT 0245Z ON 25 NOV 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 24 NOV
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0004 0004 0005                       230                           
+ 0052 0052 0053                       270                           
+ 0142 0207 0247  8778 S14E37       SF 690                           
+ 0449 0449 0452                       430                           
+ 0623 0623 0625                       820                           
+ 1003 1003 1003                       150                           
+ 1435 1435 1436                       160                           
+ 1716 1721 1743  8778 S16E28 C1.6  SF 110                           
+ 1845 1847 1900  8778 S15E25       SF 2100                          
+ 2002 2003 2004                       260                           
+ 2051 2051 2051                       190                           
+ 2152 2156 2158  8778 S13E20 M2.2  1B 6900   32                     
+ 2327 2337 2344  8771 S13W35 M3.0  SF 400    82                     
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOAMGNETIC FIELD RANGED FROM
+QUIET TO MINOR STORM LEVELS
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 187  SSN 157  AFR/AP 018/019   X-RAY BACKGROUND C1.1
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 3.9E+05   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 1.30E+07 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 4 5 4 3 3 1 PLANETARY 2 3 4 5 3 3 3 1 
+F.  COMMENTS:  NONE
+
+

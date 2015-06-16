@@ -1,0 +1,28 @@
+:Product: 0818SGAS.txt
+:Issued: 2005 Aug 18 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 230 Issued at 0245Z on 18 Aug 2005
+This report is compiled from data received at SWO on 17 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+unsettled to active. Solar wind speed at ACE has been variable
+between approximately 600 km/s to 750 km/s due to the continued
+influence of a coronal hole high speed stream.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 077  SSN 042  Afr/Ap 012/018   X-ray Background A3.6
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.9e+05   GT 10 MeV 1.6e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.40e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 3 3 3 3 3 2 4 Planetary 4 4 3 2 3 3 3 4 
+F.  Comments:  None

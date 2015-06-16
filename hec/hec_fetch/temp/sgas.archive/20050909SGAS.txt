@@ -1,0 +1,38 @@
+:Product: 0909SGAS.txt
+:Issued: 2005 Sep 09 0248 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 252 Issued at 0245Z on 09 Sep 2005
+This report is compiled from data received at SWO on 08 Sep
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1649 1703 1711  0808 S10E81 M2.1  Sf                               
+ 2023 2029 2041  0808        M2.1                                   
+ 2052 2106 2117  0808 S11E74 X5.4  2b        990       IV           
+ 2122 2134 2203                       210                           
+B.  Proton Events:  A greater than 10 and greater than 100 MeV proton
+event occurred following yesterday's X17 flare on the southeast
+limb. The greater than 10 MeV proton event began at 08/0215Z and
+remains in progress. The peak flux so far was 112 pfu at 08/2155Z.
+The greater than 100 MeV proton event began at 08/0405Z and also
+remains in progress. The peak flux was 7.5 pfu at 08/1925Z.  A
+greater than 100 MeV proton event from a source on the east limb is
+extremely rare.
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled. A sudden disturbance of 41 nT (magnetic crochet) was
+observed in the geomagnetic field following today's X5 flare.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 094  SSN 036  Afr/Ap 008/008   X-ray Background C1.0
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.9e+07   GT 10 MeV 3.3e+06 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W113 degrees)
+Daily Electron Fluence
+GT 2 MeV 6.30e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 1 1 3 3 2 2 Planetary 3 2 1 1 1 2 2 3 
+F.  Comments:  The grearter than 2 MeV electron fluence at
+geosynchronous orbit was at high levels today.

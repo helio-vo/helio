@@ -1,0 +1,51 @@
+From sgas-owner@sec.noaa.gov  Wed May 28 02:50:10 2003
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.11.1/8.9.3) id h4S2o4V13384
+	for sgas-sendit; Wed, 28 May 2003 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 28 May 2003 02:50:02 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <200305280250.h4S2o2Z13307@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2003 May 28 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 148 Issued at 0245Z on 28 May 2003
+This report is compiled from data received at SWO on 27 May
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0240 0306 0321  0365 S07W03 M1.4  1f 730    98                     
+ 0506 0626 0716  0365 S07W14 M1.6  1f        150                    
+ 0642 0643 0643                       450                           
+ 1349 1349 1349                       130                           
+ 1448 1512 1528  0365 S06W12 C6.5  Sf 1000   190                    
+ 1535 1535 1539                       170                           
+ 2256 2307 2313  0365        X1.3     2800   910    II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at
+unsettled to active levels.  Elevated solar wind speed near 500 km/s
+resulted in a disturbed geomagnetic field.  The greater than 2 MeV
+electron flux at geosynchronous orbit reached high levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 129  SSN 116  Afr/Ap 025/026   X-ray Background B4.3
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 4.2e+05   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W105 degrees)
+Daily Electron Fluence
+GT 2 MeV 5.10e+07 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 3 4 4 3 5 Planetary 4 4 3 3 4 3 4 5 
+F.  Comments:  None
+

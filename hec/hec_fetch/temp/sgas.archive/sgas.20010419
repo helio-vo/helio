@@ -1,0 +1,58 @@
+From sgas-owner  Thu Apr 19 02:50:12 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA17947
+	for sgas-sendit; Thu, 19 Apr 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 19 Apr 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200104190250.CAA17836@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Apr 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 109 Issued at 0245Z on 19 Apr 2001
+This report is compiled from data received at SWO on 18 Apr
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0211 0214 0216              C2.2     1800   570                    
+ 0217 0000 0000                                     II              
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+quiet to minor storm, with severe storm conditions at high
+latitudes.  An interplanetary shock passed the ACE spacecraft at
+18/0005 UTC; subsequently the Boulder magnetometer registered a 50
+nT sudden impulse at 18/0048 UTC.  This shock was likely associated
+with the X14/2B on 15 April.  Greater than 10 MeV and greater than
+100 MeV proton events began at 18/0315 UTC and 18/0255 UTC
+respectively, most likely associated with the activity from old
+Region 9415 behind the west limb.  The greater than 10 MeV protons
+reached a peak of 321 pfu at 18/1045 UTC, while the greater than 100
+MeV reached 12 pfu at 18/0600 UTC. The Thule neutron monitor
+measured a ground level event between 18/0242 UTC and 18/0914 UTC;
+polar cap absorption (PCA) event began at 18/0425 UTC and remains in
+progress.  Values for the greater than 2 MeV electrons at
+geosynchronous orbit were not reported due to sensor contamination
+by the proton event.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 132  SSN 063  Afr/Ap 026/050   X-ray Background B5.7
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 5.0e+07   GT 10 MeV 1.2e+07 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.20e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 5 5 5 3 3 3 3 2 Planetary 5 7 7 4 3 4 1 2 
+F.  Comments:  None
+

@@ -1,0 +1,30 @@
+:Product: 20040106SGAS.txt
+:Issued: 2004 Jan 06 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 006 Issued at 0245Z on 06 Jan 2004
+This report is compiled from data received at SWO on 05 Jan
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0250 0345 0520              M6.9            400       IV           
+ 1825 2021 2052              C2.6     270                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field has been
+unsettled to active.
+D.  Stratwarm:  STRATWARM ALERT/MONDAY/STRATWARM EXISTS.
+MAJOR WARMING IN PROGRESS: EASTERLY ZONAL MEAN WINDS AT 60N FROM
+10HPA UPWARDS AND A REVERSED TEMPERATURE GRADIENT THROUGHOUT THE
+STRATOSPHERE.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 123  SSN 080  Afr/Ap 020/022   X-ray Background C1.4
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.2e+06   GT 10 MeV 1.1e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W103 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.50e+08 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W74 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 3 3 4 3 3 Planetary 4 3 3 3 4 4 4 4 
+F.  Comments:  None

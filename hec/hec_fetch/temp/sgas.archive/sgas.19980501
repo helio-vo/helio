@@ -1,0 +1,57 @@
+From owner-sgas@proton.sel.noaa.gov Fri May  1 22:50:15 1998
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA036387414; Fri, 1 May 1998 22:50:15 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Fri, 1 May 1998 20:50:07 -0600
+From: SESC <sel@proton.sel.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1998 May 02 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 122 ISSUED AT 0245Z ON 02 MAY 1998
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 01 MAY
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0000 0000 1722  8210                                  IV           
+ 0130 0130 0131                       140                           
+ 0325 0330 0330                       1700                          
+ 0332 0333 0333                       310                           
+ 0340 0340 0345                       100                           
+ 0618 0620 0621                       120                           
+ 1222 1222 1222                       310                           
+ 1239 1242 1244                       980                           
+ 1254 1300 1304  8214 N25E40 M1.1  1N                               
+ 1441 1453 1500  8210 S21W03 C1.7  SF 230                           
+ 1730 1730 1730                       200                           
+ 1731 1757 1817  8214 N26E38 C2.1  SF 470                           
+ 2008 2030 2035  8210 N26E37 C2.8  SF 100                           
+ 2100 2102 2104                       170                           
+ 2236 2254 2308  8214 N25E35 M1.2  SF 700    56                     
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET
+UNTIL 01/2158UT WHEN A SUDDEN IMPULSE OF 36NT AT BOULDER WAS
+OBSERVED.  THIS SUDDEN IMPULSE IS BELIEVED TO BE ASSOCIATED WITH THE
+M6 FLARE AND CME OBSERVED ON 29 APR.  THE FIELD HAS BEEN AT ACTIVE
+LEVELS SINCE THE SUDDEN IMPULSE.  ENERGETIC ELECTRON FLUXES AT
+GEOSYNCHRONOUS ORBITS WAS LOW TO NORMAL.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES:
+10 CM 113  SSN 089  AFR/AP 008/008   X-RAY BACKGROUND B2.4
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 2.0E+07   GT 10 MEV 9.2E+04 P/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 7.60E+06 E/(CM2-STER-DAY)
+GOES-9 SATELLITE SYNCHRONOUS ORBIT W135 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 2 2 2 2 1 1 4 PLANETARY 2 2 2 1 2 2 1 4 
+F.  COMMENTS:  NONE
+
+

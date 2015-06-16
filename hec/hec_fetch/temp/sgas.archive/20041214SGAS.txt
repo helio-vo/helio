@@ -1,0 +1,28 @@
+:Product: 20041214SGAS.txt
+:Issued: 2004 Dec 14 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 349 Issued at 0245Z on 14 Dec 2004
+This report is compiled from data received at SWO on 13 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was at quiet
+to active levels.  The elevated conditions were a result of the
+observed full halo CME on 8 December.  This activity began tapering
+off early in the period.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 090  SSN 022  Afr/Ap 012/011   X-ray Background A9.5
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 3.4e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-11 satellite synchronous orbit W105 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.40e+06 e/(cm2-ster-day)
+(GOES-12 satellite synchronous orbit W76 degrees)
+3 Hour K-indices:
+Boulder 4 4 3 1 2 3 1 1 Planetary 4 3 3 1 1 2 1 1 
+F.  Comments:  None

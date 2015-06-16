@@ -1,0 +1,53 @@
+From owner-sgas@proton.sel.noaa.gov Fri Aug 20 22:59:16 1999
+Received: by proton.sel.noaa.gov
+	(1.37.109.18/16.2) id AA170024356; Fri, 20 Aug 1999 22:59:16 -0400
+Return-Path: <owner-sgas@proton.sel.noaa.gov>
+Date: Sat, 21 Aug 1999 02:55:04 GMT
+From: Space Environment Center <sec@sec.noaa.gov>
+Message-Id: <199908210255.CAA18604@solar.sec.noaa.gov>
+To: sgas-send@proton.sel.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@proton.sel.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 1999 Aug 21 0255 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 233 ISSUED AT 0245Z ON 21 AUG 1999
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 20 AUG
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0326 0326 0327                       310                           
+ 0445 0447 0449                       250                           
+ 0548 0553 0601              C2.5     220                           
+ 0624 0624 0625                       110                           
+ 0926 0926 0928                       230                           
+ 1236 1418 1706  8674 S28E75 M1.8  SF 1900   51                     
+ 1719 1719 1720                       270                           
+ 1825 1829 1832  8674 S23E66 M1.2  SF 6100   180                    
+ 1840 0000 1845                                     II              
+ 1921 1927 1932  8674 S23E66 C7.8  SF 850    140                    
+ 2303 2308 2310  8674 S25E64 M9.8  1N 13000  480    II              
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD RANGED FROM
+UNSETTLED TO MINOR STORM LEVELS.
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 152  SSN 065  AFR/AP 020/033   X-RAY BACKGROUND C1.8
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 3.0E+06   GT 10 MEV 1.3E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.20E+08 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 3 5 4 4 4 3 3 3 PLANETARY 3 5 5 5 5 4 3 3 
+F.  COMMENTS:  THE GREATER THAN 2 MEV ELECTRON FLUENCE WAS MODERATE.
+
+

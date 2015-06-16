@@ -1,0 +1,50 @@
+From sgas-owner  Mon Dec 24 02:50:20 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA21453
+	for sgas-sendit; Mon, 24 Dec 2001 02:50:03 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 24 Dec 2001 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200112240250.CAA21414@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Dec 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 358 Issued at 0245Z on 24 Dec 2001
+This report is compiled from data received at SWO on 23 Dec
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 1426 1426 1426                       190                           
+ 1842 1843 1843                       100                           
+ 2308 2336 2353  9748 S14W12 M1.2  Sf 79                            
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was quiet to
+unsettled.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM SUNDAY
+STRONG STRATOSPHERIC WARMING IN THE MIDDLE AND UPPER
+STRATOSPHERE, FURTHER INTENSIFYING AND MOVING POLEWARD
+WITH A REVERSED TEMPERATURE GRADIENT BETWEEN 60N AND
+THE NORTH POLE FROM 5 TO 1 HPA.  REVERSED TEMPERATURE
+GRADIENT DOWN TO 30 HPA EXPECTED WITHIN THE NEXT 3 DAYS.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 255  SSN 220  Afr/Ap 008/007   X-ray Background C1.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 1.3e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.10e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 1 2 3 2 3 2 3 Planetary 2 1 2 3 2 2 2 3 
+F.  Comments:  None
+

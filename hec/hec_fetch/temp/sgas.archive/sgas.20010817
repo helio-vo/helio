@@ -1,0 +1,50 @@
+From sgas-owner  Fri Aug 17 02:50:15 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA18796
+	for sgas-sendit; Fri, 17 Aug 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Fri, 17 Aug 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200108170250.CAA18653@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Aug 17 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 229 Issued at 0245Z on 17 Aug 2001
+This report is compiled from data received at SWO on 16 Aug
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  A major proton event for >= 100MeV protons above
+1pfu began at 16/0105 UTC, followed by >= 10Mev protons above 10pfu
+at 16/0135 UTC.  Maximum flux for 100Mev protons was 29pfu at
+16/0305 UTC, and for 10MeV protons was 493pfu at 16/0355 UTC.  Both
+events remain in progress.
+C.  Geomagnetic Activity Summary:  Geomagnetic field activity has
+been quiet to unsettled throughout the period.  Greater than 2MeV
+electrons were observed at moderate enhancement levels again today,
+although the electron sensor on GOES-8 was saturated by the proton
+event for much of the period.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 143  SSN 171  Afr/Ap 005/008   X-ray Background B3.9
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.1e+07   GT 10 MeV 1.4e+07 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 9.00e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 0 1 2 3 2 2 Planetary 2 1 0 2 3 3 3 2 
+F.  Comments:  Afr estimated from Boulder A
+

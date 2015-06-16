@@ -1,0 +1,55 @@
+From sgas-owner  Wed Jul 19 02:50:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA20768
+	for sgas-sendit; Wed, 19 Jul 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Wed, 19 Jul 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200007190250.CAA20675@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Jul 19 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 201 ISSUED AT 0245Z ON 19 JUL 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 18 JUL
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 0212 0213 0213                       260                           
+ 0412 0413 0418  9087 S13E29       SF 7500   79                     
+ 0459 0515 0538  9077 N17W58 M1.9  2B 73     57     II/IV           
+ 0713 0723 0732  9087 S13E16 C9.3  1F 4400   54                     
+ 0735 0740 0743                       150                           
+ 0920 0920 0925                       110                           
+ 1400 1419 1431  9087 S14E15 M3.0  2N        48        IV           
+ 1634 1634 1635  9097                 160                           
+ 1934 1945 2014  9077        M3.3                                   
+B.  PROTON EVENTS:  HE GREATER THAN 10 MEV FLUX BEGAN THE PERIOD AT
+APPROXIMATELY 50 PFU AND DECLINED SLOWLY TO NEAR 20 PFU AT THE END
+OF THE PERIOD.  AN INTERMITTENT FORBUSH DECREASE WAS IN PROGRESS
+DURING THE DAY.
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  THE GEOMAGNETIC FIELD WAS QUIET TO
+SLIGHTLY UNSETTLED.  SOLAR WIND VELOCITY REMAINED ELEVATED, AT TIMES
+EXCEEDING 600 KM/S.  T
+D.  STRATWARM:  NONE
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 249  SSN 343  AFR/AP 008/013   X-RAY BACKGROUND C1.5
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 1.7E+07   GT 10 MEV 2.5E+06 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 2.10E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 2 2 2 1 2 2 1 4 PLANETARY 3 2 2 2 3 3 4 4 
+F.  COMMENTS:  NONE
+

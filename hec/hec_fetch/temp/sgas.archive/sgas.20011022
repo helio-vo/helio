@@ -1,0 +1,53 @@
+From sgas-owner  Mon Oct 22 02:50:36 2001
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA16800
+	for sgas-sendit; Mon, 22 Oct 2001 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Mon, 22 Oct 2001 02:50:02 GMT
+From: Space Environment Center <sec>
+Message-Id: <200110220250.CAA16682@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2001 Oct 22 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 295 Issued at 0245Z on 22 Oct 2001
+This report is compiled from data received at SWO on 21 Oct
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0018 0019 0019                       170                           
+ 0433 0437 0439  9670        C7.8     5100   6      II              
+ 0456 0456 0457                       200                           
+ 0509 0518 0527              M1.3     650    43                     
+ 1112 1136 1148  9661 N13W56 M2.5  2n        100                    
+ 1151 1157 1308  9661 N12W56       Sf 470                           
+ 1153 1155 1155                       110                           
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field ranged from
+quiet to major storm levels.  A strong shock was observed at ACE at
+21/1614 UTC.  This was followed by a sudden impulse at 21/1645 UTC
+(measured as 15 nt on the Boulder magnetometer).  The sudden impulse
+was followed by minor (21/1500-1800 UTC) and major (21/1800-2400
+UTC) storm levels.
+D.  Stratwarm:  None
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 224  SSN 239  Afr/Ap 033/040   X-ray Background C1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.0e+07   GT 10 MeV 1.2e+05 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.00e+06 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 3 3 3 5 6 6 Planetary 2 3 3 2 3 6 6 7 
+F.  Comments:  Afr based on Boulder A-Indices
+

@@ -1,0 +1,49 @@
+From sgas-owner  Sun Feb 24 02:50:23 2002
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA29398
+	for sgas-sendit; Sun, 24 Feb 2002 02:50:04 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Sun, 24 Feb 2002 02:50:01 GMT
+From: Space Environment Center <sec>
+Message-Id: <200202240250.CAA29299@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2002 Feb 24 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 055 Issued at 0245Z on 24 Feb 2002
+This report is compiled from data received at SWO on 23 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+None
+B.  Proton Events:  None
+C.  Geomagnetic Activity Summary:  The geomagnetic field was mostly
+quiet with isolated unsettled periods early in the period.
+D.  Stratwarm:  STRATWARM ALERT EXISTS STRATWARM SATURDAY
+THROUGHOUT THE STRATOSPHERE, STILL DISTURBED CIRCULATION PATTERN
+AFTER THE MAJOR WARMING WITH THE WARM AIR REGION OVER THE POLAR
+REGION AND ASIA AND A DISPLACED VORTEX OVER NORTHERN SIBERIA,
+LEADING TO A REVERSED TEMPERATURE GRADIENT BETWEEN 60N AND THE POLE
+FROM 30HPA UP TO 1HPA AND MEAN ZONAL EASTERLY WINDS AT 60N FROM 3 UP
+TO 1 HPA.
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 188  SSN 176  Afr/Ap 005/004   X-ray Background C1.1
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 2.7e+05   GT 10 MeV 1.3e+04 p/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 2.40e+05 e/(cm2-ster-day)
+(GOES-8 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 2 2 1 1 1 2 1 2 Planetary 2 1 1 0 1 2 2 1 
+F.  Comments:  None
+

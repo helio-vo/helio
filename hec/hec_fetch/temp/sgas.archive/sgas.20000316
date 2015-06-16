@@ -1,0 +1,47 @@
+From sgas-owner  Thu Mar 16 02:50:11 2000
+Received: (from majordom@localhost)
+	by dawn.sec.noaa.gov (8.8.6 (PHNE_17190)/8.8.6) id CAA12103
+	for sgas-sendit; Thu, 16 Mar 2000 02:50:05 GMT
+X-Authentication-Warning: dawn.sec.noaa.gov: majordom set sender to owner-sgas@dawn.sec.noaa.gov using -f
+Date: Thu, 16 Mar 2000 02:50:03 GMT
+From: Space Environment Center <sec>
+Message-Id: <200003160250.CAA11978@dawn.sec.noaa.gov>
+To: sgas-send@dawn.sec.noaa.gov
+Subject: SGAS
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Sender: owner-sgas@sec.noaa.gov
+Precedence: bulk
+
+:Product: Solar and Geophysical Activity Summary
+:Issued: 2000 Mar 16 0250 UT
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Environment Center and the U.S. Air Force.
+#
+JOINT USAF/NOAA SOLAR AND GEOPHYSICAL ACTIVITY SUMMARY
+SGAS NUMBER 076 ISSUED AT 0245Z ON 16 MAR 2000
+THIS REPORT IS COMPILED FROM DATA RECEIVED AT SWO ON 15 MAR
+A.  ENERGETIC EVENTS
+BEGIN  MAX  END  RGN   LOC   XRAY  OP 245MHZ 10CM   SWEEP
+ 1216 1228 1240  8906 S16W23 C3.0  SF 170    24                     
+ 1556 1559 1601              C1.2     100                           
+ 1836 1840 1843  8906 S18W21 M1.4  1N                               
+B.  PROTON EVENTS:  NONE
+C.  GEOMAGNETIC ACTIVITY SUMMARY:  ACTIVITY WAS AT QUIET LEVELS.
+D.  STRATWARM:  STRATWARM ALERT/WEDNESDAY/STRATWARM EXISTS.
+THE INTENSE WARMING, CENTERED OVER THE KARA SEA AT 10 HPA, 
+SLOWLY WEAKENING.TEMPERATURE GRADIENT REVERSED BETWEEN 60N AND
+THE POLE IN THE MIDDLE AND UPPER STRATOSPHERE.
+E.  DAILY INDICES: (REAL-TIME PRELIMINARY/ESTIMATED VALUES)
+10 CM 179  SSN 167  AFR/AP 001/006   X-RAY BACKGROUND B7.7
+DAILY PROTON FLUENCE (FLUX ACCUMULATION OVER 24 HRS)
+GT 1 MEV 5.8E+04   GT 10 MEV 1.2E+04 P/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+DAILY ELECTRON FLUENCE
+GT 2 MEV 9.40E+06 E/(CM2-STER-DAY)
+(GOES-8 SATELLITE SYNCHRONOUS ORBIT W75 DEGREES)
+3 HOUR K-INDICES:
+BOULDER 1 0 1 0 1 1 0 0 PLANETARY 1 0 0 0 1 2 1 2 
+F.  COMMENTS:  NONE
+
