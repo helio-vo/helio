@@ -56,11 +56,8 @@ the HEC contains event catalogues from many domains that are frequently updated"
 		$s .= '<div align=right> <table><tr><td><small>Designed and maintained by ';
 		$s .= '';
 		$s .= '<a href="http://www.oats.inaf.it" target="_blank">INAF-TRIESTE ASTRONOMICAL OBSERVATORY</a></td>';
-		//$s .= '<br><a href="http://www.inaf.it/" target="_blank"><img src="l_inaf.gif" alt="INAF" width="59" height="59" border="0"></a>';
 		$s .= '<td width="45px"><a href="http://www.inaf.it/" target="_blank"><img src="Inaf-circ-colore-N_10.gif" border="1" width="45px"></a></td>';
-		//$s .= '&nbsp;<a href="http://www.ts.astro.it/" target="_blank"><img src="l_oat.gif" alt="Trieste Astronomical Observatory" border="0"></a>';
-		$s .= '<td><a href="http://mon.itor.us/sharedPage.jsp?tI=pSRAmMcPtFVOPGEFPAqWFA%253D%253D&uI=KUNt4SiMVMLh1gDedD7TLQ%253D%253D" target="_blank">mon.itor.us/Tools</a></td>';
-		$s .= "<td width='55px' align=center><a href='http://mon.itor.us' target='_blank'><img width='120px' src='http://www.monitor.us/images/monitorLogo_sharedPage.png' title='Mon.itor.us - Free website, server & network monitoring tool' border=0 /></a></td>";
+		$s .= "<td><span style='display: inline-block; text-align: center;'><a style='text-decoration: none;' href='http://www.monitor.us/free-monitoring-features/server-monitoring'><img src='http://monitorusportal.s3.amazonaws.com/badges/monbadges120-40.png' title='Monitor.us - Free website, server & network monitoring tool' border=0 /><div style='color:#028EDB; font-size: 11px'><b>Server monitoring</b></div></a></span></td>'";
 		$s .= '</tr></table></body></html>';
 		return $s;
 	}
