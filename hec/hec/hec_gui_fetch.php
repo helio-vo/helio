@@ -77,7 +77,7 @@ function replace_urls_with_links($result) {
     }
     print_r($result);
   } else {
-    require ("hec_global.php");
+    require ("hec_global_newcss.php");
     echo (hec_header("HELIO HEC - Results"));
 
     while ((!checkdate($mo_from,$d_from,$y_from)) and ($d_from>0)) { $d_from--; }

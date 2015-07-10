@@ -64,7 +64,7 @@ function replace_urls_with_links($result) {
     }
     print_r($result);
   } else {
-    require ("hec_global.php");
+    require ("hec_global_newcss.php");
     echo (hec_header("HELIO HEC - Free SQL"));
 
     $a = 1;
