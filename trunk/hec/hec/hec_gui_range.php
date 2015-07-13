@@ -7,6 +7,7 @@
   # hec_gui_range.php
   # last 11-feb-2011, 01-set-2011
   # =============================================
+
   require ("hec_global.php");
  
     $dbconn = pg_connect("dbname=hec");
@@ -29,19 +30,22 @@
     $now = date('Ymd');
     while ($r = pg_fetch_array($result)) {
         $timeto = $r['timeto'];
+        $timefrom = $r['timefrom'];
         //search for last data in the catalogue (and filter any future date)
 //        if (strpos(' '.$timeto,'2999')==1) {
         if ($r['update_timeto']=='y') {
           //$sql_string2="SELECT max(time_start) as timemax FROM ".$r['name']." WHERE time_start<='$now'";//select max(end) where end<=now
-          $sql_string2="SELECT max(time_start) as timemax FROM ".$r['name'];
+          $sql_string2="SELECT min(time_start) as timemin, max(time_start) as timemax FROM ".$r['name'];
           $result2 = pg_exec($dbconn,$sql_string2);
           if ($result2) {
             $r2 = pg_fetch_array($result2);
             $timeto = substr($r2['timemax'],0,10);
+            $timefrom = substr($r2['timemin'],0,10);
           } else {
             $timeto = '&nbsp;';//if any error leave empty
+            $timefrom = '&nbsp;';//if any error leave empty
           }//if
-          $sql_string3="UPDATE hec_catalogue SET timeto='".$timeto."' WHERE name='".$r['name']."';";
+          $sql_string3="UPDATE hec_catalogue SET timeto='".$timeto."' ,timefrom='" . $timefrom . "' WHERE name='".$r['name']."';";
           echo $sql_string3."\n";
           $result3 = pg_exec($dbconn,$sql_string3);
 
